@@ -57,7 +57,7 @@ a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
 }
 
 .bg {
-  background-image: url(/dot3.png);
+  background-image: url(/dot.png);
   background-position:center center;
   background-repeat:repeat-y;
 }
