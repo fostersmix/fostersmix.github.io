@@ -63,7 +63,6 @@ a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
 }
 
 .screen     {min-height:100%}
-.line       {height: 1px;}
 .top-10     {padding-top: 10px;}
 .bottom-10  {padding-bottom: 10px;}
 .round      {border-radius: 1px;}
@@ -76,8 +75,3 @@ a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
 #black, #black-hover:hover  {color:black;}
 .gray, .gray-hover:hover    {background-color:#444;}
 #gray, #gray-hover:hover    {color:#444}
-
-.orange, .orange-hover:hover{background-color:#ff3d00;}
-#orange, #orange-hover:hover{color:#ff3d00}
-.cyan, .cyan-hover:hover    {background-color:#00E5FF;}
-#cyan, #cyan-hover:hover    {color:#00E5FF}
