@@ -29,7 +29,7 @@ a.none:link, a.none:visited, a.none:hover, a.none:active {
   font-size: 1em;
   font-weight: normal;
 	text-decoration: none;
-  border-bottom: 0px solid #black;
+  border-bottom: 0px solid black;
 }
 
 a.solid:link, a.solid:visited, a.solid:hover, a.solid:active {
