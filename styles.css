@@ -1,6 +1,6 @@
 body {
   background: black;
-  font-family: georgia, sans-serif;
+  font-family: arial, sans-serif;
   color: #444;
   font-weight: normal;
   font-size: 1em;
@@ -10,6 +10,7 @@ h1 {
 	font-size: 10em;
   padding: 0px;
   margin: 0px;
+  font-family: georgia, sans-serif;
   font-weight: bold;
   font-style: normal;
   color: white;
