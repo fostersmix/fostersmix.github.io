@@ -11,20 +11,8 @@ h1 {
   padding: 0px;
   margin: 0px;
   font-weight: bold;
-  font-style: italic;
+  font-style: normal;
   color: white;
-<<<<<<< Updated upstream
-  text-shadow: 5px 5px 0px #222;
-}
-
-h2 {
-	font-size: 10em;
-  padding: 0px;
-  margin: 0px;
-  font-weight: bold;
-  color: #444;
-=======
->>>>>>> Stashed changes
 }
 
 a:link, a:visited, a:hover a:active {
