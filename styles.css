@@ -1,7 +1,7 @@
 body {
-  background: black;
+  background: white;
   font-family: arial, sans-serif;
-  color: #444;
+  color: black;
   font-weight: normal;
   font-size: 1em;
 }
@@ -12,7 +12,7 @@ h1 {
   margin: 0px;
   font-weight: bold;
   font-style: italic;
-  color: white;
+  color: black;
 }
 
 h2 {
@@ -20,40 +20,51 @@ h2 {
   padding: 0px;
   margin: 0px;
   font-weight: bold;
-  font-style: normal;
-  color: #444;
+  color: #ccc;
+}
+
+h3 {
+	font-size: 5em;
+  padding: 0px;
+  margin: 0px;
+  font-weight: normal;
+  color: #ccc;
+}
+
+h3:hover {
+  color: black;
+}
+
+h4 {
+	font-size: 5em;
+  padding: 0px;
+  margin: 0px;
+  font-weight: normal;
+  color: #ccc;
 }
 
 a:link, a:visited, a:hover a:active {
-  color: white;
+  color: #ccc;
   font-size: 1em;
   font-weight: normal;
 	text-decoration: none;
-  border-bottom: 0px solid black;
-}
-
-a.none:link, a.none:visited, a.none:hover, a.none:active {
-  color: #444;
-  font-size: 1em;
-  font-weight: normal;
-	text-decoration: none;
-  border-bottom: 0px solid black;
+  border-bottom: 0px solid #ccc;
 }
 
 a.solid:link, a.solid:visited, a.solid:hover, a.solid:active {
-  color: #444;
+  color: black;
   font-size: 1em;
   font-weight: normal;
 	text-decoration: none;
-  border-bottom: 1px solid #222;
+  border-bottom: 1px solid #ccc;
 }
 
 a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
-  color: white;
+  color: black;
   font-size: 1em;
   font-weight: normal;
 	text-decoration: none;
-  border-bottom: 1px dotted white;
+  border-bottom: 1px dotted #ccc;
 }
 
 .bg {
@@ -73,5 +84,5 @@ a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
 #white, #white-hover:hover  {color:white;}
 .black, .black-hover:hover  {background-color:black;}
 #black, #black-hover:hover  {color:black;}
-.gray, .gray-hover:hover    {background-color:#444;}
-#gray, #gray-hover:hover    {color:#444}
+.gray, .gray-hover:hover    {background-color:#ccc;}
+#gray, #gray-hover:hover    {color:#ccc}
