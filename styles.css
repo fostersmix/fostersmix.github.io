@@ -13,6 +13,7 @@ h1 {
   font-weight: bold;
   font-style: italic;
   color: black;
+  display:inline;
 }
 
 h2 {
@@ -21,6 +22,7 @@ h2 {
   margin: 0px;
   font-weight: bold;
   color: #ccc;
+  display:inline;
 }
 
 h3 {
@@ -29,6 +31,7 @@ h3 {
   margin: 0px;
   font-weight: normal;
   color: #ccc;
+  display:inline;
 }
 
 h3:hover {
@@ -41,6 +44,7 @@ h4 {
   margin: 0px;
   font-weight: normal;
   color: #ccc;
+  display:inline;
 }
 
 a:link, a:visited, a:hover a:active {
