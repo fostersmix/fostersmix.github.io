@@ -73,20 +73,11 @@ a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
   background-repeat:repeat-y;
 }
 
-.button {
-  border: 1px solid black;
-  padding: 8px 12px;
-}
-
-.button:hover {
-  color:white;
-  background-color: black;
-}
-
+.button         {border: 1px solid #ccc;}
+.button:hover   {border: 1px solid black;}
 .screen     {min-height:100%}
 .top-10     {padding-top: 10px;}
 .bottom-10  {padding-bottom: 10px;}
-.round      {border-radius: 1px;}
 
 .zero, .zero-hover:hover    {background-color:rgba(0, 0, 0, 0.0);}
 #zero, #zero-hover:hover    {color:rgba(0, 0, 0, 0.0);}
