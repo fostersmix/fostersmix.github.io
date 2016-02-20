@@ -74,8 +74,13 @@ a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
 }
 
 .button {
-  border: 1px solid #ccc;
+  border: 1px solid black;
   padding: 8px 12px;
+}
+
+.button:hover {
+  color:white;
+  background-color: black;
 }
 
 .screen     {min-height:100%}
