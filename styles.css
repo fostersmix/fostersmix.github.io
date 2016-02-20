@@ -77,7 +77,7 @@ a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
   background-repeat:repeat-y;
 }
 
-.button         {border: 1px solid #ccc;}
+.button         {border: 1px solid black;}
 .button:hover   {border: 1px solid black;}
 .screen     {min-height:100%}
 .top-10     {padding-top: 10px;}
