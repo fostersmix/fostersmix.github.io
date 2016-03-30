@@ -13,6 +13,7 @@ h1 {
   margin: 0px;
   font-weight: 700;
   display:inline;
+  text-shadow: black 1px 0px, black 1px 1px, black 0px 1px, black -1px 1px, black -1px 0px, black -1px -1px, black 0px -1px, black 1px -1px, black 0 0 3px, black 0 0 3px, black 0 0 3px, black 0 0 3px, black 0 0 3px, black 0 0 3px, black 0 0 3px, black 0 0 3px;
 }
 
 @media only screen and (min-width: 48em) {
