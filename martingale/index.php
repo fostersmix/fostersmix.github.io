@@ -23,14 +23,14 @@
       </div>
       <div class="col-xs-12 col-sm-1 col-md-1 col-lg-1"></div>
       <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-        <div class="box white"><a href=""><?php include 'left/index.php';?></div>
+        <div class="box white"><img src="qr.gif"><!--<a href=""><?php include 'left/index.php';?>--></div>
         <div class="box top-10 white"><i>L</i></div>
       </div>
       <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
         <div class="box top-10 bottom-10 white" id="gray">or</i></div>
       </div>
       <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-        <div class="box white"><?php include 'right/index.php';?></div>
+        <div class="box white"><img src="qr.gif"><!--<?php include 'right/index.php';?>--></div>
         <div class="box top-10 white"><i>R</i></div>
       </div>
       <div class="col-xs-12 col-sm-1 col-md-1 col-lg-1"></div>
