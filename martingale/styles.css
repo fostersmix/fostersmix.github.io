@@ -84,7 +84,7 @@ a.button:link, a.button:visited, a.button:hover, a.button:active {
 }
 
 .bg {
-  background-image: url(/dot5.png);
+  background-image: url(dot.png);
   background-position:center center;
   background-repeat:repeat-y;
 }
