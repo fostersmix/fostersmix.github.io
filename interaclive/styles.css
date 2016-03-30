@@ -1,14 +1,26 @@
 body {
-  background: white;
-  font-family: arial, sans-serif;
-  color: black;
+  background: #2793BB;
+  font-family: Arial, sans-serif;
+  color: white;
   font-weight: normal;
   font-size: 5vmin;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+	font-size: 10vmin;
+  padding: 0px;
+  margin: 0px;
+  font-weight: 700;
+  display:inline;
 }
 
 @media only screen and (min-width: 48em) {
   body {
     font-size: 4vmin;
+  }
+  h1 {
+  	font-size: 8vmin;
   }
 }
 
@@ -16,39 +28,21 @@ body {
   body {
     font-size: 3vmin;
   }
+  h1 {
+  	font-size: 6vmin;
+  }
 }
 
 @media only screen and (min-width: 75em) {
   body {
     font-size: 1em;
   }
+  h1 {
+  	font-size: 4em;
+  }
 }
 
-h1 {
-	font-size: 22vmin;
-  padding: 0px;
-  margin: 0px;
-  font-weight: bold;
-  color: black;
-  display:inline;
-}
 
-h2 {
-	font-size: 5vmin;
-  padding: 0px;
-  margin: 0px;
-  font-weight: bold;
-  display:inline;
-}
-
-h3 {
-	font-size: 11vmin;
-  padding: 0px;
-  margin: 0px;
-  font-weight: normal;
-  color: white;
-  display:inline;
-}
 
 a:link, a:visited, a:hover a:active {
   color: #ddd;
@@ -63,67 +57,30 @@ a.solid:link, a.solid:visited, a.solid:active {
   border-bottom: 1px solid #ddd;
 }
 
-a.anchor:link, a.anchor:visited, a.anchor:active {
-  color: #ddd;
-  font-weight: normal;
-	text-decoration: none;
-  border-radius: 4px;
-  padding: 0.5em 1em;
-  border: 1px solid #ddd;
-}
-
 a.button:link, a.button:visited, a.button:hover, a.button:active {
-  color: white;
-  font-weight: normal;
-	text-decoration: none;
-  border-bottom: 0px solid black;
-  background: black;
-  border-radius: 4px;
-  padding: 0.5em 1em;
-  line-height: 2.5;
-  white-space:nowrap;
-}
-
-a.button-gray:link, a.button-gray:visited, a.button-gray:hover, a.button-gray:active {
   color: black;
   font-weight: normal;
 	text-decoration: none;
-  border: 1px solid #ddd;
+  border-bottom: 2px solid white;
   background: white;
   border-radius: 4px;
-  padding: 0.5em 1em;
-  line-height: 2.5;
+  padding: 1em 1.5em;
+  line-height: 4.5;
   white-space:nowrap;
+  margin: 0.5em;
 }
 
 a.button-none:link, a.button-none:visited, a.button-none:hover, a.button-none:active {
-  color: black;
+  color: white;
   font-weight: normal;
 	text-decoration: none;
-  border: 1px solid #ddd;
-  background: #ddd;
+  border: 2px solid white;
+  background: none;
   border-radius: 4px;
-  padding: 0.5em 1em;
-  line-height: 2.5;
-  white-space:nowrap;
-}
-
-a.button-krug:link, a.button-krug:visited, a.button-krug:hover, a.button-krug:active {
-  color: black;
-  font-weight: normal;
-	text-decoration: none;
-  border: 2px solid #000;
-  background: white;
-  border-radius: 8px;
   padding: 1em 1.5em;
-  line-height: 2.5;
+  line-height: 4.5;
   white-space:nowrap;
-}
-
-.bg {
-  background-image: url(/dot5.png);
-  background-position:center center;
-  background-repeat:repeat-y;
+  margin: 0.5em;
 }
 
 .round          {border-radius: 4px;}
@@ -133,9 +90,7 @@ a.button-krug:link, a.button-krug:visited, a.button-krug:hover, a.button-krug:ac
 
 .border         {border: 1px solid #ddd;}
 .border-left    {border-left: 1px solid #ddd;}
-.border-left-thin    {border-left: 1px solid #ddd;}
 .border-right    {border-right: 1px solid #ddd;}
-.border-right-thin    {border-right: 1px solid #ddd;}
 .border-top    {border-top: 1px solid #ddd;}
 .border-bottom    {border-bottom: 1px solid #ddd;}
 
@@ -143,16 +98,17 @@ a.button-krug:link, a.button-krug:visited, a.button-krug:hover, a.button-krug:ac
 .line           {height: 1px;}
 
 .screen         {min-height:100%}
-.top-10         {padding-top: 1em;}
-.bottom-10      {padding-bottom: 1em;}
+
 .padding        {padding: 1em;}
 .shadow         {box-shadow: 0em 0em 3em 0em #eee}
-.top            {padding-top: 0.5em;}
 
+.top         {padding-top: 1em;}
+.bottom      {padding-bottom: 1em;}
+.top-small         {padding-top: 0.5em;}
+.bottom-small      {padding-bottom: 0.5em;}
 .top-big            {padding-top: 2em;}
 .bottom-big         {padding-bottom: 2em;}
 
-.bottom         {padding-bottom: 0.5em;}
 .transition     {transition: 0.1s}
 .transition-big {transition: 1s}
 
@@ -160,9 +116,9 @@ a.button-krug:link, a.button-krug:visited, a.button-krug:hover, a.button-krug:ac
 #white, #white-hover:hover  {color:white;}
 .gray, .gray-hover:hover    {background-color:#ddd;}
 #gray, #gray-hover:hover    {color:#ddd}
-.light-gray, .light-gray-hover:hover    {background-color:#FFEB3B;}
-#light-gray, #light-gray-hover:hover    {color:#FFEB3B}
+.light-gray, .light-gray-hover:hover    {background-color:#fafafa;}
+#light-gray, #light-gray-hover:hover    {color:#fafafa}
 .black, .black-hover:hover  {background-color:black;}
 #black, #black-hover:hover  {color:black;}
-.maincolor, .maincolor-hover:hover    {background-color:##FD8042;}
-#maincolor, #maincolor-hover:hover    {color:##FD8042}
+.maincolor, .maincolor-hover:hover    {background-color:#FFEB3B;}
+#maincolor, #maincolor-hover:hover    {color:#FFEB3B}
