@@ -131,13 +131,13 @@ a.button-krug:link, a.button-krug:visited, a.button-krug:hover, a.button-krug:ac
 .round-down          {border-radius: 0px 0px 4px 4px ;}
 .round-header         {border-radius: 15em/3em;}
 
-.border         {border: 2px solid black;}
-.border-left    {border-left: 2px solid black;}
+.border         {border: 1px solid #ddd;}
+.border-left    {border-left: 1px solid #ddd;}
 .border-left-thin    {border-left: 1px solid #ddd;}
-.border-right    {border-right: 2px solid black;}
+.border-right    {border-right: 1px solid #ddd;}
 .border-right-thin    {border-right: 1px solid #ddd;}
-.border-top    {border-top: 2px solid black;}
-.border-bottom    {border-bottom: 2px solid black;}
+.border-top    {border-top: 1px solid #ddd;}
+.border-bottom    {border-bottom: 1px solid #ddd;}
 
 
 .line           {height: 1px;}
