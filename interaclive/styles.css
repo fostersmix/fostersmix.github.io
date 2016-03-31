@@ -1,10 +1,12 @@
 body {
-  background: white;/*#3A9880 #72b172*/
+  background: #fafafa;/*#3A9880 #72b172*/
   font-family: Arial, sans-serif;
   color: black;
   font-weight: normal;
   font-size: 5vmin;
 }
+
+
 
 h1 {
   font-family: 'Oswald', sans-serif;
@@ -15,6 +17,12 @@ h1 {
   font-weight: 700;
   display:inline;
   -text-shadow: rgba(0, 0, 0, 0.3) 1px 0px 0px, rgba(0, 0, 0, 0.3) 1px 1px 0px, rgba(0, 0, 0, 0.3) 0px 1px 0px, rgba(0, 0, 0, 0.3) -1px 1px 0px, rgba(0, 0, 0, 0.3) -1px 0px, rgba(0, 0, 0, 0.3) -1px -1px, rgba(0, 0, 0, 0.3) 0px -1px, rgba(0, 0, 0, 0.3) 1px -1px;
+}
+
+@media only screen and (max-width: 48em) {
+  .invisible {
+    display:none;
+  }
 }
 
 @media only screen and (min-width: 48em) {
@@ -31,7 +39,13 @@ h1 {
     font-size: 3vmin;
   }
   h1 {
-  	font-size: 6vmin;
+  	font-size: 8vmin;
+  }
+}
+
+@media only screen and (max-width: 62em) {
+  .invisible {
+    display:none;
   }
 }
 
@@ -45,9 +59,8 @@ h1 {
 }
 
 
-
 a:link, a:visited, a:hover a:active {
-  color: #ddd;
+  color: #eee;
   font-weight: normal;
 	text-decoration: none;
 }
@@ -56,7 +69,7 @@ a.solid:link, a.solid:visited, a.solid:active {
   color: black;
   font-weight: normal;
 	text-decoration: none;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #eee;
 }
 
 a.button:link, a.button:visited, a.button:hover, a.button:active {
@@ -89,7 +102,7 @@ a.button-none:link, a.button-none:visited, a.button-none:hover, a.button-none:ac
   color: black;
   font-weight: normal;
 	text-decoration: none;
-  border: 2px solid #ddd;
+  border: 2px solid #eee;
   background: none;
   border-radius: 4px;
   padding: 1em 1.5em;
@@ -100,11 +113,11 @@ a.button-none:link, a.button-none:visited, a.button-none:hover, a.button-none:ac
 
 .round          {border-radius: 4px;}
 
-.border         {border: 1px solid #ddd;}
-.border-left    {border-left: 1px solid #ddd;}
-.border-right    {border-right: 1px solid #ddd;}
-.border-top    {border-top: 2px solid #ddd;}
-.border-bottom    {border-bottom: 2px solid #ddd;}
+.border         {border: 1px solid #eee;}
+.border-left    {border-left: 1px solid #eee;}
+.border-right    {border-right: 1px solid #eee;}
+.border-top    {border-top: 2px solid #eee;}
+.border-bottom    {border-bottom: 2px solid #eee;}
 
 
 .line           {height: 2px;}
@@ -128,11 +141,17 @@ a.button-none:link, a.button-none:visited, a.button-none:hover, a.button-none:ac
 #trans, #trans-hover:hover    {color: rgba(0, 0, 0, 0.3);}
 .white, .white-hover:hover  {background-color:white;}
 #white, #white-hover:hover  {color:white;}
-.gray, .gray-hover:hover    {background-color:#ddd;}
-#gray, #gray-hover:hover    {color:#ddd}
+.gray, .gray-hover:hover    {background-color:#eee;}
+#gray, #gray-hover:hover    {color:#eee}
 .light-gray, .light-gray-hover:hover    {background-color:#fafafa;}
 #light-gray, #light-gray-hover:hover    {color:#fafafa}
 .black, .black-hover:hover  {background-color:black;}
 #black, #black-hover:hover  {color:black;}
 .maincolor, .maincolor-hover:hover    {background-color:#FFEB3B;}
 #maincolor, #maincolor-hover:hover    {color:#FFEB3B}
+.red, .red-hover:hover    {background-color:red;}
+#red, #red-hover:hover    {color:red}
+.green, .green-hover:hover    {background-color:#8BC34A;}
+#green, #green-hover:hover    {color:#8BC34A}
+.blue, .blue-hover:hover    {background-color:#03A9F4;}
+#blue, #blue-hover:hover    {color:#03A9F4}
