@@ -1,51 +1,42 @@
 body {
-  background: #fafafa;/*#3A9880 #72b172*/
-  font-family: Arial, sans-serif;
+  background: #fafafa;
+  font-family: arial, sans-serif;
   color: black;
   font-weight: normal;
-  font-size: 5vmin;
+  font-size: 3em;
 }
-
-
 
 h1 {
   font-family: 'Oswald', sans-serif;
-	font-size: 10vmin;
+	font-size: 2em;
   padding: 0px;
   margin: 0px;
   color: black;
   font-weight: 700;
   display:inline;
-  -text-shadow: rgba(0, 0, 0, 0.3) 1px 0px 0px, rgba(0, 0, 0, 0.3) 1px 1px 0px, rgba(0, 0, 0, 0.3) 0px 1px 0px, rgba(0, 0, 0, 0.3) -1px 1px 0px, rgba(0, 0, 0, 0.3) -1px 0px, rgba(0, 0, 0, 0.3) -1px -1px, rgba(0, 0, 0, 0.3) 0px -1px, rgba(0, 0, 0, 0.3) 1px -1px;
-}
-
-@media only screen and (max-width: 48em) {
-  .invisible {
-    display:none;
-  }
 }
 
 @media only screen and (min-width: 48em) {
   body {
-    font-size: 4vmin;
+    font-size: 2.5em;
   }
   h1 {
-  	font-size: 8vmin;
-  }
-}
-
-@media only screen and (min-width: 62em) {
-  body {
-    font-size: 3vmin;
-  }
-  h1 {
-  	font-size: 8vmin;
+  	font-size: 2em;
   }
 }
 
 @media only screen and (max-width: 62em) {
   .invisible {
     display:none;
+  }
+}
+
+@media only screen and (min-width: 62em) {
+  body {
+    font-size: 2em
+  }
+  h1 {
+  	font-size: 2em;
   }
 }
 
@@ -58,18 +49,10 @@ h1 {
   }
 }
 
-
 a:link, a:visited, a:hover a:active {
-  color: #eee;
-  font-weight: normal;
-	text-decoration: none;
-}
-
-a.solid:link, a.solid:visited, a.solid:active {
   color: black;
   font-weight: normal;
 	text-decoration: none;
-  border-bottom: 1px solid #eee;
 }
 
 a.button:link, a.button:visited, a.button:hover, a.button:active {
@@ -112,6 +95,8 @@ a.button-none:link, a.button-none:visited, a.button-none:hover, a.button-none:ac
 }
 
 .round          {border-radius: 4px;}
+.line           {height: 2px;}
+.screen         {min-height:100%}
 
 .border         {border: 1px solid #eee;}
 .border-left    {border-left: 1px solid #eee;}
@@ -119,36 +104,22 @@ a.button-none:link, a.button-none:visited, a.button-none:hover, a.button-none:ac
 .border-top    {border-top: 2px solid #eee;}
 .border-bottom    {border-bottom: 2px solid #eee;}
 
-
-.line           {height: 2px;}
-
-.screen         {min-height:100%}
-
-.padding        {padding: 1em;}
-.shadow         {box-shadow: 0em 0em 3em 0em #eee}
-
-.top         {padding-top: 1em;}
-.bottom      {padding-bottom: 1em;}
 .top-small         {padding-top: 0.5em;}
 .bottom-small      {padding-bottom: 0.5em;}
+.top         {padding-top: 1em;}
+.bottom      {padding-bottom: 1em;}
 .top-big            {padding-top: 2em;}
 .bottom-big         {padding-bottom: 2em;}
 
-.transition     {transition: 0.1s}
-.transition-big {transition: 1s}
-
-.trans, .trans-hover:hover    {background-color: rgba(0, 0, 0, 0.3);}
-#trans, #trans-hover:hover    {color: rgba(0, 0, 0, 0.3);}
 .white, .white-hover:hover  {background-color:white;}
 #white, #white-hover:hover  {color:white;}
-.gray, .gray-hover:hover    {background-color:#eee;}
-#gray, #gray-hover:hover    {color:#eee}
 .light-gray, .light-gray-hover:hover    {background-color:#fafafa;}
 #light-gray, #light-gray-hover:hover    {color:#fafafa}
+.gray, .gray-hover:hover    {background-color:#eee;}
+#gray, #gray-hover:hover    {color:#eee}
 .black, .black-hover:hover  {background-color:black;}
 #black, #black-hover:hover  {color:black;}
-.maincolor, .maincolor-hover:hover    {background-color:#FFEB3B;}
-#maincolor, #maincolor-hover:hover    {color:#FFEB3B}
+
 .red, .red-hover:hover    {background-color:red;}
 #red, #red-hover:hover    {color:red}
 .green, .green-hover:hover    {background-color:#8BC34A;}
