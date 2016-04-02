@@ -4,6 +4,8 @@ body {
   color: black;
   font-weight: normal;
   font-size: 5vmin;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 @media only screen and (min-width: 48em) {
@@ -96,12 +98,13 @@ a.button:link, a.button:visited, a.button:hover, a.button:active {
 .top-10         {padding-top: 1em;}
 .bottom-10      {padding-bottom: 1em;}
 .padding        {padding: 1em;}
-.shadow         {box-shadow: 0em 0em 3em 0em #eee}
+.shadow         {box-shadow: 0em 0em 15em 0em #eee}
+.shadow:hover        {box-shadow: 0em 0em 15em 0em #b2f7ff}
 .top            {padding-top: 0.5em;}
 .round          {border-radius: 4px;}
 .bottom         {padding-bottom: 0.5em;}
 .transition     {transition: 0.1s}
-.transition-big {transition: 1s}
+.transition-big {transition: 0.8s}
 
 .white, .white-hover:hover  {background-color:white;}
 #white, #white-hover:hover  {color:white;}
