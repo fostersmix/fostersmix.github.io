@@ -1,5 +1,5 @@
 body {
-  background: white;
+  background: #1b95e0;
   font-family: arial, sans-serif;
   color: black;
   font-weight: normal;
@@ -18,13 +18,26 @@ body {
   body {
     font-size: 3vmin;
   }
+  .bg {
+    background-image: url(dot.png);
+    background-position:center center;
+    background-repeat:repeat-y;
+  }
 }
 
 @media only screen and (min-width: 75em) {
   body {
     font-size: 1em;
   }
+  .shadow         {box-shadow: 0em 0em 13em 0em #07fffc}
+  .shadow:hover   {box-shadow: 0em 0em 13em 0em #0b7dc3}
+  .bg {
+    background-image: url(dot.png);
+    background-position:center center;
+    background-repeat:repeat-y;
+  }
 }
+
 
 h1 {
 	font-size: 22vmin;
@@ -85,12 +98,6 @@ a.button:link, a.button:visited, a.button:hover, a.button:active {
   padding: 0.5em 1em;
 }
 
-.bg {
-  background-image: url(dot.png);
-  background-position:center center;
-  background-repeat:repeat-y;
-}
-
 .line           {height: 1px;}
 .border         {border: 1px solid #ddd;}
 .border:hover   {border: 1px solid black;}
@@ -98,13 +105,12 @@ a.button:link, a.button:visited, a.button:hover, a.button:active {
 .top-10         {padding-top: 1em;}
 .bottom-10      {padding-bottom: 1em;}
 .padding        {padding: 1em;}
-.shadow         {box-shadow: 0em 0em 15em 0em #eee}
-.shadow:hover        {box-shadow: 0em 0em 15em 0em #b2f7ff}
+
 .top            {padding-top: 0.5em;}
 .round          {border-radius: 4px;}
 .bottom         {padding-bottom: 0.5em;}
 .transition     {transition: 0.1s}
-.transition-big {transition: 0.8s}
+.transition-big {transition: 0.5s}
 
 .white, .white-hover:hover  {background-color:white;}
 #white, #white-hover:hover  {color:white;}
@@ -112,3 +118,5 @@ a.button:link, a.button:visited, a.button:hover, a.button:active {
 #gray, #gray-hover:hover    {color:#ddd}
 .black, .black-hover:hover  {background-color:black;}
 #black, #black-hover:hover  {color:black;}
+.blue, .blue-hover:hover  {background-color:#1b95e0;}
+#blue, #blue-hover:hover  {color:#1b95e0;}
