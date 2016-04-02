@@ -2,13 +2,15 @@
   <head>
     <link rel="stylesheet" href="/martingale/styles.css" type="text/css">
     <link rel="stylesheet" href="/martingale/flexboxgrid.css" type="text/css">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="stylesheet" href="flexboxgrid.css" type="text/css">
     <link rel="icon" sizes="192x192" href="favicon.png">
     <link rel="icon" sizes="192x192" href="/martingale/favicon.png">
   </head>
   <body>
 
     <div class="row center-xs center-sm center-md center-lg middle-xs middle-sm middle-md middle-lg bg screen">
-      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+      <!--<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <div class="box">
           <div class="row center-xs center-sm center-md center-lg">
             <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
@@ -22,32 +24,30 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="col-xs-12 col-sm-1 col-md-1 col-lg-1"></div>
+      </div>-->
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"></div>
       <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-        <div class="box white"><img src="qr.gif" class="padding border transition round"><!--<a href=""><?php include 'left/index.php';?>--></div>
-        <div class="box top-10 white"><i>L</i></div>
+        <div class="box white"><img src="https://blockchain.info/qr?data=1PGmsVSm3Mw9BHK5Q5hmHmzdcTHYX8ckP7&size=200" class="shadow padding transition-big round"><!--<a href=""><?php include 'left/index.php';?>--></div>
+        <div class="box top-10 white" id="black"><i>L</i></div>
       </div>
       <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
-        <div class="box top-10 bottom-10 white" id="gray">or</i></div>
+        <div class="box top-10 bottom-10 white" id="black">or</i></div>
       </div>
       <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-        <div class="box white"><img src="qr.gif" class="padding border transition round"><!--<?php include 'right/index.php';?>--></div>
-        <div class="box top-10 white"><i>R</i></div>
+        <div class="box white"><img src="https://blockchain.info/qr?data=1PGmsVSm3Mw9BHK5Q5hmHmzdcTHYX8ckP7&size=200" class="shadow padding transition-big round"><!--<?php include 'right/index.php';?>--></div>
+        <div class="box top-10 white" id="black"><i>R</i></div>
       </div>
-      <div class="col-xs-12 col-sm-1 col-md-1 col-lg-1"></div>
       <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
         <div class="box">
-          <div class="row center-xs center-sm center-md start-lg">
-
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-1">
-              <div class="box top-10 bottom-10 white"><a href="#" class="solid"><strike>stats</strike></a></div>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-2 ">
-              <div class="box top-10 bottom-10 white"><a href="/martingale/2016/#<?php echo date('dm', strtotime('-1 days'));?>" class="button">results</a></div>
-            </div>
+          <div class="row center-xs center-sm center-md start-lg middle-lg">
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-1 first-lg">
-              <div class="box top-10 bottom-10 white"><a href="/martingale/about" class="solid">about</a></div>
+              <div class="boxwhite"><a href="/martingale/about" class="solid">about</a></div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-2">
+              <div class="box">
+                <a href="https://twitter.com/fostersmix" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @fostersmix</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+              </div>
             </div>
           </div>
         </div>
