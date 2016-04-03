@@ -30,7 +30,7 @@ body {
     font-size: 1em;
   }
   .shadow         {box-shadow: 0em 0em 13em 0em #07fffc}
-  .shadow:hover   {box-shadow: 0em 0em 13em 0em #0b7dc3}
+  .shadow:hover   {box-shadow: 0em 0em 13em 0em #1b95e0}
   .bg {
     background-image: url(dot.png);
     background-position:center center;
