@@ -1,7 +1,7 @@
 body {
   background: #1b95e0;
   font-family: arial, sans-serif;
-  color: black;
+  color: white;
   font-weight: normal;
   font-size: 5vmin;
   margin-top: 0;
@@ -67,33 +67,26 @@ h3 {
 }
 
 a:link, a:visited, a:hover a:active {
-  color: #ddd;
-  font-weight: normal;
-	text-decoration: none;
-}
-
-a.solid:link, a.solid:visited, a.solid:active {
-  color: black;
-  font-weight: normal;
-	text-decoration: none;
-  border-bottom: 1px solid #ddd;
-}
-
-a.anchor:link, a.anchor:visited, a.anchor:active {
-  color: black;
-  font-weight: normal;
-	text-decoration: none;
-  border-radius: 4px;
-  padding: 0.5em 1em;
-  border: 1px solid #ddd;
-}
-
-a.button:link, a.button:visited, a.button:hover, a.button:active {
   color: white;
   font-weight: normal;
 	text-decoration: none;
-  border-bottom: 0px solid black;
-  background: #000;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  padding-bottom: 2px;
+}
+
+.button {
+  color: white;
+  font-weight: normal;
+	text-decoration: none;
+  background: none;
+  border-radius: 4px;
+  padding: 0.5em 1em;
+}
+.button:hover {
+  color: white;
+  font-weight: normal;
+	text-decoration: none;
+  background: #0c7abf;
   border-radius: 4px;
   padding: 0.5em 1em;
 }
@@ -105,7 +98,6 @@ a.button:link, a.button:visited, a.button:hover, a.button:active {
 .top-10         {padding-top: 1em;}
 .bottom-10      {padding-bottom: 1em;}
 .padding        {padding: 1em;}
-
 .top            {padding-top: 0.5em;}
 .round          {border-radius: 4px;}
 .bottom         {padding-bottom: 0.5em;}
