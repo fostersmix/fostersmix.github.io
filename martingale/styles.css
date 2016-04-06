@@ -9,14 +9,14 @@ body {
 }
 
 .shadow         {box-shadow: 0em 0em 2em 0em #07fffc}
-.shadow:hover   {box-shadow: 0em 0em 2em 0em #1b95e0}
+.shadow2:hover   {box-shadow: 0em 0em 2em 0em #1b95e0}
 
 @media only screen and (min-width: 48em) {
   body {
     font-size: 4vmin;
   }
   .shadow         {box-shadow: 0em 0em 3em 0em #07fffc}
-  .shadow:hover   {box-shadow: 0em 0em 3em 0em #1b95e0}
+  .shadow2:hover   {box-shadow: 0em 0em 3em 0em #1b95e0}
 }
 
 @media only screen and (max-width: 48em) {
@@ -35,7 +35,7 @@ body {
     background-repeat:repeat-y;
   }
   .shadow         {box-shadow: 0em 0em 6em 0em #07fffc}
-  .shadow:hover   {box-shadow: 0em 0em 6em 0em #1b95e0}
+  .shadow2:hover   {box-shadow: 0em 0em 6em 0em #1b95e0}
 }
 
 @media only screen and (min-width: 75em) {
@@ -43,7 +43,7 @@ body {
     font-size: 1em;
   }
   .shadow         {box-shadow: 0em 0em 13em 0em #07fffc}
-  .shadow:hover   {box-shadow: 0em 0em 13em 0em #1b95e0}
+  .shadow2:hover   {box-shadow: 0em 0em 13em 0em #1b95e0}
   .bg {
     background-image: url(dot.png);
     background-position:center center;
@@ -59,15 +59,15 @@ a:link, a:visited, a:hover a:active {
   padding-bottom: 2px;
 }
 
-.button {
+/*.button {
   color: white;
   font-weight: normal;
 	text-decoration: none;
   background: none;
   border-radius: 4px;
   padding: 0.5em 1em;
-}
-.button:hover {
+}*/
+.button {
   color: white;
   font-weight: normal;
 	text-decoration: none;
@@ -76,7 +76,7 @@ a:link, a:visited, a:hover a:active {
   padding: 0.5em 1em;
 }
 
-.b-bottom {border-bottom:1px solid #1b95e0;}
+.b-bottom {border-bottom:0px solid #1b95e0;}
 .line       {height: 1px;}
 .screen     {min-height:100%}
 .padding    {padding: 1em;}
