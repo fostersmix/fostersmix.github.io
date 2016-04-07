@@ -72,8 +72,7 @@ a:link, a:visited, a:hover a:active {
   color: white;
   font-weight: normal;
 	text-decoration: none;
-  --background: #0c7abf;
-  background: linear-gradient(to top, #0c7abf, #1b95e0);
+  background: #0c7abf;
   border-radius: 4px;
   padding: 0.5em 1em;
 }
