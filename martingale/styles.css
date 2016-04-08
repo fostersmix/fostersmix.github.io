@@ -74,7 +74,7 @@ h1 {
   padding: 0.5em 1em;
 }*/
 
-.button {
+.button-2 {
   color: white;
   font-size: 4vmin;
   font-weight: normal;
@@ -86,6 +86,63 @@ h1 {
   padding: 0.5em 1em;
   background: linear-gradient(to top, #ff9b1a, #ffcc38, #ffdf8e);
   box-shadow:  0 0 0px 12px #131220;
+}
+
+.button {
+  color: white;
+  -font-size: 4vmin;
+  font-weight: normal;
+	text-decoration: none;
+  background: none;
+  border-radius: 4px;
+  -border: 1px solid rgba(0,0,0, 0.2);
+  -border-bottom: 1px solid #ff9b1a;
+  padding: 0.5em 1em;
+  -background: linear-gradient(to top, #ff9b1a, #ffcc38, #ffdf8e);
+  -box-shadow:  0 0 0px 12px #131220;
+}
+
+.button-left {
+  color: rgba(0,0,0, 0.2);
+  -font-size: 4vmin;
+  font-weight: normal;
+	text-decoration: none;
+  background: none;
+  border-radius: 4px 0px 0px 4px;
+  border: 1px solid rgba(0,0,0, 0.2);
+  -border-bottom: 1px solid #ff9b1a;
+  padding: 1em 1.5em;
+  -background: linear-gradient(to top, #ff9b1a, #ffcc38, #ffdf8e);
+  -box-shadow:  0 0 0px 12px #131220;
+}
+
+.button-center {
+  color: rgba(0,0,0, 0.2);
+  -font-size: 4vmin;
+  font-weight: normal;
+	text-decoration: none;
+  background: none;
+  border-radius: 0px 0px 0px 0px;
+  border-top: 1px solid rgba(0,0,0, 0.2);
+  border-bottom: 1px solid rgba(0,0,0, 0.2);
+  -border-bottom: 1px solid #ff9b1a;
+  padding: 1em 1.5em;
+  -background: linear-gradient(to top, #ff9b1a, #ffcc38, #ffdf8e);
+  -box-shadow:  0 0 0px 12px #131220;
+}
+
+.button-right {
+  color: rgba(0,0,0, 0.2);
+  -font-size: 4vmin;
+  font-weight: normal;
+	text-decoration: none;
+  background: none;
+  border-radius: 0px 4px 4px 0px;
+  border: 1px solid rgba(0,0,0, 0.2);
+  -border-bottom: 1px solid #ff9b1a;
+  padding: 1em 1.5em;
+  -background: linear-gradient(to top, #ff9b1a, #ffcc38, #ffdf8e);
+  -box-shadow:  0 0 0px 12px #131220;
 }
 
 .b-bottom {border-bottom:0px solid #1b95e0;}
