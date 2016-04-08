@@ -88,8 +88,65 @@ h1 {
   box-shadow:  0 0 0px 12px #131220;
 }
 
-.button {
+.button-31 {
   color: white;
+  -font-size: 4vmin;
+  font-weight: normal;
+	text-decoration: none;
+  -background: #ffcf2f;
+  -border-radius: 4px;
+  -margin: 20em
+  -border: 1px solid #ffcf2f;
+  -border-bottom: 1px solid #ff9b1a;
+  -padding: 1em 1.5em;
+  -background: linear-gradient(to top, #ff9b1a, #ffcc38, #ffdf8e);
+  -box-shadow:  0 0 0px 12px #131220;
+}
+
+.button-32 {
+  color: #1a1929;
+  -font-size: 4vmin;
+  font-weight: normal;
+	text-decoration: none;
+  background: #ffcf2f;
+  border-radius: 4px;
+  border: 1px solid #ffcf2f;
+  -border-bottom: 1px solid #ff9b1a;
+  padding: 1em 1.5em;
+  -background: linear-gradient(to top, #ff9b1a, #ffcc38, #ffdf8e);
+  -box-shadow:  0 0 0px 12px #131220;
+}
+
+.button-3 {
+  color: white;
+  -font-size: 4vmin;
+  font-weight: normal;
+}
+
+
+.button-39:hover {
+  color: white;
+  font-size: 4vmin;
+  font-weight: normal;
+}
+
+.button {
+  color: #131220;
+  -font-size: 4vmin;
+  font-weight: normal;
+	text-decoration: none;
+  background: none;
+  border-radius: 4px;
+  -border: 1px solid rgba(0,0,0, 0.2);
+  -border-bottom: 1px solid #ff9b1a;
+  padding: 0.5em 1em;
+  -background: linear-gradient(to top, #ff9b1a, #ffcc38, #ffdf8e);
+  -box-shadow:  0 0 0px 12px #131220;
+}
+
+.button:hover {
+  color: white;
+  transition: 0.5s;
   -font-size: 4vmin;
   font-weight: normal;
 	text-decoration: none;
@@ -151,6 +208,8 @@ h1 {
 .padding    {padding: 1em;}
 .top        {padding-top: 1em;}
 .bottom     {padding-bottom: 1em;}
+.top-2        {padding-top: 5em;}
+.bottom-2     {padding-bottom: 5em;}
 .round      {border-radius: 4px;}
 .transition {transition: 0.5s}
 .bgfont {
@@ -167,5 +226,7 @@ h1 {
 #black, #black-hover:hover  {color:black;}
 .blue, .blue-hover:hover  {background-color:#1b95e0;}
 #blue, #blue-hover:hover  {color:#1b95e0;}
-.dark-blue, .dark-blue-hover:hover  {background-color:#0c7abf;}
-#dark-blue, #dark-blue-hover:hover  {color:#0c7abf;}
+.dark-blue, .dark-blue-hover:hover  {background-color:#131220;}
+#dark-blue, #dark-blue-hover:hover  {color:#131220;}
+.yellow, .yellow-hover:hover  {background-color:#ffcf2f;}
+#yellow, #yellow-hover:hover  {color:#ffcf2f;}
