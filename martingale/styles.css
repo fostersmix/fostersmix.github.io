@@ -1,5 +1,9 @@
 /*xs*/
 @media only screen and (max-width: 48em) {
+  .hide-xs {display: none;}
+  /*.hide-sm {display: inline;}
+  .hide-md {display: inline;}
+  .hide-lg {display: inline;}*/
   body {
     background: #1a1929;
     font-family: arial, sans-serif;
@@ -13,11 +17,6 @@
     font-size: 2em;
     font-weight: normal;
   }
-
-  .hide-xs {display: none;}
-  /*.hide-sm {display: inline;}
-  .hide-md {display: inline;}
-  .hide-lg {display: inline;}*/
   .hover-xs:hover {
     background-color: #131220;
   }
@@ -28,6 +27,10 @@
 
 /*sm*/
 @media only screen and (min-width: 48em) {
+  .hide-xs {display: inline;}
+  .hide-sm {display: none;}
+  /*.hide-md {display: inline;}
+  .hide-lg {display: inline;}*/
   body {
     background: #1a1929;
     font-family: arial, sans-serif;
@@ -41,13 +44,6 @@
     font-size: 3em;
     font-weight: normal;
   }
-
-  .hide-xs {display: inline;}
-  .hide-sm {display: none;}
-  /*.hide-md {display: inline;}
-  .hide-lg {display: inline;}*/
-
-
   .hover-sm:hover {
     background-color: #131220;
   }
@@ -55,6 +51,10 @@
 
 /*md*/
 @media only screen and (min-width: 62em) {
+  .hide-xs {display: inline;}
+  .hide-sm {display: inline;}
+  .hide-md {display: none;}
+  /*.hide-lg {display: inline;}*/
   body {
     background: #1a1929;
     font-family: arial, sans-serif;
@@ -68,12 +68,6 @@
     font-size: 4em;
     font-weight: normal;
   }
-
-  .hide-xs {display: inline;}
-  .hide-sm {display: inline;}
-  .hide-md {display: none;}
-  /*.hide-lg {display: inline;}*/
-
   .bg {
     background-image: url(dot.png);
     background-position:center center;
@@ -86,6 +80,10 @@
 
 /*lg*/
 @media only screen and (min-width: 75em) {
+  .hide-xs {display: inline;}
+  .hide-sm {display: inline;}
+  .hide-md {display: inline;}
+  .hide-lg {display: none;}
   body {
     background: #1a1929;
     font-family: arial, sans-serif;
@@ -99,19 +97,7 @@
     font-size: 5em;
     font-weight: normal;
   }
-
-  .hide-xs {display: inline;}
-  .hide-sm {display: inline;}
-  .hide-md {display: inline;}
-  .hide-lg {display: none;}
-
 }
-/*
-a:link, a:visited, a:hover a:active {
-  color: white;131220
-  font-weight: normal;
-	text-decoration: none;
-}*/
 
 a:link, a:visited, a:active {
   color: white;
@@ -131,20 +117,6 @@ a:hover {
 .dot {
   font-size: 2em;
 }
-/*
-a.button-menu:link, a.button-menu:visited, a.button-menu:active {
-  color: white;
-  font-weight: normal;
-	text-decoration: none;
-  background: none;
-  border-radius: 4px;
-  padding: 1em;
-  transition: 0.5s
-}
-
-a.button-menu:hover {
-  color: #ffcf2f;
-}*/
 
 .line       {height:1px}
 .screen     {min-height:100%}
