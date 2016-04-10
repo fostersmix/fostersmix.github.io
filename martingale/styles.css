@@ -14,10 +14,10 @@
     font-weight: normal;
   }
 
-  .hidden-xs {display: none;}
-  /*.hidden-sm {display: inline;}
-  .hidden-md {display: inline;}
-  .hidden-lg {display: inline;}*/
+  .hide-xs {display: none;}
+  /*.hide-sm {display: inline;}
+  .hide-md {display: inline;}
+  .hide-lg {display: inline;}*/
   .hover-xs:hover {
     background-color: #131220;
   }
@@ -42,10 +42,10 @@
     font-weight: normal;
   }
 
-  .hidden-xs {display: inline;}
-  .hidden-sm {display: none;}
-  /*.hidden-md {display: inline;}
-  .hidden-lg {display: inline;}*/
+  .hide-xs {display: inline;}
+  .hide-sm {display: none;}
+  /*.hide-md {display: inline;}
+  .hide-lg {display: inline;}*/
 
 
   .hover-sm:hover {
@@ -69,10 +69,10 @@
     font-weight: normal;
   }
 
-  .hidden-xs {display: inline;}
-  .hidden-sm {display: inline;}
-  .hidden-md {display: none;}
-  /*.hidden-lg {display: inline;}*/
+  .hide-xs {display: inline;}
+  .hide-sm {display: inline;}
+  .hide-md {display: none;}
+  /*.hide-lg {display: inline;}*/
 
   .bg {
     background-image: url(dot.png);
@@ -100,10 +100,10 @@
     font-weight: normal;
   }
 
-  .hidden-xs {display: inline;}
-  .hidden-sm {display: inline;}
-  .hidden-md {display: inline;}
-  .hidden-lg {display: none;}
+  .hide-xs {display: inline;}
+  .hide-sm {display: inline;}
+  .hide-md {display: inline;}
+  .hide-lg {display: none;}
 
 }
 /*
