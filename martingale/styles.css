@@ -26,8 +26,8 @@
 }
 
 /*sm*/
-@media only screen and (min-width: 48em) {
-  .hide-xs {display: inline;}
+@media only screen and (min-width: 48em) and (max-width: 62em) {
+  /*.hide-xs {display: inline;}*/
   .hide-sm {display: none;}
   /*.hide-md {display: inline;}
   .hide-lg {display: inline;}*/
@@ -50,9 +50,9 @@
 }
 
 /*md*/
-@media only screen and (min-width: 62em) {
-  .hide-xs {display: inline;}
-  .hide-sm {display: inline;}
+@media only screen and (min-width: 62em) and (max-width: 75em) {
+  /*.hide-xs {display: inline;}
+  .hide-sm {display: inline;}*/
   .hide-md {display: none;}
   /*.hide-lg {display: inline;}*/
   body {
@@ -80,9 +80,9 @@
 
 /*lg*/
 @media only screen and (min-width: 75em) {
-  .hide-xs {display: inline;}
+  /*.hide-xs {display: inline;}
   .hide-sm {display: inline;}
-  .hide-md {display: inline;}
+  .hide-md {display: inline;}*/
   .hide-lg {display: none;}
   body {
     background: #1a1929;
