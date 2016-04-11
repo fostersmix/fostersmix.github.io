@@ -20,9 +20,6 @@
   .hover-xs:hover {
     background-color: #131220;
   }
-  .hover-sm:hover {
-    background-color: #131220;
-  }
 }
 
 /*sm*/
@@ -69,12 +66,12 @@
     font-weight: normal;
   }
   .bg {
-    background-image: url(dot.png);
+    background-image: url(dot.gif);
     background-position:center center;
     background-repeat:repeat-y;
   }
-  .hover-sm:hover {
-    background-color: #1a1929;
+  .hover-md:hover {
+    background-color: #131220;
   }
 }
 
@@ -97,6 +94,14 @@
     font-size: 5em;
     font-weight: normal;
   }
+  .bg {
+    background-image: url(dot.gif);
+    background-position:center center;
+    background-repeat:repeat-y;
+  }
+  .hover-lg:hover {
+    background-color: #131220;
+  }
 }
 
 a:link, a:visited, a:active {
@@ -114,10 +119,7 @@ a:hover {
   -background-color: green;
 }
 
-.dot {
-  font-size: 2em;
-}
-
+.dot        {font-size: 2em;}
 .line       {height:1px}
 .screen     {min-height:100%}
 .padding    {padding: 1em;}
