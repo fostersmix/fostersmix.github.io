@@ -119,6 +119,7 @@ a:hover {
   -background-color: green;
 }
 
+.mdk {vertical-align: middle}
 .dot        {font-size: 2em;}
 .line       {height:1px}
 .screen     {min-height:100%}
