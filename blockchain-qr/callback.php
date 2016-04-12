@@ -1,5 +1,4 @@
 <?php
-
    $secret = "abc123";
    if($_GET['secret'] != $secret)
    {
@@ -16,5 +15,4 @@
      fclose($fff);
      echo "*ok*";
    }
-
 ?>
