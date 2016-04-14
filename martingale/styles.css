@@ -17,8 +17,14 @@
     font-size: 2em;
     font-weight: normal;
   }
-  .hover-xs:hover {
-    background-color: #131220;
+  #icon {
+    color: #131220;
+  }
+  #icon:hover {
+    color: #1a1929;
+  }
+  #icon-text {
+    font-size: 2em;
   }
 }
 
@@ -43,6 +49,15 @@
   }
   .hover-sm:hover {
     background-color: #131220;
+  }
+  #icon {
+    color: #131220;
+  }
+  #icon:hover {
+    color: #1a1929;
+  }
+  #icon-text {
+    font-size: 3em;
   }
 }
 
@@ -73,6 +88,16 @@
   .hover-md:hover {
     background-color: #131220;
   }
+  #icon {
+    color: #131220;
+    font-size: 3.5em;
+  }
+  #icon:hover {
+    color: #1a1929;
+  }
+  #icon-text {
+    font-size: 3.5em;
+  }
 }
 
 /*lg*/
@@ -102,6 +127,15 @@
   .hover-lg:hover {
     background-color: #131220;
   }
+  #icon {
+    color: #131220;
+  }
+  #icon:hover {
+    color: #1a1929;
+  }
+  #icon-text {
+    font-size: 4em;
+  }
 }
 
 a:link, a:visited, a:active {
@@ -119,6 +153,38 @@ a:hover {
   -background-color: green;
 }
 
+.round {border-radius: 4px;}
+.round-left {border-radius: 4px 0px 0px 4px;}
+.round-right {border-radius: 0px 4px 4px 0px;}
+
+.border-left {
+  border-top: 1px solid #131220;
+  border-bottom: 1px solid #131220;
+  border-left: 1px solid #131220;
+  border-right: 0px solid #131220;
+}
+.border-left:hover {
+  background-color: #131220;
+}
+.border-right {
+  border-top: 1px solid #131220;
+  border-bottom: 1px solid #131220;
+  border-left: 0px solid #131220;
+  border-right: 1px solid #131220;
+}
+.border-right:hover {
+  background-color: #131220;
+}
+.border {
+  border-top: 1px solid #131220;
+  border-bottom: 1px solid #131220;
+  border-left: 1px solid #131220;
+  border-right: 1px solid #131220;
+}
+.border:hover {
+  background-color: #131220;
+}
+
 .mdk {vertical-align: middle}
 .dot        {font-size: 2em;}
 .line       {height:1px}
@@ -126,7 +192,6 @@ a:hover {
 .padding    {padding: 1em;}
 .top        {padding-top: 1em;}
 .bottom     {padding-bottom: 1em;}
-.round      {border-radius: 4px;}
 
 .half, .half-hover:hover  {background-color:rgba(255, 255, 255, 0.5);}
 #half, #half-hover:hover  {color:rgba(255, 255, 255, 0.5);}
