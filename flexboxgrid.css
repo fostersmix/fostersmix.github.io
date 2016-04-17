@@ -978,6 +978,10 @@
     align-items: center;
   }
 
+  .middle-self-lg {
+    align-self: center;
+  }
+
   .bottom-lg {
     -webkit-align-items: flex-end;
     -ms-flex-align: end;
