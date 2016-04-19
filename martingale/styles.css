@@ -28,6 +28,7 @@
   #icon-text {
     font-size: 2em;
   }
+  .bottom-big     {padding-bottom: 0em;}
 }
 
 /*sm*/
@@ -63,6 +64,7 @@
   #icon-text {
     font-size: 3em;
   }
+  .bottom-big     {padding-bottom: 1em;}
 }
 
 /*md*/
@@ -103,6 +105,7 @@
   #icon-text {
     font-size: 3.5em;
   }
+  .bottom-big     {padding-bottom: 2em;}
 }
 
 /*lg*/
@@ -143,6 +146,7 @@
   #icon-text {
     font-size: 4em;
   }
+  .bottom-big     {padding-bottom: 4em;}
 }
 
 a:link, a:visited, a:active {
