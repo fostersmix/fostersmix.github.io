@@ -1,0 +1,47 @@
+.flex-container {
+  +display: flex; /* Сначала создадим flex-контекст */
+  +flex-direction: row;  /* Направление оси */
+  +flex-wrap: wrap; /* Однострочный или нет */
+  /*flex-flow: row wrap;*/ /* Сокращение для direction & wrap */
+  +justify-content: center; /* Выравнивание по горизонтали (главной оси) */
+  +align-content: center; /* Выравнивание по вертикали (поперечной оси) */
+  +align-items: center; /* Расположение внутри строки */
+}
+
+.flex-item {
+  flex-grow: 0; /* Вырастать */
+  flex-shrink: 1; /* Сжиматься */
+  flex-basis: auto; /* Размер по умолчанию */
+  /*flex: 0 1 auto */ /* Сокращение для grow, shrink, basis  */
+  align-self: center;  /* Аналог align-items для элемента */
+}
+
+.flex {display: flex;}
+.row {flex-direction: row;}
+.wrap {flex-wrap: wrap;}
+.basis {0 1 auto;}
+
+/*justify-content*/
+.justify-start {justify-content: flex-start;} /*по умолчанию*/
+.justify-center {justify-content: center;}
+.justify-end {justify-content: flex-end;}
+.justify-around {justify-content: space-around;}
+.justify-between {justify-content: space-between;}
+
+/*align-items*/
+.items-stretch {align-items: stretch;} /*по умолчанию*/
+.items-start {align-items: flex-start;}
+.items-center {align-items: center;}
+.items-end {align-items: flex-end;}
+.items-baseline {align-items: baseline;}
+
+/*align-content*/
+.content-stretch {align-content: stretch;} /*по умолчанию*/
+.content-start {align-content: flex-start;}
+.content-center {align-content: center;}
+.content-end {align-content: flex-end;}
+.content-around {align-content: space-around;}
+.content-between {align-content: space-between;}
+
+.black {background-color: black;}
+.white {background-color: white;}
