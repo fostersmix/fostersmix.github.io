@@ -211,6 +211,8 @@ a:hover {
 .top-2        {padding-top: 0.5em;}
 .bottom-2     {padding-bottom: 0.5em;}
 
+.bb {align-content: center;}
+
 .half, .half-hover:hover  {background-color:rgba(255, 255, 255, 0.5);}
 #half, #half-hover:hover  {color:rgba(255, 255, 255, 0.5);}
 .white, .white-hover:hover  {background-color:white;}
@@ -224,7 +226,7 @@ a:hover {
 #blue, #blue-hover:hover  {color:#1a1929;}
 .dark-blue, .dark-blue-hover:hover  {background-color:#131220;}
 #dark-blue, #dark-blue-hover:hover  {color:#131220;}
-.yellow, .yellow-hover:hover  {background-color:#18FFFF;}
+.yellow, .yellow-hover:hover  {background-color:#B4CD22;}
 #yellow, #yellow-hover:hover  {color:#B4CD22;}
 
 .a {background-color:#A63446;}
