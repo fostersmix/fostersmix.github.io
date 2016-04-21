@@ -1026,14 +1026,23 @@
     align-items: center;
   }
 
-  .middle-self-lg {
-    align-self: center;
-  }
-
   .bottom-lg {
     -webkit-align-items: flex-end;
     -ms-flex-align: end;
     align-items: flex-end;
+  }
+
+  .row-stretch-lg {align-items: stretch;} /*по дефолту*/
+  .row-middle-lg {align-content: flex-center;} /*тот же эффект*/
+  .row-around-lg {align-content: space-around;} /*заменяет middle-lg*/
+  .row-top-lg {
+    align-content: flex-start;
+  }
+  .row-bottom-lg {
+    align-content: flex-end;
+  }
+  .row-between-lg {
+    align-content: space-between;
   }
 
   .around-lg {
@@ -1060,3 +1069,5 @@
     order: 1;
   }
 }
+
+.magick {margin: auto;}  /* Магия! */
