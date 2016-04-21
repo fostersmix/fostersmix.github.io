@@ -1,0 +1,58 @@
+body {
+  background: black;
+  font-family: arial, sans-serif;
+  color: white;
+  font-weight: normal;
+  font-size: 2rem;
+  margin-top:0;
+  margin-bottom:0;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+	font-size: 2em;
+  padding: 0px;
+  margin: 0px;
+  font-weight: 700;
+  display:inline;
+}
+
+a:link, a:visited, a:hover a:active {
+  color: white;
+  font-weight: normal;
+	text-decoration: none;
+}
+
+.round          {border-radius: 4px;}
+.line           {height: 2px;}
+.screen         {min-height:100%;min-height:100%;}
+
+.border         {border: 1px solid #eee;}
+.border-left    {border-left: 1px solid #eee;}
+.border-right    {border-right: 1px solid #eee;}
+.border-top    {border-top: 2px solid #eee;}
+.border-bottom    {border-bottom: 2px solid #eee;}
+.border-bottom:hover    {border-bottom: 2px solid #eee;}
+
+.top-small         {padding-top: 0.5em;}
+.bottom-small      {padding-bottom: 0.5em;}
+.top         {padding-top: 1em;}
+.bottom      {padding-bottom: 1em;}
+.top-big            {padding-top: 2em;}
+.bottom-big         {padding-bottom: 2em;}
+
+.white, .white-hover:hover  {background-color:white;}
+#white, #white-hover:hover  {color:white;}
+.light-gray, .light-gray-hover:hover    {background-color:#fafafa;}
+#light-gray, #light-gray-hover:hover    {color:#fafafa}
+.gray, .gray-hover:hover    {background-color:#eee;}
+#gray, #gray-hover:hover    {color:#eee}
+.black, .black-hover:hover  {background-color:black;}
+#black, #black-hover:hover  {color:black;}
+
+.red, .red-hover:hover    {background-color:red;}
+#red, #red-hover:hover    {color:red}
+.green, .green-hover:hover    {background-color:#8BC34A;}
+#green, #green-hover:hover    {color:#8BC34A}
+.blue, .blue-hover:hover    {background-color:#03A9F4;}
+#blue, #blue-hover:hover    {color:#03A9F4}
