@@ -26,12 +26,8 @@
   #icon:hover {
     color: #ffcf2f;
   }
-  #icon-text {
-    font-size: 2em;
-  }
-  .bottom-small   {padding-bottom: 4em;}
-  .bottom-big     {padding-bottom: 1em;}
   .bottom     {padding-bottom: 1em;}
+  .bottom-big     {padding-bottom: 1em;}
 }
 
 /*sm*/
@@ -65,12 +61,8 @@
   #icon:hover {
     color: #ffcf2f;
   }
-  #icon-text {
-    font-size: 3em;
-  }
-  .bottom-small     {padding-bottom: 3em;}
+  .bottom     {padding-bottom: 1em;}
   .bottom-big     {padding-bottom: 2em;}
-  .bottom     {padding-bottom: 2em;}
 }
 
 /*md*/
@@ -109,12 +101,8 @@
   #icon:hover {
     color: #ffcf2f;
   }
-  #icon-text {
-    font-size: 3.5em;
-  }
-  .bottom-small   {padding-bottom: 2em;}
+  .bottom     {padding-bottom: 1em;}
   .bottom-big     {padding-bottom: 3em;}
-  .bottom     {padding-bottom: 3em;}
 }
 
 /*lg*/
@@ -153,71 +141,26 @@
   #icon:hover {
     color: #ffcf2f;
   }
-  #icon-text {
-    font-size: 4em;
-  }
-  .bottom-small     {padding-bottom: 1em;}
+  .bottom     {padding-bottom: 1em;}
   .bottom-big     {padding-bottom: 4em;}
-  .bottom     {padding-bottom: 4em;}
 }
 
 a:link, a:visited, a:active {
   color: #18FFFF;
   font-weight: normal;
 	text-decoration: none;
-  -background-color: red;
   transition: 0.5s;
 }
 
 a:hover {
   color: white;
-  -transition: 0.5s;
-  -background-color: green;
 }
 
-.round {border-radius: 4px;}
-.round-left {border-radius: 4px 0px 0px 4px;}
-.round-right {border-radius: 0px 4px 4px 0px;}
-
-.border-left {
-  border-top: 1px solid #131220;
-  border-bottom: 1px solid #131220;
-  border-left: 1px solid #131220;
-  border-right: 0px solid #131220;
-}
-.border-left:hover {
-  background-color: #131220;
-}
-.border-right {
-  border-top: 1px solid #131220;
-  border-bottom: 1px solid #131220;
-  border-left: 0px solid #131220;
-  border-right: 1px solid #131220;
-}
-.border-right:hover {
-  background-color: #131220;
-}
-.border {
-  border-top: 1px solid #131220;
-  border-bottom: 1px solid #131220;
-  border-left: 1px solid #131220;
-  border-right: 1px solid #131220;
-}
-.border:hover {
-  background-color: #131220;
-}
-.mdk {vertical-align: middle}
-.dot    {font-size: 2em;}
-.line       {height:1px}
-.screen     {min-height:100%}
-.padding    {padding: 1em;}
-/*
-.top        {padding-top: 1rem;}
-.top-big        {padding-top: 2rem;}
-.bottom-big-2       {padding-bottom: 2rem;}
-.bottom     {padding-bottom: 1rem;}
-.top-2        {padding-top: 0.5em;}
-.bottom-2     {padding-bottom: 0.5em;}*/
+.round    {border-radius: 4px;}
+.mdl      {vertical-align: middle}
+.dot      {font-size: 2em;}
+.screen   {min-height:100%}
+.padding  {padding: 1em;}
 
 .half, .half-hover:hover  {background-color:rgba(255, 255, 255, 0.5);}
 #half, #half-hover:hover  {color:rgba(255, 255, 255, 0.5);}
