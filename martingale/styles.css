@@ -5,7 +5,7 @@
   .hide-md {display: inline;}
   .hide-lg {display: inline;}*/
   body {
-    background: #291A39;
+    background: #E53232;
     font-family: arial, sans-serif; /*'Oswald', sans-serif;*/
     color: white;
     font-weight: normal;
@@ -37,7 +37,7 @@
   /*.hide-md {display: inline;}
   .hide-lg {display: inline;}*/
   body {
-    background: #291A39;
+    background: #00FFC5;
     font-family: arial, sans-serif;
     color: white;
     font-weight: normal;
@@ -72,9 +72,9 @@
   .hide-md {display: none;}
   /*.hide-lg {display: inline;}*/
   body {
-    background: #291A39;
+    background: #FFEB3B;
     font-family: arial, sans-serif;
-    color: white;
+    color: black;
     font-weight: normal;
     font-size: 1.5rem;  /* 1.5em = 24px */
     margin-top: 0;
@@ -112,7 +112,8 @@
   .hide-md {display: inline;}*/
   .hide-lg {display: none;}
   body {
-    background: #291A39; /*A63446 - bordo; 7E1946 - bordo2; 422040 - violet; 291A39- darkviolet 0075A2 - blue; B4CD22 - lime; 18FFFF - stroke; 3858EE - light-blue; E53232 - orange; 00FFC5 - mint; 3A2E39 - brown; 131220 - dark-blue*/
+    background: #321FED; /*#D71C18 - red, 5D6C33 - hakki, 321FED - blue, A63446 - bordo; 7E1946 - bordo2; 422040 - violet; 291A39- darkviolet 0075A2 - blue; B4CD22 - lime; 18FFFF - stroke; 3858EE - light-blue; E53232 - orange; 00FFC5 - mint; 3A2E39 - brown; 131220 - dark-blue*/
+    -background: linear-gradient(to right, #000 50%, #fff 50%);
     font-family: arial, sans-serif;
     color: white;
     font-weight: normal;
@@ -124,6 +125,12 @@
     font-size: 5em;  /* 5em = 60px */
     font-weight: bold;
     margin: 0;
+  }
+  h2 {
+    font-size: 10em;  /* 5em = 60px */
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
   }
   .bg {
     background-image: url(dot.gif);
@@ -146,7 +153,7 @@
 }
 
 a:link, a:visited, a:active {
-  color: #18FFFF;
+  color: white;
   font-weight: normal;
 	text-decoration: none;
   transition: 0.5s;
@@ -156,9 +163,11 @@ a:hover {
   color: white;
 }
 
+#border {border-bottom: 1px solid white;}
+
 .round    {border-radius: 4px;}
 .mdl      {vertical-align: middle}
-.dot      {font-size: 2em;}
+.dot      {font-size: 3em;}
 .screen   {min-height:100%}
 .padding  {padding: 1em;}
 
