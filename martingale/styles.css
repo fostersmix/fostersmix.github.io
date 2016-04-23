@@ -112,8 +112,8 @@
   .hide-md {display: inline;}*/
   .hide-lg {display: none;}
   body {
-    background: #321FED; /*#D71C18 - red, 5D6C33 - hakki, 321FED - blue, A63446 - bordo; 7E1946 - bordo2; 422040 - violet; 291A39- darkviolet 0075A2 - blue; B4CD22 - lime; 18FFFF - stroke; 3858EE - light-blue; E53232 - orange; 00FFC5 - mint; 3A2E39 - brown; 131220 - dark-blue*/
-    -background: linear-gradient(to right, #000 50%, #fff 50%);
+    background: #0033ff; /*#D71C18 - red, 5D6C33 - hakki, 321FED - blue, A63446 - bordo; 7E1946 - bordo2; 422040 - violet; 291A39- darkviolet 0075A2 - blue; B4CD22 - lime; 18FFFF - stroke; 3858EE - light-blue; E53232 - orange; 00FFC5 - mint; 3A2E39 - brown; 131220 - dark-blue*/
+    -background: linear-gradient(to top, #0033ff, #cc00ff);
     font-family: arial, sans-serif;
     color: white;
     font-weight: normal;
@@ -163,8 +163,9 @@ a:hover {
   color: white;
 }
 
-#border {border-bottom: 1px solid white;}
+#border {border-bottom: 1px solid rgba(255, 255, 255, 0.5);}
 
+.shadow {       box-shadow: 0px 0.1em 0.5em 0px rgba(0, 0, 0, 0.1);}
 .round    {border-radius: 4px;}
 .mdl      {vertical-align: middle}
 .dot      {font-size: 3em;}
@@ -179,6 +180,11 @@ a:hover {
 #gray, #gray-hover:hover    {color:#ddd}
 .black, .black-hover:hover  {background-color:black;}
 #black, #black-hover:hover  {color:black;}
+#none-white-hover        {
+  color:rgba(255, 255, 255, 0);
+  transition: 0.5s;
+}
+#none-white-hover:hover  {color:white;}
 
 .blue, .blue-hover:hover  {background-color:#1a1929;}
 #blue, #blue-hover:hover  {color:#1a1929;}
