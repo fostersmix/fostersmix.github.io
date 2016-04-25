@@ -183,7 +183,7 @@ a:hover {
 .line {height:1px;}
 
 .half, .half-hover:hover  {background-color:rgba(255, 255, 255, 0.5);}
-#half, #half-hover:hover  {color:rgba(255, 255, 255, 0.5);}
+#-half, #half-hover:hover  {color:rgba(255, 255, 255, 0.5);}
 .white, .white-hover:hover  {background-color:white;}
 #white, #white-hover:hover  {color:white;}
 .gray, .gray-hover:hover    {background-color:#ddd;}
