@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+
+  <channel>
+    <title>Новости Студии Артемия Лебедева</title>
+    <link>http://www.artlebedev.ru/</link>
+    <description>Новые работы студии, свежие вакансии, изменения в графике работы и ассортименте магазинов.</description>
+    <language>ru-ru</language>
+    <pubDate>Mon, 25 Apr 2016 05:00:00 GMT</pubDate>
+    <lastBuildDate>Mon, 25 Apr 2016 05:00:00 GMT</lastBuildDate>
+    <webMaster>webmaster@design.ru</webMaster>
+    
+    <item>
+      <title>Сказки и&#160;легенды</title>
+      <description>В&#160;продажу поступил паттерн «&lt;a href=&quot;http://www.artlebedev.ru/everything/pattern/tales-and-legends/&quot;&gt;Сказки и&#160;легенды&lt;/a&gt;».</description>
+      <link>http://www.artlebedev.ru/everything/pattern/tales-and-legends/</link>
+      <pubDate>2016-04-22T00:00:00+03:00</pubDate>
+      <guid>http://www.artlebedev.ru/news/8546/</guid>
+    </item>
+    <item>
+      <title>Флюгерус</title>
+      <description>Принимаются предзаказы на&#160;«&lt;a href=&quot;http://www.artlebedev.ru/everything/flugerus/&quot;&gt;Флюгерус&lt;/a&gt;».</description>
+      <link>http://www.artlebedev.ru/everything/flugerus/</link>
+      <pubDate>2016-04-21T00:00:00+03:00</pubDate>
+      <guid>http://www.artlebedev.ru/news/8544/</guid>
+    </item>
+
+  </channel>
+</rss>
