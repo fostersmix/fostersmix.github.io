@@ -5,7 +5,7 @@
   .hide-md {display: inline;}
   .hide-lg {display: inline;}*/
   body {
-    background: #E53232;
+    background: #0033ff;
     font-family: arial, sans-serif; /*'Oswald', sans-serif;*/
     color: white;
     font-weight: normal;
@@ -37,7 +37,7 @@
   /*.hide-md {display: inline;}
   .hide-lg {display: inline;}*/
   body {
-    background: #00FFC5;
+    background: #0033ff;
     font-family: arial, sans-serif;
     color: white;
     font-weight: normal;
@@ -72,7 +72,7 @@
   .hide-md {display: none;}
   /*.hide-lg {display: inline;}*/
   body {
-    background: #FFEB3B;
+    background: #0033ff;
     font-family: arial, sans-serif;
     color: white;
     font-weight: normal;
@@ -164,6 +164,12 @@ a:hover {
 }
 
 #border {border-bottom: 1px solid rgba(255, 255, 255, 0.5);}
+.-b-hover:hover {background-color:rgba(0, 0, 0, 0.1);}
+
+.border-left {border-left: 1px solid rgba(0,0,0, 0.1);}
+.border-right {border-right: 1px solid rgba(0,0,0, 0.1);}
+.border-top {border-top: 1px solid rgba(0,0,0, 0.1);}
+.border-bottom {border-bottom: 1px solid rgba(0,0,0, 0.1);}
 
 .shadow {       box-shadow: 0px 0.1em 0.5em 0px rgba(0, 0, 0, 0.1);}
 .round    {border-radius: 4px;}
@@ -171,6 +177,7 @@ a:hover {
 .dot      {font-size: 3em;}
 .screen   {min-height:100%}
 .padding  {padding: 1em;}
+.top     {padding-top: 1em;}
 
 .half, .half-hover:hover  {background-color:rgba(255, 255, 255, 0.5);}
 #half, #half-hover:hover  {color:rgba(255, 255, 255, 0.5);}
@@ -185,6 +192,11 @@ a:hover {
   transition: 0.5s;
 }
 #none-white-hover:hover  {color:white;}
+#half-white-hover        {
+  color:rgba(255, 255, 255, 0.5);
+  transition: 0.5s;
+}
+#half-white-hover:hover  {color:white;}
 
 .blue, .blue-hover:hover  {background-color:#1a1929;}
 #blue, #blue-hover:hover  {color:#1a1929;}
