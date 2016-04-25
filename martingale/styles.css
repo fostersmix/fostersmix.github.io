@@ -5,7 +5,7 @@
   .hide-md {display: inline;}
   .hide-lg {display: inline;}*/
   body {
-    background: #0033ff;
+    background: #0000ff;
     font-family: arial, sans-serif; /*'Oswald', sans-serif;*/
     color: white;
     font-weight: normal;
@@ -72,7 +72,7 @@
   .hide-md {display: none;}
   /*.hide-lg {display: inline;}*/
   body {
-    background: #0033ff;
+    background: #0000ff;
     font-family: arial, sans-serif;
     color: white;
     font-weight: normal;
@@ -112,8 +112,8 @@
   .hide-md {display: inline;}*/
   .hide-lg {display: none;}
   body {
-    background: #0033ff; /*#D71C18 - red, 5D6C33 - hakki, 321FED - blue, A63446 - bordo; 7E1946 - bordo2; 422040 - violet; 291A39- darkviolet 0075A2 - blue; B4CD22 - lime; 18FFFF - stroke; 3858EE - light-blue; E53232 - orange; 00FFC5 - mint; 3A2E39 - brown; 131220 - dark-blue*/
-    -background: linear-gradient(to top, #0033ff, #cc00ff);
+    background: #0000ff; /*#D71C18 - red, 5D6C33 - hakki, 321FED - blue, A63446 - bordo; 7E1946 - bordo2; 422040 - violet; 291A39- darkviolet 0075A2 - blue; B4CD22 - lime; 18FFFF - stroke; 3858EE - light-blue; E53232 - orange; 00FFC5 - mint; 3A2E39 - brown; 131220 - dark-blue*/
+    -background: linear-gradient(to top, #0000ff, #cc00ff);
     font-family: arial, sans-serif;
     color: white;
     font-weight: normal;
@@ -171,6 +171,8 @@ a:hover {
 .border-top {border-top: 1px solid rgba(0,0,0, 0.1);}
 .border-bottom {border-bottom: 1px solid rgba(0,0,0, 0.1);}
 
+.half-black {background-color:rgba(0, 0, 0, 0.1);}
+
 .shadow {       box-shadow: 0px 0.1em 0.5em 0px rgba(0, 0, 0, 0.1);}
 .round    {border-radius: 4px;}
 .mdl      {vertical-align: middle}
@@ -178,6 +180,7 @@ a:hover {
 .screen   {min-height:100%}
 .padding  {padding: 1em;}
 .top     {padding-top: 1em;}
+.line {height:1px;}
 
 .half, .half-hover:hover  {background-color:rgba(255, 255, 255, 0.5);}
 #half, #half-hover:hover  {color:rgba(255, 255, 255, 0.5);}
