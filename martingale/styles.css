@@ -163,7 +163,7 @@ a:hover {
   color: black;
 }
 
-#border {border-bottom: 1px solid rgba(255, 255, 255, 0.5);}
+#border {border-bottom: 1px solid rgba(0, 0, 0, 1);}
 .-b-hover:hover {background-color:rgba(0, 0, 0, 0.1);}
 
 .border-left {border-left: 1px solid rgba(0,0,0, 0.1);}
