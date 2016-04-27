@@ -112,10 +112,10 @@
   .hide-md {display: inline;}*/
   .hide-lg {display: none;}
   body {
-    background: #0000ff; /*#EB0D46 - PINK! bordo2 - 76111d .. 4a1276 - violllet #D71C18 - red, 5D6C33 - hakki, 321FED - blue, A63446 - bordo; 7E1946 - bordo2; 422040 - violet; 291A39- darkviolet 0075A2 - blue; B4CD22 - lime; 18FFFF - stroke; 3858EE - light-blue; E53232 - orange; 00FFC5 - mint; 3A2E39 - brown; 131220 - dark-blue*/
+    background: rgb(255, 246, 0); /*#EB0D46 - PINK! bordo2 - 76111d .. 4a1276 - violllet #D71C18 - red, 5D6C33 - hakki, 321FED - blue, A63446 - bordo; 7E1946 - bordo2; 422040 - violet; 291A39- darkviolet 0075A2 - blue; B4CD22 - lime; 18FFFF - stroke; 3858EE - light-blue; E53232 - orange; 00FFC5 - mint; 3A2E39 - brown; 131220 - dark-blue*/
     -background: linear-gradient(to top, #0000ff, #cc00ff);
     font-family: arial, sans-serif;
-    color: white;
+    color: black;
     font-weight: normal;
     font-size: 1rem;  /* 1em = 15px */
     margin-top: 0;
@@ -153,14 +153,14 @@
 }
 
 a:link, a:visited, a:active {
-  color: white;
+  color: black;
   font-weight: normal;
 	text-decoration: none;
   -transition: 0.5s;
 }
 
 a:hover {
-  color: white;
+  color: black;
 }
 
 #border {border-bottom: 1px solid rgba(255, 255, 255, 0.5);}
@@ -187,33 +187,36 @@ a:hover {
 .white, .white-hover:hover  {background-color:white;}
 #white, #white-hover:hover  {color:white;}
 .gray, .gray-hover:hover    {background-color:#ddd;}
-#gray, #gray-hover:hover    {color:#ddd}
+#gray, #gray-hover:hover    {color:#ddd;}
 .black, .black-hover:hover  {background-color:black;}
 #black, #black-hover:hover  {color:black;}
 #none-white-hover        {
   color:rgba(255, 255, 255, 0);
   -transition: 0.5s;
 }
-#none-white-hover:hover  {color:white;}
+#none-white-hover:hover  {color:black;}
 #half-white-hover        {
   color:rgba(255, 255, 255, 0.5);
   -transition: 0.5s;
 }
 #half-white-hover:hover  {color:white;}
 
-.blue, .blue-hover:hover  {background-color:#1a1929;}
-#blue, #blue-hover:hover  {color:#1a1929;}
-.dark-blue, .dark-blue-hover:hover  {background-color:#131220;}
-#dark-blue, #dark-blue-hover:hover  {color:#131220;}
-.yellow, .yellow-hover:hover  {background-color:#B4CD22;}
-#yellow, #yellow-hover:hover  {color:#B4CD22;}
+.blue, .blue-hover:hover  {background-color:#0000ff;}
+#blue, #blue-hover:hover  {color:#0000ff;}
+.yellow, .yellow-hover:hover  {background-color:#fffc01;}
+#yellow, #yellow-hover:hover  {color:#fffc01;}
+#icon-hover {color:#ddd;}
+#icon-hover:hover {color:#0000ff;}
 
-.twitter {background-color:#51b6e5;}
-.facebook {background-color:#2a61c5;}
-.rss {background-color:#fb7629;}
-.ifttt {background-color:#33ccff;}
-.feedly {background-color:#2bb24c;}
-.snapchat {background-color:#fffc01;}
-.telegram {background-color:#2ca5e0;}
-.rss {background-color:#fb7629;}
-.ifttt {background-color:#33ccff;}
+
+#twitter {color:#51b6e5;}
+#facebook {color:#2a61c5;}
+#rss {color:#fb7629;}
+#ifttt {color:#33ccff;}
+#feedly {color:#2bb24c;}
+#snapchat {color:#fffc01;}
+#telegram {color:#2ca5e0;}
+#rss {color:#fb7629;}
+#ifttt {color:#33ccff;}
+#mail {color:#fb7629;}
+#hashtag {color:#33ccff;}
