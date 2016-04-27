@@ -112,7 +112,7 @@
   .hide-md {display: inline;}*/
   .hide-lg {display: none;}
   body {
-    background: #0000ff; /*#D71C18 - red, 5D6C33 - hakki, 321FED - blue, A63446 - bordo; 7E1946 - bordo2; 422040 - violet; 291A39- darkviolet 0075A2 - blue; B4CD22 - lime; 18FFFF - stroke; 3858EE - light-blue; E53232 - orange; 00FFC5 - mint; 3A2E39 - brown; 131220 - dark-blue*/
+    background: #0000ff; /*4a1276 - violllet #D71C18 - red, 5D6C33 - hakki, 321FED - blue, A63446 - bordo; 7E1946 - bordo2; 422040 - violet; 291A39- darkviolet 0075A2 - blue; B4CD22 - lime; 18FFFF - stroke; 3858EE - light-blue; E53232 - orange; 00FFC5 - mint; 3A2E39 - brown; 131220 - dark-blue*/
     -background: linear-gradient(to top, #0000ff, #cc00ff);
     font-family: arial, sans-serif;
     color: white;
@@ -176,14 +176,14 @@ a:hover {
 .shadow {       box-shadow: 0px 0.1em 0.5em 0px rgba(0, 0, 0, 0.1);}
 .round    {border-radius: 4px;}
 .mdl      {vertical-align: middle}
-.dot      {font-size: 3em;}
+.dot      {font-size: 3.5em;}
 .screen   {min-height:100%}
 .padding  {padding: 1em;}
 .top     {padding-top: 1em;}
 .line {height:1px;}
 
 .half, .half-hover:hover  {background-color:rgba(255, 255, 255, 0.5);}
-#-half, #half-hover:hover  {color:rgba(255, 255, 255, 0.5);}
+#half, #half-hover:hover  {color:rgba(255, 255, 255, 0.5);}
 .white, .white-hover:hover  {background-color:white;}
 #white, #white-hover:hover  {color:white;}
 .gray, .gray-hover:hover    {background-color:#ddd;}
@@ -208,8 +208,12 @@ a:hover {
 .yellow, .yellow-hover:hover  {background-color:#B4CD22;}
 #yellow, #yellow-hover:hover  {color:#B4CD22;}
 
-.a {background-color:#A63446;}
-.b {background-color:#0075A2;}
-.c {background-color:#0B9594;}
-.d {background-color:#3A2E39;}
-.e {background-color:#1A1929;}
+.twitter {background-color:#51b6e5;}
+.facebook {background-color:#2a61c5;}
+.rss {background-color:#fb7629;}
+.ifttt {background-color:#33ccff;}
+.feedly {background-color:#2bb24c;}
+.snapchat {background-color:#fffc01;}
+.telegram {background-color:#2ca5e0;}
+.rss {background-color:#fb7629;}
+.ifttt {background-color:#33ccff;}
