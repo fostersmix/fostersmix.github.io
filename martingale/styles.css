@@ -6,7 +6,7 @@
   .hide-lg {display: inline;}*/
   body {
     background: #0000ff;
-    font-family: arial, sans-serif; /*'Oswald', sans-serif;*/
+    font-family: arial, sans-serif;
     color: white;
     font-weight: normal;
     font-size: 2.5rem; /* 2.5em = 40px */
@@ -15,19 +15,15 @@
   }
   h1 {
     font-size: 2em; /* 5em = 80px */
-    font-weight: bold;
+    font-family: 'Arial Black', sans-serif;
     margin: 0;
   }
   #icon {
-    color: white;
-    font-size: 2em;
-    -transition: 0.5s;
+    color: #ddd;
+    font-size: 1em;
   }
-  #icon:hover {
-    color: #ffcf2f;
-  }
-  .bottom     {padding-bottom: 1em;}
-  .bottom-big     {padding-bottom: 1em;}
+  #icon:hover {color: #0000ff;}
+  .bottom-big {padding-bottom: 1em;}
 }
 
 /*sm*/
@@ -47,22 +43,15 @@
   }
   h1 {
     font-size: 3em; /* 6em = 96px */
-    font-weight: bold;
+    font-family: 'Arial Black', sans-serif;
     margin: 0;
   }
-  .hover-sm:hover {
-    background-color: #131220;
-  }
   #icon {
-    color: white;
-    font-size: 3em;
-    -transition: 0.5s;
+    color: #ddd;
+    font-size: 1em;
   }
-  #icon:hover {
-    color: #ffcf2f;
-  }
-  .bottom     {padding-bottom: 1em;}
-  .bottom-big     {padding-bottom: 2em;}
+  #icon:hover {color: #0000ff;}
+  .bottom-big {padding-bottom: 2em;}
 }
 
 /*md*/
@@ -82,27 +71,15 @@
   }
   h1 {
     font-size: 4em;  /* 6em = 96px */
-    font-weight: bold;
+    font-family: 'Arial Black', sans-serif;
     margin: 0;
   }
-  .bg {
-    background-image: url(dot.gif);
-    background-position:center center;
-    background-repeat:repeat-y;
-  }
-  .hover-md:hover {
-    background-color: #131220;
-  }
   #icon {
-    color: white;
-    font-size: 3.5em;
-    -transition: 0.5s;
+    color: #ddd;
+    font-size: 1em;
   }
-  #icon:hover {
-    color: #ffcf2f;
-  }
-  .bottom     {padding-bottom: 1em;}
-  .bottom-big     {padding-bottom: 3em;}
+  #icon:hover {color: #0000ff;}
+  .bottom-big {padding-bottom: 3em;}
 }
 
 /*lg*/
@@ -112,44 +89,24 @@
   .hide-md {display: inline;}*/
   .hide-lg {display: none;}
   body {
-    background: #0000ff; /* rgb(255, 246, 0) #EB0D46 - PINK! bordo2 - 76111d .. 4a1276 - violllet #D71C18 - red, 5D6C33 - hakki, 321FED - blue, A63446 - bordo; 7E1946 - bordo2; 422040 - violet; 291A39- darkviolet 0075A2 - blue; B4CD22 - lime; 18FFFF - stroke; 3858EE - light-blue; E53232 - orange; 00FFC5 - mint; 3A2E39 - brown; 131220 - dark-blue*/
-    -background: linear-gradient(to top, #0000ff, #cc00ff);
+    background: #0000ff;
     font-family: arial, sans-serif;
     color: white;
     font-weight: normal;
-    font-size: 1rem;  /* 1em = 15px */
+    font-size: 1rem;  /* 1em = 16px */
     margin-top: 0;
     margin-bottom: 0;
   }
   h1 {
-    font-size: 6em;  /* 5em = 60px */
+    font-size: 5em;  /* 5em = 80px */
     font-family: 'Arial Black', sans-serif;
-    -font-weight: bold;
     margin: 0;
-  }
-  h2 {
-    font-size: 10em;  /* 5em = 60px */
-    font-weight: normal;
-    margin: 0;
-    padding: 0;
-  }
-  .bg {
-    background-image: url(dot.gif);
-    background-position:center center;
-    background-repeat:repeat-y;
-  }
-  .hover-lg:hover {
-    background-color: #131220;
   }
   #icon {
-    color: white;
-    font-size: 4em;
-    -transition: 0.5s;
+    color: #ddd;
+    font-size: 1em;
   }
-  #icon:hover {
-    color: #ffcf2f;
-  }
-  .bottom     {padding-bottom: 1em;}
+  #icon:hover {color: #0000ff;}
   .bottom-big     {padding-bottom: 4em;}
 }
 
@@ -157,67 +114,41 @@ a:link, a:visited, a:active {
   color: white;
   font-weight: normal;
 	text-decoration: none;
-  -transition: 0.5s;
 }
-
-a:hover {
-  color: white;
-}
+a:hover {color: white;}
 
 #border {border-bottom: 1px solid rgba(255, 255, 255, 1);}
-.-b-hover:hover {background-color:rgba(0, 0, 0, 0.1);}
-
 .border-left {border-left: 1px solid rgba(0,0,0, 0.1);}
 .border-right {border-right: 1px solid rgba(0,0,0, 0.1);}
 .border-top {border-top: 1px solid rgba(0,0,0, 0.1);}
 .border-bottom {border-bottom: 1px solid rgba(0,0,0, 0.1);}
 
-.half-black {background-color:rgba(0, 0, 0, 0.1);}
-
-.shadow {       box-shadow: 0px 0.1em 0.5em 0px rgba(0, 0, 0, 0.1);}
+.bottom   {padding-bottom: 1em;}
+.shadow   {box-shadow: 0px 0.1em 0.5em 0px rgba(0, 0, 0, 0.1);}
 .round    {border-radius: 4px;}
 .mdl      {vertical-align: middle}
 .dot      {font-size: 4em;}
 .screen   {min-height:100%}
 .padding  {padding: 1em;}
-.top     {padding-top: 1em;}
-.line {height:1px;}
+.top      {padding-top: 1em;}
+.line     {height:1px;}
 
 .half, .half-hover:hover  {background-color:rgba(255, 255, 255, 0.5);}
 #half, #half-hover:hover  {color:rgba(255, 255, 255, 0.5);}
 .white, .white-hover:hover  {background-color:white;}
 #white, #white-hover:hover  {color:white;}
+.light-gray, .light-gray-hover:hover    {background-color:#ddd;}
+#light-gray, #light-gray-hover:hover    {color:#ddd;}
 .gray, .gray-hover:hover    {background-color:#ccc;}
 #gray, #gray-hover:hover    {color:#ccc;}
 .black, .black-hover:hover  {background-color:black;}
 #black, #black-hover:hover  {color:black;}
-#none-white-hover        {
-  color:rgba(255, 255, 255, 0);
-  -transition: 0.5s;
-}
-#none-white-hover:hover  {color:black;}
-#half-white-hover        {
-  color:rgba(255, 255, 255, 0.5);
-  -transition: 0.5s;
-}
-#half-white-hover:hover  {color:white;}
-
 .blue, .blue-hover:hover  {background-color:#0000ff;}
 #blue, #blue-hover:hover  {color:#0000ff;}
 .yellow, .yellow-hover:hover  {background-color:#fffc01;}
 #yellow, #yellow-hover:hover  {color:#fffc01;}
-#icon-hover {color:#ddd;}
-#icon-hover:hover {color:#0000ff;}
 
+#text-hover        {color:rgba(255, 255, 255, 0);}
+#text-hover:hover  {color:white;}
 
-#twitter {color:#51b6e5;}
-#facebook {color:#2a61c5;}
-#rss {color:#fb7629;}
-#ifttt {color:#33ccff;}
-#feedly {color:#2bb24c;}
-#snapchat {color:#fffc01;}
-#telegram {color:#2ca5e0;}
-#rss {color:#fb7629;}
-#ifttt {color:#33ccff;}
-#mail {color:#fb7629;}
-#hashtag {color:#33ccff;}
+/* rgb(255, 246, 0) #EB0D46 - PINK! bordo2 - 76111d .. 4a1276 - violllet #D71C18 - red, 5D6C33 - hakki, 321FED - blue, A63446 - bordo; 7E1946 - bordo2; 422040 - violet; 291A39- darkviolet 0075A2 - blue; B4CD22 - lime; 18FFFF - stroke; 3858EE - light-blue; E53232 - orange; 00FFC5 - mint; 3A2E39 - brown; 131220 - dark-blue*/
