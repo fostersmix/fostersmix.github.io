@@ -112,10 +112,10 @@
   .hide-md {display: inline;}*/
   .hide-lg {display: none;}
   body {
-    background: rgb(255, 246, 0); /*#EB0D46 - PINK! bordo2 - 76111d .. 4a1276 - violllet #D71C18 - red, 5D6C33 - hakki, 321FED - blue, A63446 - bordo; 7E1946 - bordo2; 422040 - violet; 291A39- darkviolet 0075A2 - blue; B4CD22 - lime; 18FFFF - stroke; 3858EE - light-blue; E53232 - orange; 00FFC5 - mint; 3A2E39 - brown; 131220 - dark-blue*/
+    background: #0000ff; /* rgb(255, 246, 0) #EB0D46 - PINK! bordo2 - 76111d .. 4a1276 - violllet #D71C18 - red, 5D6C33 - hakki, 321FED - blue, A63446 - bordo; 7E1946 - bordo2; 422040 - violet; 291A39- darkviolet 0075A2 - blue; B4CD22 - lime; 18FFFF - stroke; 3858EE - light-blue; E53232 - orange; 00FFC5 - mint; 3A2E39 - brown; 131220 - dark-blue*/
     -background: linear-gradient(to top, #0000ff, #cc00ff);
     font-family: arial, sans-serif;
-    color: black;
+    color: white;
     font-weight: normal;
     font-size: 1rem;  /* 1em = 15px */
     margin-top: 0;
@@ -154,17 +154,17 @@
 }
 
 a:link, a:visited, a:active {
-  color: black;
+  color: white;
   font-weight: normal;
 	text-decoration: none;
   -transition: 0.5s;
 }
 
 a:hover {
-  color: black;
+  color: white;
 }
 
-#border {border-bottom: 1px solid rgba(0, 0, 0, 1);}
+#border {border-bottom: 1px solid rgba(255, 255, 255, 1);}
 .-b-hover:hover {background-color:rgba(0, 0, 0, 0.1);}
 
 .border-left {border-left: 1px solid rgba(0,0,0, 0.1);}
