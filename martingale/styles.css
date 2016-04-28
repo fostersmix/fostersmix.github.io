@@ -117,6 +117,13 @@ a:link, a:visited, a:active {
 }
 a:hover {color: white;}
 
+a.page:link, a.page:visited, a.page:active {
+  color: black;
+  font-weight: normal;
+	text-decoration: none;
+}
+a.page:hover {color: #0000ff;}
+
 #border {border-bottom: 1px solid rgba(255, 255, 255, 1);}
 .border-left {border-left: 1px solid rgba(0,0,0, 0.1);}
 .border-right {border-right: 1px solid rgba(0,0,0, 0.1);}
