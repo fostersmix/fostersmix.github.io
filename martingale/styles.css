@@ -5,9 +5,9 @@
   .hide-md {display: inline;}
   .hide-lg {display: inline;}*/
   body {
-    background: #0000ff;
+    background: white;
     font-family: arial, sans-serif;
-    color: white;
+    color: black;
     font-weight: normal;
     font-size: 2.5rem; /* 2.5em = 40px */
     margin-top: 0;
@@ -33,9 +33,9 @@
   /*.hide-md {display: inline;}
   .hide-lg {display: inline;}*/
   body {
-    background: #0000ff;
+    background: white;
     font-family: arial, sans-serif;
-    color: white;
+    color: black;
     font-weight: normal;
     font-size: 2rem; /* 2em = 32px */
     margin-top: 0;
@@ -61,9 +61,9 @@
   .hide-md {display: none;}
   /*.hide-lg {display: inline;}*/
   body {
-    background: #0000ff;
+    background: white;
     font-family: arial, sans-serif;
-    color: white;
+    color: black;
     font-weight: normal;
     font-size: 1.5rem;  /* 1.5em = 24px */
     margin-top: 0;
@@ -89,9 +89,9 @@
   .hide-md {display: inline;}*/
   .hide-lg {display: none;}
   body {
-    background: #0000ff;
+    background: white;
     font-family: arial, sans-serif;
-    color: white;
+    color: black;
     font-weight: normal;
     font-size: 1rem;  /* 1em = 16px */
     margin-top: 0;
@@ -148,6 +148,8 @@ a.page:hover {color: #0000ff;}
 #light-gray, #light-gray-hover:hover    {color:#ddd;}
 .gray, .gray-hover:hover    {background-color:#ccc;}
 #gray, #gray-hover:hover    {color:#ccc;}
+.dark-gray, .dark-gray-hover:hover    {background-color:#313131;}
+#dark-gray, #dark-gray-hover:hover    {color:#313131;}
 .black, .black-hover:hover  {background-color:black;}
 #black, #black-hover:hover  {color:black;}
 .blue, .blue-hover:hover  {background-color:#0000ff;}
