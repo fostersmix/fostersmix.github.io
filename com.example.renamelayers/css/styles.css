@@ -13,9 +13,11 @@
 }
 
 button {
-width:32%;
+width:30%;
 height: 42px;
 }
+
+.big {width:90%;}
 
 @media only screen and (max-width: 400px) {
   .hide-xs {display: none;}
