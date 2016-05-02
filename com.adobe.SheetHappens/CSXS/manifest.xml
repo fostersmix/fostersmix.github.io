@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ExtensionManifest Version="5.0" ExtensionBundleId="com.example.renamelayers" ExtensionBundleVersion="1.0.0"
-		ExtensionBundleName="Import and dispatch" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ExtensionManifest Version="5.0" ExtensionBundleId="com.adobe.SheetHappens" ExtensionBundleVersion="1.0.0"
+		ExtensionBundleName="SheetHappens" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<ExtensionList>
-		<Extension Id="com.example.renamelayers" Version="1.0" />
+		<Extension Id="com.adobe.SheetHappens" Version="1.0" />
 	</ExtensionList>
 	<ExecutionEnvironment>
 		<HostList>
@@ -25,7 +25,7 @@
 		</RequiredRuntimeList>
 	</ExecutionEnvironment>
 	<DispatchInfoList>
-		<Extension Id="com.example.renamelayers">
+		<Extension Id="com.adobe.SheetHappens">
 			<DispatchInfo >
 				<Resources>
 				<MainPath>./index.html</MainPath>
@@ -50,7 +50,7 @@
                             <Height>550</Height>
                             <Width>400</Width>
                         </MaxSize>-->
-                        
+
 					</Geometry>
 					<Icons>
 						<Icon Type="Normal">./icons/iconNormal.png</Icon>
@@ -58,7 +58,7 @@
 						<Icon Type="Disabled">./icons/iconDisabled.png</Icon>
 						<Icon Type="DarkNormal">./icons/iconDarkNormal.png</Icon>
 						<Icon Type="DarkRollOver">./icons/iconDarkRollover.png</Icon>
-					</Icons>					
+					</Icons>
 				</UI>
 			</DispatchInfo>
 		</Extension>
