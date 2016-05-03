@@ -110,6 +110,20 @@ a:link, a:visited, a:hover, a:active {
 	text-decoration: none;
 }
 
+a.icon:link, a.icon:visited, a.icon:hover, a.icon:active {
+  color: #ddd;
+  font-weight: normal;
+	text-decoration: none;
+}
+a.none:link, a.none:visited,  a.none:active {
+  color: rgba(255, 255, 255, 0);
+  font-weight: normal;
+	text-decoration: none;
+}
+a.none:hover {
+  color: white;
+}
+
 /*#border {border-bottom: 1px solid white);}
 #border-black {border-bottom: 1px solid black;}*/
 .border-left {border-left: 1px solid rgba(0,0,0, 0.1);}
@@ -141,8 +155,20 @@ a:link, a:visited, a:hover, a:active {
 .blue, .blue-hover:hover              {background-color:#0000ff;}
 #blue, #blue-hover:hover              {color:#0000ff;}
 
-/*mix*/
+/*mix
 #gray-to-blue         {color:#ddd;}
-#gray-to-blue:hover   {color:#0000ff;}
+#gray-to-blue:hover   {color:#0000ff;}}*/
 #none-to-white        {color:rgba(255, 255, 255, 0);}
 #none-to-white:hover {color:white;}
+
+#twitter:hover {color:#51b6e5;}
+#facebook:hover {color:#2a61c5;}
+#rss:hover {color:#fb7629;}
+#ifttt:hover {color:#33ccff;}
+#feedly:hover {color:#2bb24c;}
+#pushbullet:hover {color:#4ab367;}
+#telegram:hover {color:#2ca5e0;}
+#rss:hover {color:#fb7629;}
+#ifttt:hover {color:#33ccff;}
+#mail:hover {color:#673AB7;}
+#hashtag:hover {color:#2bacca;}
