@@ -110,8 +110,8 @@ a:link, a:visited, a:hover, a:active {
 	text-decoration: none;
 }
 
-#border {border-bottom: 1px solid white);}
-#border-black {border-bottom: 1px solid black;}
+/*#border {border-bottom: 1px solid white);}
+#border-black {border-bottom: 1px solid black;}*/
 .border-left {border-left: 1px solid rgba(0,0,0, 0.1);}
 .border-right {border-right: 1px solid rgba(0,0,0, 0.1);}
 .border-top {border-top: 1px solid rgba(0,0,0, 0.1);}
