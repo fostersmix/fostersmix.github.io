@@ -16,6 +16,7 @@
   h1 {
     font-size: 2em; /* 5em = 80px */
     font-family: 'Arial Black', sans-serif;
+    font-weight: bold;
     margin: 0;
   }
   #h1 {
@@ -42,6 +43,7 @@
   h1 {
     font-size: 3em; /* 6em = 96px */
     font-family: 'Arial Black', sans-serif;
+    font-weight: bold;
     margin: 0;
   }
   #h1 {
@@ -68,6 +70,7 @@
   h1 {
     font-size: 4em;  /* 6em = 96px */
     font-family: 'Arial Black', sans-serif;
+    font-weight: bold;
     margin: 0;
   }
   #h1 {
@@ -94,6 +97,7 @@
   h1 {
     font-size: 5em;  /* 5em = 80px */
     font-family: 'Arial Black', sans-serif;
+    font-weight: bold;
     margin: 0;
   }
   #h1 {
