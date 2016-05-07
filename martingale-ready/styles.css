@@ -96,8 +96,14 @@
   }
   h1 {
     font-size: 5em;  /* 5em = 80px */
-    font-family: 'Arial Black', sans-serif;
+    font-family: 'Arial black', sans-serif;
     font-weight: bold;
+    margin: 0;
+  }
+  h2 {
+    font-size: 5em;  /* 5em = 80px */
+    font-family: 'Arial', sans-serif;
+    font-weight: normal;
     margin: 0;
   }
   #h1 {
@@ -109,7 +115,7 @@
 }
 
 a:link, a:visited, a:hover, a:active {
-  color: white;
+  color: black;
   font-weight: normal;
 	text-decoration: none;
 }
