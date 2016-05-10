@@ -4,4 +4,10 @@
 
 
 #### Bitcoin
+Accepted bitcoin.
+
 #### Anonymous
+Bet without registration.
+
+#### Public
+One answer for all. Public results at midnight (GMT+0)
