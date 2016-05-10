@@ -13,7 +13,6 @@ Bet without registration.
 One answer for all. Public results at midnight (GMT+0)
 
 [Twitter](http://usemartingale.com/)
-
 [Facebook](http://usemartingale.com/)
 
 [RSS](http://usemartingale.com/)
