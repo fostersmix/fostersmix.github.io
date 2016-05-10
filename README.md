@@ -2,15 +2,17 @@
 
 [usemartingale.com](http://usemartingale.com/) - double or lose
 
-#### Bitcoin
+#### We ♥ Bitcoin
 Bitcoin accept only.
 
-#### No fee
+No fee:
 Incoming transaction fees are voluntary (recommend BTC 0.0001).
 Outgoing profit we pay fees for you.
 
-#### Anonymous
-Bet without registration. You can just save the address and use it forever, from your wallet.
+#### Anonymous and protected.
+Bet without registration.
+
+You can just save the address and use it forever.
 
 #### Public
 Public results at midnight (GMT+0). One answer for all.
