@@ -1,23 +1,24 @@
 # [usemartingale.com](http://usemartingale.com/)
 v.1.0.0 (May 11, 2016)
 
-#### Tl;dr
+#### About
 Bet on left or right side.
-Someone side win.
+Double or lose.
 Once a day.
 
 #### We ♥ Bitcoin
 Bitcoin accept only. No fee:
+
 **Incoming** transaction fees are voluntary (recommend BTC 0.0001).
 
 **Outgoing** profit we pay fees for you.
 
 #### Anonymous and protected.
-Bet without registration.
+Without registration.
 
-You can just save the address and use it forever.
+Just save the address and use it forever.
 
-Clear and honest - bet at two side together and sure this.
+Bet at two side together and sure our honest.
 
 #### Public
 Public results at midnight (GMT+0). One answer for all.
