@@ -36,4 +36,4 @@ Profit to the return address*. Transaction are paid on next day (min. 3 confirma
 
 *Do not use disposable bitcoin address!
 
-![Альтернативный текст](/img/nichosee.png)
+![Альтернативный текст](/martingale/favicon.png)
