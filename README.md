@@ -1,7 +1,5 @@
-# fostersmix.github.io
+# usemartingale
 
-usemartingale
-=====================
-usemartingale.com - double or lose
+[usemartingale.com](http://usemartingale.com/) - double or lose
 
-# Anonymous
+## Anonymous
