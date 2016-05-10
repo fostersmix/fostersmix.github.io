@@ -13,7 +13,7 @@ Bitcoin accept only. No fee:
 
 **Outgoing** profit we pay fees for you.
 
-#### Anonymous and protected.
+#### Anonymous
 Without registration.
 
 Just save the address and use it forever.
@@ -37,4 +37,4 @@ Profit to the return address*. Transaction are paid on next day (min. 3 confirma
 
 *Do not use disposable bitcoin address!
 
-![Альтернативный текст](/martingale/favicon.png)
+![nichosee](/img/nichosee.png)
