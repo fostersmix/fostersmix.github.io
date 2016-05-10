@@ -5,8 +5,10 @@
 #### We ♥ Bitcoin
 Bitcoin accept only.
 
-No fee:
+#### No fee
+**Incoming**
 Incoming transaction fees are voluntary (recommend BTC 0.0001).
+**Outgoing**
 Outgoing profit we pay fees for you.
 
 #### Anonymous and protected.
