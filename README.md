@@ -1,7 +1,7 @@
 # [usemartingale.com](http://usemartingale.com/)
 v.1.0.0 (May 11, 2016)
 
-#### About
+#### TL;DR
 Bet on left or right side.
 Double or lose.
 Once a day.
