@@ -1,9 +1,7 @@
-# usemartingale
+# [usemartingale.com](http://usemartingale.com/)
 v.1.0.0 (May 11, 2016)
 
-[usemartingale.com](http://usemartingale.com/)
-
-#### About
+#### Tl;dr
 Bet on left or right side.
 Someone side win.
 Once a day.
