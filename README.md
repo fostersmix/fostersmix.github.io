@@ -1,6 +1,12 @@
 # usemartingale
+v.1.0.0 (May 11, 2016)
 
-[usemartingale.com](http://usemartingale.com/) - double or lose
+[usemartingale.com](http://usemartingale.com/)
+
+#### About
+Bet on left or right side.
+Someone side win.
+Once a day.
 
 #### We ♥ Bitcoin
 Bitcoin accept only.
@@ -16,6 +22,8 @@ Outgoing profit we pay fees for you.
 Bet without registration.
 
 You can just save the address and use it forever.
+
+Clear and honest - bet at two side together and sure this.
 
 #### Public
 Public results at midnight (GMT+0). One answer for all.
