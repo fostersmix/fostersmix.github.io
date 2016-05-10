@@ -18,8 +18,6 @@ Without registration.
 
 Just save the address and use it forever.
 
-Bet at two side together and sure our honest.
-
 #### Public
 Public results at midnight (GMT+0). One answer for all.
 
@@ -33,7 +31,9 @@ Public results at midnight (GMT+0). One answer for all.
 or use #usemartingale
 
 #### Profit
-Profit to the return address*. Transaction are paid on next day (min. 3 confirmations).
+Profit to the return address*. Paid on next day (min. 3 confirmations).
+
+Ex.: Bet at two side together and sure.
 
 *Do not use disposable bitcoin address!
 
