@@ -1,5 +1,5 @@
 <?php
-   $secret = "abc123";
+   $secret = "from-generate";
    if($_GET['secret'] != $secret)
    {
      die('Stop doing that');

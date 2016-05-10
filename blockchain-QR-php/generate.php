@@ -1,10 +1,10 @@
 <?php
 
 //set parameters
-        $api_key = "4f46c7fc-2df4-4c2f-941b-8db479ab7c39";
-        $xpub = "xpub6Bxgb2629tWYnYe8Le12CrZrd1FTBYUP87eqr5AYgytD1LueD2mNHD1DaGASGwGJ5nQgEsTyGmmX7RTZPySTVMDzn1G7bPqet6FFNph9BPh";
-        $secret = "abc123"; //this can be anything you want
-        $rootURL = "http://fostersmix.github.io/blockchain-qr/"; //example https://mysite.org  or http://yourhomepage.com/store
+        $api_key = "key";
+        $xpub = "xpub";
+        $secret = "random";
+        $rootURL = "url";
         $orderID = uniqid();
 
 //call blockchain info receive payments API
