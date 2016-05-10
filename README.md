@@ -8,6 +8,7 @@ Bitcoin accept only.
 #### No fee
 **Incoming**
 Incoming transaction fees are voluntary (recommend BTC 0.0001).
+
 **Outgoing**
 Outgoing profit we pay fees for you.
 
@@ -29,4 +30,6 @@ Public results at midnight (GMT+0). One answer for all.
 or use #usemartingale
 
 #### Profit
-Profit to the return address. Transaction are paid on next day (min. 3 confirmations).
+Profit to the return address*. Transaction are paid on next day (min. 3 confirmations).
+
+*Do not use disposable bitcoin address!
