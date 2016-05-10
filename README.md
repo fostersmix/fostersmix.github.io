@@ -7,14 +7,10 @@ Someone side win.
 Once a day.
 
 #### We ♥ Bitcoin
-Bitcoin accept only.
+Bitcoin accept only. No fee:
+**Incoming** transaction fees are voluntary (recommend BTC 0.0001).
 
-#### No fee
-**Incoming**
-Incoming transaction fees are voluntary (recommend BTC 0.0001).
-
-**Outgoing**
-Outgoing profit we pay fees for you.
+**Outgoing** profit we pay fees for you.
 
 #### Anonymous and protected.
 Bet without registration.
@@ -30,7 +26,7 @@ Public results at midnight (GMT+0). One answer for all.
 * [Facebook](http://usemartingale.com/)
 * [RSS](http://usemartingale.com/)
 * [IFTTT](http://usemartingale.com/)
-* [Telegram](http://usemartingale.com/)
+* [Telegram Bot](http://usemartingale.com/)
 * [Pushbullet](http://usemartingale.com/)
 
 or use #usemartingale
@@ -39,3 +35,5 @@ or use #usemartingale
 Profit to the return address*. Transaction are paid on next day (min. 3 confirmations).
 
 *Do not use disposable bitcoin address!
+
+![Альтернативный текст](/img/nichosee.png)
