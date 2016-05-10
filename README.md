@@ -16,10 +16,10 @@ Bitcoin accept only. No fee:
 #### Anonymous
 Without registration.
 
-Just save the address and use it forever.
+Just generate QR on website or save the address and use it forever.
 
 #### Public
-Public results at midnight (GMT+0). One answer for all.
+Public results at midnight (00:00, GMT+0). One answer for all.
 
 * [Twitter](http://usemartingale.com/)
 * [Facebook](http://usemartingale.com/)
