@@ -28,12 +28,12 @@ Public results at midnight (00:00, GMT+0). One answer for all.
 * [Telegram Bot](http://usemartingale.com/)
 * [Pushbullet](http://usemartingale.com/)
 
-or use #usemartingale
+or use hashtag #usemartingale
 
 #### Profit
-Profit to the return address*. Paid on next day (min. 3 confirmations).
+Profit to the return address*. Paid on next day.
 
-Ex.: Bet at two side together and sure.
+Example: Bet at two side together and sure.
 
 *Do not use disposable bitcoin address!
 
