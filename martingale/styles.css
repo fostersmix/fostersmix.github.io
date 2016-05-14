@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-/*xs*/
-@media only screen and (max-width: 48em) {
-  .hide-xs {display: none;}
-  /*.hide-sm {display: inline;}
-  .hide-md {display: inline;}
-  .hide-lg {display: inline;}*/
-=======
 body {
   background: white;
   font-family: arial, sans-serif;
@@ -15,122 +7,21 @@ body {
 }
 
 @media only screen and (min-width: 48em) {
->>>>>>> old-ver
   body {
-    background: white;
-    font-family: arial, sans-serif;
-    color: black;
-    font-weight: normal;
-    font-size: 2.5rem; /* 2.5em = 40px */
-    margin-top: 0;
-    margin-bottom: 0;
+    font-size: 4vmin;
   }
-  h1 {
-    font-size: 2em; /* 5em = 80px */
-    font-family: 'Arial Black', sans-serif;
-    margin: 0;
-  }
-<<<<<<< HEAD
-  #icon {
-    color: #ddd;
-    font-size: 1em;
-  }
-  #icon:hover {color: #0000ff;}
-  .bottom-big {padding-bottom: 1em;}
 }
 
-/*sm*/
-@media only screen and (min-width: 48em) and (max-width: 62em) {
-  /*.hide-xs {display: inline;}*/
-  .hide-sm {display: none;}
-  /*.hide-md {display: inline;}
-  .hide-lg {display: inline;}*/
+@media only screen and (min-width: 62em) {
   body {
-    background: white;
-    font-family: arial, sans-serif;
-    color: black;
-    font-weight: normal;
-    font-size: 2rem; /* 2em = 32px */
-    margin-top: 0;
-    margin-bottom: 0;
+    font-size: 3vmin;
   }
-  h1 {
-    font-size: 3em; /* 6em = 96px */
-    font-family: 'Arial Black', sans-serif;
-    margin: 0;
-  }
-  #icon {
-    color: #ddd;
-    font-size: 1em;
-  }
-  #icon:hover {color: #0000ff;}
-  .bottom-big {padding-bottom: 2em;}
-=======
->>>>>>> old-ver
 }
 
-/*md*/
-@media only screen and (min-width: 62em) and (max-width: 75em) {
-  /*.hide-xs {display: inline;}
-  .hide-sm {display: inline;}*/
-  .hide-md {display: none;}
-  /*.hide-lg {display: inline;}*/
-  body {
-    background: white;
-    font-family: arial, sans-serif;
-    color: black;
-    font-weight: normal;
-    font-size: 1.5rem;  /* 1.5em = 24px */
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-<<<<<<< HEAD
-  h1 {
-    font-size: 4em;  /* 6em = 96px */
-    font-family: 'Arial Black', sans-serif;
-    margin: 0;
-  }
-  #icon {
-    color: #ddd;
-    font-size: 1em;
-  }
-  #icon:hover {color: #0000ff;}
-  .bottom-big {padding-bottom: 3em;}
-=======
->>>>>>> old-ver
-}
-
-/*lg*/
 @media only screen and (min-width: 75em) {
-  /*.hide-xs {display: inline;}
-  .hide-sm {display: inline;}
-  .hide-md {display: inline;}*/
-  .hide-lg {display: none;}
   body {
-    background: white;
-    font-family: arial, sans-serif;
-    color: black;
-    font-weight: normal;
-    font-size: 1rem;  /* 1em = 16px */
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-<<<<<<< HEAD
-  h1 {
-    font-size: 5em;  /* 5em = 80px */
-    font-family: 'Arial Black', sans-serif;
-    margin: 0;
-  }
-  #icon {
-    color: #ddd;
     font-size: 1em;
   }
-  #icon:hover {color: #0000ff;}
-  .bottom-big     {padding-bottom: 4em;}
-}
-
-a:link, a:visited, a:active {
-=======
 }
 
 h1 {
@@ -156,7 +47,6 @@ h3 {
   padding: 0px;
   margin: 0px;
   font-weight: normal;
->>>>>>> old-ver
   color: white;
   display:inline;
 }
@@ -166,14 +56,7 @@ a:link, a:visited, a:hover a:active {
   font-weight: normal;
 	text-decoration: none;
 }
-a:hover {color: white;}
 
-<<<<<<< HEAD
-a.page:link, a.page:visited, a.page:active {
-  color: black;
-  font-weight: normal;
-	text-decoration: none;
-=======
 a.solid:link, a.solid:visited, a.solid:active {
   color: black;
   font-weight: normal;
@@ -198,30 +81,8 @@ a.button:link, a.button:visited, a.button:hover, a.button:active {
   background: #000;
   border-radius: 4px;
   padding: 0.5em 1em;
->>>>>>> old-ver
 }
-a.page:hover {color: #0000ff;}
 
-<<<<<<< HEAD
-#border {border-bottom: 1px solid rgba(255, 255, 255, 1);}
-.border-left {border-left: 1px solid rgba(0,0,0, 0.1);}
-.border-right {border-right: 1px solid rgba(0,0,0, 0.1);}
-.border-top {border-top: 1px solid rgba(0,0,0, 0.1);}
-.border-bottom {border-bottom: 1px solid rgba(0,0,0, 0.1);}
-
-.bottom   {padding-bottom: 1em;}
-.shadow   {box-shadow: 0px 0.1em 0.5em 0px rgba(0, 0, 0, 0.1);}
-.round    {border-radius: 4px;}
-.mdl      {vertical-align: middle}
-.dot      {font-size: 4em;}
-.screen   {min-height:100%}
-.padding  {padding: 1em;}
-.top      {padding-top: 1em;}
-.line     {height:1px;}
-
-.half, .half-hover:hover  {background-color:rgba(255, 255, 255, 0.5);}
-#half, #half-hover:hover  {color:rgba(255, 255, 255, 0.5);}
-=======
 .bg {
   background-image: url(/dot5.png);
   background-position:center center;
@@ -242,26 +103,9 @@ a.page:hover {color: #0000ff;}
 .transition     {transition: 0.1s}
 .transition-big {transition: 1s}
 
->>>>>>> old-ver
 .white, .white-hover:hover  {background-color:white;}
 #white, #white-hover:hover  {color:white;}
-.light-gray, .light-gray-hover:hover    {background-color:#ddd;}
-#light-gray, #light-gray-hover:hover    {color:#ddd;}
-.gray, .gray-hover:hover    {background-color:#ccc;}
-#gray, #gray-hover:hover    {color:#ccc;}
-.dark-gray, .dark-gray-hover:hover    {background-color:#313131;}
-#dark-gray, #dark-gray-hover:hover    {color:#313131;}
+.gray, .gray-hover:hover    {background-color:#ddd;}
+#gray, #gray-hover:hover    {color:#ddd}
 .black, .black-hover:hover  {background-color:black;}
 #black, #black-hover:hover  {color:black;}
-<<<<<<< HEAD
-.blue, .blue-hover:hover  {background-color:#0000ff;}
-#blue, #blue-hover:hover  {color:#0000ff;}
-.yellow, .yellow-hover:hover  {background-color:#fffc01;}
-#yellow, #yellow-hover:hover  {color:#fffc01;}
-
-#text-hover        {color:rgba(255, 255, 255, 0);}
-#text-hover:hover  {color:white;}
-
-/* rgb(255, 246, 0) #EB0D46 - PINK! bordo2 - 76111d .. 4a1276 - violllet #D71C18 - red, 5D6C33 - hakki, 321FED - blue, A63446 - bordo; 7E1946 - bordo2; 422040 - violet; 291A39- darkviolet 0075A2 - blue; B4CD22 - lime; 18FFFF - stroke; 3858EE - light-blue; E53232 - orange; 00FFC5 - mint; 3A2E39 - brown; 131220 - dark-blue*/
-=======
->>>>>>> old-ver
