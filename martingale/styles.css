@@ -1,9 +1,21 @@
+<<<<<<< HEAD
 /*xs*/
 @media only screen and (max-width: 48em) {
   .hide-xs {display: none;}
   /*.hide-sm {display: inline;}
   .hide-md {display: inline;}
   .hide-lg {display: inline;}*/
+=======
+body {
+  background: white;
+  font-family: arial, sans-serif;
+  color: black;
+  font-weight: normal;
+  font-size: 5vmin;
+}
+
+@media only screen and (min-width: 48em) {
+>>>>>>> old-ver
   body {
     background: white;
     font-family: arial, sans-serif;
@@ -18,6 +30,7 @@
     font-family: 'Arial Black', sans-serif;
     margin: 0;
   }
+<<<<<<< HEAD
   #icon {
     color: #ddd;
     font-size: 1em;
@@ -52,6 +65,8 @@
   }
   #icon:hover {color: #0000ff;}
   .bottom-big {padding-bottom: 2em;}
+=======
+>>>>>>> old-ver
 }
 
 /*md*/
@@ -69,6 +84,7 @@
     margin-top: 0;
     margin-bottom: 0;
   }
+<<<<<<< HEAD
   h1 {
     font-size: 4em;  /* 6em = 96px */
     font-family: 'Arial Black', sans-serif;
@@ -80,6 +96,8 @@
   }
   #icon:hover {color: #0000ff;}
   .bottom-big {padding-bottom: 3em;}
+=======
+>>>>>>> old-ver
 }
 
 /*lg*/
@@ -97,6 +115,7 @@
     margin-top: 0;
     margin-bottom: 0;
   }
+<<<<<<< HEAD
   h1 {
     font-size: 5em;  /* 5em = 80px */
     font-family: 'Arial Black', sans-serif;
@@ -111,19 +130,79 @@
 }
 
 a:link, a:visited, a:active {
+=======
+}
+
+h1 {
+	font-size: 22vmin;
+  padding: 0px;
+  margin: 0px;
+  font-weight: bold;
+  color: black;
+  display:inline;
+}
+
+h2 {
+	font-size: 11vmin;
+  padding: 0px;
+  margin: 0px;
+  font-weight: normal;
+  color: #ddd;
+  display:inline;
+}
+
+h3 {
+	font-size: 11vmin;
+  padding: 0px;
+  margin: 0px;
+  font-weight: normal;
+>>>>>>> old-ver
   color: white;
+  display:inline;
+}
+
+a:link, a:visited, a:hover a:active {
+  color: #ddd;
   font-weight: normal;
 	text-decoration: none;
 }
 a:hover {color: white;}
 
+<<<<<<< HEAD
 a.page:link, a.page:visited, a.page:active {
   color: black;
   font-weight: normal;
 	text-decoration: none;
+=======
+a.solid:link, a.solid:visited, a.solid:active {
+  color: black;
+  font-weight: normal;
+	text-decoration: none;
+  border-bottom: 1px solid #ddd;
+}
+
+a.anchor:link, a.anchor:visited, a.anchor:active {
+  color: black;
+  font-weight: normal;
+	text-decoration: none;
+  border-radius: 4px;
+  padding: 0.5em 1em;
+  border: 1px solid #ddd;
+}
+
+a.button:link, a.button:visited, a.button:hover, a.button:active {
+  color: white;
+  font-weight: normal;
+	text-decoration: none;
+  border-bottom: 0px solid black;
+  background: #000;
+  border-radius: 4px;
+  padding: 0.5em 1em;
+>>>>>>> old-ver
 }
 a.page:hover {color: #0000ff;}
 
+<<<<<<< HEAD
 #border {border-bottom: 1px solid rgba(255, 255, 255, 1);}
 .border-left {border-left: 1px solid rgba(0,0,0, 0.1);}
 .border-right {border-right: 1px solid rgba(0,0,0, 0.1);}
@@ -142,6 +221,28 @@ a.page:hover {color: #0000ff;}
 
 .half, .half-hover:hover  {background-color:rgba(255, 255, 255, 0.5);}
 #half, #half-hover:hover  {color:rgba(255, 255, 255, 0.5);}
+=======
+.bg {
+  background-image: url(/dot5.png);
+  background-position:center center;
+  background-repeat:repeat-y;
+}
+
+.line           {height: 1px;}
+.border         {border: 1px solid #ddd;}
+.border:hover   {border: 1px solid black;}
+.screen         {min-height:100%}
+.top-10         {padding-top: 1em;}
+.bottom-10      {padding-bottom: 1em;}
+.padding        {padding: 1em;}
+.shadow         {box-shadow: 0em 0em 3em 0em #eee}
+.top            {padding-top: 0.5em;}
+.round          {border-radius: 4px;}
+.bottom         {padding-bottom: 0.5em;}
+.transition     {transition: 0.1s}
+.transition-big {transition: 1s}
+
+>>>>>>> old-ver
 .white, .white-hover:hover  {background-color:white;}
 #white, #white-hover:hover  {color:white;}
 .light-gray, .light-gray-hover:hover    {background-color:#ddd;}
@@ -152,6 +253,7 @@ a.page:hover {color: #0000ff;}
 #dark-gray, #dark-gray-hover:hover    {color:#313131;}
 .black, .black-hover:hover  {background-color:black;}
 #black, #black-hover:hover  {color:black;}
+<<<<<<< HEAD
 .blue, .blue-hover:hover  {background-color:#0000ff;}
 #blue, #blue-hover:hover  {color:#0000ff;}
 .yellow, .yellow-hover:hover  {background-color:#fffc01;}
@@ -161,3 +263,5 @@ a.page:hover {color: #0000ff;}
 #text-hover:hover  {color:white;}
 
 /* rgb(255, 246, 0) #EB0D46 - PINK! bordo2 - 76111d .. 4a1276 - violllet #D71C18 - red, 5D6C33 - hakki, 321FED - blue, A63446 - bordo; 7E1946 - bordo2; 422040 - violet; 291A39- darkviolet 0075A2 - blue; B4CD22 - lime; 18FFFF - stroke; 3858EE - light-blue; E53232 - orange; 00FFC5 - mint; 3A2E39 - brown; 131220 - dark-blue*/
+=======
+>>>>>>> old-ver
