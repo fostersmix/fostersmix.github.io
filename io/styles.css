@@ -112,7 +112,7 @@ a.button:link, a.button:visited, a.button:active {
   color: black;
   font-weight: normal;
 	text-decoration: none;
-  border: 1px solid lightgray;
+  border: 1px dotted lightgray;
   background: none;;
   border-radius: 0em;
   padding: 0.5em 1em;
@@ -141,8 +141,8 @@ a.button-end:link, a.button-end:visited, a.button-end:active {
   color: black;
   font-weight: normal;
 	text-decoration: none;
-  border-right: 1px solid black;
-  border-bottom: 1px solid black;
+  border-right: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
   background: none;;
   border-radius: 0em;
   padding: 0.5em 1em;
