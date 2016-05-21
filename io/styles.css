@@ -19,8 +19,12 @@
     font-weight: bold;
     margin: 0;
   }
-  #h1 {
+  #icon {
     font-size:2em;
+    color:black;
+  }
+  #icon:hover {
+    color:blue;
   }
 }
 
@@ -45,8 +49,12 @@
     font-weight: bold;
     margin: 0;
   }
-  #h1 {
+  #icon {
     font-size: 3em;
+    color:black;
+  }
+  #icon:hover {
+    color:blue;
   }
 }
 
@@ -71,8 +79,12 @@
     font-weight: bold;
     margin: 0;
   }
-  #h1 {
+  #icon {
     font-size: 4em;
+    color:black;
+  }
+  #icon:hover {
+    color:blue;
   }
 }
 
@@ -97,8 +109,12 @@
     font-weight: bold;
     margin: 0;
   }
-  #h1 {
+  #icon {
     font-size: 3em;
+    color:black;
+  }
+  #icon:hover {
+    color:blue;
   }
 }
 
@@ -112,7 +128,7 @@ a.button:link, a.button:visited, a.button:active {
   color: black;
   font-weight: normal;
 	text-decoration: none;
-  border: 1px dotted lightgray;
+  border: 1px solid lightgray;
   background: none;;
   border-radius: 0em;
   padding: 0.5em 1em;
@@ -141,8 +157,8 @@ a.button-end:link, a.button-end:visited, a.button-end:active {
   color: black;
   font-weight: normal;
 	text-decoration: none;
-  border-right: 1px solid lightgray;
-  border-bottom: 1px solid lightgray;
+  border-right: 1px dotted black;
+  border-bottom: 1px dotted black;
   background: none;;
   border-radius: 0em;
   padding: 0.5em 1em;
