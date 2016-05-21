@@ -184,10 +184,10 @@ a.button-create:hover {
   margin: 0;
 }
 
-.border-left    {border-left: 1px solid black;}
-.border-right   {border-right: 1px solid black;}
-.border-top     {border-top: 1px solid black;}
-.border-bottom  {border-bottom: 1px solid black;}
+.border-left    {border-left: 1px solid lightgray;}
+.border-right   {border-right: 1px solid lightgray;}
+.border-top     {border-top: 1px solid lightgray;}
+.border-bottom  {border-bottom: 1px solid lightgray;}
 
 .line     {height:1px;}
 .top      {padding-top: 1em;}
