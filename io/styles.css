@@ -237,8 +237,7 @@ a.button-create:hover {
 #yellow, #yellow-hover:hover          {color:yellow;}
 
 
-/*PLACEHOLDER*/
-
+/*input+placeholder*/
 input {
   background-color: white;
   color:black;
@@ -252,7 +251,6 @@ input {
   width: 100%;
 }
 
-/*цвет текста*/
 input::-webkit-input-placeholder {
   color:rgba(211, 211, 211, .3);
   padding: 0px;
@@ -274,13 +272,11 @@ input:-ms-input-placeholder      {
   margin: 0px;
   }
   
-/*цвет текста при вводе*/
 input:hover::-webkit-input-placeholder {color: lightgray;}
 input:hover::-moz-placeholder          {color: lightgray;}
 input:hover:-moz-placeholder           {color: lightgray;}
 input:hover:-ms-input-placeholder      {color: lightgray;}
 
-/*цвет текста при вводе*/
 input:focus::-webkit-input-placeholder {color: transparent;}
 input:focus::-moz-placeholder          {color: transparent;}
 input:focus:-moz-placeholder           {color: transparent;}
