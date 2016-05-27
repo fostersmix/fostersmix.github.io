@@ -273,32 +273,32 @@ input {
 }
 
 input::-webkit-input-placeholder {
-  color:rgba(211, 211, 211, .3);
+  color:rgba(211, 211, 211, .2);
   padding: 0px;
   margin: 0px;
 }
 input::-moz-placeholder          {
-  color:rgba(211, 211, 211, .3);
+  color:rgba(211, 211, 211, .2);
   padding: 0px;
   margin: 0px;
 }
 input:-moz-placeholder           {
-  color:rgba(211, 211, 211, .3);
+  color:rgba(211, 211, 211, .2);
   padding: 0px;
   margin: 0px;
 }
 input:-ms-input-placeholder      {
-  color:rgba(211, 211, 211, .3);
+  color:rgba(211, 211, 211, .2);
   padding: 0px;
   margin: 0px;
   }
 
-input:hover::-webkit-input-placeholder {color: lightgray;}
-input:hover::-moz-placeholder          {color: lightgray;}
-input:hover:-moz-placeholder           {color: lightgray;}
-input:hover:-ms-input-placeholder      {color: lightgray;}
+input:hover::-webkit-input-placeholder {color: rgba(211, 211, 211, .3);}
+input:hover::-moz-placeholder          {color: rgba(211, 211, 211, .3);}
+input:hover:-moz-placeholder           {color: rgba(211, 211, 211, .3);}
+input:hover:-ms-input-placeholder      {color: rgba(211, 211, 211, .3);}
 
-input:focus::-webkit-input-placeholder {color: transparent;}
-input:focus::-moz-placeholder          {color: transparent;}
-input:focus:-moz-placeholder           {color: transparent;}
-input:focus:-ms-input-placeholder      {color: transparent;}
+input:focus::-webkit-input-placeholder {color: rgba(211, 211, 211, .3);}
+input:focus::-moz-placeholder          {color: rgba(211, 211, 211, .3);}
+input:focus:-moz-placeholder           {color: rgba(211, 211, 211, .3);}
+input:focus:-ms-input-placeholder      {color: rgba(211, 211, 211, .3);}
