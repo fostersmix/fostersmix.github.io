@@ -219,6 +219,8 @@ a.button-create:hover {
 .border-top     {border-top: 1px solid lightgray;}
 .border-bottom  {border-bottom: 1px solid lightgray;}
 
+.shadow {box-shadow: inset 0.5em 0 0 blue;}
+.nowrap {white-space: nowrap;}
 .line     {height:1px;}
 .top      {padding-top: 1em;}
 .bottom   {padding-bottom: 1em;}
@@ -226,11 +228,6 @@ a.button-create:hover {
   height: 100%;
   min-height:100%;
 }
-
-#icon {color:black;}
-#icon:hover {color:blue;}
-
-.nowrap {white-space: nowrap;}
 
 .none, .none-hover:hover              {background-color:rgba(255, 255, 255, 0);}
 #none, #none-hover:hover              {color:rgba(255, 255, 255, 0);}
@@ -289,7 +286,7 @@ input:-ms-input-placeholder      {
   padding: 0px;
   margin: 0px;
   }
-  
+
 input:hover::-webkit-input-placeholder {color: lightgray;}
 input:hover::-moz-placeholder          {color: lightgray;}
 input:hover:-moz-placeholder           {color: lightgray;}
