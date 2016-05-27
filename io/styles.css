@@ -71,6 +71,15 @@
     margin-top: 0;
     margin-bottom: 0;
   }
+  small {
+    font-size: 0.5em;
+  }
+  h3 {
+    font-size: 2em; /* 3em = 48px */
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin: 0;
+  }
   h2 {
     font-size: 2.5em; /* 3.75em = 60px */
     font-family: Arial, sans-serif;
@@ -99,6 +108,15 @@
     font-size: 1rem;  /* 1rem = 16px */
     margin-top: 0;
     margin-bottom: 0;
+  }
+  small {
+    font-size: 0.5em;
+  }
+  h3 {
+    font-size: 2em; /* 2em = 32px */
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin: 0;
   }
   h2 {
     font-size: 3em; /* 3em = 48px */
@@ -241,7 +259,7 @@ a.button-create:hover {
 input {
   background-color: white;
   color:black;
-  padding-bottom: 0.3rem;
+  padding-bottom: 0.3rem; /* 0.3 */
   margin: 0px;
   border: 0px;
   font-size: 5em;  /* 5em = 80px */
