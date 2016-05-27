@@ -169,12 +169,6 @@ a:link, a:visited, a:hover, a:active {
 	text-decoration: none;
 }
 
-a.search:link, a.search:visited, a.search:hover, a.search:active {
-  color: gray;
-  font-weight: normal;
-	text-decoration: none;
-}
-
 a.button:link, a.button:visited, a.button:active {
   color: black;
   font-weight: normal;
@@ -233,22 +227,8 @@ a.button-create:link, a.button-create:visited, a.button-create:active {
   white-space:nowrap;
 }
 a.button-create:hover {
-  color: black;
-  font-weight: normal;
-	text-decoration: none;
   border: 1px solid yellow;
   background: yellow;
-  border-radius: 0em;
-  padding: 0.5em 1em;
-  line-height: 2.45;
-  white-space:nowrap;
-}
-
-.logo {
-  font-size: 0.8em;
-  word-spacing: 1em;
-  font-weight: bold;
-  margin: 0;
 }
 
 .border-left    {border-left: 1px solid lightgray;}
@@ -258,7 +238,7 @@ a.button-create:hover {
 
 .nowrap {white-space: nowrap;}
 .line     {height:1px;}
-.top      {padding-top: 1em;}
+.top      {padding-top: 0.5em;}
 .bottom   {padding-bottom: 1em;}
 .screen   {
   height: 100%;
