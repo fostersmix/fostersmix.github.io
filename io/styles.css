@@ -139,6 +139,12 @@ a:link, a:visited, a:hover, a:active {
 	text-decoration: none;
 }
 
+a.search:link, a.search:visited, a.search:hover, a.search:active {
+  color: gray;
+  font-weight: normal;
+	text-decoration: none;
+}
+
 a.button:link, a.button:visited, a.button:active {
   color: black;
   font-weight: normal;
