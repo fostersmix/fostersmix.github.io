@@ -223,8 +223,8 @@ a.button-create:link, a.button-create:visited, a.button-create:active {
   color: black;
   font-weight: normal;
 	text-decoration: none;
-  border: 1px solid rgba(211, 211, 211, .0);
-  background: rgba(211, 211, 211, .3);
+  border: 1px solid yellow;
+  background: yellow;
   border-radius: 0em;
   padding: 0.5em 1em;
   line-height: 2.45;
