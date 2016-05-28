@@ -238,7 +238,7 @@ a.button-create:hover {
 
 .nowrap {white-space: nowrap;}
 .line     {height:1px;}
-.top      {padding-top: 0.5em;}
+.top      {padding-top: 1em;}
 .bottom   {padding-bottom: 1em;}
 .screen   {
   height: 100%;
