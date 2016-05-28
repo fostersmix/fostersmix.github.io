@@ -37,7 +37,7 @@
     outline: none;
     width: 100%;
   }
-  .button-yellow-xs {background-color:yellow;}
+  .button-create-xs {background-color:yellow;}
 }
 
 /*sm*/
@@ -79,7 +79,7 @@
     outline: none;
     width: 100%;
   }
-  .button-yellow-sm {background-color:yellow;}
+  .button-create-sm {background-color:yellow;}
 }
 
 /*md*/
@@ -121,7 +121,7 @@
     outline: none;
     width: 100%;
   }
-  .button-yellow-md {background-color:yellow;}
+  .button-create-md {background-color:yellow;}
 }
 
 /*lg*/
@@ -163,8 +163,8 @@
     outline: none;
     width: 100%;
   }
-  .shadow-lg {box-shadow: inset 0.5em 0 0 blue;}
-  .button-yellow-lg {background-color:yellow;}
+  .shadow-lg {box-shadow: inset 0.5em 0 0 yellow;}
+  .button-create-lg {background-color:yellow;}
 }
 
 a:link, a:visited, a:hover, a:active {
@@ -223,8 +223,8 @@ a.button-create:link, a.button-create:visited, a.button-create:active {
   color: black;
   font-weight: normal;
 	text-decoration: none;
-  border: 1px solid yellow;
-  background: yellow;
+  border: 1px solid rgba(211, 211, 211, .0);
+  background: rgba(211, 211, 211, .3);
   border-radius: 0em;
   padding: 0.5em 1em;
   line-height: 2.45;
@@ -270,6 +270,8 @@ a.button-create:hover {
 #red, #red-hover:hover                {color:red;}
 .yellow, .yellow-hover:hover          {background-color:yellow;}
 #yellow, #yellow-hover:hover          {color:yellow;}
+.cyan, .cyan-hover:hover              {background-color:cyan;}
+#cyan, #cyan-hover:hover              {color:cyan;}
 
 input::-webkit-input-placeholder {
   color:rgba(211, 211, 211, .2);
