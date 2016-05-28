@@ -202,8 +202,8 @@ a.button-end:link, a.button-end:visited, a.button-end:active {
   color: black;
   font-weight: normal;
 	text-decoration: none;
-  border-right: 1px dotted black;
-  border-bottom: 1px dotted black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
   background: none;;
   border-radius: 0em;
   padding: 0.5em 1em;
