@@ -25,6 +25,13 @@
     font-weight: bold;
     margin: 0;
   }
+  #logo {
+    font-size: 3em;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    color:blue;
+  }
   input {
     background-color: white;
     color:black;
@@ -37,7 +44,7 @@
     outline: none;
     width: 100%;
   }
-  .button-create-xs {background-color:yellow;}
+  .button-create-xs {background-color:blue;}
 }
 
 /*sm*/
@@ -67,6 +74,13 @@
     font-weight: bold;
     margin: 0;
   }
+  #logo {
+    font-size: 3em;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    color:blue;
+  }
   input {
     background-color: white;
     color:black;
@@ -80,7 +94,7 @@
     width: 100%;
   }
   .shadow-sm {box-shadow: inset 0.5em 0 0 blue;}
-  .button-create-sm {background-color:yellow;}
+  .button-create-sm {background-color:blue;}
 }
 
 /*md*/
@@ -109,6 +123,13 @@
     font-family: Arial, sans-serif;
     font-weight: bold;
     margin: 0;
+  }
+  #logo {
+    font-size: 4em;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    color:blue;
   }
   input {
     background-color: white;
@@ -152,6 +173,13 @@
     font-family: Arial, sans-serif;
     font-weight: bold;
     margin: 0;
+  }
+  #logo {
+    font-size: 5em;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    color:blue;
   }
   input {
     background-color: white;
