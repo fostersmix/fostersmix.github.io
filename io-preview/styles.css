@@ -179,7 +179,7 @@ a.button:link, a.button:visited, a.button:active {
   color: black;
   font-weight: normal;
 	text-decoration: none;
-  border: 1px solid lightgray;
+  border: 1px dotted gray;
   background: none;;
   border-radius: 0em;
   padding: 0.5em 1em;
@@ -242,6 +242,7 @@ a.button-create:hover {
 .border-top     {border-top: 1px solid lightgray;}
 .border-bottom  {border-bottom: 1px solid lightgray;}
 
+.turn     {transform: rotate(90deg);}
 .shadow   {box-shadow: 0px 3em 5em 1em rgba(211, 211, 211, .5)}
 .nowrap   {white-space: nowrap;}
 .line     {height:1px;}
