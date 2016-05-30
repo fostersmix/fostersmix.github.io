@@ -274,6 +274,7 @@ a.button-create:hover {
 .border-top     {border-top: 1px solid lightgray;}
 .border-bottom  {border-bottom: 1px solid lightgray;}
 
+.round    {border-radius: 10em;}
 .nowrap   {white-space: nowrap;}
 .line     {height:1px;}
 .top      {padding-top: 1em;}
