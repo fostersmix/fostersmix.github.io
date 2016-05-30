@@ -179,7 +179,7 @@
     font-family: Arial, sans-serif;
     font-weight: bold;
     margin: 0;
-    color:blue;
+    color:white;
   }
   input {
     background-color: white;
@@ -270,12 +270,9 @@ a.button-create:hover {
 .border-top     {border-top: 1px solid lightgray;}
 .border-bottom  {border-bottom: 1px solid lightgray;}
 
-.turn     {transform: rotate(90deg);}
-.shadow   {box-shadow: 0px 3em 5em 1em rgba(211, 211, 211, .5)}
 .nowrap   {white-space: nowrap;}
 .line     {height:1px;}
 .top      {padding-top: 1em;}
-.top-small{padding-top: 0.5em;}
 .bottom   {padding-bottom: 1em;}
 .screen   {
   height: 100%;
@@ -286,8 +283,8 @@ a.button-create:hover {
 #none, #none-hover:hover              {color:rgba(255, 255, 255, 0);}
 .half-white, .half-white-hover:hover  {background-color:rgba(255, 255, 255, .5);}
 #half-white, #half-white-hover:hover  {color:rgba(255, 255, 255, 0.5);}
-.half-gray, .half-gray-hover:hover    {background-color:rgba(211, 211, 211, .3);}
-#half-gray, #half-gray-hover:hover    {color:rgba(211, 211, 211, .3);}
+.half-gray, .half-gray-hover:hover    {background-color:rgba(211, 211, 211, .4);}
+#half-gray, #half-gray-hover:hover    {color:rgba(211, 211, 211, .4);}
 .half-black, .half-black-hover:hover  {background-color:rgba(0, 0, 0, .5);}
 #half-black, #half-black-hover:hover  {color:rgba(0, 0, 0, .5);}
 
@@ -307,32 +304,32 @@ a.button-create:hover {
 #cyan, #cyan-hover:hover              {color:cyan;}
 
 input::-webkit-input-placeholder {
-  color:rgba(211, 211, 211, .2);
+  color:rgba(211, 211, 211, .3);
   padding: 0px;
   margin: 0px;
 }
 input::-moz-placeholder          {
-  color:rgba(211, 211, 211, .2);
+  color:rgba(211, 211, 211, .3);
   padding: 0px;
   margin: 0px;
 }
 input:-moz-placeholder           {
-  color:rgba(211, 211, 211, .2);
+  color:rgba(211, 211, 211, .3);
   padding: 0px;
   margin: 0px;
 }
 input:-ms-input-placeholder      {
-  color:rgba(211, 211, 211, .2);
+  color:rgba(211, 211, 211, .3);
   padding: 0px;
   margin: 0px;
   }
 
-input:hover::-webkit-input-placeholder {color: rgba(211, 211, 211, .3);}
-input:hover::-moz-placeholder          {color: rgba(211, 211, 211, .3);}
-input:hover:-moz-placeholder           {color: rgba(211, 211, 211, .3);}
-input:hover:-ms-input-placeholder      {color: rgba(211, 211, 211, .3);}
+input:hover::-webkit-input-placeholder {color: rgba(211, 211, 211, .4);}
+input:hover::-moz-placeholder          {color: rgba(211, 211, 211, .4);}
+input:hover:-moz-placeholder           {color: rgba(211, 211, 211, .4);}
+input:hover:-ms-input-placeholder      {color: rgba(211, 211, 211, .4);}
 
-input:focus::-webkit-input-placeholder {color: rgba(211, 211, 211, .3);}
-input:focus::-moz-placeholder          {color: rgba(211, 211, 211, .3);}
-input:focus:-moz-placeholder           {color: rgba(211, 211, 211, .3);}
-input:focus:-ms-input-placeholder      {color: rgba(211, 211, 211, .3);}
+input:focus::-webkit-input-placeholder {color: rgba(211, 211, 211, .4);}
+input:focus::-moz-placeholder          {color: rgba(211, 211, 211, .4);}
+input:focus:-moz-placeholder           {color: rgba(211, 211, 211, .4);}
+input:focus:-ms-input-placeholder      {color: rgba(211, 211, 211, .4);}
