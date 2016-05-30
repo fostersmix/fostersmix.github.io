@@ -44,7 +44,7 @@
     outline: none;
     width: 100%;
   }
-  .button-create-xs {background-color:blue;}
+  .button-create-xs {background-color:yellow;}
 }
 
 /*sm*/
@@ -94,7 +94,7 @@
     width: 100%;
   }
   .shadow-sm {box-shadow: inset 0.5em 0 0 blue;}
-  .button-create-sm {background-color:blue;}
+  .button-create-sm {background-color:yellow;}
 }
 
 /*md*/
