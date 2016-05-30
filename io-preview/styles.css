@@ -237,11 +237,11 @@ a.button-ready:hover {
   background: red;
 }
 a.button-end:link, a.button-end:visited, a.button-end:active {
-  color: black;
+  color: blue;
   font-weight: normal;
 	text-decoration: none;
-  border-right: 1px solid black;
-  border-bottom: 1px solid black;
+  border-right: 1px solid blue;
+  border-bottom: 1px solid blue;
   background: none;;
   border-radius: 0em;
   padding: 0.5em 1em;
