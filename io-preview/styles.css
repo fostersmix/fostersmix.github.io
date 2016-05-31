@@ -274,6 +274,8 @@ a.button-create:hover {
 .border-top     {border-top: 1px solid lightgray;}
 .border-bottom  {border-bottom: 1px solid lightgray;}
 
+.shadow   {box-shadow: 0em .2em .5em .2em rgba(211, 211, 211, .4);}
+.shadow2  {box-shadow: 0 6px 12px rgba(0, 0, 0, 0.09), 0 10px 40px rgba(0, 0, 0, 0.08);}
 .round    {border-radius: 10em;}
 .nowrap   {white-space: nowrap;}
 .line     {height:1px;}
@@ -294,9 +296,9 @@ a.button-create:hover {
     width: 100%;
     height:0;
     padding-bottom: 100%;
-    background: yellow; 
-    -moz-border-radius: 50%; 
-    -webkit-border-radius: 50%; 
+    background: yellow;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
     border-radius: 50%;
 }
 .circle-text div {
