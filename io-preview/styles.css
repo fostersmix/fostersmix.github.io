@@ -215,7 +215,7 @@ a.button:link, a.button:visited, a.button:active {
   background: none;;
   border-radius: 0em;
   padding: 0.5em 1em;
-  line-height: 2.7;
+  line-height: 2.45;
   white-space:nowrap;
 }
 a.button:hover {
@@ -229,7 +229,7 @@ a.button-ready:link, a.button-ready:visited, a.button-ready:active {
   background: blue;
   border-radius: 0em;
   padding: 0.5em 1em;
-  line-height: 2.7;
+  line-height: 2.45;
   white-space:nowrap;
 }
 a.button-ready:hover {
@@ -245,7 +245,7 @@ a.button-end:link, a.button-end:visited, a.button-end:active {
   background: none;;
   border-radius: 0em;
   padding: 0.5em 1em;
-  line-height: 2.7;
+  line-height: 2.45;
   white-space:nowrap;
 }
 a.button-end:hover {
@@ -261,7 +261,7 @@ a.button-create:link, a.button-create:visited, a.button-create:active {
   background: white;
   border-radius: 0em;
   padding: 0.5em 1em;
-  line-height: 2.7;
+  line-height: 2.45;
   white-space:nowrap;
 }
 a.button-create:hover {
