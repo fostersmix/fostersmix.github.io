@@ -26,11 +26,11 @@
     margin: 0;
   }
   #logo {
-    font-size: 3em;
+    font-size: 1em;
     font-family: Arial, sans-serif;
-    font-weight: bold;
+    font-weight: normal;
     margin: 0;
-    color:blue;
+    color:black;
   }
   input {
     background-color: white;
@@ -75,11 +75,11 @@
     margin: 0;
   }
   #logo {
-    font-size: 3em;
+    font-size: 1em;
     font-family: Arial, sans-serif;
-    font-weight: bold;
+    font-weight: normal;
     margin: 0;
-    color:blue;
+    color:black;
   }
   input {
     background-color: white;
@@ -93,7 +93,7 @@
     outline: none;
     width: 100%;
   }
-  .shadow-sm {box-shadow: inset 0.5em 0 0 blue;}
+  .shadow-sm {box-shadow: inset 0.5em 0 0 white;}
   .button-create-sm {background-color:yellow;}
 }
 
@@ -125,11 +125,11 @@
     margin: 0;
   }
   #logo {
-    font-size: 4em;
+    font-size: 1em;
     font-family: Arial, sans-serif;
-    font-weight: bold;
+    font-weight: normal;
     margin: 0;
-    color:blue;
+    color:black;
   }
   input {
     background-color: white;
@@ -177,11 +177,11 @@
     margin: 0;
   }
   #logo {
-    font-size: 5em;
+    font-size: 1em;
     font-family: Arial, sans-serif;
-    font-weight: bold;
+    font-weight: normal;
     margin: 0;
-    color:white;
+    color:black;
   }
   input {
     background-color: white;
