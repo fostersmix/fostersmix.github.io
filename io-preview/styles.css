@@ -289,7 +289,9 @@ a.button-create:hover {
   height: 100%;
   min-height:100%;
 }
-
+.gradient {
+  background: linear-gradient(to top, blue, cyan);
+}
 /*
 .circle-text {
     width:6em;
@@ -338,6 +340,14 @@ a.button-create:hover {
 #yellow, #yellow-hover:hover          {color:yellow;}
 .cyan, .cyan-hover:hover              {background-color:cyan;}
 #cyan, #cyan-hover:hover              {color:cyan;}
+
+
+.blue      {color:blue;}
+.lightblue {color:rgba(101, 31, 255, 1);}
+.lightblue {color:rgba(93, 53, 240, 1);}
+.lightblue {color:rgba(0, 132, 255, 1);}
+
+
 
 input::-webkit-input-placeholder {
   color:rgba(211, 211, 211, .3);
