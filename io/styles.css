@@ -155,7 +155,7 @@
     padding-bottom: 0.3rem;
     margin: 0px;
     border: 0px;
-    font-size: 5em;
+    font-size: 2.5em;
     font-family: Arial, sans-serif;
     font-weight: bold;
     outline: none;
@@ -187,21 +187,21 @@ a.button:hover {
   border: 0px solid black;
 }
 a.button-ready:link, a.button-ready:visited, a.button-ready:active {
-  color: white;
+  color: black;
   font-weight: normal;
 	text-decoration: none;
   border: 1px solid yellow;
   background: yellow;
   border-radius: 0em;
-  padding: 0.4em 0.8em;
-  line-height: 2;
+  padding: 0.3em 0.6em;
+  line-height: 1.8;
   white-space:nowrap;
-  font-size: 6em; /* 2,5em = 40px */
+  font-size: 5em; /* 2,5em = 40px */
   font-family: Arial, sans-serif;
   font-weight: bold;
 }
 a.button-ready:hover {
-  color: white;
+  color: black;
   border: 1px solid yellow;
   background: yellow;
   text-decoration: line-through;
@@ -219,9 +219,9 @@ a.button-end:link, a.button-end:visited, a.button-end:active {
   white-space:nowrap;
 }
 a.button-end:hover {
-  color: #9400D3;
-  border-right: 1px solid #9400D3;
-  border-bottom: 1px solid #9400D3;
+  color: black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
 }
 a.button-create:link, a.button-create:visited, a.button-create:active {
   color: black;
@@ -252,6 +252,7 @@ a.button-create:hover {
   height: 100%;
   min-height:100%;
 }
+.gradient {background: linear-gradient(to bottom, transparent, rgba(211, 211, 211, .3), lightgray);}
 
 .none, .none-hover:hover              {background-color:rgba(255, 255, 255, 0);}
 #none, #none-hover:hover              {color:rgba(255, 255, 255, 0);}
@@ -275,8 +276,8 @@ a.button-create:hover {
 .yellow, .yellow-hover:hover          {background-color:yellow;}
 #yellow, #yellow-hover:hover          {color:yellow;}
 
-.plus, .plus-hover:hover          {background-color: #9400D3;}
-#plus, #plus-hover:hover          {color:#9400D3;}
+.cyan, .cyan-hover:hover          {background-color: cyan;}
+#cyan, #cyan-hover:hover          {color:cyan;}
 
 input::-webkit-input-placeholder {
   color:rgba(211, 211, 211, .2);
