@@ -186,7 +186,7 @@
   .top-big      {padding-top: 4em;}
   .top          {padding-top: 2em;}
   .top-small    {padding-top: 1em;}
-  .bottom-big   {padding-bottom: 4em;}
+  .bottom-big   {padding-bottom: 3em;}
   .bottom       {padding-bottom: 2em;}
   .bottom-small {padding-bottom: 1em;}
 }
@@ -207,8 +207,18 @@ a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
   line-height: 2.45;
 }
 
+a.add:link, a.add:visited, a.add:hover, a.add:active {
+  color: gray;
+  font-weight: normal;
+	text-decoration: none;
+  border: 1px solid white;
+  background: white;
+  padding: 0.5em 1em;
+  line-height: 2.45;
+}
+
 a.button:link, a.button:visited, a.button:active {
-  color: black;
+  color: white;
 	text-decoration: none;
   background: none;;
   border-radius: 0em;
@@ -225,7 +235,9 @@ a.button:hover {
 }
 
 .round {border-radius: 100% 100% 0 0 ;}
-.shadow   {box-shadow: 0 .3em .5em 0em rgba(211, 211, 211, .5);}
+.shadow   {box-shadow: inset 0 2.5em 0em 0em #20AA5B;}
+.shadow2   {box-shadow: 0 -0.5em 1em 0em rgba(0, 0, 0, .15);}
+.gradient {background: linear-gradient(to top, transparent, #20AA5B 50%, #20AA5B);}
 .border-left    {border-left: 1px solid lightgray;}
 .border-right   {border-right: 1px solid lightgray;}
 .border-top     {border-top: 1px solid lightgray;}
@@ -254,13 +266,13 @@ a.button:hover {
 #black, #black-hover:hover            {color:black;}
 .blue, .blue-hover:hover              {background-color:blue;}
 #blue, #blue-hover:hover              {color:blue;}
-.red, .red-hover:hover                {background-color:red;}
-#red, #red-hover:hover                {color:red;}
+.red, .red-hover:hover                {background-color:#801F35;}
+#red, #red-hover:hover                {color:#801F35;}
 .yellow, .yellow-hover:hover          {background-color:yellow;}
 #yellow, #yellow-hover:hover          {color:yellow;}
 
-.cyan, .cyan-hover:hover          {background-color: cyan;}
-#cyan, #cyan-hover:hover          {color:cyan;}
+.cyan, .cyan-hover:hover          {background-color: #20AA5B;}
+#cyan, #cyan-hover:hover          {color:#20AA5B;}
 
 input::-webkit-input-placeholder {
   color:rgba(211, 211, 211, .2);
