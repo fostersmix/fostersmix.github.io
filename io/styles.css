@@ -87,9 +87,9 @@
   .top-big      {padding-top: 1em;}
   .top          {padding-top: 1em;}
   .top-small    {padding-top: .5em;}
-  .bottom-big   {padding-bottom: .5em;}
+  .bottom-big   {padding-bottom: 1em;}
   .bottom       {padding-bottom: 1em;}
-  .bottom-small {padding-bottom: 1em;}
+  .bottom-small {padding-bottom: .5em;}
 }
 
 /*md*/
@@ -179,9 +179,11 @@
     outline: none;
     width: 100%;
   }
-  .top          {padding-top: 2em;}
+  .top-big      {padding-top: 2em;}
+  .top          {padding-top: 1em;}
   .top-small    {padding-top: 1em;}
-  .bottom       {padding-bottom: 2em;}
+  .bottom-big   {padding-bottom: 2em;}
+  .bottom       {padding-bottom: 1em;}
   .bottom-small {padding-bottom: 1em;}
 }
 
