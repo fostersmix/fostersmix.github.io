@@ -122,12 +122,13 @@
   input {
     background-color: white;
     color:black;
-    padding-bottom: 0.3rem;
+    padding: 0.2em 1em;
     margin: 0px;
-    border: 0px;
-    font-size: 4em;
+    border: 1px solid gray;
+    border-radius: 5em;
+    font-size: 1em;
     font-family: Arial, sans-serif;
-    font-weight: bold;
+    font-weight: normal;
     outline: none;
     width: 100%;
   }
@@ -174,12 +175,13 @@
   input {
     background-color: white;
     color:black;
-    padding-bottom: 0.3rem;
+    padding: 0.2em 1em;
     margin: 0px;
-    border: 0px;
-    font-size: 5em;
+    border: 1px solid gray;
+    border-radius: 5em;
+    font-size: 1em;
     font-family: Arial, sans-serif;
-    font-weight: bold;
+    font-weight: normal;
     outline: none;
     width: 100%;
   }
@@ -241,7 +243,7 @@ a.button:hover {
 .border-left    {border-left: 1px solid lightgray;}
 .border-right   {border-right: 1px solid lightgray;}
 .border-top     {border-top: 1px solid lightgray;}
-.border-top-dot     {border-top: .5em dotted yellow;}
+.border-top-dot     {border-top: 1px dotted lightgray;}
 .border-bottom  {border-bottom: 1px solid lightgray;}
 
 .line     {height:1px;}
@@ -275,32 +277,32 @@ a.button:hover {
 #cyan, #cyan-hover:hover          {color:#20AA5B;}
 
 input::-webkit-input-placeholder {
-  color:rgba(211, 211, 211, .2);
+  color:gray;
   padding: 0px;
   margin: 0px;
 }
 input::-moz-placeholder          {
-  color:rgba(211, 211, 211, .2);
+  color:gray;
   padding: 0px;
   margin: 0px;
 }
 input:-moz-placeholder           {
-  color:rgba(211, 211, 211, .2);
+  color:gray;
   padding: 0px;
   margin: 0px;
 }
 input:-ms-input-placeholder      {
-  color:rgba(211, 211, 211, .2);
+  color:gray;
   padding: 0px;
   margin: 0px;
   }
 
-input:hover::-webkit-input-placeholder {color: rgba(211, 211, 211, .3);}
-input:hover::-moz-placeholder          {color: rgba(211, 211, 211, .3);}
-input:hover:-moz-placeholder           {color: rgba(211, 211, 211, .3);}
-input:hover:-ms-input-placeholder      {color: rgba(211, 211, 211, .3);}
+input:hover::-webkit-input-placeholder {color: gray;}
+input:hover::-moz-placeholder          {color: gray;}
+input:hover:-moz-placeholder           {color: gray;}
+input:hover:-ms-input-placeholder      {color: gray;}
 
-input:focus::-webkit-input-placeholder {color: rgba(211, 211, 211, .3);}
-input:focus::-moz-placeholder          {color: rgba(211, 211, 211, .3);}
-input:focus:-moz-placeholder           {color: rgba(211, 211, 211, .3);}
-input:focus:-ms-input-placeholder      {color: rgba(211, 211, 211, .3);}
+input:focus::-webkit-input-placeholder {color: gray;}
+input:focus::-moz-placeholder          {color: gray;}
+input:focus:-moz-placeholder           {color: gray;}
+input:focus:-ms-input-placeholder      {color: gray;}
