@@ -123,6 +123,7 @@
     font-family: Arial, sans-serif;
     font-weight: bold;
     margin: 0;
+    
   }
   #logo {
     font-size: 1em;
@@ -169,12 +170,14 @@
     font-family: Arial, sans-serif;
     font-weight: bold;
     margin: 0;
+    display:inline;
   }
   h1 {
     font-size: 5em; /* 5em = 80px */
     font-family: Arial, sans-serif;
     font-weight: bold;
     margin: 0;
+    display:inline;
   }
   #logo {
     font-size: 1em;
@@ -195,7 +198,7 @@
     outline: none;
     width: 100%;
   }
-  .shadow-lg {box-shadow: inset 0.5em 0 0 blue;}
+  .shadow-lg {box-shadow: inset 0.5em 0 0 blue ;}
   .button-create-lg {background-color:yellow;}
   .top-big     {padding-top: 3em;}
   .bottom-big   {padding-bottom: 3em;}
@@ -205,6 +208,22 @@ a:link, a:visited, a:hover, a:active {
   color: black;
   font-weight: normal;
 	text-decoration: none;
+}
+
+a.button2:link, a.button2:visited, a.button2:active {
+  color: white;
+	text-decoration: none;
+  border: 1px solid yellow;
+  background: yellow;
+  border-radius: 0em;
+  padding: 0.3em 0.6em;
+  line-height: 1.8;
+  white-space:nowrap;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
+a.button2:hover {
+  text-decoration: line-through;
 }
 
 a.button:link, a.button:visited, a.button:active {
@@ -235,6 +254,7 @@ a.button-ready:link, a.button-ready:visited, a.button-ready:active {
 a.button-ready:hover {
   border: 1px solid red;
   background: red;
+  text-decoration: line-through;
 }
 a.button-end:link, a.button-end:visited, a.button-end:active {
   color: blue;
