@@ -291,11 +291,33 @@ a.button-create:hover {
   background: white;
 }
 
+.btn-end {
+  color: blue;
+  font-weight: normal;
+	text-decoration: none;
+  border-right: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  background: none;;
+  border-radius: 0em;
+  padding: 0.5em 1em;
+  line-height: 2.45;
+  box-sizing: border-box;
+}
+
+.btn-end:hover {
+  color: blue;
+  border-right: 1px solid blue;
+  border-bottom: 1px solid blue;
+  background: white;
+}
+
 .border         {border: 1px solid lightgray;}
 .border-left    {border-left: 1px solid lightgray;}
 .border-right   {border-right: 1px solid lightgray;}
 .border-top     {border-top: 1px solid lightgray;}
 .border-bottom  {border-bottom: 1px solid lightgray;}
+
+.border-top-dot     {border-top: 1px dotted lightgray;}
 
 .ws       {word-spacing: 0.2em;}
 .shadow   {box-shadow: 0em .2em .5em .2em rgba(211, 211, 211, .4);}
