@@ -188,7 +188,7 @@
   }
   input {
     background-color: white;
-    color:black;
+    color:blue;
     padding-bottom: 0.3rem;
     margin: 0px;
     border: 0px;
@@ -371,32 +371,32 @@ a.button-create:hover {
 
 
 input::-webkit-input-placeholder {
-  color:rgba(211, 211, 211, .3);
+  color:black;
   padding: 0px;
   margin: 0px;
 }
 input::-moz-placeholder          {
-  color:rgba(211, 211, 211, .3);
+  color:black;
   padding: 0px;
   margin: 0px;
 }
 input:-moz-placeholder           {
-  color:rgba(211, 211, 211, .3);
+  color:black;
   padding: 0px;
   margin: 0px;
 }
 input:-ms-input-placeholder      {
-  color:rgba(211, 211, 211, .3);
+  color:black;
   padding: 0px;
   margin: 0px;
   }
 
-input:hover::-webkit-input-placeholder {color: rgba(211, 211, 211, .4);}
-input:hover::-moz-placeholder          {color: rgba(211, 211, 211, .4);}
-input:hover:-moz-placeholder           {color: rgba(211, 211, 211, .4);}
-input:hover:-ms-input-placeholder      {color: rgba(211, 211, 211, .4);}
+input:hover::-webkit-input-placeholder {color: blue}
+input:hover::-moz-placeholder          {color: blue}
+input:hover:-moz-placeholder           {color: blue}
+input:hover:-ms-input-placeholder      {color: blue}
 
-input:focus::-webkit-input-placeholder {color: rgba(211, 211, 211, .4);}
-input:focus::-moz-placeholder          {color: rgba(211, 211, 211, .4);}
-input:focus:-moz-placeholder           {color: rgba(211, 211, 211, .4);}
-input:focus:-ms-input-placeholder      {color: rgba(211, 211, 211, .4);}
+input:focus::-webkit-input-placeholder {color: blue}
+input:focus::-moz-placeholder          {color: blue}
+input:focus:-moz-placeholder           {color: blue}
+input:focus:-ms-input-placeholder      {color: blue}
