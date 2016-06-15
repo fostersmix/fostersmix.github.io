@@ -123,7 +123,7 @@
     font-family: Arial, sans-serif;
     font-weight: bold;
     margin: 0;
-    
+
   }
   #logo {
     font-size: 1em;
@@ -211,13 +211,14 @@ a:link, a:visited, a:hover, a:active {
 }
 
 a.button2:link, a.button2:visited, a.button2:active {
-  color: white;
+  color: blue;
 	text-decoration: none;
-  border: 1px solid yellow;
-  background: yellow;
+  border: 1px solid white;
+  background: white;
   border-radius: 0em;
-  padding: 0.3em 0.6em;
+  padding: 0em 0em;
   line-height: 1.8;
+  font-size: 2.5em; /* 2,5em = 40px */
   white-space:nowrap;
   font-family: Arial, sans-serif;
   font-weight: bold;
