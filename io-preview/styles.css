@@ -211,7 +211,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 a.solid:link, a.solid:visited, a.solid:hover, a.solid:active {
-  color: black;
+  color: gray;
   font-weight: normal;
 	text-decoration: none;
   border-bottom: 1px solid lightgray;
