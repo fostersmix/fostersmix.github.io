@@ -269,6 +269,17 @@ a.end:link, a.end:visited, a.end:hover, a.end:active {
   white-space:nowrap;
 }
 
+.tag {
+  color: blue;
+  font-weight: normal;
+	text-decoration: none;
+  border-right: 1px solid blue;
+  border-bottom: 1px solid blue;
+  background: none;;
+  padding: 0.5em 1em;
+  border-radius: 0em;
+}
+
 .border         {border: 1px solid lightgray;}
 .border-left    {border-left: 1px solid lightgray;}
 .border-right   {border-right: 1px solid lightgray;}
