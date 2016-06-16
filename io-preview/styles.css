@@ -269,27 +269,22 @@ a.end:link, a.end:visited, a.end:hover, a.end:active {
   white-space:nowrap;
 }
 
-a.tag2:link, a.tag2:visited, a.tag2:hover, a.tag2:active {
-  color: blue;
+a.tag:link, a.tag:visited, a.tag:active {
+  color: black;
   font-weight: normal;
 	text-decoration: none;
-  border-right: 1px solid blue;
-  border-bottom: 1px solid blue;
+  border-right: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
   background: none;;
   border-radius: 0em;
   padding: 1em 1em;
   line-height: 4;
 }
 
-.tag {
+a.tag:hover {
   color: blue;
-  font-weight: normal;
-	text-decoration: none;
   border-right: 1px solid blue;
   border-bottom: 1px solid blue;
-  background: none;;
-  padding: 0.5em 1em;
-  border-radius: 0em;
 }
 
 .border         {border: 1px solid lightgray;}
@@ -299,7 +294,7 @@ a.tag2:link, a.tag2:visited, a.tag2:hover, a.tag2:active {
 .border-bottom  {border-bottom: 1px solid lightgray;}
 
 .ws       {word-spacing: 0.5em;}
-.shadow   {box-shadow: 0em .2em .5em .2em rgba(211, 211, 211, .4);}
+.shadow   {box-shadow: inset 0em .1em .2em .1em rgba(211, 211, 211, .5);}
 .shadow2  {box-shadow: 0 0.15em 0.4em rgba(0, 0, 0, 0.1);}
 .shadow3  {box-shadow: 0 6px 12px rgba(0, 0, 0, 0.09), 0 10px 40px rgba(0, 0, 0, 0.08);}
 .round    {border-radius: 10em;}
@@ -311,40 +306,13 @@ a.tag2:link, a.tag2:visited, a.tag2:hover, a.tag2:active {
   height: 100%;
   min-height:100%;
 }
-.gradient {
-  background: linear-gradient(to top, blue, cyan);
-}
-/*
-.circle-text {
-    width:6em;
-}
-.circle-text:after {
-    content: "";
-    display: block;
-    width: 100%;
-    height:0;
-    padding-bottom: 100%;
-    background: yellow;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-}
-.circle-text div {
-    float:left;
-    width:100%;
-    padding-top:50%;
-    line-height:1em;
-    margin-top:-0.5em;
-    text-align:center;
-    color:black;
-}-*/
 
 .none, .none-hover:hover              {background-color:rgba(255, 255, 255, 0);}
 #none, #none-hover:hover              {color:rgba(255, 255, 255, 0);}
 .half-white, .half-white-hover:hover  {background-color:rgba(255, 255, 255, .5);}
 #half-white, #half-white-hover:hover  {color:rgba(255, 255, 255, 0.5);}
-.half-gray, .half-gray-hover:hover    {background-color:rgba(211, 211, 211, .3);}
-#half-gray, #half-gray-hover:hover    {color:rgba(211, 211, 211, .3);}
+.half-gray, .half-gray-hover:hover    {background-color:rgba(211, 211, 211, .2);}
+#half-gray, #half-gray-hover:hover    {color:rgba(211, 211, 211, .2);}
 .half-black, .half-black-hover:hover  {background-color:rgba(0, 0, 0, .5);}
 #half-black, #half-black-hover:hover  {color:rgba(0, 0, 0, .5);}
 
@@ -352,6 +320,8 @@ a.tag2:link, a.tag2:visited, a.tag2:hover, a.tag2:active {
 #white, #white-hover:hover            {color:white;}
 .gray, .gray-hover:hover              {background-color:lightgray;}
 #gray, #gray-hover:hover              {color:lightgray;}
+.darkgray, .darkgray-hover:hover      {background-color:gray;}
+#darkgray, #darkgray-hover:hover      {color:gray;}
 .black, .black-hover:hover            {background-color:black;}
 #black, #black-hover:hover            {color:black;}
 .blue, .blue-hover:hover              {background-color:blue;}
@@ -392,12 +362,12 @@ input:-ms-input-placeholder      {
   margin: 0px;
   }
 
-input:hover::-webkit-input-placeholder {color: blue}
-input:hover::-moz-placeholder          {color: blue}
-input:hover:-moz-placeholder           {color: blue}
-input:hover:-ms-input-placeholder      {color: blue}
+input:hover::-webkit-input-placeholder {color: blue;}
+input:hover::-moz-placeholder          {color: blue;}
+input:hover:-moz-placeholder           {color: blue;}
+input:hover:-ms-input-placeholder      {color: blue;}
 
-input:focus::-webkit-input-placeholder {color: blue}
-input:focus::-moz-placeholder          {color: blue}
-input:focus:-moz-placeholder           {color: blue}
-input:focus:-ms-input-placeholder      {color: blue}
+input:focus::-webkit-input-placeholder {color: blue;}
+input:focus::-moz-placeholder          {color: blue;}
+input:focus:-moz-placeholder           {color: blue;}
+input:focus:-ms-input-placeholder      {color: blue;}
