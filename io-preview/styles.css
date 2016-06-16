@@ -224,6 +224,10 @@ a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
   border-bottom: 1px dotted black;
 }
 
+.dot {
+  border-bottom: 1px dotted blue;
+}
+
 a.ready:link, a.ready:visited, a.ready:active {
   color: white;
   font-weight: normal;
@@ -287,7 +291,7 @@ a.tag:hover {
   border-bottom: 1px solid blue;
 }
 
-.border         {border: 1px solid lightgray;}
+.border         {border: 1px dotted lightgray;}
 .border-left    {border-left: 1px solid lightgray;}
 .border-right   {border-right: 1px solid lightgray;}
 .border-top     {border-top: 1px solid lightgray;}
@@ -311,8 +315,8 @@ a.tag:hover {
 #none, #none-hover:hover              {color:rgba(255, 255, 255, 0);}
 .half-white, .half-white-hover:hover  {background-color:rgba(255, 255, 255, .5);}
 #half-white, #half-white-hover:hover  {color:rgba(255, 255, 255, 0.5);}
-.half-gray, .half-gray-hover:hover    {background-color:rgba(211, 211, 211, .2);}
-#half-gray, #half-gray-hover:hover    {color:rgba(211, 211, 211, .2);}
+.half-gray, .half-gray-hover:hover    {background-color:rgba(211, 211, 211, .1);}
+#half-gray, #half-gray-hover:hover    {color:rgba(211, 211, 211, .1);}
 .half-black, .half-black-hover:hover  {background-color:rgba(0, 0, 0, .5);}
 #half-black, #half-black-hover:hover  {color:rgba(0, 0, 0, .5);}
 
@@ -339,7 +343,12 @@ a.tag:hover {
 .lightblue {color:rgba(93, 53, 240, 1);}
 .lightblue {color:rgba(0, 132, 255, 1);}
 
-
+#triangle-topleft {
+	width: 0;
+	height: 0;
+	border-top: 1em solid transparent;		
+  border-right: 1em solid white; 	
+}
 
 input::-webkit-input-placeholder {
   color:black;
