@@ -286,12 +286,12 @@ a.tag:link, a.tag:visited, a.tag:active {
 }
 
 a.tag:hover {
-  color: blue;
-  border-right: 1px solid blue;
-  border-bottom: 1px solid blue;
+  color: orangered;
+  border-right: 1px solid orangered;
+  border-bottom: 1px solid orangered;
 }
 
-.border         {border: 1px dotted lightgray;}
+.border         {border: 1px solid orangered;}
 .border-left    {border-left: 1px solid lightgray;}
 .border-right   {border-right: 1px solid lightgray;}
 .border-top     {border-top: 1px solid lightgray;}
@@ -330,18 +330,13 @@ a.tag:hover {
 #black, #black-hover:hover            {color:black;}
 .blue, .blue-hover:hover              {background-color:blue;}
 #blue, #blue-hover:hover              {color:blue;}
-.red, .red-hover:hover                {background-color:red;}
-#red, #red-hover:hover                {color:red;}
+.red, .red-hover:hover                {background-color:orangered;}
+#red, #red-hover:hover                {color:orangered;}
 .yellow, .yellow-hover:hover          {background-color:yellow;}
 #yellow, #yellow-hover:hover          {color:yellow;}
 .cyan, .cyan-hover:hover              {background-color:cyan;}
 #cyan, #cyan-hover:hover              {color:cyan;}
 
-
-.blue      {color:blue;}
-.lightblue {color:rgba(101, 31, 255, 1);}
-.lightblue {color:rgba(93, 53, 240, 1);}
-.lightblue {color:rgba(0, 132, 255, 1);}
 
 #triangle-topleft {
 	width: 0;
