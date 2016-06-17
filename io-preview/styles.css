@@ -293,7 +293,7 @@ a.tag:hover {
   border-right: 1px solid orangered;
   border-bottom: 1px solid orangered;
 }
-
+.padding-new    {padding: .5em 1em;}
 .border         {border: 1px solid orangered;}
 .border-left    {border-left: 1px solid lightgray;}
 .border-right   {border-right: 1px solid lightgray;}
@@ -309,6 +309,8 @@ a.tag:hover {
 .line     {height:1px;}
 .top      {padding-top: 1em;}
 .bottom   {padding-bottom: 1em;}
+.top-small      {padding-top: .5em;}
+.bottom-small   {padding-bottom: .5em;}
 .screen   {
   height: 100%;
   min-height:100%;
@@ -344,8 +346,8 @@ a.tag:hover {
 #triangle-topleft {
 	width: 0;
 	height: 0;
-	border-top: 1em solid transparent;		
-  border-left: 1em solid orangered;	
+	border-top: 1em solid transparent;
+  border-left: 1em solid orangered;
 }
 
 input::-webkit-input-placeholder {
