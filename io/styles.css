@@ -26,11 +26,11 @@
     margin: 0;
   }
   input {
-    background-color: white;
+    background-color: none;
     color:black;
     padding: 0.2em 1em;
     margin: 0px;
-    border: 1px solid lightgray;
+    border: 1px solid gray;
     border-radius: 5em;
     font-size: 1em;
     font-family: Arial, sans-serif;
@@ -74,11 +74,11 @@
     margin: 0;
   }
   input {
-    background-color: white;
+    background-color: none;
     color:black;
     padding: 0.2em 1em;
     margin: 0px;
-    border: 1px solid lightgray;
+    border: 1px solid gray;
     border-radius: 5em;
     font-size: 1em;
     font-family: Arial, sans-serif;
@@ -122,11 +122,11 @@
     margin: 0;
   }
   input {
-    background-color: white;
+    background-color: none;
     color:black;
     padding: 0.2em 1em;
     margin: 0px;
-    border: 1px solid lightgray;
+    border: 1px solid gray;
     border-radius: 5em;
     font-size: 1em;
     font-family: Arial, sans-serif;
@@ -175,7 +175,7 @@
     color: black;
   }
   input {
-    background-color: white;
+    background-color: none;
     color:black;
     padding: 0.2em 1em;
     margin: 0px;
@@ -195,10 +195,10 @@
   }
   .top-big      {padding-top: 4em;}
   .top          {padding-top: 1em;}
-  .top-small    {padding-top: 1em;}
+  .top-small    {padding-top: .5em;}
   .bottom-big   {padding-bottom: 4em;}
   .bottom       {padding-bottom: 2em;}
-  .bottom-small {padding-bottom: 1em;}
+  .bottom-small {padding-bottom: .5em;}
 }
 
 a:link, a:visited, a:hover, a:active {
@@ -304,6 +304,9 @@ a.delete:hover {
 #cyan, #cyan-hover:hover          {color:#20AA5B;}
 .orange, .orange-hover:hover          {background-color:orangered;}
 #orange, #orange-hover:hover          {color:orangered;}
+.tele, .tele-hover:hover          {background-color:rgba(31, 34, 42, 1);}
+#tele, #tele-hover:hover          {color:rgba(31, 34, 42, 1);}
+
 
 input::-webkit-input-placeholder {
   color:lightgray;
