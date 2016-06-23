@@ -177,7 +177,7 @@
     color:black;
     padding: 0.2em 1em;
     margin: 0px;
-    border: 1px solid gray;
+    border: 1px solid lightgray;
     border-radius: 5em;
     font-size: 1em;
     font-family: Arial, sans-serif;
@@ -186,9 +186,9 @@
     width: 100%;
   }
   .top-big      {padding-top: 4em;}
-  .top          {padding-top: 2em;}
+  .top          {padding-top: 1em;}
   .top-small    {padding-top: 1em;}
-  .bottom-big   {padding-bottom: 3em;}
+  .bottom-big   {padding-bottom: 4em;}
   .bottom       {padding-bottom: 2em;}
   .bottom-small {padding-bottom: 1em;}
 }
@@ -210,31 +210,51 @@ a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
 }
 
 a.add:link, a.add:visited, a.add:hover, a.add:active {
-  color: gray;
+  color: orangered;
   font-weight: normal;
 	text-decoration: none;
+  font-size: 1em;
   border: 1px solid white;
-  background: white;
-  padding: 0.5em 1em;
-  line-height: 2.45;
+  border-radius: 10em;
+  background: none;
+  padding: .5em 1em;
+  line-height: 1.5em;
 }
 
 a.button:link, a.button:visited, a.button:active {
-  color: white;
+  color: lightgray;
 	text-decoration: none;
   background: none;;
-  border-radius: 0em;
   line-height: 1;
   font-family: Arial, sans-serif;
-  font-weight: bold;
-  margin: 0;
-  display:inline;
-  white-space:nowrap;
+  font-size: 2em;
+  font-weight: normal;
+  margin: 0em;
+  padding: .3em;
+  line-height: 1.5em;
 }
 
 a.button:hover {
+  color:orangered;
+}
+
+a.delete:link, a.delete:visited, a.delete:active {
+  color: black;
+	text-decoration: none;
+  background: none;;
+  line-height: 1;
+  font-family: Arial, sans-serif;
+  font-size: 2em;
+  font-weight: normal;
+  margin: 0em;
+  padding: .3em;
+  line-height: 1.5em;
+}
+
+a.delete:hover {
   text-decoration: line-through;
 }
+
 
 .round {border-radius: 100% 100% 0 0 ;}
 .shadow   {box-shadow: inset 0 2.5em 0em 0em #20AA5B;}
@@ -248,7 +268,6 @@ a.button:hover {
 
 .line     {height:1px;}
 .screen   {
-  height: 100%;
   min-height:100%;
 }
 .none, .none-hover:hover              {background-color:rgba(255, 255, 255, 0);}
@@ -275,34 +294,36 @@ a.button:hover {
 
 .cyan, .cyan-hover:hover          {background-color: #20AA5B;}
 #cyan, #cyan-hover:hover          {color:#20AA5B;}
+.orange, .orange-hover:hover          {background-color:orangered;}
+#orange, #orange-hover:hover          {color:orangered;}
 
 input::-webkit-input-placeholder {
-  color:gray;
+  color:lightgray;
   padding: 0px;
   margin: 0px;
 }
 input::-moz-placeholder          {
-  color:gray;
+  color:lightgray;
   padding: 0px;
   margin: 0px;
 }
 input:-moz-placeholder           {
-  color:gray;
+  color:lightgray;
   padding: 0px;
   margin: 0px;
 }
 input:-ms-input-placeholder      {
-  color:gray;
+  color:lightgray;
   padding: 0px;
   margin: 0px;
   }
 
-input:hover::-webkit-input-placeholder {color: gray;}
-input:hover::-moz-placeholder          {color: gray;}
-input:hover:-moz-placeholder           {color: gray;}
-input:hover:-ms-input-placeholder      {color: gray;}
+input:hover::-webkit-input-placeholder {color: lightgray;}
+input:hover::-moz-placeholder          {color: lightgray;}
+input:hover:-moz-placeholder           {color: lightgray;}
+input:hover:-ms-input-placeholder      {color: lightgray;}
 
-input:focus::-webkit-input-placeholder {color: gray;}
-input:focus::-moz-placeholder          {color: gray;}
-input:focus:-moz-placeholder           {color: gray;}
-input:focus:-ms-input-placeholder      {color: gray;}
+input:focus::-webkit-input-placeholder {color: lightgray;}
+input:focus::-moz-placeholder          {color: lightgray;}
+input:focus:-moz-placeholder           {color: lightgray;}
+input:focus:-ms-input-placeholder      {color: lightgray;}
