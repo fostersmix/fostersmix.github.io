@@ -170,6 +170,20 @@
     margin: 0;
     display:inline;
   }
+  #connect {
+    background-color: transparent;
+    color:white;
+    padding: 0.2em 1em;
+    margin: 0px;
+    border: 0px solid white;
+    border-radius: 0em;
+    font-size: 10em;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    outline: none;
+    text-align: center;
+    width: 100%;
+  }
   #search {
     background-color: none;
     color:black;
