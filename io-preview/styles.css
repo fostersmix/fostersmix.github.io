@@ -325,6 +325,8 @@ a.add:link, a.add:visited, a.add:hover, a.add:active {
 #blue, #blue-hover:hover              {color:blue;}
 .orange, .orange-hover:hover          {background-color:orangered;}
 #orange, #orange-hover:hover          {color:orangered;}
+.tele, .tele-hover:hover          {background-color:rgba(31, 34, 42, 1);}
+#tele, #tele-hover:hover          {color:rgba(31, 34, 42, 1);}
 
 input::-webkit-input-placeholder {
   color:black;

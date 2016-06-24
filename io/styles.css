@@ -25,7 +25,7 @@
     font-weight: bold;
     margin: 0;
   }
-  input {
+  #search {
     background-color: none;
     color:black;
     padding: 0.2em 1em;
@@ -73,7 +73,7 @@
     font-weight: bold;
     margin: 0;
   }
-  input {
+  #search {
     background-color: none;
     color:black;
     padding: 0.2em 1em;
@@ -121,7 +121,7 @@
     font-weight: bold;
     margin: 0;
   }
-  input {
+  #search {
     background-color: none;
     color:black;
     padding: 0.2em 1em;
@@ -134,12 +134,12 @@
     outline: none;
     width: 100%;
   }
-  .top-big      {padding-top: 3em;}
-  .top          {padding-top: 2em;}
-  .top-small    {padding-top: 1em;}
-  .bottom-big   {padding-bottom: 3em;}
-  .bottom       {padding-bottom: 2em;}
-  .bottom-small {padding-bottom: 1em;}
+  .top-big      {padding-top: 2em;}
+  .top          {padding-top: 1em;}
+  .top-small    {padding-top: .5em;}
+  .bottom-big   {padding-bottom: 2em;}
+  .bottom       {padding-bottom: 1em;}
+  .bottom-small {padding-bottom: .5em;}
 }
 
 /*lg*/
@@ -170,16 +170,12 @@
     margin: 0;
     display:inline;
   }
-  #icon {
-    font-size: 5em;
-    color: black;
-  }
-  input {
+  #search {
     background-color: none;
     color:black;
     padding: 0.2em 1em;
     margin: 0px;
-    border: 1px solid lightgray;
+    border: 1px solid gray;
     border-radius: 5em;
     font-size: 1em;
     font-family: Arial, sans-serif;
@@ -187,17 +183,11 @@
     outline: none;
     width: 100%;
   }
-  #connect {
-    border: 0px solid orangered;
-    text-align: center; 
-    font-size: 2em;
-    color: orangered
-  }
-  .top-big      {padding-top: 4em;}
+  .top-big      {padding-top: 2em;}
   .top          {padding-top: 1em;}
   .top-small    {padding-top: .5em;}
-  .bottom-big   {padding-bottom: 4em;}
-  .bottom       {padding-bottom: 2em;}
+  .bottom-big   {padding-bottom: 2em;}
+  .bottom       {padding-bottom: 1em;}
   .bottom-small {padding-bottom: .5em;}
 }
 
@@ -207,29 +197,7 @@ a:link, a:visited, a:hover, a:active {
 	text-decoration: none;
 }
 
-a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
-  color: black;
-  font-weight: normal;
-	text-decoration: none;
-  border: 1px solid yellow;
-  background: yellow;
-  padding: 0.5em 1em;
-  line-height: 2.45;
-}
-
-a.add:link, a.add:visited, a.add:hover, a.add:active {
-  color: orangered;
-  font-weight: normal;
-	text-decoration: none;
-  font-size: 1em;
-  border: 1px solid white;
-  border-radius: 10em;
-  background: none;
-  padding: .5em 1em;
-  line-height: 1.5em;
-}
-
-a.button:link, a.button:visited, a.button:active {
+a.add:link, a.add:visited, a.add:active {
   color: lightgray;
 	text-decoration: none;
   background: none;;
@@ -241,12 +209,11 @@ a.button:link, a.button:visited, a.button:active {
   padding: .3em;
   line-height: 1.5em;
 }
-
-a.button:hover {
+a.add:hover {
   color:orangered;
 }
 
-a.delete:link, a.delete:visited, a.delete:active {
+a.del:link, a.del:visited, a.del:active {
   color: black;
 	text-decoration: none;
   background: none;;
@@ -258,83 +225,28 @@ a.delete:link, a.delete:visited, a.delete:active {
   padding: .3em;
   line-height: 1.5em;
 }
-
-a.delete:hover {
+a.del:hover {
   text-decoration: line-through;
 }
 
-
-.round {border-radius: 100% 100% 0 0 ;}
-.shadow   {box-shadow: inset 0 2.5em 0em 0em #20AA5B;}
-.shadow2   {box-shadow: inset 0 .5em 1em 0em rgba(0, 0, 0, .1);}
-.gradient {background: linear-gradient(to top, transparent, #20AA5B 50%, #20AA5B);}
+.line           {height:1px;}
+.screen         {min-height:100%;}
 .border-left    {border-left: 1px solid lightgray;}
 .border-right   {border-right: 1px solid lightgray;}
 .border-top     {border-top: 1px solid lightgray;}
-.border-top-dot     {border-top: 1px dotted lightgray;}
 .border-bottom  {border-bottom: 1px solid lightgray;}
 
-.line     {height:1px;}
-.screen   {
-  min-height:100%;
-}
 .none, .none-hover:hover              {background-color:rgba(255, 255, 255, 0);}
 #none, #none-hover:hover              {color:rgba(255, 255, 255, 0);}
-.half-white, .half-white-hover:hover  {background-color:rgba(255, 255, 255, .5);}
-#half-white, #half-white-hover:hover  {color:rgba(255, 255, 255, 0.5);}
-.half-gray, .half-gray-hover:hover    {background-color:rgba(211, 211, 211, .1);}
-#half-gray, #half-gray-hover:hover    {color:rgba(211, 211, 211, .1);}
-.half-black, .half-black-hover:hover  {background-color:rgba(0, 0, 0, .5);}
-#half-black, #half-black-hover:hover  {color:rgba(0, 0, 0, .5);}
-
 .white, .white-hover:hover            {background-color:white;}
 #white, #white-hover:hover            {color:white;}
-.gray, .gray-hover:hover              {background-color:lightgray;}
-#gray, #gray-hover:hover              {color:lightgray;}
+.lightgray, .lightgray-hover:hover    {background-color:lightgray;}
+#lightgray, #lightgray-hover:hover    {color:lightgray;}
+.gray, .gray-hover:hover              {background-color:gray;}
+#gray, #gray-hover:hover              {color:gray;}
 .black, .black-hover:hover            {background-color:black;}
 #black, #black-hover:hover            {color:black;}
-.blue, .blue-hover:hover              {background-color:blue;}
-#blue, #blue-hover:hover              {color:blue;}
-.red, .red-hover:hover                {background-color:#801F35;}
-#red, #red-hover:hover                {color:#801F35;}
-.yellow, .yellow-hover:hover          {background-color:yellow;}
-#yellow, #yellow-hover:hover          {color:yellow;}
-
-.cyan, .cyan-hover:hover          {background-color: #20AA5B;}
-#cyan, #cyan-hover:hover          {color:#20AA5B;}
+.black, .black-hover:hover            {background-color:black;}
+#black, #black-hover:hover            {color:black;}
 .orange, .orange-hover:hover          {background-color:orangered;}
 #orange, #orange-hover:hover          {color:orangered;}
-.tele, .tele-hover:hover          {background-color:rgba(31, 34, 42, 1);}
-#tele, #tele-hover:hover          {color:rgba(31, 34, 42, 1);}
-
-
-input::-webkit-input-placeholder {
-  color:lightgray;
-  padding: 0px;
-  margin: 0px;
-}
-input::-moz-placeholder          {
-  color:lightgray;
-  padding: 0px;
-  margin: 0px;
-}
-input:-moz-placeholder           {
-  color:lightgray;
-  padding: 0px;
-  margin: 0px;
-}
-input:-ms-input-placeholder      {
-  color:lightgray;
-  padding: 0px;
-  margin: 0px;
-  }
-
-input:hover::-webkit-input-placeholder {color: lightgray;}
-input:hover::-moz-placeholder          {color: lightgray;}
-input:hover:-moz-placeholder           {color: lightgray;}
-input:hover:-ms-input-placeholder      {color: lightgray;}
-
-input:focus::-webkit-input-placeholder {color: lightgray;}
-input:focus::-moz-placeholder          {color: lightgray;}
-input:focus:-moz-placeholder           {color: lightgray;}
-input:focus:-ms-input-placeholder      {color: lightgray;}
