@@ -158,7 +158,7 @@
     margin-bottom: 0;
   }
   h2 {
-    font-size: 2.5em; /* 2.5em = 40px */
+    font-size: 5em; /* 5em = 80px */
     font-family: Arial, sans-serif;
     font-weight: bold;
     margin: 0;
@@ -211,6 +211,21 @@ a:link, a:visited, a:hover, a:active {
 	text-decoration: none;
 }
 
+a.tag:link, a.tag:visited, a.tag:active {
+  color: orangered;
+	text-decoration: none;
+  background: white ;
+  border-radius: .4em;
+  line-height: 1;
+  font-family: Arial, sans-serif;
+  font-size: 5em;
+  font-weight: bold;
+  margin: 0em;
+  padding: .3em .8em;
+  line-height: 2em;
+  box-shadow: 0 0.1em 0.1em rgba(0, 0, 0, 0.15);
+}
+
 a.add:link, a.add:visited, a.add:active {
   color: lightgray;
 	text-decoration: none;
@@ -243,12 +258,14 @@ a.del:hover {
   text-decoration: line-through;
 }
 
+.ws             {word-spacing: 1em;}
 .line           {height:1px;}
 .screen         {min-height:100%;}
 .border-left    {border-left: 1px solid lightgray;}
 .border-right   {border-right: 1px solid lightgray;}
 .border-top     {border-top: 1px solid lightgray;}
 .border-bottom  {border-bottom: 1px solid lightgray;}
+.shadow         {box-shadow: 0 0.15em 0.4em rgba(0, 0, 0, 0.1);}
 
 .none, .none-hover:hover              {background-color:rgba(255, 255, 255, 0);}
 #none, #none-hover:hover              {color:rgba(255, 255, 255, 0);}
