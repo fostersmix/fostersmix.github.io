@@ -30,13 +30,17 @@
     color:black;
     padding: 0.2em 1em;
     margin: 0px;
-    border: 1px solid gray;
+    border: 1px solid lightgray;
     border-radius: 5em;
     font-size: 1em;
     font-family: Arial, sans-serif;
     font-weight: normal;
     outline: none;
     width: 100%;
+  }
+  #search:focus  {
+    border:#35a5e5 1px solid;
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
   }
   .top-big      {padding-top: 2em;}
   .top          {padding-top: 1em;}
@@ -78,13 +82,17 @@
     color:black;
     padding: 0.2em 1em;
     margin: 0px;
-    border: 1px solid gray;
+    border: 1px solid lightgray;
     border-radius: 5em;
     font-size: 1em;
     font-family: Arial, sans-serif;
     font-weight: normal;
     outline: none;
     width: 100%;
+  }
+  #search:focus  {
+    border:#35a5e5 1px solid;
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
   }
   .top-big      {padding-top: 2em;}
   .top          {padding-top: 1em;}
@@ -126,13 +134,17 @@
     color:black;
     padding: 0.2em 1em;
     margin: 0px;
-    border: 1px solid gray;
+    border: 1px solid lightgray;
     border-radius: 5em;
     font-size: 1em;
     font-family: Arial, sans-serif;
     font-weight: normal;
     outline: none;
     width: 100%;
+  }
+  #search:focus  {
+    border:#35a5e5 1px solid;
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
   }
   .top-big      {padding-top: 2em;}
   .top          {padding-top: 1em;}
@@ -203,13 +215,17 @@
     color:black;
     padding: 0.2em 1em;
     margin: 0px;
-    border: 1px solid gray;
+    border: 1px solid lightgray;
     border-radius: 5em;
     font-size: 1em;
     font-family: Arial, sans-serif;
     font-weight: normal;
     outline: none;
     width: 100%;
+  }
+  #search:focus {
+    border:#35a5e5 1px solid;
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
   }
   .top-big      {padding-top: 2em;}
   .top          {padding-top: 1em;}
@@ -272,9 +288,13 @@ a.del:hover {
   text-decoration: line-through;
 }
 
+.screen {
+  min-height:100%;
+  height: 0%;
+}
+
 .ws             {word-spacing: 1em;}
 .line           {height:1px;}
-.screen         {min-height:100%;}
 .border-left    {border-left: 1px solid lightgray;}
 .border-right   {border-right: 1px solid lightgray;}
 .border-top     {border-top: 1px solid lightgray;}
