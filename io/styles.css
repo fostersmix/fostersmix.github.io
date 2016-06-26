@@ -239,6 +239,7 @@ a:link, a:visited, a:hover, a:active {
   color: black;
   font-weight: normal;
 	text-decoration: none;
+  transition: 2s;
 }
 
 a.tag:link, a.tag:visited, a.tag:active {
@@ -267,6 +268,7 @@ a.add:link, a.add:visited, a.add:active {
   margin: 0em;
   padding: .3em;
   line-height: 1.5em;
+  transition: .2s
 }
 a.add:hover {
   color:orangered;

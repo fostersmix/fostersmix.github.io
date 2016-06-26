@@ -3,7 +3,14 @@
     <link rel="stylesheet" href="styles.css" type="text/css">
     <link rel="stylesheet" href="flexboxgrid.css" type="text/css">
     <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" type="text/css">
+    <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
     <title>anythink</title>
+    <script type="text/javascript">
+     $(document).ready(function() {
+     $("#content").css("display", "none");
+     $("#content").fadeIn(500);
+     });
+    </script>
   </head>
   <body>
     <div class="row center-xs center-sm center-md center-lg row-between-xs row-between-sm row-between-md row-between-lg screen">
@@ -16,8 +23,8 @@
           </div>
         </div>
       </div>
-      <div class="col-xs-12 col-sm-10 col-md-9 col-lg-6 bottom" id="gray" align="center">
-        <div class="box top">
+      <div class="col-xs-12 col-sm-10 col-md-9 col-lg-6 bottom" id="content" align="center">
+        <div class="box top" id="gray">
           <a href="#" class="del">photoshop</a>
           <a href="#" class="add">cc</a>
           <a href="#" class="add">2016</a>
