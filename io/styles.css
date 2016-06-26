@@ -230,7 +230,7 @@
   .top-big      {padding-top: 2em;}
   .top          {padding-top: 1em;}
   .top-small    {padding-top: .5em;}
-  .bottom-big   {padding-bottom: 2em;}
+  .bottom-big   {padding-bottom: 2.5em;}
   .bottom       {padding-bottom: 1em;}
   .bottom-small {padding-bottom: .5em;}
 }
@@ -239,7 +239,6 @@ a:link, a:visited, a:hover, a:active {
   color: black;
   font-weight: normal;
 	text-decoration: none;
-  transition: 2s;
 }
 
 a.tag:link, a.tag:visited, a.tag:active {
@@ -268,7 +267,6 @@ a.add:link, a.add:visited, a.add:active {
   margin: 0em;
   padding: .3em;
   line-height: 1.5em;
-  transition: .2s
 }
 a.add:hover {
   color:orangered;
@@ -302,6 +300,7 @@ a.del:hover {
 .border-top     {border-top: 1px solid lightgray;}
 .border-bottom  {border-bottom: 1px solid lightgray;}
 .shadow         {box-shadow: 0 0.15em 0.4em rgba(0, 0, 0, 0.1);}
+.offset-left    {padding-left: calc(100%/4);}
 
 .none, .none-hover:hover              {background-color:rgba(255, 255, 255, 0);}
 #none, #none-hover:hover              {color:rgba(255, 255, 255, 0);}
