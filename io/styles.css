@@ -146,6 +146,7 @@
     border:#35a5e5 1px solid;
     box-shadow: 0 0 5px rgba(81, 203, 238, 1);
   }
+  .gradient     {background: radial-gradient(9em at bottom right, rgba(81, 203, 238, .8), transparent);}
   .top-big      {padding-top: 1.5em;}
   .top          {padding-top: 1em;}
   .top-small    {padding-top: .5em;}
@@ -199,6 +200,7 @@
     border:#35a5e5 1px solid;
     box-shadow: 0 0 5px rgba(81, 203, 238, 1);
   }
+  .gradient     {background: radial-gradient(13em at bottom right, rgba(81, 203, 238, .8), transparent);}
   .top-big      {padding-top: 1.5em;}
   .top          {padding-top: 1em;}
   .top-small    {padding-top: .5em;}
@@ -241,7 +243,6 @@ a.del:hover {
   min-height:100%;
 }
 
-.gradient       {background: radial-gradient(13em at bottom right, rgba(81, 203, 238, .8), transparent);}
 .line           {height:1px;}
 .border-left    {border-left: 1px solid lightgray;}
 .border-right   {border-right: 1px solid lightgray;}
