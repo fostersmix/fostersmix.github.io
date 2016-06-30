@@ -191,7 +191,7 @@
     border: 1px solid lightgray;
     border-radius: 5em;
     font-size: 1em;
-    font-family: Arial, sans-serif;
+    font-family: 'Ionicons', Arial, sans-serif;
     font-weight: normal;
     outline: none;
     width: 100%;
@@ -207,6 +207,11 @@
   .bottom-big   {padding-bottom: 1.5em;}
   .bottom       {padding-bottom: 1em;}
   .bottom-small {padding-bottom: .5em;}
+}
+
+.icon {
+font-size: 1.2em;
+font-family: "Ionicons";
 }
 
 a:link, a:visited, a:hover, a:active {
