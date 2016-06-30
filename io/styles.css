@@ -241,7 +241,7 @@ a.del:hover {
   min-height:100%;
 }
 
-.gradient       {background: radial-gradient(13em at bottom right, orangered, transparent);}
+.gradient       {background: radial-gradient(13em at bottom right, rgba(81, 203, 238, .8), transparent);}
 .line           {height:1px;}
 .border-left    {border-left: 1px solid lightgray;}
 .border-right   {border-right: 1px solid lightgray;}
