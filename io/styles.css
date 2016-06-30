@@ -200,7 +200,7 @@
     border:#35a5e5 1px solid;
     box-shadow: 0 0 5px rgba(81, 203, 238, 1);
   }
-  .gradient     {background: radial-gradient(13em at bottom right, rgba(81, 203, 238, .8), transparent);}
+  .gradient     {background: radial-gradient(13em at bottom right, rgba(81, 203, 238, .7), white);}
   .top-big      {padding-top: 1.5em;}
   .top          {padding-top: 1em;}
   .top-small    {padding-top: .5em;}
@@ -210,8 +210,8 @@
 }
 
 .icon {
-font-size: 1.2em;
-font-family: "Ionicons";
+  font-size: 1.2em;
+  font-family: "Ionicons";
 }
 
 a:link, a:visited, a:hover, a:active {
