@@ -203,10 +203,10 @@
     box-shadow: 0 0 5px rgba(81, 203, 238, 1);
   }
   .gradient     {background: radial-gradient(13em at bottom right, rgba(81, 203, 238, .7), white);}
-  .top-big      {padding-top: 1.5em;}
+  .top-big      {padding-top: 2em;}
   .top          {padding-top: 1em;}
   .top-small    {padding-top: .5em;}
-  .bottom-big   {padding-bottom: 1.5em;}
+  .bottom-big   {padding-bottom: 2em;}
   .bottom       {padding-bottom: 1em;}
   .bottom-small {padding-bottom: .5em;}
 }
