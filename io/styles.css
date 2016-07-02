@@ -148,7 +148,7 @@
     border:#35a5e5 1px solid;
     box-shadow: 0 0 5px rgba(81, 203, 238, 1);
   }
-  .gradient     {background: radial-gradient(9em at bottom right, rgba(81, 203, 238, .8), transparent);}
+  .gradient2     {background: radial-gradient(9em at bottom right, rgba(81, 203, 238, .8), transparent);}
   .top-big      {padding-top: 1.5em;}
   .top          {padding-top: 1em;}
   .top-small    {padding-top: .5em;}
@@ -173,7 +173,7 @@
     margin-bottom: 0;
   }
   h2 {
-    font-size: 2em; /* 2em = 32px */
+    font-size: 2.5em; /* 2em = 32px */
     font-family: Arial, sans-serif;
     font-weight: bold;
     margin: 0;
@@ -224,40 +224,43 @@ a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
 	text-decoration: none;
 }
 
-a.add:link, a.add:visited, a.add:active {
-  color: #00aced;
-  background-color: rgba(178,221,251,.15);
-  border-radius: .2em;
-	text-decoration: none;
-  line-height: 1;
-  font-size: 1.5em;
-  padding: .5em 1em;
-  line-height: 2.5em;
-}
-a.add:hover {
-  color:#00aced;
-}
-
 a.del:link, a.del:visited, a.del:active {
-  color: black;
+  color: white;
+  background-color: rgba(18,91,255,1);
+  border: 1px solid rgba(18,91,255,1);
+  border-radius: .2em;
 	text-decoration: none;
   line-height: 1;
   font-size: 1.5em;
   padding: .5em 1em;
-  border-radius: .2em;
-  border: 1px solid #eee;
   line-height: 2.5em;
 }
 a.del:hover {
-  text-decoration: line-through;
+  border: 1px solid rgba(16,82,230,.8);
+} 
+
+a.add:link, a.add:visited, a.add:active {
+  color: rgba(0,195,237,1);
+  background-color: rgba(178,221,251,.1);
+  border: 1px solid rgba(178,221,251,.2);
+	text-decoration: none;
+  line-height: 1;
+  font-size: 1.5em;
+  padding: .5em 1em;
+  border-radius: .2em;
+  line-height: 2.5em;
 }
+a.add:hover {
+  border: 1px solid rgba(178,221,251,.4);
+} 
+
 
 .screen {
   min-height:100%;
   height:inherit; /*"@firefox fix*/
 }
 
-.space          {word-spacing: .25em;}
+.space          {word-spacing: .2em;}
 .line           {height:1px;}
 .border-left    {border-left: 1px solid lightgray;}
 .border-right   {border-right: 1px solid lightgray;}
@@ -279,6 +282,9 @@ a.del:hover {
 #black, #black-hover:hover            {color:black;}
 .orange, .orange-hover:hover          {background-color:orangered;}
 #orange, #orange-hover:hover          {color:orangered;}
+.blue, .blue-hover:hover          {background-color:rgba(16,82,230,1);}
+#blue, #blue-hover:hover          {color:rgba(16,82,230,1);}
+
 /*
 .sky, .sky-hover:hover                {background-color:rgba(250, 251, 252, 1);}
 #sky, #sky-hover:hover                {color:rgba(250, 251, 252, 1);}
