@@ -241,20 +241,7 @@ a.del:hover {
   background-color: rgba(18,91,255,1);
 
 }
-/*
-a.del:link, a.del:visited, a.del:active {
-  color: black;
-  border-radius: .2em;
-	text-decoration: none;
-  line-height: 1;
-  font-size: 2em;
-  padding: .5em .5em;
-  line-height: 2em;
-}
-a.del:hover {
-  text-decoration: line-through;
-} 
-*/
+ 
 a.add:link, a.add:visited, a.add:active {
   color: gray;
   background-color: rgba(250,251,252,1);
@@ -269,20 +256,7 @@ a.add:link, a.add:visited, a.add:active {
 }
 a.add:hover {
   color:black;
-} /*
-a.add:link, a.add:visited, a.add:active {
-  color: lightgray;
-	text-decoration: none;
-  line-height: 1;
-  font-size: 2em;
-  padding: .5em .5em;
-  border-radius: .2em;
-  line-height: 2em;
-}
-a.add:hover {
-  color: gray;
-} */
-
+} 
 
 .screen {
   min-height:100%;
