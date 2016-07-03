@@ -202,7 +202,8 @@
     border:#35a5e5 1px solid;
     box-shadow: 0 0 5px rgba(81, 203, 238, 1);
   }
-  .gradient     {background: radial-gradient(13em at bottom right, rgba(81, 203, 238, .7), white);}
+  .border-left  {border-left: 1px solid lightgray;}
+  .gradient     {background: radial-gradient(13em at bottom right, rgba(81, 203, 238, .8), white);}
   .top-big      {padding-top: 2em;}
   .top          {padding-top: 1em;}
   .top-small    {padding-top: .5em;}
@@ -239,7 +240,6 @@ a.del:link, a.del:visited, a.del:active {
 a.del:hover {
   color: white;
   background-color: rgba(18,91,255,1);
-
 }
  
 a.add:link, a.add:visited, a.add:active {
@@ -258,6 +258,55 @@ a.add:hover {
   color:black;
 } 
 
+a.start:link, a.start:visited, a.start:active {
+  color: white;
+  background-color: rgba(30,99,255,1);
+  border-radius: 5em 0em 0em 5em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+	text-decoration: none;
+  line-height: 1;
+  font-size: 1.5em;
+  padding: .6em .6em .6em 1.2em;
+  line-height: 2.7em;
+}
+a.start:hover {
+  color: white;
+  background-color: rgba(18,91,255,1);
+}
+a.center:link, a.center:visited, a.center:active {
+  color: white;
+  background-color: rgba(30,99,255,1);
+  border-radius: 0em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+	text-decoration: none;
+  line-height: 1;
+  font-size: 1.5em;
+  padding: .6em;
+  line-height: 2.7em;
+}
+a.center:hover {
+  color: white;
+  background-color: rgba(18,91,255,1);
+}
+a.end:link, a.end:visited, a.end:active {
+  color: white;
+  background-color: rgba(30,99,255,1);
+  border-radius: 0em 5em 5em 0em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+	text-decoration: none;
+  line-height: 1;
+  font-size: 1.5em;
+  padding: .6em 1.2em .6em .6em;
+  line-height: 2.7em;
+}
+a.end:hover {
+  color: white;
+  background-color: rgba(18,91,255,1);
+}
+
 .screen {
   min-height:100%;
   height:inherit; /*"@firefox fix*/
@@ -265,7 +314,6 @@ a.add:hover {
 
 .space          {word-spacing: .2em;}
 .line           {height:1px;}
-.border-left    {border-left: 1px solid lightgray;}
 .border-right   {border-right: 1px solid lightgray;}
 .border-top     {border-top: 1px solid lightgray;}
 .border-bottom  {border-bottom: 1px solid lightgray;}
