@@ -241,7 +241,20 @@ a.del:hover {
   color: white;
   background-color: rgba(18,91,255,1);
 }
- 
+
+a.add:link, a.add:visited, a.add:active {
+  color: rgba(11,121,255,1);
+  background-color: rgba(229,241,255,1);
+  border-radius: 5em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+ text-decoration: none;
+  line-height: 1;
+  font-size: 1.5em;
+  padding: .6em 1.2em;
+  line-height: 2.7em;
+} 
+/*
 a.add:link, a.add:visited, a.add:active {
   color: gray;
   background-color: rgba(250,251,252,1);
@@ -253,7 +266,7 @@ a.add:link, a.add:visited, a.add:active {
   font-size: 1.5em;
   padding: .6em 1.2em;
   line-height: 2.7em;
-}
+}*/
 a.add:hover {
   color:black;
 } 
