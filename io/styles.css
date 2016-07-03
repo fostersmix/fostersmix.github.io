@@ -268,7 +268,7 @@ a.add:link, a.add:visited, a.add:active {
   line-height: 2.7em;
 }*/
 a.add:hover {
-  color:black;
+  color:rgba(0,60,140,1);
 } 
 
 a.start:link, a.start:visited, a.start:active {
