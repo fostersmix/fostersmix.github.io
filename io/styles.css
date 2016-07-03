@@ -226,33 +226,62 @@ a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
 
 a.del:link, a.del:visited, a.del:active {
   color: white;
-  background-color: rgba(18,91,255,1);
-  border: 1px solid rgba(18,91,255,1);
-  border-radius: .2em;
+  background-color: rgba(30,99,255,1);
+  border-radius: 5em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 	text-decoration: none;
   line-height: 1;
   font-size: 1.5em;
-  padding: .5em 1em;
-  line-height: 2.5em;
+  padding: .6em 1.2em;
+  line-height: 2.7em;
 }
 a.del:hover {
-  border: 1px solid rgba(16,82,230,.8);
-} 
+  color: white;
+  background-color: rgba(18,91,255,1);
 
+}
+/*
+a.del:link, a.del:visited, a.del:active {
+  color: black;
+  border-radius: .2em;
+	text-decoration: none;
+  line-height: 1;
+  font-size: 2em;
+  padding: .5em .5em;
+  line-height: 2em;
+}
+a.del:hover {
+  text-decoration: line-through;
+} 
+*/
 a.add:link, a.add:visited, a.add:active {
-  color: rgba(0,195,237,1);
-  background-color: rgba(178,221,251,.1);
-  border: 1px solid rgba(178,221,251,.2);
+  color: gray;
+  background-color: rgba(250,251,252,1);
+  border-radius: 5em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 	text-decoration: none;
   line-height: 1;
   font-size: 1.5em;
-  padding: .5em 1em;
-  border-radius: .2em;
-  line-height: 2.5em;
+  padding: .6em 1.2em;
+  line-height: 2.7em;
 }
 a.add:hover {
-  border: 1px solid rgba(178,221,251,.4);
-} 
+  color:black;
+} /*
+a.add:link, a.add:visited, a.add:active {
+  color: lightgray;
+	text-decoration: none;
+  line-height: 1;
+  font-size: 2em;
+  padding: .5em .5em;
+  border-radius: .2em;
+  line-height: 2em;
+}
+a.add:hover {
+  color: gray;
+} */
 
 
 .screen {
@@ -282,8 +311,8 @@ a.add:hover {
 #black, #black-hover:hover            {color:black;}
 .orange, .orange-hover:hover          {background-color:orangered;}
 #orange, #orange-hover:hover          {color:orangered;}
-.blue, .blue-hover:hover          {background-color:rgba(16,82,230,1);}
-#blue, #blue-hover:hover          {color:rgba(16,82,230,1);}
+.blue, .blue-hover:hover          {background-color:rgba(30,99,255,1);}
+#blue, #blue-hover:hover          {color:rgba(30,99,255,1);}
 
 /*
 .sky, .sky-hover:hover                {background-color:rgba(250, 251, 252, 1);}
