@@ -264,7 +264,6 @@ a.active-start:link, a.active-start:visited, a.active-start:active {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
 	text-decoration: none;
-  line-height: 1;
   font-size: 1.5em;
   padding: .55em .6em .6em 1.2em;
   line-height: 2.7em;
@@ -280,7 +279,6 @@ a.active-center:link, a.active-center:visited, a.active-center:active {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
 	text-decoration: none;
-  line-height: 1;
   font-size: 1.5em;
   padding: .55em 6em .6em 6em;
   line-height: 2.7em;
@@ -296,7 +294,6 @@ a.active-end:link, a.active-end:visited, a.active-end:active {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
 	text-decoration: none;
-  line-height: 1;
   font-size: 1.5em;
   padding: .55em 1.2em .6em .6em;
   line-height: 2.7em;
@@ -308,7 +305,7 @@ a.active-end:hover {
 
 .screen {
   min-height:100%;
-  height:inherit; /*"@firefox fix*/
+  /* height: 100%; @firefox fix*/
 }
 
 .none, .none-hover:hover              {background-color:rgba(255, 255, 255, 0);}
