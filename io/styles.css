@@ -202,7 +202,6 @@
     border:#35a5e5 1px solid;
     box-shadow: 0 0 5px rgba(81, 203, 238, 1);
   }
-  .border-left  {border-left: 1px solid lightgray;}
   .gradient     {background: radial-gradient(13em at bottom right, rgba(81, 203, 238, .8), white);}
   .top-big      {padding-top: 2em;}
   .top          {padding-top: 1em;}
@@ -225,24 +224,7 @@ a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
 	text-decoration: none;
 }
 
-a.del:link, a.del:visited, a.del:active {
-  color: white;
-  background-color: rgba(30,99,255,1);
-  border-radius: 5em;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-	text-decoration: none;
-  line-height: 1;
-  font-size: 1.5em;
-  padding: .5em 1.2em .6em 1.2em;
-  line-height: 2.7em;
-}
-a.del:hover {
-  color: white;
-  background-color: rgba(18,91,255,1);
-}
-
-a.add:link, a.add:visited, a.add:active {
+a.available:link, a.available:visited, a.available:active {
   color: rgba(11,121,255,1);
   background-color: rgba(229,241,255,.7);
   border-radius: 5em;
@@ -251,27 +233,31 @@ a.add:link, a.add:visited, a.add:active {
   text-decoration: none;
   line-height: 1;
   font-size: 1.5em;
-  padding: .5em 1.2em .6em 1.2em;
+  padding: .55em 1.2em .6em 1.2em;
   line-height: 2.7em;
 }
-/*
-a.add:link, a.add:visited, a.add:active {
-  color: gray;
-  background-color: rgba(250,251,252,1);
+a.available:hover {
+  color:rgba(9,108,229,1);
+}
+
+a.active:link, a.active:visited, a.active:active {
+  color: white;
+  background-color: rgba(30,99,255,1);
   border-radius: 5em;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
 	text-decoration: none;
   line-height: 1;
   font-size: 1.5em;
-  padding: .6em 1.2em;
+  padding: .55em 1.2em .6em 1.2em;
   line-height: 2.7em;
-}*/
-a.add:hover {
-  color:rgba(0,60,140,1);
+}
+a.active:hover {
+  color: white;
+  background-color: rgba(18,91,255,1);
 }
 
-a.start:link, a.start:visited, a.start:active {
+a.active-start:link, a.active-start:visited, a.active-start:active {
   color: white;
   background-color: rgba(30,99,255,1);
   border-radius: 5em 0em 0em 5em;
@@ -280,14 +266,14 @@ a.start:link, a.start:visited, a.start:active {
 	text-decoration: none;
   line-height: 1;
   font-size: 1.5em;
-  padding: .5em .6em .6em 1.2em;
+  padding: .55em .6em .6em 1.2em;
   line-height: 2.7em;
 }
-a.start:hover {
+a.active-start:hover {
   color: white;
   background-color: rgba(18,91,255,1);
 }
-a.center:link, a.center:visited, a.center:active {
+a.active-center:link, a.active-center:visited, a.active-center:active {
   color: white;
   background-color: rgba(30,99,255,1);
   border-radius: 0em;
@@ -296,14 +282,14 @@ a.center:link, a.center:visited, a.center:active {
 	text-decoration: none;
   line-height: 1;
   font-size: 1.5em;
-  padding: .5em 6em .6em 6em;
+  padding: .55em 6em .6em 6em;
   line-height: 2.7em;
 }
-a.center:hover {
+a.active-center:hover {
   color: white;
   background-color: rgba(18,91,255,1);
 }
-a.end:link, a.end:visited, a.end:active {
+a.active-end:link, a.active-end:visited, a.active-end:active {
   color: white;
   background-color: rgba(30,99,255,1);
   border-radius: 0em 5em 5em 0em;
@@ -312,10 +298,10 @@ a.end:link, a.end:visited, a.end:active {
 	text-decoration: none;
   line-height: 1;
   font-size: 1.5em;
-  padding: .5em 1.2em .6em .6em;
+  padding: .55em 1.2em .6em .6em;
   line-height: 2.7em;
 }
-a.end:hover {
+a.active-end:hover {
   color: white;
   background-color: rgba(18,91,255,1);
 }
@@ -324,13 +310,6 @@ a.end:hover {
   min-height:100%;
   height:inherit; /*"@firefox fix*/
 }
-
-.space          {word-spacing: .2em;}
-.line           {height:1px;}
-.border-right   {border-right: 1px solid lightgray;}
-.border-top     {border-top: 1px solid lightgray;}
-.border-bottom  {border-bottom: 1px solid lightgray;}
-.shadow         {box-shadow: 0 .15em .4em rgba(0, 0, 0, .1);}
 
 .none, .none-hover:hover              {background-color:rgba(255, 255, 255, 0);}
 #none, #none-hover:hover              {color:rgba(255, 255, 255, 0);}
@@ -348,8 +327,3 @@ a.end:hover {
 #orange, #orange-hover:hover          {color:orangered;}
 .blue, .blue-hover:hover          {background-color:rgba(30,99,255,1);}
 #blue, #blue-hover:hover          {color:rgba(30,99,255,1);}
-
-/*
-.sky, .sky-hover:hover                {background-color:rgba(250, 251, 252, 1);}
-#sky, #sky-hover:hover                {color:rgba(250, 251, 252, 1);}
-*/
