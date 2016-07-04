@@ -234,7 +234,7 @@ a.del:link, a.del:visited, a.del:active {
 	text-decoration: none;
   line-height: 1;
   font-size: 1.5em;
-  padding: .6em 1.2em;
+  padding: .5em 1.2em .6em 1.2em;
   line-height: 2.7em;
 }
 a.del:hover {
@@ -244,16 +244,16 @@ a.del:hover {
 
 a.add:link, a.add:visited, a.add:active {
   color: rgba(11,121,255,1);
-  background-color: rgba(229,241,255,1);
+  background-color: rgba(229,241,255,.7);
   border-radius: 5em;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
- text-decoration: none;
+  text-decoration: none;
   line-height: 1;
   font-size: 1.5em;
-  padding: .6em 1.2em;
+  padding: .5em 1.2em .6em 1.2em;
   line-height: 2.7em;
-} 
+}
 /*
 a.add:link, a.add:visited, a.add:active {
   color: gray;
@@ -269,7 +269,7 @@ a.add:link, a.add:visited, a.add:active {
 }*/
 a.add:hover {
   color:rgba(0,60,140,1);
-} 
+}
 
 a.start:link, a.start:visited, a.start:active {
   color: white;
@@ -280,7 +280,7 @@ a.start:link, a.start:visited, a.start:active {
 	text-decoration: none;
   line-height: 1;
   font-size: 1.5em;
-  padding: .6em .6em .6em 1.2em;
+  padding: .5em .6em .6em 1.2em;
   line-height: 2.7em;
 }
 a.start:hover {
@@ -296,7 +296,7 @@ a.center:link, a.center:visited, a.center:active {
 	text-decoration: none;
   line-height: 1;
   font-size: 1.5em;
-  padding: .6em;
+  padding: .5em 6em .6em 6em;
   line-height: 2.7em;
 }
 a.center:hover {
@@ -312,7 +312,7 @@ a.end:link, a.end:visited, a.end:active {
 	text-decoration: none;
   line-height: 1;
   font-size: 1.5em;
-  padding: .6em 1.2em .6em .6em;
+  padding: .5em 1.2em .6em .6em;
   line-height: 2.7em;
 }
 a.end:hover {
