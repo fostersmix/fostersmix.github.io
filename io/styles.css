@@ -225,7 +225,7 @@ a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
 }
 
 a.ready:link, a.ready:visited, a.ready:active {
-  color: rgba(11,121,255,1);
+  color: rgba(0,137,255,1);
   background-color: rgba(229,241,255,.5);
   border-radius: 5em;
   font-family: 'Roboto', sans-serif;
