@@ -280,7 +280,7 @@ a.active-center:link, a.active-center:visited, a.active-center:active {
   font-weight: 300;
 	text-decoration: none;
   font-size: 1.5em;
-  padding: .525em 6em .6em 6em;
+  padding: .525em .6em .6em .6em;
   line-height: 2.7em;
 }
 a.active-center:hover {
@@ -305,7 +305,7 @@ a.active-end:hover {
 
 .screen {
   min-height:100%;
-  /* height: 100%; @firefox fix*/
+  height: 100%;/* @firefox fix*/
 }
 
 .none, .none-hover:hover              {background-color:rgba(255, 255, 255, 0);}
