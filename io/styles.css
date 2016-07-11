@@ -241,7 +241,7 @@ a.add:hover {
   color:rgba(9,108,229,1);
 }
 
-a.delete:link, a.delete:visited, a.delete:active {
+a.del:link, a.del:visited, a.del:active {
   color: white;
   background-color: rgba(30,99,255,1);
   border-radius: 5em;
@@ -254,12 +254,11 @@ a.delete:link, a.delete:visited, a.delete:active {
   padding: .525em 1.2em .6em 1.2em;
   line-height: 2.7em;
 }
-a.delete:hover {
+a.del:hover {
   color: white;
   background-color: rgba(18,91,255,1);
-  /*background-color: rgba(229,35,44,1);
-  text-decoration: line-through;*/
 }
+/*
 a.delete-start:link, a.delete-start:visited, a.delete-start:active {
   color: white;
   background-color: rgba(30,99,255,1);
@@ -304,9 +303,9 @@ a.delete-end:link, a.delete-end:visited, a.delete-end:active {
 a.delete-end:hover {
   color: white;
   background-color: rgba(18,91,255,1);
-}
+}*/
 
-#del {
+#x {
   color:rgba(255, 255, 255, .5);
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
