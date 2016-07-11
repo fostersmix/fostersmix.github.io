@@ -215,6 +215,7 @@ a:link, a:visited, a:hover, a:active {
   color: black;
   font-weight: normal;
 	text-decoration: none;
+  outline: none;
 }
 
 a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
@@ -222,6 +223,7 @@ a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
   border-bottom: 1px dotted gray;
   font-weight: normal;
 	text-decoration: none;
+  outline: none;
 }
 
 a.add:link, a.add:visited, a.add:active {
