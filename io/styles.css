@@ -226,6 +226,13 @@ a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
   outline: none;
 }
 
+#x {
+  color:white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  padding-right: .5em;
+}
+
 a.add:link, a.add:visited, a.add:active {
   color: rgba(0,137,255,1);
   background-color: rgba(229,241,255,.5);
@@ -240,25 +247,26 @@ a.add:link, a.add:visited, a.add:active {
   line-height: 2.7em;
 }
 a.add:hover {
-  color:rgba(9,108,229,1);
+  /*color:rgba(9,108,229,1);*/
+  background-color: rgba(229,241,255,.75);
 }
 
 a.del:link, a.del:visited, a.del:active {
-  color: white;
+  color: rgba(255,255,255,.4);
   background-color: rgba(30,99,255,1);
   border-radius: 5em;
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 100;
 	text-decoration: none;
   outline: none;
   line-height: 1;
   font-size: 1.5em;
-  padding: .525em 1.2em .6em 1.2em;
+  padding: .525em 1.1em .6em 1.2em;
   line-height: 2.7em;
 }
 a.del:hover {
-  color: white;
-  background-color: rgba(18,91,255,1);
+  color: rgba(0,0,0,.25);
+  /*background-color: rgba(18,91,255,1);*/
 }
 /*
 a.delete-start:link, a.delete-start:visited, a.delete-start:active {
@@ -306,13 +314,6 @@ a.delete-end:hover {
   color: white;
   background-color: rgba(18,91,255,1);
 }*/
-
-#x {
-  color:rgba(255, 255, 255, .5);
-  font-family: 'Roboto', sans-serif;
-  font-weight: 100;
-  padding-left: .5em;
-}
 
 .screen {
   min-height:100%;
