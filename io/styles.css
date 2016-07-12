@@ -226,7 +226,15 @@ a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
   outline: none;
 }
 
-#x {
+#label2 {
+  color:black;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 5em;
+  padding-right: .5em;
+}
+
+#label {
   color:white;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
@@ -247,7 +255,6 @@ a.add:link, a.add:visited, a.add:active {
   line-height: 2.7em;
 }
 a.add:hover {
-  /*color:rgba(9,108,229,1);*/
   background-color: rgba(229,241,255,.75);
 }
 
@@ -263,13 +270,11 @@ a.del:link, a.del:visited, a.del:active {
   font-size: 1.5em;
   padding: .525em 1.1em .6em 1.2em;
   line-height: 2.7em;
-  -transition: 0.05s;
 }
 a.del:hover {
   color: rgba(255,255,255,.55);
-  /*color: rgba(0,0,0,.2);
-  background-color: rgba(18,91,255,1);*/
 }
+
 /*
 a.delete-start:link, a.delete-start:visited, a.delete-start:active {
   color: white;
