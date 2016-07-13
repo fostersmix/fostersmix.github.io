@@ -243,7 +243,7 @@ a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
 
 a.add:link, a.add:visited, a.add:active {
   color: rgba(0,137,255,1);
-  background-color: rgba(229,241,255,.5);
+  background-color: rgba(229,241,255,.7);
   border-radius: 5em;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
@@ -255,7 +255,7 @@ a.add:link, a.add:visited, a.add:active {
   line-height: 2.7em;
 }
 a.add:hover {
-  background-color: rgba(229,241,255,.75);
+  background-color: rgba(229,241,255,.9);
 }
 
 a.del:link, a.del:visited, a.del:active {
@@ -274,6 +274,24 @@ a.del:link, a.del:visited, a.del:active {
 a.del:hover {
   color: rgba(255,255,255,.55);
 }
+
+a.folder:link, a.folder:visited, a.folder:active {
+  color: black;
+  background-color: rgba(255,241,101,.15);
+  border-radius: 5em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+	text-decoration: none;
+  outline: none;
+  line-height: 1;
+  font-size: 1.5em;
+  padding: .525em 1.1em .6em 1.2em;
+  line-height: 2.7em;
+}
+a.folder:hover {
+  background-color: rgba(255,241,101,.25);
+}
+
 
 /*
 a.delete-start:link, a.delete-start:visited, a.delete-start:active {
@@ -343,3 +361,5 @@ a.delete-end:hover {
 #orange, #orange-hover:hover          {color:orangered;}
 .blue, .blue-hover:hover              {background-color:rgba(30,99,255,1);}
 #blue, #blue-hover:hover              {color:rgba(30,99,255,1);}
+.yellow, .yellow-hover:hover          {background-color:rgba(255,241,101,.15);}
+#yellow, #yellow-hover:hover          {color:rgba(255,241,101,.15);}
