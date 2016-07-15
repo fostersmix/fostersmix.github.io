@@ -303,7 +303,7 @@ a.folder:link, a.folder:visited, a.folder:active {
   border-radius: 5em;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-	text-decoration: none;
+  text-decoration: none;
   outline: none;
   line-height: 1;
   font-size: 1.5em;
@@ -314,10 +314,7 @@ a.folder:hover {
   background-color: rgba(255,241,101,.25);
 }
 
-.screen {
-  min-height:100%;
-  -height: 100%;/* @firefox fix*/
-}
+.screen {min-height:100vh;}
 
 .none, .none-hover:hover              {background-color:rgba(255, 255, 255, 0);}
 #none, #none-hover:hover              {color:rgba(255, 255, 255, 0);}
