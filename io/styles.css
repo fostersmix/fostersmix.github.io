@@ -28,7 +28,7 @@
   .gradient-btn {background: linear-gradient(to top, rgba(81, 203, 238, .8), white);}
   a.mainpage:link, a.mainpage:visited, a.mainpage:hover, a.mainpage:active {
     font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 1.5em; /* 6em > 4.5em > 3em > 2em */
     color: rgba(16,144,255,1);
     background-color: rgba(233,247,255,.5);
@@ -70,7 +70,7 @@
   .gradient-btn {background: linear-gradient(to top, rgba(81, 203, 238, .8), white);}
   a.mainpage:link, a.mainpage:visited, a.mainpage:hover, a.mainpage:active {
     font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 1.5em; /* 6em > 4.5em > 3em > 2em */
     color: rgba(16,144,255,1);
     background-color: rgba(233,247,255,.5);
@@ -112,7 +112,7 @@
   .gradient {background: radial-gradient(9em at bottom right, rgba(81, 203, 238, .8), white);}
   a.mainpage:link, a.mainpage:visited, a.mainpage:hover, a.mainpage:active {
     font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 2em; /* 6em > 4.5em > 3em > 2em */
     color: rgba(16,144,255,1);
     background-color: rgba(233,247,255,.5);
@@ -154,7 +154,7 @@
   .gradient {background: radial-gradient(13em at bottom right, rgba(81, 203, 238, .8), white);}
   a.mainpage:link, a.mainpage:visited, a.mainpage:hover, a.mainpage:active {
     font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 2em; /* 6em > 4.5em > 3em > 2em */
     color: rgba(16,144,255,1);
     background-color: rgba(233,247,255,.5);
