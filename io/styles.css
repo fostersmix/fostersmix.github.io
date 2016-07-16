@@ -7,36 +7,29 @@
   body {
     font-family: 'Roboto', Arial, sans-serif;
     font-weight: 400;
-    font-size: 4rem; /* 4rem = 64px */
+    font-size: 4rem; /* 4rem */
     color: black;
     background: white;
-
     margin-top: 0;
     margin-bottom: 0;
   }
   #icon {
     font-family: 'Ionicons', Arial, sans-serif;
     font-weight: bold;
-    font-size: 2em; /* 6em = 96px */
+    font-size: 2em; /* 8em */
   }
   #hashtag {
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
-    font-size: 2em;
+    font-size: 2em; /* 8em */
     color:black;
     padding-right: .5em;
   }
-  .gradient-btn {background: linear-gradient(to top, rgba(81, 203, 238, .7), white);}
-  .top-big      {padding-top: 2em;}
-  .top          {padding-top: 1em;}
-  .top-small    {padding-top: .5em;}
-  .bottom-big   {padding-bottom: 2em;}
-  .bottom       {padding-bottom: 1em;}
-  .bottom-small {padding-bottom: .5em;}
+  .gradient-btn {background: linear-gradient(to top, rgba(81, 203, 238, .8), white);}
 }
 
 /*sm*/
-@media only screen and (min-width: 48em) and (max-width: 62em) {
+@media only screen and (min-width: 47em) and (max-width: 62em) {
   /*.hide-xs {display: inline;}*/
   .hide-sm {display: none;}
   /*.hide-md {display: inline;}
@@ -46,32 +39,26 @@
     font-family: 'Roboto', Arial, sans-serif;
     color: black;
     font-weight: 400;
-    font-size: 3rem; /* 3rem = 48px */
+    font-size: 3rem; /* 3rem */
     margin-top: 0;
     margin-bottom: 0;
   }
   #icon {
-    font-size: 3em; /* 4.5em */
+    font-size: 3em; /* 9em */
     font-family: 'Ionicons', Arial, sans-serif;
   }
   #hashtag {
     color:black;
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
-    font-size: 2em;
+    font-size: 2em; /* 6em */
     padding-right: .5em;
   }
-  .gradient-btn {background: linear-gradient(to top, rgba(81, 203, 238, .7), white);}
-  .top-big      {padding-top: 2em;}
-  .top          {padding-top: 1em;}
-  .top-small    {padding-top: .5em;}
-  .bottom-big   {padding-bottom: 2em;}
-  .bottom       {padding-bottom: 1em;}
-  .bottom-small {padding-bottom: .5em;}
+  .gradient-btn {background: linear-gradient(to top, rgba(81, 203, 238, .8), white);}
 }
 
 /*md*/
-@media only screen and (min-width: 62em) and (max-width: 75em) {
+@media only screen and (min-width: 61em) and (max-width: 75em) {
   /*.hide-xs {display: inline;}
   .hide-sm {display: inline;}*/
   .hide-md {display: none;}
@@ -81,32 +68,26 @@
     font-family: 'Ionicons', Arial, sans-serif;
     color: black;
     font-weight: 400;
-    font-size: 2rem;  /* 2rem = 32px */
+    font-size: 2rem;  /* 2rem */
     margin-top: 0;
     margin-bottom: 0;
   }
   #icon {
-    font-size: 2em; /* 6em = 96px */
+    font-size: 2em; /* 4em */
     font-family: 'Ionicons', Arial, sans-serif;
   }
   #hashtag {
     color:black;
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
-    font-size: 3em;
+    font-size: 3em; /* 6em */
     padding-right: .5em;
   }
-  .gradient     {background: radial-gradient(9em at bottom right, rgba(81, 203, 238, .8), white);}
-  .top-big      {padding-top: 1.5em;}
-  .top          {padding-top: 1em;}
-  .top-small    {padding-top: .5em;}
-  .bottom-big   {padding-bottom: 1.5em;}
-  .bottom       {padding-bottom: 1em;}
-  .bottom-small {padding-bottom: .5em;}
+  .gradient {background: radial-gradient(9em at bottom right, rgba(81, 203, 238, .8), white);}
 }
 
 /*lg*/
-@media only screen and (min-width: 75em) {
+@media only screen and (min-width: 74em) {
   /*.hide-xs {display: inline;}
   .hide-sm {display: inline;}
   .hide-md {display: inline;}*/
@@ -116,28 +97,22 @@
     font-family: 'Roboto', Arial, sans-serif;
     color: black;
     font-weight: 400;
-    font-size: 1rem;  /* 1rem = 16px */
+    font-size: 1rem;  /* 1rem */
     margin-top: 0;
     margin-bottom: 0;
   }
   #icon {
-    font-size: 2.5em; /* 6em = 96px */
+    font-size: 2.5em; /* 2.5em */
     font-family: 'Ionicons', Arial, sans-serif;
   }
   #hashtag {
     color:black;
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
-    font-size: 5em;
+    font-size: 5em; /* 5em */
     padding-right: .5em;
   }
-  .gradient     {background: radial-gradient(13em at bottom right, rgba(81, 203, 238, .8), white);}
-  .top-big      {padding-top: 2em;}
-  .top          {padding-top: 1em;}
-  .top-small    {padding-top: .5em;}
-  .bottom-big   {padding-bottom: 2em;}
-  .bottom       {padding-bottom: 1em;}
-  .bottom-small {padding-bottom: .5em;}
+  .gradient {background: radial-gradient(13em at bottom right, rgba(81, 203, 238, .8), white);}
 }
 
 a:link, a:visited, a:hover, a:active {
@@ -162,7 +137,7 @@ a.solid:link, a.solid:visited, a.solid:hover, a.solid:active {
 a.add:link, a.add:visited, a.add:hover, a.add:active {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  font-size: 1.5em;
+  font-size: 1.5em; /* 6em > 4.5em > 3em > 2em */
   color: rgba(16,144,255,1);
   background-color: rgba(233,247,255,.5);
   border-radius: 5em;
@@ -176,7 +151,7 @@ a.add:link, a.add:visited, a.add:hover, a.add:active {
 a.del:link, a.del:visited, a.del:active {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
-  font-size: 1.5em;
+  font-size: 1.5em; /* 6em > 4.5em > 3em > 2em */
   color: rgba(255,255,255,.35);
   background-color: rgba(30,99,255,1);  
   border-radius: 5em;
@@ -233,7 +208,13 @@ a.tag:hover {
   box-shadow: 0 0 5px rgba(81, 203, 238, 1);
 }
 
-.screen {min-height:100vh;}
+.screen       {min-height:100vh;}
+.top-big      {padding-top: 2em;}
+.top          {padding-top: 1em;}
+.top-small    {padding-top: .5em;}
+.bottom-big   {padding-bottom: 2em;}
+.bottom       {padding-bottom: 1em;}
+.bottom-small {padding-bottom: .5em;}
 
 .none, .none-hover:hover              {background-color:rgba(255, 255, 255, 0);}
 #none, #none-hover:hover              {color:rgba(255, 255, 255, 0);}
@@ -247,3 +228,25 @@ a.tag:hover {
 #black, #black-hover:hover            {color:black;}
 .black, .black-hover:hover            {background-color:black;}
 #black, #black-hover:hover            {color:black;}
+
+
+/*
+black.color         black
+white.color         white    
+gradient            rgba(81, 203, 238, .8)
+solid.border        rgba(168, 168, 168, .5)
+
+add.color           rgba(16,144,255,1)
+add.bg              rgba(233,247,255,.5)
+
+del.color           rgba(255,255,255,.35)
+del.color:hover     rgba(255,255,255,.50)
+del.bg              rgba(30,99,255,1)
+
+search.border       rgba(168, 168, 168, 1)
+search.border:focus #35a5e5
+search.shadow:focus rgba(81, 203, 238, 1)
+
+tag.border          rgba(241,242,242,1)
+tag.border:hover    rgba(231,232,232,1)
+/*
