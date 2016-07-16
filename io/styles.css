@@ -264,7 +264,7 @@ a.del:hover {
 }
 
 a.tag:link, a.tag:visited, a.tag:active {
-  color: black;
+  color: rgba(168, 168, 168, 1);
   -background-color: rgba(255,241,101,.1);
   background-color: white;
   border-radius: 5em;
