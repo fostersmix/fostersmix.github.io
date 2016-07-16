@@ -231,7 +231,7 @@ a.solid:link, a.solid:visited, a.solid:hover, a.solid:active {
 
 a.add:link, a.add:visited, a.add:active {
   color: rgba(16,144,255,1);
-  background-color: rgba(233,247,255,1);
+  background-color: rgba(233,247,255,.5);
   border-radius: 5em;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
@@ -243,7 +243,7 @@ a.add:link, a.add:visited, a.add:active {
   line-height: 2.7em;
 }
 a.add:hover {
-  background-color: rgba(233,247,255,1);
+  -background-color: rgba(233,247,255,1);
 }
 
 a.del:link, a.del:visited, a.del:active {
@@ -265,19 +265,22 @@ a.del:hover {
 
 a.tag:link, a.tag:visited, a.tag:active {
   color: black;
-  background-color: rgba(255,241,101,.2);
+  -background-color: rgba(255,241,101,.1);
+  background-color: white;
   border-radius: 5em;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  border: 1px solid rgba(241,242,242,1);
+  font-family: Arial, sans-serif;
+  font-weight: normal;
   text-decoration: none;
   outline: none;
   line-height: 1;
-  font-size: 1.5em;
+  font-size: 1em;
   padding: .525em 1.1em .6em 1.2em;
   line-height: 2.7em;
+  white-space:nowrap;
 }
 a.tag:hover {
-  background-color: rgba(255,241,101,.2);
+  border: 1px solid rgba(231,232,232,1);
 }
 
 .screen {min-height:100vh;}
