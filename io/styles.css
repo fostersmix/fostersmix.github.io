@@ -171,7 +171,7 @@ a.tag:link, a.tag:visited, a.tag:active {
   font-size: 1em;
   color: rgba(168, 168, 168, 1);
   background-color: white;  
-  border: 1px solid rgba(241,242,242,1);  
+  border: 1px solid rgba(231,232,232,1);  
   border-radius: 5em;  
   padding: .525em 1.1em .6em 1.2em;
   line-height: 2.7em;
@@ -180,7 +180,7 @@ a.tag:link, a.tag:visited, a.tag:active {
   outline: none;
 }
 a.tag:hover {
-  border: 1px solid rgba(231,232,232,1);
+  border: 1px solid rgba(221,222,222,1);
 }
 
 #label {
@@ -247,6 +247,6 @@ search.border       rgba(168, 168, 168, 1)
 search.border:focus #35a5e5
 search.shadow:focus rgba(81, 203, 238, 1)
 
-tag.border          rgba(241,242,242,1)
-tag.border:hover    rgba(231,232,232,1)
+tag.border          rgba(231,232,232,1)
+tag.border:hover    rgba(221,222,222,1)
 /*
