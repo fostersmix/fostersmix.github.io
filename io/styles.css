@@ -109,7 +109,7 @@
     font-size: 3em; /* 6em */
     padding-right: .5em;
   }
-  .gradient {background: radial-gradient(9em at bottom right, rgba(81, 203, 238, .8), white);}
+  .gradient {background: radial-gradient(7.5em at bottom right, rgba(81, 203, 238, .8), white);}
   a.mainpage:link, a.mainpage:visited, a.mainpage:hover, a.mainpage:active {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -217,6 +217,25 @@ a.del:hover {
   color: rgba(255,255,255,.50);
 }
 
+a.tag-small:link, a.tag-small:visited, a.tag-small:active {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  color: black;
+  background-color: white;  
+  border: 1px solid rgba(231,232,232,1);  
+  border-radius: 5em;  
+  padding: .525em 1.1em .6em 1.2em;
+  line-height: 2.9em;
+  -white-space:nowrap;
+  text-decoration: none;
+  outline: none;
+  -box-shadow: 0px 1px 1px rgba(168, 168, 168, .15);
+}
+a.tag-small:hover {
+  border: 1px solid rgba(221,222,222,1);
+}
+
 a.tag:link, a.tag:visited, a.tag:active {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
@@ -268,6 +287,7 @@ a.tag:hover {
 .bottom-big   {padding-bottom: 2em;}
 .bottom       {padding-bottom: 1em;}
 .bottom-small {padding-bottom: .5em;}
+.shadow       {box-shadow: inset 0 .15em .4em rgba(0, 0, 0, .1);}
 
 .border {
   -border: 1px solid rgba(231,232,232,1);  
@@ -289,6 +309,8 @@ a.tag:hover {
 
 .new, .new-hover:hover            {background-color:rgba(251,252,252,1);}
 #new, #new-hover:hover            {color:rgba(251,252,252,1);}
+.add-btn, .add-btn-hover:hover            {background-color:rgba(30,99,255,1);}
+#add-btn, #add-btn-hover:hover            {color:rgba(30,99,255,1);}
 
 /*
 black.color         black
