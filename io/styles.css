@@ -194,7 +194,7 @@ a.tag-small:link, a.tag-small:visited, a.tag-small:hover, a.tag-small:active {
 
 a.tag:link, a.tag:visited, a.tag:hover,a.tag:active {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 1em;
   color: rgba(0, 0, 0, 1);
   background-color: white;  
