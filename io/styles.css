@@ -132,6 +132,21 @@ a.solid:link, a.solid:visited, a.solid:hover, a.solid:active {
   outline: none;
 }
 
+a.btn:link, a.btn:visited, a.btn:active {
+  width:100%;
+  color: black;
+  display: block;
+}
+a.btn:hover {
+  color: rgba(41,98,255,1);
+}
+
+a.btn-full:link, a.btn-full:visited, a.btn-full:hover, a.btn-full:active {
+  width:100%;
+  color: white;
+  display: block;
+}
+
 a.add:link, a.add:visited, a.add:hover, a.add:active {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
