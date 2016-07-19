@@ -128,18 +128,8 @@ a.solid:link, a.solid:visited, a.solid:hover, a.solid:active {
   outline: none;
 }
 
-a.btn:link, a.btn:visited, a.btn:active {
+a.btn:link, a.btn:visited, a.btn:hover, a.btn:active {
   width:100%;
-  color: black;
-  display: block;
-}
-a.btn:hover {
-  color: rgba(41,98,255,1);
-}
-
-a.btn-full:link, a.btn-full:visited, a.btn-full:hover, a.btn-full:active {
-  width:100%;
-  color: white;
   display: block;
 }
 
@@ -180,7 +170,7 @@ a.tag-small:link, a.tag-small:visited, a.tag-small:hover, a.tag-small:active {
   font-size: 1em;
   color: rgba(0,0,0,1);
   background-color: rgba(255,255,255,1);  
-  border: 1px solid rgba(168,168,168,1);  
+  border: 1px solid rgba(168,168,168,.5);  
   border-radius: 5em;  
   padding: .525em 1.1em .6em 1.2em;
   line-height: 2.9em;
@@ -237,34 +227,40 @@ a.tag:link, a.tag:visited, a.tag:hover,a.tag:active {
 .round        {border-radius: 1em;}
 .shadow       {box-shadow: inset 0 .5em 1em rgba(0, 0, 0, .2);}
 
-.none, .none-hover:hover              {background-color:rgba(255,255,255,0);}
-#none, #none-hover:hover              {color:rgba(255,255,255,0);}
-.white, .white-hover:hover            {background-color:rgba(255,255,255,1);}
-#white, #white-hover:hover            {color:rgba(255,255,255,1);}
-.lightgray, .lightgray-hover:hover    {background-color:rgba(250,250,250,1);}
-#lightgray, #lightgray-hover:hover    {color:rgba(250,250,250,1);}
 .black, .black-hover:hover            {background-color:rgba(0,0,0,1);}
 #black, #black-hover:hover            {color:rgba(0,0,0,1);}
+.gray, .gray-hover:hover              {background-color:rgba(168,168,168,1);}
+#gray, #gray-hover:hover              {color:rgba(168,168,168,1);}
+.lightgray, .lightgray-hover:hover    {background-color:rgba(250,250,250,1);}
+#lightgray, #lightgray-hover:hover    {color:rgba(250,250,250,1);}
+.white, .white-hover:hover            {background-color:rgba(255,255,255,1);}
+#white, #white-hover:hover            {color:rgba(255,255,255,1);}
 .blue, .blue-hover:hover              {background-color:rgba(41,98,255,1);}
 #blue, #blue-hover:hover              {color:rgba(41,98,255,1);}
+.lightblue, .lightblue-hover:hover    {background-color:rgba(0,176,255,1);}
+#lightblue, #lightblue-hover:hover    {color:rgba(0,176,255,1);}
 .yellow, .yellow-hover:hover          {background-color:rgba(254,212,40,1);}
 #yellow, #yellow-hover:hover          {color:rgba(254,212,40,1);}
 
 /*
-black.color         rgba(0,0,0,1)
-tag.color           rgba(0,0,0,.7)
-shadow              rgba(0,0,0,.1)
-tag.bg              rgba(250,250,250,1)
-search.border       rgba(168,168,168,1)
-tag.border          rgba(168,168,168,.5)
-white.color         rgba(255,255,255,1)   
-del.color:hover     rgba(255,255,255,.5) 
-del.color           rgba(255,255,255,.35)
-del.bg              rgba(41,98,255,1)
-add.color           rgba(0,176,255,1)
-search.border:focus rgba(0,176,255,1)
-gradient            rgba(0,176,255,.5)
-search.shadow:focus rgba(0,176,255,.5)
-add.bg              rgba(0,176,255,.1)
-icon                rgba(254,212,40,1)
+rgba(0,0,0,1) - black.color ; text
+rgba(0,0,0,.7) - tag.color           
+rgba(0,0,0,.2) - shadow     
+            
+rgba(168,168,168,1) - gray.color ; search.border      
+rgba(168,168,168,.5) - tag.border    
+
+rgba(250,250,250,1) -lightgray.color ; tag.bg
+       
+rgba(255,255,255,1) - white.color         
+rgba(255,255,255,.5) - del.color:hover     
+rgba(255,255,255,.35) - del.color   
+        
+rgba(41,98,255,1) - blue.color ; del.bg    
+          
+rgba(0,176,255,1) - lightclue.color ; add.color ; search.border:focus          
+rgba(0,176,255,.5) - gradient ; search.shadow:focus
+rgba(0,176,255,.1) - add.bg    
+          
+rgba(254,212,40,1) - yellow.color ; icon
 /*
