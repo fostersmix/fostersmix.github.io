@@ -144,7 +144,7 @@ a.add:link, a.add:visited, a.add:hover, a.add:active {
   white-space:nowrap;
   text-decoration: none;
   outline: none;
-  box-shadow: 0 .05em .05em rgba(168,168,168,.15);
+  box-shadow: 0 1px 1px rgba(168,168,168,.15);
 }
 a.add:hover {
   color: rgba(0,0,0,.5);
