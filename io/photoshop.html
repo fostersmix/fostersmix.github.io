@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="styles.css" type="text/css">
     <link rel="stylesheet" href="flexboxgrid.css" type="text/css">
     <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" type="text/css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,900">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,400,500,900">
     <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
     <script>
      $(document).ready(function() {
@@ -14,8 +14,8 @@
      });
     </script>
   </head>
-  <body>
-    <div class="row center-xs center-sm center-md center-lg bottom-xs bottom-sm bottom-md bottom-lg screen gradient">
+  <body class="lightgray">
+    <div class="row center-xs center-sm center-md center-lg bottom-xs bottom-sm bottom-md bottom-lg screen">
       <div class="col-xs-11 col-sm-11 col-md-12 col-lg-12 hide-md hide-lg top">
         <div class="box"><input autofocus type="text" placeholder="&#xf4a4;" id="search"></input></div>
       </div>
@@ -30,6 +30,7 @@
           <a href="#" class="add">graphics</a>
           <a href="#" class="add">1997</a>
           <a href="#" class="add">analogue</a>
+          <a href="#" class="add hide-xs hide-sm" ><font id="blue">+</font></a>
         </div>
       </div>
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 hide-md hide-lg blue shadow">
@@ -44,6 +45,9 @@
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-1 hide-md">
               <div class="box top bottom-big"><a href="#" class="solid">about</a></div>
             </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-1 hide-md">
+              <div class="box top bottom-big" align="left"><a href="#" class="solid">clusters</a></div>
+            </div>
             <div class="col-xs-12 col-sm-12 col-md-3 col-lg-12 hide-xs hide-sm hide-lg">
               <div class="box top bottom-big"><a href="#" id="icon"><i class="ion-android-menu"></i></a></div>
             </div>
@@ -55,9 +59,6 @@
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-1">
-              <div class="box"><a href="#" class="btn top bottom-big"><i class="ion-android-add" id="icon"></i></a></div>
             </div>
           </div>
         </div>

@@ -49,7 +49,7 @@
     color:rgba(0,0,0,1);
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
-    font-size: 3em; /* 6em */
+    font-size: 3em; /* 9em */
   }
 }
 
@@ -76,10 +76,8 @@
     color:rgba(0,0,0,1);
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
-    font-size: 4em; /* 6em */
+    font-size: 4em; /* 8em */
   }
-  .gradient {background: radial-gradient(7.5em at bottom right, rgba(0,176,255,.5), rgba(255,255,255,1));}
-  .gradient2 {background: radial-gradient(13em at bottom right, rgba(254,212,40,.5), rgba(250,250,250,1));}
 }
 
 /*lg*/
@@ -99,17 +97,15 @@
   }
   #icon {
     font-size: 2.5em; /* 2.5em */
+    color: black;
     font-family: 'Ionicons', Arial, sans-serif;
   }
   #hashtag {
     color:rgba(0,0,0,1);
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
-    font-size: 6em; /* 5em */
+    font-size: 6em; /* 6em */
   }
-  .gradient {background: radial-gradient(13em at bottom right, rgba(0,176,255,.5), rgba(255,255,255,1));}
-  .gradient2 {background: radial-gradient(13em at bottom right, rgba(254,212,40,.5), rgba(250,250,250,1));}
-
 }
 
 a:link, a:visited, a:hover, a:active {
@@ -138,69 +134,44 @@ a.btn:link, a.btn:visited, a.btn:hover, a.btn:active {
 
 a.add:link, a.add:visited, a.add:hover, a.add:active {
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  font-size: 1.6em; /* 6em > 4.5em > 3em > 2em */
-  color: rgba(0,176,255,1);
-  background-color: rgba(0,176,255,.1);
+  font-weight: 400;
+  font-size: 1.5em; /* 6em > 4.5em > 3em > 2em */
+  color: rgba(0,0,0,.4);
+  background-color: white;
   border-radius: 5em;
-  padding: .525em 1.2em .6em 1.2em;
-  line-height: 2.7em;
+  padding: .3em 1em .4em 1em;
+  line-height: 2.3em;
   white-space:nowrap;
   text-decoration: none;
   outline: none;
+  box-shadow: 0 .05em .05em rgba(168,168,168,.15);
+}
+a.add:hover {
+  color: rgba(0,0,0,.5);
 }
 
 a.del:link, a.del:visited, a.del:active {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
-  font-size: 1.6em; /* 6em > 4.5em > 3em > 2em */
-  color: rgba(255,255,255,.35);
-  background-color: rgba(41,98,255,1); 
+  font-size: 1.5em; /* 6em > 4.5em > 3em > 2em */
+  color: rgba(255,255,255,.4);
+  background-color: rgba(41,98,255,1);
   border-radius: 5em;
-  padding: .525em 1.2em .6em 1.2em;
-  line-height: 2.7em;
+  padding: .3em 1em .4em 1em;
+  line-height: 2.3em;
   white-space:nowrap;
 	text-decoration: none;
   outline: none;
+  box-shadow: 0 .05em .05em rgba(168,168,168,.35);
 }
 a.del:hover {
-  color: rgba(255,255,255,.5);
-}
-
-a.tag-small:link, a.tag-small:visited, a.tag-small:hover, a.tag-small:active {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  font-size: 1em;
-  color: rgba(0,0,0,1);
-  background-color: rgba(255,255,255,1);  
-  border: 1px solid rgba(168,168,168,.5);  
-  border-radius: 5em;  
-  padding: .525em 1.2em .6em 1.2em;
-  line-height: 2.9em;
-  text-decoration: none;
-  outline: none;
-}
-
-a.tag:link, a.tag:visited, a.tag:hover,a.tag:active {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 1em;
-  color: rgba(0,0,0,.7);
-  background-color: rgba(255,255,255,1);  
-  border-radius: 5em;  
-  padding: .6em 1.2em .6em 1.2em;
-  line-height: 3.3em;
-  white-space:nowrap;
-  text-decoration: none;
-  outline: none;
-  word-spacing: 0;
-  box-shadow: 0px 1px 1px rgba(168, 168, 168, .15);
+  color: rgba(255,255,255,.6);
 }
 
 #label {
   color: rgba(255,255,255,1);
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   padding-right: .5em;
 }
 
@@ -210,7 +181,7 @@ a.tag:link, a.tag:visited, a.tag:hover,a.tag:active {
   font-size: 1em;
   color: rgba(0,0,0,1);
   background-color: none;
-  border: 1px solid rgba(168,168,168,1);
+  border: 1px solid rgba(168,168,168,.5);
   border-radius: 5em;
   padding: .2em 1em;
   margin: 0px;
@@ -243,30 +214,26 @@ a.tag:link, a.tag:visited, a.tag:hover,a.tag:active {
 #white, #white-hover:hover            {color:rgba(255,255,255,1);}
 .blue, .blue-hover:hover              {background-color:rgba(41,98,255,1);}
 #blue, #blue-hover:hover              {color:rgba(41,98,255,1);}
-.lightblue, .lightblue-hover:hover    {background-color:rgba(0,176,255,1);}
-#lightblue, #lightblue-hover:hover    {color:rgba(0,176,255,1);}
-.yellow, .yellow-hover:hover          {background-color:rgba(254,212,40,1);}
-#yellow, #yellow-hover:hover          {color:rgba(254,212,40,1);}
 
 /*
 rgba(0,0,0,1) - black.color ; text
-rgba(0,0,0,.7) - tag.color           
-rgba(0,0,0,.2) - shadow     
-            
-rgba(168,168,168,1) - gray.color ; search.border      
-rgba(168,168,168,.5) - tag.border    
+rgba(0,0,0,.7) - tag.color
+rgba(0,0,0,.2) - shadow
+
+rgba(168,168,168,1) - gray.color ; search.border
+rgba(168,168,168,.5) - tag.border
 
 rgba(250,250,250,1) -lightgray.color ; tag.bg
-       
-rgba(255,255,255,1) - white.color         
-rgba(255,255,255,.5) - del.color:hover     
-rgba(255,255,255,.35) - del.color   
-        
-rgba(41,98,255,1) - blue.color ; del.bg    
-          
-rgba(0,176,255,1) - lightclue.color ; add.color ; search.border:focus          
+
+rgba(255,255,255,1) - white.color
+rgba(255,255,255,.5) - del.color:hover
+rgba(255,255,255,.35) - del.color
+
+rgba(41,98,255,1) - blue.color ; del.bg
+
+rgba(0,176,255,1) - lightclue.color ; add.color ; search.border:focus
 rgba(0,176,255,.5) - gradient ; search.shadow:focus
-rgba(0,176,255,.1) - add.bg    
-          
+rgba(0,176,255,.1) - add.bg
+
 rgba(254,212,40,1) - yellow.color ; icon
 /*
