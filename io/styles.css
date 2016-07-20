@@ -155,7 +155,7 @@ a.plus:link, a.plus:visited, a.plus:active {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 1.5em; /* 6em > 4.5em > 3em > 2em */
-  color: rgba(0,0,0,.4);
+  color: #304FFE;
   background-color: white;
   border-radius: 5em;
   padding: .3em .75em .4em .75em;
@@ -166,7 +166,7 @@ a.plus:link, a.plus:visited, a.plus:active {
   box-shadow: 0 .05em .05em rgba(168,168,168,.2);
 }
 a.plus:hover {
-  color: rgba(0,0,0,.5);
+  color: #304FFE;
   box-shadow: 0 .05em .05em rgba(168,168,168,.3);
 }
 
@@ -175,7 +175,7 @@ a.del:link, a.del:visited, a.del:active {
   font-weight: 100;
   font-size: 1.5em; /* 6em > 4.5em > 3em > 2em */
   color: rgba(255,255,255,.4);
-  background-color: #607D8B;
+  background-color: #304FFE;
   border-radius: 5em;
   padding: .3em 0.9em .4em 1em;
   line-height: 2.3em;
