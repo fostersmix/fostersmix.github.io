@@ -136,37 +136,40 @@ a.add:link, a.add:visited, a.add:active {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 1.5em; /* 6em > 4.5em > 3em > 2em */
-  color: rgba(0,0,0,.4);
-  background-color: white;
+  color: rgba(0,0,0,.3);
+  -background-color: rgba(251,252,252,1);
   border-radius: 5em;
-  padding: .3em 1em .4em 1em;
-  line-height: 2.3em;
+  border: 1px solid rgba(168,168,168,.3);
+  padding: .37em 1em .4em 1em;
+  line-height: 2.4em;
   white-space:nowrap;
   text-decoration: none;
   outline: none;
-  box-shadow: 0 .05em .05em rgba(168,168,168,.2);
+  -box-shadow: 0 .1em .2em rgba(168,168,168,.3);
 }
 a.add:hover {
-  color: rgba(0,0,0,.5);
-  box-shadow: 0 .05em .05em rgba(168,168,168,.3);
+  color: rgba(37,232,153,1);
+  border: 1px solid rgba(37,232,153,1);
+  box-shadow: 0 .15em .3em rgba(37,232,153,.25);
 }
 
 a.plus:link, a.plus:visited, a.plus:active {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Ionicons', 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 1.5em; /* 6em > 4.5em > 3em > 2em */
-  color: rgba(41,98,255,1);
-  background-color: white;
+  color: rgba(37,232,153,1);
+  -background-color: rgba(250,250,250,1);
   border-radius: 5em;
-  padding: .3em .75em .4em .75em;
-  line-height: 2.3em;
+  border: 1px dashed rgba(37,232,153,1);
+  padding: .37em 1.2em .4em 1.2em;
+  line-height: 2.4em;
   white-space:nowrap;
   text-decoration: none;
   outline: none;
-  box-shadow: 0 .05em .05em rgba(168,168,168,.2);
+  -box-shadow: inset 0 .05em .05em rgba(168,168,168,.3);
 }
 a.plus:hover {;
-  box-shadow: 0 .05em .05em rgba(168,168,168,.3);
+  -box-shadow: 0 .05em .05em rgba(168,168,168,.3);
 }
 
 a.del:link, a.del:visited, a.del:active {
@@ -176,16 +179,16 @@ a.del:link, a.del:visited, a.del:active {
   color: rgba(255,255,255,.4);
   background-color: rgba(41,98,255,1);
   border-radius: 5em;
-  padding: .3em 0.9em .4em 1em;
+  padding: .37em 0.9em .4em 1em;
   line-height: 2.3em;
   white-space:nowrap;
 	text-decoration: none;
   outline: none;
-  box-shadow: inset 0 .1em .05em rgba(0,0,0,.1);
+  box-shadow: inset 0 .1em .05em rgba(0,0,0,.05);
 }
 a.del:hover {
   color: rgba(255,255,255,.6);
-  box-shadow: inset 0 .1em .05em rgba(0,0,0,.2);
+  box-shadow: inset 0 .1em .1em rgba(0,0,0,.1);
 }
 
 #label {
