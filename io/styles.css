@@ -208,8 +208,8 @@ a.del:hover {
 #black, #black-hover:hover            {color:rgba(0,0,0,1);}
 .gray, .gray-hover:hover              {background-color:rgba(168,168,168,1);}
 #gray, #gray-hover:hover              {color:rgba(168,168,168,1);}
-.lightgray, .lightgray-hover:hover    {background-color:rgba(250,250,250,1);}
-#lightgray, #lightgray-hover:hover    {color:rgba(250,250,250,1);}
+.lightgray, .lightgray-hover:hover    {background-color:#f7f7f7;}
+#lightgray, #lightgray-hover:hover    {color:#f7f7f7;}
 .white, .white-hover:hover            {background-color:rgba(255,255,255,1);}
 #white, #white-hover:hover            {color:rgba(255,255,255,1);}
 .blue, .blue-hover:hover              {background-color:rgba(41,98,255,1);}
