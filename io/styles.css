@@ -167,7 +167,7 @@ a.plus:link, a.plus:visited, a.plus:active {
 }
 a.plus:hover {
   color: rgba(0,0,0,.5);
-  box-shadow: 0 .05em 05em rgba(168,168,168,.3);
+  box-shadow: 0 .05em .05em rgba(168,168,168,.3);
 }
 
 a.del:link, a.del:visited, a.del:active {
