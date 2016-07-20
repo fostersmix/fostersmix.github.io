@@ -157,7 +157,7 @@ a.del:link, a.del:visited, a.del:active {
   color: rgba(255,255,255,.4);
   background-color: rgba(41,98,255,1);
   border-radius: 5em;
-  padding: .3em 1em .4em 1em;
+  padding: .3em 0.9em .4em 1em;
   line-height: 2.3em;
   white-space:nowrap;
 	text-decoration: none;
@@ -172,7 +172,7 @@ a.del:hover {
   color: rgba(255,255,255,1);
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  padding-right: .5em;
+  padding-right: .4em;
 }
 
 #search {
