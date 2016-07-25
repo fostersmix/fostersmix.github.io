@@ -123,6 +123,12 @@
     font-weight: 900;
     font-size: 6em; /* 6em */
   }
+  #hashtag2 {
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 6em; /* 6em */
+  }
   .top-big      {padding-top: 2em;}
   .top          {padding-top: 1em;}
   .top-small    {padding-top: .5em;}
