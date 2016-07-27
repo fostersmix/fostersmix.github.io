@@ -209,6 +209,12 @@ a.connect:link, a.connect:visited, a.connect:hover, a.connect:active {
   outline: none;
 }
 
+h2 {
+  font-size: 2.5em;
+  font-weight: 400;
+}
+
+
 #label {
   color: white;
   font-family: 'Roboto', sans-serif;
