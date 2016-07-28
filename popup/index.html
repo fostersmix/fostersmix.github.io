@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="magnific-popup/magnific-popup.css">
+    <script src="magnific-popup/jquery.magnific-popup.js"></script>
+    <script>
+    $('.open-popup-link').magnificPopup({
+      type:'inline',
+      midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
+    });
+    </script>
+  </head>
+  <body>
+    <a href="#test-popup" class="open-popup-link">Show inline popup</a>
+<!--
+Alternative markup with data-mfp-src attribute:
+<a href="mobile-friendly-page.html" data-mfp-src="#test-popup" class="open-popup-link">Show inline popup</a>
+-->
+
+<!-- Popup itself -->
+<div id="test-popup" class="white-popup mfp-hide">
+  Popup content
+</div>
+</div>
+</div>
+  </body>
+</html>
