@@ -159,7 +159,7 @@ a.solid:link, a.solid:visited, a.solid:hover, a.solid:active {
 a.delete:link, a.delete:visited, a.delete:active {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
-  font-size: 1.5em; /* 6em > 4.5em > 3em > 2em */
+  font-size: 1.3em; /* 6em > 4.5em > 3em > 2em */
   color: rgba(255,255,255,.4);
   background: linear-gradient(to top, rgba(0,204,255,1), rgba(0,102,255,1));
   border-radius: 5em;
@@ -179,9 +179,10 @@ a.delete:hover {
 a.add:link, a.add:visited, a.add:active {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 1.5em; /* 6em > 4.5em > 3em > 2em */
+  font-size: 1.3em; /* 6em > 4.5em > 3em > 2em */
   color: rgba(0,0,0,.3);
   border-radius: 5em;
+  background: linear-gradient(to bottom, rgba(255,255,255,0) 50%, rgba(250,250,250,.5));
   border: 1px solid rgba(168,168,168,.3);
   padding: .35em 1em .4em 1em;
   line-height: 2.4em;
@@ -198,22 +199,23 @@ a.add:hover {
 a.connect:link, a.connect:visited, a.connect:hover, a.connect:active {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  font-size: 1.5em; /* 6em > 4.5em > 3em > 2em */
-  color: rgba(37,232,153,1);
+  font-size: 1.3em; /* 6em > 4.5em > 3em > 2em */
+  color: white;
+  background: linear-gradient(to bottom, rgba(0,204,255,1), rgba(0,102,255,1));
   border-radius: 5em;
-  border: 1px dashed rgba(37,232,153,1);
-  padding: .35em 1.2em .4em 1.2em;
-  line-height: 2.4em;
+  border: 1px solid none;
+  padding: .35em .8em .4em .8em;
+  line-height: 2.3em;
   white-space:nowrap;
-  text-decoration: none;
+	text-decoration: none;
   outline: none;
+  box-shadow: 0 .1em .1em rgba(0,0,0,.25);
 }
 
 h2 {
   font-size: 2.5em;
   font-weight: 400;
 }
-
 
 #label {
   color: white;
