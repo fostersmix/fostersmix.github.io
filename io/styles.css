@@ -182,7 +182,7 @@ a.add:link, a.add:visited, a.add:active {
   font-size: 1.3em; /* 6em > 4.5em > 3em > 2em */
   color: rgba(0,0,0,.3);
   border-radius: 5em;
-  background: linear-gradient(to bottom, rgba(255,255,255,0) 50%, rgba(250,250,250,.5));
+  -background: linear-gradient(to bottom, rgba(255,255,255,0) 50%, rgba(250,250,250,.5));
   border: 1px solid rgba(168,168,168,.3);
   padding: .35em 1em .4em 1em;
   line-height: 2.4em;
