@@ -119,16 +119,10 @@
   }
   #hashtag {
     color:black;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Heebo', sans-serif;
     font-weight: 900;
     font-size: 6em; /* 6em */
-  }
-  #hashtag2 {
-    color:white;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 900;
-    font-size: 6em; /* 6em */
-  }
+  }   
   .top-big      {padding-top: 2em;}
   .top          {padding-top: 1em;}
   .top-small    {padding-top: .5em;}
@@ -201,12 +195,29 @@ a.add:link, a.add:visited, a.add:active {
   outline: none;
 }
 a.add:hover {
-  -color: rgba(37,232,153,1);
-  -border: 1px solid rgba(37,232,153,1);
-  -box-shadow: 0 .15em .3em rgba(37,232,153,.25);
   color: rgba(0,176,255,1);
   border: 1px solid rgba(0,176,255,1);
   box-shadow: 0 .1em .3em rgba(0,176,255,.3);
+}
+
+.connect {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-weight: 100;
+  width: 2em;
+  height: 2em;
+  color: white;
+  border: 0px solid rgba(255,255,255,0);
+  background: linear-gradient(to bottom, rgba(0,204,255,.5), rgba(0,102,255,.5));
+  text-align: center;
+  padding: 0;
+  font-size: 1.2em;
+  outline: none;
+  border-radius: 5em;
+  box-shadow: 0 .1em .1em rgba(0,0,0,.15);
+}
+.connect:hover {
+  background: linear-gradient(to bottom, rgba(0,204,255,1), rgba(0,102,255,1));
+  box-shadow: 0 .1em .1em rgba(0,0,0,.3)
 }
 
 h2 {
@@ -237,27 +248,6 @@ h2 {
 #search:focus  {
   border: 1px solid rgba(0,176,255,1);
   box-shadow: 0 0 .3em rgba(0,176,255,.5);
-}
-
-.connect {
-  font-family: 'Roboto', Arial, sans-serif;
-  font-weight: 100;
-  width: 2em;
-  height: 2em;
-  color: white;
-  border: 0px solid rgba(255,255,255,0);
-  background: linear-gradient(to bottom, rgba(0,204,255,1), rgba(0,102,255,1));
-  -background: linear-gradient(to bottom, rgba(37,232,153,.5), rgba(37,232,153,1));
-  text-align: center;
-  padding: 0;
-  font-size: 1.2em;
-  -line-height: ;
-  outline: none;
-  border-radius: 5em;
-  box-shadow: 0 .1em .1em rgba(0,0,0,.15);
-}
-.connect:hover {
-  box-shadow: 0 .1em .1em rgba(0,0,0,.3)
 }
 
 .screen       {min-height: 100vh;}
