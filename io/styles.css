@@ -140,31 +140,62 @@ a:link, a:visited, a:hover, a:active {
   outline: none;
 }
 
-a.solid:link, a.solid:visited, a.solid:hover, a.solid:active {
+a.solid:link, a.solid:visited, a.solid:active {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 1em;
   color: black;
-  border-bottom: 1px solid rgba(168,168,168,.5);
+  border-bottom: 1px solid rgba(168,168,168,.3);
 	text-decoration: none;
   outline: none;
 }
-
+a.solid:hover {
+  border-bottom: 1px solid rgba(168,168,168,.6);
+}
+a.solid-bold:link, a.solid-bold:visited, a.solid-bold:active {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 1em;
+  color: black;
+  border-bottom: 1px solid rgba(168,168,168,.3);
+	text-decoration: none;
+  outline: none;
+}
+a.solid-bold:hover {
+  border-bottom: 1px solid rgba(168,168,168,.6);
+}
 a.solid-white:link, a.solid-white:visited, a.solid-white:hover, a.solid-white:active {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 1em;
   color: white;
-  border-bottom: 1px solid rgba(255,255,255,.5);
+  border-bottom: 1px solid rgba(255,255,255,.3);
 	text-decoration: none;
   outline: none;
 }
+a.solid-white:hover {
+  border-bottom: 1px solid rgba(255,255,255,.6);
+}
+
+a.collection:link, a.collection:visited, a.collection:hover, a.collection:active {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  color: rgba(0,176,255,1);
+  padding: 0em .3em 0em .3em;
+  line-height: 1.8em;
+  white-space:nowrap;
+  text-decoration: none;
+  outline: none;
+}
+#collection-border {        border-bottom: 1px solid rgba(0,176,255,.3);}
+#collection-border:hover {  border-bottom: 1px solid rgba(0,176,255,.6);}
 
 a.delete:link, a.delete:visited, a.delete:active {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
-  font-size: 1.3em; /* 6em > 4.5em > 3em > 2em */
-  color: rgba(255,255,255,.4);
+  font-size: 1.3em;
+  color: rgba(255,255,255,.3);
   background: linear-gradient(to top, rgba(0,204,255,1), rgba(0,102,255,1));
   border-radius: 5em;
   border: 1px solid none;
@@ -176,17 +207,16 @@ a.delete:link, a.delete:visited, a.delete:active {
   box-shadow: inset 0 .1em .1em rgba(0,0,0,.1);
 }
 a.delete:hover {
-  color: rgba(255,255,255,.7);
-  box-shadow: inset 0 .1em .15em rgba(0,0,0,.2);
+  color: rgba(255,255,255,.6);
+  box-shadow: inset 0 .1em .15em rgba(0,0,0,.3);
 }
 
 a.add:link, a.add:visited, a.add:active {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 1.3em; /* 6em > 4.5em > 3em > 2em */
-  color: rgba(0,0,0,.3);
+  font-weight: 300;
+  font-size: 1.3em;
+  color: rgba(168,168,168,1);
   border-radius: 5em;
-  -background: linear-gradient(to bottom, rgba(255,255,255,0) 50%, rgba(250,250,250,.5));
   border: 1px solid rgba(168,168,168,.3);
   padding: .3em 1em .4em 1em;
   line-height: 2.4em;
@@ -207,33 +237,21 @@ a.add:hover {
   height: 2em;
   color: white;
   border: 0px solid rgba(255,255,255,0);
-  background: linear-gradient(to bottom, rgba(0,204,255,.5), rgba(0,102,255,.5));
+  background: linear-gradient(to bottom, rgba(0,204,255,.6), rgba(0,102,255,.6));
   text-align: center;
   padding: 0;
   font-size: 1.2em;
   outline: none;
   border-radius: 5em;
-  box-shadow: 0 .1em .1em rgba(0,0,0,.15);
+  box-shadow: 0 .1em .1em rgba(0,0,0,.1);
+  cursor: pointer;
 }
 .connect:hover {
   background: linear-gradient(to bottom, rgba(0,204,255,1), rgba(0,102,255,1));
   box-shadow: 0 .1em .1em rgba(0,0,0,.3)
 }
 
-h2 {
-  font-size: 4em;
-  font-weight: 900;
-  margin:0;
-}
-
-#label {
-  color: white;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  padding-right: .4em;
-}
-
-#lang {
+#language {
   font-family: 'Roboto', Arial, sans-serif;
   font-weight: 400;
   font-size: 1em;
@@ -245,24 +263,23 @@ h2 {
   margin: 0px;
   outline: none;
 }
-#lang:hover  {
-  border: 1px solid rgba(168,168,168,.5);
+#language:hover  {
+  border: 1px solid rgba(168,168,168,.6);
 }
-
-#lang-white {
+#language-white {
   font-family: 'Roboto', Arial, sans-serif;
   font-weight: 400;
   font-size: 1em;
   color: white;
   background-color: none;
-  border: 1px solid rgba(255,255,255,.5);
+  border: 1px solid rgba(255,255,255,.3);
   border-radius: 5em;
   padding: .3em 1em;
   margin: 0px;
   outline: none;
 }
-#lang-white:hover  {
-  border: 1px solid rgba(255,255,255,.7);
+#language-white:hover  {
+  border: 1px solid rgba(255,255,255,.6);
 }
 
 #search {
@@ -271,7 +288,7 @@ h2 {
   font-size: 1em;
   color: black;
   background-color: none;
-  border: 1px solid rgba(168,168,168,.5);
+  border: 1px solid rgba(168,168,168,.6);
   border-radius: 5em;
   padding: .2em 1em;
   margin: 0px;
@@ -280,11 +297,29 @@ h2 {
 }
 #search:focus  {
   border: 1px solid rgba(0,176,255,1);
-  box-shadow: 0 0 .3em rgba(0,176,255,.5);
+  box-shadow: 0 0 .3em rgba(0,176,255,.6);
+}
+
+#label {
+  color: white;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-weight: 300;
+  padding-right: .4em;
+}
+#label-bold {
+  color: black;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 4em;
+  font-weight: 900;
+  margin:0;
 }
 
 .screen       {min-height: 100vh;}
-.gradient     {background: linear-gradient(to top, rgba(0,204,255,1), rgba(0,102,255,1));}
+.gradient     {background: linear-gradient(to bottom, rgba(0,204,255,1), rgba(0,102,255,1));}
 
 .black, .black-hover:hover            {background-color:black;}
 #black, #black-hover:hover            {color:black;}
@@ -292,23 +327,26 @@ h2 {
 #white, #white-hover:hover            {color:white;}
 
 /*
-rgba(0,0,0,1) - black.color
-rgba(0,0,0,.3) - add.color ; del.shadow:hover
-rgba(0,0,0,.2) - del.shadow
+rgba(255,255,255,1)
+rgba(255,255,255,.6)
+rgba(255,255,255,.3)
 
-rgba(168,168,168,1) - gray.color
-rgba(168,168,168,.5) - search.border
-rgba(168,168,168,.3) - add.border
+rgba(168,168,168,1)
+rgba(168,168,168,.6)
+rgba(168,168,168,.3)
 
-rgba(255,255,255,1) - white.color
-rgba(255,255,255,.4) - del.color
-rgba(255,255,255,.7) - del.color:hover
+rgba(0,0,0,1)
+rgba(0,0,0,.3)
+rgba(0,0,0,.1)
 
-rgba(37,232,153,1) - add.border:hover ; add.color:hover
-rgba(37,232,153,.25) - add.shadow:hover
+rgba(0,176,255,1)
+rgba(0,176,255,.6)
+rgba(0,176,255,.3)
 
-#00e7e7, #2962ff - del.gradient
+rgba(0,204,255,1)
+rgba(0,204,255,.6)
 
-rgba(0,176,255,1) - search.border:focus
-rgba(0,176,255,.5) - search.shadow:focus
+rgba(0,102,255,1)
+rgba(0,102,255,.6)
+
 */
