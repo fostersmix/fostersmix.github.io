@@ -22,6 +22,9 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     font-size: 3em; /* 9em */
+    background: -webkit-linear-gradient(rgba(0,204,255,1), rgba(0,102,255,1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
   .top-big      {padding-top: 1em;}
   .top          {padding-top: 1em;}
@@ -55,6 +58,9 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     font-size: 3em; /* 9em */
+    background: -webkit-linear-gradient(rgba(0,204,255,1), rgba(0,102,255,1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
   .top-big      {padding-top: 2em;}
   .top          {padding-top: 1em;}
@@ -88,6 +94,9 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     font-size: 4em; /* 8em */
+    background: -webkit-linear-gradient(rgba(0,204,255,1), rgba(0,102,255,1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
   .top-big      {padding-top: 2em;}
   .top          {padding-top: 1em;}
@@ -118,10 +127,13 @@
     font-family: 'Ionicons', Arial, sans-serif;
   }
   #hashtag {
-    color:black;
+    color: rgba(0,204,255,1);
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
-    font-size: 6em; /* 6em */
+    font-size: 7em; /* 6em */
+    background: -webkit-linear-gradient(rgba(0,204,255,1), rgba(0,102,255,1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }   
   .top-big      {padding-top: 2em;}
   .top          {padding-top: 1em;}
@@ -182,14 +194,15 @@ a.collection:link, a.collection:visited, a.collection:hover, a.collection:active
   font-weight: 400;
   font-size: 1em;
   color: rgba(0,176,255,1);
-  padding: 0em .3em 0em .3em;
   line-height: 1.8em;
   white-space:nowrap;
   text-decoration: none;
   outline: none;
+  border-bottom: 1px solid rgba(0,176,255,.3);
 }
-#collection-border {        border-bottom: 1px solid rgba(0,176,255,.3);}
-#collection-border:hover {  border-bottom: 1px solid rgba(0,176,255,.6);}
+a.collection:hover {
+  border-bottom: 1px solid rgba(0,176,255,.6);
+}
 
 a.delete:link, a.delete:visited, a.delete:active {
   font-family: 'Roboto', sans-serif;
@@ -215,6 +228,7 @@ a.add:link, a.add:visited, a.add:active {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 1.3em;
+  background-color: white;
   color: rgba(168,168,168,1);
   border-radius: 5em;
   border: 1px solid rgba(168,168,168,.3);
@@ -257,9 +271,9 @@ a.add:hover {
   font-size: 1em;
   color: rgba(168,168,168,1);
   background-color: none;
-  border: 1px solid rgba(168,168,168,.0);
+  border: 1px solid rgba(168,168,168,.3);
   border-radius: 5em;
-  padding: .2em 1em;
+  padding: .2em .8em;
   margin: 0px;
   outline: none;
 }
@@ -272,9 +286,9 @@ a.add:hover {
   font-size: 1em;
   color: white;
   background-color: none;
-  border: 1px solid rgba(255,255,255,.0);
+  border: 1px solid rgba(255,255,255,.3);
   border-radius: 5em;
-  padding: .2em 1em;
+  padding: .2em .8em;
   margin: 0px;
   outline: none;
 }
@@ -320,7 +334,7 @@ h2 {
 
 .round        {border-radius: 0em;}
 .screen       {min-height: 100vh;}
-.gradient2     {background: linear-gradient(to bottom, rgba(168,168,168,.1), rgba(168,168,168,.0) 30%) ;}
+.gradient2     {background: linear-gradient(to top, rgba(0,102,255,1), rgba(0,204,255,1), rgba(255,255,255,1));}
 .gradient     {background: linear-gradient(to bottom, rgba(0,204,255,1), rgba(0,102,255,1));}
 
 .black, .black-hover:hover            {background-color:black;}
