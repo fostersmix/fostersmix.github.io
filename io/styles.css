@@ -122,7 +122,8 @@
     color: black;
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
-    font-size: 7em; /* 6em */
+    font-size: 6em; /* 6em */
+    line-height: 1;
   }   
   .top-big      {padding-top: 2em;}
   .top          {padding-top: 1em;}
