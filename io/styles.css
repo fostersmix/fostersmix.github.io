@@ -13,16 +13,14 @@
     margin-top: 0;
     margin-bottom: 0;
   }
-  #icon {
-    font-size: 3em; /* 9em */
-    font-family: 'Ionicons', Arial, sans-serif;
-  }
-  #hashtag {
-    color:black;
+  h1 {
     font-family: 'Roboto', sans-serif;
-    font-weight: 900;
-    font-size: 3em; /* 9em */
-  }
+    font-weight: 500;
+    font-size: 3em; /* 6em */
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+  }   
   .top-big      {padding-top: 1em;}
   .top          {padding-top: 1em;}
   .top-small    {padding-top: .5em;}
@@ -46,17 +44,14 @@
     margin-top: 0;
     margin-bottom: 0;
   }
-  #icon {
-    font-size: 3em; /* 9em */
-    font-family: 'Ionicons', Arial, sans-serif;
-  }
-  #hashtag {
-    color:black;
+  h1 {
     font-family: 'Roboto', sans-serif;
-    font-weight: 900;
-    font-size: 3em; /* 9em */
-
-  }
+    font-weight: 500;
+    font-size: 3em; /* 6em */
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+  }   
   .top-big      {padding-top: 2em;}
   .top          {padding-top: 1em;}
   .top-small    {padding-top: .5em;}
@@ -80,16 +75,14 @@
     margin-top: 0;
     margin-bottom: 0;
   }
-  #icon {
-    font-size: 2em; /* 4em */
-    font-family: 'Ionicons', Arial, sans-serif;
-  }
-  #hashtag {
-    color:black;
+  h1 {
     font-family: 'Roboto', sans-serif;
-    font-weight: 900;
-    font-size: 4em; /* 8em */
-  }
+    font-weight: 500;
+    font-size: 4em; /* 6em */
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+  }   
   .top-big      {padding-top: 2em;}
   .top          {padding-top: 1em;}
   .top-small    {padding-top: .5em;}
@@ -113,17 +106,13 @@
     margin-top: 0;
     margin-bottom: 0;
   }
-  #icon {
-    font-size: 2.5em; /* 2.5em */
-    color: black;
-    font-family: 'Ionicons', Arial, sans-serif;
-  }
-  #hashtag {
-    color: black;
+  h1 {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 5em; /* 6em */
     line-height: 1;
+    margin: 0;
+    padding: 0;
   }   
   .top-big      {padding-top: 2em;}
   .top          {padding-top: 1em;}
@@ -159,12 +148,10 @@ a.solid-white:link, a.solid-white:visited, a.solid-white:active {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 1em;
-  color: rgba(255,255,255,1);
-  line-height: 1.8em;
-  white-space:nowrap;
+  color: white;
+  border-bottom: 1px solid rgba(255,255,255,.3);
   text-decoration: none;
   outline: none;
-  border-bottom: 1px solid rgba(255,255,255,.3);
 }
 a.solid-white:hover {
   border-bottom: 1px solid rgba(255,255,255,.6);
