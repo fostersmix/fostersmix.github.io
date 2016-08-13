@@ -154,32 +154,23 @@ a.solid:link, a.solid:visited, a.solid:active {
 a.solid:hover {
   border-bottom: 1px solid rgba(168,168,168,.6);
 }
-a.solid-bold:link, a.solid-bold:visited, a.solid-bold:active {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-size: 1em;
-  color: black;
-  border-bottom: 1px solid rgba(168,168,168,.3);
-	text-decoration: none;
-  outline: none;
-}
-a.solid-bold:hover {
-  border-bottom: 1px solid rgba(168,168,168,.6);
-}
-a.solid-white:link, a.solid-white:visited, a.solid-white:hover, a.solid-white:active {
+
+a.solid-white:link, a.solid-white:visited, a.solid-white:active {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 1em;
-  color: white;
-  border-bottom: 1px solid rgba(255,255,255,.3);
-	text-decoration: none;
+  color: rgba(255,255,255,1);
+  line-height: 1.8em;
+  white-space:nowrap;
+  text-decoration: none;
   outline: none;
+  border-bottom: 1px solid rgba(255,255,255,.3);
 }
 a.solid-white:hover {
   border-bottom: 1px solid rgba(255,255,255,.6);
 }
 
-a.collection:link, a.collection:visited, a.collection:hover, a.collection:active {
+a.solid-blue:link, a.solid-blue:visited, a.solid-blue:active {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 1em;
@@ -190,7 +181,7 @@ a.collection:link, a.collection:visited, a.collection:hover, a.collection:active
   outline: none;
   border-bottom: 1px solid rgba(0,176,255,.3);
 }
-a.collection:hover {
+a.solid-blue:hover {
   border-bottom: 1px solid rgba(0,176,255,.6);
 }
 
@@ -255,41 +246,10 @@ a.add:hover {
   box-shadow: 0 .1em .1em rgba(0,0,0,.3)
 }
 
-#language {
-  font-family: 'Roboto', Arial, sans-serif;
-  font-weight: 400;
-  font-size: 1em;
-  color: rgba(168,168,168,1);
-  background-color: none;
-  border: 1px solid rgba(168,168,168,.3);
-  border-radius: 5em;
-  padding: .2em .8em;
-  margin: 0px;
-  outline: none;
-}
-#language:hover  {
-  border: 1px solid rgba(168,168,168,.6);
-}
-#language-white {
-  font-family: 'Roboto', Arial, sans-serif;
-  font-weight: 400;
-  font-size: 1em;
-  color: white;
-  background-color: none;
-  border: 1px solid rgba(255,255,255,.3);
-  border-radius: 5em;
-  padding: .2em .8em;
-  margin: 0px;
-  outline: none;
-}
-#language-white:hover  {
-  border: 1px solid rgba(255,255,255,.6);
-}
-
 #search {
   font-family: 'Ionicons', 'Roboto', Arial, sans-serif;
   font-weight: 400;
-  -height: 1.9em;
+  height: 1.8em;
   font-size: 1em;
   color: black;
   background-color: none;
@@ -317,25 +277,20 @@ a.add:hover {
   font-weight: 500;
 }
 
-h2 {
-  font-size: 4em;
-  font-weight: 900;
-  margin:0;
-}
-
 .round        {border-radius: 0em;}
 .screen       {min-height: 100vh;}
-.gradient2     {background: linear-gradient(to top, rgba(0,102,255,1), rgba(0,204,255,1), rgba(255,255,255,1));}
 .gradient     {background: linear-gradient(to bottom, rgba(0,204,255,1), rgba(0,102,255,1));}
 
 .black, .black-hover:hover            {background-color:black;}
 #black, #black-hover:hover            {color:black;}
+.gray, .gray-hover:hover              {background-color:rgba(168,168,168,1);}
+#gray, #gray-hover:hover              {color:rgba(168,168,168,1);}
 .white, .white-hover:hover            {background-color:white;}
 #white, #white-hover:hover            {color:white;}
-.red, .red-hover:hover            {background-color:red;}
-#red, #red-hover:hover            {color:red;}
-.blue, .blue-hover:hover            {background-color:blue;}
-#blue, #blue-hover:hover            {color:blue;}
+.red, .red-hover:hover                {background-color:red;}
+#red, #red-hover:hover                {color:red;}
+.blue, .blue-hover:hover              {background-color:blue;}
+#blue, #blue-hover:hover              {color:blue;}
 
 /*
 rgba(255,255,255,1)
