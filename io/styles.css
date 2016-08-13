@@ -194,10 +194,10 @@ a.delete:hover {
 
 a.add:link, a.add:visited, a.add:active {
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 1.2em;
   background-color: white;
-  color: black;
+  color: rgba(0,0,0,.6);
   border-radius: 5em;
   border: 1px solid rgba(168,168,168,.3);
   padding: .3em 1em .4em 1em;
@@ -259,7 +259,7 @@ a.add:hover {
   padding-right: .4em;
 }
 #label-bold {
-  color: black;
+  color: rgba(0,0,0,.6);
   font-family: 'Roboto', Arial, sans-serif;
   font-weight: 500;
 }
@@ -289,6 +289,7 @@ rgba(168,168,168,.6)
 rgba(168,168,168,.3)
 
 rgba(0,0,0,1)
+rgba(0,0,0,.6)
 rgba(0,0,0,.3)
 rgba(0,0,0,.1)
 
