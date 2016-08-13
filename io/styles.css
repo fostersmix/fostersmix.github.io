@@ -120,8 +120,8 @@
   }
   #hashtag {
     color: black;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
     font-size: 5em; /* 6em */
     line-height: 1;
   }   
