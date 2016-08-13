@@ -119,10 +119,10 @@
     font-family: 'Ionicons', Arial, sans-serif;
   }
   #hashtag {
-    color: #333;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 900;
-    font-size: 6em; /* 6em */
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 5em; /* 6em */
     line-height: 1;
   }   
   .top-big      {padding-top: 2em;}
@@ -197,7 +197,7 @@ a.collection:hover {
 a.delete:link, a.delete:visited, a.delete:active {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
-  font-size: 1.3em;
+  font-size: 1.2em;
   color: rgba(255,255,255,.3);
   background: linear-gradient(to top, rgba(0,204,255,1), rgba(0,102,255,1));
   border-radius: 5em;
@@ -217,7 +217,7 @@ a.delete:hover {
 a.add:link, a.add:visited, a.add:active {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  font-size: 1.3em;
+  font-size: 1.2em;
   background-color: white;
   color: rgba(168,168,168,1);
   border-radius: 5em;
@@ -237,8 +237,8 @@ a.add:hover {
 .connect {
   font-family: 'Roboto', Arial, sans-serif;
   font-weight: 100;
-  width: 2em;
-  height: 2em;
+  width: 1.8em;
+  height: 1.8em;
   color: white;
   border: 0px solid rgba(255,255,255,0);
   background: linear-gradient(to bottom, rgba(0,204,255,.6), rgba(0,102,255,.6));
@@ -289,6 +289,7 @@ a.add:hover {
 #search {
   font-family: 'Ionicons', 'Roboto', Arial, sans-serif;
   font-weight: 400;
+  -height: 1.9em;
   font-size: 1em;
   color: black;
   background-color: none;
