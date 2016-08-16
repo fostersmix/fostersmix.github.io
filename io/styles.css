@@ -6,7 +6,7 @@
   .hide-lg {display: inline;}*/
   body {
     background: white;
-    font-family: 'Roboto', Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: black;
     font-weight: 400;
     font-size: 3rem; /* 3rem */
@@ -37,7 +37,7 @@
   .hide-lg {display: inline;}*/
   body {
     background: white;
-    font-family: 'Roboto', Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: black;
     font-weight: 400;
     font-size: 3rem; /* 3rem */
@@ -68,7 +68,7 @@
   /*.hide-lg {display: inline;}*/
   body {
     background: white;
-    font-family: 'Ionicons', Arial, sans-serif;
+    font-family: 'Ionicons', sans-serif;
     color: black;
     font-weight: 400;
     font-size: 2rem;  /* 2rem */
@@ -99,7 +99,7 @@
   .hide-lg {display: none;}
   body {
     background: white;
-    font-family: 'Roboto', Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: black;
     font-weight: 400;
     font-size: 1rem;  /* 1rem */
@@ -107,7 +107,7 @@
     margin-bottom: 0;
   }
   h1 {
-    font-family: 'Georgia', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 5em; /* 6em */
     line-height: 1;
@@ -220,7 +220,7 @@ a.add:hover {
 }
 
 .connect {
-  font-family: 'Roboto', Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 100;
   width: 1.8em;
   height: 1.8em;
@@ -241,7 +241,7 @@ a.add:hover {
 }
 
 #search {
-  font-family: 'Ionicons', 'Roboto', Arial, sans-serif;
+  font-family: 'Ionicons', 'Roboto', sans-serif;
   font-weight: 400;
   height: 1.8em;
   font-size: 1em;
@@ -261,13 +261,13 @@ a.add:hover {
 
 #label {
   color: white;
-  font-family: 'Roboto', Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 300;
   padding-right: .4em;
 }
 #label-bold {
   color: rgba(0,0,0,.6);
-  font-family: 'Roboto', Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
 }
 
