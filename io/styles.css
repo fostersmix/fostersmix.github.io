@@ -201,21 +201,22 @@ a.delete:hover {
 
 a.add:link, a.add:visited, a.add:active {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 1.2em;
   background-color: white;
-  color: rgba(0,0,0,.6);
+  color: rgba(0,176,255,1);
+  border: 1px solid rgba(0,176,255,.3);
   border-radius: 5em;
-  border: 1px solid rgba(168,168,168,.3);
   padding: .3em 1em .4em 1em;
   line-height: 2.4em;
   white-space:nowrap;
   text-decoration: none;
   outline: none;
+
 }
 a.add:hover {
   color: rgba(0,176,255,1);
-  border: 1px solid rgba(0,176,255,1);
+  border: 1px solid rgba(0,176,255,.6);
   box-shadow: 0 .1em .3em rgba(0,176,255,.3);
 }
 
@@ -266,9 +267,9 @@ a.add:hover {
   padding-right: .4em;
 }
 #label-bold {
-  color: rgba(0,0,0,.6);
+  color: black;
   font-family: 'Roboto', sans-serif;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 small {padding-left: 1.2em;}
