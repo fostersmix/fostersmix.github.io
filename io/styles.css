@@ -20,7 +20,7 @@
     line-height: 1;
     margin: 0;
     padding: 0;
-  }   
+  }
   .top-big      {padding-top: 1em;}
   .top          {padding-top: 1em;}
   .top-small    {padding-top: .5em;}
@@ -51,7 +51,7 @@
     line-height: 1;
     margin: 0;
     padding: 0;
-  }   
+  }
   .top-big      {padding-top: 2em;}
   .top          {padding-top: 1em;}
   .top-small    {padding-top: .5em;}
@@ -82,7 +82,7 @@
     line-height: 1;
     margin: 0;
     padding: 0;
-  }   
+  }
   .top-big      {padding-top: 2em;}
   .top          {padding-top: 1em;}
   .top-small    {padding-top: .5em;}
@@ -113,7 +113,7 @@
     line-height: 1;
     margin: 0;
     padding: 0;
-  }   
+  }
   .top-big      {padding-top: 2em;}
   .top          {padding-top: 1em;}
   .top-small    {padding-top: .5em;}
@@ -187,8 +187,8 @@ a.delete:link, a.delete:visited, a.delete:active {
   background: linear-gradient(to top, rgba(0,204,255,1), rgba(0,102,255,1));
   border-radius: 5em;
   border: 1px solid none;
-  padding: .3em .8em .4em 1em;
-  line-height: 2.3em;
+  padding: .2em .7em .3em .9em;
+  line-height: 2.2em;
   white-space:nowrap;
 	text-decoration: none;
   outline: none;
@@ -207,8 +207,8 @@ a.add:link, a.add:visited, a.add:active {
   color: rgba(0,176,255,1);
   border: 1px solid rgba(0,176,255,.3);
   border-radius: 5em;
-  padding: .3em 1em .4em 1em;
-  line-height: 2.4em;
+  padding: .2em .9em .3em .9em;
+  line-height: 2.2em;
   white-space:nowrap;
   text-decoration: none;
   outline: none;
