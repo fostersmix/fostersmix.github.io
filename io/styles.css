@@ -124,7 +124,7 @@
 
 a:link, a:visited, a:hover, a:active {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  -font-weight: 400;
   font-size: 1em;
   color: black;
 	text-decoration: none;
@@ -135,7 +135,7 @@ a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
   color: black;
 	text-decoration: none;
   outline: none;
-  border-bottom: 1px dotted black;
+  border-bottom: 1px dotted rgba(168,168,168,1);
 }
 
 a.solid:link, a.solid:visited, a.solid:active {
@@ -260,6 +260,11 @@ a.add:hover {
   box-shadow: 0 0 .3em rgba(0,176,255,.6);
 }
 
+#language {
+  background-color: rgba(168,168,168,.3);
+  padding: .2em .4em;
+  border-radius: .2em;
+}
 #label {
   color: white;
   font-family: 'Roboto', sans-serif;
@@ -288,6 +293,8 @@ small {padding-left: 1.2em;}
 #red, #red-hover:hover                {color:red;}
 .blue, .blue-hover:hover              {background-color:blue;}
 #blue, #blue-hover:hover              {color:blue;}
+.warning, .warning-hover:hover        {background-color:rgba(244,241,233,1);}
+#warning, #warning-hover:hover        {color:rgba(244,241,233,1);}
 
 /*
 rgba(255,255,255,1)
