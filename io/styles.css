@@ -151,19 +151,6 @@ a.solid:hover {
   border-bottom: 1px solid rgba(168,168,168,.6);
 }
 
-a.solid-white:link, a.solid-white:visited, a.solid-white:active {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 1em;
-  color: white;
-  border-bottom: 1px solid rgba(255,255,255,.3);
-  text-decoration: none;
-  outline: none;
-}
-a.solid-white:hover {
-  border-bottom: 1px solid rgba(255,255,255,.6);
-}
-
 a.solid-blue:link, a.solid-blue:visited, a.solid-blue:active {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -212,7 +199,6 @@ a.add:link, a.add:visited, a.add:active {
   white-space:nowrap;
   text-decoration: none;
   outline: none;
-
 }
 a.add:hover {
   color: rgba(0,176,255,1);
