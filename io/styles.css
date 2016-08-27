@@ -135,7 +135,7 @@ a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
   color: black;
 	text-decoration: none;
   outline: none;
-  border-bottom: 1px dotted rgba(168,168,168,1);
+  border-bottom: 1px dotted rgba(0,0,0,.6);
 }
 
 a.solid:link, a.solid:visited, a.solid:active {
