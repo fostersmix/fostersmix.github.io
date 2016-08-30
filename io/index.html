@@ -9,6 +9,17 @@
     <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
     <script src="likely.js"></script>
     <link rel="stylesheet" href="likely.css">
+    <!--facebook-->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v2.7";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <!--facebook-->
   </head>
   <body class="white">
     <div class="row center-xs center-sm center-md center-lg middle-xs middle-sm middle-md bottom-lg screen">
@@ -23,7 +34,7 @@
           </div>
         </div>
         <div class="box -red ">
-          <font id="label-bold">featured collections:</font>
+          <font id="label-bold">✨ featured <a href="#" class="solid">collections</a>:</font><br class="hide-lg">
           <a href="photoshop.html" class="solid-blue">Краудфандинг в России</a>,
           <a href="#" class="solid-blue">0-60 mph</a>,
           <a href="#" class="solid-blue">Машины с панорамным стеклом</a>
@@ -46,12 +57,7 @@
                 <div class="row center-xs center-sm center-md start-lg">
                   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     <div class="box">
-                      <div class="likely">
-                        <div class="facebook">share</div>
-                        <div class="twitter">tweet</div>
-                        <div class="vkontakte">like</div>
-                        <div class="telegram">send @telegram</div>
-                      </div>
+                      <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-size="small" data-mobile-iframe="false"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse">Поделиться</a></div>
                     </div>
                   </div>
                 </div>

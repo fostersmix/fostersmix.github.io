@@ -137,13 +137,12 @@ a.under:link, a.under:visited, a.under:active {
   font-size: 1em;
   color: black;
   padding-bottom: 0em;
-  border-bottom: 1px solid rgba(0,0,0,.1);
+  border-bottom: 1px solid rgba(168,168,168,.3);
 	text-decoration: none;
   outline: none;
 }
 a.under:hover {
-  border-bottom: 1px solid rgba(0,0,0,.3);
-  -text-decoration: underline;
+  border-bottom: 1px solid rgba(168,168,168,.6);
 }
 
 a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
@@ -275,6 +274,7 @@ a.add:hover {
   color: black;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
+  line-height: 2.2em;
 }
 
 small {padding-left: 1.2em;}
