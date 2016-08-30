@@ -108,9 +108,9 @@
   }
   h1 {
     font-family: 'Roboto', sans-serif;
-    font-weight: 500;
+    font-weight: 500;  
     font-size: 4.5em; /* 6em */
-    line-height: 1;
+    -line-height: 1;
     margin: 0;
     padding: 0;
   }
@@ -136,11 +136,14 @@ a.under:link, a.under:visited, a.under:active {
   font-weight: 700;
   font-size: 1em;
   color: black;
+  padding-bottom: 0em;
+  border-bottom: 1px solid rgba(0,0,0,.1);
 	text-decoration: none;
   outline: none;
 }
 a.under:hover {
-  text-decoration: underline;
+  border-bottom: 1px solid rgba(0,0,0,.3);
+  -text-decoration: underline;
 }
 
 a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
@@ -168,7 +171,6 @@ a.solid-blue:link, a.solid-blue:visited, a.solid-blue:active {
   font-weight: 400;
   font-size: 1em;
   color: rgba(0,176,255,1);
-  line-height: 1.8em;
   white-space:nowrap;
   text-decoration: none;
   outline: none;
