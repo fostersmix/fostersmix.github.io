@@ -171,7 +171,7 @@ a.solid-blue:link, a.solid-blue:visited, a.solid-blue:active {
   font-weight: 400;
   font-size: 1em;
   color: rgba(0,176,255,1);
-  white-space:nowrap;
+  -white-space:nowrap;
   text-decoration: none;
   outline: none;
   border-bottom: 1px solid rgba(0,176,255,.3);
