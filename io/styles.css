@@ -137,12 +137,12 @@ a.under:link, a.under:visited, a.under:active {
   font-size: 1em;
   color: black;
   padding-bottom: 0em;
-  border-bottom: 1px solid rgba(168,168,168,.3);
+  border-bottom: 1px solid rgba(168,168,168,.0);
 	text-decoration: none;
   outline: none;
 }
 a.under:hover {
-  border-bottom: 1px solid rgba(168,168,168,.6);
+  border-bottom: 1px solid rgba(168,168,168,.3);
 }
 
 a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
