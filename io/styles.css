@@ -110,7 +110,7 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 500;  
     font-size: 4.5em; /* 6em */
-    -line-height: 1;
+    line-height: 1.1;
     margin: 0;
     padding: 0;
   }
