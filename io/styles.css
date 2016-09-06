@@ -109,8 +109,8 @@
   h1 {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;  
-    font-size: 4.5em; /* 6em */
-    line-height: 1.1;
+    font-size: 4em; /* 6em */
+    -line-height: 1.1;
     margin: 0;
     padding: 0;
   }
@@ -183,6 +183,30 @@ a.solid-blue:hover {
   border-bottom: 1px solid rgba(0,176,255,.8);
 }
 
+#solid {
+  border-bottom: 1px solid rgba(0,176,255,.4);
+}
+#solid:hover {
+  border-bottom: 1px solid rgba(0,176,255,.8);
+}
+
+a.solid-col:link, a.solid-col:visited, a.solid-col:active {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  color: rgba(0,176,255,1);
+  white-space:nowrap;
+  text-decoration: none;
+  outline: none;
+  padding-left: .5em;
+  padding-right: .5em;
+  line-height: 2em;
+  -border-bottom: 1px solid rgba(0,176,255,.4);
+}
+a.solid-col:hover {
+  -border-bottom: 1px solid rgba(0,176,255,.8);
+}
+
 a.delete:link, a.delete:visited, a.delete:active {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
@@ -242,6 +266,32 @@ a.add:hover {
 .connect:hover {
   background: linear-gradient(to bottom, rgba(0,204,255,1), rgba(0,102,255,1));
   box-shadow: 0 .1em .1em rgba(0,0,0,.3)
+}
+
+.connect2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  width: 1em;
+  height: 1em;
+  color: white;
+  border: 0px solid rgba(255,255,255,0);
+  -background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTdSlrwXJNXbK9_rjJ6kl7Jt8ikLzORM3rmuhfRI__BxT_gxpbzP6Df7ULe);
+  text-align: center;
+  background-clip:border-box;
+  background-size: cover;
+  background-position: center bottom;;
+  background-repeat: no-repeat;
+  background-color: white;
+  padding: 0;
+  font-size: 1em;
+  outline: none;
+  -border-radius: 5em;
+  -box-shadow: 0 .1em .1em rgba(0,0,0,.1);
+  -cursor: pointer;
+}
+.connect2:hover {
+  -background: linear-gradient(to bottom, rgba(0,204,255,1), rgba(0,102,255,1));
+  -box-shadow: 0 .1em .1em rgba(0,0,0,.3)
 }
 
 #search {
