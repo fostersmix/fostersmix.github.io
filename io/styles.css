@@ -7,17 +7,15 @@
   body {
     background: white;
     font-family: 'Helvetica Neue', Helvetica, sans-serif;
-    color: black;
     font-weight: normal;
+    color: black;
     font-size: 3rem; /* 3rem */
     margin-top: 0;
     margin-bottom: 0;
   }
   h1 {
-    font-family: 'Helvetica Neue', Helvetica, sans-serif;
-    font-weight: 700;
+    font-weight: bold;
     font-size: 2em; /* 6em */
-    line-height: 1;
     margin: 0;
     padding: 0;
   }
@@ -38,17 +36,15 @@
   body {
     background: white;
     font-family: 'Helvetica Neue', Helvetica, sans-serif;
-    color: black;
     font-weight: normal;
+    color: black;
     font-size: 3rem; /* 3rem */
     margin-top: 0;
     margin-bottom: 0;
   }
   h1 {
-    font-family: 'Helvetica Neue', Helvetica, sans-serif;
-    font-weight: 700;
+    font-weight: bold;
     font-size: 2.5em; /* 6em */
-    line-height: 1;
     margin: 0;
     padding: 0;
   }
@@ -68,18 +64,16 @@
   /*.hide-lg {display: inline;}*/
   body {
     background: white;
-    font-family: 'Ionicons', sans-serif;
-    color: black;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
     font-weight: normal;
+    color: black;
     font-size: 2rem;  /* 2rem */
     margin-top: 0;
     margin-bottom: 0;
   }
   h1 {
-    font-family: 'Helvetica Neue', Helvetica, sans-serif;
-    font-weight: 700;
+    font-weight: bold;
     font-size: 3em; /* 6em */
-    line-height: 1;
     margin: 0;
     padding: 0;
   }
@@ -100,14 +94,13 @@
   body {
     background: white;
     font-family: 'Helvetica Neue', Helvetica, sans-serif;
-    color: black;
     font-weight: normal;
+    color: black;
     font-size: 1rem;  /* 1rem */
     margin-top: 0;
     margin-bottom: 0;
   }
   h1 {
-    font-family: 'Helvetica Neue', Helvetica, sans-serif;
     font-weight: bold;
     font-size: 4em; /* 6em */
     margin: 0;
@@ -123,25 +116,10 @@
 
 a:link, a:visited, a:hover, a:active {
   font-family: 'Helvetica Neue', Helvetica, sans-serif;
-  font-weight: normal;
   font-size: 1em;
   color: black;
 	text-decoration: none;
   outline: none;
-}
-
-a.under:link, a.under:visited, a.under:active {
-  font-weight: 700;
-  font-size: 1em;
-  color: rgba(0,0,0,1);
-  padding-bottom: 0em;
-  border-bottom: 1px solid rgba(168,168,168,.0);
-	text-decoration: none;
-  outline: none;
-}
-a.under:hover {
-  color: rgba(0,0,0,1);
-  border-bottom: 1px solid rgba(168,168,168,.0);
 }
 
 a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
@@ -153,7 +131,6 @@ a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
 }
 
 a.solid:link, a.solid:visited, a.solid:active {
-  font-weight: normal;
   font-size: 1em;
   color: black;
   padding-bottom: 0.05em;
@@ -166,10 +143,8 @@ a.solid:hover {
 }
 
 a.solid-blue:link, a.solid-blue:visited, a.solid-blue:active {
-  font-weight: normal;
   font-size: 1em;
   color: rgba(0,176,255,1);
-  -white-space:nowrap;
   text-decoration: none;
   outline: none;
   padding-bottom: 0.05em;
@@ -177,29 +152,6 @@ a.solid-blue:link, a.solid-blue:visited, a.solid-blue:active {
 }
 a.solid-blue:hover {
   border-bottom: 1px solid rgba(0,176,255,.8);
-}
-
-#solid {
-  border-bottom: 1px solid rgba(0,176,255,.4);
-}
-#solid:hover {
-  border-bottom: 1px solid rgba(0,176,255,.8);
-}
-
-a.solid-col:link, a.solid-col:visited, a.solid-col:active {
-  font-weight: normal;
-  font-size: 1em;
-  color: rgba(0,176,255,1);
-  white-space:nowrap;
-  text-decoration: none;
-  outline: none;
-  padding-left: .5em;
-  padding-right: .5em;
-  line-height: 2em;
-  -border-bottom: 1px solid rgba(0,176,255,.4);
-}
-a.solid-col:hover {
-  -border-bottom: 1px solid rgba(0,176,255,.8);
 }
 
 a.delete:link, a.delete:visited, a.delete:active {
@@ -222,7 +174,6 @@ a.delete:hover {
 }
 
 a.add:link, a.add:visited, a.add:active {
-  font-weight: normal;
   font-size: 1em;
   background-color: white;
   color: rgba(0,0,0,.8);
@@ -239,8 +190,6 @@ a.add:hover {
   border: 1px solid rgba(168,168,168,.8);
   color: rgba(0,0,0,.8);
   background: linear-gradient(to bottom, rgba(255,255,255,1), rgba(247,248,248,1));
-  -border: 1px solid rgba(0,176,255,.8);
-  -box-shadow: 0 .1em .3em rgba(0,176,255,.3);
 }
 
 .connect {
@@ -262,25 +211,8 @@ a.add:hover {
   box-shadow: 0 .1em .1em rgba(0,0,0,.3)
 }
 
-.col-img {
-  width: 1em;
-  height: 1em;
-  color: white;
-  border: 0px solid rgba(255,255,255,0);
-  text-align: center;
-  background-clip:border-box;
-  background-size: cover;
-  background-position: center bottom;;
-  background-repeat: no-repeat;
-  background-color: white;
-  padding: 0;
-  font-size: 1em;
-  outline: none;
-}
-
 #search {
   font-family: 'Ionicons', 'Helvetica Neue', Helvetica, sans-serif;
-  font-weight: normal;
   height: 1.8em;
   font-size: 1em;
   color: black;
@@ -296,24 +228,14 @@ a.add:hover {
   border: 1px solid rgba(0,176,255,1);
   box-shadow: 0 0 .3em rgba(0,176,255,.6);
 }
-#language {
-  background-color: rgba(168,168,168,.3);
-  padding: .2em .4em;
-  border-radius: .2em;
-}
+
 #label {
   color: white;
-  font-weight: normal;
   padding-right: .4em;
 }
 
-.line {
-  height:1px;
-  border-top: 1px solid rgba(168,168,168,.6);
-}
-
-.screen       {min-height: 100vh;}
-.gradient     {background: linear-gradient(to bottom, rgba(0,204,255,1), rgba(0,102,255,1));}
+.line {height:1px;}
+.screen {min-height: 100vh;}
 
 .black, .black-hover:hover            {background-color:black;}
 #black, #black-hover:hover            {color:black;}
