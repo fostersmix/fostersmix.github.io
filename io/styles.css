@@ -204,40 +204,43 @@ a.solid-col:hover {
 
 a.delete:link, a.delete:visited, a.delete:active {
   font-weight: 100;
-  font-size: 1.2em;
+  font-size: 1em;
   color: rgba(255,255,255,.4);
   background: linear-gradient(to top, rgba(0,204,255,1), rgba(0,102,255,1));
   border-radius: 5em;
   border: 1px solid none;
-  padding: .2em .7em .3em .9em;
-  line-height: 2.2em;
+  padding: .3em .7em .4em .9em;
+  line-height: 2.4em;
   white-space:nowrap;
 	text-decoration: none;
   outline: none;
-  box-shadow: inset 0 .1em .1em rgba(0,0,0,.1);
+  box-shadow: inset 0 .1em .1em rgba(0,0,0,.4);
 }
 a.delete:hover {
   color: rgba(255,255,255,.7);
-  box-shadow: inset 0 .1em .15em rgba(0,0,0,.3);
+  box-shadow: inset 0 .1em .15em rgba(0,0,0,.6);
 }
 
 a.add:link, a.add:visited, a.add:active {
   font-weight: normal;
-  font-size: 1.2em;
+  font-size: 1em;
   background-color: white;
-  color: rgba(0,176,255,1);
-  border: 1px solid rgba(0,176,255,.4);
+  color: rgba(0,0,0,.8);
+  background: linear-gradient(to bottom, rgba(255,255,255,1), rgba(247,248,248,.8));
+  border: 1px solid rgba(168,168,168,.4);
   border-radius: 5em;
-  padding: .2em .9em .3em .9em;
-  line-height: 2.2em;
+  padding: .3em .9em .4em .9em;
+  line-height: 2.4em;
   white-space:nowrap;
   text-decoration: none;
   outline: none;
 }
 a.add:hover {
-  color: rgba(0,176,255,1);
-  border: 1px solid rgba(0,176,255,.8);
-  box-shadow: 0 .1em .3em rgba(0,176,255,.3);
+  border: 1px solid rgba(168,168,168,.8);
+  color: rgba(0,0,0,.8);
+  background: linear-gradient(to bottom, rgba(255,255,255,1), rgba(247,248,248,1));
+  -border: 1px solid rgba(0,176,255,.8);
+  -box-shadow: 0 .1em .3em rgba(0,176,255,.3);
 }
 
 .connect {
@@ -245,10 +248,10 @@ a.add:hover {
   height: 1.8em;
   color: white;
   border: 0px solid rgba(255,255,255,0);
-  background: linear-gradient(to bottom, rgba(0,204,255,.6), rgba(0,102,255,.6));
+  background: linear-gradient(to bottom, rgba(0,204,255,.7), rgba(0,102,255,.7));
   text-align: center;
   padding: 0;
-  font-size: 1.2em;
+  font-size: 1em;
   outline: none;
   border-radius: 5em;
   box-shadow: 0 .1em .1em rgba(0,0,0,.1);
@@ -305,7 +308,7 @@ a.add:hover {
 }
 
 .line {
-  height:2px;
+  height:1px;
   border-top: 1px solid rgba(168,168,168,.6);
 }
 
