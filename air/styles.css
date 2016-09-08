@@ -243,7 +243,7 @@ a.add:hover {
 .line {height:1px;}
 .screen {min-height: 100vh;}
 .round {border-radius: 5em;}
-.shadow {box-shadow: 0 0 .2em rgba(0,0,0,.1)}
+.shadow {box-shadow: 0 .2em .5em rgba(0,0,0,.3)}
 
 .black, .black-hover:hover            {background-color:black;}
 #black, #black-hover:hover            {color:black;}
