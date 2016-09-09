@@ -9,7 +9,7 @@
     font-family: 'Helvetica Neue', Helvetica, sans-serif;
     font-weight: normal;
     color: black;
-    font-size: 1.5rem; /* 3rem */
+    font-size: 1.2rem; /* 3rem */
     margin-top: 0;
     margin-bottom: 0;
   }
@@ -19,12 +19,15 @@
     margin: 0;
     padding: 0;
   }
-  .top-big      {padding-top: 1em;}
+  #logo {
+    font-family: 'PT Sans Caption', sans-serif;
+    font-weight: 700;
+    font-size: 5em;
+  }
+  .top-big      {padding-top: 1.5em;}
   .top          {padding-top: 1em;}
-  .top-small    {padding-top: .5em;}
-  .bottom-big   {padding-bottom: 1em;}
+  .bottom-big   {padding-bottom: 1.5em;}
   .bottom       {padding-bottom: 1em;}
-  .bottom-small {padding-bottom: .5em;}
 }
 
 /*sm*/
@@ -38,7 +41,7 @@
     font-family: 'Helvetica Neue', Helvetica, sans-serif;
     font-weight: normal;
     color: black;
-    font-size: 2rem; /* 3rem */
+    font-size: 1.5rem; /* 3rem */
     margin-top: 0;
     margin-bottom: 0;
   }
@@ -48,12 +51,14 @@
     margin: 0;
     padding: 0;
   }
-  .top-big      {padding-top: 2em;}
+  #logo {
+    font-family: 'PT Sans Caption', sans-serif;
+    font-weight: 700;
+  }
+  .top-big      {padding-top: 1.5em;}
   .top          {padding-top: 1em;}
-  .top-small    {padding-top: .5em;}
-  .bottom-big   {padding-bottom: 2em;}
+  .bottom-big   {padding-bottom: 1.5em;}
   .bottom       {padding-bottom: 1em;}
-  .bottom-small {padding-bottom: .5em;}
 }
 
 /*md*/
@@ -77,12 +82,14 @@
     margin: 0;
     padding: 0;
   }
+  #logo {
+    font-family: 'PT Sans Caption', sans-serif;
+    font-weight: 700;
+  }
   .top-big      {padding-top: 2em;}
   .top          {padding-top: 1em;}
-  .top-small    {padding-top: .5em;}
   .bottom-big   {padding-bottom: 2em;}
   .bottom       {padding-bottom: 1em;}
-  .bottom-small {padding-bottom: .5em;}
 }
 
 /*lg*/
@@ -106,12 +113,14 @@
     margin: 0;
     padding: 0;
   }
+  #logo {
+    font-family: 'PT Sans Caption', sans-serif;
+    font-weight: 700;
+  }
   .top-big      {padding-top: 2em;}
   .top          {padding-top: 1em;}
-  .top-small    {padding-top: .5em;}
   .bottom-big   {padding-bottom: 2em;}
   .bottom       {padding-bottom: 1em;}
-  .bottom-small {padding-bottom: .5em;}
 }
 
 a:link, a:visited, a:hover, a:active {
@@ -133,33 +142,24 @@ a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
   border-bottom: 1px dotted rgba(0,0,0,.6);
 }
 
-#logo {
-  font-family: 'PT Sans Caption', sans-serif;
-  font-weight: 700;
-}
+.mdl            {vertical-align: middle;}
+.line           {height:1px;}
+.screen         {min-height: 100vh;}
+.round          {border-radius: .5em;}
+.round-button   {border-radius: 5em;}
+.pointer        {cursor:pointer;}
+.shadow         {box-shadow: 0 .5em 1em 0 rgba(0,0,0,.2)}
+.shadow-body    {box-shadow: 0 1px 1px 0px rgba(0, 0, 0, 0.1), 0 1px 0px 1px rgba(0, 0, 0, 0.04);}
 
-.mdl {vertical-align: middle;}
-.line {height:1px;}
-.screen {min-height: 100vh;}
-.round {border-radius: .5em;}
-.round-button {border-radius: 5em;}
-.pointer {cursor:pointer;}
-.shadow {box-shadow: 0 .5em 1em 0 rgba(0,0,0,.2)}
-.shadow-body {box-shadow: 0 1px 1px 0px rgba(0, 0, 0, 0.1), 0 1px 0px 1px rgba(0, 0, 0, 0.04);}
-
-.border-left {border-left: 1px solid #eee;}
-.border-right {border-right: 1px solid #eee;}
-.border-top {border-top: 1px solid #eee;}
-.border-bottom {border-bottom: 1px solid #eee;}
+.border-left    {border-left: 1px solid #eee;}
+.border-right   {border-right: 1px solid #eee;}
+.border-top     {border-top: 1px solid #eee;}
+.border-bottom  {border-bottom: 1px solid #eee;}
 
 .black, .black-hover:hover            {background-color:black;}
 #black, #black-hover:hover            {color:black;}
-.darkgray, .darkgray-hover:hover      {background-color:rgba(50,50,50,1);}
-#darkgray, #darkgray-hover:hover      {color:rgba(50,50,50,1);}
 .gray, .gray-hover:hover              {background-color:rgba(168,168,168,.5);}
 #gray, #gray-hover:hover              {color:rgba(168,168,168,.5);}
-.lightgray, .lightgray-hover:hover    {background-color:#eee;}
-#lightgray, #lightgray-hover:hover    {color:#eee;}
 .white, .white-hover:hover            {background-color:white;}
 #white, #white-hover:hover            {color:white;}
 .blue, .blue-hover:hover              {background-color:blue;}
