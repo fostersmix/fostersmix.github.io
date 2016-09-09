@@ -5,17 +5,17 @@
   .hide-md {display: inline;}
   .hide-lg {display: inline;}*/
   body {
-    background: white;
+    background: rgba(250,251,252,1);
     font-family: 'Helvetica Neue', Helvetica, sans-serif;
     font-weight: normal;
     color: black;
-    font-size: 3rem; /* 3rem */
+    font-size: 2.5rem; /* 3rem */
     margin-top: 0;
     margin-bottom: 0;
   }
   h1 {
     font-weight: bold;
-    font-size: 2em; /* 6em */
+    font-size: 1em; /* 6em */
     margin: 0;
     padding: 0;
   }
@@ -34,11 +34,11 @@
   /*.hide-md {display: inline;}
   .hide-lg {display: inline;}*/
   body {
-    background: white;
+    background: rgba(250,251,252,1);
     font-family: 'Helvetica Neue', Helvetica, sans-serif;
     font-weight: normal;
     color: black;
-    font-size: 3rem; /* 3rem */
+    font-size: 2rem; /* 3rem */
     margin-top: 0;
     margin-bottom: 0;
   }
@@ -63,11 +63,11 @@
   .hide-md {display: none;}
   /*.hide-lg {display: inline;}*/
   body {
-    background: white;
+    background: rgba(250,251,252,1);
     font-family: 'Helvetica Neue', Helvetica, sans-serif;
     font-weight: normal;
     color: black;
-    font-size: 2rem;  /* 2rem */
+    font-size: 1.5rem;  /* 2rem */
     margin-top: 0;
     margin-bottom: 0;
   }
@@ -116,10 +116,13 @@
 
 a:link, a:visited, a:hover, a:active {
   font-family: 'Helvetica Neue', Helvetica, sans-serif;
-  font-size: 1em;
   color: black;
+  border-bottom: 1px solid rgba(168,168,168,.4);
 	text-decoration: none;
   outline: none;
+}
+a:hover {
+  border-bottom: 1px solid rgba(168,168,168,.8);
 }
 
 a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
@@ -130,122 +133,12 @@ a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
   border-bottom: 1px dotted rgba(0,0,0,.6);
 }
 
-a.solid:link, a.solid:visited, a.solid:active {
-  font-size: 1em;
-  color: black;
-  padding-bottom: 0.05em;
-  border-bottom: 1px solid rgba(168,168,168,.4);
-	text-decoration: none;
-  outline: none;
-}
-a.solid:hover {
-  border-bottom: 1px solid rgba(168,168,168,.8);
-}
-
-a.solid-blue:link, a.solid-blue:visited, a.solid-blue:active {
-  font-size: 1em;
-  color: rgba(0,176,255,1);
-  text-decoration: none;
-  outline: none;
-  padding-bottom: 0.05em;
-  border-bottom: 1px solid rgba(0,176,255,.4);
-}
-a.solid-blue:hover {
-  border-bottom: 1px solid rgba(0,176,255,.8);
-}
-
-a.delete:link, a.delete:visited, a.delete:active {
-  font-family: 'Helvetica Neue', Helvetica, sans-serif;
-  font-weight: lighter;;
-  font-size: 1em;
-  color: rgba(255,255,255,.4);
-  background: linear-gradient(to top, rgba(0,204,255,1), rgba(0,102,255,1));
-  border-radius: 5em;
-  border: 1px solid none;
-  padding: .3em .7em .4em .9em;
-  line-height: 2.4em;
-  white-space:nowrap;
-	text-decoration: none;
-  outline: none;
-  box-shadow: inset 0 .1em .1em rgba(0,0,0,.2);
-}
-a.delete:hover {
-  color: rgba(255,255,255,.7);
-  box-shadow: inset 0 .1em .15em rgba(0,0,0,.4);
-}
-
-a.add:link, a.add:visited, a.add:active {
-  font-size: 1em;
-  background-color: white;
-  color: rgba(0,176,255,1);
-  border: 1px solid rgba(0,176,255,.3);
-  border-radius: 5em;
-  padding: .3em .9em .4em .9em;
-  line-height: 2.4em;
-  white-space:nowrap;
-  text-decoration: none;
-  outline: none;
-  -box-shadow: 0 1px .1em rgba(0,0,0,.1)
-}
-a.add:hover {
-  color: rgba(0,176,255,1);
-  border: 1px solid rgba(0,176,255,.6);
-  box-shadow: 0 .1em .3em rgba(0,176,255,.3);
-}
-
-.connect {
-  font-family: 'Roboto', Helvetica, sans-serif;
-  font-weight: lighter;
-  width: 1.8em;
-  height: 1.8em;
-  color: white;
-  border: 0px solid rgba(255,255,255,0);
-  background: linear-gradient(to bottom, rgba(0,204,255,.7), rgba(0,102,255,.7));
-  text-align: center;
-  padding: 0;
-  font-size: 1em;
-  line-height: 1.9em;
-  outline: none;
-  border-radius: 5em;
-  box-shadow: 0 .1em .1em rgba(0,0,0,.1);
-  cursor: pointer;
-}
-.connect:hover {
-  background: linear-gradient(to bottom, rgba(0,204,255,1), rgba(0,102,255,1));
-  box-shadow: 0 .1em .1em rgba(0,0,0,.3)
-}
-
-#search {
-  font-family: 'Ionicons', 'Helvetica Neue', Helvetica, sans-serif;
-  height: 1.8em;
-  font-size: 1em;
-  color: black;
-  background-color: none;
-  border: 1px solid rgba(168,168,168,.6);
-  border-radius: 5em;
-  padding: .2em 1em;
-  margin: 0px;
-  outline: none;
-  width: 100%;
-}
-#search:focus  {
-  border: 1px solid rgba(0,176,255,1);
-  box-shadow: 0 0 .3em rgba(0,176,255,.6);
-}
-
-#label {
-  font-family: 'Helvetica Neue', Helvetica, sans-serif;
-  font-weight: normal;
-  color: white;
-  padding-right: .4em;
-}
-
 #logo {
   font-family: 'PT Sans Caption', sans-serif;
   font-weight: 700;
 }
 
-.mdl {vertical-align: top;}
+.mdl {vertical-align: middle;}
 .line {height:1px;}
 .screen {min-height: 100vh;}
 .round {border-radius: .5em;}
@@ -261,45 +154,13 @@ a.add:hover {
 
 .black, .black-hover:hover            {background-color:black;}
 #black, #black-hover:hover            {color:black;}
-.darkgray, .darkgray-hover:hover              {background-color:rgba(50,50,50,1);}
-#darkgray, #darkgray-hover:hover              {color:rgba(50,50,50,1);}
+.darkgray, .darkgray-hover:hover      {background-color:rgba(50,50,50,1);}
+#darkgray, #darkgray-hover:hover      {color:rgba(50,50,50,1);}
 .gray, .gray-hover:hover              {background-color:rgba(168,168,168,.5);}
 #gray, #gray-hover:hover              {color:rgba(168,168,168,.5);}
-.lightgray, .lightgray-hover:hover              {background-color:#eee;}
-#lightgray, #lightgray-hover:hover              {color:#eee;}
-.lightgrayb, .lightgrayb-hover:hover              {background-color:rgba(250,251,252,1);}
-#lightgrayb, #lightgrayb-hover:hover              {color:rgba(250,251,252,1);}
+.lightgray, .lightgray-hover:hover    {background-color:#eee;}
+#lightgray, #lightgray-hover:hover    {color:#eee;}
 .white, .white-hover:hover            {background-color:white;}
 #white, #white-hover:hover            {color:white;}
-.red, .red-hover:hover                {background-color:red;}
-#red, #red-hover:hover                {color:red;}
 .blue, .blue-hover:hover              {background-color:blue;}
 #blue, #blue-hover:hover              {color:blue;}
-.warning, .warning-hover:hover        {background-color:rgba(240,250,255,.4);}
-#warning, #warning-hover:hover        {color:rgba(250,251,252,1);}
-
-/*
-rgba(255,255,255,1)
-rgba(255,255,255,.6)
-rgba(255,255,255,.3)
-
-rgba(168,168,168,1)
-rgba(168,168,168,.6)
-rgba(168,168,168,.3)
-
-rgba(0,0,0,1)
-rgba(0,0,0,.6)
-rgba(0,0,0,.3)
-rgba(0,0,0,.1)
-
-rgba(0,176,255,1)
-rgba(0,176,255,.6)
-rgba(0,176,255,.3)
-
-rgba(0,204,255,1)
-rgba(0,204,255,.6)
-
-rgba(0,102,255,1)
-rgba(0,102,255,.6)
-
-*/
