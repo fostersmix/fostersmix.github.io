@@ -265,8 +265,8 @@ a.add:hover {
 #red, #red-hover:hover                {color:red;}
 .blue, .blue-hover:hover              {background-color:blue;}
 #blue, #blue-hover:hover              {color:blue;}
-.warning, .warning-hover:hover        {background-color:rgba(244,241,233,1);}
-#warning, #warning-hover:hover        {color:rgba(244,241,233,1);}
+.warning, .warning-hover:hover        {background-color:rgba(240,250,255,.4);}
+#warning, #warning-hover:hover        {color:rgba(250,251,252,1);}
 
 /*
 rgba(255,255,255,1)
