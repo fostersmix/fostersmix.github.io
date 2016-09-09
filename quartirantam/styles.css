@@ -255,10 +255,12 @@ a.add:hover {
 #black, #black-hover:hover            {color:black;}
 .darkgray, .darkgray-hover:hover              {background-color:rgba(50,50,50,1);}
 #darkgray, #darkgray-hover:hover              {color:rgba(50,50,50,1);}
-.gray, .gray-hover:hover              {background-color:rgba(102,102,102,1);}
-#gray, #gray-hover:hover              {color:rgba(102,102,102,1);}
+.gray, .gray-hover:hover              {background-color:rgba(168,168,168,.5);}
+#gray, #gray-hover:hover              {color:rgba(168,168,168,.5);}
 .lightgray, .lightgray-hover:hover              {background-color:#eee;}
 #lightgray, #lightgray-hover:hover              {color:#eee;}
+.lightgrayb, .lightgrayb-hover:hover              {background-color:rgba(250,251,252,1);}
+#lightgrayb, #lightgrayb-hover:hover              {color:rgba(250,251,252,1);}
 .white, .white-hover:hover            {background-color:white;}
 #white, #white-hover:hover            {color:white;}
 .red, .red-hover:hover                {background-color:red;}
