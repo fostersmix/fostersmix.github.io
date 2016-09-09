@@ -92,7 +92,7 @@
   .hide-md {display: inline;}*/
   .hide-lg {display: none;}
   body {
-    background: rgba(250,251,252,0);
+    background: rgba(250,251,252,1);
     font-family: 'Helvetica Neue', Helvetica, sans-serif;
     font-weight: normal;
     color: black;
@@ -246,12 +246,19 @@ a.add:hover {
 .pointer {cursor:pointer;}
 .shadow {box-shadow: 0 .2em .5em rgba(0,0,0,.3)}
 
+.border-left {border-left: 1px solid #eee;}
+.border-right {border-right: 1px solid #eee;}
+.border-top {border-top: 1px solid #eee;}
+.border-bottom {border-bottom: 1px solid #eee;}
+
 .black, .black-hover:hover            {background-color:black;}
 #black, #black-hover:hover            {color:black;}
+.darkgray, .darkgray-hover:hover              {background-color:rgba(50,50,50,1);}
+#darkgray, #darkgray-hover:hover              {color:rgba(50,50,50,1);}
 .gray, .gray-hover:hover              {background-color:rgba(102,102,102,1);}
 #gray, #gray-hover:hover              {color:rgba(102,102,102,1);}
-.lightgray, .lightgray-hover:hover              {background-color:rgba(168,168,168,1);}
-#lightgray, #lightgray-hover:hover              {color:rgba(168,168,168,1);}
+.lightgray, .lightgray-hover:hover              {background-color:#eee;}
+#lightgray, #lightgray-hover:hover              {color:#eee;}
 .white, .white-hover:hover            {background-color:white;}
 #white, #white-hover:hover            {color:white;}
 .red, .red-hover:hover                {background-color:red;}
