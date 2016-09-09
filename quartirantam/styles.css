@@ -240,8 +240,10 @@ a.add:hover {
   padding-right: .4em;
 }
 
-#logo2 {font-family: 'Montserrat', sans-serif;}
-#logo {font-family: 'PT Sans Caption', sans-serif;}
+#logo {
+  font-family: 'PT Sans Caption', sans-serif;
+  font-weight: 700;
+}
 
 .mdl {vertical-align: top;}
 .line {height:1px;}
