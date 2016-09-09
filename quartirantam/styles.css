@@ -160,6 +160,8 @@ a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
 #black, #black-hover:hover            {color:black;}
 .gray, .gray-hover:hover              {background-color:rgba(168,168,168,.5);}
 #gray, #gray-hover:hover              {color:rgba(168,168,168,.5);}
+.lightgray, .lightgray-hover:hover    {background-color:#eee;}
+#lightgray, #lightgray-hover:hover    {color:#eee;}
 .white, .white-hover:hover            {background-color:white;}
 #white, #white-hover:hover            {color:white;}
 .blue, .blue-hover:hover              {background-color:blue;}
