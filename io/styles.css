@@ -221,7 +221,7 @@ a.add:hover {
   font-size: 1em;
   color: black;
   background-color: none;
-  border: 1px solid rgba(168,168,168,.6);
+  border: 1px solid rgba(168,168,168,1);
   border-radius: 5em;
   padding: .2em 1em;
   margin: 0px;
