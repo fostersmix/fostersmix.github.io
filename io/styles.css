@@ -178,7 +178,7 @@ a.add:link, a.add:visited, a.add:active {
   font-size: 1em;
   background-color: white;
   color: rgba(0,176,255,1);
-  border: 1px solid rgba(0,176,255,.3);
+  border: 1px solid rgba(0,176,255,.4);
   border-radius: 5em;
   padding: .3em .9em .4em .9em;
   line-height: 2.4em;
@@ -189,7 +189,7 @@ a.add:link, a.add:visited, a.add:active {
 }
 a.add:hover {
   color: rgba(0,176,255,1);
-  border: 1px solid rgba(0,176,255,.6);
+  border: 1px solid rgba(0,176,255,.8);
   box-shadow: 0 .1em .3em rgba(0,176,255,.3);
 }
 
