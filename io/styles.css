@@ -149,7 +149,7 @@ a.solid-blue:link, a.solid-blue:visited, a.solid-blue:active {
   text-decoration: none;
   outline: none;
   padding-bottom: 0.05em;
-  border-bottom: 1px solid rgba(0,175,255,.4);
+  border-bottom: 1px solid rgba(0,175,255,.45);
 }
 a.solid-blue:hover {
   border-bottom: 1px solid rgba(0,175,255,.8);
@@ -160,7 +160,7 @@ a.delete:link, a.delete:visited, a.delete:active {
   font-weight: lighter;;
   font-size: 1em;
   color: rgba(255,255,255,.4);
-  background: linear-gradient(to top, rgba(0,210,255,1), rgba(0,90,255,1));
+  background: linear-gradient(to top, rgba(0,210,255,1), rgba(0,80,255,1));
   border-radius: 5em;
   border: 1px solid none;
   padding: .3em .7em .4em .9em;
@@ -179,7 +179,7 @@ a.add:link, a.add:visited, a.add:active {
   font-size: 1em;
   background-color: white;
   color: rgba(0,175,255,1);
-  border: 1px solid rgba(0,175,255,.4);
+  border: 1px solid rgba(0,175,255,.45);
   border-radius: 5em;
   padding: .3em .9em .4em .9em;
   line-height: 2.4em;
@@ -201,19 +201,20 @@ a.add:hover {
   height: 1.8em;
   color: white;
   border: 0px solid rgba(255,255,255,0);
-  background: linear-gradient(to bottom, rgba(0,210,255,.7), rgba(0,90,255,.7));
+  background: linear-gradient(to bottom, rgba(0,210,255,.7), rgba(0,80,255,.7));
   text-align: center;
   padding: 0;
   font-size: 1em;
   line-height: 1.9em;
   outline: none;
   border-radius: 5em;
-  box-shadow: 0 .1em .1em rgba(0,0,0,.1);
+  box-shadow: 0 .1em .3em rgba(0,90,255,.1);
+  -box-shadow: 0 .1em .1em rgba(0,0,0,.1);
   cursor: pointer;
 }
 .connect:hover {
-  background: linear-gradient(to bottom, rgba(0,210,255,1), rgba(0,90,255,1));
-  box-shadow: 0 .1em .1em rgba(0,0,0,.3)
+  background: linear-gradient(to bottom, rgba(0,210,255,1), rgba(0,80,255,1));
+  box-shadow: 0 .1em .3em rgba(0,90,255,.3);
 }
 
 #search {
@@ -281,7 +282,7 @@ rgba(0,175,255,.3)
 rgba(0,210,255,1)
 rgba(0,204,255,.6)
 
-rgba(0,90,255,1)
-rgba(0,90,255,.6)
+rgba(0,80,255,1)
+rgba(0,80,255,.6)
 
 */
