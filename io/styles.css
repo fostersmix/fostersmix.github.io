@@ -105,6 +105,7 @@
     font-size: 4em; /* 6em */
     margin: 0;
     padding: 0;
+    line-height: 1.1;
   }
   .top-big      {padding-top: 2em;}
   .top          {padding-top: 1em;}
