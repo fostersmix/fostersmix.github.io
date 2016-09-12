@@ -160,7 +160,7 @@ a.delete:link, a.delete:visited, a.delete:active {
   font-weight: lighter;;
   font-size: 1em;
   color: rgba(255,255,255,.4);
-  background: linear-gradient(to top, rgba(0,210,255,1), rgba(0,80,255,1));
+  background: linear-gradient(to top, rgba(0,210,255,1), rgba(0,85,255,1));
   border-radius: 5em;
   border: 1px solid none;
   padding: .3em .7em .4em .9em;
@@ -191,7 +191,7 @@ a.add:link, a.add:visited, a.add:active {
 a.add:hover {
   color: rgba(0,175,255,1);
   border: 1px solid rgba(0,175,255,.7);
-  box-shadow: 0 .1em .3em rgba(0,180,255,.3);
+  box-shadow: 0 .1em .3em rgba(0,175,255,.3);
 }
 
 .connect {
@@ -201,7 +201,7 @@ a.add:hover {
   height: 1.8em;
   color: white;
   border: 0px solid rgba(255,255,255,0);
-  background: linear-gradient(to bottom, rgba(0,210,255,.7), rgba(0,80,255,.7));
+  background: linear-gradient(to bottom, rgba(0,210,255,.7), rgba(0,85,255,.7));
   text-align: center;
   padding: 0;
   font-size: 1em;
@@ -213,7 +213,7 @@ a.add:hover {
   cursor: pointer;
 }
 .connect:hover {
-  background: linear-gradient(to bottom, rgba(0,210,255,1), rgba(0,80,255,1));
+  background: linear-gradient(to bottom, rgba(0,210,255,1), rgba(0,85,255,1));
   box-shadow: 0 .1em .3em rgba(0,90,255,.3);
 }
 
@@ -282,7 +282,7 @@ rgba(0,175,255,.3)
 rgba(0,210,255,1)
 rgba(0,204,255,.6)
 
-rgba(0,80,255,1)
-rgba(0,80,255,.6)
+rgba(0,85,255,1)
+rgba(0,85,255,.6)
 
 */
