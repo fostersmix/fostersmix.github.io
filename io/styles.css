@@ -168,11 +168,11 @@ a.delete:link, a.delete:visited, a.delete:active {
   white-space:nowrap;
 	text-decoration: none;
   outline: none;
-  box-shadow: inset 0 .1em .1em rgba(0,0,0,.2);
+  box-shadow: inset 0 .1em .1em rgba(0,0,0,.3);
 }
 a.delete:hover {
   color: rgba(255,255,255,.7);
-  box-shadow: inset 0 .1em .15em rgba(0,0,0,.4);
+  box-shadow: inset 0 .1em .15em rgba(0,0,0,.5);
 }
 
 a.add:link, a.add:visited, a.add:active {
