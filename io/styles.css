@@ -92,7 +92,7 @@
   .hide-md {display: inline;}*/
   .hide-lg {display: none;}
   body {
-    background: rgba(250,251,252,0);
+    background: rgba(254,254,255,0);
     font-family: 'Helvetica Neue', Helvetica, sans-serif;
     font-weight: normal;
     color: black;
@@ -177,7 +177,7 @@ a.delete:hover {
 
 a.add:link, a.add:visited, a.add:active {
   font-size: 1em;
-  background-color: white;
+  background-color: none;
   color: rgba(0,175,255,1);
   border: 1px solid rgba(0,175,255,.45);
   border-radius: 5em;
@@ -193,6 +193,26 @@ a.add:hover {
   color: rgba(0,175,255,1);
   border: 1px solid rgba(0,175,255,.6);
   box-shadow: 0 .1em .2em rgba(0,175,255,.3);
+}
+
+a.addr:link, a.addr:visited, a.addr:active {
+  font-size: 1em;
+  background-color: none;
+  color: rgba(168,168,168,.6);
+  border: 1px dashed rgba(168,168,168,.6);
+  border-radius: 5em;
+  padding: .3em .9em .4em .9em;
+  line-height: 2.4em;
+  white-space:nowrap;
+  text-decoration: none;
+  outline: none;
+  -box-shadow: 0 .1em .1em rgba(0,175,255,.1);
+
+}
+a.addr:hover {
+  -color: rgba(0,175,255,1);
+  -border: 1px solid rgba(0,175,255,.6);
+  -box-shadow: 0 .1em .2em rgba(0,175,255,.3);
 }
 
 .connect {
@@ -246,6 +266,7 @@ a.add:hover {
 .line {height:1px;}
 .screen {min-height: 100vh;}
 .shadow {box-shadow: 0 0 .2em rgba(0,0,0,.1)}
+.gr {background: linear-gradient(to top, rgba(251,252,253,1) , rgba(255,255,255,1) 60%);}
 
 .black, .black-hover:hover            {background-color:black;}
 #black, #black-hover:hover            {color:black;}
