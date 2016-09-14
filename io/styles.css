@@ -199,7 +199,7 @@ a.addr:link, a.addr:visited, a.addr:active {
   font-size: 1em;
   background-color: none;
   color: rgba(168,168,168,.6);
-  border: 1px dashed rgba(168,168,168,.5);
+  border: 1px dashed rgba(168,168,168,.6);
   border-radius: 5em;
   padding: .3em .9em .4em .9em;
   line-height: 2.4em;
