@@ -149,10 +149,10 @@ a.solid-blue:link, a.solid-blue:visited, a.solid-blue:active {
   text-decoration: none;
   outline: none;
   padding-bottom: 0.05em;
-  border-bottom: 1px solid rgba(0,175,255,.45);
+  border-bottom: 1px solid rgba(0,175,255,.4);
 }
 a.solid-blue:hover {
-  border-bottom: 1px solid rgba(0,175,255,.8);
+  border-bottom: 1px solid rgba(0,175,255,.7);
 }
 
 a.delete:link, a.delete:visited, a.delete:active {
@@ -198,7 +198,7 @@ a.add:hover {
 a.addr:link, a.addr:visited, a.addr:active {
   font-size: 1em;
   background-color: none;
-  color: rgba(168,168,168,.5);
+  color: rgba(168,168,168,.6);
   border: 1px dashed rgba(168,168,168,.5);
   border-radius: 5em;
   padding: .3em .9em .4em .9em;
@@ -263,17 +263,30 @@ a.addr:hover {
   padding-right: .4em;
 }
 
+#zach {text-decoration: line-through;}
+.border {border: 1px solid rgba(168,168,168,.2);}
+.border-dot {border: 1px dashed rgba(168,168,168,.5);}
+.round {border-radius: .5em;}
 .line {height:1px;}
 .screen {min-height: 100vh;}
 .shadow {box-shadow: 0 0 .2em rgba(0,0,0,.1)}
+.pright {padding-right: .5em;}
 .gr {background: linear-gradient(to top, rgba(251,252,253,1) , rgba(255,255,255,1) 60%);}
+.border-left    {border-left: 1px solid #eee;}
+.border-right   {border-right: 1px solid #eee;}
+.border-top     {border-top: 1px solid #eee;}
+.border-bottom  {border-bottom: 1px solid #eee;}
 
 .black, .black-hover:hover            {background-color:black;}
 #black, #black-hover:hover            {color:black;}
 .gray, .gray-hover:hover              {background-color:rgba(168,168,168,1);}
 #gray, #gray-hover:hover              {color:rgba(168,168,168,1);}
-.lightgray, .lightgray-hover:hover              {background-color:rgba(168,168,168,.6);}
-#lightgray, #lightgray-hover:hover              {color:rgba(168,168,168,.6);}
+.lightgray, .lightgray-hover:hover    {background-color:rgba(168,168,168,.6);}
+#lightgray, #lightgray-hover:hover    {color:rgba(168,168,168,.6);}
+.megagray, .megagray-hover:hover    {background-color:rgba(168,168,168,.2);}
+#megagray, #megagray-hover:hover    {color:rgba(168,168,168,.2);}
+.ultralight, .ultralight-hover:hover    {background-color:rgba(251,252,253,1);}
+#ultralight, #ultralight-hover:hover    {color:rgba(251,252,253,1);}
 .white, .white-hover:hover            {background-color:white;}
 #white, #white-hover:hover            {color:white;}
 .red, .red-hover:hover                {background-color:red;}
