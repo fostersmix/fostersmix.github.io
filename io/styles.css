@@ -5,10 +5,10 @@
   .hide-md {display: inline;}
   .hide-lg {display: inline;}*/
   body {
-    background: white;
+    background: rgba(255,255,255,1);
     font-family: 'Helvetica Neue', Helvetica, sans-serif;
     font-weight: normal;
-    color: black;
+    color: rgba(0,0,0,1);
     font-size: 3rem; /* 3rem */
     margin-top: 0;
     margin-bottom: 0;
@@ -34,10 +34,10 @@
   /*.hide-md {display: inline;}
   .hide-lg {display: inline;}*/
   body {
-    background: white;
+    background: rgba(255,255,255,1);
     font-family: 'Helvetica Neue', Helvetica, sans-serif;
     font-weight: normal;
-    color: black;
+    color: rgba(0,0,0,1);
     font-size: 3rem; /* 3rem */
     margin-top: 0;
     margin-bottom: 0;
@@ -63,10 +63,10 @@
   .hide-md {display: none;}
   /*.hide-lg {display: inline;}*/
   body {
-    background: white;
+    background: rgba(255,255,255,1);
     font-family: 'Helvetica Neue', Helvetica, sans-serif;
     font-weight: normal;
-    color: black;
+    color: rgba(0,0,0,1);
     font-size: 2rem;  /* 2rem */
     margin-top: 0;
     margin-bottom: 0;
@@ -92,10 +92,10 @@
   .hide-md {display: inline;}*/
   .hide-lg {display: none;}
   body {
-    background: rgba(254,254,255,0);
+    background: rgba(255,255,255,1);
     font-family: 'Helvetica Neue', Helvetica, sans-serif;
     font-weight: normal;
-    color: black;
+    color: rgba(0,0,0,1);
     font-size: 1rem;  /* 1rem */
     margin-top: 0;
     margin-bottom: 0;
@@ -118,13 +118,13 @@
 a:link, a:visited, a:hover, a:active {
   font-family: 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 1em;
-  color: black;
+  color: rgba(0,0,0,1);
 	text-decoration: none;
   outline: none;
 }
 
 a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
-  color: black;
+  color: rgba(0,0,0,1);
 	text-decoration: none;
   outline: none;
   padding-bottom: 0.05em;
@@ -133,7 +133,7 @@ a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
 
 a.solid:link, a.solid:visited, a.solid:active {
   font-size: 1em;
-  color: black;
+  color: rgba(0,0,0,1);
   padding-bottom: 0.05em;
   border-bottom: 1px solid rgba(168,168,168,.4);
 	text-decoration: none;
@@ -152,7 +152,7 @@ a.solid-blue:link, a.solid-blue:visited, a.solid-blue:active {
   border-bottom: 1px solid rgba(0,175,255,.4);
 }
 a.solid-blue:hover {
-  border-bottom: 1px solid rgba(0,175,255,.7);
+  border-bottom: 1px solid rgba(0,175,255,.8);
 }
 
 a.delete:link, a.delete:visited, a.delete:active {
@@ -171,15 +171,15 @@ a.delete:link, a.delete:visited, a.delete:active {
   box-shadow: inset 0 .1em .15em rgba(0,0,0,.2);
 }
 a.delete:hover {
-  color: rgba(255,255,255,.7);
+  color: rgba(255,255,255,.8);
   box-shadow: inset 0 .1em .15em rgba(0,0,0,.4);
 }
 
-a.add:link, a.add:visited, a.add:active {
+a.more:link, a.more:visited, a.more:active {
   font-size: 1em;
   background-color: none;
   color: rgba(0,175,255,1);
-  border: 1px solid rgba(0,175,255,.45);
+  border: 1px solid rgba(0,175,255,.4);
   border-radius: 5em;
   padding: .3em .9em .4em .9em;
   line-height: 2.4em;
@@ -187,15 +187,13 @@ a.add:link, a.add:visited, a.add:active {
   text-decoration: none;
   outline: none;
   box-shadow: 0 1px 1px rgba(0,175,255,.1);
-
 }
-a.add:hover {
-  color: rgba(0,175,255,1);
+a.more:hover {
   border: 1px solid rgba(0,175,255,.6);
-  box-shadow: 0 1px 2px rgba(0,175,255,.3);
+  box-shadow: 0 1px 2px rgba(0,175,255,.2);
 }
 
-a.addr:link, a.addr:visited, a.addr:active {
+a.add:link, a.add:visited, a.add:hover, a.add:active {
   font-size: 1em;
   background-color: none;
   color: rgba(168,168,168,.6);
@@ -206,43 +204,13 @@ a.addr:link, a.addr:visited, a.addr:active {
   white-space:nowrap;
   text-decoration: none;
   outline: none;
-  -box-shadow: 0 .1em .1em rgba(0,175,255,.1);
-
-}
-a.addr:hover {
-  -color: rgba(0,175,255,1);
-  -border: 1px solid rgba(0,175,255,.6);
-  -box-shadow: 0 .1em .2em rgba(0,175,255,.3);
-}
-
-.connect {
-  font-family: 'Roboto', Helvetica, sans-serif;
-  font-weight: lighter;
-  width: 1.8em;
-  height: 1.8em;
-  color: white;
-  border: 0px solid rgba(255,255,255,0);
-  background: linear-gradient(to bottom, rgba(0,210,255,.7), rgba(0,85,255,.7));
-  text-align: center;
-  padding: 0;
-  font-size: 1em;
-  line-height: 1.9em;
-  outline: none;
-  border-radius: 5em;
-  box-shadow: 0 .1em .3em rgba(0,90,255,.1);
-  -box-shadow: 0 .1em .1em rgba(0,0,0,.1);
-  cursor: pointer;
-}
-.connect:hover {
-  background: linear-gradient(to bottom, rgba(0,210,255,1), rgba(0,85,255,1));
-  box-shadow: 0 .1em .2em rgba(0,90,255,.3);
 }
 
 #search {
   font-family: 'Ionicons', 'Helvetica Neue', Helvetica, sans-serif;
   height: 1.8em;
   font-size: 1em;
-  color: black;
+  color: rgba(0,0,0,1);
   background-color: none;
   border: 1px solid rgba(168,168,168,1);
   border-radius: 5em;
@@ -259,65 +227,46 @@ a.addr:hover {
 #label {
   font-family: 'Helvetica Neue', Helvetica, sans-serif;
   font-weight: normal;
-  color: white;
+  color: rgba(255,255,255,1);
   padding-right: .4em;
 }
 
-#zach {text-decoration: line-through;}
-.border {border: 1px solid rgba(168,168,168,.2);}
-.border-dot {border: 1px dashed rgba(168,168,168,.5);}
-.round {border-radius: .5em;}
+#through {text-decoration: line-through;}
+
 .line {height:1px;}
 .screen {min-height: 100vh;}
-.shadow {box-shadow: 0 0 .2em rgba(0,0,0,.1)}
-.pright {padding-right: .5em;}
-.gr {background: linear-gradient(to top, rgba(251,252,253,1) , rgba(255,255,255,1) 60%);}
-.border-left    {border-left: 1px solid #eee;}
-.border-right   {border-right: 1px solid #eee;}
-.border-top     {border-top: 1px solid #eee;}
-.border-bottom  {border-bottom: 1px solid #eee;}
 
-.black, .black-hover:hover            {background-color:black;}
-#black, #black-hover:hover            {color:black;}
-.gray, .gray-hover:hover              {background-color:rgba(168,168,168,1);}
-#gray, #gray-hover:hover              {color:rgba(168,168,168,1);}
-.lightgray, .lightgray-hover:hover    {background-color:rgba(168,168,168,.6);}
-#lightgray, #lightgray-hover:hover    {color:rgba(168,168,168,.6);}
-.megagray, .megagray-hover:hover    {background-color:rgba(168,168,168,.2);}
-#megagray, #megagray-hover:hover    {color:rgba(168,168,168,.2);}
-.ultralight, .ultralight-hover:hover    {background-color:rgba(251,252,253,1);}
-#ultralight, #ultralight-hover:hover    {color:rgba(251,252,253,1);}
-.white, .white-hover:hover            {background-color:white;}
-#white, #white-hover:hover            {color:white;}
-.red, .red-hover:hover                {background-color:red;}
-#red, #red-hover:hover                {color:red;}
-.blue, .blue-hover:hover              {background-color:blue;}
-#blue, #blue-hover:hover              {color:blue;}
-.warning, .warning-hover:hover        {background-color:rgba(244,241,233,1);}
-#warning, #warning-hover:hover        {color:rgba(244,241,233,1);}
+.black, .black-hover:hover  {background-color:rgba(0,0,0,1);}
+#black, #black-hover:hover  {color:rgba(0,0,0,1);}
+.gray, .gray-hover:hover    {background-color:rgba(168,168,168,.6);}
+#gray, #gray-hover:hover    {color:rgba(168,168,168,.6);}
+.white, .white-hover:hover  {background-color:rgba(255,255,255,1);}
+#white, #white-hover:hover  {color:rgba(255,255,255,1);}
 
 /*
-rgba(255,255,255,1)
-rgba(255,255,255,.6)
-rgba(255,255,255,.3)
+rgba(0,0,0,1) - text.color
+rgba(0,0,0,.6) - dot.border
+rgba(0,0,0,.4) - delete.shadow:hover
+rgba(0,0,0,.2) - delete.shadow
 
-rgba(168,168,168,1)
-rgba(168,168,168,.6)
-rgba(168,168,168,.3)
+rgba(168,168,168,1) - search.border
+rgba(168,168,168,.8) - solid.border:hover
+rgba(168,168,168,.6) - add
+rgba(168,168,168,.4) - solid.border
 
-rgba(0,0,0,1)
-rgba(0,0,0,.6)
-rgba(0,0,0,.3)
-rgba(0,0,0,.1)
+rgba(255,255,255,1) - label, text
+rgba(255,255,255,.8) - delete.color:hover (x)
+rgba(255,255,255,.4) - delete.color (x)
 
-rgba(0,175,255,1)
-rgba(0,175,255,.6)
-rgba(0,175,255,.3)
+rgba(0,100,255,1) - gradient
+rgba(0,200,255,1) - gardient
 
-rgba(0,210,255,1)
-rgba(0,204,255,.6)
+rgba(0,175,255,1) - search.border, more.color
+rgba(0,175,255,.8) - solid.blue:hover
+rgba(0,175,255,.6) - search.shadow, more.border:hover
+rgba(0,175,255,.4) - more.border, solid.blue
+rgba(0,175,255,.2) . more.shadow:hover
+rgba(0,175,255,.1) - more.shadow
 
-rgba(0,85,255,1)
-rgba(0,85,255,.6)
 
 */
