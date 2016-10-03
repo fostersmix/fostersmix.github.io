@@ -99,7 +99,7 @@
   .hide-md {display: inline;}*/
   .hide-lg {display: none;}
   body {
-    background: rgba(250,251,252,1);
+    background: rgba(248,248,248,1);
     font-family: 'Helvetica Neue', Helvetica, sans-serif;
     font-weight: normal;
     color: black;
@@ -182,5 +182,5 @@ a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
 #white, #white-hover:hover            {color:white;}
 .blue, .blue-hover:hover              {background-color:blue;}
 #blue, #blue-hover:hover              {color:blue;}
-.ultra, .ultra-hover:hover    {background-color:rgba(252,253,254,1)}
+.ultra, .ultra-hover:hover    {background-color:rgba(253,253,253,1)}
 #ultra, #ultra-hover:hover    {color:rgba(252,253,254,1)}
