@@ -142,10 +142,17 @@ a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
   border-bottom: 1px dotted rgba(0,0,0,.6);
 }
 
+#button       {
+  background-color:#0020ff;
+  color: white;
+}
+#button:hover {
+  background-color:#001ce5;
+}
+
 .mdl            {vertical-align: middle;}
 .line           {height:1px;}
 .screen         {min-height: 100vh;}
-
 .pointer        {cursor:pointer;}
 .shadow         {box-shadow: 0 .5em 1em 0 rgba(0,0,0,.2)}
 .shadow-body    {box-shadow: 0 1px 1px 0px rgba(0, 0, 0, 0.1), 0 0px 0px 1px rgba(0, 0, 0, 0.05);}
