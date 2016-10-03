@@ -145,11 +145,19 @@ a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
 .mdl            {vertical-align: middle;}
 .line           {height:1px;}
 .screen         {min-height: 100vh;}
-.round          {border-radius: .5em;}
-.round-button   {border-radius: 5em;}
+
 .pointer        {cursor:pointer;}
 .shadow         {box-shadow: 0 .5em 1em 0 rgba(0,0,0,.2)}
 .shadow-body    {box-shadow: 0 1px 1px 0px rgba(0, 0, 0, 0.1), 0 0px 0px 1px rgba(0, 0, 0, 0.05);}
+
+.round-button         {border-radius: 5em;}
+.round                {border-radius: .5em;}
+.round-top-left       {border-radius: .5em 0 0 0;}
+.round-top-right      {border-radius: 0 .5em 0 0;}
+.round-bottom-right   {border-radius: 0 0 .5em 0;}
+.round-bottom-left    {border-radius: 0 0 0 .5em;}
+
+
 
 .border         {border: 1px solid rgba(0, 0, 0, 0.05);}
 .border-left    {border-left: 1px solid rgba(0, 0, 0, 0.05);}
