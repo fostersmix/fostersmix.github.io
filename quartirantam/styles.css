@@ -149,20 +149,23 @@ a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
 .round-button   {border-radius: 5em;}
 .pointer        {cursor:pointer;}
 .shadow         {box-shadow: 0 .5em 1em 0 rgba(0,0,0,.2)}
-.shadow-body    {box-shadow: 0 1px 1px 0px rgba(0, 0, 0, 0.1), 0 1px 0px 1px rgba(0, 0, 0, 0.04);}
+.shadow-body    {box-shadow: 0 1px 1px 0px rgba(0, 0, 0, 0.1), 0 0px 0px 1px rgba(0, 0, 0, 0.05);}
 
-.border-left    {border-left: 1px solid #eee;}
-.border-right   {border-right: 1px solid #eee;}
-.border-top     {border-top: 1px solid #eee;}
-.border-bottom  {border-bottom: 1px solid #eee;}
+.border         {border: 1px solid rgba(0, 0, 0, 0.05);}
+.border-left    {border-left: 1px solid rgba(0, 0, 0, 0.05);}
+.border-right   {border-right: 1px solid rgba(0, 0, 0, 0.05);}
+.border-top     {border-top: 1px solid rgba(0, 0, 0, 0.05);}
+.border-bottom  {border-bottom: 1px solid rgba(0, 0, 0, 0.05);}
 
 .black, .black-hover:hover            {background-color:black;}
 #black, #black-hover:hover            {color:black;}
-.gray, .gray-hover:hover              {background-color:rgba(168,168,168,.5);}
-#gray, #gray-hover:hover              {color:rgba(168,168,168,.5);}
-.lightgray, .lightgray-hover:hover    {background-color:#eee;}
-#lightgray, #lightgray-hover:hover    {color:#eee;}
+.gray, .gray-hover:hover              {background-color:rgba(0, 0, 0, 0.1);}
+#gray, #gray-hover:hover              {color:rgba(0, 0, 0, 0.1);}
+.lightgray, .lightgray-hover:hover    {background-color:rgba(0, 0, 0, 0.05);}
+#lightgray, #lightgray-hover:hover    {color:rgba(0, 0, 0, 0.05);}
 .white, .white-hover:hover            {background-color:white;}
 #white, #white-hover:hover            {color:white;}
 .blue, .blue-hover:hover              {background-color:blue;}
 #blue, #blue-hover:hover              {color:blue;}
+.ultra, .ultra-hover:hover    {background-color:rgba(252,253,254,1)}
+#ultra, #ultra-hover:hover    {color:rgba(252,253,254,1)}
