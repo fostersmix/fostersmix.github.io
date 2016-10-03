@@ -188,7 +188,7 @@ a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
 #lightgray, #lightgray-hover:hover    {color:rgba(0, 0, 0, 0.05);}
 .white, .white-hover:hover            {background-color:white;}
 #white, #white-hover:hover            {color:white;}
-.half, .half-hover:hover            {background-color:rgba(0,0,255,.75);}
+.half, .half-hover:hover            {background-color:rgba(0,0,0,.3);}
 #half, #half-hover:hover            {color:rgba(255,255,255,.8);}
 .blue, .blue-hover:hover              {background-color:blue;}
 #blue, #blue-hover:hover              {color:blue;}
