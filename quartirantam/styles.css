@@ -158,7 +158,12 @@ a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
 .pointer        {cursor:pointer;}
 .shadow         {box-shadow: 0 1px 2px 0px rgba(0,0,0,.3), 0 .4em 1.2em 0 rgba(0,0,0,.2)}
 .shadow-body    {box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.1), 0 1px 1px 0px rgba(0, 0, 0, 0.1);}
-.gradient       {background: linear-gradient(#0096ff,#005dff);}
+.gradient       {background: linear-gradient(#005dff,#0096ff);}
+.gradient-img       {
+  background-image: url(header.png);
+  background-size:100%;
+  background-position: center center;;
+}
 
 .round-button         {border-radius: 5em;}
 .round                {border-radius: .5em;}
@@ -183,6 +188,8 @@ a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
 #lightgray, #lightgray-hover:hover    {color:rgba(0, 0, 0, 0.05);}
 .white, .white-hover:hover            {background-color:white;}
 #white, #white-hover:hover            {color:white;}
+.half, .half-hover:hover            {background-color:rgba(0,0,255,.75);}
+#half, #half-hover:hover            {color:rgba(255,255,255,.8);}
 .blue, .blue-hover:hover              {background-color:blue;}
 #blue, #blue-hover:hover              {color:blue;}
 .ultra, .ultra-hover:hover    {background-color:rgba(253,253,253,.7)}
