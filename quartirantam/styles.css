@@ -9,7 +9,7 @@
     font-family: 'Helvetica Neue', Helvetica, sans-serif;
     font-weight: normal;
     color: black;
-    font-size: 1.2rem; /* 3rem */
+    font-size: 1.5rem; /* 3rem */
     margin-top: 0;
     margin-bottom: 0;
   }
@@ -20,10 +20,11 @@
     padding: 0;
   }
   .top-big      {padding-top: 1.5em;}
+  .top-biggest      {padding-top: 3em;}
   .top          {padding-top: 1em;}
   .bottom-big   {padding-bottom: 1.5em;}
   .bottom       {padding-bottom: 1em;}
-  
+  .bottom-biggest   {padding-bottom: 3em;}
   .border-top-xs           {border-top: 1px solid rgba(245,245,245,1);}
   .round-top-xs            {border-radius: .5em .5em 0 0;}
   .round-bottom-xs         {border-radius: 0 0 .5em .5em;}
@@ -44,7 +45,7 @@
     font-family: 'Helvetica Neue', Helvetica, sans-serif;
     font-weight: normal;
     color: black;
-    font-size: 1rem; /* 3rem */
+    font-size: 1.2rem; /* 3rem */
     margin-top: 0;
     margin-bottom: 0;
   }
@@ -55,15 +56,18 @@
     padding: 0;
   }
   .top-big      {padding-top: 1.5em;}
+  .top-biggest      {padding-top: 3em;}
   .top          {padding-top: 1em;}
   .bottom-big   {padding-bottom: 1.5em;}
   .bottom       {padding-bottom: 1em;}
+  .bottom-biggest   {padding-bottom: 3em;}
+
   
   .border-left-sm    {border-left:   1px solid rgba(245,245,245,1);}
   .border-right-sm   {border-right:  1px solid rgba(245,245,245,1);}
   .border-top-xs           {border-top: 1px solid rgba(245,245,245,1);}
-  .round-top-xs            {border-radius: .5em .5em 0 0;}
-  .round-bottom-xs         {border-radius: 0 0 .5em .5em;}
+  .round-top-xs            {border-radius: 0em 0em 0 0;}
+  .round-bottom-xs         {border-radius: 0 0 0em 0em;}
   #bg {
     background-size: cover;
     background-position: center center;
@@ -101,6 +105,10 @@
   .round-top-right      {border-radius: 0 .5em 0 0;}
   .round-bottom-right   {border-radius: 0 0 .5em 0;}
   .round-bottom-left    {border-radius: 0 0 0 .5em;}
+  .round                {border-radius: .5em;}
+  .round-top            {border-radius: .5em .5em 0 0;}
+  .round-bottom         {border-radius: 0 0 .5em .5em;}
+  
 }
 
 /*lg*/
@@ -130,6 +138,9 @@
   .bottom       {padding-bottom: 1em;}
   .border-left    {border-left:   1px solid rgba(245,245,245,1);}
   .border-right   {border-right:  1px solid rgba(245,245,245,1);}
+  .round                {border-radius: .5em;}
+  .round-top            {border-radius: .5em .5em 0 0;}
+  .round-bottom         {border-radius: 0 0 .5em .5em;}
   .round-top-left       {border-radius: .5em 0 0 0;}
   .round-top-right      {border-radius: 0 .5em 0 0;}
   .round-bottom-right   {border-radius: 0 0 .5em 0;}
@@ -167,6 +178,13 @@ a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
   background: linear-gradient(#0096ff,#0058f2);
 }
 
+#button-xs {
+  background: linear-gradient(#0096ff,#005dff);
+  text-shadow: 0 1px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 1px 2px 0px rgba(0,0,0,.3), 0 .4em 1.2em 0 rgba(0,0,0,.2);
+  color: white;
+}
+
 .header {
   background-image: url(header.png);
   background-size:100%;
@@ -183,9 +201,6 @@ a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
 
 
 .round-button         {border-radius: 5em;}
-.round                {border-radius: .5em;}
-.round-top            {border-radius: .5em .5em 0 0;}
-.round-bottom         {border-radius: 0 0 .5em .5em;}
 
 .border         {border:        1px solid rgba(245,245,245,1);}
 .border-top     {border-top:    1px solid rgba(245,245,245,1);}
