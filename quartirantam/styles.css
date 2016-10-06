@@ -9,13 +9,15 @@
     font-family:   'Helvetica Neue', Helvetica, sans-serif;
     font-weight:   normal;
     color:         black;
-    font-size:     1.5rem; /* 3rem */
+    font-size:     1.5rem;
     margin-top:    0;
     margin-bottom: 0;
+    -webkit-font-smoothing: antialiased;
   }
   h1 {
     font-weight: bold;
-    font-size:   2em; /* 6em */
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+    font-size:   2em; /* 3em */
     margin:      0;
     padding:     0;
   }
@@ -59,13 +61,15 @@
     font-family:   'Helvetica Neue', Helvetica, sans-serif;
     font-weight:   normal;
     color:         black;
-    font-size:     1.5rem; /* 3rem */
+    font-size:     1.5rem;
     margin-top:    0;
     margin-bottom: 0;
+    -webkit-font-smoothing: antialiased;
   }
   h1 {
     font-weight: bold;
-    font-size:   2.5em; /* 6em */
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+    font-size:   2em; /* 3em */
     margin:      0;
     padding:     0;
   }
@@ -102,13 +106,15 @@
     font-family:   'Helvetica Neue', Helvetica, sans-serif;
     font-weight:   normal;
     color:         black;
-    font-size:     1rem;  /* 2rem */
+    font-size:     1rem;
     margin-top:    0;
     margin-bottom: 0;
+    -webkit-font-smoothing: antialiased;
   }
   h1 {
     font-weight: bold;
-    font-size:   3em; /* 6em */
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+    font-size:   3em; /* 3em */
     margin:      0;
     padding:     0;
   }
@@ -127,7 +133,7 @@
   .round-bottom-right {border-radius: 0 0 .5em 0;}
   #header {
     background-image:    url(header.jpg);
-    background-size:     100%;
+    background-size:     cover;
     background-position: center center;
   }
 }
@@ -146,10 +152,12 @@
     font-size:     1rem;
     margin-top:    0;
     margin-bottom: 0;
+    -webkit-font-smoothing: antialiased;
   }
   h1 {
     font-weight: bold;
-    font-size:   4em; /* 4em */
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+    font-size:   3.5em; /* 3.5em */
     margin:      0;
     padding:     0;
   }
@@ -168,7 +176,7 @@
   .round-bottom-right {border-radius: 0 0 .5em 0;}
   #header {
     background-image:    url(header.jpg);
-    background-size:     100%;
+    background-size:     cover;
     background-position: center center;
   }
 }
@@ -208,8 +216,9 @@ a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
 .screen               {min-height: 100vh;}
 .pointer              {cursor:pointer;}
 .round-button         {border-radius: 5em;}
-.shadow-top-body      {box-shadow: 0 0px 6px 0px rgba(0,0,0,.3);}
-.shadow-bottom-body   {box-shadow: 0 2px 4px 0px rgba(0,0,0,.1), 0 1px 0px 0px rgba(0,0,0,.05);}
+.shadow               {text-shadow: 0 1px 0 rgba(0,0,0,0.3);}
+.shadow-body-top      {box-shadow: 0 0px 6px 0px rgba(0,0,0,.3);}
+.shadow-body-bottom   {box-shadow: 0 2px 4px 0px rgba(0,0,0,.1), 0 1px 0px 0px rgba(0,0,0,.05);}
 
 .black, .black-hover:hover            {background-color:  rgba(0,0,0,1);}
 #black, #black-hover:hover            {color:             rgba(0,0,0,1);}
@@ -219,5 +228,5 @@ a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
 #lightgray, #lightgray-hover:hover    {color:             rgba(245,245,245,.2);}
 .white, .white-hover:hover            {background-color:  rgba(255,255,255,1);}
 #white, #white-hover:hover            {color:             rgba(255,255,255,1);}
-.half, .half-hover:hover              {background-color:  rgba(0,0,0,.3);}
-#half, #half-hover:hover              {color:             rgba(0,0,0,.3);}
+.half, .half-hover:hover              {background-color:  rgba(0,0,0,.4);}
+#half, #half-hover:hover              {color:             rgba(0,0,0,.4);}
