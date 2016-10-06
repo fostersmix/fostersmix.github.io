@@ -43,6 +43,8 @@
     text-shadow: 0 1px 0 rgba(0,0,0,0.3);
     box-shadow: 0 1px 2px 0px rgba(0,0,0,.3), 0 .4em 1.2em 0 rgba(0,0,0,.2);
     color: white;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
   }
 }
 
