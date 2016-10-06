@@ -22,6 +22,7 @@
     padding:     0;
   }
   .top        {padding-top: 1em;}
+  .top-middle {padding-top: 1.5em;}
   .top-big    {padding-top: 2em;}
   .bottom     {padding-bottom: 1em;}
   .bottom-big {padding-bottom: 2em;}
@@ -74,6 +75,7 @@
     padding:     0;
   }
   .top        {padding-top: 1em;}
+  .top-middle {padding-top: 1.5em;}
   .top-big    {padding-top: 2em;}
   .bottom     {padding-bottom: 1em;}
   .bottom-big {padding-bottom: 2em;}
@@ -120,6 +122,7 @@
   }
   .top-big    {padding-top: 2em;}
   .top        {padding-top: 1em;}
+  .top-middle {padding-top: 1.5em;}
   .bottom-big {padding-bottom: 2em;}
   .bottom     {padding-bottom: 1em;}
   .border-top   {border-top:   1px solid rgba(245,245,245,1);}
@@ -163,6 +166,7 @@
   }
   .top-big    {padding-top: 2em;}
   .top        {padding-top: 1em;}
+  .top-middle {padding-top: 1.5em;}
   .bottom-big {padding-bottom: 2em;}
   .bottom     {padding-bottom: 1em;}
   .border-top   {border-top:   1px solid rgba(245,245,245,1);}
@@ -211,6 +215,8 @@ a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
 #button:hover {
   background:    linear-gradient(#0096ff,#0058f2);
 }
+
+#line-dot {border-bottom: 1px dotted rgba(255,255,255,.4);}
 
 .line                 {height:1px;}
 .screen               {min-height: 100vh;}
