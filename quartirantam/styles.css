@@ -164,6 +164,13 @@
     margin:      0;
     padding:     0;
   }
+  h2 {
+    font-weight: normal;
+    -text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
+    font-size:   1.2em; /* 3.5em */
+    margin:      0;
+    padding:     0;
+  }
   .top-big    {padding-top: 2em;}
   .top        {padding-top: 1em;}
   .top-middle {padding-top: 1.5em;}
@@ -204,31 +211,36 @@ a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
   border-bottom:   1px dotted rgba(0,0,0,.6);
 }
 
-a.new:link, a.new:visited, a.new:hover, a.new:active {
-  color:           white;
-  background-color:#18a24b;
-  border-radius:   4px;
-  padding:  .5em 1em .5em 1em;
+a.new:link, a.new:visited, a.new:active {
+  background:      linear-gradient(#3399FF,#0066FF);
+  border-top:   1px solid #66CCFF;
+  border-bottom:   0px solid rgba(0,0,0,0);
+  box-shadow:      0 1px 1px 0px rgba(0,0,0,.2), 0 .4em .8em 0 rgba(0,0,0,.1), 0 .1em .6em 0 rgba(0,0,0,.05);
+  text-shadow:     0 -1px 0 rgba(0,0,0,0.2);
+  color:           rgba(255,255,255,1);
+  border-radius:   5em;
+  padding:         .4em 1.2em .5em 1.2em;
 	text-decoration: none;
   outline:         none;
-  border-top: 1px solid #1ccd5d;
-  border-bottom:   1px solid #18a24b;
-  box-shadow:    0px 0px 0px 1px #0b7d36;
+}
+a.new:hover {
+  background:      linear-gradient(#66CCFF,#0066FF);
+  border-top:   1px solid #66FFFF;
 }
 
+
 #button {
-  background-color: #00af43;
-  -background:    linear-gradient(#0096ff,#005dff);
-  -text-shadow:   0 1px 0 rgba(0,0,0,0.3);
-  border-top: 1px solid #1ccd5d;
-  border-bottom:   1px solid #18a24b;
-  box-shadow:    0px 0px 0px 1px #0b7d36, 0 1px 2px 0px rgba(0,0,0,.2), 0 .4em 1.2em 0 rgba(0,0,0,.2);
-  border-radius: 5em;
-  color:         white;
-  cursor:        pointer;
+  background:      linear-gradient(#3399FF,#0066FF);
+  box-shadow:      0 1px 0px 0px #003399, 0 1em 2em 0 rgba(0,0,0,.2), 0 .4em .6em 0 rgba(0,0,0,.1);
+  text-shadow:     0 -1px 0 rgba(0,0,0,0.4);
+  color:           white;
+  border-radius:   5em;
+  padding:         1em 1em 1em 1em;
+	text-decoration: none;
+  outline:         none;
 }
 #button:hover {
-  background:    linear-gradient(#0096ff,#0058f2);
+  background:      linear-gradient(#66CCFF,#0066FF);
 }
 
 #line-dot {border-bottom: 1px dotted rgba(255,255,255,.4);}
