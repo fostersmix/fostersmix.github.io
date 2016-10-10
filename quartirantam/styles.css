@@ -212,27 +212,27 @@ a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
 }
 
 a.new:link, a.new:visited, a.new:active {
-  background:      linear-gradient(#3399FF,#0066FF);
-  border-top:   1px solid #66CCFF;
+  background:      linear-gradient(#00CC00,#339900);
+  border-top:   1px solid #00FF66;
   border-bottom:   0px solid rgba(0,0,0,0);
-  box-shadow:      0 1px 1px 0px rgba(0,0,0,.2), 0 .4em .8em 0 rgba(0,0,0,.1), 0 .1em .6em 0 rgba(0,0,0,.05);
-  text-shadow:     0 -1px 0 rgba(0,0,0,0.2);
+  box-shadow:      0 1px 1px 0px rgba(0,0,0,.2), 0 .4em .8em 0 rgba(0,0,0,.1), 0 .1em .2em 0 rgba(0,0,0,.1);
+  text-shadow:     0 1px 0px rgba(0,0,0,.2);
   color:           rgba(255,255,255,1);
   border-radius:   5em;
-  padding:         .4em 1.2em .5em 1.2em;
+  padding:         .4em 1.4em .5em 1.4em;
 	text-decoration: none;
   outline:         none;
 }
 a.new:hover {
-  background:      linear-gradient(#66CCFF,#0066FF);
-  border-top:   1px solid #66FFFF;
+  background:      linear-gradient(#00d700,#339900);
+  border-top:   1px solid #00FF66;
 }
 
 
 #button {
-  background:      linear-gradient(#3399FF,#0066FF);
-  box-shadow:      0 1px 0px 0px #003399, 0 1em 2em 0 rgba(0,0,0,.2), 0 .4em .6em 0 rgba(0,0,0,.1);
-  text-shadow:     0 -1px 0 rgba(0,0,0,0.4);
+  background:      linear-gradient(#00CC00,#339900);
+  box-shadow:      0 1px 0px 0px #336600, 0 1em 2em 0 rgba(0,0,0,.2), 0 .4em .6em 0 rgba(0,0,0,.1);
+  text-shadow:     0 1px 0 rgba(0,0,0,0.4);
   color:           white;
   border-radius:   5em;
   padding:         1em 1em 1em 1em;
@@ -240,7 +240,7 @@ a.new:hover {
   outline:         none;
 }
 #button:hover {
-  background:      linear-gradient(#66CCFF,#0066FF);
+  background:      linear-gradient(#00d700,#339900);
 }
 
 #line-dot {border-bottom: 1px dotted rgba(255,255,255,.4);}
@@ -261,5 +261,5 @@ a.new:hover {
 #lightgray, #lightgray-hover:hover    {color:             rgba(245,245,245,.2);}
 .white, .white-hover:hover            {background-color:  rgba(255,255,255,1);}
 #white, #white-hover:hover            {color:             rgba(255,255,255,1);}
-.half, .half-hover:hover              {background-color:  rgba(0,0,0,.4);}
-#half, #half-hover:hover              {color:             rgba(0,0,0,.4);}
+.half, .half-hover:hover              {background-color:  rgba(0,0,0,.42);}
+#half, #half-hover:hover              {color:             rgba(0,0,0,.42);}
