@@ -5,7 +5,7 @@
   .hide-md   {display: inline;}
   .hide-lg   {display: inline;}*/
   body {
-    background:    rgba(250,251,252,1);
+    background:    rgba(245,245,245,1);
     font-family:   'Helvetica Neue', Helvetica, sans-serif;
     font-weight:   normal;
     color:         black;
@@ -26,10 +26,10 @@
   .top-big    {padding-top: 2em;}
   .bottom     {padding-bottom: 1em;}
   .bottom-big {padding-bottom: 2em;}
-  .border-top     {border-top:   1px solid rgba(245,245,245,1);}
-  .border-top-xs  {border-top:   1px solid rgba(245,245,245,1);}
-  /*.border-left  {border-left:  1px solid rgba(245,245,245,1);}*/
-  /*.border-right {border-right: 1px solid rgba(245,245,245,1);}*/
+  .border-top     {border-top:   1px solid rgba(242,242,242,1);}
+  .border-top-xs  {border-top:   1px solid rgba(242,242,242,1);}
+  /*.border-left  {border-left:  1px solid rgba(242,242,242,1);}*/
+  /*.border-right {border-right: 1px solid rgba(242,242,242,1);}*/
   /*.round-top          {border-radius: .5em .5em 0 0;}*/
   /*.round-top-left     {border-radius: .5em 0 0 0;}*/
   /*.round-top-right    {border-radius: 0 .5em 0 0;}*/
@@ -42,7 +42,7 @@
     background-position: center center;
   }
   #button-xs {
-    background:     linear-gradient(#0096ff,#005dff);
+    background:      linear-gradient(#4CAF50,#388E3C);
     text-shadow:    0 1px 0 rgba(0,0,0,0.3);
     box-shadow:     0 1px 2px 0px rgba(0,0,0,.3), 0 .4em 1.2em 0 rgba(0,0,0,.2);
     color:          white;
@@ -58,7 +58,7 @@
   /*.hide-md {display: inline;}
   .hide-lg   {display: inline;}*/
   body {
-    background:    rgba(250,251,252,1);
+    background:    rgba(245,245,245,1);
     font-family:   'Helvetica Neue', Helvetica, sans-serif;
     font-weight:   normal;
     color:         black;
@@ -79,10 +79,10 @@
   .top-big    {padding-top: 2em;}
   .bottom     {padding-bottom: 1em;}
   .bottom-big {padding-bottom: 2em;}
-  .border-top       {border-top:   1px solid rgba(245,245,245,1);}
-  /*.border-left    {border-left:  1px solid rgba(245,245,245,1);}*/
-  /*.border-right   {border-right: 1px solid rgba(245,245,245,1);}*/
-  .border-right-sm  {border-right: 1px solid rgba(245,245,245,1);}
+  .border-top       {border-top:   1px solid rgba(242,242,242,1);}
+  /*.border-left    {border-left:  1px solid rgba(242,242,242,1);}*/
+  /*.border-right   {border-right: 1px solid rgba(242,242,242,1);}*/
+  .border-right-sm  {border-right: 1px solid rgba(242,242,242,1);}
   .round-top            {border-radius: .5em .5em 0 0;}
   .round-top-left       {border-radius: .5em 0 0 0;}
   .round-top-right      {border-radius: 0 .5em 0 0;}
@@ -104,7 +104,7 @@
   .hide-md   {display: none;}
   /*.hide-lg {display: inline;}*/
   body {
-    background:    rgba(250,251,252,1);
+    background:    rgba(245,245,245,1);
     font-family:   'Helvetica Neue', Helvetica, sans-serif;
     font-weight:   normal;
     color:         black;
@@ -125,9 +125,9 @@
   .top-middle {padding-top: 1.5em;}
   .bottom-big {padding-bottom: 2em;}
   .bottom     {padding-bottom: 1em;}
-  .border-top   {border-top:   1px solid rgba(245,245,245,1);}
-  .border-left  {border-left:  1px solid rgba(245,245,245,1);}
-  .border-right {border-right: 1px solid rgba(245,245,245,1);}
+  .border-top   {border-top:   1px solid rgba(242,242,242,1);}
+  .border-left  {border-left:  1px solid rgba(242,242,242,1);}
+  .border-right {border-right: 1px solid rgba(242,242,242,1);}
   .round-top          {border-radius: .5em .5em 0 0;}
   .round-top-left     {border-radius: .5em 0 0 0;}
   .round-top-right    {border-radius: 0 .5em 0 0;}
@@ -176,9 +176,9 @@
   .top-middle {padding-top: 1.5em;}
   .bottom-big {padding-bottom: 2em;}
   .bottom     {padding-bottom: 1em;}
-  .border-top   {border-top:   1px solid rgba(245,245,245,1);}
-  .border-left  {border-left:  1px solid rgba(245,245,245,1);}
-  .border-right {border-right: 1px solid rgba(245,245,245,1);}
+  .border-top   {border-top:   1px solid rgba(242,242,242,1);}
+  .border-left  {border-left:  1px solid rgba(242,242,242,1);}
+  .border-right {border-right: 1px solid rgba(242,242,242,1);}
   .round-top          {border-radius: .5em .5em 0 0;}
   .round-top-left     {border-radius: .5em 0 0 0;}
   .round-top-right    {border-radius: 0 .5em 0 0;}
@@ -211,7 +211,7 @@ a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
   border-bottom:   1px dotted rgba(0,0,0,.6);
 }
 
-a.new:link, a.new:visited, a.new:active {
+#button-small {
   background:      linear-gradient(#4CAF50,#388E3C);
   border-top:   1px solid #81C784;
   border-bottom:   0px solid rgba(0,0,0,0);
@@ -220,29 +220,38 @@ a.new:link, a.new:visited, a.new:active {
   color:           rgba(255,255,255,1);
   border-radius:   5em;
   padding:         .4em 1.4em .5em 1.4em;
-	text-decoration: none;
-  outline:         none;
 }
-a.new:hover {
+#button-small:hover {
   background:      linear-gradient(#66BB6A,#388E3C);
 }
 
-
 #button {
   background:      linear-gradient(#4CAF50,#388E3C);
-  box-shadow:      0 1px 0px 0px #2E7D32, 0 1em 2em 0 rgba(0,0,0,.2), 0 .4em .6em 0 rgba(0,0,0,.1);
+  box-shadow:      inset 0 -1px 0px 0px #1B5E20, 0 1em 2.2em 0 rgba(0,0,0,.3), 0 .3em .6em 0 rgba(0,151,60,.3);
   text-shadow:     0 1px 0 rgba(0,0,0,0.4);
   color:           white;
   border-radius:   5em;
   padding:         1em 1em 1em 1em;
-	text-decoration: none;
-  outline:         none;
 }
 #button:hover {
   background:      linear-gradient(#66BB6A,#388E3C);
 }
 
 #line-dot {border-bottom: 1px dotted rgba(255,255,255,.4);}
+
+
+#stats {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background: url(https://cdn1.iconfinder.com/data/icons/hawcons/32/699042-icon-53-notebook-list-128.png); /* Путь к файлу с исходным рисунком  */
+  display: block; /*  Рисунок как блочный элемент */
+  width: 120px; /* Ширина рисунка */
+  height: 120px; /*  Высота рисунка */
+}
+#stats:hover {
+  background: url(https://cdn1.iconfinder.com/data/icons/hawcons/32/698565-icon-53-notebook-list-128.png); /* Путь к файлу с заменяемым рисунком  */
+}
+
 
 .line                 {height:1px;}
 .screen               {min-height: 100vh;}
