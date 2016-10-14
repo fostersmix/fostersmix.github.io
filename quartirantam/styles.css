@@ -194,12 +194,20 @@
 
 a:link, a:visited, a:hover, a:active {
   font-family:     'Helvetica Neue', Helvetica, sans-serif;
+  color:           white;
+  border-bottom:   none;
+	text-decoration: none;
+  outline:         none;
+}
+
+a.solid:link, a.solid:visited,a.solid:active {
+  font-family:     'Helvetica Neue', Helvetica, sans-serif;
   color:           black;
   border-bottom:   1px solid rgba(0,0,0,.1);
 	text-decoration: none;
   outline:         none;
 }
-a:hover {
+a.solid:hover {
   border-bottom:   1px solid rgba(0,0,0,.2);
 }
 
