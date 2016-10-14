@@ -171,10 +171,11 @@
     margin:      0;
     padding:     0;
   }
-  .top-big    {padding-top: 2em;}
+  .top-big    {padding-top: 2.5em;}
   .top        {padding-top: 1em;}
-  .top-middle {padding-top: 1.5em;}
-  .bottom-big {padding-bottom: 2em;}
+  .top-middle {padding-top: 2em;}
+  .bottom-big {padding-bottom: 2.5em;}
+  .bottom-middle {padding-bottom: 2em;}
   .bottom     {padding-bottom: 1em;}
   .border-top   {border-top:   1px solid rgba(242,242,242,1);}
   .border-left  {border-left:  1px solid rgba(242,242,242,1);}
