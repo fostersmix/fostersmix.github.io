@@ -201,8 +201,8 @@ a.add:link, a.add:visited, a.add:active {
 }
 
 a.add:hover {
-  color: black;
-  border: 1px dashed black;
+  -color: black;
+  -border: 1px dashed black;
 }
 
 #search {
@@ -232,10 +232,12 @@ a.add:hover {
 
 .line {height:1px;}
 .screen {min-height: 100vh;background-color: white;}
-.sidebar {box-shadow: inset 5em 0 0 0 black}
+.sidebar {box-shadow: inset 5em 0 0 0 white}
 
 .black, .black-hover:hover  {background-color:rgba(0,0,0,1);}
 #black, #black-hover:hover  {color:rgba(0,0,0,1);}
+.lightgray, .lightgray-hover:hover    {background-color: #eee;}
+#lightgray, #lightgray-hover:hover    {color: #eee;}
 .gray, .gray-hover:hover    {background-color: #bbb;}
 #gray, #gray-hover:hover    {color: #bbb;}
 .white, .white-hover:hover  {background-color:rgba(255,255,255,1);}
