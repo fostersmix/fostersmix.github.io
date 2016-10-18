@@ -101,11 +101,11 @@
     margin-bottom: 0;
   }
   h1 {
-    font-weight: 700;
-    font-size: 5em; /* 6em */
+    font-weight: 900;
+    font-size: 4.5em; /* 6em */
     margin: 0;
     padding: 0;
-    letter-spacing: .1em;
+    letter-spacing: .05em;
     line-height: 1;
   }
   .top-big      {padding-top: 2em;}
@@ -230,7 +230,10 @@ a.add:hover {
   padding-right: .3em;
 }
 
-.line {height:1px;}
+.line {
+  height: 1px;
+  border-bottom: 1px solid black;
+}
 .screen {min-height: 100vh;background-color: white;}
 .sidebar {box-shadow: inset 5em 0 0 0 white}
 
