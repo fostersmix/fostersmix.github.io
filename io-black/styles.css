@@ -92,7 +92,7 @@
   .hide-md {display: inline;}*/
   .hide-lg {display: none;}
   body {
-    background: black;
+    background: white;
     font-family: 'Roboto', Helvetica, sans-serif;
     font-weight: normal;
     color: black;
@@ -235,7 +235,12 @@ a.add:hover {
   border-bottom: 1px solid black;
 }
 .screen {min-height: 100vh;background-color: white;}
-.sidebar {box-shadow: inset 5em 0 0 0 white}
+.sidebar2 {box-shadow: inset 5em 0 0 0 white}
+.bg {background: linear-gradient(to right, red, white 50%, black 50%, blue);}
+.bgg {
+  box-shadow: inset -20em 0 0 0 #000;
+  -background: linear-gradient(to bottom right, #18FFFF 50%, #2962FF);
+  -background-image: url(https://static.vecteezy.com/system/resources/previews/000/101/236/original/vector-free-abstract-background-12.jpg);}
 
 .black, .black-hover:hover  {background-color:rgba(0,0,0,1);}
 #black, #black-hover:hover  {color:rgba(0,0,0,1);}
