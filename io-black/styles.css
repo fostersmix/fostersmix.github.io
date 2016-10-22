@@ -241,6 +241,8 @@ a.add:link, a.add:visited, a.add:hover, a.add:active {
   -background-size: contain;
 }
 .screen {min-height: 100vh;background-color: white;}
+.shadow {box-shadow: 0 2px 4px 0px rgba(0,0,0,.1), 0 1px 0px 0px rgba(0,0,0,.05);}
+.round  {border-radius: .5em;}
 
 
 .black, .black-hover:hover  {background-color:rgba(0,0,0,1);}
