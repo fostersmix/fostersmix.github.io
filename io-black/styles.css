@@ -100,19 +100,17 @@
     font-size: 1rem;  /* 1rem */
     margin-top: 0;
     margin-bottom: 0;
-    -webkit-font-smoothing: antialiased;
+    --webkit-font-smoothing: antialiased;
   }
   h1 {
     font-weight: 700;
-    font-size: 5em; /* 4.5em */
+    font-size: 5em; /* 5em */
     margin: 0;
     padding: 0;
     letter-spacing: .05em;
     line-height: 1;
     -color: #f05742;
     -text-shadow: .05em .05em 0px black;
-    -webkit-font-smoothing: antialiased;
-
   }
   .top-big      {padding-top: 2em;}
   .top          {padding-top: 1em;}
@@ -152,7 +150,7 @@ a.solid:hover {
 
 a.delete:link, a.delete:visited, a.delete:active {
   font-family: 'Roboto', sans-serif;
-  font-weight: normal;
+  font-weight: 100;
   font-size: 1em;
   color: rgba(255,255,255,.4);
   background: black;
