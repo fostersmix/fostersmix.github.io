@@ -171,8 +171,9 @@ a.delete:hover {
 a.more:link, a.more:visited, a.more:active {
   font-family: 'Roboto', sans-serif;
   font-size: 1em;
-  background-color: rgba(16,121,250,1);
-  color: white;
+  background-color: #eee;
+  -background-color: rgba(16,121,250,1);
+  color: black;
   border: 1px solid rgba(255,255,255,0);
   border-radius: 5em;
   padding: .45em 1em .45em 1em;
@@ -183,8 +184,8 @@ a.more:link, a.more:visited, a.more:active {
   outline: none;
 }
 a.more:hover {
-  background-color: rgba(6,111,250,1);
-  color: white;
+  background-color: #eee;
+  -background-color: rgba(6,111,250,1);
   border: 1px solid rgba(255,255,255,0);
 }
 
