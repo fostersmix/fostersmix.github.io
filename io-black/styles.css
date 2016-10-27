@@ -104,11 +104,13 @@
   }
   h1 {
     font-weight: 700;
-    font-size: 2.5em; /* 3em */
+    font-size: 5em; /* 5em */
     margin: 0;
     padding: 0;
     letter-spacing: .05em;
     line-height: 1;
+    -color: #f05742;
+    -text-shadow: .05em .05em 0px black;
   }
   .top-big      {padding-top: 2em;}
   .top          {padding-top: 1em;}
@@ -169,8 +171,7 @@ a.delete:hover {
 a.more:link, a.more:visited, a.more:active {
   font-family: 'Roboto', sans-serif;
   font-size: 1em;
-  background-color: #03A9F4;
-  -background-color: rgba(16,121,250,1);
+  background-color: rgba(16,121,250,1);
   color: white;
   border: 1px solid rgba(255,255,255,0);
   border-radius: 5em;
@@ -182,8 +183,8 @@ a.more:link, a.more:visited, a.more:active {
   outline: none;
 }
 a.more:hover {
-  background-color: #039BE5;
-  -background-color: rgba(6,111,250,1);
+  background-color: rgba(6,111,250,1);
+  color: white;
   border: 1px solid rgba(255,255,255,0);
 }
 
@@ -227,14 +228,28 @@ a.add:link, a.add:visited, a.add:hover, a.add:active {
   padding-right: .4em;
 }
 
-.line {height: 1px;}
-.screen {min-height: 100vh;}
+.line {
+  height: 1px;
+  border-bottom: 1px solid black;
+}
+.sidebar {
+  -box-shadow: inset -20em 0 0 0 #eee;
+  -background: linear-gradient(to bottom right, #18FFFF 50%, #2962FF);
+  -background-image: url(bg.jpg);
+  -background-size: contain;
+}
+.screen {min-height: 100vh;background-color: white;}
+.shadow {box-shadow: 0 2px 4px 0px rgba(0,0,0,.1), 0 1px 0px 0px rgba(0,0,0,.05);}
+.round  {border-radius: .5em;}
 
-.black, .black-hover:hover          {background-color:rgba(0,0,0,1);}
-#black, #black-hover:hover          {color:rgba(0,0,0,1);}
-.gray, .gray-hover:hover            {background-color: #bbb;}
-#gray, #gray-hover:hover            {color: #bbb;}
-.lightgray, .lightgray-hover:hover  {background-color: #eee;}
-#lightgray, #lightgray-hover:hover  {color: #eee;}
-.white, .white-hover:hover          {background-color:rgba(255,255,255,1);}
-#white, #white-hover:hover          {color:rgba(255,255,255,1);}
+
+.black, .black-hover:hover  {background-color:rgba(0,0,0,1);}
+#black, #black-hover:hover  {color:rgba(0,0,0,1);}
+.lightgray, .lightgray-hover:hover    {background-color: #eee;}
+#lightgray, #lightgray-hover:hover    {color: #eee;}
+.gray, .gray-hover:hover    {background-color: #bbb;}
+#gray, #gray-hover:hover    {color: #bbb;}
+.white, .white-hover:hover  {background-color:rgba(255,255,255,1);}
+#white, #white-hover:hover  {color:rgba(255,255,255,1);}
+.orange, .orange-hover:hover{background-color:#f05742;}
+#orange, #orange-hover:hover{color:#f05742;}
