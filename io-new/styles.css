@@ -7,24 +7,22 @@
   body {
     background: rgba(16,121,250,1);
     font-family: 'Roboto', sans-serif;
-    font-weight: normal;
+    font-weight: 400;
     color: white;
     font-size: 3rem; /* 3rem */
     margin-top: 0;
     margin-bottom: 0;
   }
   h1 {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 2em; /* 6em */
     margin: 0;
     padding: 0;
   }
   .top-big      {padding-top: 1em;}
   .top          {padding-top: 1em;}
-  .top-small    {padding-top: .5em;}
   .bottom-big   {padding-bottom: 1em;}
   .bottom       {padding-bottom: 1em;}
-  .bottom-small {padding-bottom: .5em;}
 }
 
 /*sm*/
@@ -36,24 +34,22 @@
   body {
     background: rgba(16,121,250,1);
     font-family: 'Roboto', sans-serif;
-    font-weight: normal;
+    font-weight: 400;
     color: white;
     font-size: 3rem; /* 3rem */
     margin-top: 0;
     margin-bottom: 0;
   }
   h1 {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 2.5em; /* 6em */
     margin: 0;
     padding: 0;
   }
   .top-big      {padding-top: 2em;}
   .top          {padding-top: 1em;}
-  .top-small    {padding-top: .5em;}
   .bottom-big   {padding-bottom: 2em;}
   .bottom       {padding-bottom: 1em;}
-  .bottom-small {padding-bottom: .5em;}
 }
 
 /*md*/
@@ -65,25 +61,22 @@
   body {
     background: rgba(16,121,250,1);
     font-family: 'Roboto', sans-serif;
-    font-weight: normal;
+    font-weight: 400;
     color: white;
-    font-size: 2rem; /* 2rem */
+    font-size: 1.5rem; /* 2rem */
     margin-top: 0;
     margin-bottom: 0;
   }
   h1 {
-    font-weight: 900;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 3em; /* 6em */
     margin: 0;
     padding: 0;
   }
   .top-big      {padding-top: 2em;}
   .top          {padding-top: 1em;}
-  .top-small    {padding-top: .5em;}
   .bottom-big   {padding-bottom: 2em;}
   .bottom       {padding-bottom: 1em;}
-  .bottom-small {padding-bottom: .5em;}
 }
 
 /*lg*/
@@ -100,7 +93,6 @@
     font-size: 1rem;  /* 1rem */
     margin-top: 0;
     margin-bottom: 0;
-    --webkit-font-smoothing: antialiased;
   }
   h1 {
     font-weight: 700;
@@ -109,29 +101,17 @@
     padding: 0;
     letter-spacing: .05em;
     line-height: 1;
-    -text-shadow: 0 1px 2px rgba(0,0,0,.5);
-
-  }
-  h2 {
-    font-weight: 700;
-    font-size: 1em;
-    margin: 0;
-    padding: 0;
-    letter-spacing: .3em;
-    line-height: 1;
   }
   .top-big      {padding-top: 2em;}
   .top          {padding-top: 1em;}
-  .top-small    {padding-top: .5em;}
   .bottom-big   {padding-bottom: 2em;}
   .bottom       {padding-bottom: 1em;}
-  .bottom-small {padding-bottom: .5em;}
 }
 
 a:link, a:visited, a:hover, a:active {
   font-family: 'Roboto', sans-serif;
   font-size: 1em;
-  color: rgba(0,0,0,1);
+  color: black;
 	text-decoration: none;
   outline: none;
 }
@@ -144,28 +124,16 @@ a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
   border-bottom: 1px dotted rgba(255,255,255,.6);
 }
 
-a.solid:link, a.solid:visited, a.solid:active {
-  font-size: 1em;
-  color: rgba(0,0,0,1);
-  padding-bottom: 0.05em;
-  border-bottom: 1px solid rgba(0,0,0,.2);
-	text-decoration: none;
-  outline: none;
-}
-a.solid:hover {
-  border-bottom: 1px solid rgba(0,0,0,.6);
-}
-
 a.delete:link, a.delete:visited, a.delete:active {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
-  font-size: 1.5em;
+  font-size: 1.4em;
   color: rgba(255,255,255,.5);
   background: black;
   border-radius: 5em;
   padding: .45em .8em .45em 1em;
   line-height: 2.5;
-  letter-spacing: .07em;
+  letter-spacing: .05em;
   white-space:nowrap;
 	text-decoration: none;
   outline: none;
@@ -178,26 +146,24 @@ a.delete:hover {
 a.more:link, a.more:visited, a.more:active {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 1.5em;
+  font-size: 1.4em;
   background-color: white;
   color: black;
   border-radius: 5em;
   padding: .45em 1em .45em 1em;
   line-height: 2.5;
-  letter-spacing: .07em;
+  letter-spacing: .05em;
   white-space:nowrap;
   text-decoration: none;
   outline: none;
   box-shadow: 0 .1em .1em rgba(0,0,0,.2);
-
 }
 a.more:hover {
   background-color: #f5f5f5;
-  color: black;
 }
 
 a.add:link, a.add:visited, a.add:hover, a.add:active {
-  font-size: 1.5em;
+  font-size: 1.4em;
   font-weight: 300;
   background-color: none;
   color: white;
@@ -205,7 +171,7 @@ a.add:link, a.add:visited, a.add:hover, a.add:active {
   border-radius: 5em;
   padding: .45em 1em .45em 1em;
   line-height: 2.5;
-  letter-spacing: .07em;
+  letter-spacing: .05em;
   white-space:nowrap;
   text-decoration: none;
   outline: none;
@@ -214,27 +180,28 @@ a.add:link, a.add:visited, a.add:hover, a.add:active {
 #search {
   font-family: 'Ionicons', 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 1.5em;
+  font-size: 1.4em;
   color: rgba(0,0,0,1);
   background-color: white;
   border: none;
   border-radius: 5em;
   padding: .45em 1em .45em 1em;
-  box-shadow: inset 0 .1em .1em rgba(0,0,0,.3);
+  box-shadow: inset 0 .1em .1em rgba(0,0,0,.7);
   margin: 0px;
   outline: none;
-  width: 20em;
+  width: 17em;
+  letter-spacing: .05em;
 }
 
 #label {
   font-family: 'Roboto', sans-serif;
-  letter-spacing: .07em;
+  letter-spacing: .05em;
   font-weight: 400;
-  color: rgba(255,255,255,1);
+  color: white;
   padding-right: .4em;
 }
 
-.line   {height: 1px;}
+.ws     {word-spacing: 2;}
 .screen {min-height: 100vh;}
 
 .black, .black-hover:hover  {background-color:rgba(0,0,0,1);}
