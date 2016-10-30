@@ -88,7 +88,7 @@
   body {
     background: rgba(16,121,250,1);
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     color: white;
     font-size: 1rem;  /* 1rem */
     margin-top: 0;
@@ -159,10 +159,11 @@ a.more:link, a.more:visited, a.more:active {
   box-shadow: 0 .1em .1em rgba(0,0,0,.2);
 }
 a.more:hover {
-  background-color: #f9f9f9;
+  -background-color: #fafafa;
 }
 
 a.add:link, a.add:visited, a.add:hover, a.add:active {
+  font-family: 'Roboto', sans-serif;
   font-size: 1.4em;
   font-weight: 300;
   background-color: none;
@@ -179,17 +180,18 @@ a.add:link, a.add:visited, a.add:hover, a.add:active {
 
 #search {
   font-family: 'Ionicons', 'Roboto', sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 1.4em;
-  color: rgba(0,0,0,1);
-  background-color: white;
+  color: white;
+  background-color: black;
   border: none;
   border-radius: 5em;
   padding: .45em 1em .45em 1em;
-  box-shadow: inset 0 .1em .1em rgba(0,0,0,.8);
+  -box-shadow: inset 0 .1em .1em #2d4276;
+  box-shadow: 0 .1em .1em rgba(0,0,0,.2);
   margin: 0px;
   outline: none;
-  width: 17em;
+  width: 15em;
   letter-spacing: .05em;
 }
 
