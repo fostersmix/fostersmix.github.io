@@ -133,7 +133,7 @@ a.delete:link, a.delete:visited, a.delete:active {
   font-weight: 100;
   font-size: 1em;
   color: rgba(255,255,255,.5);
-  background: #0033FF;
+  background: #660099;
   border-radius: 6px;
   padding: .4em .8em .4em .8em;
   -border: 2px solid black;
@@ -200,7 +200,7 @@ outline: none;
   font-weight: 300;
   font-size: 1em;
   color: white;
-  background-color: #0033FF;
+  background-color: #660099;
   border: 1px solid transparent;
   border-radius: 4em;
   padding: .4em .8em .4em .8em;
