@@ -194,7 +194,7 @@
   #header {
     background-image:    url(header-shadow.jpg);
     background-size:     cover;
-    background-position: center center;
+    background-position: center top;
   }
 }
 
@@ -288,8 +288,8 @@ a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
 #black, #black-hover:hover            {color:             rgba(0,0,0,1);}
 .gray, .gray-hover:hover              {background-color:  rgba(0,0,0,.1);}
 #gray, #gray-hover:hover              {color:             rgba(0,0,0,.1);}
-.lightgray, .lightgray-hover:hover    {background-color:  rgba(245,245,245,.2);}
-#lightgray, #lightgray-hover:hover    {color:             rgba(245,245,245,.2);}
+.lightgray, .lightgray-hover:hover    {background-color:  rgba(242,242,242,1);}
+#lightgray, #lightgray-hover:hover    {color:             rgba(242,242,242,1);}
 .white, .white-hover:hover            {background-color:  rgba(255,255,255,1);}
 #white, #white-hover:hover            {color:             rgba(255,255,255,1);}
 .half, .half-hover:hover              {background-color:  rgba(0,0,0,.5);}
