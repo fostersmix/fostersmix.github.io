@@ -91,7 +91,7 @@ a:link, a:visited, a:hover, a:active {
   outline:          none;
 }
 
-a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
+a.solid:link, a.solid:visited, a.solid:hover, a.solid:active {
   font-family:      'Roboto', sans-serif;
   font-weight:      300;
   color:            #999;
@@ -101,9 +101,19 @@ a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
   outline:          none;
 }
 
+a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
+  font-family:      'Roboto', sans-serif;
+  font-weight:      300;
+  color:            #999;
+  border-bottom:    1px dotted #ccc;
+  padding-bottom:   0.05em;
+  text-decoration:  none;
+  outline:          none;
+}
+
 a.delete:link, a.delete:visited, a.delete:active {
   font-family:      'Roboto', sans-serif;
-  font-weight:      100;
+  font-weight:      300;
   font-size:        1em;
   background-color: #660099;
   color:            rgba(255,255,255,.5);
@@ -183,6 +193,7 @@ a.add:link, a.add:visited, a.add:hover, a.add:active {
 .ws     {word-spacing: 2;}
 .screen {min-height:   100vh;}
 
+input {color: white;}
 input::-webkit-input-placeholder    {color: white;}
 input::-moz-placeholder             {color: white;}
 input:-moz-placeholder              {color: white;}
