@@ -213,20 +213,21 @@ a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
 .shadow-top      {box-shadow: 0 -1px 1px 0px rgba(0,0,0,.1), 0 2px 4px 0px rgba(0,0,0,.3), 0 1px 0px 0px rgba(0,0,0,.1);}
 .shadow-bottom   {box-shadow: 0 2px 4px 0px rgba(0,0,0,.1), 0 1px 0px 0px rgba(0,0,0,.05);}
 
+.soon {
+  background-image:    url(soon.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
 .black, .black-hover:hover            {background-color:  rgba(0,0,0,1);}
 #black, #black-hover:hover            {color:             rgba(0,0,0,1);}
-.gray, .gray-hover:hover              {background-color:  rgba(0,0,0,.1);}
-#gray, #gray-hover:hover              {color:             rgba(0,0,0,.1);}
-.lightgray                {background-color:  rgba(242,242,242,1);}
-.lightgray-hover:hover    {background-color:  rgba(245,245,245,.2);}
-
-#lightgray, #lightgray-hover:hover    {color:             rgba(242,242,242,1);}
+.darkgray, .darkgray-hover:hover      {background-color:  rgba(0,0,0,.1);}
+#darkgray, #darkgray-hover:hover      {color:             rgba(0,0,0,.2);}
+.gray, .gray-hover:hover              {background-color:  rgba(245,245,245,1);}
+#gray, #gray-hover:hover              {color:             rgba(245,245,245,1);}
+.lightgray, .lightgray-hover:hover    {background-color:  rgba(245,245,245,.2);}
+#lightgray, #lightgray-hover:hover    {color:             rgba(245,245,245,.2);}
 .white, .white-hover:hover            {background-color:  rgba(255,255,255,1);}
 #white, #white-hover:hover            {color:             rgba(255,255,255,1);}
 .half, .half-hover:hover              {background-color:  rgba(0,0,0,.5);}
 #half, #half-hover:hover              {color:             rgba(0,0,0,.5);}
-.half-new, .half-new-hover:hover              {background-color:  rgba(255,255,255,.3);}
-#half-new, #half-new-hover:hover              {color:             rgba(255,255,255,.3);}
-.atom, .atom-hover:hover              {background-color:  rgba(40,44,52,1);}
-#atom, #atom-hover:hover              {color:             rgba(40,44,52,1);}
-#green {color:#388E3C;}
