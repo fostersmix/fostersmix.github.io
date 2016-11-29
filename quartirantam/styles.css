@@ -9,7 +9,7 @@
     font-family:   'Helvetica Neue', Helvetica, sans-serif;
     font-weight:   normal;
     color:         black;
-    font-size:     1.5rem;
+    font-size:     1rem;
     margin-top:    0;
     margin-bottom: 0;
     -webkit-font-smoothing: antialiased;
@@ -21,33 +21,11 @@
     margin:      0;
     padding:     0;
   }
-  .top        {padding-top: 1em;}
-  .top-middle {padding-top: 1.5em;}
-  .top-big    {padding-top: 2em;}
-  .bottom     {padding-bottom: 1em;}
-  .bottom-big {padding-bottom: 2em;}
-  .border-top     {border-top:   1px solid rgba(242,242,242,1);}
-  .border-top-xs  {border-top:   1px solid rgba(242,242,242,1);}
-  /*.border-left  {border-left:  1px solid rgba(242,242,242,1);}*/
-  /*.border-right {border-right: 1px solid rgba(242,242,242,1);}*/
-  /*.round-top          {border-radius: .5em .5em 0 0;}*/
-  /*.round-top-left     {border-radius: .5em 0 0 0;}*/
-  /*.round-top-right    {border-radius: 0 .5em 0 0;}*/
-  /*.round-bottom       {border-radius: 0 0 .5em .5em;}*/
-  /*.round-bottom-left  {border-radius: 0 0 0 .5em;}*/
-  /*.round-bottom-right {border-radius: 0 0 .5em 0;}*/
-  #header {
-    background-image:    url(header.jpg);
-    background-size:     cover;
-    background-position: center center;
-  }
-  #button-xs {
-    background:      linear-gradient(#4CAF50,#388E3C);
-    text-shadow:    0 1px 0 rgba(0,0,0,0.3);
-    box-shadow:     0 1px 2px 0px rgba(0,0,0,.3), 0 .4em 1.2em 0 rgba(0,0,0,.2);
-    color:          white;
-    padding-top:    1.5em;
-    padding-bottom: 1.5em;
+  h2 {
+    font-weight: bold;;
+    font-size:   1em;
+    margin:      0;
+    padding:     0;
   }
 }
 
@@ -62,7 +40,7 @@
     font-family:   'Helvetica Neue', Helvetica, sans-serif;
     font-weight:   normal;
     color:         black;
-    font-size:     1.5rem;
+    font-size:     1rem;
     margin-top:    0;
     margin-bottom: 0;
     -webkit-font-smoothing: antialiased;
@@ -74,26 +52,11 @@
     margin:      0;
     padding:     0;
   }
-  .top        {padding-top: 1em;}
-  .top-middle {padding-top: 1.5em;}
-  .top-big    {padding-top: 2em;}
-  .bottom     {padding-bottom: 1em;}
-  .bottom-big {padding-bottom: 2em;}
-  .border-top       {border-top:   1px solid rgba(242,242,242,1);}
-  /*.border-left    {border-left:  1px solid rgba(242,242,242,1);}*/
-  /*.border-right   {border-right: 1px solid rgba(242,242,242,1);}*/
-  .border-right-sm  {border-right: 1px solid rgba(242,242,242,1);}
-  .round-top            {border-radius: .5em .5em 0 0;}
-  .round-top-left       {border-radius: .5em 0 0 0;}
-  .round-top-right      {border-radius: 0 .5em 0 0;}
-  .round-bottom         {border-radius: 0 0 .5em .5em;}
-  /*.round-bottom-left  {border-radius: 0 0 0 .5em;}*/
-  .round-bottom-left-sm {border-radius: 0 0 0 .5em;}
-  .round-bottom-right   {border-radius: 0 0 .5em 0;}
-  #header {
-    background-image:    url(header.jpg);
-    background-size:     cover;
-    background-position: center center;
+  h2 {
+    font-weight: normal;
+    font-size:   1.2em;
+    margin:      0;
+    padding:     0;
   }
 }
 
@@ -120,24 +83,11 @@
     margin:      0;
     padding:     0;
   }
-  .top-big    {padding-top: 2em;}
-  .top        {padding-top: 1em;}
-  .top-middle {padding-top: 1.5em;}
-  .bottom-big {padding-bottom: 2em;}
-  .bottom     {padding-bottom: 1em;}
-  .border-top   {border-top:   1px solid rgba(242,242,242,1);}
-  .border-left  {border-left:  1px solid rgba(242,242,242,1);}
-  .border-right {border-right: 1px solid rgba(242,242,242,1);}
-  .round-top          {border-radius: .5em .5em 0 0;}
-  .round-top-left     {border-radius: .5em 0 0 0;}
-  .round-top-right    {border-radius: 0 .5em 0 0;}
-  .round-bottom       {border-radius: 0 0 .5em .5em;}
-  .round-bottom-left  {border-radius: 0 0 0 .5em;}
-  .round-bottom-right {border-radius: 0 0 .5em 0;}
-  #header {
-    background-image:    url(header.jpg);
-    background-size:     cover;
-    background-position: center center;
+  h2 {
+    font-weight: normal;
+    font-size:   1.2em;
+    margin:      0;
+    padding:     0;
   }
 }
 
@@ -160,41 +110,15 @@
   h1 {
     font-weight: bold;
     text-shadow: 0 1px 2px rgba(0,0,0,.5);
-    font-size:   3.5em; /* 3.5em */
+    font-size:   3.5em;
     margin:      0;
     padding:     0;
   }
   h2 {
     font-weight: normal;
-    -text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
-    font-size:   1.2em; /* 3.5em */
+    font-size:   1.2em;
     margin:      0;
     padding:     0;
-  }
-  .top-big    {padding-top: 2.5em;}
-  .top        {padding-top: 1em;}
-  .top-middle {padding-top: 2em;}
-  .bottom-big {padding-bottom: 2.5em;}
-  .bottom-middle {padding-bottom: 2em;}
-  .bottom     {padding-bottom: 1em;}
-  .border-top   {border-top:   1px solid rgba(242,242,242,1);}
-  .border-left  {border-left:  1px solid rgba(242,242,242,1);}
-  .border-right {border-right: 1px solid rgba(242,242,242,1);}
-  .border-left-new  {border-left:  1px solid rgba(0,0,0,.42);}
-  .border-right-new {border-right: 1px solid rgba(0,0,0,.42);}
-  .round              {border-radius: .5em .5em .5em .5em;}
-  .round-top          {border-radius: .5em .5em 0 0;}
-  .round-top-left     {border-radius: .5em 0 0 0;}
-  .round-top-right    {border-radius: 0 .5em 0 0;}
-  .round-left         {border-radius: .5em 0em 0 .5em;}
-  .round-right         {border-radius: 0 .5em 5em 0;}
-  .round-bottom       {border-radius: 0 0 .5em .5em;}
-  .round-bottom-left  {border-radius: 0 0 0 .5em;}
-  .round-bottom-right {border-radius: 0 0 .5em 0;}
-  #header {
-    background-image:    url(header-shadow.jpg);
-    background-size:     cover;
-    background-position: center top;
   }
 }
 
@@ -251,38 +175,43 @@ a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
   background:      linear-gradient(#66BB6A,#388E3C);
 }
 
-#line-dot {border-bottom: 1px dotted rgba(255,255,255,.4);}
 
 
-#stats {
-  background-position: center center;
-  background-repeat: no-repeat;
-  background: url(https://cdn1.iconfinder.com/data/icons/hawcons/32/699042-icon-53-notebook-list-128.png); /* Путь к файлу с исходным рисунком  */
-  display: block; /*  Рисунок как блочный элемент */
-  width: 120px; /* Ширина рисунка */
-  height: 120px; /*  Высота рисунка */
-}
-#stats:hover {
-  background: url(https://cdn1.iconfinder.com/data/icons/hawcons/32/698565-icon-53-notebook-list-128.png); /* Путь к файлу с заменяемым рисунком  */
+#header {
+  background-image:    url(header-shadow.jpg);
+  background-size:     cover;
+  background-position: center top;
 }
 
-#icon {font-size:   3.5em; /* 3.5em */;color:#388E3C;}
-#icon-white {font-size:   3.5em; /* 3.5em */;color:white;}
+.line       {height:1px;}
+.line-dot   {border-bottom: 1px dotted rgba(255,255,255,.4);}
+.pointer    {cursor:pointer;}
+.screen     {min-height: 100vh;}
 
+.top-big    {padding-top: 2em;}
+.top        {padding-top: 1em;}
+.bottom-big {padding-bottom: 2em;}
+.bottom     {padding-bottom: 1em;}
 
-.grad {background-color: #4CAF50;}
-.line                 {height:1px;}
-.screen               {min-height: 100vh;}
-.pointer              {cursor:pointer;}
-.round-button         {border-radius: 5em;}
-.shadow-inset         {box-shadow: inset 0 -7em 0px 0px rgba(245,245,245,1);}
-.shadow-cell-inset    {box-shadow: inset 0 -4px 0px 0px #4CAF50;}
-.shadow-cell2-inset   {box-shadow: inset 0 -10px 0px 0px white;}
-.shadow-cell2-inset:hover   {box-shadow: inset 0 -10px 0px 0px #4CAF50;}
-.shadow               {text-shadow: 0 1px 0 rgba(0,0,0,0.3);}
-.shadow-body          {box-shadow: 0 0px 0px 0px rgba(0,0,0,.3), 0 2px 4px 0px rgba(0,0,0,.1), 0 1px 0px 0px rgba(0,0,0,.05);}
-.shadow-body-top      {box-shadow: 0 0px 6px 0px rgba(0,0,0,.3);}
-.shadow-body-bottom   {box-shadow: 0 2px 4px 0px rgba(0,0,0,.1), 0 1px 0px 0px rgba(0,0,0,.05);}
+.round-button       {border-radius: 5em;}
+.round              {border-radius: .5em .5em .5em .5em;}
+.round-top          {border-radius: .5em .5em 0 0;}
+.round-top-left     {border-radius: .5em 0 0 0;}
+.round-top-right    {border-radius: 0 .5em 0 0;}
+.round-bottom       {border-radius: 0 0 .5em .5em;}
+.round-bottom-left  {border-radius: 0 0 0 .5em;}
+.round-bottom-right {border-radius: 0 0 .5em 0;}
+.round-left         {border-radius: .5em 0 0 .5em;}
+.round-right        {border-radius: 0 .5em .5em 0;}
+
+.border-top       {border-top:   1px solid rgba(242,242,242,1);}
+.border-bottom    {border-bottom:1px solid rgba(242,242,242,1);}
+.border-left      {border-left:  1px solid rgba(242,242,242,1);}
+.border-right     {border-right: 1px solid rgba(242,242,242,1);}
+
+.shadow-text     {text-shadow: 0 1px 0 rgba(0,0,0,0.3);}
+.shadow-top      {box-shadow: 0 -1px 1px 0px rgba(0,0,0,.1), 0 2px 4px 0px rgba(0,0,0,.3), 0 1px 0px 0px rgba(0,0,0,.1);}
+.shadow-bottom   {box-shadow: 0 2px 4px 0px rgba(0,0,0,.1), 0 1px 0px 0px rgba(0,0,0,.05);}
 
 .black, .black-hover:hover            {background-color:  rgba(0,0,0,1);}
 #black, #black-hover:hover            {color:             rgba(0,0,0,1);}
