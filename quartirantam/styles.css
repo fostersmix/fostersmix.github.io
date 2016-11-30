@@ -116,7 +116,7 @@
   }
   h2 {
     font-weight: normal;
-    font-size:   1.2em;
+    font-size:   1.3em;
     margin:      0;
     padding:     0;
   }
@@ -189,6 +189,7 @@ a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
 .screen     {min-height: 100vh;}
 
 .top-big    {padding-top: 2em;}
+.top-md     {padding-top: 1.75em;}
 .top        {padding-top: 1em;}
 .bottom-big {padding-bottom: 2em;}
 .bottom     {padding-bottom: 1em;}
