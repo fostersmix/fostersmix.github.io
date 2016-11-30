@@ -76,6 +76,10 @@
     margin-top:    0;
     margin-bottom: 0;
   }
+  h1 {
+    font-size:     12em;
+    font-weight:   900;
+  }
   .top-big    {padding-top:    2em;}
   .top        {padding-top:    1em;}
   .bottom-big {padding-bottom: 2em;}
@@ -174,30 +178,33 @@ a.add:link, a.add:visited, a.add:hover, a.add:active {
 
 #search {
   font-family:      'Ionicons', 'Roboto', sans-serif;
-  font-weight:      400;
-  font-size:        1em;
-  background-color: #0066FF;
-  color:            white;
+  font-weight:      900;
+  font-size:        20vmin;
+  background-color: white;
+  color:            #0066FF;
   border:           1px solid transparent;
-  border-radius:    4em;
-  padding:          .4em .8em .4em .8em;
-  margin:           0px;
-  line-height:      5;
-  letter-spacing:   0.5;
+  -border-radius:    4em;
+  -padding:          .4em .8em .4em .8em;
+  -margin:           0;
+  -line-height:      5;
+  -letter-spacing:   0.5;
   word-spacing:     0;
   outline:          none;
   width:            100%;
-  height:           2em;
+  -height:           2em;
+  text-align: center;
 }
+
+.line   {height: 2px;}
 .ws     {word-spacing: 2;}
 .screen {min-height:   100vh;}
 
-input {color: white;}
-input::-webkit-input-placeholder    {color: white;}
-input::-moz-placeholder             {color: white;}
-input:-moz-placeholder              {color: white;}
-input:-ms-input-placeholder         {color: white;}
-input[placeholder], [placeholder], *[placeholder] {color: white;}
+input {color: #0066FF;}
+input::-webkit-input-placeholder    {color: #0066FF;}
+input::-moz-placeholder             {color: #0066FF;}
+input:-moz-placeholder              {color: #0066FF;}
+input:-ms-input-placeholder         {color: #0066FF;}
+input[placeholder], [placeholder], *[placeholder] {color: #0066FF;}
 
 input:focus::-webkit-input-placeholder {color: transparent;}
 input:focus::-moz-placeholder          {color: transparent;}
@@ -214,5 +221,13 @@ input:focus:-ms-input-placeholder      {color: transparent;}
 #lightgray, #lightgray-hover:hover  {color:            #eee;}
 .white, .white-hover:hover          {background-color: rgba(255,255,255,1);}
 #white, #white-hover:hover          {color:            rgba(255,255,255,1);}
-.purple, .purple-hover:hover        {background-color: #660099;}
-#purple, #purple-hover:hover        {color:            #660099;}
+.blue, .blue-hover:hover        {background-color: #0066FF;}
+#blue, #blue-hover:hover        {color:            #0066FF;}
+
+/*
+input {color: white;}
+input::-webkit-input-placeholder    {color: white;}
+input::-moz-placeholder             {color: white;}
+input:-moz-placeholder              {color: white;}
+input:-ms-input-placeholder         {color: white;}
+input[placeholder], [placeholder], *[placeholder] {color: white;}
