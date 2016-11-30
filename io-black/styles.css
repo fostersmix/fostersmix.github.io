@@ -115,7 +115,7 @@ a.delete:link, a.delete:visited, a.delete:active {
   font-family:      'Roboto', sans-serif;
   font-weight:      300;
   font-size:        1em;
-  background-color: #3366ff;
+  background-color: #0066FF;
   color:            rgba(255,255,255,.5);
   border-radius:    4px;
   padding:          .4em .8em .4em .8em;
@@ -176,7 +176,7 @@ a.add:link, a.add:visited, a.add:hover, a.add:active {
   font-family:      'Ionicons', 'Roboto', sans-serif;
   font-weight:      400;
   font-size:        1em;
-  background-color: #3366ff;
+  background-color: #0066FF;
   color:            white;
   border:           1px solid transparent;
   border-radius:    4em;
