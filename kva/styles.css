@@ -151,7 +151,6 @@ a.active:link, a.active:visited, a.active:hover, a.active:active {
   border-radius:    6px;
   padding:          .4em .8em .4em .8em;
   line-height:      2.5;
-  letter-spacing:   0.5;
   word-spacing:     0;
   white-space:      nowrap;
   text-decoration:  none;
@@ -168,7 +167,17 @@ a.inactive:link, a.inactive:visited, a.inactive:hover, a.inactive:active {
   border-radius:    6px;
   padding:          .4em .8em .4em .8em;
   line-height:      2.5;
-  letter-spacing:   0.5;
+  letter-spacing:   0;
+  word-spacing:     0;
+  white-space:      nowrap;
+  text-decoration:  none;
+  outline:          none;
+}
+
+#label {
+  padding:          .4em .4em .4em 0em;
+  line-height:      2.5;
+  letter-spacing:   0;
   word-spacing:     0;
   white-space:      nowrap;
   text-decoration:  none;
