@@ -206,9 +206,10 @@ a.button:link, a.button:visited, a.button:hover, a.button:active {
 #dotted {border-bottom: 1px dotted #999;}
 
 .warning {
-  background-color: rgba(250,250,190,.3);
-  padding:          .4em 0 .4em 0;
-  line-height:      1.9;
+  -background-color: rgba(250,250,190,.3);
+  padding:          0em .8em 0em .8em;
+  -line-height:      1.9;
+  border:           2px solid transparent;
 }
 
 .line   {height: 2px;}
