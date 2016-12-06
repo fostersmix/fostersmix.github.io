@@ -115,8 +115,9 @@ a.delete:link, a.delete:visited, a.delete:active {
   font-family:      'Roboto', sans-serif;
   font-weight:      300;
   font-size:        1em;
-  background-color: #0066FF;
-  color:            rgba(255,255,255,.5);
+  background-color: transparent;
+  border:           2px solid #0066FF;
+  color:            rgba(0,0,0,.4);
   border-radius:    4px;
   padding:          .4em .8em .4em .8em;
   line-height:      2.6;
@@ -127,14 +128,14 @@ a.delete:link, a.delete:visited, a.delete:active {
   outline:          none;
 }
 a.delete:hover {
-  color:            rgba(255,255,255,.6);
+  color:            rgba(0,0,0,.5);
 }
 
 #label {
   font-family:      'Roboto', sans-serif;
   font-weight:      400;
   letter-spacing:   0.5;
-  color:            white;
+  color:            black;
   padding-right:    .4em;
   word-spacing:     0;
 }
@@ -147,6 +148,23 @@ a.next:link, a.next:visited, a.next:hover, a.next:active {
   color:            #999;
   border:           2px solid #e4e4e4;
   border-radius:    6px;
+  padding:          .4em .8em .4em .8em;
+  line-height:      2.6;
+  letter-spacing:   0.5;
+  word-spacing:     0;
+  white-space:      nowrap;
+  text-decoration:  none;
+  outline:          none;
+}
+
+a.hash:link, a.hash:visited, a.hash:hover, a.hash:active {
+  font-family:      'Roboto', sans-serif;
+  font-weight:      400;
+  font-size:        1em;
+  background-color: #0066FF;
+  color:            white;
+  border:           2px solid transparent;
+  border-radius:    4px;
   padding:          .4em .8em .4em .8em;
   line-height:      2.6;
   letter-spacing:   0.5;
@@ -176,8 +194,8 @@ a.add:link, a.add:visited, a.add:hover, a.add:active {
   font-family:      'Ionicons', 'Roboto', sans-serif;
   font-weight:      400;
   font-size:        1em;
-  background-color: #0066FF;
-  color:            white;
+  background-color: #eee;
+  color:            black;
   border:           1px solid transparent;
   border-radius:    4em;
   padding:          .4em .8em .4em .8em;
@@ -192,12 +210,12 @@ a.add:link, a.add:visited, a.add:hover, a.add:active {
 .ws     {word-spacing: 2;}
 .screen {min-height:   100vh;}
 
-input {color: white;}
-input::-webkit-input-placeholder    {color: white;}
-input::-moz-placeholder             {color: white;}
-input:-moz-placeholder              {color: white;}
-input:-ms-input-placeholder         {color: white;}
-input[placeholder], [placeholder], *[placeholder] {color: white;}
+input {color: #999;}
+input::-webkit-input-placeholder    {color: #999;}
+input::-moz-placeholder             {color: #999;}
+input:-moz-placeholder              {color: #999;}
+input:-ms-input-placeholder         {color: #999;}
+input[placeholder], [placeholder], *[placeholder] {color: #999;}
 
 input:focus::-webkit-input-placeholder {color: transparent;}
 input:focus::-moz-placeholder          {color: transparent;}
