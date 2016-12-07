@@ -218,7 +218,23 @@ a.button:link, a.button:visited, a.button:hover, a.button:active {
 .round  {border-radius:6px;}
 .shadow {box-shadow: 0 2px 4px 1px rgba(0,0,0,.1), 0 1px 0px 0px rgba(0,0,0,.05);}
 .mdl      {vertical-align: top;}
+.pad {padding-left: 1em;}
 
+.border-top       {border-top:   1px solid #eee;}
+.border-bottom    {border-bottom:1px solid #eee;}
+.border-left      {border-left:  1px solid #eee;}
+.border-right     {border-right: 1px solid #eee;}
+
+.round-button       {border-radius: 5em;}
+.round              {border-radius: .5em .5em .5em .5em;}
+.round-top          {border-radius: .5em .5em 0 0;}
+.round-top-left     {border-radius: .5em 0 0 0;}
+.round-top-right    {border-radius: 0 .5em 0 0;}
+.round-bottom       {border-radius: 0 0 .5em .5em;}
+.round-bottom-left  {border-radius: 0 0 0 .5em;}
+.round-bottom-right {border-radius: 0 0 .5em 0;}
+.round-left         {border-radius: .5em 0 0 .5em;}
+.round-right        {border-radius: 0 .5em .5em 0;}
 
 .black, .black-hover:hover          {background-color: rgba(0,0,0,1);}
 #black, #black-hover:hover          {color:            rgba(0,0,0,1);}
