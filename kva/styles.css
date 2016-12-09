@@ -215,6 +215,7 @@ a.button:link, a.button:visited, a.button:hover, a.button:active {
 .mdl    {vertical-align: top;}
 .line   {height: 1px;}
 .screen {min-height: 100vh;}
+.border {border: 2px solid #eee;}
 
 .black, .black-hover:hover          {background-color: black;}
 #black, #black-hover:hover          {color:            black;}
