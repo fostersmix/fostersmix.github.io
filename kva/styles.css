@@ -215,7 +215,12 @@ a.button:link, a.button:visited, a.button:hover, a.button:active {
 .mdl    {vertical-align: top;}
 .line   {height: 1px;}
 .screen {min-height: 100vh;}
-.border {border: 2px solid #eee;}
+.shadow   {box-shadow: inset .5em 0 1em 0px #ddd;}
+.bg {
+  background-color: #eee;
+  -background-image: url(bg2.png);
+}
+
 
 .black, .black-hover:hover          {background-color: black;}
 #black, #black-hover:hover          {color:            black;}
