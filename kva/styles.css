@@ -151,7 +151,7 @@ a.active:link, a.active:visited, a.active:hover, a.active:active {
   font-size:        1em;
   background-color: transparent;
   color:            black;
-  border:           2px solid #009933;
+  border:           2px solid #FF0099;
   border-radius:    6px;
   padding:          .4em .8em .4em .8em;
   line-height:      2.5;
@@ -167,7 +167,7 @@ a.active:link, a.active:visited, a.active:hover, a.active:active {
   font-size:        1em;
   background-color: transparent;
   color:            black;
-  border:           2px solid #009933;
+  border:           2px solid #FF0099;
   border-radius:    6px;
   padding:          .4em .8em .4em .8em;
   line-height:      2.5;
@@ -200,7 +200,7 @@ a.button:link, a.button:visited, a.button:hover, a.button:active {
   font-family:      'Helvetica Neue', sans-serif;
   font-weight:      normal;
   font-size:        1em;
-  background-color: #009933;
+  background-color: #FF0099;
   color:            white;
   border-radius:    5em;
   padding:          .8em 1.6em .8em 1.6em;
@@ -236,5 +236,5 @@ a.button:link, a.button:visited, a.button:hover, a.button:active {
 #lightgray, #lightgray-hover:hover  {color:            #f8f8f8;}
 .white, .white-hover:hover          {background-color: white;}
 #white, #white-hover:hover          {color:            white;}
-.green, .green-hover:hover            {background-color: #009933;}
-#green, #green-hover:hover            {color:            #009933;}
+.green, .green-hover:hover            {background-color: #FF0099;}
+#green, #green-hover:hover            {color:            #FF0099;}

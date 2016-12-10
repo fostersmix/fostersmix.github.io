@@ -69,9 +69,9 @@
   .hide-lg   {display: none;}
   body {
     font-family:   'Helvetica Neue', sans-serif;
-    font-weight:   300;
+    font-weight:   normal;
     font-size:     1rem;
-    background:    white;
+    -background: radial-gradient(white, #eee);
     color:         #999;
     margin-top:    0;
     margin-bottom: 0;
@@ -94,7 +94,7 @@
 
 a:link, a:visited, a:hover, a:active {
   font-family:      'Helvetica Neue', sans-serif;
-  font-weight:      300;
+  font-weight:      normal;
   font-size:        1em;
   color:            #999;
 	text-decoration:  none;
@@ -103,7 +103,7 @@ a:link, a:visited, a:hover, a:active {
 
 a.solid:link, a.solid:visited, a.solid:hover, a.solid:active {
   font-family:      'Helvetica Neue', sans-serif;
-  font-weight:      300;
+  font-weight:      normal;
   color:            #999;
   border-bottom:    1px solid #e4e4e4;
   padding-bottom:   0.05em;
@@ -113,7 +113,7 @@ a.solid:link, a.solid:visited, a.solid:hover, a.solid:active {
 
 a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
   font-family:      'Helvetica Neue', sans-serif;
-  font-weight:      300;
+  font-weight:      normal;
   color:            #999;
   border-bottom:    1px dotted #ccc;
   padding-bottom:   0.05em;
@@ -121,33 +121,11 @@ a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
   outline:          none;
 }
 
-a.dem2:link, a.dem2:visited, a.dem2:active {
+a.select:link, a.select:visited, a.select:active {
   font-family:      'Helvetica Neue', sans-serif;
-  font-weight:      300;
-  font-size:        1em;
-  background-color: #3300FF;
-  border:           2px solid #3300FF;
-  color:            rgba(255,255,255,.5);
-  border-radius:    4px;
-  padding:          .4em .8em .4em .8em;
-  line-height:      2.6;
-  letter-spacing:   0.5;
-  word-spacing:     0;
-  white-space:      nowrap;
-	text-decoration:  none;
-  outline:          none;
-}
-a.dem2:hover {
-  color:            rgba(255,255,255,.6);
-  -background-color: #eee;
-}
-
-a.dem:link, a.dem:visited, a.dem:active {
-  font-family:      'Helvetica Neue', sans-serif;
-  font-weight:      300;
+  font-weight:      normal;
   font-size:        2em;
-  -background-color: #3300FF;
-  border:           2px solid #eee;
+  border:           2px solid #00CCFF;
   color:            rgba(0,0,0,.2);
   border-radius:    4px;
   padding:          .4em .8em .4em .8em;
@@ -158,91 +136,49 @@ a.dem:link, a.dem:visited, a.dem:active {
 	text-decoration:  none;
   outline:          none;
 }
-a.dem:hover {
+a.select:hover {
   color:            rgba(0,0,0,.3);
-  background-color: #eee;
+  background-color: #00CCFF;
+}
+#select {
+  font-family:      'Helvetica Neue', sans-serif;
+  font-weight:      normal;
+  letter-spacing:   0.5;
+  color:            black;
+  padding-right:    .4em;
+  word-spacing:     0;
 }
 
-a.delete:link, a.delete:visited, a.delete:active {
+a.primary:link, a.primary:visited, a.primary:active {
   font-family:      'Helvetica Neue', sans-serif;
-  font-weight:      400;
+  font-weight:      normal;
   font-size:        1em;
-  background-color: #3300FF;
-  border:           2px solid #3300FF;
-  color:            rgba(255,255,255,1);
+  background-color: #f9f9f9;
+  border:           2px solid #f9f9f9;
+  color:            black;
   border-radius:    4px;
   padding:          .4em .8em .4em .8em;
-  line-height:      2.6;
+  line-height:      3;
   letter-spacing:   0.5;
   word-spacing:     0;
   white-space:      nowrap;
 	text-decoration:  none;
   outline:          none;
-}
-a.delete:hover {
-  color:            rgba(255,255,255,1);
+  box-shadow:  0 1px 2px rgba(0,0,0,.2);
 }
 
-#label2 {
-  font-family:      'Helvetica Neue', sans-serif;
-  font-weight:      400;
-  letter-spacing:   0.5;
-  color:            black;
-  padding-right:    .4em;
-  word-spacing:     0;
+a.primary:hover {
+  box-shadow:  0 1px 2px rgba(0,0,0,.4);
 }
 
-#label {
+a.secondary:link, a.secondary:visited, a.secondary:hover, a.secondary:active {
   font-family:      'Helvetica Neue', sans-serif;
-  font-weight:      400;
-  letter-spacing:   0.5;
-  color:            white;
-  padding-right:    .4em;
-  word-spacing:     0;
-}
-
-a.next:link, a.next:visited, a.next:hover, a.next:active {
-  font-family:      'Helvetica Neue', sans-serif;
-  font-weight:      400;
-  font-size:        1em;
-  background-color: #eee;
-  color:            black;
-  border:           2px solid transparent;
-  border-radius:    6px;
-  padding:          .4em .8em .4em .8em;
-  line-height:      2.6;
-  letter-spacing:   0.5;
-  word-spacing:     0;
-  white-space:      nowrap;
-  text-decoration:  none;
-  outline:          none;
-}
-
-a.hash:link, a.hash:visited, a.hash:hover, a.hash:active {
-  font-family:      'Helvetica Neue', sans-serif;
-  font-weight:      400;
-  font-size:        1em;
-  background-color: #3300FF;
-  color:            white;
-  border:           2px solid transparent;
-  border-radius:    4px;
-  padding:          .4em .8em .4em .8em;
-  line-height:      2.6;
-  letter-spacing:   0.5;
-  word-spacing:     0;
-  white-space:      nowrap;
-  text-decoration:  none;
-  outline:          none;
-}
-
-a.add:link, a.add:visited, a.add:hover, a.add:active {
-  font-family:      'Helvetica Neue', sans-serif;
-  -font-weight:      400;
+  font-weight:      normal;
   font-size:        1em;
   background-color: transparent;
-  color:            rgba(0,0,0,.5);
-  border:           2px solid #3300FF;
-  border-radius:    6px;
+  color:            black;
+  border:           2px solid #FFFF33;
+  border-radius:    4px;
   padding:          .4em .8em .4em .8em;
   line-height:      2.6;
   letter-spacing:   0.5;
@@ -254,7 +190,7 @@ a.add:link, a.add:visited, a.add:hover, a.add:active {
 
 #search {
   font-family:      'Ionicons', 'Helvetica Neue', sans-serif;
-  font-weight:      400;
+  font-weight:      normal;
   font-size:        1em;
   background-color: #eee;
   color:            black;
@@ -269,7 +205,8 @@ a.add:link, a.add:visited, a.add:hover, a.add:active {
   width:            100%;
   height:           2em;
 }
-.ws     {word-spacing: 2;}
+
+.ws     {word-spacing: 6;}
 .screen {min-height:   100vh;}
 
 input {color: #999;}
