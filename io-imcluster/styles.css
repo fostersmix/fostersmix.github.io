@@ -179,7 +179,7 @@ a.add:link, a.add:visited, a.add:hover, a.add:active {
 #search {
   font-family:      'Ionicons', 'Roboto', sans-serif;
   font-weight:      900;
-  font-size:        20vmin;
+  font-size:        10em;
   background-color: white;
   color:            #0066FF;
   border:           1px solid transparent;
