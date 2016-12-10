@@ -5,7 +5,7 @@
   .hide-md   {display: inline;}
   .hide-lg   {display: inline;}*/
   body {
-    font-family:   'Roboto', sans-serif;
+    font-family:   'Helvetica Neue', sans-serif;
     font-weight:   300;
     font-size:     2.5rem;
     background:    white;
@@ -26,7 +26,7 @@
   /*.hide-md {display: inline;}
   .hide-lg   {display: inline;}*/
   body {
-    font-family:   'Roboto', sans-serif;
+    font-family:   'Helvetica Neue', sans-serif;
     font-weight:   300;
     font-size:     2rem;
     background:    white;
@@ -47,7 +47,7 @@
   .hide-md   {display: none;}
   /*.hide-lg {display: inline;}*/
   body {
-    font-family:   'Roboto', sans-serif;
+    font-family:   'Helvetica Neue', sans-serif;
     font-weight:   300;
     font-size:     1.5rem;
     background:    white;
@@ -68,13 +68,23 @@
   .hide-md   {display: inline;}*/
   .hide-lg   {display: none;}
   body {
-    font-family:   'Roboto', sans-serif;  
+    font-family:   'Helvetica Neue', sans-serif;
     font-weight:   300;
     font-size:     1rem;
     background:    white;
     color:         #999;
     margin-top:    0;
     margin-bottom: 0;
+  }
+  h1 {
+    font-family:   'Roboto', sans-serif;
+    font-size:     15em;
+    font-weight:   900;
+    color: #eee;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    white-space: nowrap;
   }
   .top-big    {padding-top:    2em;}
   .top        {padding-top:    1em;}
@@ -83,7 +93,7 @@
 }
 
 a:link, a:visited, a:hover, a:active {
-  font-family:      'Roboto', sans-serif;
+  font-family:      'Helvetica Neue', sans-serif;
   font-weight:      300;
   font-size:        1em;
   color:            #999;
@@ -92,7 +102,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 a.solid:link, a.solid:visited, a.solid:hover, a.solid:active {
-  font-family:      'Roboto', sans-serif;
+  font-family:      'Helvetica Neue', sans-serif;
   font-weight:      300;
   color:            #999;
   border-bottom:    1px solid #e4e4e4;
@@ -102,7 +112,7 @@ a.solid:link, a.solid:visited, a.solid:hover, a.solid:active {
 }
 
 a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
-  font-family:      'Roboto', sans-serif;
+  font-family:      'Helvetica Neue', sans-serif;
   font-weight:      300;
   color:            #999;
   border-bottom:    1px dotted #ccc;
@@ -112,12 +122,12 @@ a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
 }
 
 a.delete:link, a.delete:visited, a.delete:active {
-  font-family:      'Roboto', sans-serif;
+  font-family:      'Helvetica Neue', sans-serif;
   font-weight:      300;
   font-size:        1em;
-  background-color: transparent;
+  background-color: #0066FF;
   border:           2px solid #0066FF;
-  color:            rgba(0,0,0,.4);
+  color:            rgba(255,255,255,.5);
   border-radius:    4px;
   padding:          .4em .8em .4em .8em;
   line-height:      2.6;
@@ -128,25 +138,25 @@ a.delete:link, a.delete:visited, a.delete:active {
   outline:          none;
 }
 a.delete:hover {
-  color:            rgba(0,0,0,.5);
+  color:            rgba(255,255,255,.6);
 }
 
 #label {
-  font-family:      'Roboto', sans-serif;
+  font-family:      'Helvetica Neue', sans-serif;
   font-weight:      400;
   letter-spacing:   0.5;
-  color:            black;
+  color:            white;
   padding-right:    .4em;
   word-spacing:     0;
 }
 
 a.next:link, a.next:visited, a.next:hover, a.next:active {
-  font-family:      'Roboto', sans-serif;
+  font-family:      'Helvetica Neue', sans-serif;
   font-weight:      400;
   font-size:        1em;
   background-color: transparent;
-  color:            #999;
-  border:           2px solid #e4e4e4;
+  color:            #777;
+  border:           2px solid #ddd;
   border-radius:    6px;
   padding:          .4em .8em .4em .8em;
   line-height:      2.6;
@@ -158,7 +168,7 @@ a.next:link, a.next:visited, a.next:hover, a.next:active {
 }
 
 a.hash:link, a.hash:visited, a.hash:hover, a.hash:active {
-  font-family:      'Roboto', sans-serif;
+  font-family:      'Helvetica Neue', sans-serif;
   font-weight:      400;
   font-size:        1em;
   background-color: #0066FF;
@@ -175,7 +185,7 @@ a.hash:link, a.hash:visited, a.hash:hover, a.hash:active {
 }
 
 a.add:link, a.add:visited, a.add:hover, a.add:active {
-  font-family:      'Roboto', sans-serif;
+  font-family:      'Helvetica Neue', sans-serif;
   font-weight:      400;
   font-size:        1em;
   background-color: #eee;
@@ -191,7 +201,7 @@ a.add:link, a.add:visited, a.add:hover, a.add:active {
 }
 
 #search {
-  font-family:      'Ionicons', 'Roboto', sans-serif;
+  font-family:      'Ionicons', 'Helvetica Neue', sans-serif;
   font-weight:      400;
   font-size:        1em;
   background-color: #eee;
