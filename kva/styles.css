@@ -194,7 +194,7 @@ a.inactive:link, a.inactive:visited, a.inactive:hover, a.inactive:active {
   outline:          none;
 }
 
-#dotted {border-bottom: 1px dotted #999;}
+#dotted {border-bottom: 1px dotted black;}
 
 a.button:link, a.button:visited, a.button:hover, a.button:active {
   font-family:      'Helvetica Neue', sans-serif;
@@ -236,5 +236,5 @@ a.button:link, a.button:visited, a.button:hover, a.button:active {
 #lightgray, #lightgray-hover:hover  {color:            #f8f8f8;}
 .white, .white-hover:hover          {background-color: white;}
 #white, #white-hover:hover          {color:            white;}
-.green, .green-hover:hover            {background-color: #FF0099;}
-#green, #green-hover:hover            {color:            #FF0099;}
+.blue, .blue-hover:hover            {background-color: #FF0099;}
+#blue, #blue-hover:hover            {color:            #FF0099;}
