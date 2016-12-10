@@ -210,6 +210,7 @@ a.button:link, a.button:visited, a.button:hover, a.button:active {
   white-space:      nowrap;
   text-decoration:  none;
   outline:          none;
+  text-shadow:     0 1px 1px rgba(0,0,0,.2);
 }
 
 .mdl    {vertical-align: top;}
