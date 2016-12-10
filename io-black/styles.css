@@ -237,10 +237,11 @@ a.hash:link, a.hash:visited, a.hash:hover, a.hash:active {
 
 a.add:link, a.add:visited, a.add:hover, a.add:active {
   font-family:      'Helvetica Neue', sans-serif;
-  font-weight:      400;
+  -font-weight:      400;
   font-size:        1em;
-  background-color: #eee;
-  color:            #999;
+  background-color: transparent;
+  color:            rgba(0,0,0,.5);
+  border:           2px solid #3300FF;
   border-radius:    6px;
   padding:          .4em .8em .4em .8em;
   line-height:      2.6;
@@ -293,5 +294,5 @@ input:focus:-ms-input-placeholder      {color: transparent;}
 #lightgray, #lightgray-hover:hover  {color:            #eee;}
 .white, .white-hover:hover          {background-color: rgba(255,255,255,1);}
 #white, #white-hover:hover          {color:            rgba(255,255,255,1);}
-.purple, .purple-hover:hover        {background-color: #660099;}
-#purple, #purple-hover:hover        {color:            #660099;}
+.purple, .purple-hover:hover        {background-color: #3300FF;}
+#purple, #purple-hover:hover        {color:            #3300FF;}
