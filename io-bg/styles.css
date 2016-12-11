@@ -124,12 +124,12 @@ a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
 a.select:link, a.select:visited, a.select:active {
   font-family:      'Roboto', sans-serif;
   font-weight:      100;
-  font-size:        1.8em;
+  font-size:        1.4em;
   border:           2px solid black;
   color:            #ccc;
   border-radius:    4px;
   padding:          .4em .8em .35em .8em;
-  line-height:      2.3;
+  line-height:      2.5;
   letter-spacing:   0.5;
   word-spacing:     0;
   white-space:      nowrap;
@@ -155,15 +155,15 @@ a.select:hover {
 }
 
 a.primary:link, a.primary:visited, a.primary:active {
-  font-family:      'Roboto', sans-serif;
-  font-weight:      300;
-  font-size:        1.8em;
-  -background-color: #0066FF;
-  -border:           2px solid #0066FF;
+  font-family:      'Helvetica Neue', sans-serif;
+  font-weight:      normal;
+  font-size:        1em;
+  -background-color: #f7f7f7;
+  border:          2px solid #eee;
   color:            #999;
   border-radius:    4px;
-  padding:          .4em .4em .4em .4em;
-  line-height:      2.3;
+  padding:          .4em .8em .4em .8em;
+  line-height:      3;
   letter-spacing:   0.5;
   word-spacing:     0;
   white-space:      nowrap;
@@ -177,15 +177,15 @@ a.primary:hover {
 }
 
 a.secondary:link, a.secondary:visited, a.secondary:hover, a.secondary:active {
-  font-family:      'Roboto', sans-serif;
-  font-weight:      300;
-  font-size:        1.8em;
-  border:           2px solid #eee;
-  background-color: transparent;
-  color:            #999;
+  font-family:      'Helvetica Neue', sans-serif;
+  font-weight:      normal;
+  font-size:        1em;
+  border:           2px solid #f7f7f7;
+  background-color: #f7f7f7;
+  color:            black;
   border-radius:    4px;
-  padding:          .4em .8em .35em .8em;
-  line-height:      2.3;
+  padding:          .4em .8em .4em .8em;
+  line-height:      3;
   letter-spacing:   0.5;
   word-spacing:     0;
   white-space:      nowrap;
@@ -204,7 +204,7 @@ a.secondary:hover {
   background-color: transparent;
   color:            black;
   border:           2px solid transparent;
-  border-bottom:           2px solid #00CCFF;
+  border-bottom:    2px solid #00CCFF;
   border-radius:    6px;
   padding:          .4em .8em .4em .8em;
   margin:           0px;
@@ -216,7 +216,7 @@ a.secondary:hover {
   height:           2em;
 }
 
-.ws     {word-spacing: 5;}
+.ws     {word-spacing: 6;}
 .screen {min-height:   100vh;}
 
 input {color: black;}
