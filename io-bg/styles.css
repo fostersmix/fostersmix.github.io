@@ -124,12 +124,12 @@ a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
 a.select:link, a.select:visited, a.select:active {
   font-family:      'Roboto', sans-serif;
   font-weight:      100;
-  font-size:        2em;
+  font-size:        1.8em;
   border:           2px solid black;
   color:            #ccc;
   border-radius:    4px;
-  padding:          .4em .8em .4em .8em;
-  line-height:      2.6;
+  padding:          .4em .8em .35em .8em;
+  line-height:      2.3;
   letter-spacing:   0.5;
   word-spacing:     0;
   white-space:      nowrap;
@@ -156,14 +156,14 @@ a.select:hover {
 
 a.primary:link, a.primary:visited, a.primary:active {
   font-family:      'Roboto', sans-serif;
-  font-weight:      300;
-  font-size:        1.2em;
-  background-color: #0066ff;
-  border:           2px solid #0066ff;
-  color:            white;
+  font-weight:      100;
+  font-size:        1.8em;
+  -background-color: #0066FF;
+  -border:           2px solid #0066FF;
+  color:            #999;
   border-radius:    4px;
-  padding:          .4em .8em .4em .8em;
-  line-height:      2.9;
+  padding:          .4em .4em .4em .4em;
+  line-height:      2.3;
   letter-spacing:   0.5;
   word-spacing:     0;
   white-space:      nowrap;
@@ -171,21 +171,21 @@ a.primary:link, a.primary:visited, a.primary:active {
   outline:          none;
   -box-shadow:  0 1px 1px rgba(0,0,0,.2);
 }
-
 a.primary:hover {
   -box-shadow:  0 1px 2px rgba(0,0,0,.4);
+  color:            black;
 }
 
 a.secondary:link, a.secondary:visited, a.secondary:hover, a.secondary:active {
   font-family:      'Roboto', sans-serif;
-  font-weight:      300;
-  font-size:        1.2em;
+  font-weight:      100;
+  font-size:        1.8em;
+  border:           2px solid #eee;
   background-color: transparent;
-  color:            black;
-  border:           2px solid #ddd;
+  color:            #999;
   border-radius:    4px;
-  padding:          .4em .8em .4em .8em;
-  line-height:      2.6;
+  padding:          .4em .8em .35em .8em;
+  line-height:      2.3;
   letter-spacing:   0.5;
   word-spacing:     0;
   white-space:      nowrap;
@@ -193,7 +193,7 @@ a.secondary:link, a.secondary:visited, a.secondary:hover, a.secondary:active {
   outline:          none;
 }
 a.secondary:hover {
-  border:           2px solid #0000ff;
+  color:           black;
 }
 
 
@@ -205,7 +205,6 @@ a.secondary:hover {
   color:            black;
   border:           2px solid transparent;
   border-bottom:           2px solid #00CCFF;
-  
   border-radius:    6px;
   padding:          .4em .8em .4em .8em;
   margin:           0px;
@@ -217,7 +216,7 @@ a.secondary:hover {
   height:           2em;
 }
 
-.ws     {word-spacing: 7;}
+.ws     {word-spacing: 5;}
 .screen {min-height:   100vh;}
 
 input {color: black;}
