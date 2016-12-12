@@ -151,9 +151,9 @@ a.active:link, a.active:visited, a.active:hover, a.active:active {
   font-size:        1em;
   background-color: transparent;
   color:            black;
-  border:           2px solid #FF0099;
+  border:           2px solid #00CCFF;
   border-radius:    6px;
-  padding:          .4em .8em .4em .8em;
+  padding:          .5em 1em .5em 1em;
   line-height:      2.5;
   word-spacing:     0;
   white-space:      nowrap;
@@ -165,16 +165,17 @@ a.active:link, a.active:visited, a.active:hover, a.active:active {
   font-family:      'Helvetica Neue', sans-serif;
   font-weight:      normal;
   font-size:        1em;
-  background-color: transparent;
+  background: linear-gradient(to bottom, #e6e6e6, #fafafa);
   color:            black;
-  border:           2px solid #FF0099;
+  -border:           2px solid #00CCFF;
   border-radius:    6px;
-  padding:          .4em .8em .4em .8em;
+  padding:          .5em 1em .5em 1em;
   line-height:      2.5;
   word-spacing:     0;
   white-space:      nowrap;
   text-decoration:  none;
   outline:          none;
+  box-shadow: inset 0 .15em .3em rgba(0,0,0,.3);
 }
 
 a.inactive:link, a.inactive:visited, a.inactive:hover, a.inactive:active {
@@ -183,9 +184,9 @@ a.inactive:link, a.inactive:visited, a.inactive:hover, a.inactive:active {
   font-size:        1em;
   background-color: transparent;
   color:            black;
-  border:           2px solid transparent;
+  -border:           2px solid transparent;
   border-radius:    6px;
-  padding:          .4em .8em .4em .8em;
+  padding:          .5em 1em .5em 1em;
   line-height:      2.5;
   letter-spacing:   0;
   word-spacing:     0;
@@ -200,7 +201,7 @@ a.button:link, a.button:visited, a.button:hover, a.button:active {
   font-family:      'Helvetica Neue', sans-serif;
   font-weight:      normal;
   font-size:        1em;
-  background-color: #FF0099;
+  background: linear-gradient(to top, #0D47A1, #00E5FF);
   color:            white;
   border-radius:    5em;
   padding:          .8em 1.6em .8em 1.6em;
@@ -210,12 +211,14 @@ a.button:link, a.button:visited, a.button:hover, a.button:active {
   white-space:      nowrap;
   text-decoration:  none;
   outline:          none;
-  text-shadow:     0 1px 1px rgba(0,0,0,.2);
+  text-shadow:     0 1px 1px rgba(0,0,0,.5);
+  box-shadow:      0 1em 2em 0 rgba(0,0,0,.2), 0 .2em 1em 0 rgba(0,0,0,.2);
 }
 
 .mdl    {vertical-align: top;}
 .line   {height: 1px;}
 .screen {min-height: 100vh;}
+.shadow {box-shadow: inset 0 0 1em 0px rgba(0,0,0,.1),}
 
 .black, .black-hover:hover          {background-color: black;}
 #black, #black-hover:hover          {color:            black;}
@@ -227,5 +230,5 @@ a.button:link, a.button:visited, a.button:hover, a.button:active {
 #lightgray, #lightgray-hover:hover  {color:            #f8f8f8;}
 .white, .white-hover:hover          {background-color: white;}
 #white, #white-hover:hover          {color:            white;}
-.blue, .blue-hover:hover            {background-color: #FF0099;}
-#blue, #blue-hover:hover            {color:            #FF0099;}
+.blue, .blue-hover:hover            {background-color: #00CCFF;}
+#blue, #blue-hover:hover            {color:            #00CCFF;}
