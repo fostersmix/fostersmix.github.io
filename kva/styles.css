@@ -128,8 +128,6 @@
 
 a:link, a:visited, a:hover, a:active {
   font-family:      'Helvetica Neue', sans-serif;
-  -font-weight:      300;
-  -font-size:        1em;
   color:            black;
 	text-decoration:  none;
   outline:          none;
@@ -167,7 +165,6 @@ a.active:link, a.active:visited, a.active:hover, a.active:active {
   font-size:        1em;
   background: linear-gradient(to bottom, #e6e6e6, #fafafa);
   color:            black;
-  -border:           2px solid #00CCFF;
   border-radius:    6px;
   padding:          .5em 1em .5em 1em;
   line-height:      2.5;
@@ -184,7 +181,6 @@ a.inactive:link, a.inactive:visited, a.inactive:hover, a.inactive:active {
   font-size:        1em;
   background-color: transparent;
   color:            black;
-  -border:           2px solid transparent;
   border-radius:    6px;
   padding:          .5em 1em .5em 1em;
   line-height:      2.5;
@@ -201,7 +197,7 @@ a.button:link, a.button:visited, a.button:hover, a.button:active {
   font-family:      'Helvetica Neue', sans-serif;
   font-weight:      normal;
   font-size:        1em;
-  background: linear-gradient(to top, #0D47A1, #00E5FF);
+  background: linear-gradient(to top, #0033cc, #00E5FF);
   color:            white;
   border-radius:    5em;
   padding:          .8em 1.6em .8em 1.6em;
@@ -212,7 +208,7 @@ a.button:link, a.button:visited, a.button:hover, a.button:active {
   text-decoration:  none;
   outline:          none;
   text-shadow:     0 1px 1px rgba(0,0,0,.5);
-  box-shadow:      0 1em 2em 0 rgba(0,0,0,.2), 0 .2em 1em 0 rgba(0,0,0,.2);
+  box-shadow:      0 1.5em 2em 0 rgba(0,0,0,.1), 0 .75em 1em 0 rgba(0,0,0,.1), 0 .5em .75em 0 rgba(0,0,0,.1), 0 .2em .5em 0 rgba(0,0,0,.1);
 }
 
 .mdl    {vertical-align: top;}
@@ -226,9 +222,7 @@ a.button:link, a.button:visited, a.button:hover, a.button:active {
 #darkgray, #darkgray-hover:hover    {color:            #999;}
 .gray, .gray-hover:hover            {background-color: #ccc;}
 #gray, #gray-hover:hover            {color:            #ccc;}
-.lightgray, .lightgray-hover:hover  {background-color: #f8f8f8;}
-#lightgray, #lightgray-hover:hover  {color:            #f8f8f8;}
+.lightgray, .lightgray-hover:hover  {background-color: #eee;}
+#lightgray, #lightgray-hover:hover  {color:            #eee;}
 .white, .white-hover:hover          {background-color: white;}
 #white, #white-hover:hover          {color:            white;}
-.blue, .blue-hover:hover            {background-color: #00CCFF;}
-#blue, #blue-hover:hover            {color:            #00CCFF;}
