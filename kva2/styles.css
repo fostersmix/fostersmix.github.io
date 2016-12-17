@@ -113,7 +113,7 @@
     font-family:  'Roboto', sans-serif;
     font-weight:   300;
     font-size:     4.5em;
-    color:         #484848;
+    color:         #333;
     padding:       0;
     margin:        0;
     display:       inline;
@@ -148,7 +148,7 @@ a.active:link, a.active:visited, a.active:hover, a.active:active {
   font-weight:      normal;
   font-size:        1em;
   background-color: transparent;
-  color:            black;
+  color:            #333;
   border:           2px solid #00CCFF;
   border-radius:    6px;
   padding:          .5em 1em .5em 1em;
@@ -163,8 +163,8 @@ a.active:link, a.active:visited, a.active:hover, a.active:active {
   font-family:      'Helvetica Neue', sans-serif;
   font-weight:      normal;
   font-size:        1em;
-  background: linear-gradient(to bottom, #e6e6e6, #fafafa);
-  color:            black;
+  background: linear-gradient(to top, #eee, #e0e0e0);
+  color:            #333;
   border-radius:    6px;
   padding:          .5em 1em .5em 1em;
   line-height:      2.5;
@@ -180,7 +180,7 @@ a.inactive:link, a.inactive:visited, a.inactive:hover, a.inactive:active {
   font-weight:      normal;
   font-size:        1em;
   background-color: transparent;
-  color:            black;
+  color:            #333;
   border-radius:    6px;
   padding:          .5em 1em .5em 1em;
   line-height:      2.5;
@@ -191,7 +191,7 @@ a.inactive:link, a.inactive:visited, a.inactive:hover, a.inactive:active {
   outline:          none;
 }
 
-#dotted {border-bottom: 1px dotted black;}
+#dotted {border-bottom: 1px dotted #333;}
 
 a.button:link, a.button:visited, a.button:hover, a.button:active {
   font-family:      'Helvetica Neue', sans-serif;
@@ -224,8 +224,8 @@ a.button:link, a.button:visited, a.button:hover, a.button:active {
 
 .black, .black-hover:hover          {background-color: black;}
 #black, #black-hover:hover          {color:            black;}
-.darkgray, .darkgray-hover:hover    {background-color: #484848;}
-#darkgray, #darkgray-hover:hover    {color:            #484848;}
+.darkgray, .darkgray-hover:hover    {background-color: #333;}
+#darkgray, #darkgray-hover:hover    {color:            #333;}
 .gray, .gray-hover:hover            {background-color: #999;}
 #gray, #gray-hover:hover            {color:            #999;}
 .lightgray, .lightgray-hover:hover  {background-color: #eee;}
