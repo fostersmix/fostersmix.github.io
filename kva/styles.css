@@ -211,6 +211,12 @@ a.button:link, a.button:visited, a.button:hover, a.button:active {
   box-shadow:      0 1.5em 2em 0 rgba(0,0,0,.1), 0 .75em 1em 0 rgba(0,0,0,.1), 0 .5em .75em 0 rgba(0,0,0,.1), 0 .2em .5em 0 rgba(0,0,0,.1);
 }
 
+.bgg {
+  background-image: url(header-shadow.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .mdl    {vertical-align: top;}
 .line   {height: 1px;}
 .screen {min-height: 100vh;}

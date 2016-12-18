@@ -5,16 +5,16 @@
   .hide-md   {display: inline;}
   .hide-lg   {display: inline;}*/
   body {
-    font-family:   'Helvetica Neue', sans-serif;
+    font-family:   'Roboto', sans-serif;
     font-weight:   normal;
     font-size:     2rem;
     background:    #fafafa;
-    color:         #333;
+    color:         white;
     margin-top:    0;
     margin-bottom: 0;
   }
   h1 {
-    font-family:   'Helvetica Neue', sans-serif;
+    font-family:   'Roboto', sans-serif;
     font-weight:   normal;
     font-size:     2em;
     color:         #484848;
@@ -37,16 +37,16 @@
   /*.hide-md {display: inline;}
   .hide-lg   {display: inline;}*/
   body {
-    font-family:   'Helvetica Neue', sans-serif;
+    font-family:   'Roboto', sans-serif;
     font-weight:   normal;
     font-size:     2rem;
     background:    #fafafa;
-    color:         #333;
+    color:         white;
     margin-top:    0;
     margin-bottom: 0;
   }
   h1 {
-    font-family:   'Helvetica Neue', sans-serif;
+    font-family:   'Roboto', sans-serif;
     font-weight:   normal;
     font-size:     2.5em;
     color:         #484848;
@@ -69,17 +69,17 @@
   .hide-md   {display: none;}
   /*.hide-lg {display: inline;}*/
   body {
-    font-family:   'Helvetica Neue', sans-serif;
+    font-family:   'Roboto', sans-serif;
     font-weight:   normal;
     font-size:     1.5rem;
     background:    #fafafa;
-    color:         #333;
+    color:         white;
     margin-top:    0;
     margin-bottom: 0;
   }
   h1 {
-    font-family:   'Helvetica Neue', sans-serif;
-    font-weight:   normal;
+    font-family:   'Roboto', sans-serif;
+    font-weight:   400;
     font-size:     2.5em;
     color:         #484848;
     padding:       0;
@@ -101,19 +101,19 @@
   .hide-md   {display: inline;}*/
   .hide-lg   {display: none;}
   body {
-    font-family:   'Helvetica Neue', sans-serif;
-    font-weight:   normal;
-    font-size:     1em;
-    background:    #fafafa;
-    color:         #333;
+    font-family:   'Roboto', sans-serif;
+    font-weight:   300;
+    font-size:     1.1em;
+    -background:   linear-gradient(to bottom right, rgba(220,125,115,1), rgba(220,150,130,1), rgba(160,60,100,1));
+    color:         black;
     margin-top:    0;
     margin-bottom: 0;
   }
   h1 {
     font-family:  'Roboto', sans-serif;
-    font-weight:   300;
-    font-size:     4.5em;
-    color:         #333;
+    font-weight:   400;
+    font-size:     4em;
+    color:         black;
     padding:       0;
     margin:        0;
     display:       inline;
@@ -127,44 +127,34 @@
 }
 
 a:link, a:visited, a:hover, a:active {
-  font-family:      'Helvetica Neue', sans-serif;
-  color:            #333;
+  font-family:      'Roboto', sans-serif;
+  font-size:        1em;
+  color:            #999;
 	text-decoration:  none;
   outline:          none;
 }
 
+#b {  font-weight: 400;
+font-size: 1.2em;
+color: black;}
+
 a.solid:link, a.solid:visited, a.solid:hover, a.solid:active {
-  font-family:      'Helvetica Neue', sans-serif;
-  font-weight:      normal;
-  color:            #333;
+  font-family:      'Roboto', sans-serif;
+  font-weight:      300;
+  color:            black;
+  font-size:        1em;
   border-bottom:    1px solid #eee;
   padding-bottom:   0.05em;
   text-decoration:  none;
   outline:          none;
 }
 
-a.active:link, a.active:visited, a.active:hover, a.active:active {
-  font-family:      'Helvetica Neue', sans-serif;
-  font-weight:      normal;
-  font-size:        1em;
-  background-color: transparent;
-  color:            #333;
-  border:           2px solid #00CCFF;
-  border-radius:    6px;
-  padding:          .5em 1em .5em 1em;
-  line-height:      2.5;
-  word-spacing:     0;
-  white-space:      nowrap;
-  text-decoration:  none;
-  outline:          none;
-}
-
 #active {
-  font-family:      'Helvetica Neue', sans-serif;
-  font-weight:      normal;
+  font-family:      'Roboto', sans-serif;
+  font-weight:      300;
   font-size:        1em;
-  background: linear-gradient(to top, #eee, #e0e0e0);
-  color:            #333;
+  background: linear-gradient(to bottom, #e6e6e6, #fafafa);
+  color:            black;
   border-radius:    6px;
   padding:          .5em 1em .5em 1em;
   line-height:      2.5;
@@ -176,11 +166,11 @@ a.active:link, a.active:visited, a.active:hover, a.active:active {
 }
 
 a.inactive:link, a.inactive:visited, a.inactive:hover, a.inactive:active {
-  font-family:      'Helvetica Neue', sans-serif;
-  font-weight:      normal;
+  font-family:      'Roboto', sans-serif;
+  font-weight:      300;
   font-size:        1em;
   background-color: transparent;
-  color:            #333;
+  color:            black;
   border-radius:    6px;
   padding:          .5em 1em .5em 1em;
   line-height:      2.5;
@@ -191,14 +181,15 @@ a.inactive:link, a.inactive:visited, a.inactive:hover, a.inactive:active {
   outline:          none;
 }
 
-#dotted {border-bottom: 1px dotted #333;}
+#dotted {border-bottom: 1px dotted black;}
 
 a.button:link, a.button:visited, a.button:hover, a.button:active {
-  font-family:      'Helvetica Neue', sans-serif;
-  font-weight:      normal;
+  font-family:      'Roboto', sans-serif;
+  font-weight:      400;
   font-size:        1em;
-  background: linear-gradient(to top, #465d49, #9ab0a3);
+  background: linear-gradient(to top, #0033cc, #00E5FF);
   color:            white;
+  -border:           2px solid #ddd;
   border-radius:    5em;
   padding:          .8em 1.6em .8em 1.6em;
   line-height:      2.5;
@@ -224,8 +215,8 @@ a.button:link, a.button:visited, a.button:hover, a.button:active {
 
 .black, .black-hover:hover          {background-color: black;}
 #black, #black-hover:hover          {color:            black;}
-.darkgray, .darkgray-hover:hover    {background-color: #333;}
-#darkgray, #darkgray-hover:hover    {color:            #333;}
+.darkgray, .darkgray-hover:hover    {background-color: white;}
+#darkgray, #darkgray-hover:hover    {color:            white;}
 .gray, .gray-hover:hover            {background-color: #999;}
 #gray, #gray-hover:hover            {color:            #999;}
 .lightgray, .lightgray-hover:hover  {background-color: #eee;}
