@@ -103,11 +103,12 @@
   body {
     font-family:   'Roboto', sans-serif;
     font-weight:   300;
-    font-size:     1.1em;
+    font-size:     1em;
     -background:   linear-gradient(to bottom right, rgba(220,125,115,1), rgba(220,150,130,1), rgba(160,60,100,1));
     color:         black;
     margin-top:    0;
     margin-bottom: 0;
+    line-height:   1.3;
   }
   h1 {
     font-family:  'Roboto', sans-serif;
