@@ -129,7 +129,7 @@
 a:link, a:visited, a:hover, a:active {
   font-family:      'Roboto', sans-serif;
   font-size:        1em;
-  color:            #999;
+  color:            black;
 	text-decoration:  none;
   outline:          none;
 }
