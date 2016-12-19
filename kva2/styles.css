@@ -196,7 +196,7 @@ a.solid:link, a.solid:visited, a.solid:hover, a.solid:active {
   font-family:      'Helvetica Neue', sans-serif;
   font-weight:      normal;
   font-size:        1em;
-  background: linear-gradient(to bottom, #ddd, #f2f2f2);
+  background:       linear-gradient(to bottom, #ddd, #f2f2f2);
   color:            black;
   border-radius:    6px;
   padding:          .5em 1em .5em 1em;
@@ -250,5 +250,7 @@ a.button:link, a.button:visited, a.button:hover, a.button:active {
 
 .black, .black-hover:hover          {background-color: black;}
 #black, #black-hover:hover          {color:            black;}
+.gray, .gray-hover:hover            {background-color: gray;}
+#gray, #gray-hover:hover            {color:            gray;}
 .white, .white-hover:hover          {background-color: white;}
 #white, #white-hover:hover          {color:            white;}
