@@ -101,11 +101,11 @@
   .hide-md   {display: inline;}*/
   .hide-lg   {display: none;}
   body {
-    font-family:   'Roboto', sans-serif;
-    font-weight:   300;
+    font-family:   'Helvetica Neue', sans-serif;
+    font-weight:   400;
     font-size:     1em;
-    -background:   linear-gradient(to bottom right, rgba(220,125,115,1), rgba(220,150,130,1), rgba(160,60,100,1));
     color:         black;
+    -background:    radial-gradient(white, white, #ddd);
     margin-top:    0;
     margin-bottom: 0;
     line-height:   1.3;
@@ -113,11 +113,13 @@
   h1 {
     font-family:  'Roboto', sans-serif;
     font-weight:   400;
-    font-size:     4em;
+    font-size:     3.5em;
     color:         black;
+    background: none;
     padding:       0;
     margin:        0;
     display:       inline;
+    letter-spacing:  .1em;
   }
   .top-big      {padding-top:    2em;}
   .top          {padding-top:    1em;}
@@ -136,11 +138,11 @@ a:link, a:visited, a:hover, a:active {
 }
 
 #b {  font-weight: 400;
-font-size: 1.2em;
+font-size: 1em;
 color: black;}
 
 a.solid:link, a.solid:visited, a.solid:hover, a.solid:active {
-  font-family:      'Roboto', sans-serif;
+  font-family:      'Helvetica Neue', sans-serif;
   font-weight:      300;
   color:            black;
   font-size:        1em;
@@ -151,8 +153,8 @@ a.solid:link, a.solid:visited, a.solid:hover, a.solid:active {
 }
 
 #active {
-  font-family:      'Roboto', sans-serif;
-  font-weight:      300;
+  font-family:      'Helvetica Neue', sans-serif;
+  font-weight:      normal;
   font-size:        1em;
   background: linear-gradient(to bottom, #e6e6e6, #fafafa);
   color:            black;
@@ -167,8 +169,8 @@ a.solid:link, a.solid:visited, a.solid:hover, a.solid:active {
 }
 
 a.inactive:link, a.inactive:visited, a.inactive:hover, a.inactive:active {
-  font-family:      'Roboto', sans-serif;
-  font-weight:      300;
+  font-family:      'Helvetica Neue', sans-serif;
+  font-weight:      normal;
   font-size:        1em;
   background-color: transparent;
   color:            black;
@@ -185,10 +187,10 @@ a.inactive:link, a.inactive:visited, a.inactive:hover, a.inactive:active {
 #dotted {border-bottom: 1px dotted black;}
 
 a.button:link, a.button:visited, a.button:hover, a.button:active {
-  font-family:      'Roboto', sans-serif;
-  font-weight:      400;
+  font-family:      'Helvetica Neue', sans-serif;
+  font-weight:      normal;
   font-size:        1em;
-  background: linear-gradient(to top, #0033cc, #00E5FF);
+  background: #fd5c63;
   color:            white;
   -border:           2px solid #ddd;
   border-radius:    5em;
@@ -199,28 +201,39 @@ a.button:link, a.button:visited, a.button:hover, a.button:active {
   white-space:      nowrap;
   text-decoration:  none;
   outline:          none;
-  text-shadow:     0 1px 1px rgba(0,0,0,.3);
-  box-shadow:      0 1.5em 2em 0 rgba(0,0,0,.08), 0 .75em 1em 0 rgba(0,0,0,.08), 0 .5em .75em 0 rgba(0,0,0,.08), 0 .2em .5em 0 rgba(0,0,0,.1);
+  -text-shadow:     0 1px 1px rgba(0,0,0,.3);
+  -box-shadow:      0 1.5em 2em 0 rgba(0,0,0,.08), 0 .75em 1em 0 rgba(0,0,0,.08), 0 .5em .75em 0 rgba(0,0,0,.08), 0 .2em .5em 0 rgba(0,0,0,.1);
 }
 
 .mdl    {vertical-align: top;}
 .line   {height: 1px;}
 .screen {min-height: 100vh;}
+.screen2 {min-height: 40vh;}
 .shadow {box-shadow: inset 0 0 1em 0px rgba(0,0,0,.1),}
-.bg {
-  background-image: url(bg.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: contain;
+.bgg {
+  -background-image: url(upfeathers.png);
+  -background-repeat: repeat;
+  -background-position: center top;
+  -background-size: contain;
+  background-color: #9fcacf;
 }
+
+.round {border-radius: 2px;}
+.shadow-bottom   {box-shadow: 0 2px 4px 0px rgba(0,0,0,.1), 0 1px 0px 0px rgba(0,0,0,.05);}
+
+
+.border-top       {border-top:   1px solid #ddd;}
+.border-bottom    {border-bottom:1px solid #ddd;}
+.border-left      {border-left:  1px solid #ddd;}
+.border-right     {border-right: 1px solid #ddd;}
 
 .black, .black-hover:hover          {background-color: black;}
 #black, #black-hover:hover          {color:            black;}
-.darkgray, .darkgray-hover:hover    {background-color: white;}
-#darkgray, #darkgray-hover:hover    {color:            white;}
+.darkgray, .darkgray-hover:hover    {background-color: #ccc;}
+#darkgray, #darkgray-hover:hover    {color:            #ccc;}
 .gray, .gray-hover:hover            {background-color: #999;}
 #gray, #gray-hover:hover            {color:            #999;}
-.lightgray, .lightgray-hover:hover  {background-color: #eee;}
+.lightgray, .lightgray-hover:hover  {background-color: #f0fcfc;}
 #lightgray, #lightgray-hover:hover  {color:            #eee;}
 .white, .white-hover:hover          {background-color: white;}
 #white, #white-hover:hover          {color:            white;}
