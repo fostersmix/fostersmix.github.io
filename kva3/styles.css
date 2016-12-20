@@ -186,7 +186,7 @@ a.solid:link, a.solid:visited, a.solid:hover, a.solid:active {
   font-weight:      normal;
   color:            black;
   font-size:        1em;
-  border-bottom:    1px solid #ddd;
+  border-bottom:    1px solid rgba(0,0,0,.1);
   padding-bottom:   0.05em;
   text-decoration:  none;
   outline:          none;
@@ -225,12 +225,30 @@ a.inactive:link, a.inactive:visited, a.inactive:hover, a.inactive:active {
 }
 #dotted {border-bottom: 2px dotted black;}
 
+a.location:link, a.location:visited, a.location:hover, a.location:active {
+  font-family:      'Ionicons', 'Helvetica Neue', sans-serif;
+  font-weight:      normal;
+  font-size:        1em;
+  background-color: #fff;
+  color:            #ccc;
+  border-radius:    5em;
+  padding:          .5em 1em .5em 1em;
+  line-height:      2.5;
+  letter-spacing:   0;
+  word-spacing:     0;
+  white-space:      nowrap;
+  text-decoration:  none;
+  outline:          none;
+}
+
 a.button:link, a.button:visited, a.button:hover, a.button:active {
   font-family:      'Helvetica Neue', sans-serif;
   font-weight:      normal;
   font-size:        1em;
-  background:       #0033FF;
-  color:            white;
+  -background:       #000033;
+  -background: linear-gradient(to top left, #fdab93, #ffeed2);
+  color:            black;
+  border: 1px solid black;
   border-radius:    5em;
   padding:          .8em 1.6em .8em 1.6em;
   line-height:      2.5;
@@ -247,12 +265,23 @@ a.button:link, a.button:visited, a.button:hover, a.button:active {
 .shadow       {box-shadow: 0 2px 4px 0px rgba(0,0,0,.1), 0 1px 0px 0px rgba(0,0,0,.05);}
 .shadow:hover {box-shadow: 0 4px 8px 0px rgba(0,0,0,.15), 0 2px 1px 0px rgba(0,0,0,.05);}
 .border       {border:   1px solid #ddd;}
+.bg {
+  -background-image: url(1.png);
+  -background-size: cover;
+  -background-repeat: no-repeat;
+  -background-position: center center;
+  background: linear-gradient(to top left, #fdab93, #ffeed2);
+}
 
 .black, .black-hover:hover          {background-color: black;}
 #black, #black-hover:hover          {color:            black;}
-.blue, .blue-hover:hover            {background-color: #0033FF;}
-#blue, #blue-hover:hover            {color:            #0033FF;}
-.gray, .gray-hover:hover            {background-color: #aaa;}
-#gray, #gray-hover:hover            {color:            #aaa;}
+.blue, .blue-hover:hover            {background-color: #ff5a5f;}
+#blue, #blue-hover:hover            {color:            #ff5a5f;}
+.gray, .gray-hover:hover            {background-color: #999;}
+#gray, #gray-hover:hover            {color:            #999;}
+.lightgray, .lightgray-hover:hover            {background-color: #eee;}
+#lightgray, #lightgray-hover:hover            {color:            #eee;}
+.color, .color-hover:hover            {background-color: #000033;}
+#color, #color-hover:hover            {color:            #000033;}
 .white, .white-hover:hover          {background-color: white;}
 #white, #white-hover:hover          {color:            white;}
