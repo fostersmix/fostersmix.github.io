@@ -181,6 +181,17 @@ a:link, a:visited, a:hover, a:active {
 a.solid:link, a.solid:visited, a.solid:hover, a.solid:active {
   font-family:      'Helvetica Neue', sans-serif;
   font-weight:      normal;
+  color:            black;
+  font-size:        1em;
+  border-bottom:    1px solid #ddd;
+  padding-bottom:   0.05em;
+  text-decoration:  none;
+  outline:          none;
+}
+
+a.dotted:link, a.dotted:visited, a.dotted:hover, a.dotted:active {
+  font-family:      'Helvetica Neue', sans-serif;
+  font-weight:      normal;
   color:            white;
   font-size:        1em;
   border-bottom:    1px dotted rgba(255,255,255,.5);
@@ -215,8 +226,6 @@ a.button:link, a.button:visited, a.button:hover, a.button:active {
 
 .black, .black-hover:hover          {background-color: black;}
 #black, #black-hover:hover          {color:            black;}
-.blue, .blue-hover:hover            {background-color: #ff5a5f;}
-#blue, #blue-hover:hover            {color:            #ff5a5f;}
 .darkgray, .darkgray-hover:hover    {background-color: #999;}
 #darkgray, #darkgray-hover:hover    {color:            #999;}
 .gray, .gray-hover:hover            {background-color: #ddd;}
@@ -227,5 +236,3 @@ a.button:link, a.button:visited, a.button:hover, a.button:active {
 #white, #white-hover:hover          {color:            white;}
 .color, .color-hover:hover          {background-color: #CC9900;}
 #color, #color-hover:hover          {color:            #CC9900;}
-.color2, .color2-hover:hover        {background-color: #666600;}
-#color2, #color2-hover:hover        {color:            #666600;}
