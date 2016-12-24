@@ -221,9 +221,9 @@ a.button:link, a.button:visited, a.button:hover, a.button:active {
 .round        {border-radius: 2px;}
 .shadow       {box-shadow: 0 2px 4px 0px rgba(0,0,0,.1), 0 1px 0px 0px rgba(0,0,0,.05);}
 .shadow:hover {box-shadow: 0 4px 8px 0px rgba(0,0,0,.15), 0 2px 1px 0px rgba(0,0,0,.05);}
-.shadow2      {box-shadow: inset -12px -12px  0 rgba(0,0,0,.1);}
-.shadow3      {box-shadow: inset 12px 12px  0 rgba(0,0,0,.1);}
-.shadow6      {box-shadow: 0 -12px  0 rgba(0,0,0,.1);}
+.shadow2      {box-shadow: inset 12px  0 rgba(0,0,0,.1);}
+.shadow3      {box-shadow: inset 0 1em  0 rgba(0,0,0,.1);}
+.shadow6      {box-shadow: inset 2em 2em  0 #CC9900, inset -2em -2em  0 #CC9900;;}
 
 .shadow4      {box-shadow: inset -12px 12px  0 rgba(0,0,0,.1);}
 .shadow5      {box-shadow: inset 12px -12px  0 rgba(0,0,0,.1);}
