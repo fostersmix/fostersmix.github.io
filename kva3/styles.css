@@ -223,6 +223,7 @@ a.button:link, a.button:visited, a.button:hover, a.button:active {
 .shadow:hover {box-shadow: 0 4px 8px 0px rgba(0,0,0,.15), 0 2px 1px 0px rgba(0,0,0,.05);}
 .shadow2      {box-shadow: inset -12px -12px  0 rgba(0,0,0,.1);}
 .shadow3      {box-shadow: inset 12px 12px  0 rgba(0,0,0,.1);}
+.shadow6      {box-shadow: 0 -12px  0 rgba(0,0,0,.1);}
 
 .shadow4      {box-shadow: inset -12px 12px  0 rgba(0,0,0,.1);}
 .shadow5      {box-shadow: inset 12px -12px  0 rgba(0,0,0,.1);}
