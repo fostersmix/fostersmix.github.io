@@ -223,6 +223,10 @@ a.button:link, a.button:visited, a.button:hover, a.button:active {
 .shadow       {box-shadow: 0 2px 4px 0px rgba(0,0,0,.1), 0 1px 0px 0px rgba(0,0,0,.05);}
 .shadow:hover {box-shadow: 0 4px 8px 0px rgba(0,0,0,.15), 0 2px 1px 0px rgba(0,0,0,.05);}
 .border       {border:   1px solid #ddd;}
+#icon {
+  font-size: 2em;
+  color: #CC9900;
+}
 
 .black, .black-hover:hover          {background-color: black;}
 #black, #black-hover:hover          {color:            black;}
