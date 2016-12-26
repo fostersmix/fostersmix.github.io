@@ -79,9 +79,11 @@ a:link, a:visited, a:hover, a:active {
   outline:          none;
 }
 
+.bor {box-shadow: inset 2px 2px 0 0 black, inset -2px -2px 0 0 black}
 .top        {padding-top:    1em;}
 .bottom     {padding-bottom: 1em;}
 .bb  {box-shadow: inset 0 -1px 0 0 #ddd;}
+.bbb  {box-shadow: inset 1px 0 0 0 #ddd;}
 .bb2 {box-shadow: inset 0 1px 0 0 #cc0000;}
 .b3b3 {box-shadow: inset 1px 0 0 0 #cc0000;}
 .pointer {cursor: pointer;}
