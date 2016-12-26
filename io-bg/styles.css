@@ -5,18 +5,15 @@
   .hide-md   {display: inline;}
   .hide-lg   {display: inline;}*/
   body {
-    font-family:   'Helvetica Neue', sans-serif;
-    font-weight:   300;
-    font-size:     2.5rem;
-    background:    white;
-    color:         #999;
+    font-family:   'Roboto Mono', monospace;
+    font-weight:   normal;
+    font-size:     2rem;
+    color:         black;
+    background-color: #ddd;
     margin-top:    0;
     margin-bottom: 0;
+    letter-spacing:   2.5;
   }
-  .top-big    {padding-top:    1em;}
-  .top        {padding-top:    .5em;}
-  .bottom-big {padding-bottom: 1em;}
-  .bottom     {padding-bottom: .5em;}
 }
 
 /*sm*/
@@ -26,18 +23,15 @@
   /*.hide-md {display: inline;}
   .hide-lg   {display: inline;}*/
   body {
-    font-family:   'Helvetica Neue', sans-serif;
-    font-weight:   300;
+    font-family:   'Roboto Mono', monospace;
+    font-weight:   normal;
     font-size:     2rem;
-    background:    white;
-    color:         #999;
+    color:         black;
+    background-color: #ddd;
     margin-top:    0;
     margin-bottom: 0;
+    letter-spacing:   2.5;
   }
-  .top-big    {padding-top:    2em;}
-  .top        {padding-top:    1em;}
-  .bottom-big {padding-bottom: 2em;}
-  .bottom     {padding-bottom: 1em;}
 }
 
 /*md*/
@@ -47,18 +41,15 @@
   .hide-md   {display: none;}
   /*.hide-lg {display: inline;}*/
   body {
-    font-family:   'Helvetica Neue', sans-serif;
-    font-weight:   300;
-    font-size:     1.5rem;
-    background:    white;
-    color:         #999;
+    font-family:   'Roboto Mono', monospace;
+    font-weight:   normal;
+    font-size:     2rem;
+    color:         black;
+    background-color: #ddd;
     margin-top:    0;
     margin-bottom: 0;
+    letter-spacing:   2.5;
   }
-  .top-big    {padding-top:    2em;}
-  .top        {padding-top:    1em;}
-  .bottom-big {padding-bottom: 2em;}
-  .bottom     {padding-bottom: 1em;}
 }
 
 /*lg*/
@@ -68,178 +59,41 @@
   .hide-md   {display: inline;}*/
   .hide-lg   {display: none;}
   body {
-    font-family:   'Helvetica Neue', sans-serif;
+    font-family:   'Roboto Mono', monospace;
     font-weight:   normal;
-    font-size:     1rem;
-    -background: linear-gradient(to top left, #6578F7, #7EBDFC, #FFFFE1);
-    color:         #999;
+    font-size:     2rem;
+    color:         black;
+    background-color: #ddd;
     margin-top:    0;
     margin-bottom: 0;
-  }
-  h1 {
-    font-family:   'Roboto', sans-serif;
-    font-size:     8em;
-    font-weight:   900;
-    color: #00CCFF;
-    padding: 0;
-    margin: 0;
-    overflow: hidden;
-    white-space: nowrap;
-  }
-  .top-big    {padding-top:    2em;}
-  .top        {padding-top:    1em;}
-  .bottom-big {padding-bottom: 2em;}
-  .bottom     {padding-bottom: 1em;}
+    letter-spacing:   2.5;
+  }  
 }
 
 a:link, a:visited, a:hover, a:active {
-  font-family:      'Helvetica Neue', sans-serif;
+  font-family:      'Roboto Mono', monospace;
   font-weight:      normal;
   font-size:        1em;
-  color:            #999;
+  color:            black;
 	text-decoration:  none;
   outline:          none;
 }
 
-a.solid:link, a.solid:visited, a.solid:hover, a.solid:active {
-  font-family:      'Helvetica Neue', sans-serif;
-  font-weight:      normal;
-  color:            #999;
-  border-bottom:    1px solid #e4e4e4;
-  padding-bottom:   0.05em;
-  text-decoration:  none;
-  outline:          none;
-}
-
-a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
-  font-family:      'Helvetica Neue', sans-serif;
-  font-weight:      normal;
-  color:            #999;
-  border-bottom:    1px dotted #ccc;
-  padding-bottom:   0.05em;
-  text-decoration:  none;
-  outline:          none;
-}
-
-a.select:link, a.select:visited, a.select:active {
-  font-family:      'Roboto', sans-serif;
-  font-weight:      100;
-  font-size:        1.4em;
-  border:           2px solid black;
-  color:            #ccc;
-  border-radius:    4px;
-  padding:          .4em .8em .35em .8em;
-  line-height:      2.5;
-  letter-spacing:   0.5;
-  word-spacing:     0;
-  white-space:      nowrap;
-	text-decoration:  none;
-  outline:          none;
-}
-a.select:hover {
-  color:            black;
-  -background-color: #00CCFF;
-  -color:            #00CCFF;
-  -border: 2px solid red
-}
-#select {
-  font-family:      'Roboto', sans-serif;
-  font-weight:      300;
-  letter-spacing:   0.5;
-  color:            black;
-  padding-right:    .4em;
-  word-spacing:     0;
-}
-#select:hover {
-  -color:            #00CCFF;
-}
-
-a.primary:link, a.primary:visited, a.primary:active {
-  font-family:      'Helvetica Neue', sans-serif;
-  font-weight:      normal;
-  font-size:        1em;
-  -background-color: #f7f7f7;
-  border:          2px solid #eee;
-  color:            #999;
-  border-radius:    4px;
-  padding:          .4em .8em .4em .8em;
-  line-height:      3;
-  letter-spacing:   0.5;
-  word-spacing:     0;
-  white-space:      nowrap;
-	text-decoration:  none;
-  outline:          none;
-  -box-shadow:  0 1px 1px rgba(0,0,0,.2);
-}
-a.primary:hover {
-  -box-shadow:  0 1px 2px rgba(0,0,0,.4);
-  color:            black;
-}
-
-a.secondary:link, a.secondary:visited, a.secondary:hover, a.secondary:active {
-  font-family:      'Helvetica Neue', sans-serif;
-  font-weight:      normal;
-  font-size:        1em;
-  border:           2px solid #f7f7f7;
-  background-color: #f7f7f7;
-  color:            black;
-  border-radius:    4px;
-  padding:          .4em .8em .4em .8em;
-  line-height:      3;
-  letter-spacing:   0.5;
-  word-spacing:     0;
-  white-space:      nowrap;
-  text-decoration:  none;
-  outline:          none;
-}
-a.secondary:hover {
-  color:           black;
-}
-
-
-#search {
-  font-family:      'Ionicons', 'Helvetica Neue', sans-serif;
-  font-weight:      normal;
-  font-size:        2em;
-  background-color: transparent;
-  color:            black;
-  border:           2px solid transparent;
-  border-bottom:    2px solid #00CCFF;
-  border-radius:    6px;
-  padding:          .4em .8em .4em .8em;
-  margin:           0px;
-  line-height:      5;
-  letter-spacing:   0.5;
-  word-spacing:     0;
-  outline:          none;
-  width:            100%;
-  height:           2em;
-}
-
-.ws     {word-spacing: 6;}
+.top        {padding-top:    1em;}
+.bottom     {padding-bottom: 1em;}
+.bb  {box-shadow: inset 0 -1px 0 0 #ddd;}
+.bb2 {box-shadow: inset 0 1px 0 0 #cc0000;}
+.bb3 {box-shadow: inset 1px 0 0 0 #cc0000;}
+.pointer {cursor: pointer;}
 .screen {min-height:   100vh;}
 
-input {color: black;}
-input::-webkit-input-placeholder    {color: black;}
-input::-moz-placeholder             {color: black;}
-input:-moz-placeholder              {color: black;}
-input:-ms-input-placeholder         {color: black;}
-input[placeholder], [placeholder], *[placeholder] {color: black;}
-
-input:focus::-webkit-input-placeholder {color: transparent;}
-input:focus::-moz-placeholder          {color: transparent;}
-input:focus:-moz-placeholder           {color: transparent;}
-input:focus:-ms-input-placeholder      {color: transparent;}
-
-.black, .black-hover:hover          {background-color: rgba(0,0,0,1);}
-#black, #black-hover:hover          {color:            rgba(0,0,0,1);}
-.darkgray, .darkgray-hover:hover    {background-color: #999;}
-#darkgray, #darkgray-hover:hover    {color:            #999;}
-.gray, .gray-hover:hover            {background-color: #e4e4e4;}
-#gray, #gray-hover:hover            {color:            #e4e4e4;}
-.lightgray, .lightgray-hover:hover  {background-color: #eee;}
-#lightgray, #lightgray-hover:hover  {color:            #eee;}
-.white, .white-hover:hover          {background-color: rgba(255,255,255,1);}
-#white, #white-hover:hover          {color:            rgba(255,255,255,1);}
-.purple, .purple-hover:hover        {background-color: #CDDC39;}
-#purple, #purple-hover:hover        {color:            #CDDC39;}
+.black, .black-hover:hover  {background-color: black;}
+#black, #black-hover:hover  {color:            black;}
+.white, .white-hover:hover  {background-color: white;}
+#white, #white-hover:hover  {color:            white;}
+.gray, .gray-hover:hover    {background-color: #ddd;}
+#gray, #gray-hover:hover    {color:            #ddd;}
+.red, .red-hover:hover      {background-color: red;}
+#red, #red-hover:hover      {color:            red;}
+.darkred, .darkred-hover:hover  {background-color: #cc0000;}
+#darkred, #darkred-hover:hover  {color:            #cc0000;}
