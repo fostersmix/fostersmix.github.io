@@ -1,0 +1,171 @@
+/*xs*/
+@media only screen and (max-width: 48em) {
+  .hide-xs   {display: none;}
+  /*.hide-sm {display: inline;}
+  .hide-md   {display: inline;}
+  .hide-lg   {display: inline;}*/
+  body {
+    font-family:   'PT Sans', sans-serif;
+    font-weight:   400;
+    font-size:     1.5rem;
+    color:         black;
+    background:    white;
+    margin-top:    0;
+    margin-bottom: 0;
+  }
+  h1 {
+    font-family: 'Roboto Mono', monospace;
+    font-weight:   400;
+    font-size:     2em;
+    color:         white;
+    padding:       0;
+    margin:        0;
+    display:       inline;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+    letter-spacing:  0;
+  }
+  h2 {
+    font-family:  'Roboto Mono', monospace;
+    font-weight:   400;
+    font-size:     1.5em;
+    color:         black;
+    padding:       0;
+    margin:        0;
+    display:       inline;
+  }
+  .top-big      {padding-top:    2em;}
+  .top          {padding-top:    1em;}
+  .top-small    {padding-top:    .5em;}
+  .bottom-big   {padding-bottom: 2em;}
+  .bottom       {padding-bottom: 1em;}
+  .bottom-small {padding-bottom: .5em;}
+}
+
+/*sm*/
+@media only screen and (min-width: 48em) and (max-width: 62em) {
+  /*.hide-xs {display: inline;}*/
+  .hide-sm   {display: none;}
+  /*.hide-md {display: inline;}
+  .hide-lg   {display: inline;}*/
+  body {
+    font-family:   'PT Sans', sans-serif;
+    font-weight:   400;
+    font-size:     1.5rem;
+    color:         black;
+    background:    white;
+    margin-top:    0;
+    margin-bottom: 0;
+  }
+  h1 {
+    font-family: 'Roboto Mono', monospace;
+    font-weight:   400;
+    font-size:     2em;
+    color:         white;
+    padding:       0;
+    margin:        0;
+    display:       inline;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+    letter-spacing:  0;
+  }
+  h2 {
+    font-family:  'Roboto Mono', monospace;
+    font-weight:   400;
+    font-size:     1.5em;
+    color:         black;
+    background: none;
+    padding:       0;
+    margin:        0;
+    display:       inline;
+  }
+  .top-big      {padding-top:    2em;}
+  .top          {padding-top:    1em;}
+  .top-small    {padding-top:    .5em;}
+  .bottom-big   {padding-bottom: 2em;}
+  .bottom       {padding-bottom: 1em;}
+  .bottom-small {padding-bottom: .5em;}
+}
+
+/*md*/
+@media only screen and (min-width: 62em) and (max-width: 75em) {
+  /*.hide-xs {display: inline;}
+  .hide-sm   {display: inline;}*/
+  .hide-md   {display: none;}
+  /*.hide-lg {display: inline;}*/
+  body {
+    font-family:   'PT Sans', sans-serif;
+    font-weight:   400;
+    font-size:     1rem;
+    color:         black;
+    background:    white;
+    margin-top:    0;
+    margin-bottom: 0;
+  }
+  h1 {
+    font-family: 'Roboto Mono', monospace;
+    font-weight:   400;
+    font-size:     2.5em;
+    color:         white;
+    padding:       0;
+    margin:        0;
+    display:       inline;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+    letter-spacing:  0;
+  }
+  h2 {
+    font-family:  'Roboto Mono', monospace;
+    font-weight:   400;
+    font-size:     2em;
+    color:         black;
+    padding:       0;
+    margin:        0;
+    display:       inline;
+  }
+  .top-big      {padding-top:    2em;}
+  .top          {padding-top:    1em;}
+  .top-small    {padding-top:    .5em;}
+  .bottom-big   {padding-bottom: 2em;}
+  .bottom       {padding-bottom: 1em;}
+  .bottom-small {padding-bottom: .5em;}
+}
+
+/*lg*/
+@media only screen and (min-width: 75em) {
+  /*.hide-xs {display: inline;}
+  .hide-sm   {display: inline;}
+  .hide-md   {display: inline;}*/
+  .hide-lg   {display: none;}
+  body {
+    font-family:   'Arial', sans-serif;
+    font-weight:   normal;
+    font-size:     1em;
+    color:         black;
+    background:    white;
+    margin-top:    0;
+    margin-bottom: 0;
+    line-height:   1.3;
+  }
+  .top-big      {padding-top:    2em;}
+  .top          {padding-top:    1em;}
+  .top-small    {padding-top:    .5em;}
+  .bottom-big   {padding-bottom: 2em;}
+  .bottom       {padding-bottom: 1em;}
+  .bottom-small {padding-bottom: .5em;}
+}
+
+a:link, a:visited, a:hover, a:active {
+  font-family:      'Arial', sans-serif;
+  font-weight:      normal;
+  font-size:        1em;
+  color:            red;
+  border-bottom:    1px solid red;
+	text-decoration:  none;
+  outline:          none;
+}
+
+.line         {height: 1px;}
+.screen       {min-height: 100vh;}
+
+.black, .black-hover:hover          {background-color: black;}
+#black, #black-hover:hover          {color:            black;}
+.white, .white-hover:hover          {background-color: white;}
+#white, #white-hover:hover          {color:            white;}
