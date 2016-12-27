@@ -5,7 +5,7 @@
   .hide-md   {display: inline;}
   .hide-lg   {display: inline;}*/
   body {
-    font-family:   'Helvetica Neue', sans-serif;
+    font-family:   'Arial', sans-serif;
     font-weight:   300;
     font-size:     2.5rem;
     background:    white;
@@ -26,7 +26,7 @@
   /*.hide-md {display: inline;}
   .hide-lg   {display: inline;}*/
   body {
-    font-family:   'Helvetica Neue', sans-serif;
+    font-family:   'Arial', sans-serif;
     font-weight:   300;
     font-size:     2rem;
     background:    white;
@@ -47,7 +47,7 @@
   .hide-md   {display: none;}
   /*.hide-lg {display: inline;}*/
   body {
-    font-family:   'Helvetica Neue', sans-serif;
+    font-family:   'Arial', sans-serif;
     font-weight:   300;
     font-size:     1.5rem;
     background:    white;
@@ -68,7 +68,7 @@
   .hide-md   {display: inline;}*/
   .hide-lg   {display: none;}
   body {
-    font-family:   'Helvetica Neue', sans-serif;
+    font-family:   'Arial', sans-serif;
     font-weight:   normal;
     font-size:     1rem;
     -background: radial-gradient(white, #eee);
@@ -93,7 +93,7 @@
 }
 
 a:link, a:visited, a:hover, a:active {
-  font-family:      'Helvetica Neue', sans-serif;
+  font-family:      'Arial', sans-serif;
   font-weight:      normal;
   font-size:        1em;
   color:            #999;
@@ -102,7 +102,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 a.solid:link, a.solid:visited, a.solid:hover, a.solid:active {
-  font-family:      'Helvetica Neue', sans-serif;
+  font-family:      'Arial', sans-serif;
   font-weight:      normal;
   color:            #999;
   border-bottom:    1px solid #e4e4e4;
@@ -112,7 +112,7 @@ a.solid:link, a.solid:visited, a.solid:hover, a.solid:active {
 }
 
 a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
-  font-family:      'Helvetica Neue', sans-serif;
+  font-family:      'Arial', sans-serif;
   font-weight:      normal;
   color:            #999;
   border-bottom:    1px dotted #ccc;
@@ -122,11 +122,11 @@ a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
 }
 
 a.select:link, a.select:visited, a.select:active {
-  font-family:      'Helvetica Neue', sans-serif;
+  font-family:      'Arial', sans-serif;
   font-weight:      normal;
   font-size:        2em;
-  border:           2px solid #00CCFF;
-  color:            rgba(0,0,0,.2);
+  border:           2px solid #000;
+  color:            #ccc;
   border-radius:    4px;
   padding:          .4em .8em .4em .8em;
   line-height:      2.6;
@@ -137,14 +137,14 @@ a.select:link, a.select:visited, a.select:active {
   outline:          none;
 }
 a.select:hover {
-  color:            black;
+  color:            red;
   -background-color: #00CCFF;
   -color:            #00CCFF;
-  border: 2px solid black
+  border: 2px solid red;
 }
 #select {
-  font-family:      'Helvetica Neue', sans-serif;
-  font-weight:      normal;
+  font-family:      'Arial', sans-serif;
+  font-weight:      bold;
   letter-spacing:   0.5;
   color:            black;
   padding-right:    .4em;
@@ -154,8 +154,24 @@ a.select:hover {
   -color:            #00CCFF;
 }
 
+a.select2:link, a.select2:visited, a.select2:hover, a.select22:active {
+  font-family:      'Arial', sans-serif;
+  font-weight:      bold;
+  font-size:        2em;
+  border:           2px solid #eee;
+  color:            black;
+  border-radius:    4px;
+  padding:          .4em .8em .4em .8em;
+  line-height:      2.6;
+  letter-spacing:   0.5;
+  word-spacing:     0;
+  white-space:      nowrap;
+	text-decoration:  none;
+  outline:          none;
+}
+
 a.primary:link, a.primary:visited, a.primary:active {
-  font-family:      'Helvetica Neue', sans-serif;
+  font-family:      'Arial', sans-serif;
   font-weight:      normal;
   font-size:        1em;
   background-color: #f7f7f7;
@@ -163,7 +179,7 @@ a.primary:link, a.primary:visited, a.primary:active {
   color:            black;
   border-radius:    4px;
   padding:          .4em .8em .4em .8em;
-  line-height:      3;
+  line-height:      2.8;
   letter-spacing:   0.5;
   word-spacing:     0;
   white-space:      nowrap;
@@ -176,8 +192,58 @@ a.primary:hover {
   box-shadow:  0 1px 2px rgba(0,0,0,.4);
 }
 
+a.button:link, a.button:visited, a.button:hover, a.button:active {
+  font-family:      'Arial', sans-serif;
+  font-weight:      normal;
+  font-size:        1em;
+  background:       #f1f1f1;
+  color:            black;
+  border-radius:    4px;
+  padding:          .5em 1em .5em 1em;
+  line-height:      2.8;
+  letter-spacing:   0.5;
+  word-spacing:     0;
+  white-space:      nowrap;
+  text-decoration:  none;
+  outline:          none;
+}
+
+a.button2:link, a.button2:visited, a.button2:hover, a.button2:active {
+  font-family:      'Arial', sans-serif;
+  font-weight:      normal;
+  font-size:        1em;
+  background:       white;
+  color:            black;
+  border-radius:    4px;
+  border:           2px solid #0066FF;
+  padding:          .5em 1em .5em 1em;
+  line-height:      2.8;
+  letter-spacing:   0.5;
+  word-spacing:     0;
+  white-space:      nowrap;
+  text-decoration:  none;
+  outline:          none;
+}
+
+
+a.button3:link, a.button3:visited, a.button3:hover, a.button3:active {
+  font-family:      'Arial', sans-serif;
+  font-weight:      normal;
+  font-size:        1em;
+  background:       #eee;
+  color:            black;
+  border-radius:    4px;
+  padding:          .5em 1em .5em 1em;
+  line-height:      2.8;
+  letter-spacing:   0.5;
+  word-spacing:     0;
+  white-space:      nowrap;
+  text-decoration:  none;
+  outline:          none;
+}
+
 a.secondary:link, a.secondary:visited, a.secondary:hover, a.secondary:active {
-  font-family:      'Helvetica Neue', sans-serif;
+  font-family:      'Arial', sans-serif;
   font-weight:      normal;
   font-size:        1em;
   background-color: transparent;
@@ -185,7 +251,7 @@ a.secondary:link, a.secondary:visited, a.secondary:hover, a.secondary:active {
   border:           2px solid #eee;
   border-radius:    4px;
   padding:          .4em .8em .4em .8em;
-  line-height:      2.6;
+  line-height:      2.8;
   letter-spacing:   0.5;
   word-spacing:     0;
   white-space:      nowrap;
@@ -198,14 +264,14 @@ a.secondary:hover {
 
 
 #search {
-  font-family:      'Ionicons', 'Helvetica Neue', sans-serif;
+  font-family:      'Ionicons', 'Arial', sans-serif;
   font-weight:      normal;
   font-size:        2em;
   background-color: transparent;
   color:            black;
   border:           2px solid transparent;
   border-bottom:           2px solid #00CCFF;
-  
+
   border-radius:    6px;
   padding:          .4em .8em .4em .8em;
   margin:           0px;
@@ -217,7 +283,7 @@ a.secondary:hover {
   height:           2em;
 }
 
-.ws     {word-spacing: 7;}
+.ws     {word-spacing: 5;}
 .screen {min-height:   100vh;}
 
 input {color: black;}
