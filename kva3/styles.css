@@ -136,12 +136,12 @@
     background:    white;
     margin-top:    0;
     margin-bottom: 0;
-    line-height:   1.3;
+    line-height:   1.5;
   }
   h1 {
     font-family:   'Roboto', sans-serif;
     font-weight:   300;
-    font-size:     2.5em;
+    font-size:     2em;
     color:         #333333;
     padding:       0;
     margin:        0;
@@ -226,7 +226,7 @@ a.button4:link, a.button4:visited, a.button4:hover, a.button4:active {
   background: linear-gradient(to top, #0033cc, #00E5FF);
   color:            white;
   border-radius:    6px;
-  padding:          .8em 1.6em .8em 1.6em;
+  padding:          .6em 1.2em .6em 1.2em;
   line-height:      2.5;
   letter-spacing:   0.5;
   word-spacing:     0;
@@ -240,10 +240,12 @@ a.button4:link, a.button4:visited, a.button4:hover, a.button4:active {
 .border-left      {border-left:  1px solid #ddd;}
 .border-right     {border-right: 1px solid #ddd;}
 .screen       {min-height: 100vh;}
+.mdl      {vertical-align: middle}
+
 
 .darkgray, .darkgray-hover:hover    {background-color: #999;}
 #darkgray, #darkgray-hover:hover    {color:            #999;}
-.black, .black-hover:hover          {background-color: black;}
-#black, #black-hover:hover          {color:            black;}
+.black, .black-hover:hover          {background-color: #666;}
+#black, #black-hover:hover          {color:            #666;}
 .white, .white-hover:hover          {background-color: white;}
 #white, #white-hover:hover          {color:            white;}
