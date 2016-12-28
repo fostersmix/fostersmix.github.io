@@ -124,6 +124,20 @@ a.select2:hover {
   color:            black;
 }
 
+a.select3:link, a.select3:visited, a.select3:active {
+  font-family:      'Roboto', sans-serif;
+  font-weight:      300;
+  font-size:        1.7em;
+  color:            #ccc;
+  line-height:      1.3;
+  white-space:      nowrap;
+	text-decoration:  none;
+  outline:          none;
+}
+a.select3:hover {
+  color:            black;
+}
+
 .border-top       {border-top:   1px solid #eee;}
 .border-bottom    {border-bottom:1px solid #eee;}
 .border-left      {border-left:  1px solid #eee;}
