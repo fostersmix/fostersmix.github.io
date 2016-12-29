@@ -130,7 +130,7 @@
   .hide-lg   {display: none;}
   body {
     font-family:   'Roboto', sans-serif;
-    font-weight:   400;
+    font-weight:   300;
     font-size:     1em;
     color:         #999;
     background:    white;
@@ -248,10 +248,13 @@ a.button4:link, a.button4:visited, a.button4:hover, a.button4:active {
 .border-right     {border-right: 1px solid #ddd;}
 .screen       {min-height: 100vh;}
 .mdl      {vertical-align: middle}
+.line {height:1px;}
 
 .black, .black-hover:hover  {background-color: black;}
 #black, #black-hover:hover  {color:            black;}
 .gray, .gray-hover:hover    {background-color: #999;}
 #gray, #gray-hover:hover    {color:            #999;}
+.lightgray, .lightgray-hover:hover    {background-color: #ddd;}
+#lightgray, #lightgray-hover:hover    {color:            #ddd;}
 .white, .white-hover:hover  {background-color: white;}
 #white, #white-hover:hover  {color:            white;}
