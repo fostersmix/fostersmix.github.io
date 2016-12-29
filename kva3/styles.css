@@ -169,7 +169,9 @@ a:link, a:visited, a:hover, a:active {
   font-family:      'Roboto', sans-serif;
   font-weight:      300;
   font-size:        1em;
+  color:            #666;
 	text-decoration:  none;
+  border-bottom: 1px solid #ccc;
   outline:          none;
 }
 
@@ -221,7 +223,7 @@ a.button3:link, a.button3:visited, a.button3:hover, a.button3:active {
 
 a.button4:link, a.button4:visited, a.button4:hover, a.button4:active {
   font-family:      'Roboto', sans-serif;
-  font-weight:      300;
+  font-weight:      400;
   font-size:        2em;
   background: linear-gradient(to top, #0033cc, #00E5FF);
   color:            white;
