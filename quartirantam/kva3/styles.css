@@ -14,10 +14,10 @@
     margin-bottom: 0;
   }
   h1 {
-    font-family: 'Roboto', monospace;
+    font-family: 'Bad Script', cursive;
     font-weight:   300;
     font-size:     2em;
-    color:         white;
+    color:         #333333;
     padding:       0;
     margin:        0;
     display:       inline;
@@ -55,10 +55,10 @@
     margin-bottom: 0;
   }
   h1 {
-    font-family: 'Roboto', monospace;
+    font-family: 'Bad Script', cursive;
     font-weight:   300;
     font-size:     2em;
-    color:         white;
+    color:         #333333;
     padding:       0;
     margin:        0;
     display:       inline;
@@ -97,10 +97,10 @@
     margin-bottom: 0;
   }
   h1 {
-    font-family:   'Roboto', monospace;
+    font-family:   'Bad Script', cursive;
     font-weight:   300;
     font-size:     2.5em;
-    color:         white;
+    color:         #333333;
     padding:       0;
     margin:        0;
     display:       inline;
@@ -132,17 +132,17 @@
     font-family:   'Roboto', sans-serif;
     font-weight:   300;
     font-size:     1em;
-    color:         #333333;
+    color:         black;
     background:    white;
     margin-top:    0;
     margin-bottom: 0;
     line-height:   1.5;
   }
   h1 {
-    font-family:   'Roboto', sans-serif;
-    font-weight:   300;
-    font-size:     2em;
-    color:         #333333;
+    font-family: 'Bad Script', cursive;
+    font-weight:   400;
+    font-size:     3em;
+    color:         #333;
     padding:       0;
     margin:        0;
     display:       inline;
@@ -151,7 +151,7 @@
     font-family:   'Roboto', sans-serif;
     font-weight:   300;
     font-size:     2em;
-    color:         #333333;
+    color:         white;
     background:    none;
     padding:       0;
     margin:        0;
@@ -171,7 +171,7 @@ a:link, a:visited, a:hover, a:active {
   font-size:        1em;
   color:            #666;
 	text-decoration:  none;
-  border-bottom: 1px solid #ccc;
+  -border-bottom: 1px solid #ccc;
   outline:          none;
 }
 
@@ -190,6 +190,7 @@ a.button:link, a.button:visited, a.button:hover, a.button:active {
   text-decoration:  none;
   outline:          none;
 }
+#telegram {color:#0088cc;}
 a.button2:link, a.button2:visited, a.button2:hover, a.button2:active {
   font-family:      'Roboto', sans-serif;
   font-weight:      300;
