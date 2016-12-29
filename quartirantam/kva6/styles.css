@@ -132,7 +132,7 @@
     font-family:   'Roboto', sans-serif;
     font-weight:   400;
     font-size:     1em;
-    color:         #000;
+    color:         #999;
     background:    white;
     margin-top:    0;
     margin-bottom: 0;
@@ -151,7 +151,7 @@
     font-family:   'Roboto', sans-serif;
     font-weight:   400;
     font-size:     2em;
-    color:         #999;
+    color:         black;
     padding:       0;
     margin:        0;
     display:       inline;
