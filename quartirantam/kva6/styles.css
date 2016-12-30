@@ -129,10 +129,10 @@
   .hide-md   {display: inline;}*/
   .hide-lg   {display: none;}
   body {
-    font-family:   'Roboto', sans-serif;
-    font-weight:   300;
+    font-family:   'Arial', sans-serif;
+    font-weight:   normal;
     font-size:     1em;
-    color:         #999;
+    color:         black;
     background:    white;
     margin-top:    0;
     margin-bottom: 0;
@@ -141,11 +141,12 @@
   h1 {
     font-family:   'Roboto', sans-serif;
     font-weight:   500;
-    font-size:     2em;
-    color:         #000;
+    font-size:     2.5em;
+    color:         white;
     padding:       0;
     margin:        0;
     display:       inline;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
   }
   h2 {
     font-family:   'Roboto', sans-serif;
@@ -157,20 +158,32 @@
     display:       inline;
   }
   .top-big      {padding-top:    2em;}
+  .top-bgg      {padding-top:    8em;}
   .top          {padding-top:    1em;}
   .top-small    {padding-top:    .5em;}
   .bottom-big   {padding-bottom: 2em;}
+  .bottom-bgg   {padding-bottom: 8em;}
   .bottom       {padding-bottom: 1em;}
   .bottom-small {padding-bottom: .5em;}
 }
 
 a:link, a:visited, a:hover, a:active {
-  font-family:      'Roboto', sans-serif;
-  font-weight:      400;
+  font-family:      'Arial', sans-serif;
+  font-weight:      normal;
   font-size:        1em;
   color:            black;
 	text-decoration:  none;
-  border-bottom: 1px solid #ccc;
+  -border-bottom: 1px solid #ccc;
+  outline:          none;
+}
+
+a.solid:link, a.solid:visited, a.solid:hover, a.solid:active {
+  font-family:      'Arial', sans-serif;
+  font-weight:      normal;
+  font-size:        1em;
+  color:            white;
+	text-decoration:  none;
+  border-bottom: 1px solid #666;
   outline:          none;
 }
 
@@ -181,8 +194,8 @@ a:link, a:visited, a:hover, a:active {
 }
 
 a.button:link, a.button:visited, a.button:hover, a.button:active {
-  font-family:      'Roboto', sans-serif;
-  font-weight:      400;
+  font-family:      'Arial', sans-serif;
+  font-weight:      normal;
   font-size:        1em;
   background:       #0088cc;
   color:            white;
@@ -196,8 +209,8 @@ a.button:link, a.button:visited, a.button:hover, a.button:active {
   outline:          none;
 }
 a.button2:link, a.button2:visited, a.button2:hover, a.button2:active {
-  font-family:      'Roboto', sans-serif;
-  font-weight:      400;
+  font-family:      'Arial', sans-serif;
+  font-weight:      normal;
   font-size:        1em;
   background:       #45668e;
   color:            white;
@@ -211,8 +224,8 @@ a.button2:link, a.button2:visited, a.button2:hover, a.button2:active {
   outline:          none;
 }
 a.button3:link, a.button3:visited, a.button3:hover, a.button3:active {
-  font-family:      'Roboto', sans-serif;
-  font-weight:      400;
+  font-family:      'Arial', sans-serif;
+  font-weight:      normal;
   font-size:        1em;
   background:       #075e54;
   color:            white;
@@ -227,8 +240,8 @@ a.button3:link, a.button3:visited, a.button3:hover, a.button3:active {
 }
 
 a.button4:link, a.button4:visited, a.button4:hover, a.button4:active {
-  font-family:      'Roboto', sans-serif;
-  font-weight:      400;
+  font-family:      'Arial', sans-serif;
+  font-weight:      normal;
   font-size:        2em;
   background: linear-gradient(to top, #0033cc, #00E5FF);
   color:            white;
@@ -246,15 +259,28 @@ a.button4:link, a.button4:visited, a.button4:hover, a.button4:active {
 
 .border-left      {border-left:  1px solid #ddd;}
 .border-right     {border-right: 1px solid #ddd;}
+.border    {border: 1px solid #ddd;}
 .screen       {min-height: 100vh;}
 .mdl      {vertical-align: middle}
 .line {height:1px;}
+.bgg {
+  background-image: url(bg2.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+.ws {word-spacing: 10;}
 
+.half, .half-hover:hover  {background-color: rgba(0,0,0,.3);}
+#half, #half-hover:hover  {background-color:            rgba(0,0,0,.3);}
 .black, .black-hover:hover  {background-color: black;}
 #black, #black-hover:hover  {color:            black;}
 .gray, .gray-hover:hover    {background-color: #999;}
 #gray, #gray-hover:hover    {color:            #999;}
+.footer, .footer-hover:hover    {background-color: #323232;}
+#footer, #footer-hover:hover    {color:            #323232;}
 .lightgray, .lightgray-hover:hover    {background-color: #ddd;}
 #lightgray, #lightgray-hover:hover    {color:            #ddd;}
+.lightgray2, .lightgray2-hover:hover    {background-color: #fafafa;}
+#lightgray2, #lightgray2-hover:hover    {color:            #fafafa;}
 .white, .white-hover:hover  {background-color: white;}
 #white, #white-hover:hover  {color:            white;}
