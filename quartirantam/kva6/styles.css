@@ -39,6 +39,10 @@
   .bottom-bgg   {padding-bottom: 2em;}
   .bottom       {padding-bottom: 1em;}
   .bottom-small {padding-bottom: .5em;}
+  .border-small     {border-bottom: 1px solid #ddd;}
+  #button {background-color: #0088cc;}
+  #button2 {background-color: #45668e;}
+  #button3 {background-color: #075e54;}
 }
 
 /*sm*/
@@ -83,6 +87,10 @@
   .bottom-big   {padding-bottom: 2em;}
   .bottom       {padding-bottom: 1em;}
   .bottom-small {padding-bottom: .5em;}
+  .border-small     {border-bottom: 1px solid #ddd;}
+  #button {background-color: #0088cc;}
+  #button2 {background-color: #45668e;}
+  #button3 {background-color: #075e54;}
 }
 
 /*md*/
@@ -147,7 +155,7 @@
   h1 {
     font-family:   'Bad Script', cursive;
     font-weight:   bold;
-    font-size:     5em;
+    font-size:     6em;
     color:         white;
     padding:       0;
     margin:        0;
@@ -214,6 +222,7 @@ a.button:link, a.button:visited, a.button:hover, a.button:active {
   text-decoration:  none;
   outline:          none;
 }
+
 a.button2:link, a.button2:visited, a.button2:hover, a.button2:active {
   font-family:      'Arial', sans-serif;
   font-weight:      normal;
@@ -229,6 +238,7 @@ a.button2:link, a.button2:visited, a.button2:hover, a.button2:active {
   text-decoration:  none;
   outline:          none;
 }
+
 a.button3:link, a.button3:visited, a.button3:hover, a.button3:active {
   font-family:      'Arial', sans-serif;
   font-weight:      normal;
@@ -244,6 +254,7 @@ a.button3:link, a.button3:visited, a.button3:hover, a.button3:active {
   text-decoration:  none;
   outline:          none;
 }
+
 
 a.button4:link, a.button4:visited, a.button4:hover, a.button4:active {
   font-family:      'Arial', sans-serif;
@@ -264,14 +275,21 @@ a.button4:link, a.button4:visited, a.button4:hover, a.button4:active {
   -box-shadow:      0 1px 1px 0 rgba(0,0,0,.4);
 }
 
+
 .border-left      {border-left:  1px solid #ddd;}
 .border-right     {border-right: 1px solid #ddd;}
+
 .border    {border: 1px solid #ddd;}
 .screen       {min-height: 100vh;}
 .mdl      {vertical-align: middle}
 .line {height:1px;}
 .bgg {
   background-image: url(bg2.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+.bg1 {
+  background-image: url(bg1.jpg);
   background-size: cover;
   background-position: center center;
 }
