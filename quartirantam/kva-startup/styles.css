@@ -63,7 +63,7 @@
   h1 {
     font-family:   'Bad Script', cursive;
     font-weight:   bold;
-    font-size:     2.5em;
+    font-size:     4em;
     color:         white;
     padding:       0;
     margin:        0;
@@ -111,7 +111,7 @@
   h1 {
     font-family:   'Bad Script', cursive;
     font-weight:   bold;
-    font-size:     4em;
+    font-size:     5em;
     color:         white;
     padding:       0;
     margin:        0;
@@ -279,16 +279,19 @@ a.button4:link, a.button4:visited, a.button4:hover, a.button4:active {
 .border-right     {border-right: 1px solid #ddd;}
 
 .border    {border: 1px solid #ddd;}
-.screen       {min-height: 100vh;}
+.screen       {min-height: 100%;}
+.screen2       {min-height: 75vh;}
+.screen3       {min-height: 25vh;}
 .mdl      {vertical-align: middle}
 .line {height:1px;}
 .bgg {
   background-image: url(bg2.jpg);
   background-size: cover;
-  background-position: center center;
+  background-attachment: fixed;
+  background-position: bottom center;
 }
 .bg1 {
-  background-image: url(bg1.jpg);
+  background-image: url(bg2.jpg);
   background-size: cover;
   background-position: center center;
 }
