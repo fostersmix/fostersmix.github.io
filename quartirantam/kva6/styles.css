@@ -14,9 +14,9 @@
     margin-bottom: 0;
   }
   h1 {
-    font-family: 'Roboto', monospace;
-    font-weight:   400;
-    font-size:     2em;
+    font-family:   'Bad Script', cursive;
+    font-weight:   bold;
+    font-size:     2.5em;
     color:         white;
     padding:       0;
     margin:        0;
@@ -31,10 +31,12 @@
     margin:        0;
     display:       inline;
   }
+  .top-bgg      {padding-top:    2em;}
   .top-big      {padding-top:    2em;}
   .top          {padding-top:    1em;}
   .top-small    {padding-top:    .5em;}
   .bottom-big   {padding-bottom: 2em;}
+  .bottom-bgg   {padding-bottom: 2em;}
   .bottom       {padding-bottom: 1em;}
   .bottom-small {padding-bottom: .5em;}
 }
@@ -55,9 +57,9 @@
     margin-bottom: 0;
   }
   h1 {
-    font-family: 'Roboto', monospace;
-    font-weight:   400;
-    font-size:     2em;
+    font-family:   'Bad Script', cursive;
+    font-weight:   bold;
+    font-size:     2.5em;
     color:         white;
     padding:       0;
     margin:        0;
@@ -73,9 +75,11 @@
     margin:        0;
     display:       inline;
   }
+  .top-bgg      {padding-top:    4em;}
   .top-big      {padding-top:    2em;}
   .top          {padding-top:    1em;}
   .top-small    {padding-top:    .5em;}
+  .bottom-bgg      {padding-bottom: 3em;}
   .bottom-big   {padding-bottom: 2em;}
   .bottom       {padding-bottom: 1em;}
   .bottom-small {padding-bottom: .5em;}
@@ -97,9 +101,9 @@
     margin-bottom: 0;
   }
   h1 {
-    font-family:   'Roboto', monospace;
-    font-weight:   400;
-    font-size:     2.5em;
+    font-family:   'Bad Script', cursive;
+    font-weight:   bold;
+    font-size:     4em;
     color:         white;
     padding:       0;
     margin:        0;
@@ -114,9 +118,11 @@
     margin:        0;
     display:       inline;
   }
+  .top-bgg      {padding-top:    6em;}
   .top-big      {padding-top:    2em;}
   .top          {padding-top:    1em;}
   .top-small    {padding-top:    .5em;}
+  .bottom-bgg   {padding-bottom: 4em;}
   .bottom-big   {padding-bottom: 2em;}
   .bottom       {padding-bottom: 1em;}
   .bottom-small {padding-bottom: .5em;}
@@ -139,9 +145,9 @@
     line-height:   1.5;
   }
   h1 {
-    font-family:   'Roboto', sans-serif;
-    font-weight:   500;
-    font-size:     2.5em;
+    font-family:   'Bad Script', cursive;
+    font-weight:   bold;
+    font-size:     5em;
     color:         white;
     padding:       0;
     margin:        0;
@@ -162,7 +168,7 @@
   .top          {padding-top:    1em;}
   .top-small    {padding-top:    .5em;}
   .bottom-big   {padding-bottom: 2em;}
-  .bottom-bgg   {padding-bottom: 8em;}
+  .bottom-bgg   {padding-bottom: 7em;}
   .bottom       {padding-bottom: 1em;}
   .bottom-small {padding-bottom: .5em;}
 }
@@ -242,10 +248,11 @@ a.button3:link, a.button3:visited, a.button3:hover, a.button3:active {
 a.button4:link, a.button4:visited, a.button4:hover, a.button4:active {
   font-family:      'Arial', sans-serif;
   font-weight:      normal;
-  font-size:        2em;
-  background: linear-gradient(to top, #0033cc, #00E5FF);
+  font-size:        1em;
+  -background: #fd5c63;
   color:            white;
-  border-radius:    6px;
+  border-radius:    5em;
+  border: 2px solid white;
   padding:          .6em 1.2em .6em 1.2em;
   line-height:      2.5;
   letter-spacing:   0.5;
@@ -253,8 +260,8 @@ a.button4:link, a.button4:visited, a.button4:hover, a.button4:active {
   white-space:      nowrap;
   text-decoration:  none;
   outline:          none;
-  text-shadow:     0 1px 1px rgba(0,0,0,.3);
-  -box-shadow:      0 1.5em 2em 0 rgba(0,0,0,.1), 0 .75em 1em 0 rgba(0,0,0,.1), 0 .5em .75em 0 rgba(0,0,0,.1), 0 .2em .5em 0 rgba(0,0,0,.1);
+  -text-shadow:     0 1px 1px rgba(0,0,0,.5);
+  -box-shadow:      0 1px 1px 0 rgba(0,0,0,.4);
 }
 
 .border-left      {border-left:  1px solid #ddd;}
@@ -270,8 +277,8 @@ a.button4:link, a.button4:visited, a.button4:hover, a.button4:active {
 }
 .ws {word-spacing: 10;}
 
-.half, .half-hover:hover  {background-color: rgba(0,0,0,.3);}
-#half, #half-hover:hover  {background-color:            rgba(0,0,0,.3);}
+.half, .half-hover:hover  {background-color: rgba(0,0,0,.5);}
+#half, #half-hover:hover  {background-color:            rgba(0,0,0,.5);}
 .black, .black-hover:hover  {background-color: black;}
 #black, #black-hover:hover  {color:            black;}
 .gray, .gray-hover:hover    {background-color: #999;}
