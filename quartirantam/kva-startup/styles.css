@@ -187,7 +187,6 @@ a:link, a:visited, a:hover, a:active {
   font-size:        1em;
   color:            black;
 	text-decoration:  none;
-  -border-bottom: 1px solid #ccc;
   outline:          none;
 }
 
@@ -195,7 +194,7 @@ a.solid:link, a.solid:visited, a.solid:hover, a.solid:active {
   font-family:      'Arial', sans-serif;
   font-weight:      normal;
   font-size:        1em;
-  color:            white;
+  color:            black;
 	text-decoration:  none;
   border-bottom: 1px solid #666;
   outline:          none;
