@@ -279,7 +279,7 @@ a.button4:link, a.button4:visited, a.button4:hover, a.button4:active {
 .border-right     {border-right: 1px solid #ddd;}
 
 .border    {border: 1px solid #ddd;}
-.screen2       {height:100%;}
+.screen2       {height:100vh; transition: 999999s;}
 .mdl      {vertical-align: middle}
 .line {height:1px;}
 .bgg {
