@@ -126,7 +126,7 @@
   h1 {
     font-family:   'Bad Script', cursive;
     font-weight:   bold;
-    font-size:     8em;
+    font-size:     7em;
     color:         white;
     padding:       0;
     margin:        0;
@@ -145,11 +145,11 @@
 }
 
 .rt {
-  -moz-transform: rotate(-10deg); /* Для Firefox */
-  -ms-transform: rotate(-10deg); /* Для IE */
-  -webkit-transform: rotate(-10deg); /* Для Safari, Chrome, iOS */
-  -o-transform: rotate(-10deg); /* Для Opera */
-  transform: rotate(-10deg);
+  -moz-transform: rotate(-15deg); /* Для Firefox */
+  -ms-transform: rotate(-15deg); /* Для IE */
+  -webkit-transform: rotate(-15deg); /* Для Safari, Chrome, iOS */
+  -o-transform: rotate(-15deg); /* Для Opera */
+  transform: rotate(-15deg);
 }
 
 a:link, a:visited, a:hover, a:active {
@@ -228,7 +228,7 @@ a.whatsapp:link, a.whatsapp:visited, a.whatsapp:hover, a.whatsapp:active {
 .mdl      {vertical-align: middle}
 .line {height:1px;}
 .bgg {
-  background-image: url(bg.jpg);
+  background-image: url(bg2.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-position: bottom center;
