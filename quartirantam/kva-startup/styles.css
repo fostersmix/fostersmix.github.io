@@ -126,12 +126,12 @@
   h1 {
     font-family:   'Bad Script', cursive;
     font-weight:   bold;
-    font-size:     6em;
+    font-size:     7.5em;
     color:         white;
     padding:       0;
     margin:        0;
     display:       inline;
-    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+    -text-shadow: 0 1px 2px rgba(0,0,0,.5);
   }
   h2 {
     font-family:   'Arial', sans-serif;
@@ -144,6 +144,13 @@
   }
 }
 
+.rt {
+-moz-transform: rotate(-10deg); /* Для Firefox */
+    -ms-transform: rotate(-10deg); /* Для IE */
+    -webkit-transform: rotate(-10deg); /* Для Safari, Chrome, iOS */
+    -o-transform: rotate(-10deg); /* Для Opera */
+    transform: rotate(-10deg);
+}
 a:link, a:visited, a:hover, a:active {
   font-family:      'Arial', sans-serif;
   font-weight:      normal;
@@ -252,3 +259,6 @@ a.whatsapp:link, a.whatsapp:visited, a.whatsapp:hover, a.whatsapp:active {
 #lightgray2, #lightgray2-hover:hover    {color:            #fafafa;}
 .white, .white-hover:hover  {background-color: white;}
 #white, #white-hover:hover  {color:            white;}
+
+.color, .color-hover:hover          {background-color: #CC9900;}
+#color, #color-hover:hover          {color:            #CC9900;}
