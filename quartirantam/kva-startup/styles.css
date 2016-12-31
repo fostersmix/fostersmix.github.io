@@ -239,7 +239,7 @@ a.whatsapp:link, a.whatsapp:visited, a.whatsapp:hover, a.whatsapp:active {
 .bottom-small {padding-bottom: .5em;}
 
 .half, .half-hover:hover  {background-color: rgba(0,0,0,.5);}
-#half, #half-hover:hover  {background-color:            rgba(0,0,0,.4);}
+#half, #half-hover:hover  {background-color:            rgba(0,0,0,.5);}
 .black, .black-hover:hover  {background-color: black;}
 #black, #black-hover:hover  {color:            black;}
 .gray, .gray-hover:hover    {background-color: #999;}
