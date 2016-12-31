@@ -220,7 +220,7 @@ a.whatsapp:link, a.whatsapp:visited, a.whatsapp:hover, a.whatsapp:active {
 .mdl      {vertical-align: middle}
 .line {height:1px;}
 .bgg {
-  background-image: url(bg2.jpg);
+  background-image: url(bg.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-position: bottom center;
@@ -239,7 +239,7 @@ a.whatsapp:link, a.whatsapp:visited, a.whatsapp:hover, a.whatsapp:active {
 .bottom-small {padding-bottom: .5em;}
 
 .half, .half-hover:hover  {background-color: rgba(0,0,0,.5);}
-#half, #half-hover:hover  {background-color:            rgba(0,0,0,.5);}
+#half, #half-hover:hover  {background-color:            rgba(0,0,0,.4);}
 .black, .black-hover:hover  {background-color: black;}
 #black, #black-hover:hover  {color:            black;}
 .gray, .gray-hover:hover    {background-color: #999;}
