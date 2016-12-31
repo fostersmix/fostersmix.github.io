@@ -279,7 +279,7 @@ a.button4:link, a.button4:visited, a.button4:hover, a.button4:active {
 .border-right     {border-right: 1px solid #ddd;}
 
 .border    {border: 1px solid #ddd;}
-.screen       {height:100%;}
+.screen2       {height:100%;}
 .mdl      {vertical-align: middle}
 .line {height:1px;}
 .bgg {
@@ -287,6 +287,8 @@ a.button4:link, a.button4:visited, a.button4:hover, a.button4:active {
   background-size: auto;
   background-attachment: fixed;
   background-position: bottom center;
+  transition: height 999999s;
+  transition: 999999s;
 }
 .bg1 {
   background-image: url(bg2.jpg);
@@ -294,6 +296,17 @@ a.button4:link, a.button4:visited, a.button4:hover, a.button4:active {
   background-position: center center;
 }
 .ws {word-spacing: 10;}
+
+html, body, .screen {
+    -position: fixed;
+    top: 0; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
 
 .half, .half-hover:hover  {background-color: rgba(0,0,0,.5);}
 #half, #half-hover:hover  {background-color:            rgba(0,0,0,.5);}
