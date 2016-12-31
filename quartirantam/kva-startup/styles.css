@@ -31,18 +31,7 @@
     margin:        0;
     display:       inline;
   }
-  .top-bgg      {padding-top:    2em;}
-  .top-big      {padding-top:    2em;}
-  .top          {padding-top:    1em;}
-  .top-small    {padding-top:    .5em;}
-  .bottom-big   {padding-bottom: 2em;}
-  .bottom-bgg   {padding-bottom: 2em;}
-  .bottom       {padding-bottom: 1em;}
-  .bottom-small {padding-bottom: .5em;}
   .border-small     {border-bottom: 1px solid #ddd;}
-  #button {background-color: #0088cc;}
-  #button2 {background-color: #45668e;}
-  #button3 {background-color: #075e54;}
 }
 
 /*sm*/
@@ -79,18 +68,6 @@
     margin:        0;
     display:       inline;
   }
-  .top-bgg      {padding-top:    4em;}
-  .top-big      {padding-top:    2em;}
-  .top          {padding-top:    1em;}
-  .top-small    {padding-top:    .5em;}
-  .bottom-bgg      {padding-bottom: 3em;}
-  .bottom-big   {padding-bottom: 2em;}
-  .bottom       {padding-bottom: 1em;}
-  .bottom-small {padding-bottom: .5em;}
-  .border-small     {border-bottom: 1px solid #ddd;}
-  #button {background-color: #0088cc;}
-  #button2 {background-color: #45668e;}
-  #button3 {background-color: #075e54;}
 }
 
 /*md*/
@@ -126,14 +103,6 @@
     margin:        0;
     display:       inline;
   }
-  .top-bgg      {padding-top:    6em;}
-  .top-big      {padding-top:    2em;}
-  .top          {padding-top:    1em;}
-  .top-small    {padding-top:    .5em;}
-  .bottom-bgg   {padding-bottom: 4em;}
-  .bottom-big   {padding-bottom: 2em;}
-  .bottom       {padding-bottom: 1em;}
-  .bottom-small {padding-bottom: .5em;}
 }
 
 /*lg*/
@@ -171,14 +140,6 @@
     margin:        0;
     display:       inline;
   }
-  .top-big      {padding-top:    2em;}
-  .top-bgg      {padding-top:    8em;}
-  .top          {padding-top:    1em;}
-  .top-small    {padding-top:    .5em;}
-  .bottom-big   {padding-bottom: 2em;}
-  .bottom-bgg   {padding-bottom: 7em;}
-  .bottom       {padding-bottom: 1em;}
-  .bottom-small {padding-bottom: .5em;}
 }
 
 a:link, a:visited, a:hover, a:active {
@@ -200,13 +161,7 @@ a.solid:link, a.solid:visited, a.solid:hover, a.solid:active {
   outline:          none;
 }
 
-#big {
-  font-size: 2em;
-  font-weight: 400;
-  color: #999;
-}
-
-a.button:link, a.button:visited, a.button:hover, a.button:active {
+a.telegram:link, a.telegram:visited, a.telegram:hover, a.telegram:active {
   font-family:      'Arial', sans-serif;
   font-weight:      normal;
   font-size:        1em;
@@ -222,7 +177,7 @@ a.button:link, a.button:visited, a.button:hover, a.button:active {
   outline:          none;
 }
 
-a.button2:link, a.button2:visited, a.button2:hover, a.button2:active {
+a.vk:link, a.vk:visited, a.vk:hover, a.vk:active {
   font-family:      'Arial', sans-serif;
   font-weight:      normal;
   font-size:        1em;
@@ -238,7 +193,7 @@ a.button2:link, a.button2:visited, a.button2:hover, a.button2:active {
   outline:          none;
 }
 
-a.button3:link, a.button3:visited, a.button3:hover, a.button3:active {
+a.whatsapp:link, a.whatsapp:visited, a.whatsapp:hover, a.whatsapp:active {
   font-family:      'Arial', sans-serif;
   font-weight:      normal;
   font-size:        1em;
@@ -254,59 +209,32 @@ a.button3:link, a.button3:visited, a.button3:hover, a.button3:active {
   outline:          none;
 }
 
-
-a.button4:link, a.button4:visited, a.button4:hover, a.button4:active {
-  font-family:      'Arial', sans-serif;
-  font-weight:      normal;
-  font-size:        1em;
-  -background: #fd5c63;
-  color:            white;
-  border-radius:    5em;
-  border: 2px solid white;
-  padding:          .6em 1.2em .6em 1.2em;
-  line-height:      2.5;
-  letter-spacing:   0.5;
-  word-spacing:     0;
-  white-space:      nowrap;
-  text-decoration:  none;
-  outline:          none;
-  -text-shadow:     0 1px 1px rgba(0,0,0,.5);
-  -box-shadow:      0 1px 1px 0 rgba(0,0,0,.4);
-}
-
-
+.border    {border: 1px solid #ddd;}
 .border-left      {border-left:  1px solid #ddd;}
 .border-right     {border-right: 1px solid #ddd;}
-
-.border    {border: 1px solid #ddd;}
-.screen2       {height:100vh; transition: 999999s;}
+.bigger {height:35em;}
+.mcbig {height:10em;}
+.screen       {height:100vh; transition: 999999s;}
 .mdl      {vertical-align: middle}
 .line {height:1px;}
 .bgg {
   background-image: url(bg2.jpg);
-  background-size: auto;
+  background-size: cover;
   background-attachment: fixed;
   background-position: bottom center;
-  transition: height 999999s;
-  transition: 999999s;
 }
 .bg1 {
   background-image: url(bg2.jpg);
   background-size: cover;
   background-position: center center;
 }
-.ws {word-spacing: 10;}
 
-html, body, .screen {
-    -position: fixed;
-    top: 0; 
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: 0;
-    padding: 0;
-    height: 100%;
-}
+.top-big      {padding-top:    2em;}
+.top          {padding-top:    1em;}
+.top-small    {padding-top:    .5em;}
+.bottom-big   {padding-bottom: 2em;}
+.bottom       {padding-bottom: 1em;}
+.bottom-small {padding-bottom: .5em;}
 
 .half, .half-hover:hover  {background-color: rgba(0,0,0,.5);}
 #half, #half-hover:hover  {background-color:            rgba(0,0,0,.5);}
