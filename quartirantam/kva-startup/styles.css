@@ -5,9 +5,9 @@
   .hide-md   {display: inline;}
   .hide-lg   {display: inline;}*/
   body {
-    font-family:   'Roboto', sans-serif;
+    font-family:   'Arial', sans-serif;
     font-weight:   400;
-    font-size:     1.5rem;
+    font-size:     2.5rem;
     color:         #000;
     background:    white;
     margin-top:    0;
@@ -16,14 +16,14 @@
   h1 {
     font-family:   'Bad Script', cursive;
     font-weight:   bold;
-    font-size:     2.5em;
+    font-size:     2em;
     color:         white;
     padding:       0;
     margin:        0;
     display:       inline;
   }
   h2 {
-    font-family:  'Roboto', monospace;
+    font-family:  'Arial', sans-serif;
     font-weight:   400;
     font-size:     1.5em;
     color:         #000;
@@ -41,9 +41,9 @@
   /*.hide-md {display: inline;}
   .hide-lg   {display: inline;}*/
   body {
-    font-family:   'Roboto', sans-serif;
+    font-family:   'Arial', sans-serif;
     font-weight:   400;
-    font-size:     1.5rem;
+    font-size:     2rem;
     color:         #000;
     background:    white;
     margin-top:    0;
@@ -59,7 +59,7 @@
     display:       inline;
   }
   h2 {
-    font-family:  'Roboto', monospace;
+    font-family:  'Arial', sans-serif;
     font-weight:   400;
     font-size:     1.5em;
     color:         #000;
@@ -68,6 +68,8 @@
     margin:        0;
     display:       inline;
   }
+  .border-small     {border-bottom: 1px solid #ddd;}
+
 }
 
 /*md*/
@@ -77,9 +79,9 @@
   .hide-md   {display: none;}
   /*.hide-lg {display: inline;}*/
   body {
-    font-family:   'Roboto', sans-serif;
+    font-family:   'Arial', sans-serif;
     font-weight:   400;
-    font-size:     1rem;
+    font-size:     1.5rem;
     color:         #000;
     background:    white;
     margin-top:    0;
@@ -95,7 +97,7 @@
     display:       inline;
   }
   h2 {
-    font-family:   'Roboto', monospace;
+    font-family:   'Arial', sans-serif;
     font-weight:   400;
     font-size:     2em;
     color:         #000;
@@ -132,7 +134,7 @@
     text-shadow: 0 1px 2px rgba(0,0,0,.5);
   }
   h2 {
-    font-family:   'Roboto', sans-serif;
+    font-family:   'Arial', sans-serif;
     font-weight:   400;
     font-size:     2em;
     color:         black;
