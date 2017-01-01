@@ -105,6 +105,7 @@ a.select:link, a.select:visited, a.select:active {
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
   outline: none;
+  box-sizing: border-box;
 }
 a.select:hover {
   font-weight:      300;
@@ -125,9 +126,27 @@ a.select2:link, a.select2:visited, a.select2:active {
 	text-decoration:  none;
   outline:          none;
   outline: none;
+  box-sizing: border-box;
 }
 a.select2:hover {
   color:            black;
+  -border-bottom:    2px solid #000;
+}
+
+a.select3:link, a.select3:visited, a.select3:active {
+  font-family:      'Roboto', sans-serif;
+  font-weight:      400;
+  font-size:        2.5em;
+  color:            #ddd;
+  line-height:      1.5;
+  white-space:      nowrap;
+	text-decoration:  none;
+  outline:          none;
+  outline: none;
+  box-sizing: border-box;
+}
+a.select3:hover {
+  color:            #999;
   -border-bottom:    2px solid #000;
 }
 .screen {min-height:   100vh;}
