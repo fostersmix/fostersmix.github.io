@@ -75,6 +75,7 @@
     font-weight:   normal;
     font-size:     1rem;
     color:         #bbb;
+    background: white;
     margin-top:    0;
     margin-bottom: 0;
   }
@@ -109,7 +110,7 @@ a.select:link, a.select:visited, a.select:active {
   -line-height:      normal;
   background-color: yellow;
   -border: 10px solid red;
-  box-shadow: 1px 1px 0 #bbb, -1px -1px 0 #bbb, -1px 1px 0 #bbb, 1px -1px 0 #bbb;
+  box-shadow: 1px 1px 0 #000, -1px -1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000;
   -border-top: 1px solid black;
   -border-left: 1px solid black;
   -border-right: 1px solid black;
@@ -123,9 +124,9 @@ a.select:link, a.select:visited, a.select:active {
 }
 a.select:hover {
   -color:            black;
-  -background-color: #bbb;
+  -background-color: #000;
   -border-bottom:    2px solid #000;
-  -box-shadow: 1px 1px 0 #bbb, -1px -1px 0 #bbb, -1px 1px 0 #bbb, 1px -1px 0 #bbb, inset 5px 0 0 #bbb;
+  -box-shadow: 1px 1px 0 #000, -1px -1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, inset 5px 0 0 #000;
 }
 
 #select {
@@ -142,7 +143,7 @@ a.select2:link, a.select2:visited, a.select2:active {
   -line-height:      normal;
   background-color: white;
   -border: 10px solid red;
-  box-shadow: 1px 1px 0 #bbb, -1px -1px 0 #bbb, -1px 1px 0 #bbb, 1px -1px 0 #bbb;
+  box-shadow: 1px 1px 0 #000, -1px -1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000;
   -border-top: 1px solid black;
   -border-left: 1px solid black;
   -border-right: 1px solid black;
@@ -156,9 +157,9 @@ a.select2:link, a.select2:visited, a.select2:active {
 }
 a.select2:hover {
   color:            black;
-  -background-color: #bbb;
+  background-color: yellow;
   -border-bottom:    2px solid #000;
-  box-shadow: 1px 1px 0 #bbb, -1px -1px 0 #bbb, -1px 1px 0 #bbb, 1px -1px 0 #bbb, inset 5px 0 0 yellow;
+  -box-shadow: 1px 1px 0 #bbb, -1px -1px 0 #bbb, -1px 1px 0 #bbb, 1px -1px 0 #bbb, inset 5px 0 0 yellow;
 }
 
 .up {padding-top: 8px;padding-bottom: 8px;}
@@ -191,10 +192,11 @@ a.select3:hover {
 }
 .screen {min-height:   100vh;}
 
-.border-top       {border-top:   1px solid #eee;}
-.border-bottom    {border-bottom:1px solid #eee;}
-.border-left      {border-left:  1px solid #eee;}
-.border-right     {border-right: 1px solid #eee;}
+.border-top       {border-top:   1px solid #000;}
+.border-bottom    {border-bottom:1px solid #000;}
+.border-left      {border-left:  1px solid #000;}
+.border-right     {border-right: 1px solid #000;}
+.bb {box-shadow: -1px 0 0 #000;}
 
 .black, .black-hover:hover          {background-color: rgba(0,0,0,1);}
 #black, #black-hover:hover          {color:            rgba(0,0,0,1);}
