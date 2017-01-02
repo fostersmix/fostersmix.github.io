@@ -244,7 +244,7 @@ a.whatsapp:link, a.whatsapp:visited, a.whatsapp:hover, a.whatsapp:active {
 .mdl      {vertical-align: middle}
 .line {height:1px;}
 .bg {
-  background-image: url(logo.png);
+  background-image: url(logo2.png);
   background-size: auto;
   -background-attachment: fixed;
   background-position: center right;
@@ -265,6 +265,11 @@ a.whatsapp:link, a.whatsapp:visited, a.whatsapp:hover, a.whatsapp:active {
 .bottom-small {padding-bottom: .5em;}
 
 .grad {  background: #2998ff;}
+
+.element {
+    transform: translate3d(0px, 0px, 0px);
+    transition-duration: 0ms;
+}
 
 .half, .half-hover:hover  {background-color: rgba(0,0,0,.5);}
 #half, #half-hover:hover  {background-color:            rgba(0,0,0,.5);}
