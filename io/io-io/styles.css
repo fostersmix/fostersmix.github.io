@@ -7,16 +7,16 @@
   body {
     font-family:   'Arial', sans-serif;
     font-weight:   300;
-    font-size:     3rem;
+    font-size:     1rem;
     background:    white;
     color:         #bbb;
     margin-top:    0;
     margin-bottom: 0;
   }
   .top-big    {padding-top:    1em;}
-  .top        {padding-top:    .5em;}
+  .top        {padding-top:    1em;}
   .bottom-big {padding-bottom: 1em;}
-  .bottom     {padding-bottom: .5em;}
+  .bottom     {padding-bottom: 1em;}
   .pl {padding-left: 1em;}
 }
 
@@ -29,7 +29,7 @@
   body {
     font-family:   'Arial', sans-serif;
     font-weight:   300;
-    font-size:     3rem;
+    font-size:     1rem;
     background:    white;
     color:         #bbb;
     margin-top:    0;
@@ -51,17 +51,17 @@
   body {
     font-family:   'Arial', sans-serif;
     font-weight:   300;
-    font-size:     2rem;
+    font-size:     1rem;
     background:    white;
     color:         #bbb;
     margin-top:    0;
     margin-bottom: 0;
   }
-  .top-big    {padding-top:    2em;}
+  .top-big    {padding-top:    3em;}
   .top        {padding-top:    1em;}
-  .bottom-big {padding-bottom: 2em;}
+  .bottom-big {padding-bottom: 3em;}
   .bottom     {padding-bottom: 1em;}
-  .pl {padding-left: 4em;}
+  .pl {padding-left: 3em;}
 }
 
 /*lg*/
