@@ -1,0 +1,285 @@
+/*xs*/
+@media only screen and (max-width: 48em) {
+  .hide-xs   {display: none;}
+  /*.hide-sm {display: inline;}
+  .hide-md   {display: inline;}
+  .hide-lg   {display: inline;}*/
+  body {
+    font-family:   'Roboto', sans-serif;
+    font-weight:   400;
+    font-size:     2.5rem;
+    color:         #000;
+    background:    white;
+    margin-top:    0;
+    margin-bottom: 0;
+  }
+  h1 {
+    font-family:   'Bad Script', cursive;
+    font-weight:   bold;
+    font-size:     3em;
+    color:         white;
+    padding:       0;
+    margin:        0;
+    display:       inline;
+  }
+  h2 {
+    font-family:  'Roboto', sans-serif;
+    font-weight:   400;
+    font-size:     1.5em;
+    color:         #000;
+    padding:       0;
+    margin:        0;
+    display:       inline;
+  }
+  .border-small     {border-bottom: 1px solid #ddd;}
+}
+
+/*sm*/
+@media only screen and (min-width: 48em) and (max-width: 62em) {
+  /*.hide-xs {display: inline;}*/
+  .hide-sm   {display: none;}
+  /*.hide-md {display: inline;}
+  .hide-lg   {display: inline;}*/
+  body {
+    font-family:   'Roboto', sans-serif;
+    font-weight:   400;
+    font-size:     2rem;
+    color:         #000;
+    background:    white;
+    margin-top:    0;
+    margin-bottom: 0;
+  }
+  h1 {
+    font-family:   'Bad Script', cursive;
+    font-weight:   bold;
+    font-size:     4em;
+    color:         white;
+    padding:       0;
+    margin:        0;
+    display:       inline;
+  }
+  h2 {
+    font-family:  'Roboto', sans-serif;
+    font-weight:   400;
+    font-size:     2em;
+    color:         #000;
+    background: none;
+    padding:       0;
+    margin:        0;
+    display:       inline;
+  }
+  .border-small     {border-bottom: 1px solid #ddd;}
+
+}
+
+/*md*/
+@media only screen and (min-width: 62em) and (max-width: 75em) {
+  /*.hide-xs {display: inline;}
+  .hide-sm   {display: inline;}*/
+  .hide-md   {display: none;}
+  /*.hide-lg {display: inline;}*/
+  body {
+    font-family:   'Roboto', sans-serif;
+    font-weight:   400;
+    font-size:     1.5rem;
+    color:         #000;
+    background:    white;
+    margin-top:    0;
+    margin-bottom: 0;
+  }
+  h1 {
+    font-family:   'Bad Script', cursive;
+    font-weight:   bold;
+    font-size:     6em;
+    color:         white;
+    padding:       0;
+    margin:        0;
+    display:       inline;
+  }
+  h2 {
+    font-family:   'Roboto', sans-serif;
+    font-weight:   400;
+    font-size:     2em;
+    color:         #000;
+    padding:       0;
+    margin:        0;
+    display:       inline;
+  }
+}
+
+/*lg*/
+@media only screen and (min-width: 75em) {
+  /*.hide-xs {display: inline;}
+  .hide-sm   {display: inline;}
+  .hide-md   {display: inline;}*/
+  .hide-lg   {display: none;}
+  body {
+    font-family:   'Roboto', sans-serif;
+    font-weight:   300;
+    font-size:     1.2em;
+    color:         #999;
+    background:    white;
+    margin-top:    0;
+    margin-bottom: 0;
+    line-height:   1.5;
+  }
+  h1 {
+    font-family:   'Roboto', sans-serif;
+    font-weight:   300;
+    font-size:     3em;
+    color:         #484848;
+    padding:       0;
+    margin:        0;
+    display:       inline;
+  }
+  h2 {
+    font-family:   'Roboto', sans-serif;
+    font-weight:   300;
+    font-size:     2em;
+    color:         #484848;
+    padding:       0;
+    margin:        0;
+    display:       inline;
+  }
+}
+
+.rt {
+  -moz-transform: rotate(-15deg); /* Для Firefox */
+  -ms-transform: rotate(-15deg); /* Для IE */
+  -webkit-transform: rotate(-15deg); /* Для Safari, Chrome, iOS */
+  -o-transform: rotate(-15deg); /* Для Opera */
+  transform: rotate(-15deg);
+}
+
+a:link, a:visited, a:hover, a:active {
+  font-family:      'Roboto', sans-serif;
+  font-weight:      300;
+  font-size:        1em;
+  color:            #484848;
+	text-decoration:  none;
+  outline:          none;
+}
+
+a.solid:link, a.solid:visited, a.solid:hover, a.solid:active {
+  font-family:      'Roboto', sans-serif;
+  font-weight:      300;
+  font-size:        1em;
+  color:            #484848;
+	text-decoration:  none;
+  border-bottom: 1px solid #ccc;
+  outline:          none;
+}
+
+a.telegram:link, a.telegram:visited, a.telegram:hover, a.telegram:active {
+  font-family:      'Roboto', sans-serif;
+  font-weight:      300;
+  font-size:        1em;
+  background:       #0088cc;
+  color:            white;
+  border-radius:    5em;
+  padding:          .7em 1.8em .7em 1.8em;
+  line-height:      2.5;
+  letter-spacing:   0.5;
+  word-spacing:     0;
+  white-space:      nowrap;
+  text-decoration:  none;
+  outline:          none;
+}
+
+a.mail:link, a.mail:visited, a.mail:hover, a.mail:active {
+  font-family:      'Roboto', sans-serif;
+  font-weight:      300;
+  font-size:        1em;
+  background:       transparent;
+  color:            white;
+  border-radius:    5em;
+  border: 2px solid rgba(255,255,255,.5);
+  padding:          .7em 1.8em .7em 1.8em;
+  line-height:      2.5;
+  letter-spacing:   0.5;
+  word-spacing:     0;
+  white-space:      nowrap;
+  text-decoration:  none;
+  outline:          none;
+}
+
+a.vk:link, a.vk:visited, a.vk:hover, a.vk:active {
+  font-family:      'Roboto', sans-serif;
+  font-weight:      300;
+  font-size:        1em;
+  background:       #45668e;
+  color:            white;
+  border-radius:    5em;
+  padding:           .7em 1.8em .7em 1.8em;
+  line-height:      2.5;
+  letter-spacing:   0.5;
+  word-spacing:     0;
+  white-space:      nowrap;
+  text-decoration:  none;
+  outline:          none;
+}
+
+a.whatsapp:link, a.whatsapp:visited, a.whatsapp:hover, a.whatsapp:active {
+  font-family:      'Roboto', sans-serif;
+  font-weight:      300;
+  font-size:        1em;
+  background:       #075e54;
+  color:            white;
+  border-radius:    5em;
+  padding:           .7em 1.8em .7em 1.8em;
+  line-height:      2.5;
+  letter-spacing:   0.5;
+  word-spacing:     0;
+  white-space:      nowrap;
+  text-decoration:  none;
+  outline:          none;
+}
+
+.border    {border: 1px solid #ddd;}
+.border-left      {border-left:  1px solid #ddd;}
+.border-right     {border-right: 1px solid #ddd;}
+.bigger {height:35em;}
+.mcbig {height:10em;}
+.screen       {height:100vh; transition: 999999s;}
+.mdl      {vertical-align: middle}
+.line {height:1px;}
+.bg {
+  background-image: url(logo.png);
+  background-size: auto;
+  -background-attachment: fixed;
+  background-position: center right;
+  background-repeat: no-repeat;
+}
+.bg1 {
+  background-image: url(bg2.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.air {height: 500px;}
+.top-big      {padding-top:    2em;}
+.top          {padding-top:    1em;}
+.top-small    {padding-top:    .5em;}
+.bottom-big   {padding-bottom: 2em;}
+.bottom       {padding-bottom: 1em;}
+.bottom-small {padding-bottom: .5em;}
+
+.grad {  background: #2998ff;}
+
+.half, .half-hover:hover  {background-color: rgba(0,0,0,.5);}
+#half, #half-hover:hover  {background-color:            rgba(0,0,0,.5);}
+.black, .black-hover:hover  {background-color: #484848;}
+#black, #black-hover:hover  {color:            #484848;}
+.gray, .gray-hover:hover    {background-color: #999;}
+#gray, #gray-hover:hover    {color:            #999;}
+.footer, .footer-hover:hover    {background-color: #323232;}
+#footer, #footer-hover:hover    {color:            #323232;}
+.lightgray, .lightgray-hover:hover    {background-color: #ddd;}
+#lightgray, #lightgray-hover:hover    {color:            #ddd;}
+.lightgray2, .lightgray2-hover:hover    {background-color: #fafafa;}
+#lightgray2, #lightgray2-hover:hover    {color:            #fafafa;}
+.white, .white-hover:hover  {background-color: white;}
+#white, #white-hover:hover  {color:            white;}
+
+.color, .color-hover:hover          {background-color: #fd5c63;}
+#color, #color-hover:hover          {color:            #fd5c63;}
