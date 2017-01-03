@@ -162,6 +162,33 @@ a.select2:hover {
   -box-shadow: 1px 1px 0 #bbb, -1px -1px 0 #bbb, -1px 1px 0 #bbb, 1px -1px 0 #bbb, inset 5px 0 0 yellow;
 }
 
+a.select4:link, a.select4:visited, a.select4:active {
+  font-family:      'Arial', sans-serif;
+  font-weight:      400;
+  font-size:        16px;
+  color:            black;
+  -line-height:      normal;
+  background-color: white;
+  -border: 10px solid red;
+  box-shadow: 1px 1px 0 #000, -1px -1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, 2px 0 0 white, 3px 0 0 black, 4px 0 0 white, 5px 1px 0 black, 5px -1px 0 black;
+  -border-top: 1px solid black;
+  -border-left: 1px solid black;
+  -border-right: 1px solid black;
+  -border-bottom: 1px solid black;
+  padding: 8px 16px 8px 16px;
+  white-space:      nowrap;
+	text-decoration:  none;
+  outline:          none;
+  outline: none;
+  -box-sizing: border-box;
+}
+a.select4:hover {
+  color:            black;
+  background-color: yellow;
+  -border-bottom:    2px solid #000;
+  -box-shadow: 1px 1px 0 #bbb, -1px -1px 0 #bbb, -1px 1px 0 #bbb, 1px -1px 0 #bbb, inset 5px 0 0 yellow;
+}
+
 .up {padding-top: 8px;padding-bottom: 8px;}
 
 a.select3:link, a.select3:visited, a.select3:active {
@@ -191,12 +218,14 @@ a.select3:hover {
   -box-shadow: 1px 1px 0 #bbb, -1px -1px 0 #bbb, -1px 1px 0 #bbb, 1px -1px 0 #bbb, inset 5px 0 0 #bbb;
 }
 .screen {min-height:   100vh;}
+.pre {white-space: pre-line;}
 
 .border-top       {border-top:   1px solid #000;}
 .border-bottom    {border-bottom:1px solid #000;}
 .border-left      {border-left:  1px solid #000;}
 .border-right     {border-right: 1px solid #000;}
 .bb {box-shadow: -1px 0 0 #000;}
+.ww {word-wrap: normal;}
 
 .black, .black-hover:hover          {background-color: rgba(0,0,0,1);}
 #black, #black-hover:hover          {color:            rgba(0,0,0,1);}
