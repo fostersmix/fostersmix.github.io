@@ -86,7 +86,7 @@
   .hide-md {display: inline;}*/
   .hide-lg {display: none;}
   body {
-    background: rgba(16,121,250,1);
+    background: white;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     color: white;
@@ -111,7 +111,7 @@
 a:link, a:visited, a:hover, a:active {
   font-family: 'Roboto', sans-serif;
   font-size: 1em;
-  color: black;
+  color: #424242;
 	text-decoration: none;
   outline: none;
 }
@@ -127,18 +127,18 @@ a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
 a.delete:link, a.delete:visited, a.delete:active {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
-  font-size: 1.4em;
+  font-size: 1.2em;
   height: 2em;
   color: rgba(255,255,255,.5);
-  background: black;
-  border-radius: 5em;
+  background: #6600CC;
+  border-radius: 0em;
   padding: .45em .8em .45em 1em;
   line-height: 2.6;
   letter-spacing: .05em;
   white-space:nowrap;
 	text-decoration: none;
   outline: none;
-  box-shadow: 0 .1em .1em rgba(0,0,0,.2);
+  -box-shadow: 0 .1em .1em rgba(0,0,0,.2);
 }
 a.delete:hover {
   color: rgba(255,255,255,.6);
@@ -146,33 +146,54 @@ a.delete:hover {
 
 a.more:link, a.more:visited, a.more:active {
   font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-size: 1.4em;
+  font-weight: 300;
+  font-size: 1.2em;
   height: 2em;
-  background-color: white;
-  color: black;
-  border-radius: 5em;
+  background-color: #f7f7f7;
+  color: #424242;
+  border-radius: 0;
   padding: .45em 1em .45em 1em;
   line-height: 2.6;
   letter-spacing: .05em;
   white-space:nowrap;
   text-decoration: none;
   outline: none;
-  box-shadow: 0 .1em .1em rgba(0,0,0,.2);
+  -box-shadow: 0 .1em .1em rgba(0,0,0,.2);
 }
 a.more:hover {
-  -background-color: #fafafa;
+  -background-color: #f7f7f7;
+}
+
+a.more2:link, a.more2:visited, a.more2:active {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 1.2em;
+  height: 2em;
+  background-color: yellow;
+  color: #424242;
+  border-radius: 0;
+  padding: .45em 1em .45em 1em;
+  line-height: 2.6;
+  letter-spacing: .05em;
+  white-space:nowrap;
+  text-decoration: none;
+  outline: none;
+  -box-shadow: 0 .1em .1em rgba(0,0,0,.2);
+}
+a.more2:hover {
+  -background-color: #f7f7f7;
 }
 
 a.add:link, a.add:visited, a.add:hover, a.add:active {
   font-family: 'Roboto', sans-serif;
-  font-size: 1.4em;
+  font-size: 1.2em;
   font-weight: 300;
   height: 2em;
   background-color: none;
-  color: white;
-  border: 1px dashed white;
-  border-radius: 5em;
+  color: black;
+  -border: 1px solid black;
+  box-shadow: inset 1px 1px 0 #bbb, inset -1px -1px 0 #bbb, inset -1px 1px 0 #bbb, inset 1px -1px 0 #bbb;
+  border-radius: 0;
   padding: .45em 1em .45em 1em;
   line-height: 2.6;
   letter-spacing: .05em;
@@ -183,11 +204,11 @@ a.add:link, a.add:visited, a.add:hover, a.add:active {
 
 #search {
   font-family: 'Ionicons', 'Roboto', sans-serif;
-  font-weight: 500;
-  font-size: 1.4em;
+  font-weight: 300;
+  font-size: 1.2em;
   height: 2em;
   color: white;
-  background-color: black;
+  background-color: #424242;
   border: none;
   border-radius: 5em;
   padding: .45em 1em .45em 1em;
@@ -202,7 +223,7 @@ a.add:link, a.add:visited, a.add:hover, a.add:active {
 #label {
   font-family: 'Roboto', sans-serif;
   letter-spacing: .05em;
-  font-weight: 400;
+  font-weight: 300;
   color: white;
   padding-right: .4em;
 }
