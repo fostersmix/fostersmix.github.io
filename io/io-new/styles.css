@@ -80,7 +80,8 @@ a.delete:link, a.delete:visited, a.delete:active {
   font-size: 1.2em;
   height: 2em;
   color: rgba(255,255,255,.5);
-  background: #6600CC;
+  background: orangered;
+  border: 1px solid orangered;
   border-radius: 3px;
   padding: .45em .8em .45em 1em;
   line-height: 2.8;
@@ -106,6 +107,7 @@ a.add:link, a.add:visited, a.add:active {
   font-size: 1.2em;
   height: 2em;
   background-color: #f7f7f7;
+  border: 1px solid #f7f7f7;
   color: #424242;
   border-radius: 3px;
   padding: .45em 1em .45em 1em;
@@ -169,5 +171,5 @@ a.tag:link, a.tag:visited, a.tag:hover, a.tag:active {
 #lightgray, #lightgray-hover:hover    {color: #f7f7f7;}
 .white, .white-hover:hover  {background-color:rgba(255,255,255,1);}
 #white, #white-hover:hover  {color:rgba(255,255,255,1);}
-.blue, .blue-hover:hover  {background-color:#6600CC;}
-#blue, #blue-hover:hover  {color:#6600CC;}
+.blue, .blue-hover:hover  {background-color:orangered;}
+#blue, #blue-hover:hover  {color:orangered;}
