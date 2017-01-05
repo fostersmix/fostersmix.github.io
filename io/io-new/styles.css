@@ -106,9 +106,9 @@ a.add:link, a.add:visited, a.add:active {
   font-weight: 300;
   font-size: 1.2em;
   height: 2em;
-  background-color: #f7f7f7;
-  border: 1px solid #f7f7f7;
-  color: #424242;
+  background-color: #fafafa;
+  border: 1px solid #fafafa;
+  color: #666;
   border-radius: 3px;
   padding: .45em 1em .45em 1em;
   line-height: 2.8;
@@ -122,7 +122,7 @@ a.add:hover {
   -background-color: #f7f7f7;
 }
 
-a.tag:link, a.tag:visited, a.tag:hover, a.tag:active {
+a.tag:link, a.tag:visited,a.tag:active {
   font-family: 'Roboto', sans-serif;
   font-size: 1.2em;
   font-weight: 300;
@@ -138,7 +138,11 @@ a.tag:link, a.tag:visited, a.tag:hover, a.tag:active {
   text-decoration: none;
   outline: none;
 }
-
+a.tag:hover {
+color: orangered;
+-border: 1px solid orangered;
+}
+ 
 #search {
   font-family: 'Ionicons', 'Roboto', sans-serif;
   font-weight: 300;
@@ -171,5 +175,6 @@ a.tag:link, a.tag:visited, a.tag:hover, a.tag:active {
 #lightgray, #lightgray-hover:hover    {color: #f7f7f7;}
 .white, .white-hover:hover  {background-color:rgba(255,255,255,1);}
 #white, #white-hover:hover  {color:rgba(255,255,255,1);}
-.blue, .blue-hover:hover  {background-color:orangered;}
-#blue, #blue-hover:hover  {color:orangered;}
+.blue, .blue-hover:hover  {background-color:#FF4500;}
+#blue  {color:                              rgba(255,69,0,1);}
+#blue-hover:hover  {color:                  orangered;}
