@@ -80,8 +80,8 @@ a.delete:link, a.delete:visited, a.delete:active {
   font-size: 1.2em;
   height: 2em;
   color: rgba(255,255,255,.5);
-  background: orangered;
-  border: 1px solid orangered;
+  background: #111;
+  border: 1px solid #111;
   border-radius: 3px;
   padding: .45em .8em .45em 1em;
   line-height: 2.8;
@@ -106,9 +106,9 @@ a.add:link, a.add:visited, a.add:active {
   font-weight: 300;
   font-size: 1.2em;
   height: 2em;
-  background-color: #fafafa;
-  border: 1px solid #fafafa;
-  color: #666;
+  background-color: #fff;
+  border: 1px solid #fff;
+  color: #999;
   border-radius: 3px;
   padding: .45em 1em .45em 1em;
   line-height: 2.8;
@@ -128,8 +128,8 @@ a.tag:link, a.tag:visited,a.tag:active {
   font-weight: 300;
   height: 2em;
   background-color: none;
-  color: orangered;
-  border: 1px solid orangered;
+  color: #111;
+  border: 1px solid #ddd;
   border-radius: 3px;
   padding: .45em 1em .45em 1em;
   line-height: 2.8;
@@ -139,7 +139,28 @@ a.tag:link, a.tag:visited,a.tag:active {
   outline: none;
 }
 a.tag:hover {
-color: orangered;
+color: #111;
+-border: 1px solid orangered;
+}
+
+a.tag5:link, a.tag5:visited,a.tag5:active {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
+  font-weight: 300;
+  height: 2em;
+  background-color: none;
+  color: #666;
+  border: 1px dashed #ddd;
+  border-radius: 3px;
+  padding: .45em 1em .45em 1em;
+  line-height: 2.8;
+  letter-spacing: .05em;
+  white-space:nowrap;
+  text-decoration: none;
+  outline: none;
+}
+a.tag5:hover {
+color: #111;
 -border: 1px solid orangered;
 }
  
