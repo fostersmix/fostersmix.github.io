@@ -96,7 +96,7 @@ a.delete:link, a.delete:visited, a.delete:active {
 }
 a.delete:hover {
   color: rgba(255,255,255,.6);
-  background: red;
+  -background: red;
 }
 
 #delete {
@@ -123,7 +123,7 @@ a.tag:link, a.tag:visited, a.tag:active {
   outline: none;
 }
 a.tag:hover {
-  color: #666;
+  color: #888;
 }
 
 a.add:link, a.add:visited,a.add:active {
@@ -144,7 +144,7 @@ a.add:link, a.add:visited,a.add:active {
 a.add:hover {
   -background-color: black;
   -color: white;
-  border: 1px solid #bbb;
+  border: 1px solid #ccc;
 }
 
 .ws     {word-spacing: 5;}
