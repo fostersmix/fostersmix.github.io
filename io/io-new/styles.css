@@ -57,12 +57,13 @@
   .hide-lg {display: none;}
   body {
     font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     background: white;
     color: black;
     font-size: 1rem;
     margin-top: 0;
     margin-bottom: 0;
+    -webkit-font-smoothing: antialiased;
   }
 }
 
@@ -76,11 +77,11 @@ a:link, a:visited, a:hover, a:active {
 
 a.delete:link, a.delete:visited, a.delete:active {
   font-family: 'Roboto', sans-serif;
-  font-weight: 100;
+  font-weight: 300;
   font-size: 1.2em;
   color: rgba(255,255,255,.5);
-  background: #222;
-  border: 1px solid #222;
+  background: #000;
+  -border: 1px solid #000;
   border-radius: 5em;
   padding: .45em .8em .45em 1em;
   line-height: 2.9;
@@ -88,20 +89,20 @@ a.delete:link, a.delete:visited, a.delete:active {
   white-space:nowrap;
 	text-decoration: none;
   outline: none;
-  box-shadow: 2em 0 0 #222;
+  box-shadow: 2.2em 0 0 #000;
 }
 a.delete:hover {
   color: rgba(255,255,255,.6);
-  background: #000;
-  border: 1px solid #000;
+  background: red;
+  -border: 1px solid red;
 }
 a.delete2:link, a.delete2:visited, a.delete2:active {
   font-family: 'Roboto', sans-serif;
-  font-weight: 100;
+  font-weight: 300;
   font-size: 1.2em;
   color: rgba(255,255,255,.5);
-  background: #222;
-  border: 1px solid #222;
+  background: #000;
+  -border: 1px solid #000;
   border-radius: 5em;
   padding: .45em .8em .45em 1em;
   line-height: 2.9;
@@ -112,21 +113,21 @@ a.delete2:link, a.delete2:visited, a.delete2:active {
 }
 a.delete2:hover {
   color: rgba(255,255,255,.6);
-  background: #000;
-  border: 1px solid #000;
+  background: red;
+  -border: 1px solid red;
 }
 
 #delete {
   font-family: 'Roboto', sans-serif;
   letter-spacing: .05em;
-  font-weight: 300;
+  font-weight: 400;
   color: white;
   padding-right: .4em;
 }
 
 a.tag:link, a.tag:visited, a.tag:active {
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 1.2em;
   background-color: #fff;
   border: 1px solid #fff;
@@ -146,7 +147,7 @@ a.tag:hover {
 a.add:link, a.add:visited,a.add:active {
   font-family: 'Roboto', sans-serif;
   font-size: 1.2em;
-  font-weight: 300;
+  font-weight: 400;
   background-color: none;
   color: #111;
   border: 1px solid #ddd;
@@ -159,7 +160,9 @@ a.add:link, a.add:visited,a.add:active {
   outline: none;
 }
 a.add:hover {
-  border: 1px solid #ccc;
+  -background-color: black;
+  -color: white;
+  border: 1px solid #bbb;
 }
 
 .ws     {word-spacing: 5;}
