@@ -12,6 +12,7 @@
     font-size: 2.5rem;
     margin-top: 0;
     margin-bottom: 0;
+    -webkit-font-smoothing: antialiased;
   }
 }
 
@@ -29,6 +30,7 @@
     font-size: 2rem;
     margin-top: 0;
     margin-bottom: 0;
+    -webkit-font-smoothing: antialiased;
   }
 }
 
@@ -46,6 +48,7 @@
     font-size: 1.5rem;
     margin-top: 0;
     margin-bottom: 0;
+    -webkit-font-smoothing: antialiased;
   }
 }
 
@@ -89,32 +92,11 @@ a.delete:link, a.delete:visited, a.delete:active {
   white-space:nowrap;
 	text-decoration: none;
   outline: none;
-  box-shadow: 2.2em 0 0 #000;
+  -box-shadow: 2.2em 0 0 #000;
 }
 a.delete:hover {
   color: rgba(255,255,255,.6);
   background: red;
-  -border: 1px solid red;
-}
-a.delete2:link, a.delete2:visited, a.delete2:active {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  font-size: 1.2em;
-  color: rgba(255,255,255,.5);
-  background: #000;
-  -border: 1px solid #000;
-  border-radius: 5em;
-  padding: .45em .8em .45em 1em;
-  line-height: 2.9;
-  letter-spacing: .05em;
-  white-space:nowrap;
-	text-decoration: none;
-  outline: none;
-}
-a.delete2:hover {
-  color: rgba(255,255,255,.6);
-  background: red;
-  -border: 1px solid red;
 }
 
 #delete {
