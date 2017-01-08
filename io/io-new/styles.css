@@ -81,22 +81,40 @@ a:link, a:visited, a:hover, a:active {
 a.delete:link, a.delete:visited, a.delete:active {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  font-size: 1.2em;
+  font-size: 1.5em;
   color: rgba(255,255,255,.5);
-  background: #000;
+  background: #0084ff;
   -border: 1px solid #000;
   border-radius: 5em;
   padding: .45em .8em .45em 1em;
-  line-height: 2.9;
+  line-height: 2.5;
   letter-spacing: .05em;
   white-space:nowrap;
 	text-decoration: none;
   outline: none;
-  -box-shadow: 2.2em 0 0 #000;
+  box-shadow: 2.2em 0 0 #0084ff;
 }
 a.delete:hover {
   color: rgba(255,255,255,.6);
-  -background: red;
+}
+
+a.delete2:link, a.delete2:visited, a.delete2:active {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 1.5em;
+  color: rgba(255,255,255,.5);
+  background: #0084ff;
+  -border: 1px solid #000;
+  border-radius: 5em;
+  padding: .45em .8em .45em 1em;
+  line-height: 2.6;
+  letter-spacing: .05em;
+  white-space:nowrap;
+	text-decoration: none;
+  outline: none;
+}
+a.delete2:hover {
+  color: rgba(255,255,255,.6);
 }
 
 #delete {
@@ -110,32 +128,32 @@ a.delete:hover {
 a.tag:link, a.tag:visited, a.tag:active {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 1.2em;
+  font-size: 1.5em;
   background-color: #fff;
   border: 1px solid #fff;
-  color: #999;
+  color: #888;
   border-radius: 5em;
   padding: .45em 1em .45em 1em;
-  line-height: 2.9;
+  line-height: 2.5;
   letter-spacing: .05em;
   white-space:nowrap;
   text-decoration: none;
   outline: none;
 }
 a.tag:hover {
-  color: #888;
+  color: #666;
 }
 
 a.add:link, a.add:visited,a.add:active {
   font-family: 'Roboto', sans-serif;
-  font-size: 1.2em;
+  font-size: 1.5em;
   font-weight: 400;
   background-color: none;
-  color: #111;
-  border: 1px solid #ddd;
+  color: #0084ff;
+  -border: 1px solid #ddd;
   border-radius: 5em;
   padding: .45em 1em .45em 1em;
-  line-height: 2.9;
+  line-height: 2.5;
   letter-spacing: .05em;
   white-space:nowrap;
   text-decoration: none;
@@ -144,7 +162,7 @@ a.add:link, a.add:visited,a.add:active {
 a.add:hover {
   -background-color: black;
   -color: white;
-  border: 1px solid #ccc;
+  -border: 1px solid #ccc;
 }
 
 .ws     {word-spacing: 5;}
@@ -152,6 +170,9 @@ a.add:hover {
 .screen {min-height: 100vh;}
 .top          {padding-top: 1em;}
 .bottom       {padding-bottom: 1em;}
+.bb {border: 1px dashed #ccc;}
+.round {border-radius: 1em;}
+.ff {  font-size: 1.5em;color:#bbb;}
 
 .black, .black-hover:hover  {background-color:#424242;}
 #black, #black-hover:hover  {color:#424242;}
