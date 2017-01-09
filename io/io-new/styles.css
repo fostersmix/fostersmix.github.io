@@ -107,12 +107,13 @@ a.delete:link, a.delete:visited, a.delete:active {
   -border: 1px solid #000;
   border-radius: .5em;
   padding: .45em .8em .45em 1em;
-  line-height: 3;
+  line-height: 1;
   letter-spacing: .05em;
   white-space:nowrap;
 	text-decoration: none;
   outline: none;
   transition: .1s;
+  display: inline-block;
   -box-shadow: 2.2em 0 0 #0084ff;
 }
 a.delete:hover {
@@ -137,12 +138,13 @@ a.tag:link, a.tag:visited, a.tag:active {
   color: #000;
   border-radius: .5em;
   padding: .45em 1em .45em 1em;
-  line-height: 3;
+  line-height: 1;
   letter-spacing: .05em;
   white-space:nowrap;
   text-decoration: none;
   outline: none;
   transition: .1s;
+  display: inline-block;
 }
 a.tag:hover {
   -color: #777;
@@ -159,12 +161,14 @@ a.add:link, a.add:visited,a.add:active {
   -border: 2px solid #FFEB3B;
   border-radius: .5em;
   padding: .45em 1em .45em 1em;
-  line-height: 3;
+  line-height: 1;
   letter-spacing: .05em;
   white-space:nowrap;
   text-decoration: none;
   outline: none;
   transition: .2s;
+  display: inline-block;
+
 
 }
 a.add:hover {
@@ -176,6 +180,7 @@ a.add:hover {
 }
 
 .ws     {word-spacing: 10;}
+.lh {line-height: 4;}
 .ws2     {word-spacing: -3;}
 .screen {min-height: 100vh;}
 .top          {padding-top: 1em;}
