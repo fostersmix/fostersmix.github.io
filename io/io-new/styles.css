@@ -71,7 +71,6 @@
     font-size: 1rem;
     margin-top: 0;
     margin-bottom: 0;
-    -webkit-font-smoothing: antialiased;
   }
   h1 {
   color: #000;
@@ -86,6 +85,15 @@ a:link, a:visited, a:hover, a:active {
   font-family: 'Roboto', sans-serif;
   font-size: 1em;
   color: #424242;
+	text-decoration: none;
+  outline: none;
+}
+
+a.solid:link, a.solid:visited, a.solid:hover, a.solid:active {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
+  font-weight: 300;
+  color: #999;
 	text-decoration: none;
   outline: none;
 }
@@ -115,14 +123,14 @@ a.delete:hover {
 #delete {
   font-family: 'Roboto', sans-serif;
   letter-spacing: .05em;
-  font-weight: 500;
+  font-weight: 400;
   color: black;
   padding-right: .4em;
 }
 
 a.tag:link, a.tag:visited, a.tag:active {
   font-family: 'Roboto', sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 1.5em;
   background-color: #fff;
   border: 2px solid #eee;
@@ -145,7 +153,7 @@ a.tag:hover {
 a.add:link, a.add:visited,a.add:active {
   font-family: 'Roboto', sans-serif;
   font-size: 1.5em;
-  font-weight: 500;
+  font-weight: 400;
   background-color: #eee;
   color: #000;
   -border: 2px solid #FFEB3B;
