@@ -44,7 +44,7 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     background: white;
-    color: black;
+    color: #999;
     font-size: 1.5rem;
     margin-top: 0;
     margin-bottom: 0;
@@ -138,17 +138,17 @@ a.tag:link, a.tag:visited, a.tag:active {
 }
 a.tag:hover {
   -color: #777;
-  border: 2px solid #fff;
-  box-shadow: .1em .1em 0 #eee, -0.1em -0.1em 0 #eee, 0.1em -0.1em 0 #eee, -0.1em 0.1em 0 #eee;
+  border: 2px solid #ddd;
+  -box-shadow: .1em .1em 0 #eee, -0.1em -0.1em 0 #eee, 0.1em -0.1em 0 #eee, -0.1em 0.1em 0 #eee;
 }
 
 a.add:link, a.add:visited,a.add:active {
   font-family: 'Roboto', sans-serif;
   font-size: 1.5em;
   font-weight: 500;
-  background-color: #FFEB3B;
-  color: white;
-  -border: 2px dashed #FFEB3B;
+  background-color: #eee;
+  color: #000;
+  -border: 2px solid #FFEB3B;
   border-radius: .5em;
   padding: .45em 1em .45em 1em;
   line-height: 3;
@@ -156,12 +156,12 @@ a.add:link, a.add:visited,a.add:active {
   white-space:nowrap;
   text-decoration: none;
   outline: none;
-  transition: .1s;
+  transition: .2s;
 
 }
 a.add:hover {
   background-color: #FFEB3B;
-  color: white;
+  color: black;
   -border: 1px solid #ccc;
   box-shadow: .1em .1em 0 #FFEB3B, -0.1em -0.1em 0 #FFEB3B, 0.1em -0.1em 0 #FFEB3B, -0.1em 0.1em 0 #FFEB3B;
 
