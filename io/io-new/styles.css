@@ -68,6 +68,12 @@
     margin-bottom: 0;
     -webkit-font-smoothing: antialiased;
   }
+  h1 {
+    color: #99FFFF;
+    font-size: 5em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+  }
 }
 
 a:link, a:visited, a:hover, a:active {
@@ -194,8 +200,22 @@ a.tag:link, a.tag:visited, a.tag:hover, a.tag:active {
 .screen {min-height: 100vh;}
 .top    {padding-top: 1em;}
 .bottom {padding-bottom: 1em;}
+.top-big    {padding-top: 2em;}
+.bottom-big {padding-bottom: 2em;}
 .lh     {line-height: 2.7;}
 .ws     {word-spacing: 10;}
+.ph {
+  background-image: url(https://insdrcdn.com/media/attachments/7/07/1150ad077.jpg);
+  background-size: cover;
+  -background-attachment: fixed;
+  background-position: center center;
+  border-radius: 2em;
+  width: 100%:auto;
+  -height:10em;
+  text-align: center;
+  vertical-align: middle;
+}
+
 
 .black, .black-hover:hover  {background-color:rgba(0,0,0,1);}
 #black, #black-hover:hover  {color:           rgba(0,0,0,1);}
