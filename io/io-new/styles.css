@@ -7,8 +7,8 @@
   body {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    background: white;
-    color: black;
+    background: #fff;
+    color: #000;
     font-size: 2.5rem;
     margin-top: 0;
     margin-bottom: 0;
@@ -25,8 +25,8 @@
   body {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    background: white;
-    color: black;
+    background: #fff;
+    color: #999;
     font-size: 2rem;
     margin-top: 0;
     margin-bottom: 0;
@@ -43,7 +43,7 @@
   body {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    background: white;
+    background: #fff;
     color: #999;
     font-size: 1.5rem;
     margin-top: 0;
@@ -61,7 +61,7 @@
   body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    background: white;
+    background: #fff;
     color: #999;
     font-size: 1rem;
     margin-top: 0;
@@ -74,11 +74,11 @@ a:link, a:visited, a:hover, a:active {
   font-family: 'Roboto', sans-serif;
   font-size: 1em;
   letter-spacing: .05em;
-  color: #424242;
+  color: #999;
 	text-decoration: none;
   outline: none;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  -moz-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -moz-tap-highlight-color: rgba(0,0,0,0);
 }
 
 a.solid:link, a.solid:visited, a.solid:hover, a.solid:active {
@@ -89,7 +89,7 @@ a.solid:link, a.solid:visited, a.solid:hover, a.solid:active {
   color: #999;
 	text-decoration: none;
   outline: none;
-  -webkit-tap-highlight-color: rgba(0,0,0,0); 
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
 
@@ -97,18 +97,18 @@ a.delete:link, a.delete:visited, a.delete:active {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 1.5em;
-  color: black;
+  color: #000;
   background: #99FFFF;
   border-radius: .5em;
-  padding: .45em .8em .45em 1em;
-  line-height: 1;
+  padding: .35em .8em .35em 1em;
   letter-spacing: .05em;
   white-space:nowrap;
 	text-decoration: none;
   outline: none;
   transition: .1s;
-  display: inline-block;
-  -webkit-tap-highlight-color: rgba(0,0,0,0); 
+  -display: inline-block;
+  -line-height: 1;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
 a.delete:hover {
@@ -118,7 +118,7 @@ a.delete:hover {
   font-family: 'Roboto', sans-serif;
   letter-spacing: .05em;
   font-weight: 400;
-  color: black;
+  color: #000;
   padding-right: .4em;
 }
 
@@ -130,15 +130,15 @@ a.more:link, a.more:visited, a.more:active {
   border: 2px solid #eee;
   color: #000;
   border-radius: .5em;
-  padding: .45em 1em .45em 1em;
-  line-height: 1;
+  padding: .35em 1em .35em 1em;
   letter-spacing: .05em;
   white-space:nowrap;
   text-decoration: none;
   outline: none;
   transition: .1s;
-  display: inline-block;
-  -webkit-tap-highlight-color: rgba(0,0,0,0); 
+  -display: inline-block;
+  -line-height: 1;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
 a.more:hover {
@@ -152,15 +152,15 @@ a.add:link, a.add:visited,a.add:active {
   background-color: #eee;
   color: #000;
   border-radius: .5em;
-  padding: .45em 1em .45em 1em;
-  line-height: 1;
+  padding: .35em 1em .35em 1em;
   letter-spacing: .05em;
   white-space:nowrap;
   text-decoration: none;
   outline: none;
   transition: .2s;
-  display: inline-block;
-  -webkit-tap-highlight-color: rgba(0,0,0,0); 
+  -display: inline-block;
+  -line-height: 1;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
 a.add:hover {
@@ -168,13 +168,13 @@ a.add:hover {
   box-shadow: .1em .1em 0 #FFEB3B, -0.1em -0.1em 0 #FFEB3B, 0.1em -0.1em 0 #FFEB3B, -0.1em 0.1em 0 #FFEB3B;
 }
 
-.ws     {word-spacing: 10;}
-.lh     {line-height: 4;}
 .screen {min-height: 100vh;}
 .top    {padding-top: 1em;}
 .bottom {padding-bottom: 1em;}
+.lh     {line-height: 2.7;}
+.ws     {word-spacing: 10;}
 
-.black, .black-hover:hover  {background-color:#424242;}
-#black, #black-hover:hover  {color:#424242;}
+.black, .black-hover:hover  {background-color:rgba(0,0,0,1);}
+#black, #black-hover:hover  {color:           rgba(0,0,0,1);}
 .white, .white-hover:hover  {background-color:rgba(255,255,255,1);}
-#white, #white-hover:hover  {color:rgba(255,255,255,1);}
+#white, #white-hover:hover  {color:           rgba(255,255,255,1);}
