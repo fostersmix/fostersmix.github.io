@@ -26,7 +26,7 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     background: #fff;
-    color: #999;
+    color: #aaa;
     font-size: 2.5rem;
     margin-top: 0;
     margin-bottom: 0;
@@ -44,7 +44,7 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     background: #fff;
-    color: #999;
+    color: #aaa;
     font-size: 1.5rem;
     margin-top: 0;
     margin-bottom: 0;
@@ -62,7 +62,7 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     background: #fff;
-    color: #999;
+    color: #aaa;
     font-size: 1rem;
     margin-top: 0;
     margin-bottom: 0;
@@ -74,7 +74,7 @@ a:link, a:visited, a:hover, a:active {
   font-family: 'Roboto', sans-serif;
   font-size: 1em;
   letter-spacing: .05em;
-  color: #999;
+  color: #aaa;
 	text-decoration: none;
   outline: none;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
@@ -86,7 +86,7 @@ a.solid:link, a.solid:visited, a.solid:hover, a.solid:active {
   font-size: 1.2em;
   font-weight: 400;
   letter-spacing: .05em;
-  color: #999;
+  color: #aaa;
 	text-decoration: none;
   outline: none;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
@@ -152,7 +152,7 @@ a.add:link, a.add:visited,a.add:active {
   font-size: 1.5em;
   font-weight: 400;
   background-color: #fff;
-  border: 2px solid #eee;
+  border: 2px solid #ddd;
   color: #000;
   border-radius: .6em;
   padding: .35em 1em .35em 1em;
@@ -167,9 +167,28 @@ a.add:link, a.add:visited,a.add:active {
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
 a.add:hover {
-  background-color: #fff;
+  background-color: #fff55b;
   border: 2px solid #fff55b;
   box-shadow: .1em .1em 0 #fff55b, -0.1em -0.1em 0 #fff55b, 0.1em -0.1em 0 #fff55b, -0.1em 0.1em 0 #fff55b;
+}
+
+a.tag:link, a.tag:visited, a.tag:hover, a.tag:active {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+  font-weight: 400;
+  background-color: #fff;
+  color: #aaa;
+  border-radius: .6em;
+  padding: .35em 1em .35em 1em;
+  letter-spacing: .05em;
+  white-space:nowrap;
+  text-decoration: none;
+  outline: none;
+  transition: .15s;
+  -display: inline-block;
+  -line-height: 1;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -moz-tap-highlight-color: rgba(0,0,0,0);
 }
 
 .screen {min-height: 100vh;}
