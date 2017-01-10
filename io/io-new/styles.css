@@ -27,7 +27,7 @@
     font-weight: 300;
     background: #fff;
     color: #999;
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-top: 0;
     margin-bottom: 0;
     -webkit-font-smoothing: antialiased;
@@ -99,13 +99,13 @@ a.delete:link, a.delete:visited, a.delete:active {
   font-size: 1.5em;
   color: #000;
   background: #99FFFF;
-  border-radius: .5em;
+  border-radius: .6em;
   padding: .35em .8em .35em 1em;
   letter-spacing: .05em;
   white-space:nowrap;
 	text-decoration: none;
   outline: none;
-  transition: .1s;
+  transition: .15s;
   -display: inline-block;
   -line-height: 1;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
@@ -126,46 +126,50 @@ a.more:link, a.more:visited, a.more:active {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 1.5em;
-  background-color: #fff;
-  border: 2px solid #eee;
+  background-color: #fafafa;
+  -border: 2px solid #fff;
   color: #000;
-  border-radius: .5em;
+  border-radius: .6em;
   padding: .35em 1em .35em 1em;
   letter-spacing: .05em;
   white-space:nowrap;
   text-decoration: none;
   outline: none;
-  transition: .1s;
+  transition: .15s;
   -display: inline-block;
   -line-height: 1;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
 a.more:hover {
-  border: 2px solid #ddd;
+  -border: 2px solid #ddd;
+  background-color: #fff55b;
+  box-shadow: .1em .1em 0 #fff55b, -0.1em -0.1em 0 #fff55b, 0.1em -0.1em 0 #fff55b, -0.1em 0.1em 0 #fff55b;
 }
 
 a.add:link, a.add:visited,a.add:active {
   font-family: 'Roboto', sans-serif;
   font-size: 1.5em;
   font-weight: 400;
-  background-color: #eee;
+  background-color: #fff;
+  border: 2px solid #eee;
   color: #000;
-  border-radius: .5em;
+  border-radius: .6em;
   padding: .35em 1em .35em 1em;
   letter-spacing: .05em;
   white-space:nowrap;
   text-decoration: none;
   outline: none;
-  transition: .2s;
+  transition: .15s;
   -display: inline-block;
   -line-height: 1;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
 a.add:hover {
-  background-color: #FFEB3B;
-  box-shadow: .1em .1em 0 #FFEB3B, -0.1em -0.1em 0 #FFEB3B, 0.1em -0.1em 0 #FFEB3B, -0.1em 0.1em 0 #FFEB3B;
+  background-color: #fff;
+  border: 2px solid #fff55b;
+  box-shadow: .1em .1em 0 #fff55b, -0.1em -0.1em 0 #fff55b, 0.1em -0.1em 0 #fff55b, -0.1em 0.1em 0 #fff55b;
 }
 
 .screen {min-height: 100vh;}
