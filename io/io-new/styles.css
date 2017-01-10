@@ -152,7 +152,7 @@ a.add:link, a.add:visited,a.add:active {
   font-size: 1.5em;
   font-weight: 400;
   background-color: #fff;
-  border: 2px solid #ddd;
+  border: 2px solid #eee;
   color: #000;
   border-radius: .6em;
   padding: .35em 1em .35em 1em;
@@ -169,7 +169,7 @@ a.add:link, a.add:visited,a.add:active {
 a.add:hover {
   background-color: #fff55b;
   border: 2px solid #fff55b;
-  box-shadow: .1em .1em 0 #fff55b, -0.1em -0.1em 0 #fff55b, 0.1em -0.1em 0 #fff55b, -0.1em 0.1em 0 #fff55b;
+  -box-shadow: .1em .1em 0 #fff55b, -0.1em -0.1em 0 #fff55b, 0.1em -0.1em 0 #fff55b, -0.1em 0.1em 0 #fff55b;
 }
 
 a.tag:link, a.tag:visited, a.tag:hover, a.tag:active {
