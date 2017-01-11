@@ -149,8 +149,8 @@ a.more:link, a.more:visited, a.more:active {
 }
 a.more:hover {
   -border: 2px solid #ddd;
-  background-color: #fff55b;
-  box-shadow: .1em .1em 0 #fff55b, -0.1em -0.1em 0 #fff55b, 0.1em -0.1em 0 #fff55b, -0.1em 0.1em 0 #fff55b;
+  background-color: #99FFFF;
+  box-shadow: .1em .1em 0 #99FFFF, -0.1em -0.1em 0 #99FFFF, 0.1em -0.1em 0 #99FFFF, -0.1em 0.1em 0 #99FFFF;
 }
 
 a.add:link, a.add:visited,a.add:active {
