@@ -6,7 +6,7 @@
   .hide-lg   {display: inline;}*/
   body {
     font-family:   'Roboto', sans-serif;
-    font-weight:   400;
+    font-weight:   300;
     font-size:     2.5rem;
     color:         #000;
     background:    white;
@@ -14,8 +14,8 @@
     margin-bottom: 0;
   }
   h1 {
-    font-family:   'Bad Script', cursive;
-    font-weight:   bold;
+    font-family:   'Roboto', sans-serif;
+    font-weight:   400;
     font-size:     3em;
     color:         white;
     padding:       0;
@@ -42,7 +42,7 @@
   .hide-lg   {display: inline;}*/
   body {
     font-family:   'Roboto', sans-serif;
-    font-weight:   400;
+    font-weight:   300;
     font-size:     2rem;
     color:         #000;
     background:    white;
@@ -50,8 +50,8 @@
     margin-bottom: 0;
   }
   h1 {
-    font-family:   'Bad Script', cursive;
-    font-weight:   bold;
+    font-family:   'Roboto', sans-serif;
+    font-weight:   400;
     font-size:     4em;
     color:         white;
     padding:       0;
@@ -69,7 +69,6 @@
     display:       inline;
   }
   .border-small     {border-bottom: 1px solid #ddd;}
-
 }
 
 /*md*/
@@ -80,17 +79,17 @@
   /*.hide-lg {display: inline;}*/
   body {
     font-family:   'Roboto', sans-serif;
-    font-weight:   400;
+    font-weight:   300;
     font-size:     1.5rem;
-    color:         #000;
+    color:         #999;
     background:    white;
     margin-top:    0;
     margin-bottom: 0;
   }
   h1 {
-    font-family:   'Bad Script', cursive;
-    font-weight:   bold;
-    font-size:     6em;
+    font-family:   'Roboto', sans-serif;
+    font-weight:   400;
+    font-size:     3em;
     color:         white;
     padding:       0;
     margin:        0;
@@ -125,7 +124,7 @@
   }
   h1 {
     font-family:   'Roboto', sans-serif;
-    font-weight:   300;
+    font-weight:   400;
     font-size:     3em;
     color:         #484848;
     padding:       0;
@@ -134,7 +133,7 @@
   }
   h2 {
     font-family:   'Roboto', sans-serif;
-    font-weight:   300;
+    font-weight:   400;
     font-size:     2em;
     color:         #484848;
     padding:       0;
