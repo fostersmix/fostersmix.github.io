@@ -101,7 +101,7 @@ a.solid:link, a.solid:visited, a.solid:hover, a.solid:active {
 
 a.delete:link, a.delete:visited, a.delete:active {
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 1.5em;
   color: #000;
   background: #99FFFF;
@@ -149,8 +149,8 @@ a.more:link, a.more:visited, a.more:active {
 }
 a.more:hover {
   -border: 2px solid #ddd;
-  background-color: #99FFFF;
-  box-shadow: .1em .1em 0 #99FFFF, -0.1em -0.1em 0 #99FFFF, 0.1em -0.1em 0 #99FFFF, -0.1em 0.1em 0 #99FFFF;
+  background-color: #fafafa;
+  box-shadow: .1em .1em 0 #fafafa, -0.1em -0.1em 0 #fafafa, 0.1em -0.1em 0 #fafafa, -0.1em 0.1em 0 #fafafa;
 }
 
 a.add:link, a.add:visited,a.add:active {
