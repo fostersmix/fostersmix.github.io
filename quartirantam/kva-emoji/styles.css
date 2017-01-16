@@ -141,7 +141,7 @@
   h1 {
     font-family:   'Roboto', sans-serif;
     font-weight:   300;
-    font-size:     2em;
+    font-size:     2.4em;
     color:         #333333;
     padding:       0;
     margin:        0;
@@ -171,16 +171,16 @@ a:link, a:visited, a:hover, a:active {
   font-size:        1em;
   color:            #666;
 	text-decoration:  none;
-  border-bottom: 1px solid #ccc;
+  border-bottom: none;
   outline:          none;
 }
 
 a.button:link, a.button:visited, a.button:hover, a.button:active {
-  font-family:      'Roboto', sans-serif;
+  font-family:      'Ionicons', 'Roboto', sans-serif;
   font-weight:      300;
   font-size:        1em;
-  background:       #0088cc;
-  color:            white;
+  background:       #f8f8f8;
+  color:            #999;
   border-radius:    5em;
   padding:          .7em 1.8em .7em 1.8em;
   line-height:      2.5;
@@ -247,7 +247,7 @@ a.button4:link, a.button4:visited, a.button4:hover, a.button4:active {
 
 .darkgray, .darkgray-hover:hover    {background-color: #999;}
 #darkgray, #darkgray-hover:hover    {color:            #999;}
-.black, .black-hover:hover          {background-color: #666;}
-#black, #black-hover:hover          {color:            #666;}
+.black, .black-hover:hover          {background-color: #000;}
+#black, #black-hover:hover          {color:            #000;}
 .white, .white-hover:hover          {background-color: white;}
 #white, #white-hover:hover          {color:            white;}
