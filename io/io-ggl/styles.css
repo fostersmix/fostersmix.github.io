@@ -60,13 +60,12 @@
   .hide-lg {display: none;}
   body {
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     background: #0066FF;
     color: #aaa;
     font-size: 1rem;
     margin-top: 0;
     margin-bottom: 0;
-    -webkit-font-smoothing: antialiased;
   }
   h1 {
     color: #99FFFF;
@@ -90,7 +89,7 @@ a:link, a:visited, a:hover, a:active {
 a.solid:link, a.solid:visited, a.solid:hover, a.solid:active {
   font-family: 'Roboto', sans-serif;
   font-size: 1.2em;
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: .05em;
   color: #aaa;
 	text-decoration: none;
@@ -101,7 +100,7 @@ a.solid:link, a.solid:visited, a.solid:hover, a.solid:active {
 
 a.delete:link, a.delete:visited, a.delete:active {
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 100;
   font-size: 3em;
   color: rgba(0,0,0,.2);
   background: rgba(0,0,0,.0);
@@ -135,7 +134,7 @@ a.delete:hover {
 a.more:link, a.more:visited, a.more:active {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 1.5em;
+  font-size: 1.4em;
   background-color: #fff;
   -border: 1px solid #ebebeb;
   color: #000;
@@ -150,6 +149,7 @@ a.more:link, a.more:visited, a.more:active {
   -line-height: 1;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-font-smoothing: antialiased;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,.1), 0 0 0 1px rgba(0,0,0,.1);
 }
 a.more:hover {
@@ -162,7 +162,7 @@ a.more:hover {
 a.add:link, a.add:visited,a.add:active {
   font-family: 'Roboto', sans-serif;
   font-size: 1.5em;
-  font-weight: 400;
+  font-weight: 300;
   background-color: #e5e5e5;
   -border: 2px solid #eee;
   color: #000;
@@ -189,7 +189,7 @@ a.add:hover {
 a.tag:link, a.tag:visited, a.tag:hover, a.tag:active {
   font-family: 'Roboto', sans-serif;
   font-size: 1.5em;
-  font-weight: 400;
+  font-weight: 300;
   background-color: transparent;
   color: #999;
   border-radius: .6em;
@@ -206,13 +206,13 @@ a.tag:link, a.tag:visited, a.tag:hover, a.tag:active {
 }
 
 .screen {min-height: 100vh;}
-.screen2 {min-height: 50vh;}
+.screen2 {min-height: 30vh;}
 .top    {padding-top: 1em;}
 .bottom {padding-bottom: 1em;}
 .top-big    {padding-top: 2em;}
 .bottom-big {padding-bottom: 2em;}
 .lh     {line-height: 2.6;}
-.ws     {word-spacing: 10;}
+.ws     {word-spacing: 12;}
 .ph {
   background-image: url(https://insdrcdn.com/media/attachments/7/07/1150ad077.jpg);
   background-size: cover;
