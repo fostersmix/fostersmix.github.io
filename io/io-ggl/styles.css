@@ -139,7 +139,7 @@ a.more:link, a.more:visited, a.more:active {
   background-color: #fff;
   -border: 1px solid #ebebeb;
   color: #000;
-  border-radius: 4px;
+  border-radius: .2em;
   padding: .35em 1em .35em 1em;
   letter-spacing: .05em;
   white-space:nowrap;
