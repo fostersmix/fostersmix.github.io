@@ -7,7 +7,7 @@
   body {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    background: #0066FF;
+    background: #fff;
     color: #000;
     font-size: 2.5rem;
     margin-top: 0;
@@ -25,7 +25,7 @@
   body {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    background: #0066FF;
+    background: #fff;
     color: #000;
     font-size: 2.5rem;
     margin-top: 0;
@@ -44,7 +44,7 @@
   body {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    background: #0066FF;
+    background: #fff;
     color: #000;
     font-size: 1.5rem;
     margin-top: 0;
@@ -64,7 +64,7 @@
   body {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    background: #0066FF;
+    background: #fff;
     color: #000;
     font-size: 1rem;
     margin-top: 0;
@@ -90,7 +90,7 @@ a.delete:link, a.delete:visited, a.delete:active {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
   font-size: 3em;
-  color: rgba(0,0,0,.2);
+  color: #ddd;
   background: rgba(0,0,0,0);
   border-radius: 4px;
   padding: .2em .4em .3em .6em;
@@ -108,15 +108,15 @@ a.delete:link, a.delete:visited, a.delete:active {
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
 a.delete:hover {
-  background: rgba(0,0,0,.1);
-  color: rgba(0,0,0,.3);
+  background: #FFCCCC;
+  color: #FF6666;
   -box-shadow: inset 0 .05em .05em 0 rgba(0,0,0,.15);
 }
 #delete {
   font-family: 'Roboto', sans-serif;
   letter-spacing: .05em;
   font-weight: 300;
-  color: #fff;
+  color: #000;
   padding-right: .3em;
   vertical-align: middle;
 
@@ -126,7 +126,7 @@ a.more:link, a.more:visited, a.more:active {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 1.4em;
-  background-color: #fff;
+  background-color: #CCFFFF;
   -border: 1px solid #ebebeb;
   color: #000;
   border-radius: .2em;
@@ -136,22 +136,24 @@ a.more:link, a.more:visited, a.more:active {
   text-decoration: none;
   outline: none;
   transition: 0s;
-  box-shadow: 0 .05em .1em 0 rgba(0,0,0,.3), 0 0 0 1px rgba(255,255,255,.1);
+  box-shadow: 0 1px 0 0 #99FFFF;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
   -webkit-font-smoothing: antialiased;
 }
 a.more:hover {
-  box-shadow: 0 .05em .1em 0 rgba(0,0,0,.4);
+  -box-shadow: 0 1px 0 0 #66FFFF;
+  background-color: #99FFFF;
+
 }
 
 a.add:link, a.add:visited, a.add:active {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 1.4em;
-  background-color: rgba(0,0,0,.1);
+  background-color: #FFFFCC;
   -border: 1px solid #ebebeb;
-  color: #fff;
+  color: #000;
   border-radius: .2em;
   padding: .35em 1em .35em 1em;
   letter-spacing: .05em;
@@ -159,13 +161,14 @@ a.add:link, a.add:visited, a.add:active {
   text-decoration: none;
   outline: none;
   transition: 0s;
+  box-shadow: 0 1px 0 0 #FFFF99;
   -box-shadow: 0 2px 2px 0 rgba(0,0,0,.1), 0 0 0 1px rgba(0,0,0,.1);
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
   -webkit-font-smoothing: antialiased;
 }
 a.add:hover {
-  background-color: rgba(0,0,0,.15);
+  background-color: #FFFF99;
   -box-shadow: 0 2px 2px 0 rgba(0,0,0,.2), 0 0 0 1px rgba(0,0,0,.15);
 }
 
