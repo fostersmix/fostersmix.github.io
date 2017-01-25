@@ -71,13 +71,33 @@
     margin-bottom: 0;
   }
   h1 {
-    font-size: 4em;
+    font-size: 3.5em;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+  }
+  h3 {
+    font-size: 2.5em;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+  }
+  h4 {
+    font-size: 2.5em;
+    color: #330099;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+  }
+  h5 {
+    font-size: 2.5em;
+    color: #330099;
     font-weight: 300;
     margin: 0;
     padding: 0;
   }
   h2 {
-    font-size: 2.5em;
+    font-size: 2em;
     font-weight: 300;
     margin: 0;
     padding: 0;
@@ -153,7 +173,8 @@ a.more:hover {
   box-shadow: 0 2px 2px 0 rgba(0,0,0,.2), 0 0 0 1px rgba(0,0,0,.15);
 }
 
-
+.line {height:1px;}
+.border {border: 2px solid #330099;}
 .round {border-radius: .5em;}
 .shadow {box-shadow: 0 .1em .3em 0 #ddd, 0 0 0 1px #eee;}
 .screen {min-height: 100vh;}
@@ -163,11 +184,21 @@ a.more:hover {
 .bottom-big {padding-bottom: 2em;}
 .lh     {line-height: 2.6;}
 .lh2     {line-height: 1.8;}
+.bg {
+height: 500px;
+background-image: url(01.png);
+-background-size: cover;
+background-repeat: no-repeat;
+background-position: right center;;
+}
+.tt {padding-top: 130px;}
 
 .color, .color-hover:hover  {background-color:#330099;}
 #color, #color-hover:hover  {color:           #330099;}
-.gray, .gray-hover:hover  {background-color:#424242;}
-#gray, #gray-hover:hover  {color:           #424242;}
+.gray, .gray-hover:hover  {background-color:#323232;}
+#gray, #gray-hover:hover  {color:           #323232;}
+.lightgray, .lightgray-hover:hover  {background-color:#eee;}
+#lightgray, #lightgray-hover:hover  {color:           #eee;}
 .black, .black-hover:hover  {background-color:rgba(0,0,0,1);}
 #black, #black-hover:hover  {color:           rgba(0,0,0,1);}
 .white, .white-hover:hover  {background-color:rgba(255,255,255,1);}
