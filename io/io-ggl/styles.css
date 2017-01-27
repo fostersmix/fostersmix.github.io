@@ -90,7 +90,7 @@ a.delete:link, a.delete:visited, a.delete:active {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
   font-size: 3em;
-  color: rgba(255,255,255,.2);
+  color: rgba(255,255,255,.3);
   -background: linear-gradient(to top, #fffbfb, #fff);
   -background: #fff;
   -border: 2px solid #0066FF;
@@ -102,7 +102,7 @@ a.delete:link, a.delete:visited, a.delete:active {
 	text-decoration: none;
   outline: none;
   transition: 0s;
-  border: 1px solid rgba(255,255,255,.2);
+  border: 1px solid rgba(255,255,255,.3);
 
   -border: 1px solid rgba(0,0,0,.1);
   -display: inline-block;
@@ -202,8 +202,10 @@ a.add:hover {
 #gray, #gray-hover:hover  {color:           rgba(255,255,255,.3);}
 .gray2, .gray2-hover:hover  {background-color:#ddd;}
 #gray2, #gray2-hover:hover  {color:           #ddd;}
-.black, .black-hover:hover  {background-color:#2d2d44;}
-#black, #black-hover:hover  {color:           #2d2d44;}
+.asphalt, .asphalt-hover:hover  {background-color:#2d2d44;}
+#asphalt, #asphalt-hover:hover  {color:           #2d2d44;}
+.black, .black-hover:hover  {background-color:#000;}
+#black, #black-hover:hover  {color:           #000;}
 .half, .half-hover:hover  {background-color:rgba(0,0,0,.05);}
 #half, #half-hover:hover  {color:           rgba(0,0,0,.05);}
 .white, .white-hover:hover  {background-color:rgba(255,255,255,1);}
