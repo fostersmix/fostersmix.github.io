@@ -65,7 +65,7 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     background: #fff;
-    color: #000;
+    color: #fff;
     font-size: 1rem;
     margin-top: 0;
     margin-bottom: 0;
@@ -90,17 +90,20 @@ a.delete:link, a.delete:visited, a.delete:active {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
   font-size: 3em;
-  color: #FF6666;
-  background: linear-gradient(to top, #fffbfb, #fff);
-  -background: rgba(0,0,0,0);
-  border-radius: .1em;
-  padding: .2em .4em .3em .6em;
+  color: rgba(255,255,255,.2);
+  -background: linear-gradient(to top, #fffbfb, #fff);
+  -background: #fff;
+  -border: 2px solid #0066FF;
+  border-radius: .4em;
+  padding: .3em .6em .4em .8em;
   vertical-align: middle;
   letter-spacing: .05em;
   white-space:nowrap;
 	text-decoration: none;
   outline: none;
   transition: 0s;
+  border: 1px solid rgba(255,255,255,.2);
+
   -border: 1px solid rgba(0,0,0,.1);
   -display: inline-block;
   -line-height: 1;
@@ -109,15 +112,17 @@ a.delete:link, a.delete:visited, a.delete:active {
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
 a.delete:hover {
-  background: linear-gradient(to top, #ffe2e2, #fff);
-  color: #FF6666;
+  -background: linear-gradient(to top, #fffbfb, #fff); /*ffe2e2*/
+  color: orangered;
+  border: 1px solid orangered;
+  -background-color: rgba(0,0,0,.05);
   -box-shadow: inset 0 .05em .05em 0 rgba(0,0,0,.15);
 }
 #delete {
   font-family: 'Roboto', sans-serif;
   letter-spacing: .05em;
   font-weight: 300;
-  color: #000;
+  color: #fff;
   padding-right: .3em;
   vertical-align: middle;
 
@@ -173,15 +178,33 @@ a.add:hover {
   -box-shadow: 0 2px 2px 0 rgba(0,0,0,.2), 0 0 0 1px rgba(0,0,0,.15);
 }
 
+a.add:hover {
+  background-color: #0066FF;
+  color: #fff;
+}
+
+.round {border-radius: .5em;ы}
+.bb2   {border-right: 1px solid rgba(255,255,255,.3);}
+.bb1   {border-left: 1px solid rgba(255,255,255,.3);}
+.line  {height:1px;}
 .screen {min-height: 100vh;}
+.screen2 {min-height: 50vh;}
 .top    {padding-top: 1em;}
 .bottom {padding-bottom: 1em;}
 .lh     {line-height: 2.6;}
-.lh2     {line-height: 1.8;}
+.lh2    {line-height: 1.8;}
+.bgg {  background: linear-gradient(to top, #CCFFFF, #FFCCFF);}
+.shadow {box-shadow: 0 -0.5em 1em 0 rgba(0,0,0,.1);}
 
 .color, .color-hover:hover  {background-color:#0066FF;}
 #color, #color-hover:hover  {color:           #0066FF;}
-.black, .black-hover:hover  {background-color:rgba(0,0,0,1);}
-#black, #black-hover:hover  {color:           rgba(0,0,0,1);}
+.gray, .gray-hover:hover  {background-color:rgba(255,255,255,.3);}
+#gray, #gray-hover:hover  {color:           rgba(255,255,255,.3);}
+.gray2, .gray2-hover:hover  {background-color:#ddd;}
+#gray2, #gray2-hover:hover  {color:           #ddd;}
+.black, .black-hover:hover  {background-color:#2d2d44;}
+#black, #black-hover:hover  {color:           #2d2d44;}
+.half, .half-hover:hover  {background-color:rgba(0,0,0,.05);}
+#half, #half-hover:hover  {color:           rgba(0,0,0,.05);}
 .white, .white-hover:hover  {background-color:rgba(255,255,255,1);}
 #white, #white-hover:hover  {color:           rgba(255,255,255,1);}
