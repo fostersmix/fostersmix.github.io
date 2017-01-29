@@ -9,7 +9,7 @@
     font-weight: 300;
     background: #fff;
     color: #000;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     margin-top: 0;
     margin-bottom: 0;
     -webkit-font-smoothing: antialiased;
@@ -130,25 +130,26 @@ a.delete:hover {
 
 a.more:link, a.more:visited, a.more:active {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 1.4em;
-  background: linear-gradient(to top, #f2f2f2, #fefefe);
+  font-weight: 300;
+  font-size: 1.5em;
+  -background: red;
   -border: 1px solid #ebebeb;
   color: #000;
-  border-radius: .2em;
-  padding: .35em 1em .35em 1em;
-  letter-spacing: .05em;
+  -line-height: 2;
+  -border-radius: .2em;
+  padding: .35em 1.4em .35em 1.4em;
+  -letter-spacing: .05em;
   white-space:nowrap;
   text-decoration: none;
   outline: none;
-  transition: 0s;
-  box-shadow: 0 1px 0 0 #ddd;
+  -transition: 0s;
+  -box-shadow: 0 1px 0 0 #ddd;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
   -webkit-font-smoothing: antialiased;
 }
 a.more:hover {
-  box-shadow: 0 1px 0 0 #d2d2d2;
+  -box-shadow: 0 1px 0 0 #d2d2d2;
   -background-color: #bbb;
 
 }
@@ -161,7 +162,7 @@ a.add:link, a.add:visited, a.add:active {
   -border: 1px solid #ebebeb;
   color: #000;
   border-radius: .2em;
-  padding: .35em 1em .35em 1em;
+  padding: 0 1em 0 1em;
   letter-spacing: .05em;
   white-space:nowrap;
   text-decoration: none;
@@ -183,6 +184,17 @@ a.add:hover {
   color: #fff;
 }
 
+.cell {
+border-right: 1px solid #000;
+border-bottom: 1px solid #000;
+box-shadow: -1px 0 0 0 #000;
+}
+.cell:hover {
+-border-right: 1px solid #000;
+-border-bottom: 1px solid #000;
+-box-shadow: inset 2px 0 0 0 #000, 1px 0 0 0 #000;
+background-color: #fafafa;
+}
 .round {border-radius: .5em;ы}
 .bb2   {border-right: 1px solid rgba(255,255,255,.3);}
 .bb1   {border-left: 1px solid rgba(255,255,255,.3);}
@@ -191,17 +203,18 @@ a.add:hover {
 .screen2 {min-height: 50vh;}
 .top    {padding-top: 1em;}
 .bottom {padding-bottom: 1em;}
-.lh     {line-height: 2.6;}
-.lh2    {line-height: 1.8;}
+.lh     {line-height: 1.6;}
+.lh2    {line-height: 2;}
 .bgg {  background: linear-gradient(to top, #CCFFFF, #FFCCFF);}
 .shadow {box-shadow: 0 -0.5em 1em 0 rgba(0,0,0,.1);}
+.foo {height:5em;}
 
 .color, .color-hover:hover  {background-color:#0066FF;}
 #color, #color-hover:hover  {color:           #0066FF;}
 .gray, .gray-hover:hover  {background-color:rgba(255,255,255,.3);}
 #gray, #gray-hover:hover  {color:           rgba(255,255,255,.3);}
-.gray2, .gray2-hover:hover  {background-color:#ddd;}
-#gray2, #gray2-hover:hover  {color:           #ddd;}
+.gray2, .gray2-hover:hover  {background-color:#e3e3e3;}
+#gray2, #gray2-hover:hover  {color:           #e3e3e3;}
 .asphalt, .asphalt-hover:hover  {background-color:#2d2d44;}
 #asphalt, #asphalt-hover:hover  {color:           #2d2d44;}
 .black, .black-hover:hover  {background-color:#000;}
