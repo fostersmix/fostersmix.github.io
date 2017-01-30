@@ -89,7 +89,7 @@ a:link, a:visited, a:hover, a:active {
 a.delete:link, a.delete:visited, a.delete:active {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
-  font-size: 2.4em;
+  font-size: 2.2em;
   color: rgba(255,255,255,.2);
   -background: linear-gradient(to top, #fffbfb, #fff);
   -background: #fff;
@@ -129,12 +129,12 @@ a.delete:hover {
 a.more:link, a.more:visited, a.more:active {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 1.4em;
-  -background: #f5f5f5;
-  border: 2px solid #f5f5f5;
+  font-size: 1.3em;
+  background: #f7f7f7;
+  -border: 2px solid #f5f5f5;
   -background: linear-gradient(to top, #f2f2f2, transparent);
   border-radius: 5em;
-  color: #455A64;
+  color: #263238;
   -line-height: 2;
   -border-radius: .2em;
   padding: .4em 1.2em .4em 1.2em;
@@ -149,7 +149,7 @@ a.more:link, a.more:visited, a.more:active {
   -webkit-font-smoothing: antialiased;
 }
 a.more:hover {
-  color: #455A64;
+  -color: #455A64;
   -box-shadow: 0 1px 0 0 #d3d3d3;
   background-color: #f5f5f5;
 }
@@ -188,10 +188,10 @@ a.add:hover {
 }
 
 .cell2 {
-border-right: 1px solid #ECEFF1;
-border-bottom: 1px solid #ECEFF1;
-box-shadow: -1px 0 0 0 #ECEFF1;
-background-color: #ECEFF1;
+border-right: 1px solid #eee;
+border-bottom: 1px solid #eee;
+box-shadow: -1px 0 0 0 #eee;
+-background-color: #ECEFF1;
 -cursor: pointer;
 }
 .cell:hover {
