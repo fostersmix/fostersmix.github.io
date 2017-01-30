@@ -130,11 +130,11 @@ a.more:link, a.more:visited, a.more:active {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 1.4em;
-  -background: red;
-  border: 2px solid #ECEFF1;
+  -background: #f5f5f5;
+  border: 2px solid #f5f5f5;
   -background: linear-gradient(to top, #f2f2f2, transparent);
   border-radius: 5em;
-  color: #455A64;
+  color: #673AB7;
   -line-height: 2;
   -border-radius: .2em;
   padding: .4em 1.2em .4em 1.2em;
@@ -149,9 +149,9 @@ a.more:link, a.more:visited, a.more:active {
   -webkit-font-smoothing: antialiased;
 }
 a.more:hover {
-  color: #37474F;
+  color: #673AB7;
   -box-shadow: 0 1px 0 0 #d3d3d3;
-  -background-color: #bbb;
+  background-color: #f5f5f5;
 }
 
 #under {border-bottom: 1px solid rgba(0,0,0,.00);}
@@ -218,8 +218,8 @@ background-color: #ECEFF1;
 
 .color, .color-hover:hover  {background-color:#263238;}
 #color, #color-hover:hover  {color:           #131418;}
-.gray, .gray-hover:hover  {background-color:rgba(255,255,255,.3);}
-#gray, #gray-hover:hover  {color:           rgba(255,255,255,.3);}
+.gray, .gray-hover:hover  {background-color:#eee;}
+#gray, #gray-hover:hover  {color:           #eee;}
 .gray2, .gray2-hover:hover  {background-color:#e3e3e3;}
 #gray2, #gray2-hover:hover  {color:           #e3e3e3;}
 .gray3, .gray3-hover:hover  {background-color:#fafafa;}
@@ -235,7 +235,7 @@ background-color: #ECEFF1;
 .white2, .white2-hover:hover  {background-color:#fff;}
 #white2, #white2-hover:hover  {color:           #fff;}
 
-.one  {background-color:#263238;}
-.two  {background-color:#37474F;}
-.three  {background-color:#455A64;}
-.four  {background-color:#546E7A;}
+.one  {background-color:#311B92;}
+.two  {background-color:#4527A0;}
+.three  {background-color:#512DA8;}
+.four  {background-color:#5E35B1;}
