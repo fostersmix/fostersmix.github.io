@@ -134,7 +134,7 @@ a.more:link, a.more:visited, a.more:active {
   border: 2px solid #f5f5f5;
   -background: linear-gradient(to top, #f2f2f2, transparent);
   border-radius: 5em;
-  color: #673AB7;
+  color: #455A64;
   -line-height: 2;
   -border-radius: .2em;
   padding: .4em 1.2em .4em 1.2em;
@@ -149,7 +149,7 @@ a.more:link, a.more:visited, a.more:active {
   -webkit-font-smoothing: antialiased;
 }
 a.more:hover {
-  color: #673AB7;
+  color: #455A64;
   -box-shadow: 0 1px 0 0 #d3d3d3;
   background-color: #f5f5f5;
 }
@@ -235,7 +235,7 @@ background-color: #ECEFF1;
 .white2, .white2-hover:hover  {background-color:#fff;}
 #white2, #white2-hover:hover  {color:           #fff;}
 
-.one  {background-color:#311B92;}
-.two  {background-color:#4527A0;}
-.three  {background-color:#512DA8;}
-.four  {background-color:#5E35B1;}
+.one  {background-color:#263238;}
+.two  {background-color:#37474F;}
+.three  {background-color:#455A64;}
+.four  {background-color:#546E7A;}
