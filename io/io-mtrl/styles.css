@@ -93,8 +93,8 @@ a.delete:link, a.delete:visited, a.delete:active {
   color: rgba(255,255,255,.2);
   -background: linear-gradient(to top, #fffbfb, #fff);
   -background: #fff;
-  -border: 2px solid #0066FF;
-  border-radius: .4em;
+  border: 2px solid rgba(255,255,255,0);
+  border-radius: .5em;
   padding: .3em .8em .4em 1em;
   vertical-align: middle;
   letter-spacing: .05em;
@@ -112,6 +112,7 @@ a.delete:link, a.delete:visited, a.delete:active {
 }
 a.delete:hover {
   -background: linear-gradient(to top, #fffbfb, #fff); /*ffe2e2*/
+  border: 2px solid rgba(255,255,255,.1);
   color: rgba(255,255,255,.5);
   -border: 2px solid rgba(0,0,0,.2);
   -background-color: rgba(0,0,0,.05);
@@ -129,12 +130,12 @@ a.delete:hover {
 a.more:link, a.more:visited, a.more:active {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 1.3em;
-  background: #f7f7f7;
+  font-size: 2em;
+  -background: #f7f7f7;
   -border: 2px solid #f5f5f5;
   -background: linear-gradient(to top, #f2f2f2, transparent);
-  border-radius: 5em;
-  color: #263238;
+  -border-radius: 5em;
+  color: #aaa;
   -line-height: 2;
   -border-radius: .2em;
   padding: .4em 1.2em .4em 1.2em;
@@ -187,7 +188,7 @@ a.add:hover {
   color: #fff;
 }
 
-.cell2 {
+.cell {
 border-right: 1px solid #eee;
 border-bottom: 1px solid #eee;
 box-shadow: -1px 0 0 0 #eee;
@@ -235,8 +236,8 @@ box-shadow: -1px 0 0 0 #eee;
 .white2, .white2-hover:hover  {background-color:#fff;}
 #white2, #white2-hover:hover  {color:           #fff;}
 
-.zero {background-color:#131418;}
-.one  {background-color:#263238;}
-.two  {background-color:#37474F;}
-.three  {background-color:#455A64;}
-.four  {background-color:#546E7A;}
+.zero {background-color:#000;}
+.one  {background-color:#111;}
+.two  {background-color:#222;}
+.three  {background-color:#333;}
+.four  {background-color:#444;}

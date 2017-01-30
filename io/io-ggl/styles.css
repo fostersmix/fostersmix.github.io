@@ -8,7 +8,7 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     background: #fff;
-    color: #000;
+    color: #222;
     font-size: 2.2rem;
     margin-top: 0;
     margin-bottom: 0;
@@ -26,7 +26,7 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     background: #fff;
-    color: #000;
+    color: #222;
     font-size: 2.5rem;
     margin-top: 0;
     margin-bottom: 0;
@@ -45,7 +45,7 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     background: #fff;
-    color: #000;
+    color: #222;
     font-size: 1.5rem;
     margin-top: 0;
     margin-bottom: 0;
@@ -65,21 +65,34 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     background: #fff;
-    color: #fff;
+    color: #000;
     font-size: 1rem;
     margin-top: 0;
     margin-bottom: 0;
+    letter-spacing: .05em;
   }
   .ws {word-spacing: 12;}
   .ws2 {word-spacing: 1;}
-  .screen2 {min-height: 35vh;}
 }
 
 a:link, a:visited, a:hover, a:active {
   font-family: 'Roboto', sans-serif;
   font-size: 1em;
-  letter-spacing: .05em;
-  color: #aaa;
+  -letter-spacing: .05em;
+  color: #000;
+	text-decoration: none;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -moz-tap-highlight-color: rgba(0,0,0,0);
+}
+
+
+a.solid:link, a.solid:visited, a.solid:hover, a.solid:active {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  -letter-spacing: .05em;
+  color: #000;
+  border-bottom: 1px solid #ddd;
 	text-decoration: none;
   outline: none;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
@@ -90,10 +103,10 @@ a.delete:link, a.delete:visited, a.delete:active {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
   font-size: 3em;
-  color: rgba(255,255,255,.2);
+  color: rgba(0,0,0,.2);
   -background: linear-gradient(to top, #fffbfb, #fff);
   -background: #fff;
-  -border: 2px solid #0066FF;
+  border: 2px solid #0066FF;
   border-radius: .4em;
   padding: .3em .6em .4em .8em;
   vertical-align: middle;
@@ -102,7 +115,7 @@ a.delete:link, a.delete:visited, a.delete:active {
 	text-decoration: none;
   outline: none;
   transition: 0s;
-  border: 2px solid rgba(255,255,255,.2);
+  -border: 2px solid rgba(0,0,0,.2);
 
   -border: 1px solid rgba(0,0,0,.1);
   -display: inline-block;
@@ -113,8 +126,8 @@ a.delete:link, a.delete:visited, a.delete:active {
 }
 a.delete:hover {
   -background: linear-gradient(to top, #fffbfb, #fff); /*ffe2e2*/
-  color: orangered;
-  border: 2px solid orangered;
+  color: #0066FF;
+  -border: 2px solid orangered;
   -background-color: rgba(0,0,0,.05);
   -box-shadow: inset 0 .05em .05em 0 rgba(0,0,0,.15);
 }
@@ -122,7 +135,7 @@ a.delete:hover {
   font-family: 'Roboto', sans-serif;
   letter-spacing: .05em;
   font-weight: 300;
-  color: #fff;
+  color: #000;
   padding-right: .3em;
   vertical-align: middle;
 
@@ -130,13 +143,14 @@ a.delete:hover {
 
 a.more:link, a.more:visited, a.more:active {
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 1.5em;
-  -background: red;
+  background: #0066FF;
   -border: 1px solid #ebebeb;
-  color: #000;
+  -background: linear-gradient(to top, #f2f2f2, transparent);
+  color: #fff;
   -line-height: 2;
-  -border-radius: .2em;
+  border-radius: 5em;
   padding: .35em 1.4em .35em 1.4em;
   -letter-spacing: .05em;
   white-space:nowrap;
@@ -149,9 +163,9 @@ a.more:link, a.more:visited, a.more:active {
   -webkit-font-smoothing: antialiased;
 }
 a.more:hover {
-  -box-shadow: 0 1px 0 0 #d2d2d2;
+  b-ox-shadow: 0 1px 0 0 #d2d2d2;
+  -background: rgba(255,255,255,.3);
   -background-color: #bbb;
-
 }
 
 a.add:link, a.add:visited, a.add:active {
@@ -160,7 +174,7 @@ a.add:link, a.add:visited, a.add:active {
   font-size: 1.4em;
   background: linear-gradient(to top, #FFFFCC, #fffff7);
   -border: 1px solid #ebebeb;
-  color: #000;
+  color: #222;
   border-radius: .2em;
   padding: 0 1em 0 1em;
   letter-spacing: .05em;
@@ -184,18 +198,23 @@ a.add:hover {
   color: #fff;
 }
 
-.cell {
-border-right: 1px solid #000;
-border-bottom: 1px solid #000;
-box-shadow: -1px 0 0 0 #000;
+.right {border-right: 1px solid rgba(0,0,0,.2);}
+.left {border-left: 1px solid rgba(0,0,0,.2);}
+
+.cell2 {
+border-right: 1px solid #cacad0;
+border-bottom: 1px solid #cacad0;
+box-shadow: -1px 0 0 0 #cacad0;
+border-radius: 2px;
+background-color: white;
 }
-.cell:hover {
--border-right: 1px solid #000;
--border-bottom: 1px solid #000;
--box-shadow: inset 2px 0 0 0 #000, 1px 0 0 0 #000;
+.cell2:hover {
+-border-right: 1px solid #222;
+-border-bottom: 1px solid #222;
+-box-shadow: inset 2px 0 0 0 #222, 1px 0 0 0 #222;
 background-color: #fafafa;
 }
-.round {border-radius: .5em;ы}
+.round {border-radius: .5em;}
 .bb2   {border-right: 1px solid rgba(255,255,255,.3);}
 .bb1   {border-left: 1px solid rgba(255,255,255,.3);}
 .line  {height:1px;}
@@ -203,7 +222,7 @@ background-color: #fafafa;
 .screen2 {min-height: 50vh;}
 .top    {padding-top: 1em;}
 .bottom {padding-bottom: 1em;}
-.lh     {line-height: 1.6;}
+.lh     {line-height: 1.4;}
 .lh2    {line-height: 2;}
 .bgg {  background: linear-gradient(to top, #CCFFFF, #FFCCFF);}
 .shadow {box-shadow: 0 -0.5em 1em 0 rgba(0,0,0,.1);}
@@ -211,15 +230,17 @@ background-color: #fafafa;
 
 .color, .color-hover:hover  {background-color:#0066FF;}
 #color, #color-hover:hover  {color:           #0066FF;}
-.gray, .gray-hover:hover  {background-color:rgba(255,255,255,.3);}
-#gray, #gray-hover:hover  {color:           rgba(255,255,255,.3);}
+.gray, .gray-hover:hover  {background-color:rgba(0,0,0,.2);}
+#gray, #gray-hover:hover  {color:           rgba(0,0,0,.2);}
 .gray2, .gray2-hover:hover  {background-color:#e3e3e3;}
 #gray2, #gray2-hover:hover  {color:           #e3e3e3;}
+.asphalt2, .asphalt2-hover:hover  {background-color:#607D8B;}
+#asphalt2, #asphalt2-hover:hover  {color:           #607D8B;}
 .asphalt, .asphalt-hover:hover  {background-color:#2d2d44;}
 #asphalt, #asphalt-hover:hover  {color:           #2d2d44;}
-.black, .black-hover:hover  {background-color:#000;}
-#black, #black-hover:hover  {color:           #000;}
-.half, .half-hover:hover  {background-color:rgba(0,0,0,.05);}
-#half, #half-hover:hover  {color:           rgba(0,0,0,.05);}
+.black, .black-hover:hover  {background-color:#222;}
+#black, #black-hover:hover  {color:           #222;}
+.half, .half-hover:hover  {background-color:rgba(255,255,255,.2);}
+#half, #half-hover:hover  {color:           rgba(255,255,255,.2);}
 .white, .white-hover:hover  {background-color:rgba(255,255,255,1);}
 #white, #white-hover:hover  {color:           rgba(255,255,255,1);}
