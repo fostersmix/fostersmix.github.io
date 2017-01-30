@@ -131,7 +131,7 @@ a.more:link, a.more:visited, a.more:active {
   font-weight: 400;
   font-size: 1.4em;
   -background: red;
-  border: 1px solid #CFD8DC;
+  border: 2px solid #ECEFF1;
   -background: linear-gradient(to top, #f2f2f2, transparent);
   border-radius: 5em;
   color: #455A64;
