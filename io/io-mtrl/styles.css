@@ -235,6 +235,7 @@ background-color: #ECEFF1;
 .white2, .white2-hover:hover  {background-color:#fff;}
 #white2, #white2-hover:hover  {color:           #fff;}
 
+.zero {background-color:#131418;}
 .one  {background-color:#263238;}
 .two  {background-color:#37474F;}
 .three  {background-color:#455A64;}
