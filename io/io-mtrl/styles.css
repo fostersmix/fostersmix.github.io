@@ -128,28 +128,29 @@ a.delete:hover {
 
 a.more:link, a.more:visited, a.more:active {
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 1.4em;
   -background: red;
-  -border: 1px solid #ebebeb;
-  background: linear-gradient(to top, #f2f2f2, #fefefe);
-  border-radius: .2em;
-  color: #131418;
+  border: 1px solid #CFD8DC;
+  -background: linear-gradient(to top, #f2f2f2, transparent);
+  border-radius: 5em;
+  color: #455A64;
   -line-height: 2;
   -border-radius: .2em;
-  padding: .35em 1em .35em 1em;
+  padding: .4em 1.4em .4em 1.4em;
   -letter-spacing: .05em;
   white-space:nowrap;
   text-decoration: none;
   outline: none;
   -transition: 0s;
-  box-shadow: 0 1px 0 0 #e3e3e3;
+  -box-shadow: 0 1px 0 0 #e3e3e3;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
   -webkit-font-smoothing: antialiased;
 }
 a.more:hover {
-  box-shadow: 0 1px 0 0 #d3d3d3;
+  color: #37474F;
+  -box-shadow: 0 1px 0 0 #d3d3d3;
   -background-color: #bbb;
 }
 
@@ -187,16 +188,17 @@ a.add:hover {
 }
 
 .cell2 {
-border-right: 1px solid #000;
-border-bottom: 1px solid #000;
-box-shadow: -1px 0 0 0 #000;
+border-right: 1px solid #ECEFF1;
+border-bottom: 1px solid #ECEFF1;
+box-shadow: -1px 0 0 0 #ECEFF1;
+background-color: #ECEFF1;
 -cursor: pointer;
 }
 .cell:hover {
 -border-right: 1px solid #000;
 -border-bottom: 1px solid #000;
 -box-shadow: inset 2px 0 0 0 #000, 1px 0 0 0 #000;
--background-color: #fafafa;
+-background-color: #CFD8DC;
 }
 .round {border-radius: .5em;ы}
 .bb2   {border-right: 1px solid rgba(255,255,255,.3);}
@@ -208,7 +210,7 @@ box-shadow: -1px 0 0 0 #000;
 .bottom {padding-bottom: 1em;}
 .top-big    {padding-top: 2em;}
 .bottom-big {padding-bottom: 2em;}
-.lh     {line-height: 1.6;}
+.lh     {line-height: 2;}
 .lh2    {line-height: 2.4;}
 .bgg2 {  background: linear-gradient(to right, #131418, #888);}
 .shadow {box-shadow: 0 -0.5em 1em 0 rgba(0,0,0,.1);}
@@ -228,8 +230,10 @@ box-shadow: -1px 0 0 0 #000;
 #black, #black-hover:hover  {color:           #000;}
 .half, .half-hover:hover  {background-color:rgba(0,0,0,.05);}
 #half, #half-hover:hover  {color:           rgba(0,0,0,.05);}
-.white, .white-hover:hover  {background-color:rgba(255,255,255,1);}
-#white, #white-hover:hover  {color:           rgba(255,255,255,1);}
+.white, .white-hover:hover  {background-color:#CFD8DC;}
+#white, #white-hover:hover  {color:           #CFD8DC;}
+.white2, .white2-hover:hover  {background-color:#fff;}
+#white2, #white2-hover:hover  {color:           #fff;}
 
 .one  {background-color:#263238;}
 .two  {background-color:#37474F;}
