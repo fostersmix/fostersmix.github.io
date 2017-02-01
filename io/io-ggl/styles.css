@@ -8,11 +8,17 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     background: #fff;
-    color: #000;
+    color: rgba(0,0,0,.3);
     font-size: 2.2rem;
     margin-top: 0;
     margin-bottom: 0;
     -webkit-font-smoothing: antialiased;
+  }
+  h1 {
+  font-size: 2em;
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
   }
 }
 
@@ -26,11 +32,17 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     background: #fff;
-    color: #000;
+    color:  rgba(0,0,0,.3);
     font-size: 2.5rem;
     margin-top: 0;
     margin-bottom: 0;
     -webkit-font-smoothing: antialiased;
+  }
+  h1 {
+  font-size: 2em;
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
   }
   .ws {word-spacing: 24;}
 }
@@ -45,11 +57,17 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     background: #fff;
-    color: #000;
+    color:  rgba(0,0,0,.3);
     font-size: 1.5rem;
     margin-top: 0;
     margin-bottom: 0;
     -webkit-font-smoothing: antialiased;
+  }
+  h1 {
+  font-size: 2em;
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
   }
   .ws {word-spacing: 18;}
   .screen2 {min-height: 10vh;}
@@ -65,11 +83,17 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     background: #fff;
-    color: #000;
+    color: rgba(0,0,0,.3);
     font-size: 1rem;
     margin-top: 0;
     margin-bottom: 0;
     -letter-spacing: .05em;
+  }
+  h1 {
+  font-size: 2em;
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
   }
   .ws {word-spacing: 12;}
   .ws2 {word-spacing: 1;}
@@ -88,7 +112,7 @@ a.solid:link, a.solid:visited, a.solid:hover, a.solid:active {
   font-family: 'Roboto', sans-serif;
   font-size: 1em;
   color: #000;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid rgba(0,0,0,.3);
 	text-decoration: none;
   outline: none;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
@@ -99,7 +123,7 @@ a.delete:link, a.delete:visited, a.delete:active {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
   font-size: 3em;
-  color: rgba(0,0,0,.2);
+  color: rgba(0,0,0,.3);
   border: 2px solid #0066FF;
   border-radius: .4em;
   padding: .3em .6em .4em .8em;
@@ -141,11 +165,10 @@ a.more:link, a.more:visited, a.more:active {
 }
 a.more:hover {}
 
-.right {border-right: 1px solid rgba(0,0,0,.2);}
-.left {border-left: 1px solid rgba(0,0,0,.2);}
+.right {border-right: 1px solid rgba(0,0,0,.3);}
+.icon {font-size: 2em; color: rgba(0,0,0,.3);}
+.icon:hover {font-size: 2em; color: #0066FF;}
 .round {border-radius: .5em;}
-.bb2   {border-right: 1px solid rgba(255,255,255,.3);}
-.bb1   {border-left: 1px solid rgba(255,255,255,.3);}
 .line  {height:1px;}
 .screen {min-height: 100vh;}
 .screen2 {min-height: 50vh;}
@@ -155,23 +178,14 @@ a.more:hover {}
 .bottom2 {padding-bottom: 2em;}
 .lh     {line-height: 1.3;}
 .lh2    {line-height: 2.4;}
-.bgg {  background: linear-gradient(to top, #CCFFFF, #FFCCFF);}
-.shadow {box-shadow: 0 -0.5em 1em 0 rgba(0,0,0,.1);}
 .foo {height:5em;}
 
+
+.black, .black-hover:hover  {background-color:#000;}
+#black, #black-hover:hover  {color:           #000;}
+.gray, .gray-hover:hover    {background-color:rgba(0,0,0,.3);}
+#gray, #gray-hover:hover    {color:           rgba(0,0,0,.3);}
+.white, .white-hover:hover  {background-color:#fff;}
+#white, #white-hover:hover  {color:           #fff;}
 .color, .color-hover:hover  {background-color:#0066FF;}
-#color, #color-hover:hover  {color:           #2196F3;}
-.gray, .gray-hover:hover  {background-color:rgba(0,0,0,.2);}
-#gray, #gray-hover:hover  {color:           rgba(0,0,0,.2);}
-.gray2, .gray2-hover:hover  {background-color:#e3e3e3;}
-#gray2, #gray2-hover:hover  {color:           #e3e3e3;}
-.asphalt2, .asphalt2-hover:hover  {background-color:#607D8B;}
-#asphalt2, #asphalt2-hover:hover  {color:           #607D8B;}
-.asphalt, .asphalt-hover:hover  {background-color:#2d2d44;}
-#asphalt, #asphalt-hover:hover  {color:           #2d2d44;}
-.black, .black-hover:hover  {background-color:#222;}
-#black, #black-hover:hover  {color:           #222;}
-.half, .half-hover:hover  {background-color:rgba(255,255,255,.2);}
-#half, #half-hover:hover  {color:           rgba(255,255,255,.2);}
-.white, .white-hover:hover  {background-color:rgba(255,255,255,1);}
-#white, #white-hover:hover  {color:           rgba(255,255,255,1);}
+#color, #color-hover:hover  {color:           #0066FF;}
