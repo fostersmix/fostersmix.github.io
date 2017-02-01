@@ -90,7 +90,7 @@
     -letter-spacing: .05em;
   }
   h1 {
-  font-size: 2em;
+  font-size: 1.8em;
   font-weight: 100;
   margin: 0;
   padding: 0;
@@ -167,7 +167,7 @@ a.more:link, a.more:visited, a.more:active {
 a.more:hover {}
 
 .right {border-right: 1px solid rgba(0,0,0,.3);}
-.icon {font-size: 2.2em; color: rgba(0,0,0,.3);}
+.icon {font-size: 2.2em; color: rgba(0,0,0,.3);cursor: pointer;}
 .icon:hover {color: #0066FF;}
 .round {border-radius: .5em;}
 .line  {height:1px;}
