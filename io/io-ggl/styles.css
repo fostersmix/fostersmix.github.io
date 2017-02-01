@@ -124,7 +124,7 @@ a.delete:link, a.delete:visited, a.delete:active {
   font-weight: 100;
   font-size: 3em;
   color: rgba(0,0,0,.3);
-  border: 2px solid #0066FF;
+  border: 2px solid rgba(0,0,0,.2);
   border-radius: .4em;
   padding: .3em .6em .4em .8em;
   vertical-align: middle;
@@ -138,6 +138,7 @@ a.delete:link, a.delete:visited, a.delete:active {
 }
 a.delete:hover {
   color: #0066FF;
+  border: 2px solid #0066FF;
 }
 #delete {
   font-family: 'Roboto', sans-serif;
@@ -166,8 +167,8 @@ a.more:link, a.more:visited, a.more:active {
 a.more:hover {}
 
 .right {border-right: 1px solid rgba(0,0,0,.3);}
-.icon {font-size: 2em; color: rgba(0,0,0,.3);}
-.icon:hover {font-size: 2em; color: #0066FF;}
+.icon {font-size: 2.2em; color: rgba(0,0,0,.3);}
+.icon:hover {color: #0066FF;}
 .round {border-radius: .5em;}
 .line  {height:1px;}
 .screen {min-height: 100vh;}
