@@ -227,6 +227,7 @@ a.tag:link, a.tag:visited, a.tag:hover, a.tag:active {
 .bottom-big {padding-bottom: 2em;}
 .lh         {line-height: 1.4;}
 .lh-big     {line-height: 2.4;}
+.wd {max-width: 100vw;white-space:normal;}
 
 input {color: #999;}
 input::-webkit-input-placeholder    {color: #999;}
@@ -256,3 +257,16 @@ input:focus:-ms-input-placeholder      {color: transparent;}
 #color2, #color2-hover:hover  {color:           #1d1468;}
 .blue, .blue-hover:hover  {background-color:rgba(0,102,255,.3);}
 #blue, #blue-hover:hover  {color:           rgba(0,102,255,.3);}
+
+
+.c0    {background-color:rgba(0,0,0,1);}
+.с9    {background-color:rgba(0,0,0,.9);}
+.с8    {background-color:rgba(0,0,0,.8);}
+.с7    {background-color:rgba(0,0,0,.7);}
+.с6    {background-color:rgba(0,0,0,.6);}
+.с5    {background-color:rgba(0,0,0,.5);}
+.с4    {background-color:rgba(0,0,0,.4);}
+.с3    {background-color:rgba(0,0,0,.3);}
+.с2    {background-color:rgba(0,0,0,.2);}
+.с1    {background-color:rgba(0,0,0,.1);}
+
