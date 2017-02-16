@@ -6,9 +6,9 @@
   .hide-lg   {display: inline;}*/
   body {
     font-family:   'Roboto', sans-serif;
-    font-weight:   300;
+    font-weight:   normal;
     font-size:     1.5rem;
-    color:         #333333;
+    color:         #000;
     background:    white;
     margin-top:    0;
     margin-bottom: 0;
@@ -47,9 +47,9 @@
   .hide-lg   {display: inline;}*/
   body {
     font-family:   'Roboto', sans-serif;
-    font-weight:   300;
+    font-weight:   normal;
     font-size:     1.5rem;
-    color:         #333333;
+    color:         #000;
     background:    white;
     margin-top:    0;
     margin-bottom: 0;
@@ -89,9 +89,9 @@
   /*.hide-lg {display: inline;}*/
   body {
     font-family:   'Roboto', sans-serif;
-    font-weight:   300;
+    font-weight:   normal;
     font-size:     1rem;
-    color:         #333333;
+    color:         #000;
     background:    white;
     margin-top:    0;
     margin-bottom: 0;
