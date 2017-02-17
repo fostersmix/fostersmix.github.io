@@ -227,8 +227,8 @@ a.new:hover {
 
 .black, .black-hover:hover  {background-color:#000;}
 #black, #black-hover:hover  {color:           #000;}
-.lightgray, .lightgray-hover:hover    {background-color:rgba(0,0,0,.1);}
-#lightgray, #lightgray-hover:hover    {color:           rgba(0,0,0,.1);}
+.lightgray, .lightgray-hover:hover    {background-color:rgba(0,0,0,.2);}
+#lightgray, #lightgray-hover:hover    {color:           rgba(0,0,0,.2);}
 .gray, .gray-hover:hover    {background-color:rgba(168,168,168,1);}
 #gray, #gray-hover:hover    {color:           rgba(168,168,168,1);}
 .white, .white-hover:hover  {background-color:#fff;}
