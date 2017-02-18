@@ -5,22 +5,23 @@
   .hide-md {display: inline;}
   .hide-lg {display: inline;}*/
   body {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
     background: #fff;
-    color: rgba(0,0,0,.3);
+    color: #000;
     font-size: 2.4rem;
     margin-top: 0;
     margin-bottom: 0;
-    -webkit-font-smoothing: antialiased;
   }
   h1 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 2em;
-  font-weight: 100;
-  color: white;
-  margin: 0;
-  padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    font-weight: 100;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    letter-spacing: .01em;
+    -webkit-font-smoothing: antialiased;
   }
   .ws {word-spacing: 12;}
   .line-h     {border-bottom: 1px solid rgba(168,168,168,1);}
@@ -34,22 +35,23 @@
   /*.hide-md {display: inline;}
   .hide-lg {display: inline;}*/
   body {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
     background: #fff;
-    color:  rgba(0,0,0,.3);
+    color:  #000;
     font-size: 2.4rem;
     margin-top: 0;
     margin-bottom: 0;
-    -webkit-font-smoothing: antialiased;
   }
   h1 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 2.8em;
-  font-weight: 100;
-  color: white;
-  margin: 0;
-  padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 2.8em;
+    font-weight: normal;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    letter-spacing: .01em;
+    -webkit-font-smoothing: antialiased;
   }
   .ws {word-spacing: 24;}
   .line-h     {border-bottom: 1px solid rgba(168,168,168,1);}
@@ -66,19 +68,20 @@
     font-family: Arial, sans-serif;
     font-weight: normal;
     background: #fff;
-    color:  rgba(0,0,0,.3);
+    color:  #000;
     font-size: 1.4rem;
     margin-top: 0;
     margin-bottom: 0;
-    -webkit-font-smoothing: antialiased;
   }
   h1 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 2.8em;
-  font-weight: 100;
-  color: #fff;
-  margin: 0;
-  padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.8em;
+    font-weight: 100;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    letter-spacing: .01em;
+    -webkit-font-smoothing: antialiased;
   }
   .ws {word-spacing: 18;}
   .line-v     {border-right: 1px solid rgba(168,168,168,1);}
@@ -107,6 +110,8 @@
     color: rgba(255,255,255,1);
     margin: 0;
     padding: 0;
+    letter-spacing: .01em;
+    -webkit-font-smoothing: antialiased;
   }
   .ws {word-spacing: 12;}
   .line-v     {border-right: 1px solid rgba(168,168,168,1);}
@@ -212,7 +217,7 @@ a.add:hover {
   height: 1.8em;
   font-size: 1em;
   color: #999;
-  background: linear-gradient(to top, rgba(255,255,255,.2), rgba(255,255,255,.05) 50%, rgba(255,255,255,0) 50%, rgba(255,255,255,0));
+  background: linear-gradient(to top, rgba(255,255,255,.2), rgba(255,255,255,.08) 50%, rgba(255,255,255,0) 50%, rgba(255,255,255,0));
   border: none;
   border-radius: 5em;
   padding: .2em 1em;
@@ -230,7 +235,6 @@ a.add:hover {
 .lh         {line-height: 3;}
 .lh-big     {line-height: 2.2;}
 .shadow     {box-shadow: inset 0 .25em .5em 0 rgba(0,0,0,1);}
-
 
 .black, .black-hover:hover  {background-color:#000;}
 #black, #black-hover:hover  {color:           #000;}
