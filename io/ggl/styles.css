@@ -250,5 +250,5 @@ a.add:hover {
 #lightgray, #lightgray-hover:hover    {color:           rgba(0,0,0,.2);}
 .white, .white-hover:hover  {background-color:#fff;}
 #white, #white-hover:hover  {color:           #fff;}
-.half, .half-hover:hover    {background-color:rgba(255,255,255,.1);}
-#half, #half-hover:hover    {color:           rgba(255,255,255,.1);}
+.half, .half-hover:hover    {background-color:rgba(255,255,255,.15);}
+#half, #half-hover:hover    {color:           rgba(255,255,255,.15);}
