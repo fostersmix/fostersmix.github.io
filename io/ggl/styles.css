@@ -145,8 +145,8 @@ a.delete:link, a.delete:visited, a.delete:active {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
   font-size: 2.8em;
-  color: rgba(255,255,255,.2);
-  border: 2px solid rgba(255,255,255,.1);
+  color: rgba(255,255,255,.25);
+  border: 2px solid rgba(255,255,255,.15);
   border-radius: .4em;
   padding: .3em .6em .4em .8em;
   vertical-align: middle;
@@ -157,6 +157,7 @@ a.delete:link, a.delete:visited, a.delete:active {
   transition: 0s;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-font-smoothing: antialiased;
 }
 a.delete:hover {
   color: #F44336;
@@ -168,6 +169,7 @@ a.delete:hover {
   color: #fff;
   padding-right: .3em;
   vertical-align: middle;
+  -webkit-font-smoothing: subpixel-antialiased;
 }
 
 a.tag:link, a.tag:visited, a.tag:active {
