@@ -235,6 +235,8 @@ a.add:hover {
 .lh         {line-height: 3;}
 .lh-big     {line-height: 2.2;}
 .shadow     {box-shadow: inset 0 .25em .5em 0 rgba(0,0,0,1);}
+.shadow2    {box-shadow: 0 .25em .5em 0 rgba(0,0,0,1);}
+
 
 .black, .black-hover:hover  {background-color:#000;}
 #black, #black-hover:hover  {color:           #000;}
