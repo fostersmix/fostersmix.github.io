@@ -139,6 +139,18 @@ a.solid:link, a.solid:visited, a.solid:active {
 a.solid:hover {
   border-bottom: 1px solid rgba(0,0,0,.2);
 }
+a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
+  font-family: Arial, sans-serif;
+  font-weight: normal;
+  font-size: 1em;
+  color: #000;
+  padding-bottom: .1em;
+  border-bottom: 1px dotted rgba(0,0,0,1);
+	text-decoration: none;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -moz-tap-highlight-color: rgba(0,0,0,0);
+}
 
 a.delete:link, a.delete:visited, a.delete:active {
   font-family: 'Roboto', sans-serif;
@@ -176,7 +188,7 @@ a.tag:link, a.tag:visited, a.tag:active {
   font-size: 1em;
   background: linear-gradient(to bottom, #fefefe, #eee);
   color: #000;
-  border-radius: 4px;
+  border-radius: .2em;
   padding: .4em 1em .4em 1em;
   white-space:nowrap;
   text-decoration: none;
@@ -191,24 +203,27 @@ a.tag:hover {
   background: linear-gradient(to top, #fefefe, #eee);
 }
 
-a.add:link, a.add:visited, a.add:active {
+.add {
   font-family: Arial, sans-serif;
   font-weight: normal;
   font-size: 1em;
   background: linear-gradient(to top, #fefefe, #eee);
   color: #000;
-  border-radius: 4px;
-  padding: .4em 1em .4em 1em;
+  border: none;
+  border-radius: .2em;
+  padding: .8em 1em .8em 1em;
   white-space:nowrap;
   text-decoration: none;
   outline: none;
   word-spacing: 1;
+  width: 100%;
   box-shadow: 0 -1px 0 0 #ddd;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
-a.add:hover {
+.add:hover {
   box-shadow: 0 -1px 0 0 #d1d1d1;
+  cursor: pointer;
 }
 
 #search {
