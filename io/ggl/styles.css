@@ -263,3 +263,5 @@ a.tag:hover {
 #darkgray, #darkgray-hover:hover    {color:           rgba(255,255,255,.12);}
 .white, .white-hover:hover          {background-color:#fff;}
 #white, #white-hover:hover          {color:           #fff;}
+#half                               {color:           rgba(255,255,255,.4);}
+#half:hover                         {color:           rgba(255,255,255,.5);}
