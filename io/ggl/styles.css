@@ -251,6 +251,7 @@ a.tag:hover {
 .lh-big     {line-height: 2.2;}
 .shadow2     {box-shadow: 0 .25em .5em 0 rgba(0,0,0,1);}
 .point      {cursor: pointer;}
+.gr {  background: linear-gradient(to bottom, rgba(255,255,255,.2), rgba(255,255,255,.1));}
 
 .black, .black-hover:hover          {background-color:#000;}
 #black, #black-hover:hover          {color:           #000;}
@@ -258,7 +259,7 @@ a.tag:hover {
 #lightgray, #lightgray-hover:hover  {color:           rgba(0,0,0,.2);}
 .gray, .gray-hover:hover            {background-color:rgba(255,255,255,.15);}
 #gray, #gray-hover:hover            {color:           rgba(255,255,255,.15);}
-.darkgray, .darkgray-hover:hover    {background-color:rgba(255,255,255,.1);}
-#darkgray, #darkgray-hover:hover    {color:           rgba(255,255,255,.1);}
+.darkgray, .darkgray-hover:hover    {background-color:rgba(255,255,255,.12);}
+#darkgray, #darkgray-hover:hover    {color:           rgba(255,255,255,.12);}
 .white, .white-hover:hover          {background-color:#fff;}
 #white, #white-hover:hover          {color:           #fff;}
