@@ -157,7 +157,7 @@ a.delete:link, a.delete:visited, a.delete:active {
   font-weight: 100;
   font-size: 2.8em;
   color: rgba(255,255,255,.25);
-  border: 2px solid rgba(255,255,255,.15);
+  border: 2px solid rgba(255,255,255,.2);
   border-radius: .4em;
   padding: .3em .6em .4em .8em;
   vertical-align: middle;
@@ -232,7 +232,7 @@ a.tag:hover {
   height: 1.8em;
   font-size: 1em;
   color: #999;
-  background: linear-gradient(to top, rgba(255,255,255,.2), rgba(255,255,255,.08) 50%, rgba(255,255,255,0) 50%, rgba(255,255,255,0));
+  background: linear-gradient(to top, rgba(255,255,255,.2), rgba(255,255,255,.1) 50%, rgba(255,255,255,0) 50%, rgba(255,255,255,0));
   border: none;
   border-radius: 5em;
   padding: .2em 1em;
@@ -254,10 +254,8 @@ a.tag:hover {
 
 .black, .black-hover:hover          {background-color:#000;}
 #black, #black-hover:hover          {color:           #000;}
-.darkgray, .darkgray-hover:hover    {background-color:#222;}
-#darkgray, #darkgray-hover:hover    {color:           #222;}
-.gray, .gray-hover:hover            {background-color:#333;}
-#gray, #gray-hover:hover            {color:           #333;}
+.darkgray, .darkgray-hover:hover    {background-color:#2A2A2A;}
+#darkgray, #darkgray-hover:hover    {color:           #2A2A2A;}
 .lightgray, .lightgray-hover:hover  {background-color:rgba(0,0,0,.2);}
 #lightgray, #lightgray-hover:hover  {color:           rgba(0,0,0,.2);}
 .white, .white-hover:hover          {background-color:#fff;}
