@@ -244,6 +244,7 @@ a.tag3:link, a.tag3:visited, a.tag3:hover, a.tag3:active {
   width: 100%;
 }
 
+.bbox {padding-left: .5em; padding-right: .5em;}
 .round          {border-radius: 5em;}
 .top            {padding-top: 1em;}
 .bottom         {padding-bottom: 1em;}
@@ -259,7 +260,7 @@ a.tag3:link, a.tag3:visited, a.tag3:hover, a.tag3:active {
 .lh             {line-height: 3;}
 .lh-big         {line-height: 2.2;}
 .point          {cursor: pointer;}
-.gradient       {background: linear-gradient(to bottom right, #000 50%, #FF5722);} /*64DD17*/
+.gradient       {background: linear-gradient(to bottom right, #000 50%, #669933);} /*#FF5722 ; #64DD17 ; #669933*/
 
 .black, .black-hover:hover          {background-color:#000;}
 #black, #black-hover:hover          {color:           #000;}
