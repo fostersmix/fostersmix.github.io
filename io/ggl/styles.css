@@ -216,7 +216,7 @@ a.tag3:link, a.tag3:visited, a.tag3:hover, a.tag3:active {
   font-family: Arial, sans-serif;
   font-weight: bold;
   font-size: 1em;
-  background: linear-gradient(to top right, #000, #64DD17);
+  background: linear-gradient(to top right, #000, #FF5722);
   color: #fff;
   border-radius: 5em;
   padding: .7em 6em .7em 6em;
@@ -259,7 +259,7 @@ a.tag3:link, a.tag3:visited, a.tag3:hover, a.tag3:active {
 .lh             {line-height: 3;}
 .lh-big         {line-height: 2.2;}
 .point          {cursor: pointer;}
-.gradient       {background: linear-gradient(to bottom right, #000 50%, #64DD17);}
+.gradient       {background: linear-gradient(to bottom right, #000 50%, #FF5722);} /*64DD17*/
 
 .black, .black-hover:hover          {background-color:#000;}
 #black, #black-hover:hover          {color:           #000;}
