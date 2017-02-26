@@ -124,32 +124,21 @@ a:link, a:visited, a:hover, a:active {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
+
 a.solid:link, a.solid:visited, a.solid:active {
   font-family: Arial, sans-serif;
   font-weight: normal;
   font-size: 1em;
   color: #000;
   padding-bottom: .1em;
-  border-bottom: 1px solid rgba(0,0,0,.1);
+  border-bottom: 1px solid rgba(0,0,0,.15);
 	text-decoration: none;
   outline: none;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
 a.solid:hover {
-  border-bottom: 1px solid rgba(0,0,0,.2);
-}
-a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
-  font-family: Arial, sans-serif;
-  font-weight: normal;
-  font-size: 1em;
-  color: #000;
-  padding-bottom: .1em;
-  border-bottom: 1px dotted rgba(0,0,0,1);
-	text-decoration: none;
-  outline: none;
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
-  -moz-tap-highlight-color: rgba(0,0,0,0);
+  border-bottom: 1px solid rgba(0,0,0,.25);
 }
 
 a.delete:link, a.delete:visited, a.delete:active {
@@ -186,7 +175,7 @@ a.tag:link, a.tag:visited, a.tag:active {
   font-family: Arial, sans-serif;
   font-weight: normal;
   font-size: 1em;
-  background: linear-gradient(to bottom, #fff, #e5e5e5);
+  background: linear-gradient(to bottom, #fff, #e3e3e3);
   color: #000;
   border-radius: .2em;
   padding: .4em 1em .4em 1em;
@@ -194,13 +183,13 @@ a.tag:link, a.tag:visited, a.tag:active {
   text-decoration: none;
   outline: none;
   word-spacing: 1;
-  box-shadow: 0 1px 0 0 #ddd;
+  box-shadow: 0 1px 0 0 #d1d1d1;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
 a.tag:hover {
   box-shadow: 0 -1px 0 0 #d1d1d1;
-  background: linear-gradient(to top, #fefefe, #eee);
+  background: linear-gradient(to top, #fff, #e3e3e3);
 }
 
 a.tag2:link, a.tag2:visited, a.tag2:active {
@@ -210,7 +199,7 @@ a.tag2:link, a.tag2:visited, a.tag2:active {
   background: none;
   color: #fff;
   padding: 0 0 .2em 0;
-  border-bottom: 1px solid rgba(255,255,255,.3);
+  border-bottom: 1px solid rgba(255,255,255,.25);
   white-space:nowrap;
   text-decoration: none;
   outline: none;
@@ -220,9 +209,25 @@ a.tag2:link, a.tag2:visited, a.tag2:active {
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
 a.tag2:hover {
-  -color: rgba(255,255,255,.5);
+  border-bottom: 1px solid rgba(255,255,255,.35);
 }
 
+a.tag3:link, a.tag3:visited, a.tag3:hover, a.tag3:active {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1em;
+  background: linear-gradient(to top right, #000, #64DD17);
+  color: #fff;
+  border-radius: 5em;
+  padding: .7em 6em .7em 6em;
+  white-space:nowrap;
+  text-decoration: none;
+  outline: none;
+  word-spacing: 1;
+  box-shadow:      0 1.5em 2em 0 rgba(0,0,0,.1), 0 .75em 1em 0 rgba(0,0,0,.1), 0 .5em .75em 0 rgba(0,0,0,.05), 0 .2em .5em 0 rgba(0,0,0,.05);
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -moz-tap-highlight-color: rgba(0,0,0,0);
+}
 
 #search {
   font-family: 'Ionicons', Arial, sans-serif;
@@ -239,39 +244,28 @@ a.tag2:hover {
   width: 100%;
 }
 
-.round  {  border-radius: .2em;}
-.top        {padding-top: 1em;}
-.bottom     {padding-bottom: 1em;}
-.top-middle    {padding-top: 1.5em;}
-.bottom-middle {padding-bottom: 1.5em;}
-.top-big    {padding-top: 2em;}
-.bottom-big {padding-bottom: 2em;}
-.top-small    {padding-top: .5em;}
-.bottom-small {padding-bottom: .5em;}
-.screen     {min-height: 100vh;}
-.line       {height: 1px;}
-.line2       {height: 3px;}
-.lh         {line-height: 3;}
-.lh-big     {line-height: 2.2;}
-.shadow2     {box-shadow: 0 .25em .5em 0 rgba(0,0,0,1);}
-.point      {cursor: pointer;}
-.bb {border-right: 1px solid rgba(0,0,0,.2);}
-.bbox {padding-left: .5em;padding-right: .5em;}
+.round          {border-radius: 5em;}
+.top            {padding-top: 1em;}
+.bottom         {padding-bottom: 1em;}
+.top-middle     {padding-top: 1.5em;}
+.bottom-middle  {padding-bottom: 1.5em;}
+.top-big        {padding-top: 2em;}
+.bottom-big     {padding-bottom: 2em;}
+.top-small      {padding-top: .5em;}
+.bottom-small   {padding-bottom: .5em;}
+.screen         {min-height: 100vh;}
+.line           {height: 1px;}
+.line-big       {height: 3px;}
+.lh             {line-height: 3;}
+.lh-big         {line-height: 2.2;}
+.point          {cursor: pointer;}
+.gradient       {background: linear-gradient(to bottom right, #000 50%, #64DD17);}
 
 .black, .black-hover:hover          {background-color:#000;}
 #black, #black-hover:hover          {color:           #000;}
-.lightgray, .lightgray-hover:hover  {background-color:rgba(0,0,0,.2);}
-#lightgray, #lightgray-hover:hover  {color:           rgba(0,0,0,.2);}
-.gray, .gray-hover:hover            {background-color:rgba(255,255,255,.2);}
-#gray, #gray-hover:hover            {color:           rgba(255,255,255,.2);}
-.darkgray    {background: linear-gradient(to bottom right, #000 50%, #76FF03);}
-.darkgray-1    {background: linear-gradient(to bottom right, #000 75%, #00CCFF);}
-.darkgraya     {background: linear-gradient(to bottom right, #000 75%, #9999FF);}
-.darkgrayb     {background: linear-gradient(to bottom right, #000 75%, #0033FF);}
-.darkgrayc    {background: linear-gradient(to bottom right, #000 75%, #FFFF33);}
-.darkgrayd    {background: linear-gradient(to bottom right, #000 75%, #FF0066);}
-.darkgraye    {background: linear-gradient(to bottom right, #000 75%, #fff);}
-#darkgray, #darkgray-hover:hover    {color:           #FFCCFF;}
+.gray, .gray-hover:hover            {background-color:#eee;}
+#gray, #gray-hover:hover            {color:           #eee;}
 .white, .white-hover:hover          {background-color:#fff;}
 #white, #white-hover:hover          {color:           #fff;}
-.half                               {background-color:#eee;}
+.half, .half-hover:hover            {background-color:rgba(255,255,255,.2);}
+#half, #half-hover:hover            {color:           rgba(255,255,255,.2);}
