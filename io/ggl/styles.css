@@ -102,7 +102,7 @@
   }
   h1 {
     font-family: 'Roboto', sans-serif;
-    font-size: 6em;
+    font-size: 7em;
     font-weight: 700;
     color: #fff;
     margin: 0;
@@ -199,7 +199,7 @@ a.tag2:link, a.tag2:visited, a.tag2:active {
   background: none;
   color: #fff;
   padding: 0 0 .2em 0;
-  border-bottom: 1px solid rgba(255,255,255,.25);
+  border-bottom: 1px solid rgba(255,255,255,.2);
   white-space:nowrap;
   text-decoration: none;
   outline: none;
@@ -260,12 +260,12 @@ a.tag3:link, a.tag3:visited, a.tag3:hover, a.tag3:active {
 .lh             {line-height: 3;}
 .lh-big         {line-height: 2.2;}
 .point          {cursor: pointer;}
-.gradient       {background: linear-gradient(to bottom right, #000 50%, #669933);} /*#FF5722 ; #64DD17 ; #669933*/
+.gradient       {background: linear-gradient(to bottom right, #000 50%, #000);} /*#FF5722 ; #64DD17 ; #669933*/
 
 .black, .black-hover:hover          {background-color:#000;}
 #black, #black-hover:hover          {color:           #000;}
-.gray, .gray-hover:hover            {background-color:#eee;}
-#gray, #gray-hover:hover            {color:           #eee;}
+.gray, .gray-hover:hover            {background-color:#e0e0e0;}
+#gray, #gray-hover:hover            {color:           #e0e0e0;}
 .white, .white-hover:hover          {background-color:#fff;}
 #white, #white-hover:hover          {color:           #fff;}
 .half, .half-hover:hover            {background-color:rgba(255,255,255,.2);}
