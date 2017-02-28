@@ -102,13 +102,14 @@
   }
   h1 {
     font-family: 'Roboto', sans-serif;
-    font-size: 7em;
+    font-size: 5em;
     font-weight: 700;
-    color: #fff;
+    color: #000;
     margin: 0;
     padding: 0;
     letter-spacing: .01em;
     -webkit-font-smoothing: antialiased;
+    -text-shadow: 3px 0 0 #330033;
   }
   .ws {word-spacing: 12;}
   .share {min-height: 4em;}
@@ -144,8 +145,8 @@ a.solid:hover {
 a.delete:link, a.delete:visited, a.delete:active {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
-  font-size: 3.4em;
-  color: orangered;
+  font-size: 3em;
+  color: #e0e0e0;
   -border: 2px solid #e0e0e0;
   border-radius: .4em;
   padding: .1em .4em .2em .6em;
@@ -159,7 +160,7 @@ a.delete:link, a.delete:visited, a.delete:active {
   -webkit-font-smoothing: antialiased;
 }
 a.delete:hover {
-  color: orangered;
+  color: #330033;
 }
 #delete {
   font-family: 'Roboto', sans-serif;
@@ -256,7 +257,8 @@ a.tag3:link, a.tag3:visited, a.tag3:hover, a.tag3:active {
   height: 1.8em;
   font-size: 1em;
   color: #999;
-  background: linear-gradient(to top, rgba(255,255,255,.2), rgba(255,255,255,.1) 50%, rgba(255,255,255,0) 50%, rgba(255,255,255,0));
+  background-color: transparent;
+  -background: linear-gradient(to top, rgba(255,255,255,.2), rgba(255,255,255,.1) 50%, rgba(255,255,255,0) 50%, rgba(255,255,255,0));
   border: none;
   border-radius: 5em;
   padding: .2em 1em;
@@ -265,7 +267,7 @@ a.tag3:link, a.tag3:visited, a.tag3:hover, a.tag3:active {
   width: 100%;
 }
 
-.icon {background: url(1.svg) no-repeat center center;height:1.5em;color:orangered;}
+.icon {background: url(1.svg) no-repeat center center;height:1.5em;color:#330033;}
 .bbox {padding-left: .5em; padding-right: .5em;}
 .round          {border-radius: 5em;}
 .top            {padding-top: 1em;}
@@ -280,11 +282,11 @@ a.tag3:link, a.tag3:visited, a.tag3:hover, a.tag3:active {
 .line           {height: 1px;}
 .line-big       {height: 3px;}
 .lh             {line-height: 3;}
-.lh-big         {line-height: 2.2;}
+.lh-big         {line-height: 1.5;}
 .point          {cursor: pointer;}
 .gradient       {background: linear-gradient(to bottom, #e0e0e0, #fff);} /*#FF5722 ; #64DD17 ; #669933*/
 .gradient2       {background: linear-gradient(to left, #fff, transparent, #fff);} /*#FF5722 ; #64DD17 ; #669933*/
-.gradient3       {background: linear-gradient(to left, #fff, orangered, #fff);} /*#FF5722 ; #64DD17 ; #669933*/
+.gradient3       {background: linear-gradient(to left, #fff, #330033, #fff);} /*#FF5722 ; #64DD17 ; #669933*/
 
 
 
@@ -292,9 +294,11 @@ a.tag3:link, a.tag3:visited, a.tag3:hover, a.tag3:active {
 #black, #black-hover:hover          {color:           #000;}
 .gray, .gray-hover:hover            {background-color:#e0e0e0;}
 #gray, #gray-hover:hover            {color:           #e0e0e0;}
+.light, .light-hover:hover          {background-color:#f5f5f5;}
+#light, #light-hover:hover          {color:           #f5f5f5;}
 .white, .white-hover:hover          {background-color:#fff;}
 #white, #white-hover:hover          {color:           #fff;}
 .half, .half-hover:hover            {background-color:rgba(255,255,255,.2);}
 #half, #half-hover:hover            {color:           rgba(255,255,255,.2);}
-.color, .color-hover:hover          {background-color:orangered;}
-#color, #color-hover:hover          {color:           orangered;}
+.color, .color-hover:hover          {background-color:#330033;}
+#color, #color-hover:hover          {color:           #330033;}
