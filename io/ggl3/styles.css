@@ -140,10 +140,11 @@ a.solid:hover {
 a.delete:link, a.delete:visited, a.delete:active {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
-  font-size: 3em;
+  font-size: 2em;
   color: #e0e0e0;
-  border-radius: 10em;
+  -border-radius: 10em;
   padding: .5em .7em .5em 1em;
+  -background-color: red;
   vertical-align: middle;
   white-space:nowrap;
 	text-decoration: none;
@@ -189,22 +190,23 @@ a.tag:hover {
 }
 
 #search {
-  font-family: 'Ionicons', 'PT Sans', sans-serif;
-  font-weight: normal;
-  height: 1.8em;
-  font-size: 1em;
-  color: #999;
-  background: linear-gradient(to top, rgba(255,255,255,.2), rgba(255,255,255,.1) 50%, rgba(255,255,255,0) 50%, rgba(255,255,255,0));
+  font-family: 'Ionicons', 'Roboto', sans-serif;
+  font-weight: 700;
+  height: 2.3em;
+  font-size: 2em;
+  color: #000;
+  background: #fff;
   border: none;
-  border-radius: 5em;
-  padding: .2em 1em;
+  border-radius: 1.5rem;
+  padding: 0 1em;
   margin: 0px;
   outline: none;
   width: 100%;
+  text-align: center;
 }
 
 .bbox {padding-left: .5em; padding-right: .5em;}
-.round          {border-radius: 5em;}
+.round          {border-radius: 1.5em;}
 .top            {padding-top: 1em;}
 .bottom         {padding-bottom: 1em;}
 .top-middle     {padding-top: 1.5em;}
@@ -219,13 +221,36 @@ a.tag:hover {
 .lh             {line-height: 3;}
 .lh-big         {line-height: 2;}
 .point          {cursor: pointer;}
-.shadow {box-shadow: 0 .2em .4em 0 rgba(0,0,0,.25);}
+.shadow {box-shadow: 0 .4em .8em 0 rgba(0,0,0,.25);}
 .gradient       {background: linear-gradient(to top, #33691E, #64DD17);}
 .bb {
+  border-bottom: 1px solid #e0e0e0;
   border-right: 1px solid #e0e0e0;
-  box-shadow: -1px -1px 0 0 #e0e0e0;
-  padding-top: 3em;
-  padding-bottom: 3em;
+  -box-shadow: -1px -1px 0 0 #e0e0e0;
+  -padding-top: 1.5em;
+  -padding-bottom: 1.5em;
+  -background: #fff;
+  -background: linear-gradient(to bottom, #fff 85%, #fafafa);
+}
+.bb2 {
+  -border-right: 1px solid #e0e0e0;
+  border-right: 1px solid #e0e0e0;
+  -box-shadow: -1px -1px 0 0 #e0e0e0;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  -background: #fff;
+  -background: linear-gradient(to bottom, #fff 85%, #fafafa);
+  -border-radius: 1em 0 0 1em;
+}
+.bb3 {
+-border-right: 1px solid #e0e0e0;
+border-right: 1px solid #e0e0e0;
+-box-shadow: -1px -1px 0 0 #e0e0e0;
+padding-top: 1.5em;
+padding-bottom: 1.5em;
+-background: #fff;
+-background: linear-gradient(to bottom, #fff 85%, #fafafa);
+  -border-radius: 0 1em 1em 0;
 }
 
 .black, .black-hover:hover          {background-color:#000;}
