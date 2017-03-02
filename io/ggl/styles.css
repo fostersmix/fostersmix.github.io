@@ -132,79 +132,45 @@ a.solid:link, a.solid:visited, a.solid:active {
   font-size: 1em;
   color: #000;
   padding-bottom: .1em;
-  border-bottom: 1px solid #e0e0e0;
+  border-bottom: 1px solid rgba(0,0,0,.15);
 	text-decoration: none;
   outline: none;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
 a.solid:hover {
-  border-bottom: 1px solid Maroon;
-  color: Maroon;
-}
-a.solid2:link, a.solid2:visited, a.solid2:active {
-  font-family: 'PT Sans', sans-serif;
-  font-weight: normal;
-  font-size: 1em;
-  color: rgba(255,255,255,.5);
-  padding-bottom: .1em;
-  border-bottom: 1px solid rgba(255,255,255,.3);
-	text-decoration: none;
-  outline: none;
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
-  -moz-tap-highlight-color: rgba(0,0,0,0);
-}
-a.solid2:hover {
-  border-bottom: 1px solid Maroon;
-  color: Maroon;
+  border-bottom: 1px solid rgba(0,0,0,.25);
 }
 
 a.delete:link, a.delete:visited, a.delete:active {
   font-family: 'Roboto', sans-serif;
-  font-weight: 700;
+  font-weight: 100;
   font-size: 3em;
-  color: #000;
-  border-radius: .2em;
-  border: 1px solid #e0e0e0;
-  padding: 1rem 2rem 1rem 2rem;
+  color: #e0e0e0;
+  -border: 2px solid #e0e0e0;
+  border-radius: .4em;
+  padding: .1em .4em .2em .6em;
   vertical-align: middle;
-  -background-color: blue;
   white-space:nowrap;
 	text-decoration: none;
   outline: none;
-  transition: .01s;
-  -border-bottom: 1px dotted #e0e0e0;
+  transition: 0s;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
   -webkit-font-smoothing: antialiased;
-  word-spacing: 0;
 }
 a.delete:hover {
-  color: #990000;
-  -background-color: #fbfbfb;
-  -border-radius: .2em;
-  -box-shadow: inset 0 .1em .1em 0 rgba(0,0,0,.1);
-  border: 1px solid #FFCCCC;
-
+  color: #FF0000;
 }
 #delete {
   font-family: 'Roboto', sans-serif;
   -letter-spacing: .03em;
   font-weight: 700;
   color: #000;
-  -padding-right: .3em;
+  padding-right: .3em;
   vertical-align: middle;
   -webkit-font-smoothing: antialiased;
 }
-a.delete::after {
-  font-weight: 100;
-  color: #e0e0e0;
- content: " x";
-}
-a.delete:hover::after {
-  color: #FFCCCC;
-}
-.wss {word-spacing: 0;}
 
 a.tag:link, a.tag:visited, a.tag:active {
   font-family: 'PT Sans', sans-serif;
@@ -250,13 +216,11 @@ a.del:hover {
 
 a.tag2:link, a.tag2:visited, a.tag2:active {
   font-family: 'PT Sans', sans-serif;
-  font-weight: bold;
+  font-weight: normal;;
   font-size: 1em;
   background: none;
-  color: #000;
-  padding: .6em 1.4em .6em 1.4em;
-  border-radius: 5em;
-  background-color: #FFF176;
+  color: #fff;
+  padding: 0 0 .2em 0;
   border-bottom: 1px solid rgba(255,255,255,.2);
   white-space:nowrap;
   text-decoration: none;
@@ -267,7 +231,7 @@ a.tag2:link, a.tag2:visited, a.tag2:active {
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
 a.tag2:hover {
-  -border-bottom: 1px solid rgba(255,255,255,.35);
+  border-bottom: 1px solid rgba(255,255,255,.35);
 }
 
 a.tag3:link, a.tag3:visited, a.tag3:hover, a.tag3:active {
@@ -293,40 +257,21 @@ a.tag3:link, a.tag3:visited, a.tag3:hover, a.tag3:active {
   height: 1.8em;
   font-size: 1em;
   color: #999;
-  background-color: #f6f6f6;
+  -background-color: #fafafa;
   -background: linear-gradient(to top, rgba(255,255,255,.2), rgba(255,255,255,.1) 50%, rgba(255,255,255,0) 50%, rgba(255,255,255,0));
   border: none;
   border-radius: 5em;
-  padding: .5em 1em;
+  padding: .2em .5em;
   margin: 0;
   outline: none;
   -box-shadow: inset .1em .1em .2em 0 #ccc;
   width: 100%;
 }
-#searchц:focus  {
-  border: 1px solid rgba(0,176,255,1);
-  box-shadow: 0 0 .3em rgba(0,176,255,.5);
-  background-color: #fff;
-}
-
-.bb {
-  border-right: 1px dotted #aaa;
-  border-bottom: 1px dotted #aaa;
-  -box-shadow: -1px -1px 0 0 #aaa;
-  padding-top: 1em;
-  padding-bottom: 2em;
-  -background-color: #FF0033;
-}
-.bb:hover {
-   -background: linear-gradient(to top, rgba(0,0,0,.3) 5%, rgba(0,0,0,.15) 10%, transparent);
-}
-.line2 {border-bottom: 1px dotted #e0e0e0;}
-.line3 {border-top: 1px dotted #e0e0e0;}
 
 .border {border: 1px solid #e0e0e0;}
 .icon {background: url(1.svg) no-repeat center center;height:1.5em;color:#FF0000;}
 .bbox {padding-left: .5em; padding-right: .5em;}
-.round          {border-radius: 1em;border:1px solid #e0e0e0;}
+.round          {border-radius: 5em;}
 .top            {padding-top: 1em;}
 .bottom         {padding-bottom: 1em;}
 .top-middle     {padding-top: 1.5em;}
@@ -339,21 +284,23 @@ a.tag3:link, a.tag3:visited, a.tag3:hover, a.tag3:active {
 .line           {height: 1px;}
 .line-big       {height: 3px;}
 .lh             {line-height: 3;}
-.lh-big         {line-height: 2;}
+.lh-big         {line-height: 1.5;}
 .point          {cursor: pointer;}
-.gradient3       {  background: linear-gradient(to top, #eee 3%, #eee 10%, #fafafa, #fff 95%);}
-.gradient2       {  background: linear-gradient(to top, #993300 3%, #CC3333 10%, #FF9966, #fff 95%);}
+.gradient       {background: linear-gradient(to bottom, #e0e0e0, #fff);} /*#FF5722 ; #64DD17 ; #FF0000*/
+.gradient2       {background: linear-gradient(to left, #fff, transparent, #fff);} /*#FF5722 ; #64DD17 ; #FF0000*/
+.gradient3       {background: linear-gradient(to left, #fff, #FF0000, #fff);} /*#FF5722 ; #64DD17 ; #FF0000*/
+
 
 
 .black, .black-hover:hover          {background-color:#000;}
 #black, #black-hover:hover          {color:           #000;}
 .gray, .gray-hover:hover            {background-color:#e0e0e0;}
 #gray, #gray-hover:hover            {color:           #e0e0e0;}
-.dark, .dark-hover:hover          {background-color:rgba(0,0,0,.2);}
-#dark, #dark-hover:hover          {color:           rgba(0,0,0,.2);}
+.light, .light-hover:hover          {background-color:#f5f5f5;}
+#light, #light-hover:hover          {color:           #f5f5f5;}
 .white, .white-hover:hover          {background-color:#fff;}
 #white, #white-hover:hover          {color:           #fff;}
 .half, .half-hover:hover            {background-color:rgba(255,255,255,.2);}
 #half, #half-hover:hover            {color:           rgba(255,255,255,.2);}
-.color, .color-hover:hover          {background-color:#FF0033	;}
-#color, #color-hover:hover          {color:           #FF0033	;}
+.color, .color-hover:hover          {background-color:#FF0000;}
+#color, #color-hover:hover          {color:           #FF0000;}
