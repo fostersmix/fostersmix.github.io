@@ -13,6 +13,7 @@
     margin-top: 0;
     margin-bottom: 0;
   }
+  .share {min-height: 2em;}
 }
 
 /*sm*/
@@ -30,6 +31,7 @@
     margin-top: 0;
     margin-bottom: 0;
   }
+  .share {min-height: 2em;}
 }
 
 /*md*/
@@ -47,6 +49,7 @@
     margin-top: 0;
     margin-bottom: 0;
   }
+  .share {min-height: 3em;}
 }
 
 /*lg*/
@@ -59,38 +62,39 @@
     font-family: 'PT Sans', sans-serif;
     font-weight: normal;
     background: #fff;
-    color: #777;
+    color: #000;
     font-size: 1rem;
     margin-top: 0;
     margin-bottom: 0;
   }
+  .share {min-height: 4em;}
 }
 
 a:link, a:visited, a:hover, a:active {
   font-family: normal 1em/normal 'PT Sans', sans-serif;
-  color: #777;
+  color: #000;
 	text-decoration: none;
   outline: none;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
 
+#solid        {border-bottom: 1px solid rgba(0,0,0,.15); cursor: pointer;}
+#solid:hover  {border-bottom: 1px solid rgba(102,0,51,.4);}
+
 #delete {
   font: bold 3em/1.5 'PT Sans', sans-serif;
   color: white;
-  -background: #660033;
   background: linear-gradient(to bottom left, #993366, #660033);
   padding: 0 .5em .2rem .5em;
   border: none;
   outline: none;
   cursor: pointer;
   letter-spacing: 1;
+  white-space: nowrap;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
   -webkit-font-smoothing: antialiased;
-}
-#delete:hover {
-  -background: linear-gradient(to top left, #993366 50%, #660033);
 }
 #delete::after {
   font-family: 'Roboto', sans-serif;
@@ -101,6 +105,7 @@ a:link, a:visited, a:hover, a:active {
 #delete:hover::after {
   color: rgba(255,255,255,.7);
 }
+
 #more {
   font: normal 1.5em/2 'PT Sans', sans-serif;
   color: #000;
@@ -115,28 +120,25 @@ a:link, a:visited, a:hover, a:active {
 #more:hover {
   color: #660033;
 }
+
 #connect {
   font: normal 1em/2 'PT Sans', sans-serif;
   color: #000;
   background: linear-gradient(to bottom, #fff, #e3e3e3);
   padding: 0 1em;
-  -border: 1px solid rgba(0,0,0,.2);
+  border-radius: .2em;
   box-shadow: 0 1px 0 0 #d1d1d1;
   border: none;
   outline: none;
   cursor: pointer;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
-  -webkit-font-smoothing: antialiased;
 }
 #connect:hover {
   color: #660033;
   background: linear-gradient(to top, #fff, #e3e3e3);
   box-shadow: 0 -1px 0 0 #d1d1d1;
 }
-
-#solid        {border-bottom: 1px solid rgba(0,0,0,.15);cursor: pointer;}
-#solid:hover  {border-bottom: 1px solid rgba(102,0,51,.4);}
 
 #search {
   font: 400 1em/2 'Ionicons', 'PT Sans', sans-serif;
@@ -154,26 +156,17 @@ a:link, a:visited, a:hover, a:active {
 .bottom-big     {padding-bottom:  2em;}
 .top            {padding-top:     1em;}
 .bottom         {padding-bottom:  1em;}
-.top-middle     {padding-top:     1.5em;}
-.bottom-middle  {padding-bottom:  1.5em;}
 .top-small      {padding-top:     .5em;}
 .bottom-small   {padding-bottom:  .5em;}
-.border         {border: 1px solid #e0e0e0;}
+
 .screen         {min-height: 100vh;}
 .line           {height: 1px;}
-.share          {min-height: 4em;}
-
-
 
 .black, .black-hover:hover          {background-color:#000;}
 #black, #black-hover:hover          {color:           #000;}
-.dark, .dark-hover:hover            {background-color:rgba(0,0,0,.5);}
-#dark, #dark-hover:hover            {color:           rgba(0,0,0,.5);}
-.gray, .gray-hover:hover            {background-color:#e0e0e0;}
-#gray, #gray-hover:hover            {color:           #e0e0e0;}
+.gray, .gray-hover:hover            {background-color:#ddd;}
+#gray, #gray-hover:hover            {color:           #ddd;}
 .white, .white-hover:hover          {background-color:#fff;}
 #white, #white-hover:hover          {color:           #fff;}
-.half, .half-hover:hover            {background-color:rgba(255,255,255,.5);}
-#half, #half-hover:hover            {color:           rgba(255,255,255,.5);}
-.color, .color-hover:hover          {background-color:#FF0033	;}
-#color, #color-hover:hover          {color:           #FF0033	;}
+.color, .color-hover:hover          {background-color:#993366;}
+#color, #color-hover:hover          {color:           #993366;}
