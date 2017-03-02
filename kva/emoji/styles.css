@@ -14,29 +14,12 @@
     margin-bottom: 0;
   }
   h1 {
-    font-family: 'Roboto', monospace;
-    font-weight:   300;
-    font-size:     2em;
-    color:         white;
+    font: 400 2em/1.5 'Roboto', sans-serif;
+    color:         #000;
     padding:       0;
     margin:        0;
     display:       inline;
   }
-  h2 {
-    font-family:  'Roboto', monospace;
-    font-weight:   300;
-    font-size:     1.5em;
-    color:         #333333;
-    padding:       0;
-    margin:        0;
-    display:       inline;
-  }
-  .top-big      {padding-top:    2em;}
-  .top          {padding-top:    1em;}
-  .top-small    {padding-top:    .5em;}
-  .bottom-big   {padding-bottom: 2em;}
-  .bottom       {padding-bottom: 1em;}
-  .bottom-small {padding-bottom: .5em;}
 }
 
 /*sm*/
@@ -55,30 +38,12 @@
     margin-bottom: 0;
   }
   h1 {
-    font-family: 'Roboto', monospace;
-    font-weight:   300;
-    font-size:     2em;
-    color:         white;
+    font: 400 2em/1.5 'Roboto', sans-serif;
+    color:         #000;
     padding:       0;
     margin:        0;
     display:       inline;
   }
-  h2 {
-    font-family:  'Roboto', monospace;
-    font-weight:   300;
-    font-size:     1.5em;
-    color:         #333333;
-    background: none;
-    padding:       0;
-    margin:        0;
-    display:       inline;
-  }
-  .top-big      {padding-top:    2em;}
-  .top          {padding-top:    1em;}
-  .top-small    {padding-top:    .5em;}
-  .bottom-big   {padding-bottom: 2em;}
-  .bottom       {padding-bottom: 1em;}
-  .bottom-small {padding-bottom: .5em;}
 }
 
 /*md*/
@@ -97,29 +62,12 @@
     margin-bottom: 0;
   }
   h1 {
-    font-family:   'Roboto', monospace;
-    font-weight:   300;
-    font-size:     2.5em;
-    color:         white;
+    font: 400 2.5em/1.5 'Roboto', sans-serif;
+    color:         #000;
     padding:       0;
     margin:        0;
     display:       inline;
   }
-  h2 {
-    font-family:   'Roboto', monospace;
-    font-weight:   300;
-    font-size:     2em;
-    color:         #333333;
-    padding:       0;
-    margin:        0;
-    display:       inline;
-  }
-  .top-big      {padding-top:    2em;}
-  .top          {padding-top:    1em;}
-  .top-small    {padding-top:    .5em;}
-  .bottom-big   {padding-bottom: 2em;}
-  .bottom       {padding-bottom: 1em;}
-  .bottom-small {padding-bottom: .5em;}
 }
 
 /*lg*/
@@ -132,37 +80,18 @@
     font-family:   'Helvetica Neue', sans-serif;
     font-weight:   300;
     font-size:     1em;
-    color:         #333333;
-    background:    white;
+    color:         #000;
+    background:    #fff;
     margin-top:    0;
     margin-bottom: 0;
-    line-height:   1.5;
   }
   h1 {
-    font-family:   'Roboto', sans-serif;
-    font-weight:   300;
-    font-size:     2.4em;
-    color:         #333333;
-    padding:       0;
-    margin:        0;
-    display:       inline;
+    font: 400 2.5em/1.5 'Roboto', sans-serif;
+    color: #000;
+    padding: 0;
+    margin: 0;
+    display: inline;
   }
-  h2 {
-    font-family:   'Roboto', sans-serif;
-    font-weight:   300;
-    font-size:     2em;
-    color:         #333333;
-    background:    none;
-    padding:       0;
-    margin:        0;
-    display:       inline;
-  }
-  .top-big      {padding-top:    2em;}
-  .top          {padding-top:    1em;}
-  .top-small    {padding-top:    .5em;}
-  .bottom-big   {padding-bottom: 2em;}
-  .bottom       {padding-bottom: 1em;}
-  .bottom-small {padding-bottom: .5em;}
 }
 
 a:link, a:visited, a:hover, a:active {
@@ -175,67 +104,29 @@ a:link, a:visited, a:hover, a:active {
   outline:          none;
 }
 
-a.solid:link, a.solid:visited, a.solid:hover, a.solid:active {
+a.solid:link, a.solid:visited,  a.solid:active {
   font-family:      'Helvetica Neue', sans-serif;
   font-weight:      normal;
   color:            black;
-  border-bottom:    1px solid #eee;
+  border-bottom:    1px solid #ddd;
   padding-bottom:   0.05em;
   text-decoration:  none;
   outline:          none;
 }
-
-a.button:link, a.button:visited, a.button:hover, a.button:active {
-  font-family:      'Ionicons', 'Roboto', sans-serif;
-  font-weight:      300;
-  font-size:        1em;
-  background:       #f8f8f8;
-  color:            #999;
-  border-radius:    5em;
-  padding:          .7em 1.8em .7em 1.8em;
-  line-height:      2.5;
-  letter-spacing:   0.5;
-  word-spacing:     0;
-  white-space:      nowrap;
-  text-decoration:  none;
-  outline:          none;
-}
-a.button2:link, a.button2:visited, a.button2:hover, a.button2:active {
-  font-family:      'Roboto', sans-serif;
-  font-weight:      300;
-  font-size:        1em;
-  background:       #45668e;
-  color:            white;
-  border-radius:    5em;
-  padding:           .7em 1.8em .7em 1.8em;
-  line-height:      2.5;
-  letter-spacing:   0.5;
-  word-spacing:     0;
-  white-space:      nowrap;
-  text-decoration:  none;
-  outline:          none;
-}
-a.button3:link, a.button3:visited, a.button3:hover, a.button3:active {
-  font-family:      'Roboto', sans-serif;
-  font-weight:      300;
-  font-size:        1em;
-  background:       #075e54;
-  color:            white;
-  border-radius:    5em;
-  padding:           .7em 1.8em .7em 1.8em;
-  line-height:      2.5;
-  letter-spacing:   0.5;
-  word-spacing:     0;
-  white-space:      nowrap;
-  text-decoration:  none;
-  outline:          none;
+a.solid:hover {
+  border-bottom:    1px solid #aaa
 }
 
-a.button4:link, a.button4:visited, a.button4:hover, a.button4:active {
+#icon {
+  font-size:        1em;
+  color: red;
+}
+
+a.action:link, a.action:visited, a.action:active {
   font-family:      'Roboto', sans-serif;
   font-weight:      400;
   font-size:        2em;
-  background: linear-gradient(to top, #0033cc, #00E5FF);
+  background:       linear-gradient(to top, #0033cc, #00E5FF);
   color:            white;
   border-radius:    6px;
   padding:          .6em 1.2em .6em 1.2em;
@@ -248,11 +139,18 @@ a.button4:link, a.button4:visited, a.button4:hover, a.button4:active {
   text-shadow:     0 1px 1px rgba(0,0,0,.3);
   box-shadow:      0 1.5em 2em 0 rgba(0,0,0,.08), 0 .75em 1em 0 rgba(0,0,0,.08), 0 .5em .75em 0 rgba(0,0,0,.05), 0 .2em .5em 0 rgba(0,0,0,.05);
 }
+a.action:hover {
+  background:       linear-gradient(to top, #0000FF, #00E5FF);
+  box-shadow:      0 1.5em 2em 0 rgba(0,0,0,.12), 0 .75em 1em 0 rgba(0,0,0,.12), 0 .5em .75em 0 rgba(0,0,0,.06), 0 .2em .5em 0 rgba(0,0,0,.06);
+}
 
-.border-left      {border-left:  1px solid #ddd;}
-.border-right     {border-right: 1px solid #ddd;}
 .screen       {min-height: 100vh;}
-.mdl      {vertical-align: middle}
+.top-big      {padding-top:    2em;}
+.top          {padding-top:    1em;}
+.top-small    {padding-top:    .5em;}
+.bottom-big   {padding-bottom: 2em;}
+.bottom       {padding-bottom: 1em;}
+.bottom-small {padding-bottom: .5em;}
 
 
 .darkgray, .darkgray-hover:hover    {background-color: #999;}
