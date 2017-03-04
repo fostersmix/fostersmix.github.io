@@ -14,7 +14,6 @@
     margin-bottom: 0;
   }
   .share {min-height: 2em;}
-  .bb {border-bottom: 1px solid LightSeaGreen;}
 }
 
 /*sm*/
@@ -33,7 +32,6 @@
     margin-bottom: 0;
   }
   .share {min-height: 2em;}
-  .bb {border-bottom: 1px solid LightSeaGreen ;}
 }
 
 /*md*/
@@ -52,15 +50,6 @@
     margin-bottom: 0;
   }
   .share {min-height: 3em;}
-  .bb {
-    border-right: 1px solid LightSeaGreen ;
-    -border-bottom: 1px solid LightSeaGreen;
-    box-shadow: -1px 0px 0 LightSeaGreen;
-  }
-  #delete::after {
-    padding-left: 1rem;
-    content: "/";
-  }
 }
 
 /*lg*/
@@ -92,21 +81,36 @@ a:link, a:visited, a:hover, a:active {
 
 #no {
   padding: 0;
+  padding-top: 1em;
+  margin: 0;
+}
+#fonts {
+  font: 500 2em/2 'Roboto', sans-serif;
+  color: #000;
+  padding: 0;
   margin: 0;
 }
 #delete {
-  font: 700 3em/2 'Arial', sans-serif;
+  font: 500 2em/2 'Roboto', sans-serif;
   color: #fff;
-  background: Teal;
+  -background: #990033;
+  background: linear-gradient(to bottom left, #993366, #660033);
   border: none;
   outline: none;
-  padding: .5rem 2rem;
-  border-radius: 0 6px 6px 0;
+  padding: .1em 1.2em;
+  border-radius: 4px 0 0 4px;
   margin: 0;
+  box-shadow: 0.5em 0 0 0 rgba(0,0,0,.2);
   letter-spacing: 0;
   white-space: nowrap;
+  transition: .2s;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
+}
+#delete:hover {
+  -box-shadow:  .3em 0 0 0 Teal;
+  padding: .1em 1.5em;
+
 }
 #delete2 {
   font: 700 3em 'Georgia', sans-serif;
@@ -114,7 +118,7 @@ a:link, a:visited, a:hover, a:active {
   background: white ;
   border: none;
   outline: none;
-  border-radius: 0 .5em .5em 0;
+  border-radius: 0 .5em 2rem 0;
   margin: 0;
   letter-spacing: 0;
   white-space: nowrap;
@@ -124,11 +128,13 @@ a:link, a:visited, a:hover, a:active {
 
 #solid {
   cursor: pointer;
-  border-bottom: 1px solid  rgba(0,0,0,.3);
+  -transition: 2s;
+  border-bottom: 1px solid  rgba(255,255,255,.2);
 }
 #solid:hover {
-  color: DarkRed;
-  border-bottom: 1px solid 	rgba(139,0,0,.25);
+  -color: DarkRed;
+  -transition: 2s;
+  border-bottom: 1px solid 	rgba(255,255,255,.3);
 }
 
 #more {
@@ -174,6 +180,7 @@ a:link, a:visited, a:hover, a:active {
 .screen         {min-height: 100vh;}
 .line           {height: 1px;}
 .line-big           {height: 3px;}
+
 .ws {word-spacing: 1em;}
 .lh {line-height: 3;}
 .lh2 {line-height: 6;}
