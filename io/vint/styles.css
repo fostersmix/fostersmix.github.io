@@ -94,10 +94,10 @@ a:link, a:visited, a:hover, a:active {
   font: 500 2em/2 'Roboto', sans-serif;
   color: #fff;
   -background: #990033;
-  background: linear-gradient(to bottom left, #993366, #660033);
+  background: linear-gradient(to bottom left, #FF9966 , #CC3333);
   border: none;
   outline: none;
-  padding: .1em 1.2em;
+  padding: .1em .4em .1em 1.2em;
   border-radius: 4px 0 0 4px;
   margin: 0;
   box-shadow: 0.5em 0 0 0 rgba(0,0,0,.2);
@@ -109,8 +109,19 @@ a:link, a:visited, a:hover, a:active {
 }
 #delete:hover {
   -box-shadow:  .3em 0 0 0 Teal;
-  padding: .1em 1.5em;
-
+  padding: .1em .7em .1em 1.4em;
+}
+#delete::after {
+  font-weight: 100;
+  color: rgba(255,255,255,0);
+  padding-left: .5em;
+  content: "x";
+}
+#delete:hover::after {
+  font-weight: 100;
+  color: rgba(255,255,255,.5);
+  padding-left: .5em;
+  content: "x";
 }
 #delete2 {
   font: 700 3em 'Georgia', sans-serif;
@@ -173,6 +184,8 @@ a:link, a:visited, a:hover, a:active {
 
 .top-big        {padding-top:     2em;}
 .bottom-big     {padding-bottom:  2em;}
+.top-middle      {padding-top:     .5em;}
+.bottom-middle   {padding-bottom:  .5em;}
 .top            {padding-top:     1em;}
 .bottom         {padding-bottom:  1em;}
 .top-small      {padding-top:     .5em;}
