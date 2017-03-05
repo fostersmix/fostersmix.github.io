@@ -183,6 +183,23 @@ a:link, a:visited, a:hover, a:active {
   box-shadow: 0 -1px 0 0 #d1d1d1;
   background: linear-gradient(to top, #fff, #e3e3e3);
 }
+#telegram {
+  font-family: 'Arial', sans-serif;
+  font-weight: 22px;
+  font-size: 12px;
+  background: linear-gradient(to top, #0088cc, rgb(0,164,227));
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  -padding: .4em 1em .4em 1em;
+  white-space:nowrap;
+  text-decoration: none;
+  outline: none;
+  word-spacing: 1;
+  -box-shadow: 0 1px 0 0 #d1d1d1; 
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -moz-tap-highlight-color: rgba(0,0,0,0);
+}
 
 #search {
   font: 400 1em/2 'Ionicons', 'Roboto', sans-serif;
