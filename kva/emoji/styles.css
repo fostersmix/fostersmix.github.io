@@ -109,6 +109,14 @@ a.solid:link, a.solid:visited,  a.solid:active {
 a.solid:hover {
   border-bottom: 1px solid #aaa
 }
+a.dot:link, a.dot:visited, a.dot:hover a.dot:active {
+  font: normal 1em 'Arial', sans-serif;
+  color: #000;
+  border-bottom: 1px dotted #aaa;
+  padding-bottom: .1em;
+  text-decoration: none;
+  outline: none;
+}
 
 #icon {
   font-size: 1em;
@@ -130,8 +138,15 @@ a.action:link, a.action:visited, a.action:active {
   box-shadow: 0 1.5em 2em 0 rgba(0,0,0,.08), 0 .75em 1em 0 rgba(0,0,0,.08), 0 .5em .75em 0 rgba(0,0,0,.05), 0 .2em .5em 0 rgba(0,0,0,.05);
 }
 a.action:hover {
-  background: linear-gradient(to top, #003399, #00E5FF);
-  box-shadow: 0 1.5em 2em 0 rgba(0,0,0,.1), 0 .75em 1em 0 rgba(0,0,0,.1), 0 .5em .75em 0 rgba(0,0,0,.06), 0 .2em .5em 0 rgba(0,0,0,.06);
+  -text-shadow: 0 2px 2px rgba(0,0,0,.3);
+  -background: linear-gradient(to top, #003399, #00E5FF);
+  -box-shadow: 0 1.5em 2em 0 rgba(0,0,0,.1), 0 .75em 1em 0 rgba(0,0,0,.1), 0 .5em .75em 0 rgba(0,0,0,.06), 0 .2em .5em 0 rgba(0,0,0,.06);
+}
+#solid {
+  border-bottom: 1px solid  rgba(255,255,255,.0);
+}
+#solid:hover {
+  border-bottom: 1px solid 	rgba(255,255,255,.2);
 }
 
 .screen       {min-height: 100vh;}
@@ -141,7 +156,7 @@ a.action:hover {
 .bottom-big   {padding-bottom: 2em;}
 .bottom       {padding-bottom: 1em;}
 .bottom-small {padding-bottom: .5em;}
-
+.lh {line-height: 1.5;}
 
 .darkgray, .darkgray-hover:hover    {background-color: #999;}
 #darkgray, #darkgray-hover:hover    {color:            #999;}
