@@ -5,11 +5,15 @@
     <link rel="icon" sizes="256x256" href="favicon.png">
     <link rel="stylesheet" href="styles.css" type="text/css">
     <link rel="stylesheet" href="flexboxgrid.css" type="text/css">
-    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" type="text/css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,700">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900">
+    <link rel="stylesheet" href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" type="text/css">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900">
     <link rel="stylesheet" href="likely.css">
-    <script src="likely.js"></script>
+    <script src="likely.js"></script>  
+      <!-- Put this script tag to the <head> of your page -->
+      <script type="text/javascript" src="//vk.com/js/api/openapi.js?140"></script>
+      <script type="text/javascript">
+      VK.init({apiId: 3905856, onlyWidgets: true});
+    </script>
   </head>
   <body>
     <div class="row center-xs center-sm center-md center-lg row-between-xs row-between-sm row-between-md row-between-lg screen ">
@@ -85,11 +89,18 @@
         <div class="row center-xs center-sm start-md start-lg middle-xs middle-sm middle-md middle-lg share" id="pl">
           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <div class="box">
-              <div class="likely">
+              <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&layout=button_count&size=small&mobile_iframe=true&width=140&height=20&appId" width="140" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+              <a href="https://twitter.com/share" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+              <!--<div class="likely">
                 <div class="facebook">Like @surfink</div>
                 <div class="twitter">Tweet #aroundtheword</div>
                 <div class="telegram">Share via Telegram</div>
-              </div>
+              </div>-->
+              <!-- Put this div tag to the place, where the Like block will be -->
+              <div id="vk_like"></div>
+              <script type="text/javascript">
+              VK.Widgets.Like("vk_like", {type: "button"});
+              </script>
             </div>
           </div>
         </div>
