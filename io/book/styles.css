@@ -31,7 +31,7 @@
     margin-top: 0;
     margin-bottom: 0;
   }
-  .share {min-height: 2em;}
+  .share {min-height: 4em;}
 }
 
 /*md*/
@@ -92,7 +92,7 @@ a:link, a:visited, a:hover, a:active {
   border: none;
   outline: none;
   -box-shadow: 0 1px 0 0; /* horizontal vertical */ 
-  padding: .1em .5em .1em 3em; /* top right bottom left */
+  padding: .1em .5em .1em calc(100%/12 + .5rem); /* top right bottom left */
   border-radius: 0 .25rem .25rem 0; /* left-top right-top right-bottom left-bottom */
   margin: 0;
   letter-spacing: 0;
@@ -102,7 +102,8 @@ a:link, a:visited, a:hover, a:active {
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
 #delete:hover {
-  padding: .1em 1.5rem .1em 3.5em;
+  -padding: .1em 1.5rem .1em 3.5em;
+  padding: .1em .75em .1em calc(100%/12 + 1rem); 
 }
 #delete::after {
   font-weight: 100;
@@ -111,38 +112,6 @@ a:link, a:visited, a:hover, a:active {
   content: "x";
 }
 #delete:hover::after {
-  font-weight: 100;
-  color: rgba(255,255,255,.5);
-  padding-left: .5em;
-  content: "x";
-}
-
-#delete-xs {
-  font: 500 2em/2 'Roboto', sans-serif;
-  color: #fff;
-  background: linear-gradient(to bottom left, #FF9966 , #CC3333);
-  border: none;
-  outline: none;
-  -box-shadow: 0 1px 0 0; /* horizontal vertical */ 
-  padding: .1em 1em .1em 1em; /* top right bottom left */
-  border-radius: 0 .25rem .25rem 0; /* left-top right-top right-bottom left-bottom */
-  margin: 0;
-  letter-spacing: 0;
-  white-space: nowrap;
-  transition: .2s;
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
-  -moz-tap-highlight-color: rgba(0,0,0,0);
-}
-#delete-xs:hover {
-  padding: .1em 2em .1em 2em;
-}
-#delete-xs::after {
-  font-weight: 100;
-  color: rgba(255,255,255,0);
-  padding-left: .5em;
-  content: "x";
-}
-#delete-xs:hover::after {
   font-weight: 100;
   color: rgba(255,255,255,.5);
   padding-left: .5em;
@@ -183,6 +152,7 @@ a:link, a:visited, a:hover, a:active {
   box-shadow: 0 -1px 0 0 #d1d1d1;
   background: linear-gradient(to top, #fff, #e3e3e3);
 }
+
 #telegram {
   font-family: 'Arial', sans-serif;
   font-weight: 22px;
@@ -193,12 +163,10 @@ a:link, a:visited, a:hover, a:active {
   margin-top: 1px;
   box-shadow: 0 -1px 0 rgb(0,164,227);
   border-radius: 2px;
-  -padding: .4em 1em .4em 1em;
   white-space:nowrap;
   text-decoration: none;
   outline: none;
   word-spacing: 1;
-  -box-shadow: 0 1px 0 0 #d1d1d1; 
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
