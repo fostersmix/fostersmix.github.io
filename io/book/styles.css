@@ -5,7 +5,7 @@
   .hide-md {display: inline;}
   .hide-lg {display: inline;}*/
   body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Arial', sans-serif;
     font-weight: normal;
     background: #fff;
     color: #000;
@@ -23,7 +23,7 @@
   /*.hide-md {display: inline;}
   .hide-lg {display: inline;}*/
   body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Arial', sans-serif;
     font-weight: normal;
     background: #fff;
     color:  #000;
@@ -41,7 +41,7 @@
   .hide-md {display: none;}
   /*.hide-lg {display: inline;}*/
   body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Arial', sans-serif;
     font-weight: normal;
     background: #fff;
     color:  #000;
@@ -62,7 +62,7 @@
   .hide-md {display: inline;}*/
   .hide-lg {display: none;}
   body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Arial', sans-serif;
     font-weight: normal;
     background: #fff;
     color: #000;
@@ -77,7 +77,7 @@
 }
 
 a:link, a:visited, a:hover, a:active {
-  font-family: normal 1em/normal 'Roboto', sans-serif;
+  font-family: normal 1em/normal 'Arial', sans-serif;
   color: #000;
 	text-decoration: none;
   outline: none;
@@ -91,7 +91,7 @@ a:link, a:visited, a:hover, a:active {
   background: linear-gradient(to bottom left, #FF9966 , #CC3333);
   border: none;
   outline: none;
-  -box-shadow: 0 1px 0 0; /* horizontal vertical */ 
+  -box-shadow: 0 1px 0 0; /* horizontal vertical */
   padding: .1em .5em .1em calc(100%/6 + .5rem); /* top right bottom left */
   border-radius: 0 .25rem .25rem 0; /* left-top right-top right-bottom left-bottom */
   margin: 0;
@@ -103,7 +103,7 @@ a:link, a:visited, a:hover, a:active {
 }
 #delete:hover {
   -padding: .1em 1.5rem .1em 3.5em;
-  padding: .1em .75em .1em calc(100%/6 + 1rem); 
+  padding: .1em .75em .1em calc(100%/6 + 1rem);
 }
 #delete::after {
   font-weight: 100;
@@ -139,12 +139,12 @@ a:link, a:visited, a:hover, a:active {
   color: #000;
   border: none;
   border-radius: .25em;
-  padding: .4em 1em .4em 1em;
+  padding: .35em 1em .35em 1em;
   white-space:nowrap;
   text-decoration: none;
   outline: none;
   word-spacing: 1;
-  box-shadow: 0 1px 0 0 #d1d1d1; 
+  box-shadow: 0 1px 0 0 #d1d1d1;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
@@ -155,13 +155,15 @@ a:link, a:visited, a:hover, a:active {
 
 #telegram {
   font-family: 'Arial', sans-serif;
-  font-weight: 22px;
+  font-weight: normal;
+  line-height: 18px;
+  height: 20px;
   font-size: 12px;
   background: linear-gradient(to top, #0088cc, rgb(0,164,227));
   color: #fff;
   border: none;
   margin-top: 1px;
-  box-shadow: 0 -1px 0 rgb(0,164,227);
+  -box-shadow: 0 -1px 0 rgb(0,164,227);
   border-radius: 2px;
   white-space:nowrap;
   text-decoration: none;
@@ -172,7 +174,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 #search {
-  font: 400 1em/2 'Ionicons', 'Roboto', sans-serif;
+  font: 400 1em/2 'Ionicons', 'Arial', sans-serif;
   color: #777;
   background-color: #f6f6f6;
   border: none;
@@ -195,7 +197,7 @@ a:link, a:visited, a:hover, a:active {
 .screen {min-height: 100vh;}
 .line {height: 1px;}
 .line-big {height: 3px;}
-.ad {height:8em;}     
+.ad {height:8em;}
 .ws {word-spacing: 1em;}
 .lh {line-height: 3;}
 
