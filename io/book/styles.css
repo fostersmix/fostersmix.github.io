@@ -190,6 +190,7 @@ a:link, a:visited, a:hover, a:active {
   background: linear-gradient(to top, #0088cc, rgb(0,164,227));
   color: #fff;
   border: none;
+  margin-top: 1px;
   box-shadow: 0 -1px 0 rgb(0,164,227);
   border-radius: 2px;
   -padding: .4em 1em .4em 1em;
