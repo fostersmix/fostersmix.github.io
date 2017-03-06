@@ -92,7 +92,7 @@ a:link, a:visited, a:hover, a:active {
   border: none;
   outline: none;
   -box-shadow: 0 1px 0 0; /* horizontal vertical */ 
-  padding: .1em .5em .1em calc(100%/12 + .5rem); /* top right bottom left */
+  padding: .1em .5em .1em calc(100%/6 + .5rem); /* top right bottom left */
   border-radius: 0 .25rem .25rem 0; /* left-top right-top right-bottom left-bottom */
   margin: 0;
   letter-spacing: 0;
@@ -103,7 +103,7 @@ a:link, a:visited, a:hover, a:active {
 }
 #delete:hover {
   -padding: .1em 1.5rem .1em 3.5em;
-  padding: .1em .75em .1em calc(100%/12 + 1rem); 
+  padding: .1em .75em .1em calc(100%/6 + 1rem); 
 }
 #delete::after {
   font-weight: 100;
@@ -185,16 +185,17 @@ a:link, a:visited, a:hover, a:active {
 
 .top-big        {padding-top:     2em;}
 .bottom-big     {padding-bottom:  2em;}
-.top-middle      {padding-top:     .5em;}
-.bottom-middle   {padding-bottom:  .5em;}
+.top-middle     {padding-top:     .5em;}
+.bottom-middle  {padding-bottom:  .5em;}
 .top            {padding-top:     1em;}
 .bottom         {padding-bottom:  1em;}
 .top-small      {padding-top:     .5em;}
 .bottom-small   {padding-bottom:  .5em;}
-.screen         {min-height: 100vh;}
-.line           {height: 1px;}
-.line-big           {height: 3px;}
 
+.screen {min-height: 100vh;}
+.line {height: 1px;}
+.line-big {height: 3px;}
+.ad {height:8em;}     
 .ws {word-spacing: 1em;}
 .lh {line-height: 3;}
 
