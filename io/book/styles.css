@@ -118,6 +118,39 @@ a:link, a:visited, a:hover, a:active {
   content: "x";
 }
 
+#delete2 {
+  font: 500 2em/2 'Roboto', sans-serif;
+  color: #e0e0e0;
+  background: white;
+  border: 2px dashed #e0e0e0;
+  outline: none;
+  -box-shadow: 0 1px 0 0; /* horizontal vertical */
+  padding: .1em .5em .1em calc(100%/12 + .5rem); /* top right bottom left */
+  border-radius: 0 .25rem .25rem 0; /* left-top right-top right-bottom left-bottom */
+  margin: 0;
+  letter-spacing: 0;
+  white-space: nowrap;
+  transition: .2s;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -moz-tap-highlight-color: rgba(0,0,0,0);
+}
+#delete2:hover {
+  -padding: .1em 1.5rem .1em 3.5em;
+  -padding: .1em .75em .1em calc(100%/12 + 1rem);
+}
+#delete2::after {
+  font-weight: 100;
+  color: rgba(255,255,255,0);
+  padding-left: .5em;
+  content: "x";
+}
+#delete2:hover::after {
+  font-weight: 100;
+  color: rgba(255,255,255,.0);
+  padding-left: .5em;
+  content: "x";
+}
+
 #solid {
   cursor: pointer;
   border-bottom: 1px solid  rgba(255,255,255,.2);
