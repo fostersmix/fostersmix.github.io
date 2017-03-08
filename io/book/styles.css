@@ -13,7 +13,6 @@
     margin-top: 0;
     margin-bottom: 0;
   }
-  .share {min-height: 2em;}
 }
 
 /*sm*/
@@ -31,7 +30,6 @@
     margin-top: 0;
     margin-bottom: 0;
   }
-  .share {min-height: 4em;}
 }
 
 /*md*/
@@ -48,10 +46,6 @@
     font-size: 1.5rem;
     margin-top: 0;
     margin-bottom: 0;
-  }
-  .share {min-height: 3em;}
-  #pl {
-    padding-left: 5.5em;
   }
 }
 
@@ -70,10 +64,6 @@
     margin-top: 0;
     margin-bottom: 0;
   }
-  .share {min-height: 4em;}
-  #pl {
-    padding-left: 5.5em;
-  }
 }
 
 a:link, a:visited, a:hover, a:active {
@@ -81,6 +71,16 @@ a:link, a:visited, a:hover, a:active {
   color: #000;
 	text-decoration: none;
   outline: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -moz-tap-highlight-color: rgba(0,0,0,0);
+}
+a:link, a:visited, a:hover, a:active {
+  font-family: normal 1em/normal 'Arial', sans-serif;
+  color: #000;
+	text-decoration: none;
+  outline: none;
+  padding-bottom: .1em;
+  border-bottom: 1px solid #eee;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
@@ -92,7 +92,7 @@ a:link, a:visited, a:hover, a:active {
   border: none;
   outline: none;
   -box-shadow: 0 1px 0 0; /* horizontal vertical */
-  padding: .1em .5em .1em calc(100%/12 + .5rem); /* top right bottom left */
+  padding: .1em .5em .1em calc(100%/6 + .5rem); /* top right bottom left */
   border-radius: 0 .25rem .25rem 0; /* left-top right-top right-bottom left-bottom */
   margin: 0;
   letter-spacing: 0;
@@ -102,8 +102,7 @@ a:link, a:visited, a:hover, a:active {
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
 #delete:hover {
-  -padding: .1em 1.5rem .1em 3.5em;
-  padding: .1em .75em .1em calc(100%/12 + 1rem);
+  padding: .1em .75em .1em calc(100%/6 + 1rem);
 }
 #delete::after {
   font-weight: 100;
@@ -124,31 +123,14 @@ a:link, a:visited, a:hover, a:active {
   background: white;
   border: 2px dashed #e0e0e0;
   outline: none;
-  -box-shadow: 0 1px 0 0; /* horizontal vertical */
-  padding: .1em .5em .1em calc(100%/12 + .5rem); /* top right bottom left */
-  border-radius: 0 .25rem .25rem 0; /* left-top right-top right-bottom left-bottom */
+  padding: .1em 1.5em .1em calc(100%/6 + .5rem);
+  border-radius: 0 .25rem .25rem 0; 
   margin: 0;
   letter-spacing: 0;
   white-space: nowrap;
   transition: .2s;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
-}
-#delete2:hover {
-  -padding: .1em 1.5rem .1em 3.5em;
-  -padding: .1em .75em .1em calc(100%/12 + 1rem);
-}
-#delete2::after {
-  font-weight: 100;
-  color: rgba(255,255,255,0);
-  padding-left: .5em;
-  content: "x";
-}
-#delete2:hover::after {
-  font-weight: 100;
-  color: rgba(255,255,255,.0);
-  padding-left: .5em;
-  content: "x";
 }
 
 #solid {
@@ -164,6 +146,14 @@ a:link, a:visited, a:hover, a:active {
   padding-top: 1em;
   margin: 0;
 }
+
+#logo {
+  font: 500 2em/1 'Roboto', sans-serif;
+  color: #000;
+  -padding: 0;
+  -margin: 0;
+}
+
 #more {
   font-family: 'Arial', sans-serif;
   font-weight: normal;
@@ -186,26 +176,6 @@ a:link, a:visited, a:hover, a:active {
   background: linear-gradient(to top, #fff, #e3e3e3);
 }
 
-#telegram {
-  font-family: 'Arial', sans-serif;
-  font-weight: normal;
-  line-height: 18px;
-  height: 20px;
-  font-size: 12px;
-  background: linear-gradient(to top, #0088cc, rgb(0,164,227));
-  color: #fff;
-  border: none;
-  margin-top: 1px;
-  -box-shadow: 0 -1px 0 rgb(0,164,227);
-  border-radius: 2px;
-  white-space:nowrap;
-  text-decoration: none;
-  outline: none;
-  word-spacing: 1;
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
-  -moz-tap-highlight-color: rgba(0,0,0,0);
-}
-
 #search {
   font: 400 1em/2 'Ionicons', 'Arial', sans-serif;
   color: #777;
@@ -220,13 +190,15 @@ a:link, a:visited, a:hover, a:active {
 
 .top-big        {padding-top:     2em;}
 .bottom-big     {padding-bottom:  2em;}
-.top-middle     {padding-top:     .5em;}
-.bottom-middle  {padding-bottom:  .5em;}
+.top-middle     {padding-top:     1.5em;}
+.bottom-middle  {padding-bottom:  1.5em;}
 .top            {padding-top:     1em;}
 .bottom         {padding-bottom:  1em;}
 .top-small      {padding-top:     .5em;}
 .bottom-small   {padding-bottom:  .5em;}
 
+.bb {border: 1px solid #e5e5e5;}
+.round {border-radius: .2em;}
 .screen {min-height: 100vh;}
 .line {height: 1px;}
 .line-big {height: 3px;}
