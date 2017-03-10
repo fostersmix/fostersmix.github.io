@@ -5,7 +5,7 @@
   .hide-md {display: inline;}
   .hide-lg {display: inline;}*/
   body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     font-weight: normal;
     background: #fff;
     color: #000;
@@ -22,7 +22,7 @@
   /*.hide-md {display: inline;}
   .hide-lg {display: inline;}*/
   body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     font-weight: normal;
     background: #fff;
     color:  #000;
@@ -39,7 +39,7 @@
   .hide-md {display: none;}
   /*.hide-lg {display: inline;}*/
   body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     font-weight: normal;
     background: #fff;
     color:  #000;
@@ -56,7 +56,7 @@
   .hide-md {display: inline;}*/
   .hide-lg {display: none;}
   body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     font-weight: normal;
     background: #fff;
     color: #000;
@@ -67,93 +67,37 @@
 }
 
 a:link, a:visited, a:hover, a:active {
-  font-family: normal 1em/normal 'Arial', sans-serif;
+  font-family: normal 1em/1 'PT Sans', sans-serif;
   color: #000;
 	text-decoration: none;
   outline: none;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
-a:link, a:visited, a:hover, a:active {
-  font-family: normal 1em/normal 'Arial', sans-serif;
+a.solid:link, a.solid:visited, a.solid:hover, a.solid:active {
+  font-family: normal 1em/1 'PT Sans', sans-serif;
   color: #000;
 	text-decoration: none;
   outline: none;
   padding-bottom: .1em;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #e5e5e5;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
+}
+a.solid:hover {
+  border-bottom: 1px solid #d5d5d5;
 }
 
 #delete {
-  font: 500 3em/1.5 'Roboto', sans-serif;
-  color: #000;
-  background: #fff;
-  -background: linear-gradient(to bottom left, #FF9966 , #CC3333);
-  border: none;
-  outline: none;
-  -border-bottom: 1px solid #000;
-  -border-right: 1px solid #000;
-  -box-shadow: 0 1px 0 0; /* horizontal vertical */
-  padding: 0 1em 0 1em; /* top right bottom left */
-  -border-radius: 0 .25rem .25rem 0; /* left-top right-top right-bottom left-bottom */
-  -border-bottom: 5px solid #000;
-  border-radius: 5em;
-  margin: 0;
-  cursor: pointer;
-
-  letter-spacing: 0;
-  white-space: nowrap;
-  -transition: .2s;
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
-  -moz-tap-highlight-color: rgba(0,0,0,0);
-}
-#delete:hover {
-  -padding: .1em .75em .1em calc(100%/6 + 1rem);
-  -text-decoration: line-through;
-  background: #fafafa;
-  color: red;
-}
-#delete::after {
-  font-weight: 100;
-  color: rgba(0,0,0,.1);
-  padding-left: .5em;
-  content: "x";
-}
-#delete:hover::after {
-  font-weight: 100;
-  color: red;
-  padding-left: .5em;
-  content: "x";
-}
-
-.bbb2 {box-shadow: 0 1px 0  #eee;}
-
-#tag {
-  font: 400 1.25em/1 'Roboto', sans-serif;
-  background: #33FF66;
+  font: 700 2em/2 'PT Sans', sans-serif;
   color: #fff;
-  border: none;
-  cursor: pointer;
-  border-radius: 5em;
-  padding: .4em 1em .4em 1em;
-  white-space:nowrap;
-  text-decoration: none;
-  outline: none;
-  word-spacing: 1;
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
-  -moz-tap-highlight-color: rgba(0,0,0,0);
-}
-
-#delete2 {
-  font: 900 4em/2 'Roboto', sans-serif;
-  color: #e0e0e0;
-  background: white;
+  background: linear-gradient(to top, #e04040, #f88040);
   border: none;
   outline: none;
-  -padding: .1em 1.5em .1em calc(100%/6 + .5rem);
-  -border-radius: 0 .25rem .25rem 0; 
-  margin: 0;
+  padding: 0 .75em 0 .85em; /* top right bottom left */
+  border-radius: .25em;
+  margin-top: .5em;
+  margin-right: .5em;
   cursor: pointer;
   letter-spacing: 0;
   white-space: nowrap;
@@ -161,30 +105,44 @@ a:link, a:visited, a:hover, a:active {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
-
-#solid2 {
-  cursor: pointer;
-  border-bottom: 1px solid  rgba(0,0,0,.1);
+#delete:hover {
+  color: #fff;
+  box-shadow: inset 0 0 6em rgba(0,0,0,.15);
 }
-#solid2:hover {
-  border-bottom: 1px solid 	rgba(0,0,0,.2);
+#delete::after {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  transition: .2s;
+  color: rgba(255,255,255,.35);
+  padding-left: .35em;
+  content: "x";
+}
+#delete:hover::after {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  color: #fff;
+  padding-left: .35em;
+  content: "x";
 }
 
-#no {
-  padding: 0;
-  padding-top: 1em;
-  margin: 0;
-}
-
-#logo {
-  font: 500 2em/1 'Roboto', sans-serif;
-  color: #000;
-  -padding: 0;
-  -margin: 0;
+#delete2 {
+  font: 700 2em/2 'PT Sans', sans-serif;
+  color: #ddd;
+  background: #fff;
+  border: 2px dashed #ddd;
+  outline: none;
+  padding: 0 .85em 0 .85em; /* top right bottom left */
+  border-radius: .25em;
+  margin-top: .5em;
+  margin-right: .5em;
+  letter-spacing: 0;
+  white-space: nowrap;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -moz-tap-highlight-color: rgba(0,0,0,0);
 }
 
 #more {
-  font-family: 'Arial', sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-weight: normal;
   font-size: 1em;
   background: linear-gradient(to bottom, #fff, #e3e3e3);
@@ -195,6 +153,10 @@ a:link, a:visited, a:hover, a:active {
   white-space:nowrap;
   text-decoration: none;
   outline: none;
+  margin-top: .5em;
+  margin-right: .5em;
+  margin-bottom: .5em;
+  margin-left: .5em;
   word-spacing: 1;
   box-shadow: 0 1px 0 0 #d1d1d1;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
@@ -206,7 +168,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 #search {
-  font: 400 1em/2 'Ionicons', 'Arial', sans-serif;
+  font: 400 1em/2 'Ionicons', 'PT Sans', sans-serif;
   color: #777;
   background-color: #f6f6f6;
   border: none;
@@ -226,14 +188,7 @@ a:link, a:visited, a:hover, a:active {
 .top-small      {padding-top:     .5em;}
 .bottom-small   {padding-bottom:  .5em;}
 
-.bb {border: 1px solid #e5e5e5;}
-.round {border-radius: .2em;}
 .screen {min-height: 100vh;}
-.line {height: 1px;}
-.line-big {height: 3px;}
-.ad {height:8em;}
-.ws {word-spacing: 1em;}
-.lh {line-height: 3;}
 
 .black, .black-hover:hover          {background-color:#000;}
 #black, #black-hover:hover          {color:           #000;}
