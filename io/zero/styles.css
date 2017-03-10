@@ -129,16 +129,21 @@ a.solid:hover {
   font: 700 2em/2 'PT Sans', sans-serif;
   color: #ddd;
   background: #fff;
-  border: 2px dashed #ddd;
+  border: none;
   outline: none;
   padding: 0 .85em 0 .85em; /* top right bottom left */
   border-radius: .25em;
-  margin-top: .5em;
-  margin-right: .5em;
+  -margin-top: .5em;
+  -margin-right: .5em;
   letter-spacing: 0;
   white-space: nowrap;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.bb {
+  border: 2px dashed #ddd;
+  border-radius: .25em;
 }
 
 #more {
