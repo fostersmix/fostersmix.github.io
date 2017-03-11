@@ -5,7 +5,7 @@
   .hide-md   {display: inline;}
   .hide-lg   {display: inline;}*/
   body {
-    font: normal 1.75em 'Arial', sans-serif;
+    font: normal 1.75rem 'Arial', sans-serif;
     color: #000;
     background:  #fff;
     margin-top: 0;
@@ -27,7 +27,7 @@
   /*.hide-md {display: inline;}
   .hide-lg   {display: inline;}*/
   body {
-    font: normal 1.5em 'Arial', sans-serif;
+    font: normal 1.5rem 'Arial', sans-serif;
     color: #000;
     background: #fff;
     margin-top: 0;
@@ -49,7 +49,7 @@
   .hide-md   {display: none;}
   /*.hide-lg {display: inline;}*/
   body {
-    font: normal 1.25em 'Arial', sans-serif;
+    font: normal 1.25rem 'Arial', sans-serif;
     color: #000;
     background: #fff;
     margin-top: 0;
@@ -71,7 +71,7 @@
   .hide-md   {display: inline;}*/
   .hide-lg   {display: none;}
   body {
-    font: normal 1em 'Arial', sans-serif;
+    font: normal 1rem 'Arial', sans-serif;
     color: #000;
     background: #fff;
     margin-top: 0;
