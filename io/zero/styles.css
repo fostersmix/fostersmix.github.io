@@ -132,6 +132,28 @@ a.solid:hover {
   content: "x";
 }
 
+#delete2 {
+  font: normal 2em/1.85 'Arial', sans-serif;
+  color: #ddd;
+  background: #fff;
+  border: .075em dashed #ddd;
+  outline: none;
+  padding: 0 .85em 0 .85em; /* top right bottom left */
+  border-radius: .125em;
+  -outline: 2px dashed #ddd;
+  margin-top: .5em;
+  margin-right: .5em;
+  letter-spacing: 0;
+  white-space: nowrap;
+  transition: .15s;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -moz-tap-highlight-color: rgba(0,0,0,0);
+}
+#delete2:hover {
+  color: #ddd;
+  -box-shadow: inset 0 0 6em rgba(0,0,0,.15);
+}
+
 #button {
   font: normal 1.5em/2 'Arial', sans-serif;
   color: #000;
