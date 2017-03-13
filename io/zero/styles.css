@@ -5,7 +5,7 @@
   .hide-md {display: inline;}
   .hide-lg {display: inline;}*/
   body {
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Arial', sans-serif;
     font-weight: normal;
     background: #fff;
     color: #000;
@@ -22,7 +22,7 @@
   /*.hide-md {display: inline;}
   .hide-lg {display: inline;}*/
   body {
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Arial', sans-serif;
     font-weight: normal;
     background: #fff;
     color:  #000;
@@ -39,7 +39,7 @@
   .hide-md {display: none;}
   /*.hide-lg {display: inline;}*/
   body {
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Arial', sans-serif;
     font-weight: normal;
     background: #fff;
     color:  #000;
@@ -56,7 +56,7 @@
   .hide-md {display: inline;}*/
   .hide-lg {display: none;}
   body {
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Arial', sans-serif;
     font-weight: normal;
     background: #fff;
     color: #000;
@@ -67,7 +67,7 @@
 }
 
 a:link, a:visited, a:hover, a:active {
-  font-family: normal 1em/1 'PT Sans', sans-serif;
+  font-family: normal 1em/1 'Arial', sans-serif;
   color: #000;
 	text-decoration: none;
   outline: none;
@@ -75,7 +75,7 @@ a:link, a:visited, a:hover, a:active {
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
 a.solid:link, a.solid:visited, a.solid:hover, a.solid:active {
-  font-family: normal 1em/1 'PT Sans', sans-serif;
+  font-family: normal 1em/1 'Arial', sans-serif;
   color: #000;
 	text-decoration: none;
   outline: none;
@@ -87,21 +87,28 @@ a.solid:link, a.solid:visited, a.solid:hover, a.solid:active {
 a.solid:hover {
   border-bottom: 1px solid #d5d5d5;
 }
+#dot {
+  padding-bottom: .1em;
+  border-bottom: 1px dotted #000;
+}
+#dot:hover {
+  border-bottom: 1px dotted #e04040;
+}
 
 #delete {
-  font: 700 2em/2 'PT Sans', sans-serif;
+  font: normal 2em/2 'Arial', sans-serif;
   color: #fff;
   background: linear-gradient(to top, #e04040, #f88040);
   border: none;
   outline: none;
   padding: 0 .75em 0 .85em; /* top right bottom left */
-  border-radius: .25em;
+  border-radius: .125em;
   margin-top: .5em;
   margin-right: .5em;
   cursor: pointer;
   letter-spacing: 0;
   white-space: nowrap;
-  transition: .2s;
+  transition: .15s;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
@@ -125,32 +132,35 @@ a.solid:hover {
   content: "x";
 }
 
-#delete2 {
-  font: 700 2em/2 'PT Sans', sans-serif;
-  color: #ddd;
+#button {
+  font: normal 1.5em/2 'Arial', sans-serif;
+  color: #000;
   background: #fff;
   border: none;
   outline: none;
-  padding: 0 .85em 0 .85em; /* top right bottom left */
-  border-radius: .25em;
+  padding: 0; /* top right bottom left */
   -margin-top: .5em;
   -margin-right: .5em;
   letter-spacing: 0;
+  border: 2px dashed #ddd;
+  border-radius: 5em;
+  width: 100%;
+  cursor: pointer;
   white-space: nowrap;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
-
-.bb {
-  border: 2px dashed #ddd;
-  border-radius: .25em;
+#button:hover {
+  color: #e04040;
+  border: 2px dashed #d5d5d5;
 }
 
+
 #more {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Arial', sans-serif;
   font-weight: normal;
   font-size: 1em;
-  background: linear-gradient(to bottom, #fff, #e3e3e3);
+  background: linear-gradient(to bottom, #fafafa, #e3e3e3);
   color: #000;
   border: none;
   border-radius: .25em;
@@ -163,17 +173,18 @@ a.solid:hover {
   margin-bottom: .5em;
   margin-left: .5em;
   word-spacing: 1;
-  box-shadow: 0 1px 0 0 #d1d1d1;
+  transition: .15s;
+  -box-shadow: 0 1px 0 0 #d1d1d1;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
 #more:hover {
   box-shadow: 0 -1px 0 0 #d1d1d1;
-  background: linear-gradient(to top, #fff, #e3e3e3);
+  background: linear-gradient(to top, #fafafa, #e3e3e3);
 }
 
 #search {
-  font: 400 1em/2 'Ionicons', 'PT Sans', sans-serif;
+  font: normal 1em/2 'Ionicons', 'Arial', sans-serif;
   color: #777;
   background-color: #f6f6f6;
   border: none;
@@ -192,8 +203,10 @@ a.solid:hover {
 .bottom         {padding-bottom:  1em;}
 .top-small      {padding-top:     .5em;}
 .bottom-small   {padding-bottom:  .5em;}
-
 .screen {min-height: 100vh;}
+.gr1 {background: linear-gradient(to bottom, #ccc 1%, #f5f5f5 15%, #fff 50%, #fff);}
+.gr2 {background: linear-gradient(to right, #fff, transparent, #fff);}
+
 
 .black, .black-hover:hover          {background-color:#000;}
 #black, #black-hover:hover          {color:           #000;}
