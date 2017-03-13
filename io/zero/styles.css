@@ -152,7 +152,7 @@ a.solid:hover {
 .top {padding-top: 2em;}
 .bottom {padding-bottom: 2em;}
 .gradient-back {background: linear-gradient(to bottom, #ccc 1%, #f5f5f5 15%, #fff 50%, #fff);}
-.gradient-front {background: linear-gradient(to right, #fff, transparent, #fff);}
+.gradient-front {background: linear-gradient(to right, #fff, rgba(255,255,255,.0), #fff);}
 
 .black, .black-hover:hover {background-color:#000;}
 #black, #black-hover:hover {color: #000;}
