@@ -1,0 +1,190 @@
+/*xs*/
+@media only screen and (max-width: 48em) {
+  body {
+    font-family: 'Arial', sans-serif;
+    font-weight: normal;
+    background: #fff;
+    color: #000;
+    font-size: 2em;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+/*sm*/
+@media only screen and (min-width: 48em) {
+  body {
+    font-family: 'Arial', sans-serif;
+    font-weight: normal;
+    background: #fff;
+    color:  #000;
+    font-size: 2em;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+/*md*/
+@media only screen and (min-width: 62em) {
+  body {
+    font-family: 'Arial', sans-serif;
+    font-weight: normal;
+    background: #fff;
+    color:  #000;
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+/*lg*/
+@media only screen and (min-width: 75em) {
+  body {
+    font-family: 'Arial', sans-serif;
+    font-weight: normal;
+    background: #fff;
+    color: #000;
+    font-size: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  h1 {
+  font-size: 2em;
+  display: inline;
+  padding: 0;
+  margin: 0;
+  }
+}
+
+a:link, a:visited, a:hover, a:active {
+  font: normal 1em/1 'Arial', sans-serif;
+  color: #000;
+	text-decoration: none;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -moz-tap-highlight-color: rgba(0,0,0,0);
+}
+a.solid:link, a.solid:visited, a.solid:hover, a.solid:active {
+  font: normal 1em/1 'Arial', sans-serif;
+  color: #000;
+	text-decoration: none;
+  outline: none;
+  padding-bottom: .1em;
+  border-bottom: 1px solid #e3e3e3;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -moz-tap-highlight-color: rgba(0,0,0,0);
+}
+a.solid:hover {
+  border-bottom: 1px solid #d3d3d3;
+}
+
+#delete {
+  font: normal 2em/2 'Arial', sans-serif;
+  color: #fff;
+  background: linear-gradient(to top, #E04040, #F88040);
+  border: none;
+  padding: 0 .75em 0 .85em;
+  border-radius: .125em;
+  margin: .25em;
+  cursor: pointer;
+  letter-spacing: 0;
+  white-space: nowrap;
+  transition: .15s;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -moz-tap-highlight-color: rgba(0,0,0,0);
+}
+#delete:hover {
+  box-shadow: inset 0 0 6em rgba(0,0,0,.15);
+}
+#delete::after {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  transition: .15s;
+  color: rgba(255,255,255,.35);
+  padding-left: .35em;
+  content: "x";
+}
+#delete:hover::after {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  color: #fff;
+  padding-left: .35em;
+  content: "x";
+}
+
+#button {
+  font: normal 2em/1.85 'Arial', sans-serif;
+  color: #ddd;
+  background: #fff;
+  border: .075em dashed #ddd;
+  padding: 0 .85em 0 .85em;
+  border-radius: .125em;
+  margin: .25em;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: .15s;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -moz-tap-highlight-color: rgba(0,0,0,0);
+}
+#button:hover {
+  color: #ccc;
+  border: .075em dashed #ccc;
+}
+
+#more {
+  font: normal 1em 'Arial', sans-serif;
+  background: linear-gradient(to bottom, #fafafa, #e3e3e3);
+  color: #000;
+  border: none;
+  border-radius: .25em;
+  padding: .35em 1em .35em 1em;
+  white-space:nowrap;
+  text-decoration: none;
+  outline: none;
+  margin: .5em;
+  transition: .15s;
+  cursor: pointer;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -moz-tap-highlight-color: rgba(0,0,0,0);
+}
+#more:hover {
+  box-shadow: inset 0 1px 0 0 #d1d1d1;
+  background: linear-gradient(to top, #fafafa, #e3e3e3);
+}
+
+.bb {border-bottom: 1px solid #eee;}
+.line-v {box-shadow: 1px 0 0 #eee;}
+.screen {min-height: 100vh;}
+.top {padding-top: 1em;}
+.bottom {padding-bottom: 1em;}
+.top-big {padding-top: 2em;}
+.bottom-big {padding-bottom: 2em;}
+.top-middle {padding-top: 1.5em;}
+.bottom-middle {padding-bottom: 1.5em;}
+.gradient-back {background: linear-gradient(to bottom, #ccc 1%, #f5f5f5 15%, #fff 50%, #fff);}
+.gradient-front {background: linear-gradient(to right, #fff, rgba(255,255,255,.0), #fff);}
+
+.bb1 {border-bottom: 1px solid #eee;}
+.bb1:hover {border-bottom: 1px solid tomato;}
+.bb2 {border-bottom: 1px solid #eee;}
+.bb2:hover {border-bottom: 1px solid navy;}
+.bb3 {border-bottom: 1px solid #eee;}
+.bb3:hover {border-bottom: 1px solid limegreen;}
+.bb4 {border-bottom: 1px solid #eee;}
+.bb4:hover {border-bottom: 1px solid red;}
+.bb5 {border-bottom: 1px solid #eee;}
+.bb5:hover {border-bottom: 1px solid DeepSkyBlue;}
+
+.pdd {margin-left: 2em;}
+.shadow {box-shadow: 0 .5em 1em 0 #eee;}
+
+.black, .black-hover:hover {background-color:#000;}
+#black, #black-hover:hover {color: #000;}
+.gray, .gray-hover:hover {background-color:#aaa;}
+#gray, #gray-hover:hover {color: #aaa;}
+.white, .white-hover:hover {background-color:#fff;}
+#white, #white-hover:hover {color: #fff;}
+.color, .color-hover:hover {background-color:tomato;}
+#color, #color-hover:hover {color: tomato;}
