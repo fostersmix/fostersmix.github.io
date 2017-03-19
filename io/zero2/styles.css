@@ -81,7 +81,7 @@ a.solid:hover {
   border: none;
   padding: 0 .75em 0 .85em;
   border-radius: .125em;
-  margin: .25em 0em .25em .25em;
+  margin: .25em 0 .25em .25em;
   cursor: pointer;
   letter-spacing: 0;
   white-space: nowrap;
@@ -142,7 +142,7 @@ a.solid:hover {
   white-space:nowrap;
   text-decoration: none;
   outline: none;
-  margin: .5em .5em .5em .5em;
+  margin: .5em 1em .5em 0;
   transition: .15s;
   cursor: pointer;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
@@ -154,9 +154,11 @@ a.solid:hover {
 }
 
 .round {border-radius: .25em;}
+.gr {background: linear-gradient(to bottom, #eee, #fff);}
 .bb {border: 0px solid #CCFF33;background-color: #CCFF33;}
 .screen {min-height: 100vh;}
 .top {padding-top: 2em;}
+.top-small {padding-top: 1em;}
 .bottom {padding-bottom: 2em;}
 .gradient-back {background: linear-gradient(to bottom, #ccc 1%, #f5f5f5 15%, #fff 50%, #fff);}
 .gradient-front {background: linear-gradient(to right, #fff, rgba(255,255,255,.0), #fff);}
