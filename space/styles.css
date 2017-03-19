@@ -49,7 +49,7 @@
     margin-bottom: 0;
   }
   h1 {
-  font-size: 2em;
+  font-size: 1.5em;
   display: inline;
   padding: 0;
   margin: 0;
@@ -58,9 +58,11 @@
 
 a:link, a:visited, a:hover, a:active {
   font: normal 1em/1 'Arial', sans-serif;
-  color: #000;
+  color: #0089ff;
 	text-decoration: none;
   outline: none;
+  padding-bottom: .1em;
+  border-bottom: 1px solid rgba(0,137,255,.3);
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
@@ -163,6 +165,8 @@ a.solid:hover {
 .bottom-big {padding-bottom: 2em;}
 .top-middle {padding-top: 1.5em;}
 .bottom-middle {padding-bottom: 1.5em;}
+.top-small {padding-top: .5em;}
+.bottom-small {padding-bottom: .5em;}
 .gradient-back {background: linear-gradient(to bottom, #ccc 1%, #f5f5f5 15%, #fff 50%, #fff);}
 .gradient-front {background: linear-gradient(to right, #fff, rgba(255,255,255,.0), #fff);}
 
