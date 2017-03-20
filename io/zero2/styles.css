@@ -60,11 +60,11 @@ a:link, a:visited, a:hover, a:active {
 }
 a.solid:link, a.solid:visited, a.solid:hover, a.solid:active {
   font: normal 1em/1 'Arial', sans-serif;
-  color: #000;
+  color: #0089ff;
 	text-decoration: none;
   outline: none;
   padding-bottom: .1em;
-  border-bottom: 1px solid #e3e3e3;
+  border-bottom: 1px solid rgba(0,137,255,.3);
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
@@ -81,12 +81,13 @@ a.solid:hover {
   border: none;
   padding: 0 .75em 0 .85em;
   border-radius: .125em;
-  margin: .25em 0 .25em .25em;
+  border: 1px solid #e5e5e5;
+  margin: .25em .25em .25em 0em;
   cursor: pointer;
   letter-spacing: 0;
   white-space: nowrap;
   -transition: .15s;
-  box-shadow: inset -1px 0 0 rgba(0,0,0,.1);
+  -box-shadow: inset -1px 0 0 rgba(0,0,0,.1);
   outline: none;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
@@ -94,34 +95,36 @@ a.solid:hover {
 #delete:hover {
   -box-shadow: inset 0 0 6em rgba(0,0,0,.15);
   -box-shadow: inset 0 0 10em rgba(0,0,0,.1);
+  border: 1px solid tomato;
+  -color: tomato;
 }
 #delete::after {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
-  transition: .15s;
-  color: rgba(0,0,0,.15);
+  -transition: .15s;
+  color: #ddd;
   padding-left: .35em;
   content: "x";
 }
 #delete:hover::after {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
-  color: rgba(0,0,0,1);
+  color: tomato;
   padding-left: .35em;
   content: "x";
 }
 
 #button {
-  font: normal 2em/1.85 'Arial', sans-serif;
-  color: rgba(255,255,255,1);
+  font: normal 2em/2 'Arial', sans-serif;
+  color: #e5e5e5;
   background: none;
-  border: .075em dashed rgba(255,255,255,1);
+  border: 1px dashed #e5e5e5;
   padding: 0 .85em 0 .85em;
   border-radius: .125em;
-  margin: .25em 0em .25em .25em;
+  margin: .25em .25em .25em 0;
   cursor: pointer;
   white-space: nowrap;
-  transition: .15s;
+  -transition: .15s;
   outline: none;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
@@ -134,7 +137,7 @@ a.solid:hover {
 #more {
   font: normal 1em 'Arial', sans-serif;
   -background-color: OrangeRed ;
-  background: linear-gradient(to bottom, #fcfcfc, #e5e5e5);
+  background: linear-gradient(to bottom, #fdfdfd, #e7e7e7);
   color: #000;
   border: none;
   border-radius: .25em;
@@ -143,14 +146,14 @@ a.solid:hover {
   text-decoration: none;
   outline: none;
   margin: .5em 1em .5em 0;
-  transition: .15s;
+  -transition: .15s;
   cursor: pointer;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
 #more:hover {
   box-shadow: inset 0 1px 0 0 #d1d1d1;
-  background: linear-gradient(to top, #fafafa, #e3e3e3);
+  background: linear-gradient(to top, #fdfdfd, #e7e7e7);
 }
 
 .round {border-radius: .25em;}
