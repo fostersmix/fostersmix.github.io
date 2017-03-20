@@ -190,5 +190,4 @@ a.solid:hover {
 #gray, #gray-hover:hover {color: #aaa;}
 .white, .white-hover:hover {background-color:#fff;}
 #white, #white-hover:hover {color: #fff;}
-.color, .color-hover:hover {background-color:tomato;}
-#color, #color-hover:hover {color: tomato;}
+#color, .color-hover:hover {background-color:LemonChiffon  ;}
