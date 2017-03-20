@@ -159,19 +159,21 @@ a.solid:hover {
   background: linear-gradient(to top, #fdfdfd, #e7e7e7);
 }
 
+.line {height:1px;}
 .round {border-radius: .25em;}
 .gr {background: linear-gradient(to bottom, #eee, #fff);}
 .bb {border: 0px solid #CCFF33;background-color: #CCFF33;}
 .screen {min-height: 100vh;}
 .top {padding-top: 2em;}
-.top-small {padding-top: 1em;}
+.top-small {padding-top: .5em;}
 .bottom {padding-bottom: 2em;}
-.gradient-back {background: linear-gradient(to bottom, #ccc 1%, #f5f5f5 15%, #fff 50%, #fff);}
+.bottom-small {padding-bottom: .5em;}
+.gradient-back {background: linear-gradient(to bottom, #ccc 1%, #f7f7f7 15%, #fff 50%, #fff);}
 .gradient-front {background: linear-gradient(to right, #fff, rgba(255,255,255,.0), #fff);}
 
 .black, .black-hover:hover {background-color:#000;}
 #black, #black-hover:hover {color: #000;}
 .white, .white-hover:hover {background-color:#fff;}
 #white, #white-hover:hover {color: #fff;}
-.color, .color-hover:hover {background-color:rgba(38,49,56,1);}
-#color, #color-hover:hover {color: rgba(38,49,56,1);}
+.color, .color-hover:hover {background-color:#e3e3e3;}
+#color, #color-hover:hover {color: #e3e3e3;}
