@@ -60,16 +60,16 @@ a:link, a:visited, a:hover, a:active {
 }
 a.solid:link, a.solid:visited, a.solid:hover, a.solid:active {
   font: normal 1em/1 'Arial', sans-serif;
-  color: #0089ff;
+  color: #000 ;
 	text-decoration: none;
   outline: none;
   padding-bottom: .1em;
-  border-bottom: 1px solid rgba(0,137,255,.3);
+  border-bottom: 1px solid #eee ;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
 a.solid:hover {
-  border-bottom: 1px solid #d3d3d3;
+  border-bottom: 1px solid #ddd ;
 }
 #no {margin: 0;}
 
@@ -78,10 +78,10 @@ a.solid:hover {
   color: #000;
   background: white;
   -background: linear-gradient(to top, #E04040, #F88040);
-  border: none;
+  -border: none;
   padding: 0 .75em 0 .85em;
   border-radius: .125em;
-  border: 1px solid #e5e5e5;
+  border: 1px solid #ddd ;
   margin: .25em .25em .25em 0em;
   cursor: pointer;
   letter-spacing: 0;
@@ -102,7 +102,7 @@ a.solid:hover {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
   -transition: .15s;
-  color: #ddd;
+  color: #ddd ;
   padding-left: .35em;
   content: "x";
 }
@@ -140,8 +140,8 @@ a.solid:hover {
   background: linear-gradient(to bottom, #fdfdfd, #e7e7e7);
   color: #000;
   border: none;
-  border-radius: .25em;
-  padding: .5em 1em .5em 1em;
+  border-radius: 5em;
+  padding: .4em 1.1em .4em 1.1em;
   white-space:nowrap;
   text-decoration: none;
   outline: none;
