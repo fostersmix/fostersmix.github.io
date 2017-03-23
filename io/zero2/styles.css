@@ -111,7 +111,7 @@ a.solid:hover {
   font: normal 2em/2 'Arial', sans-serif;
   color: #ddd;
   background: none;
-  border: 1px dashed #e5e5e5;
+  border: 1px dashed #ddd;
   padding: 0 .85em 0 .85em;
   border-radius: .125em;
   margin: .25em .25em .25em .25em;
