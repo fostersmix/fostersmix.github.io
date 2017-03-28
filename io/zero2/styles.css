@@ -109,9 +109,9 @@ a.solid:hover {
 
 #button {
   font: normal 2em/2 'Arial', sans-serif;
-  color: #ddd;
+  color: #ccc;
   background: none;
-  border: 1px dashed #ddd;
+  border: 1px dashed #ccc;
   padding: 0 .85em 0 .85em;
   border-radius: .125em;
   margin: .25em .25em .25em .25em;
