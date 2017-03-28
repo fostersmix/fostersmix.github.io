@@ -204,6 +204,10 @@ a.solid:link, a.solid:visited, a.solid:active {
 background-image: url(topography2.png);
 background-repeat: repeat;
 }
+.side {
+border-left: 1px solid #eee;
+border-right: 1px solid #eee;
+}
 .bb {
   background-color: rgba(0,0,0,.15);
   cursor: pointer;
