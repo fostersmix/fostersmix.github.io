@@ -122,10 +122,6 @@ a.solid:hover {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
-#button:hover {
-  -color: #ccc;
-  -border: .075em dashed #ccc;
-}
 
 #more {
   font: normal 1em 'Arial', sans-serif;
