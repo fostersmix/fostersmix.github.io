@@ -69,8 +69,8 @@
   }
   h1 {
     font-family: 'Roboto', sans-serif;
-    font-size: 4em;
-    font-weight: 300;
+    font-size: 4.5em;
+    font-weight: 500;
     margin: 0;
     padding: 0;
   }
@@ -195,39 +195,26 @@ a.solid:link, a.solid:visited, a.solid:active {
 .bottom {padding-bottom: 1em;}
 .top-big    {padding-top: 2em;}
 .bottom-big {padding-bottom: 2em;}
+
 .line {height:1px;}
 .round {border-radius: .5em;}
-.round-big {border-radius: 5em;}
 .shadow {box-shadow: 0 .5em 1em 0 rgba(0,0,0,.15);}
 .shadow-inset {box-shadow: inset 0 .5em 1em 0 rgba(0,0,0,.15);}
 .screen {min-height: 100vh;}
-.bgg {  background: linear-gradient(to top left, #0033cc, #00ccff);}
-.bg {
-background-image: url(bg.png);
-background-repeat: repeat;
-}
+.bgg {  background: linear-gradient(to top left, #6200EA, #00ccff);} /*0033cc*/
 .side {
-border-left: 1px solid #eee;
-border-right: 1px solid #eee;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
 }
-.bb {
-  background-color: rgba(0,0,0,.15);
+#button-big {
+  background-color: #fff;
+  border-radius: 5em;
+  box-shadow: 0 .25em .5em 0 rgba(0,0,0,.15);
   cursor: pointer;
-  -border: 1px solid rgba(255,255,255,.25);
 }
-.bb:hover {
-  background-color: rgba(0,0,0,.2);
-  box-shadow: 0 .25em .5em 0 rgba(0,0,0,.2)
+#button-big:hover {
+  box-shadow: 0 .25em .5em 0 rgba(0,0,0,.3);
 }
-.shadow-hover {
-box-shadow: 0 .25em .5em 0 rgba(0,0,0,.15)
-
-}
-.shadow-hover:hover {
-box-shadow: 0 .25em .5em 0 rgba(0,0,0,.3)
-}
-.bbr {border-right: 1px solid rgba(0,0,0,.15);}
-.bbl {border-left: 1px solid rgba(0,0,0,.15);}
 
 .color, .color-hover:hover  {background-color:#6200EA ;}
 #color, #color-hover:hover  {color:           #6200EA ;}
