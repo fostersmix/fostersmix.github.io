@@ -140,7 +140,7 @@ a.solid:link, a.solid:visited, a.solid:active {
  }
 
 
-
+.yes {margin-left: 2em;}
 #no {
   padding: 0;
   margin: 0;
@@ -159,7 +159,7 @@ a.solid:link, a.solid:visited, a.solid:active {
   transition: .1s;
   border-radius: 5em;
   cursor: pointer;
-  box-shadow: 0 .25em .5em 0 rgba(0,0,0,0);
+  box-shadow: 0 .25em .5em 0 rgba(0,0,0,.1);
 }
 #buy:hover {
   box-shadow: 0 .25em .5em 0 rgba(0,0,0,.2);
@@ -197,11 +197,13 @@ a.solid:link, a.solid:visited, a.solid:active {
 .bottom-big {padding-bottom: 2em;}
 .line {height:1px;}
 .round {border-radius: .5em;}
+.round-big {border-radius: 5em;}
 .shadow {box-shadow: 0 .5em 1em 0 rgba(0,0,0,.15);}
 .shadow-inset {box-shadow: inset 0 .5em 1em 0 rgba(0,0,0,.15);}
 .screen {min-height: 100vh;}
+.bgg {  background: linear-gradient(to top left, #0033cc, #00ccff);}
 .bg {
-background-image: url(topography2.png);
+background-image: url(bg.png);
 background-repeat: repeat;
 }
 .side {
@@ -215,21 +217,37 @@ border-right: 1px solid #eee;
 }
 .bb:hover {
   background-color: rgba(0,0,0,.2);
+  box-shadow: 0 .25em .5em 0 rgba(0,0,0,.2)
 }
+.shadow-hover {
+box-shadow: 0 .25em .5em 0 rgba(0,0,0,.15)
 
-.color, .color-hover:hover  {background-color:#388E3C;}
-#color, #color-hover:hover  {color:           #388E3C;}
+}
+.shadow-hover:hover {
+box-shadow: 0 .25em .5em 0 rgba(0,0,0,.3)
+}
+.bbr {border-right: 1px solid rgba(0,0,0,.15);}
+.bbl {border-left: 1px solid rgba(0,0,0,.15);}
+
+.color, .color-hover:hover  {background-color:#6200EA ;}
+#color, #color-hover:hover  {color:           #6200EA ;}
+.color2, .color2-hover:hover  {background-color:#304FFE ;}
+#color2, #color2-hover:hover  {color:           #304FFE ;}
 .gray, .gray-hover:hover    {background-color:#aaa;}
 #gray, #gray-hover:hover    {color:           #aaa;}
 .lightgray, .lightgray-hover:hover  {background-color:#f5f5f5;}
 #lightgray, #lightgray-hover:hover  {color:           #f5f5f5;}
 .gray2, .gray2-hover:hover  {background-color:#eee;}
 #gray2, #gray2-hover:hover  {color:           #eee;}
-.dark, .dark-hover:hover    {background-color:rgba(56,56,56,1);}
-#dark, #dark-hover:hover    {color:           rgba(56,56,56,1);}
+.dark, .dark-hover:hover    {background-color:#1e2128;}
+#dark, #dark-hover:hover    {color:           #1e2128;}
 .black, .black-hover:hover  {background-color:rgba(0,0,0,1);}
 #black, #black-hover:hover  {color:           rgba(0,0,0,1);}
 .white, .white-hover:hover  {background-color:rgba(255,255,255,1);}
 #white, #white-hover:hover  {color:           rgba(255,255,255,1);}
-.half, .half-hover:hover  {background-color:rgba(255,255,255,.5);}
-#half, #half-hover:hover  {color:           rgba(255,255,255,.5);}
+.half, .half-hover:hover  {background-color:rgba(255,255,255,.3);}
+#half, #half-hover:hover  {color:           rgba(255,255,255,.3);}
+.half2, .half2-hover:hover  {background-color:rgba(255,255,255,.1);}
+#half2, #half2-hover:hover  {color:           rgba(255,255,255,.1);}
+.half3, .half3-hover:hover  {background-color:rgba(255,255,255,.7);}
+#half3, #half3-hover:hover  {color:           rgba(255,255,255,.7);}
