@@ -139,7 +139,7 @@ a.solid:link, a.solid:visited, a.solid:active {
    border-bottom: 1px solid rgba(255,255,255,.25);
  }
 
-
+#dotted {  border-bottom: 1px dotted black;}
 .yes {margin-left: 2em;}
 #no {
   padding: 0;
