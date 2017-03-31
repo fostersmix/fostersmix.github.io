@@ -217,9 +217,7 @@ a.solid:link, a.solid:visited, a.solid:active {
 .shadow-inset {box-shadow: inset 0 .5em 1em 0 rgba(0,0,0,.15);}
 .screen {min-height: 100vh;}
 .bgg2 {  background: linear-gradient(to top left, #6200EA, #00ccff);}
-.bgg {  background: MediumSeaGreen;}
 .bgg4 {  background: linear-gradient(to top, #eee, #fbfbfb);}
-
 
 .side {
   border-left: 1px solid #e5e5e5;
