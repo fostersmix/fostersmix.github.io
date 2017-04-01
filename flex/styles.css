@@ -256,17 +256,21 @@ a.solid:link, a.solid:visited, a.solid:active {
    border-bottom: 1px solid rgba(255,255,255,.25);
  }
 
-#dotted {  border-bottom: 1px dotted black;}
-.yes {margin-left: 2em;}
-#no {
+#dotted {
+  border-bottom: 1px dotted black;
+  cursor: pointer;
+}
+#dotted:hover {  
+  border-bottom: 1px dotted MediumSeaGreen;
+  color: MediumSeaGreen;
+}
+#map {
   padding: 0;
   margin: 0;
   height: 500px;
   background-color: #eee;
 }
-
-.pin {color:MediumSeaGreen;}
-#free {
+#car {
   font-family: 'Arial', sans-serif;
   font-weight: normal;
   font-size: 1em;
@@ -301,11 +305,6 @@ a.solid:link, a.solid:visited, a.solid:active {
 #buy:hover {
   box-shadow: 0 .25em .5em 0 rgba(0,0,0,.2);
 }
-
-.vk {color:#5c81b3;}
-.ok {color:orange;}
-.youtube {color:#cd201f;}
-.instagram {color:#833ab4;}
 #login {
   font-family: 'Arial', sans-serif;
   font-weight: normal;
@@ -348,12 +347,31 @@ a.solid:link, a.solid:visited, a.solid:active {
 #button-big {
   background-color: MediumSeaGreen;
   border-radius: 5em;
-  box-shadow: 0 1.5em 2em 0 rgba(0,0,0,.1), 0 .75em 1em 0 rgba(0,0,0,.1), 0 .5em .75em 0 rgba(0,0,0,.05);
+  box-shadow: 0 .25em .5em 0 rgba(0,0,0,.25);
   cursor: pointer;
   color:white;
 }
 #button-big:hover {
-  box-shadow: inset 0 0 6rem rgba(0,0,0,.15),0 1.5em 2em 0 rgba(0,0,0,.1), 0 .75em 1em 0 rgba(0,0,0,.1), 0 .5em .75em 0 rgba(0,0,0,.06);
+  box-shadow: inset 0 0 6rem rgba(0,0,0,.1), 0 .25em .5em 0 rgba(0,0,0,.25);
+}
+#cell {
+  border-radius: .5em;
+  background-color: #fff;
+  box-shadow: 0 .5em 1em 0 rgba(0,0,0,.15);
+  margin-top: .25em;
+  transition: .2s;
+}
+#cell:hover {
+  margin-top: 0;
+  box-shadow: 0 .5em 1em 0 rgba(0,0,0,.25);
+}
+
+#animation {
+  margin-top: .25em;
+  transition: .2s;
+}
+#animation:hover {
+  margin-top: 0;
 }
 
 .top-small    {padding-top: .5em;}
@@ -363,15 +381,18 @@ a.solid:link, a.solid:visited, a.solid:active {
 .top-big    {padding-top: 2em;}
 .bottom-big {padding-bottom: 2em;}
 .line {height:1px;}
-.round {border-radius: .5em;}
-.shadow {box-shadow: 0 .5em 1em 0 rgba(0,0,0,.15);}
 .shadow-inset {box-shadow: inset 0 .5em 1em 0 rgba(0,0,0,.15);}
 .screen {min-height: 100vh;}
-.bg {  background: linear-gradient(to top, #eee, #fbfbfb);}
+.bg {background: linear-gradient(to top, #eee, #fbfbfb);}
 .side {
   border-left: 1px solid #ddd;
   border-right: 1px solid #ddd;
 }
+
+.vk {color:#5c81b3;}
+.ok {color:#d38842;}
+.youtube {color:#cd201f;}
+.instagram {color:#833ab4;}
 
 .color, .color-hover:hover        {background-color:MediumSeaGreen;}
 #color, #color-hover:hover        {color:           MediumSeaGreen;}
