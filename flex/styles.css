@@ -198,7 +198,7 @@
   font-family: 'Roboto', sans-serif;
   font-size: 3em;
   font-weight: 400;
-  background: #4CAF50;
+  background: rgb(43,178,76);
   color: #fff;
   border: none;
   border-radius: .5rem;
@@ -270,8 +270,8 @@ a.solid:link, a.solid:visited, a.solid:active {
   cursor: pointer;
 }
 #dotted:hover {  
-  border-bottom: 1px dotted #4CAF50;
-  color: #4CAF50;
+  border-bottom: 1px dotted rgb(43,178,76);
+  color: rgb(43,178,76);
 }
 #map {
   padding: 0;
@@ -286,7 +286,7 @@ a.solid:link, a.solid:visited, a.solid:active {
   color: #000;
   padding: .5em 1.25em;
   background-color: transparent;
-  border: 2px solid #4CAF50;
+  border: 2px solid rgb(43,178,76);
   transition: .1s;
   border-radius: 5em;
   cursor: auto;
@@ -318,10 +318,10 @@ a.solid:link, a.solid:visited, a.solid:active {
   font-family: 'Arial', sans-serif;
   font-weight: normal;
   font-size: 1em;
-  color: #4CAF50;
+  color: rgb(43,178,76);
   padding: .5em 1.25em;
   background: none;
-  border: 2px solid #4CAF50;
+  border: 2px solid rgb(43,178,76);
   transition: .1s;
   margin-right: .5em;
   border-radius: 5em;
@@ -331,7 +331,7 @@ a.solid:link, a.solid:visited, a.solid:active {
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
 #login:hover {
-  background: #4CAF50;
+  background: rgb(43,178,76);
   color: #fff;
 }
 #social {
@@ -354,7 +354,7 @@ a.solid:link, a.solid:visited, a.solid:active {
   background: #fff;
 }
 #button-big {
-  background-color: #4CAF50;
+  background-color: rgb(43,178,76);
   border-radius: 5em;
   box-shadow: 0 .25em .5em 0 rgba(0,0,0,.25);
   cursor: pointer;
@@ -420,8 +420,8 @@ a.solid:link, a.solid:visited, a.solid:active {
   font-size: 4.5em;
 }
 
-.color, .color-hover:hover        {background-color:#4CAF50;}
-#color, #color-hover:hover        {color:           #4CAF50;}
+.color, .color-hover:hover        {background-color:#2bb24c;}
+#color, #color-hover:hover        {color:           #2bb24c;}
 .black, .black-hover:hover        {background-color:rgba(0,0,0,1);}
 #black, #black-hover:hover        {color:           rgba(0,0,0,1);}
 .dark, .dark-hover:hover          {background-color:#1e2128;}
