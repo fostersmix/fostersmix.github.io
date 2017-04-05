@@ -12,24 +12,27 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script>
     $(document).ready(function(){
-  	$(".open1").click(function(){
-  		$(".nosee1").toggleClass("see1"); return false;
-  	});
-    $(".open2").click(function(){
-  		$(".nosee2").toggleClass("see2"); return false;
-  	});
-    $(".open3").click(function(){
-  		$(".nosee3").toggleClass("see3"); return false;
-  	});
-  });
-  </script>
+    	$(".faq-1").click(function(){
+    		$(".close-1").toggleClass("open-1"); return false;
+    	});
+      $(".faq-2").click(function(){
+    		$(".close-2").toggleClass("open-2"); return false;
+    	});
+      $(".faq-3").click(function(){
+    		$(".close-3").toggleClass("open-3"); return false;
+    	});
+      $(".faq-4").click(function(){
+    		$(".close-4").toggleClass("open-4"); return false;
+    	});
+    });
+    </script>
   </head>
   <body>
     <div class="row center-xs center-sm center-md center-lg top-xs top-sm top-md top-lg screen">
 
       <!--MENU-->
-      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 bb" id="fix"  >
-        <div class="row center-xs center-sm center-md center-lg middle-lg" id="fix-content">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="sticky-header"  >
+        <div class="row center-xs center-sm center-md center-lg middle-lg" id="sticky-content">
           <div class="col-xs-12 col-sm-11 col-md-10 col-lg-10">
             <div class="row center-xs center-sm start-md start-lg middle-lg">
               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-9">
@@ -54,7 +57,7 @@
       </div>
 
       <!--HEADER-->
-      <div class="col-xs-12 col-sm-11 col-md-10 col-lg-10" id="fix-margin">
+      <div class="col-xs-12 col-sm-11 col-md-10 col-lg-10" id="sticky-margin">
         <div class="row center-xs center-sm start-md start-lg top middle-lg">
           <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 top-big hide-xs hide-sm">
             <img src="img/mobile.png">
@@ -195,55 +198,45 @@
               </div>
             </div>
           </div>
-
           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 line gray"></div>
-
           <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 top bottom">
             <div class="row center-xs center-sm start-md start-lg">
               <div class="col-xs-11 col-sm-10 col-md-12 col-lg-3">
                 <div class="row center-xs center-sm center-md center-lg">
                   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10">
-                    <div class="box top-big"><i class="icon-fuel fuel"></i></div>
+                    <div class="box top-big"><i class="icon-fuel fuel icon"></i></div>
                     <div class="box top-big bottom-big">Бонус <B>15 минут</b> за заправку по топливной карте Ека или Лукойл</div>
                   </div>
                 </div>
               </div>
-
               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 line gray hide-md hide-lg"></div>
-
               <div class="col-xs-11 col-sm-10 col-md-12 col-lg-3">
                 <div class="row center-xs center-sm center-md center-lg">
                   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10">
-                    <div class="box top-big"><i class="icon-parking parking"></i></div>
+                    <div class="box top-big"><i class="icon-parking parking icon"></i></div>
                     <div class="box top-big bottom-big"><b>Бесплатная</b> стоянка на платных парковках для легковых ТС</div>
                   </div>
                 </div>
               </div>
-
               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 line gray hide-md hide-lg"></div>
-
               <div class="col-xs-11 col-sm-10 col-md-12 col-lg-3">
                 <div class="row center-xs center-sm center-md center-lg">
                   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10">
-                    <div class="box top-big"><i class="icon-insurance insurance"></i></div>
+                    <div class="box top-big"><i class="icon-insurance insurance icon"></i></div>
                     <div class="box top-big bottom-big">Автомобиль застрахован. Оплата не более <b>20%</b> от стоимости ущерба</div>
                   </div>
                 </div>
               </div>
-
               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 line gray hide-md hide-lg"></div>
-
               <div class="col-xs-11 col-sm-10 col-md-12 col-lg-3">
                 <div class="row center-xs center-sm center-md center-lg">
                   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10">
-                    <div class="box top-big"><i class="icon-service service"></i></div>
+                    <div class="box top-big"><i class="icon-service service icon"></i></div>
                     <div class="box top-big bottom-big">Автомойка, ТО и подготовку к зимнему периоду мы <b>берем на себя</b></div>
                   </div>
                 </div>
               </div>
-
               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 line gray hide-md hide-lg"></div>
-
             </div>
           </div>
         </div>
@@ -263,7 +256,7 @@
         </div>
       </div>
 
-      <!--REG-->
+      <!--FAQ-->
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 bottom" id="faq">
         <div class="row center-xs center-sm center-md center-lg">
           <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10">
@@ -278,28 +271,27 @@
             <div class="row center-xs center-sm start-md start-lg">
               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 line gray"></div>
               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 top-middle bottom-middle">
-                <a class="open1" href="#">Могу ли я воспользоваться услугой будучи иностранцем?</a>
-                <div class="top-big nosee1">Иностранные граждане могут воспользоваться услугой по согласованию. Для этого пройдите регистрацию и ожидайте ответа службы верификации.</div>
+                <a class="faq-1" href="#">Могу ли я воспользоваться услугой будучи иностранцем?</a>
+                <div class="top-big close-1">Иностранные граждане могут воспользоваться услугой по согласованию. Для этого пройдите регистрацию и ожидайте ответа службы верификации.</div>
               </div>
               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 line gray"></div>
               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 top-middle bottom-middle">
-                <a class="open2" href="#">Какие необходимы документы?</a>
-                <div class="top-big nosee2">При регистрации и подписании документов необходимо иметь оригиналы Вашего паспорта и водительского удостоверения.</div>
+                <a class="faq-2" href="#">Какие необходимы документы?</a>
+                <div class="top-big close-2">При регистрации и подписании документов необходимо иметь оригиналы Вашего паспорта и водительского удостоверения.</div>
               </div>
               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 line gray"></div>
               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 top-middle bottom-middle">
-                <a class="open3" href="#">Как начать аренду?</a>
-                <div class="top-big nosee3">При регистрации и подписании документов необходимо иметь оригиналы Вашего паспорта и водительского удостоверения.</div>
+                <a class="faq-3" href="#">Как начать аренду?</a>
+                <div class="top-big close-3">При регистрации и подписании документов необходимо иметь оригиналы Вашего паспорта и водительского удостоверения.</div>
               </div>
               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 line gray"></div>
               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 top-middle bottom-middle">
-                <a class="open1" href="#">Могу ли я воспользоваться услугой будучи иностранцем?</a>
-                <div class="top-big nosee1">Иностранные граждане могут воспользоваться услугой по согласованию. Для этого пройдите регистрацию и ожидайте ответа службы верификации.</div>
+                <a class="faq-4" href="#">Могу ли я воспользоваться услугой будучи иностранцем?</a>
+                <div class="top-big close-4">Иностранные граждане могут воспользоваться услугой по согласованию. Для этого пройдите регистрацию и ожидайте ответа службы верификации.</div>
               </div>
               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 line gray"></div>
             </div>
             <div class="row center-xs center-sm center-md center-lg top-middle">
-
             </div>
             <div class="row center-xs center-sm start-md start-lg top-middle">
               <div class="col-xs-11 col-sm-10 col-md-12 col-lg-4 bottom">
@@ -310,9 +302,7 @@
                   </div>
                 </div>
               </div>
-
               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 line gray hide-md hide-lg"></div>
-
               <div class="col-xs-11 col-sm-10 col-md-12 col-lg-4 bottom">
                 <div class="row center-xs center-sm center-md center-lg top-big bottom-big">
                   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 side">
@@ -321,9 +311,7 @@
                   </div>
                 </div>
               </div>
-
               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 line gray hide-md hide-lg"></div>
-
               <div class="col-xs-11 col-sm-10 col-md-12 col-lg-4 bottom">
                 <div class="row center-xs center-sm center-md center-lg top-big bottom-big">
                   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -348,10 +336,8 @@
       <!--NEWS-->
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 " id="news">
         <div class="row center-xs center-sm center-md center-lg">
-
           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 line gray"></div>
           <div class="col-xs-12 col-sm-11 col-md-10 col-lg-10">
-
             <div class="row center-xs center-sm start-md start-lg middle-lg">
               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 top-big bottom-small hide-xs hide-sm">
                 Новости
@@ -360,18 +346,17 @@
                 <div class="box" align="right"><button id="social">Архив новостей</button></div>
               </div>
             </div>
-
             <div class="row center-xs center-sm start-md start-lg bottom" >
               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 top bottom-middle">
-                <div class="box"><a href="#" class="sol">За покупками на Делимобиле! «Открываем» парковки торговых центров!</a></div>
+                <div class="box"><a href="#" class="solid">За покупками на Делимобиле! «Открываем» парковки торговых центров!</a></div>
                 <div class="box top"><small>28 марта 2017</small></div>
               </div>
               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 top bottom-middle">
-                <div class="box"><a href="#" class="sol">График работы 8 марта</a></div>
+                <div class="box"><a href="#" class="solid">График работы 8 марта</a></div>
                 <div class="box top"><small>7 марта 2017</small></div>
               </div>
               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 top bottom-middle">
-                <div class="box"><a href="#" class="sol">График работы 8 марта</a></div>
+                <div class="box"><a href="#" class="solid">График работы 8 марта</a></div>
                 <div class="box top"><small>11 февраля 2017</small></div>
               </div>
             </div>
@@ -390,11 +375,11 @@
               </div>
               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 top-big bottom">
                 <div class="box" id="half3">Электронная почта</div>
-                <div class="box top"><a href="#" class="solid">client@flexcar.ru</a></div>
+                <div class="box top"><a href="#" class="footer-solid">client@flexcar.ru</a></div>
               </div>
               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 top-big bottom">
                 <div class="box" id="half3">Поддержка в Телеграме</div>
-                <div class="box top"><a href="#" class="solid">@flexcar_support</a></div>
+                <div class="box top"><a href="#" class="footer-solid">@flexcar_support</a></div>
               </div>
               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 top bottom">
                 <div class="box top-small bottom-small">
