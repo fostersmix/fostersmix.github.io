@@ -565,3 +565,12 @@ a.faq-1:hover, a.faq-2:hover, a.faq-3:hover {
 #half7, #half7-hover:hover        {color:           rgba(255,255,255,.7);}
 .white, .white-hover:hover        {background-color:rgba(255,255,255,1);}
 #white, #white-hover:hover        {color:           rgba(255,255,255,1);}
+
+
+
+
+.red {background-color: red;}
+.blue {background-color: blue;}
+.green {background-color: green;}
+.yellow {background-color: yellow;}
+.orange {background-color: orange;}
