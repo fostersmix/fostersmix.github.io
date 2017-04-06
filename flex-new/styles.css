@@ -500,6 +500,11 @@ a.footer-solid:link, a.footer-solid:visited, a.footer-solid:active {
   border: 2px solid rgb(24,162,75);
 }
 
+#sticky-menu {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
 #sticky-header {
   position: fixed;
   width: 100%;
@@ -508,7 +513,7 @@ a.footer-solid:link, a.footer-solid:visited, a.footer-solid:active {
   background-color: rgba(255,255,255,1);
 }
 #sticky-content {height: 4.5em;}
-#sticky-margin {margin-top: 4.5em;}
+.sticky-margin {margin-top: 4.5em;}
 .sticky-margin-true {margin-top: 4.5em;}
 .sticky-margin-false {margin-top: 0;}
 
