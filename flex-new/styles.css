@@ -312,8 +312,8 @@ a.footer-solid:link, a.footer-solid:visited, a.footer-solid:active {
    -moz-tap-highlight-color: rgba(0,0,0,0);
  }
   a.link-menu:hover {
-    border-bottom: 1px dotted #3CB371;
-    color: #3CB371;
+    border-bottom: 1px dotted rgb(24,162,75);
+    color: rgb(24,162,75);
   }
 #full {
   width: 100%;
@@ -323,8 +323,8 @@ a.footer-solid:link, a.footer-solid:visited, a.footer-solid:active {
   cursor: pointer;
 }
 #dotted:hover {
-  border-bottom: 1px dotted #3CB371;
-  color: #3CB371;
+  border-bottom: 1px dotted rgb(24,162,75);
+  color: rgb(24,162,75);
 }
 #ya {
   padding: 0;
@@ -339,7 +339,7 @@ a.footer-solid:link, a.footer-solid:visited, a.footer-solid:active {
   color: #000;
   padding: .5em 1.25em;
   background-color: transparent;
-  border: 2px solid #3CB371;
+  border: 2px solid rgb(24,162,75);
   transition: .1s;
   border-radius: 5em;
   cursor: auto;
@@ -365,7 +365,7 @@ a.footer-solid:link, a.footer-solid:visited, a.footer-solid:active {
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
 #buy:hover {
-  background-color: #3CB371;
+  background-color: rgb(24,162,75);
   color: #fff;
   -box-shadow: 0 .25em .5em 0 rgba(0,0,0,.2);
 }
@@ -375,8 +375,8 @@ a.footer-solid:link, a.footer-solid:visited, a.footer-solid:active {
   font-size: 1em;
   color: #fff;
   padding: .5em 1.25em;
-  background: #3CB371;
-  -border: 2px solid #3CB371;
+  background: rgb(24,162,75);
+  -border: 2px solid rgb(24,162,75);
   border: none;
   transition: .1s;
   border-radius: 5em;
@@ -460,7 +460,7 @@ a.footer-solid:link, a.footer-solid:visited, a.footer-solid:active {
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
 #button-big {
-  background-color: #3CB371;
+  background-color: rgb(24,162,75);
   border-radius: 5em;
   box-shadow: 0 .25em .5em 0 rgba(0,0,0,.25);
   cursor: pointer;
@@ -481,13 +481,13 @@ a.footer-solid:link, a.footer-solid:visited, a.footer-solid:active {
 }
 #more-green {
   border-radius: .5em;
-  color: #3CB371;
-  border: 2px solid #3CB371;
+  color: rgb(24,162,75);
+  border: 2px solid rgb(24,162,75);
 }
 #more-green:hover {
   color: #fff;
-  background-color: #3CB371;
-  border: 2px solid #3CB371;
+  background-color: rgb(24,162,75);
+  border: 2px solid rgb(24,162,75);
 }
 
 #sticky-header {
@@ -507,7 +507,7 @@ a.faq-4:link, a.faq-4:visited, a.faq-4:active {
   font-family: 'Roboto', sans-serif;
   font-size: 1.5em;
   font-weight: 400;
-  color: #3CB371;
+  color: rgb(24,162,75);
   margin: 0;
   padding: 0;
   padding-bottom: .1em;
@@ -521,7 +521,7 @@ a.faq-4:link, a.faq-4:visited, a.faq-4:active {
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
 a.faq-1:hover, a.faq-2:hover, a.faq-3:hover {
-   color: #3CB371;
+   color: rgb(24,162,75);
  }
 .close-1, .close-2, .close-3, .close-4 {
  visibility: hidden;
@@ -544,22 +544,21 @@ a.faq-1:hover, a.faq-2:hover, a.faq-3:hover {
 .bg {background: linear-gradient(to top, #eee, #fbfbfb);}
 .shadow-inset {box-shadow: inset 0 .5em 1em 0 rgba(0,0,0,.15);}
 
+#download {width: 12em;}
+.right {margin-right: 1em;}
+.icon-new {height: 4.5em;}
 .icon {font-size: 4.5em;}
-.fuel {color: #8BC34A;}
-.parking {color: #00BCD4;}
-.insurance {color: #F44336;}
-.service {color: #FFC107;}
 .vk {color:#5c81b3;}
 .ok {color:#d38842;}
 .youtube {color:#cd201f;}
 .instagram {color:#833ab4;}
 
-.color, .color-hover:hover        {background-color:#3CB371;} /*2bb24c*/
-#color, #color-hover:hover        {color:           #3CB371;}
+.color, .color-hover:hover        {background-color:rgb(24,162,75);} /*#2bb24c*/ /*#3CB371c*/
+#color, #color-hover:hover        {color:           rgb(24,162,75);}
 .black, .black-hover:hover        {background-color:rgba(0,0,0,1);}
 #black, #black-hover:hover        {color:           rgba(0,0,0,1);}
-.dark, .dark-hover:hover          {background-color:#23488F;} /*#1e2128*/
-#dark, #dark-hover:hover          {color:           #23488F;}
+.dark, .dark-hover:hover          {background-color:rgb(28,84,165);} /*#1e2128*/
+#dark, #dark-hover:hover          {color:           rgb(28,84,165);}
 .darkgray, .darkgray-hover:hover  {background-color:#aaa;}
 #darkgray, #darkgray-hover:hover  {color:           #aaa;}
 .gray, .gray-hover:hover          {background-color:#ddd;}
