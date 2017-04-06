@@ -259,6 +259,16 @@ a.solid:link, a.solid:visited, a.solid:hover, a.solid:active {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
+a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
+  font-family: 'Arial', sans-serif;
+  font-size: 1em;
+  color: #fff;
+	text-decoration: none;
+  outline: none;
+  border-bottom: 1px dotted rgba(255,255,255,.5);
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -moz-tap-highlight-color: rgba(0,0,0,0);
+}
 a.footer:link, a.footer:visited, a.footer:active {
   font-family: 'Arial', sans-serif;
   font-size: 1em;
@@ -499,11 +509,28 @@ a.footer-solid:link, a.footer-solid:visited, a.footer-solid:active {
 }
 #sticky-content {height: 4.5em;}
 #sticky-margin {margin-top: 4.5em;}
+.sticky-margin-true {margin-top: 4.5em;}
+.sticky-margin-false {margin-top: 0;}
+
+a.burger:link, a.burger:visited, a.burger:active. {
+  color: rgb(24,162,75);
+  outline: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -moz-tap-highlight-color: rgba(0,0,0,0);
+}
+.close-burger {
+ visibility: hidden;
+ display: none;
+}
+.open-burger {
+ visibility: visible;
+ display: block;
+}
 
 a.faq-1:link, a.faq-1:visited, a.faq-1:active,
 a.faq-2:link, a.faq-2:visited, a.faq-2:active,
 a.faq-3:link, a.faq-3:visited, a.faq-3:active,
-a.faq-4:link, a.faq-4:visited, a.faq-4:active {
+a.faq-4:link, a.faq-4:visited, a.faq-4:active. {
   font-family: 'Roboto', sans-serif;
   font-size: 1.5em;
   font-weight: 400;
@@ -520,9 +547,6 @@ a.faq-4:link, a.faq-4:visited, a.faq-4:active {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
-a.faq-1:hover, a.faq-2:hover, a.faq-3:hover {
-   color: rgb(24,162,75);
- }
 .close-1, .close-2, .close-3, .close-4 {
  visibility: hidden;
  display: none;
@@ -531,6 +555,7 @@ a.faq-1:hover, a.faq-2:hover, a.faq-3:hover {
  visibility: visible;
  display: block;
 }
+
 .screen {min-height: 100vh;}
 .line {height:1px;}
 .top-small    {padding-top: .5em;}
