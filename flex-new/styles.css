@@ -414,7 +414,7 @@ a.footer-solid:link, a.footer-solid:visited, a.footer-solid:active {
   background: #eee;
   border: none;
   transition: .1s;
-  margin: .5em .25em .5em .25em;
+  -margin: .5em .25em .5em .25em;
   border-radius: 5em;
   cursor: pointer;
   outline: none;
@@ -424,6 +424,7 @@ a.footer-solid:link, a.footer-solid:visited, a.footer-solid:active {
 #button:hover {
   box-shadow: inset 0 0 6rem rgba(0,0,0,.1);
 }
+
 #menu {
   font-family: 'Arial', sans-serif;
   font-weight: normal;
@@ -471,9 +472,19 @@ a.footer-solid:link, a.footer-solid:visited, a.footer-solid:active {
   color: #fff;
   border: 2px solid #fff;
 }
+#more-light:hover {
+  color: #23488F;
+  background-color: #fff;
+  border: 2px solid #fff;
+}
 #more-green {
   border-radius: .5em;
   color: #3CB371;
+  border: 2px solid #3CB371;
+}
+#more-green:hover {
+  color: #fff;
+  background-color: #3CB371;
   border: 2px solid #3CB371;
 }
 
@@ -569,8 +580,7 @@ a.faq-1:hover, a.faq-2:hover, a.faq-3:hover {
 
 
 
-.red {background-color: red;}
-.blue {background-color: blue;}
-.green {background-color: green;}
-.yellow {background-color: yellow;}
-.orange {background-color: orange;}
+.-red {background-color: red;}
+.-blue {background-color: blue;}
+.-green {background-color: green;}
+.-yellow {background-color: yellow;}
