@@ -356,7 +356,7 @@ a.footer-solid:link, a.footer-solid:visited, a.footer-solid:active {
   padding: .5em 1.25em;
   background-color: white;
   border: none;
-  transition: .1s;
+  -transition: .1s;
   border-radius: 5em;
   cursor: pointer;
   box-shadow: 0 .25em .5em 0 rgba(0,0,0,.1);
@@ -365,7 +365,9 @@ a.footer-solid:link, a.footer-solid:visited, a.footer-solid:active {
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
 #buy:hover {
-  box-shadow: 0 .25em .5em 0 rgba(0,0,0,.2);
+  background-color: #3CB371;
+  color: #fff;
+  -box-shadow: 0 .25em .5em 0 rgba(0,0,0,.2);
 }
 #login {
   font-family: 'Arial', sans-serif;
