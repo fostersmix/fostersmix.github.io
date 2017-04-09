@@ -555,11 +555,13 @@ a.footer-solid:link, a.footer-solid:visited, a.footer-solid:active {
 #sticky-menu {
   position: fixed;
   width: 100%;
+  margin-left: 0;
   z-index: 100;
 }
 #sticky-header {
   position: fixed;
   width: 100%;
+  margin-left: 0;
   z-index: 100;
   box-shadow: 0 .25em .5em 0 rgba(0,0,0,.2);
   background-color: rgba(255,255,255,1);
