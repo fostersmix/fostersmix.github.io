@@ -5,43 +5,38 @@
   .hide-md {display: inline;}
   .hide-lg {display: inline;}*/
   body {
-    font-family: 'Arial', sans-serif;
-    font-weight: normal;
+    font: normal 2.5rem 'Arial', sans-serif;
     background: #fff;
     color: #000;
-    font-size: 2.5rem;
     margin-top: 0;
     margin-bottom: 0;
   }
-  h1 {
+  h1, h2, h3, h4, h5 {
     font-family: 'Roboto', sans-serif;
-    font-size: 2.5em;
-    font-weight: 500;
-    letter-spacing: 10;
-    margin: 0;
-    padding: 0;
-  }
-  h2 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 2em;
-    font-weight: 400;
     margin: 0;
     padding: 0;
     display: inline;
   }
-  h3 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.5em;
-    font-weight: 300;
-    margin: 0;
-    padding: 0;
+  h1 {
+    font-size: 2.5em;
+    font-weight: 500;
+    letter-spacing: 10;
   }
-  h4 {
-    font-family: 'Roboto', sans-serif;
+  h2 {
+    font-size: 2em;
+    font-weight: 400;
+  }
+  h5 {
     font-size: 1.5em;
     font-weight: 500;
-    margin: 0;
-    padding: 0;
+  }
+  h3 {
+    font-size: 1.5em;
+    font-weight: 300;
+  }
+  h4 {
+    font-size: 1.5em;
+    font-weight: 500;
   }
   #cell {
     border-radius: .5em;
@@ -52,13 +47,10 @@
     box-shadow: 0 .5em 1em 0 rgba(0,0,0,.25);
   }
   #login {
-    font-family: 'Arial', sans-serif;
-    font-weight: normal;
-    font-size: 1em;
+    font: normal 1em 'Arial', sans-serif;
     color: #4CAF50;
     padding: .5em 1.25em;
     background: #fff;
-    -border: 2px solid #4CAF50;
     border: none;
     transition: .1s;
     border-radius: 5em;
@@ -80,43 +72,39 @@
   /*.hide-md {display: inline;}
   .hide-lg {display: inline;}*/
   body {
-    font-family: 'Arial', sans-serif;
-    font-weight: normal;
+    font: normal 2.5rem 'Arial', sans-serif;
     background: #fff;
     color: #000;
-    font-size: 2.5rem;
     margin-top: 0;
     margin-bottom: 0;
   }
-  h1 {
+  h1, h2, h3, h4, h5 {
     font-family: 'Roboto', sans-serif;
-    font-size: 3em;
-    font-weight: 500;
-    letter-spacing: 10;
-    margin: 0;
-    padding: 0;
-  }
-  h2 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 2.5em;
-    font-weight: 400;
     margin: 0;
     padding: 0;
     display: inline;
   }
+  h1 {
+    font-size: 3em;
+    font-weight: 500;
+    letter-spacing: 10;
+  }
+  h2 {
+    font-size: 2.5em;
+    font-weight: 400;
+    display: inline;
+  }
+  h5 {
+    font-size: 2em;
+    font-weight: 500;
+  }
   h3 {
-    font-family: 'Roboto', sans-serif;
     font-size: 1.5em;
     font-weight: 300;
-    margin: 0;
-    padding: 0;
   }
   h4 {
-    font-family: 'Roboto', sans-serif;
     font-size: 1.5em;
     font-weight: 500;
-    margin: 0;
-    padding: 0;
   }
   #cell {
     border-radius: .5em;
@@ -127,13 +115,10 @@
     box-shadow: 0 .5em 1em 0 rgba(0,0,0,.25);
   }
   #login {
-    font-family: 'Arial', sans-serif;
-    font-weight: normal;
-    font-size: 1em;
+    font: normal 1em 'Arial', sans-serif;
     color: #4CAF50;
     padding: .5em 1.25em;
     background: #fff;
-    -border: 2px solid #4CAF50;
     border: none;
     transition: .1s;
     border-radius: 5em;
@@ -155,43 +140,38 @@
   .hide-md {display: none;}
   /*.hide-lg {display: inline;}*/
   body {
-    font-family: 'Arial', sans-serif;
-    font-weight: normal;
+    font: normal 1.5rem 'Arial', sans-serif;
     background: #fff;
     color: #000;
-    font-size: 1.5rem;
     margin-top: 0;
     margin-bottom: 0;
   }
-  h1 {
+  h1, h2, h3, h4, h5 {
     font-family: 'Roboto', sans-serif;
-    font-size: 4em;
-    font-weight: 500;
-    letter-spacing: 10;
-    margin: 0;
-    padding: 0;
-  }
-  h2 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 2.5em;
-    font-weight: 400;
     margin: 0;
     padding: 0;
     display: inline;
   }
+  h1 {
+    font-size: 4em;
+    font-weight: 500;
+    letter-spacing: 10;
+  }
+  h2 {
+    font-size: 2.5em;
+    font-weight: 400;
+  }
+  h5 {
+    font-size: 2.5em;
+    font-weight: 500;
+  }
   h3 {
-    font-family: 'Roboto', sans-serif;
     font-size: 2.5em;
     font-weight: 300;
-    margin: 0;
-    padding: 0;
   }
   h4 {
-    font-family: 'Roboto', sans-serif;
     font-size: 2em;
     font-weight: 500;
-    margin: 0;
-    padding: 0;
   }
   #cell {
     border-radius: .5em;
@@ -201,18 +181,11 @@
   #cell:hover {
     box-shadow: 0 .5em 1em 0 rgba(0,0,0,.25);
   }
-  .side {
-    border-left: 1px solid #ddd;
-    border-right: 1px solid #ddd;
-  }
   #login {
-    font-family: 'Arial', sans-serif;
-    font-weight: normal;
-    font-size: 1em;
+    font: normal 1em 'Arial', sans-serif;
     color: #fff;
     padding: .5em 1.25em;
     background: #4CAF50;
-    -border: 2px solid #4CAF50;
     border: none;
     transition: .1s;
     border-radius: 5em;
@@ -225,10 +198,12 @@
     box-shadow: inset 0 0 6rem rgba(0,0,0,.1);
   }
   .vline {border-right: 1px solid #ddd;height: 4.5em;}
-  .vline2 {border-left: 1px solid #ddd;height: 4.5em;}
-
+  .vline-left {border-left: 1px solid #ddd;height: 4.5em;}
+  .side {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+  }
 }
-
 /*lg*/
 @media only screen and (min-width: 75em) {
   /*.hide-xs {display: inline;}
@@ -236,52 +211,38 @@
   .hide-md {display: inline;}*/
   .hide-lg {display: none;}
   body {
-    font-family: 'Arial', sans-serif;
-    font-weight: normal;
+    font: normal 1rem 'Arial', sans-serif;
     background: #fff;
     color: #000;
-    font-size: 1rem;
     margin-top: 0;
     margin-bottom: 0;
   }
-  h1 {
+  h1, h2, h3, h4, h5 {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: inline;
+  }
+  h1 {
     font-size: 4.5em;
     font-weight: 500;
     letter-spacing: 10;
-    margin: 0;
-    padding: 0;
   }
   h2 {
-    font-family: 'Roboto', sans-serif;
     font-size: 3em;
     font-weight: 400;
-    margin: 0;
-    padding: 0;
-    display: inline;
-  }
-  h3 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 2em;
-    font-weight: 300;
-    margin: 0;
-    padding: 0;
-  }
-  h4 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 2em;
-    font-weight: 500;
-    margin: 0;
-    padding: 0;
-    display: inline;
   }
   h5 {
-    font-family: 'Roboto', sans-serif;
     font-size: 2.5em;
     font-weight: 400;
-    margin: 0;
-    padding: 0;
-    display: inline;
+  }
+  h3 {
+    font-size: 2em;
+    font-weight: 300;
+  }
+  h4 {
+    font-size: 2em;
+    font-weight: 500;
   }
   #cell {
     border-radius: .5em;
@@ -294,18 +255,11 @@
     margin-top: 0;
     box-shadow: 0 .5em 1em 0 rgba(0,0,0,.25);
   }
-  .side {
-    border-left: 1px solid #ddd;
-    border-right: 1px solid #ddd;
-  }
   #login {
-    font-family: 'Arial', sans-serif;
-    font-weight: normal;
-    font-size: 1em;
+    font: normal 1em 'Arial', sans-serif;
     color: #fff;
     padding: .5em 1.25em;
     background: #4CAF50;
-    -border: 2px solid #4CAF50;
     border: none;
     transition: .1s;
     border-radius: 5em;
@@ -319,100 +273,39 @@
   }
 }
 a:link, a:visited, a:hover, a:active {
-  font-family: 'Arial', sans-serif;
-  font-size: 1em;
-  color: #000;
+  font: normal 1em 'Arial', sans-serif;
 	text-decoration: none;
   outline: none;
+  color: #000;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
+
 a.solid:link, a.solid:visited, a.solid:hover, a.solid:active {
-  font-family: 'Arial', sans-serif;
-  font-size: 1em;
-  color: #000;
-	text-decoration: none;
-  outline: none;
   border-bottom: 1px solid rgba(0,0,0,.15);
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
-  -moz-tap-highlight-color: rgba(0,0,0,0);
 }
-a.dot:link, a.dot:visited, a.dot:hover, a.dot:active {
-  font-family: 'Arial', sans-serif;
-  font-size: 1em;
-  color: #000;
-	text-decoration: none;
-  outline: none;
-  border-bottom: 1px dotted rgba(0,0,0,.5);
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
-  -moz-tap-highlight-color: rgba(0,0,0,0);
+a.solid:hover {
+  border-bottom: 1px solid rgba(0,0,0,.25);
+}
+a.dotted:link, a.dotted:visited, a.dotted:active {
+   border-bottom: 1px dotted black;
+}
+a.dotted:hover {
+  border-bottom: 1px dotted #4CAF50;
+  color: #4CAF50;
 }
 a.footer:link, a.footer:visited, a.footer:active {
-  font-family: 'Arial', sans-serif;
-  font-size: 1em;
   color: #eee;
-	text-decoration: none;
-  outline: none;
-  padding-bottom: .1em;
   border-bottom: 1px solid rgba(255,255,255,.15);
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
-  -moz-tap-highlight-color: rgba(0,0,0,0);
 }
 a.footer:hover {
   border-bottom: 1px solid rgba(255,255,255,.25);
 }
-a.footer-solid:link, a.footer-solid:visited, a.footer-solid:active {
-  font-family: 'Roboto', sans-serif;
-  font-size: 2em;
-  font-weight: 300;
+a.footer-big:link, a.footer-big:visited, a.footer-big:hover, a.footer-big:active {
+  font: 300 2em 'Roboto', sans-serif;
   color: #fff;
-  margin: 0;
-  padding: 0;
   padding-bottom: .1em;
   border-bottom: 1px solid rgba(255,255,255,.15);
-	text-decoration: none;
-  outline: none;
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
-  -moz-tap-highlight-color: rgba(0,0,0,0);
-  outline: none;
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
-  -moz-tap-highlight-color: rgba(0,0,0,0);
-}
- a.solid:hover {
-   border-bottom: 1px solid rgba(255,255,255,.25);
- }
-
- a.link-menu:link, a.link-menu:visited, a.link-menu:active {
-   font-family: 'Arial', sans-serif;
-   font-size: 1em;
-   font-weight: normal;
-   color: #000;
-   margin: 0;
-   padding: 0;
-   padding-bottom: .1em;
-   border-bottom: 1px dotted black;
- 	 text-decoration: none;
-   outline: none;
-   -webkit-tap-highlight-color: rgba(0,0,0,0);
-   -moz-tap-highlight-color: rgba(0,0,0,0);
-   outline: none;
-   -webkit-tap-highlight-color: rgba(0,0,0,0);
-   -moz-tap-highlight-color: rgba(0,0,0,0);
- }
-  a.link-menu:hover {
-    border-bottom: 1px dotted #4CAF50;
-    color: #4CAF50;
-  }
-#full {
-  width: 100%;
-}
-#dotted {
-  border-bottom: 1px dotted black;
-  cursor: pointer;
-}
-#dotted:hover {
-  border-bottom: 1px dotted #4CAF50;
-  color: #4CAF50;
 }
 #ya {
   padding: 0;
@@ -421,9 +314,7 @@ a.footer-solid:link, a.footer-solid:visited, a.footer-solid:active {
   background-color: #eee;
 }
 #car {
-  font-family: 'Arial', sans-serif;
-  font-weight: normal;
-  font-size: 1em;
+  font: normal 1em 'Arial', sans-serif;
   color: #000;
   padding: .5em 1.25em;
   background-color: transparent;
@@ -437,14 +328,11 @@ a.footer-solid:link, a.footer-solid:visited, a.footer-solid:active {
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
 #buy {
-  font-family: 'Arial', sans-serif;
-  font-weight: normal;
-  font-size: 1em;
+  font: normal 1em 'Arial', sans-serif;
   color: #000;
   padding: .5em 1.25em;
   background-color: white;
   border: none;
-  -transition: .1s;
   border-radius: 5em;
   cursor: pointer;
   box-shadow: 0 .25em .5em 0 rgba(0,0,0,.1);
@@ -455,13 +343,9 @@ a.footer-solid:link, a.footer-solid:visited, a.footer-solid:active {
 #buy:hover {
   background-color: #4CAF50;
   color: #fff;
-  -box-shadow: 0 .25em .5em 0 rgba(0,0,0,.2);
 }
-
 #menu {
-  font-family: 'Arial', sans-serif;
-  font-weight: normal;
-  font-size: 1em;
+  font: normal 1em 'Arial', sans-serif;
   color: #000;
   padding: .5em 1em;
   background: transparent;
@@ -469,15 +353,13 @@ a.footer-solid:link, a.footer-solid:visited, a.footer-solid:active {
   transition: .1s;
   margin: .5em 0 .5em 0;
   border-radius: 5em;
-  -cursor: pointer;
   outline: none;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
+#news {background-color:#f7f7f7;}
 #logo {
-  font-family: 'Arial', sans-serif;
-  font-weight: normal;
-  font-size: 1em;
+  font: normal 1em 'Arial', sans-serif;
   color: #000;
   padding: .5em 1em .5em 0;
   background: transparent;
@@ -489,11 +371,8 @@ a.footer-solid:link, a.footer-solid:visited, a.footer-solid:active {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
-
 #button {
-  font-family: 'Arial', sans-serif;
-  font-weight: normal;
-  font-size: 1em;
+  font: normal 1em 'Arial', sans-serif;
   color: #000;
   padding: .5em 1.25em;
   background: #eee;
@@ -519,9 +398,7 @@ a.footer-solid:link, a.footer-solid:visited, a.footer-solid:active {
   box-shadow: inset 0 0 6rem rgba(0,0,0,.1), 0 .25em .5em 0 rgba(0,0,0,.25);
 }
 #button-social {
-  font-family: 'Arial', sans-serif;
-  font-weight: normal;
-  font-size: 1em;
+  font: normal 1em 'Arial', sans-serif;
   color: #000;
   padding: .5em 1.25em;
   background: #eee;
@@ -584,9 +461,7 @@ a.faq-1:link, a.faq-1:visited, a.faq-1:active,
 a.faq-2:link, a.faq-2:visited, a.faq-2:active,
 a.faq-3:link, a.faq-3:visited, a.faq-3:active,
 a.faq-4:link, a.faq-4:visited, a.faq-4:active {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.5em;
-  font-weight: 400;
+  font: 400 1.5em 'Roboto', sans-serif;
   color: #4CAF50;
   margin: 0;
   padding: 0;
@@ -596,19 +471,21 @@ a.faq-4:link, a.faq-4:visited, a.faq-4:active {
   outline: none;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
-  outline: none;
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
-  -moz-tap-highlight-color: rgba(0,0,0,0);
 }
 .close-1, .close-2, .close-3, .close-4 {
- visibility: hidden;
- display: none;
+  visibility: hidden;
+  display: none;
 }
 .open-1, .open-2, .open-3, .open-4 {
- visibility: visible;
- display: block;
+  visibility: visible;
+  display: block;
 }
 
+.side {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+}
+.full {width: 100%;}
 .screen {min-height: 100vh;}
 .line {height:1px;}
 .top-small    {padding-top: .5em;}
@@ -630,35 +507,23 @@ a.faq-4:link, a.faq-4:visited, a.faq-4:active {
 .youtube {color:#cd201f;}
 .instagram {color:#833ab4;}
 
-.color, .color-hover:hover        {background-color:#4CAF50;}
-#color, #color-hover:hover        {color:           #4CAF50;}
+.green, .green-hover:hover        {background-color:#4CAF50;}
+#green, #green-hover:hover        {color:           #4CAF50;}
+.blue, .blue-hover:hover          {background-color:#01579B;}
+#blue, #blue-hover:hover          {color:           #01579B;}
 .black, .black-hover:hover        {background-color:rgba(0,0,0,1);}
 #black, #black-hover:hover        {color:           rgba(0,0,0,1);}
-.dark, .dark-hover:hover          {background-color:#01579B;}
-#dark, #dark-hover:hover          {color:           #01579B;}
 .darkgray, .darkgray-hover:hover  {background-color:#999;}
 #darkgray, #darkgray-hover:hover  {color:           #999;}
 .gray, .gray-hover:hover          {background-color:#ddd;}
 #gray, #gray-hover:hover          {color:           #ddd;}
 .lightgray, .lightgray-hover:hover{background-color:#eee;}
 #lightgray, #lightgray-hover:hover{color:           #eee;}
-.lightgray2, .lightgray2-hover:hover{background-color:#f5f5f5;}
-#lightgray2, #lightgray2-hover:hover{color:           #f5f5f5;}
+.white, .white-hover:hover        {background-color:rgba(255,255,255,1);}
+#white, #white-hover:hover        {color:           rgba(255,255,255,1);}
 .half1, .half1-hover:hover        {background-color:rgba(255,255,255,.1);}
 #half1, #half1-hover:hover        {color:           rgba(255,255,255,.1);}
 .half3, .half3-hover:hover        {background-color:rgba(255,255,255,.4);}
 #half3, #half3-hover:hover        {color:           rgba(255,255,255,.4);}
 .half5, .half5-hover:hover        {background-color:rgba(255,255,255,.5);}
 #half5, #half5-hover:hover        {color:           rgba(255,255,255,.5);}
-.half7, .half7-hover:hover        {background-color:rgba(255,255,255,.7);}
-#half7, #half7-hover:hover        {color:           rgba(255,255,255,.7);}
-.white, .white-hover:hover        {background-color:rgba(255,255,255,1);}
-#white, #white-hover:hover        {color:           rgba(255,255,255,1);}
-
-
-
-
-.-red {background-color: red;}
-.-blue {background-color: blue;}
-.-green {background-color: green;}
-.-yellow {background-color: yellow;}
