@@ -374,9 +374,13 @@ a.footer-big:link, a.footer-big:visited, a.footer-big:hover, a.footer-big:active
   transition: .1s;
   margin: .5em 0 .5em 0;
   border-radius: 5em;
+  display: inline-block;
   outline: none;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
+}
+#menu:hover {
+  color: #4CAF50;
 }
 #news {background-color:#f7f7f7;}
 #logo {
@@ -388,6 +392,7 @@ a.footer-big:link, a.footer-big:visited, a.footer-big:hover, a.footer-big:active
   transition: .1s;
   margin: 0 0 0 0;
   border-radius: 5em;
+  display: inline-block;
   outline: none;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
@@ -635,5 +640,5 @@ a.faq-4:link, a.faq-4:visited, a.faq-4:active {
 #half3, #half3-hover:hover        {color:           rgba(255,255,255,.4);}
 .half5, .half5-hover:hover        {background-color:rgba(255,255,255,.6);}
 #half5, #half5-hover:hover        {color:           rgba(255,255,255,.6);}
-.newcolor, .newcolor-hover:hover        {background-color:#f7f7f7;}
-#newcolor, #newcolor-hover:hover        {color:           #f7f7f7;}
+.newcolor, .newcolor-hover:hover  {background-color:#f7f7f7;}
+#newcolor, #newcolor-hover:hover  {color:           #f7f7f7;}
