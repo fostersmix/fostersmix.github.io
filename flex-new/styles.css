@@ -221,7 +221,7 @@
     margin-top: 0;
     margin-bottom: 0;
   }
-  h1, h2, h3, h4, h5 {
+  h1, h2, h3, h4, h5, h6  {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
@@ -248,9 +248,9 @@
     font-size: 2em;
     font-weight: 500;
   }
-  h5 {
+  h6 {
     font-size: 1.5em;
-    font-weight: 300;
+    font-weight: 400;
   }
   #cell {
     border-radius: .5em;
@@ -307,6 +307,14 @@ a.dotted:link, a.dotted:visited, a.dotted:active {
 a.dotted:hover {
   border-bottom: 1px dotted #4CAF50;
   color: #4CAF50;
+}
+a.dotted-white:link, a.dotted-white:visited, a.dotted-white:hover ,a.dotted-white:active {
+  color: #fff;
+  border-bottom: 1px dotted rgba(255,255,255,.5);
+}
+a.dotted-green:link, a.dotted-green:visited, a.dotted-green:hover ,a.dotted-green:active {
+  color: #4CAF50;
+  border-bottom: 1px dotted #4CAF50;
 }
 a.footer:link, a.footer:visited, a.footer:active {
   color: #eee;
@@ -403,10 +411,10 @@ a.footer-big:link, a.footer-big:visited, a.footer-big:hover, a.footer-big:active
   color: #000;
   background: #fff;
 }
-#input-btn {
+#button-middle-login {
   font: normal 1em 'Arial', sans-serif;
   color: #fff;
-  padding: 1em 1.25em;
+  padding: 1em 0em;
   background: #4CAF50;
   border: none;
   transition: .1s;
@@ -419,13 +427,13 @@ a.footer-big:link, a.footer-big:visited, a.footer-big:hover, a.footer-big:active
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
-#input-btn:hover {
+#button-middle-login:hover {
   box-shadow: 0 .25em .5em 0 rgba(0,0,0,.3);
 }
-#reg-btn {
+#button-middle-reg {
   font: normal 1em 'Arial', sans-serif;
   color: #fff;
-  padding: 1em 1.25em;
+  padding: 1em 1em;
   background: none;
   border: 2px solid #fff;;
   transition: .1s;
@@ -437,7 +445,7 @@ a.footer-big:link, a.footer-big:visited, a.footer-big:hover, a.footer-big:active
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
-#reg-btn:hover {
+#button-middle-reg:hover {
   color: #01579B;
   background-color: #fff;
 }
@@ -459,6 +467,8 @@ a.footer-big:link, a.footer-big:visited, a.footer-big:hover, a.footer-big:active
   box-shadow: inset 0 0 6rem rgba(0,0,0,.1);
 }
 #button-big {
+  font: 500 2em 'Roboto', sans-serif;
+  padding: .5em 0 .5em 0;
   background-color: #4CAF50;
   border-radius: 5em;
   box-shadow: 0 .25em .5em 0 rgba(0,0,0,.25);
@@ -513,7 +523,39 @@ a.footer-big:link, a.footer-big:visited, a.footer-big:hover, a.footer-big:active
   width: 100%;
   z-index: 100;
 }
-
+#sticky-header-green {
+  box-shadow: 0 .25em .5em 0 rgba(0,0,0,.1);
+  background-color: #4CAF50;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+#card-text {
+  font: normal 1.5em 'Share Tech Mono', monospace;
+  text-shadow: 1px 2px 2px rgba(0,0,0,.3);
+  color: #fff;
+}
+#card {
+  min-height: 13em;
+  border-radius: .5em;
+  background: linear-gradient(to top left, #01579B, #039BE5);
+  box-shadow: 0 .5em 1em 0 rgba(0,0,0,.2);
+  -border: 3px solid #01579B;
+}
+#card:hover {
+  box-shadow: 0 .5em 1em 0 rgba(0,0,0,.3);
+}
+#card-add {
+  min-height: 13em;
+  border-radius: .5em;
+  border: 3px dashed #ccc;
+}
+#money {
+  border-radius: .5em;
+  background-color: #fff;
+  border: 2px solid #4CAF50;
+  color: #4CAF50;
+}
 a.burger:link, a.burger:visited, a.burger:active {
   color: #4CAF50;
 }
@@ -593,3 +635,5 @@ a.faq-4:link, a.faq-4:visited, a.faq-4:active {
 #half3, #half3-hover:hover        {color:           rgba(255,255,255,.4);}
 .half5, .half5-hover:hover        {background-color:rgba(255,255,255,.6);}
 #half5, #half5-hover:hover        {color:           rgba(255,255,255,.6);}
+.newcolor, .newcolor-hover:hover        {background-color:#f7f7f7;}
+#newcolor, #newcolor-hover:hover        {color:           #f7f7f7;}

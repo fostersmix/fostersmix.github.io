@@ -10,21 +10,22 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   </head>
   <body class="blue">
-    <div class="row center-xs center-sm center-md center-lg top-xs top-sm top-md top-lg screen">
+    <div class="row center-xs center-sm center-md center-lg middle-xs middle-sm middle-md middle-lg screen">
 
-      <div class="col-xs-12 col-sm-11 col-md-10 col-lg-11 top">
+      <!--<div class="col-xs-12 col-sm-11 col-md-10 col-lg-11 top">
         <div class="row center-xs center-sm start-md start-lg top-big">
           <div class="col-xs-5 col-sm-4 col-md-2 col-lg-1">
             <img src="logo/flex-logo-white.svg">
           </div>
         </div>
-      </div>  
-      
-      <!--HEADER-->    
-      <div class="col-xs-12 col-sm-11 col-md-10 col-lg-6">
+      </div>-->
+
+      <!--HEADER-->
+      <div class="col-xs-12 col-sm-11 col-md-10 col-lg-6" id="cell2">
         <div class="row center-xs center-sm center-md center-lg top-big bottom-small">
           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <h3 id="white"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Личный кабинет</h3>
+            <div class="box"><h3 id="white"><i class="fa fa-user-circle-o" aria-hidden="true"></i></h3></div>
+            <div class="box top"><h3 id="white">Личный кабинет</h3></div>
           </div>
         </div>
         <div class="row center-xs center-sm center-md center-lg top-big">
@@ -39,23 +40,22 @@
         </div>
         <div class="row center-xs center-sm center-md center-lg top bottom-big">
           <div class="col-xs-11 col-sm-10 col-md-8 col-lg-6">
-            <button id="input-btn"><h5>Войти</h5></button>
+            <a href="profile.html" id="button-middle-login">Войти</a>
           </div>
         </div>
         <div class="row center-xs center-sm center-md center-lg bottom-small">
-          <div class="col-xs-11 col-sm-10 col-md-8 col-lg-6" id="white">
-            Забыли пароль?
+          <div class="col-xs-11 col-sm-10 col-md-8 col-lg-6">
+            <a href="#" class="dotted-white">Забыли пароль?</a>
           </div>
         </div>
-        <div class="row center-xs center-sm center-md center-lg top-big">
+        <div class="row center-xs center-sm center-md center-lg top-big bottom-big">
           <div class="col-xs-11 col-sm-10 col-md-8 col-lg-6">
-            <button id="reg-btn"><h5>Регистрация</h5></button>
+            <button id="button-middle-reg">Регистрация</button>
           </div>
         </div>
       </div>
-      
-      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 top-big bottom-big"></div>
-      
+
+
     </div>
   </body>
 </html>
