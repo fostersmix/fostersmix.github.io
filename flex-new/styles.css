@@ -598,6 +598,11 @@ a.faq-4:link, a.faq-4:visited, a.faq-4:active {
   visibility: visible;
   display: block;
 }
+.cell {
+  border-radius: .5em;
+  background-color: #fff;
+  box-shadow: 0 .5em 1em 0 rgba(0,0,0,.15);
+}
 .full {width: 100%;}
 .screen {min-height: 100vh;}
 .line {height:1px;}
