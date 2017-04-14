@@ -62,7 +62,6 @@
   #login:hover {
     color: rgb(71,164,75);
   }
-  #textal {text-align: center;}
   .vline {border-right: 1px solid #ddd;height: 4.5em;}
 }
 
@@ -131,7 +130,6 @@
   #login:hover {
     color: rgb(71,164,75);
   }
-  #textal {text-align: center;}
   .vline {border-right: 1px solid #ddd;height: 4.5em;}
 }
 
@@ -202,7 +200,6 @@
     -color: #fff;
     box-shadow: inset 0 0 6rem rgba(0,0,0,.1)
   }
-  #textal {text-align: left;}
   .vline {border-right: 1px solid #ddd;height: 4.5em;}
   .vline-left {border-left: 1px solid #ddd;height: 4.5em;}
   .side {
@@ -235,19 +232,19 @@
   }
   h2 {
     font-size: 3em;
-    font-weight: 500;
-  }
-  h3 {
-    font-size: 2em;
     font-weight: 400;
-  }
-  h4 {
-    font-size: 2em;
-    font-weight: 300;
   }
   h5 {
     font-size: 2.5em;
     font-weight: 400;
+  }
+  h3 {
+    font-size: 2em;
+    font-weight: 300;
+  }
+  h4 {
+    font-size: 2em;
+    font-weight: 500;
   }
   h6 {
     font-size: 1.5em;
@@ -284,7 +281,6 @@
     -color: #fff;
     box-shadow: inset 0 0 6rem rgba(0,0,0,.1)
   }
-  #textal {text-align: left;}
   .side {
     border-left: 1px solid #ddd;
     border-right: 1px solid #ddd;
@@ -300,8 +296,6 @@ a:link, a:visited, a:hover, a:active {
 }
 a.solid-black:link, a.solid-black:visited, a.solid-black:active {border-bottom: 1px solid rgba(0,0,0,.15);}
 a.solid-black:hover {border-bottom: 1px solid rgba(0,0,0,.25);}
-a.solid-black-big:link, a.solid-black-big:visited, a.solid-black-big:active {border-bottom: 1px solid rgba(0,0,0,.15);font: 300 1.5em 'Roboto', sans-serif;}
-a.solid-black-big:hover {border-bottom: 1px solid rgba(0,0,0,.25);}
 a.solid-white:link, a.solid-white:visited, a.solid-white:active {
   border-bottom: 1px solid rgba(255,255,255,.15);
   color: #fff;
@@ -325,7 +319,7 @@ a.dotted-green:link, a.dotted-green:visited, a.dotted-green:hover ,a.dotted-gree
   border-bottom: 1px dotted #4CAF50;
 }
 a.footer:link, a.footer:visited, a.footer:active {
-  font: 400 2em 'Roboto', sans-serif;
+  font: 300 2em 'Roboto', sans-serif;
   color: #fff;
   padding-bottom: .1em;
   border-bottom: 1px solid rgba(255,255,255,.15);
@@ -405,7 +399,7 @@ a.footer:hover {border-bottom: 1px solid rgba(255,255,255,.25);}
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
 #buy:hover {
-  -box-shadow: inset 0 0 6rem rgba(0,0,0,.1), 0 .25em .5em 0 rgba(0,0,0,.1);
+  box-shadow: inset 0 0 6rem rgba(0,0,0,.1), 0 .25em .5em 0 rgba(0,0,0,.1);
 }
 #car {
   font: normal 1em 'Arial', sans-serif;
@@ -511,56 +505,17 @@ a.footer:hover {border-bottom: 1px solid rgba(255,255,255,.25);}
 #button:hover {
   box-shadow: inset 0 0 6rem rgba(0,0,0,.1);
 }
-#button-new {
-  font: 500 1em 'Roboto', sans-serif;
-  color: #333;
-  padding: .75em 3em;
-  background: #fff;
-  border: 1px solid #ddd;
-  transition: .1s;
-  border-radius: .5em;
-  display: inline-block;
-  letter-spacing: 3;
-  cursor: pointer;
-  outline: none;
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
-  -moz-tap-highlight-color: rgba(0,0,0,0);
-}
-#button-new:hover {
-  box-shadow: inset 0 0 6rem rgba(0,0,0,.1);
-}
-#button-new-light {
-  font: 400 1em 'Roboto', sans-serif;
-  color: #fff;
-  padding: .75em 3em;
-  background: none;
-  border: 1px solid #fff;
-  transition: .1s;
-  border-radius: .5em;
-  display: inline-block;
-  letter-spacing: 3;
-  cursor: pointer;
-  outline: none;
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
-  -moz-tap-highlight-color: rgba(0,0,0,0);
-}
-#button-new-light:hover {
-  background-color: #fff;
-  color: #4CAF50;
-  -box-shadow: inset 0 0 6rem rgba(0,0,0,.1);
-}
 #button-big {
   font: 500 2em 'Roboto', sans-serif;
   padding: .5em 0 .5em 0;
   background-color: #4CAF50;
   border-radius: 5em;
-  letter-spacing: 5;
-  -box-shadow: 0 .25em .5em 0 rgba(0,0,0,.25);
+  box-shadow: 0 .25em .5em 0 rgba(0,0,0,.25);
   cursor: pointer;
   color:white;
 }
 #button-big:hover {
-  -box-shadow: inset 0 0 6rem rgba(0,0,0,.1), 0 .25em .5em 0 rgba(0,0,0,.25);
+  box-shadow: inset 0 0 6rem rgba(0,0,0,.1), 0 .25em .5em 0 rgba(0,0,0,.25);
 }
 #button-mobile {
   font: normal 1em 'Arial', sans-serif;
@@ -658,10 +613,6 @@ a.burger:hover {
   background-color: #fff;
   box-shadow: 0 .5em 1em 0 rgba(0,0,0,.15);
 }
-#brands-gray {min-height: 15em;background: #f8f8f8;}
-#brands-black {min-height: 15em;background: #434343;}
-#brands-green {min-height: 7.5em;background: #4CAF50;}
-#brands-blue {min-height: 7.5em;background: #01579B;}
 #ya {
   padding: 0;
   margin: 0;
@@ -679,18 +630,6 @@ a.burger:hover {
 .bottom-big {padding-bottom: 2em;}
 .top-middle    {padding-top: 1.5em;}
 .bottom-middle {padding-bottom: 1.5em;}
-
-.top-05    {padding-top: .5em;}
-.bottom-05 {padding-bottom: .5em;}
-.top-10    {padding-top: 1em;}
-.bottom-10 {padding-bottom: 1em;}
-.top-15    {padding-top: 1.5em;}
-.bottom-15 {padding-bottom: 1.5em;}
-.top-30    {padding-top: 3em;}
-.bottom-30 {padding-bottom: 3em;}
-
-.cell-new {border-radius: .5em;border: 1px solid rgba(255,255,255,0);-box-shadow: 0 .5em 1em 0 rgba(0,0,0,.15);}
-.cell-new:hover {box-shadow: inset 0 0 6rem rgba(0,0,0,.1);}
 .bg {background: linear-gradient(to top, #eee, #fbfbfb);}
 .bg3 {background: linear-gradient(to top, #f5f5f5, #fff);}
 .bg2 {background: linear-gradient(to bottom right, #4CAF50, #01579B);}
@@ -715,7 +654,6 @@ button.accordion {
   text-decoration: none;
   outline: none;
   transition: .2s;
-  text-align: center;
   cursor: pointer;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
@@ -730,8 +668,6 @@ div.accordion__content {display: none;}
 #blue, #blue-hover:hover          {color:           #01579B;}
 .black, .black-hover:hover        {background-color:rgba(0,0,0,1);}
 #black, #black-hover:hover        {color:           rgba(0,0,0,1);}
-.half-black, .half-black-hover:hover        {background-color:rgba(0,0,0,.25);}
-#half-black, #half-black-hover:hover        {color:           rgba(0,0,0,.25);}
 .darkgray, .darkgray-hover:hover  {background-color:#999;}
 #darkgray, #darkgray-hover:hover  {color:           #999;}
 .gray, .gray-hover:hover          {background-color:#ddd;}
@@ -748,10 +684,3 @@ div.accordion__content {display: none;}
 #half5, #half5-hover:hover        {color:           rgba(255,255,255,.6);}
 .newcolor, .newcolor-hover:hover  {background-color:#f8f8f8;}
 #newcolor, #newcolor-hover:hover  {color:           #f8f8f8;}
-
-
-
-.red-test- {background-color: red;}
-.blue-test- {background-color: blue;}
-.green-test- {background-color: green;}
-.yellow-test- {background-color: yellow;}
