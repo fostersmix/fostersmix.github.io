@@ -35,7 +35,7 @@
   }
   h4 {
     font-size: 1.5em;
-    font-weight: 500;
+    font-weight: 300;
   }
   #cell {
     border-radius: .5em;
@@ -63,6 +63,7 @@
     color: rgb(71,164,75);
   }
   #textal {text-align: center;}
+  #green-btn {background-color: #4CAF50;}
   .vline {border-right: 1px solid #ddd;height: 4.5em;}
 }
 
@@ -104,7 +105,7 @@
   }
   h4 {
     font-size: 1.5em;
-    font-weight: 500;
+    font-weight: 300;
   }
   #cell {
     border-radius: .5em;
@@ -131,6 +132,7 @@
   #login:hover {
     color: rgb(71,164,75);
   }
+  #green-btn {background-color: #4CAF50;}
   #textal {text-align: center;}
   .vline {border-right: 1px solid #ddd;height: 4.5em;}
 }
@@ -527,7 +529,8 @@ a.footer:hover {border-bottom: 1px solid rgba(255,255,255,.25);}
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
 #button-new:hover {
-  box-shadow: inset 0 0 6rem rgba(0,0,0,.1);
+  background-color: #f8f8f8;
+  -box-shadow: inset 0 0 6rem rgba(0,0,0,.1);
 }
 #button-new-light {
   font: 400 1em 'Roboto', sans-serif;
