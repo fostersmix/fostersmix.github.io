@@ -259,11 +259,10 @@
     border-radius: .5em;
     background-color: #fff;
     box-shadow: 0 .5em 1em 0 rgba(0,0,0,.15);
-    margin-top: .25em;
     transition: .2s;
   }
   #cell:hover {
-    margin-top: 0;
+    transform: translate(0,-0.25em);
     box-shadow: 0 .5em 1em 0 rgba(0,0,0,.25);
   }
   /*BUTTON WITH BG*/
@@ -383,6 +382,14 @@ button {
   cursor: auto;
   margin-left: 1em;
 }
+#night {
+  padding: .5em .75em;
+  margin-left: .5em;
+  cursor: auto;
+  background: #111;
+  color: #fff;
+  border-radius: .5em;
+}
 #field {
   padding: 1em 1.25em;
   background: #f7f7f7;
@@ -467,6 +474,10 @@ button {
 }
 
 /*CELL ON LOGIN PAGE*/
+#cell-night {
+  border-radius: 0 0 .5em .5em;
+  background-color: #323232;
+}
 .cell {
   border-radius: .5em;
   background-color: #fff;
