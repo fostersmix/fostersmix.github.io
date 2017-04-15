@@ -453,6 +453,19 @@ button {
   color: #fff;
 }
 
+/*FORM*/
+#form {
+  color: #000;
+  background: #fff;
+  padding: .5em 1.25em;
+  border-radius: 5em;
+}
+#form:hover {color: #000;}
+.form {
+  border-radius: 0 0 2em 2em;
+  background: linear-gradient(to top, #FFF59D, #FFFDE7);
+}
+
 /*CELL ON LOGIN PAGE*/
 .cell {
   border-radius: .5em;
