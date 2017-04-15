@@ -8,11 +8,21 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700">
     <script src="https://use.fontawesome.com/86dd06cb93.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      $(".burger").click(function(){
+        $(".close-burger").toggleClass("open-burger"); return false;
+      });
+    });
+    </script>
   </head>
   <body>
     <div class="row center-xs center-sm center-md center-lg top-xs top-sm top-md top-lg screen">
+      
+      <!--MENU-->
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="sticky-header">
         <div class="row start-xs start-sm center-md center-lg">
+          <!--BAR-->
           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <div class="row start-xs start-sm center-md center-lg middle-xs middle-sm middle-md middle-lg" id="sticky-content">
               <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10">
@@ -30,7 +40,7 @@
                   <div class="col-xs-8 col-sm-8 col-md-6 col-lg-3">
                     <div class="row center-xs center-sm center-md end-lg middle-xs middle-sm middle-md vline vline-left">
                       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <a href="login.html" id="login"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Личный Кабинет</a>
+                        <a href="login.html" id="login"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Личный кабинет</a>
                       </div>
                     </div>
                   </div>
@@ -45,6 +55,7 @@
               </div>
             </div>
           </div>
+          <!--OPEN-->
           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 white hide-lg close-burger shadow-menu">
             <div class="row center-xs center-sm center-md center-lg middle-xs middle-sm middle-md middle-lg">
               <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10">
@@ -80,6 +91,7 @@
         </div>
       </div>
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"></div>
+      
       <!--HEADER-->
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="sticky-margin">
         <div class="row center-xs center-sm center-md center-lg middle-xs middle-sm middle-md middle-lg">
@@ -107,6 +119,7 @@
           </div>
         </div>
       </div>
+      
       <!--TARIFFS-->
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 green  green-test -shadow-inset" id="tariffs">
         <div class="row center-xs center-sm center-md center-lg">
@@ -192,6 +205,7 @@
           </div>
         </div>
       </div>
+      
       <!--FLEXCAR-->
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 red-test" id="flexcar">
         <div class="row center-xs center-sm center-md center-lg">
@@ -273,6 +287,7 @@
           </div>
         </div>
       </div>
+      
       <!--MAP-->
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 hide-xs hide-sm" id="map">
         <div class="row center-xs center-sm center-md center-lg newcolor">
@@ -290,6 +305,7 @@
           </div>
         </div>
       </div>
+      
       <!--FAQ-->
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 green-test" id="faq">
         <div class="row center-xs center-sm center-md center-lg">
@@ -325,9 +341,9 @@
               </div>
             </div>
           </div>
-
         </div>
       </div>
+      
       <!--REG-->
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 newcolor blue-test" id="reg">
         <div class="row center-xs center-sm center-md center-lg ">
@@ -476,23 +492,20 @@
         </div>
       </div>
     </div>
-
     <script>
-var acc = document.getElementsByClassName("accordion");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-    acc[i].onclick = function(){
-        this.classList.toggle("active");
-        var accordion__content = this.nextElementSibling;
-        if (accordion__content.style.display === "block") {
-            accordion__content.style.display = "none";
-        } else {
-            accordion__content.style.display = "block";
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    for (i = 0; i < acc.length; i++) {
+        acc[i].onclick = function(){
+            this.classList.toggle("active");
+            var accordion__content = this.nextElementSibling;
+            if (accordion__content.style.display === "block") {
+                accordion__content.style.display = "none";
+            } else {
+                accordion__content.style.display = "block";
+            }
         }
     }
-}
-</script>
-
+    </script>
   </body>
 </html>

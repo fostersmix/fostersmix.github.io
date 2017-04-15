@@ -400,7 +400,7 @@ button {
 #button:hover {background-color: #f8f8f8;}
 #button-big {
   font: 500 1.5em 'Roboto', sans-serif;
-  padding: 1em .5em 1em .5em;
+  padding: 1em 0 1em 0;
   background-color: #4CAF50;
   letter-spacing: 5;
   color: #fff;
@@ -503,6 +503,8 @@ button {
 
 a.burger:link, a.burger:visited, a.burger:active {
   color: #4CAF50;
+  width: 100%;
+  padding: 1em 0em;
 }
 a.burger:hover {
   color: rgb(71,164,75);
