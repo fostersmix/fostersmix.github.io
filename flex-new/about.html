@@ -8,6 +8,13 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700">
     <script src="https://use.fontawesome.com/86dd06cb93.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      $(".burger").click(function(){
+    		$(".close-burger").toggleClass("open-burger"); return false;
+    	});
+    });
+    </script>
   </head>
   <body>
     <div class="row center-xs center-sm center-md center-lg top-xs top-sm top-md top-lg screen">
@@ -45,7 +52,7 @@
               </div>
             </div>
           </div>
-          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 white hide-lg close-burger shadow-menu">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 white hide-lg close-burger" id="sticky-line">
             <div class="row center-xs center-sm center-md center-lg middle-xs middle-sm middle-md middle-lg">
               <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 ">
                 <div class="row center-xs center-sm start-md start-lg middle-xs middle-sm middle-md middle-lg">
@@ -74,11 +81,12 @@
         </div>
       </div>
 
-      <!--NEWS-->
+      <!--HISTORY-->
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        <div class="row center-xs center-sm center-md center-lg">
-          <div class="col-xs-11 col-sm-11 col-md-11 col-lg-10">
-            <div class="row center-xs center-sm start-md start-lg" >
+        <div class="row center-xs center-sm center-md center-lg" >
+          <div class="col-xs-11 col-sm-10 col-md-10 col-lg-10">
+            <!--HISTORY-->
+            <div class="row center-xs center-sm start-md start-lg" id="history">
               <div class="col-xs-12 col-sm-12 col-md-11 col-lg-10 top-30 bottom-30">
                 <div class="box"><h4>История</h4></div>
                 <div class="box top-30">
@@ -87,6 +95,9 @@
                 </div>
               </div>
               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 line gray"></div>
+            </div>
+            <!--TEAM-->
+            <div class="row center-xs center-sm start-md start-lg" id="team">
               <div class="col-xs-12 col-sm-12 col-md-11 col-lg-10 top-30 bottom-15">
                 <div class="box"><h4>Команда</h4></div>
               </div>
@@ -110,8 +121,10 @@
                 <div class="box top-10"><h3>Петр<br>Круглов</div>
                 <div class="box top-10">Главный управляющий</div>
               </div>
-              <!--GUIDLINES-->
               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 line gray"></div>
+            </div>
+            <!--BRAND-->
+            <div class="row center-xs center-sm start-md start-lg" id="brand">
               <div class="col-xs-12 col-sm-12 col-md-11 col-lg-10 top-30 bottom-30">
                 <div class="box"><h4>Бренд</h4></div>
               </div>
@@ -173,7 +186,9 @@
                 </div>
               </div>
               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 line gray"></div>
+            </div>
             <!--OOO-->
+            <div class="row center-xs center-sm start-md start-lg" id="ooo">            
               <div class="col-xs-12 col-sm-12 col-md-11 col-lg-10 top-30 bottom-30">
                 <div class="box"><h4>Реквизиты</h4></div>
               </div>
@@ -197,8 +212,8 @@
       </div>
 
       <!--FOOTER-->
-      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 blue green-test -shadow-inset" id="contact">
-        <div class="row center-xs center-sm center-md center-lg">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 blue green-test -shadow-inset" >
+        <div class="row center-xs center-sm center-md center-lg" id="contact">
           <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 yellow-test">
             <div class="row center-xs center-sm start-md start-lg top-15" id="white">
               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 top-15 bottom-15 red-test ">
@@ -235,7 +250,7 @@
                     © 2017 ООО «Городской Каршеринг»
                   </div>
                   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 top-10 bottom-10 hide-lg hide-xs hide-sm ">
-                    <a href="#" id="solid-white">О проекте</a> · <a href="#" id="solid-white">Пользовательское соглашение</a>
+                    <a href="#" id="solid-white">Пользовательское соглашение</a>
                   </div>
                   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 top-10 bottom-10 hide-xs hide-sm hide-md " >
                     <div class="box" align="right"><a href="about.html" id="solid-white">О проекте</a> · <a href="#" id="solid-white">Пользовательское соглашение</a></div>

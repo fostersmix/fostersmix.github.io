@@ -23,14 +23,14 @@
   h3 {font-size: 1.5em;} /*only package*/
   h4 {font-size: 1.5em;font-weight: 300;} /*news and faq*/
   h5 {font-size: 1.5em;font-weight: 300;} /*only news on mainpage*/
+  /*NO JUMP CELL*/
   #cell {
     border-radius: .5em;
     background-color: #fff;
     box-shadow: 0 .5em 1em 0 rgba(0,0,0,.15);
   }
-  #cell:hover {
-    box-shadow: 0 .5em 1em 0 rgba(0,0,0,.25);
-  }
+  #cell:hover {box-shadow: 0 .5em 1em 0 rgba(0,0,0,.25);}
+  /*BUTTON WITHOUT BG*/
   #login {
     color: #4CAF50;
     padding: .5em 1.25em;
@@ -38,9 +38,9 @@
     border-radius: 5em;
   }
   #login:hover {color: rgb(71,164,75);}
-  #textal {text-align: center;}
-  #green-btn {background-color: #4CAF50;}
-  .vline {border-right: 1px solid #ddd;height: 4.5em;}
+  #green-btn {background-color: #4CAF50;} /*REGISTRATION @XS @SM ON MAINPAGE*/
+  .vline {border-right: 1px solid #ddd;height: 4.5em;} /*LINE ON STCIKY MENU*/
+  /*BUTTON @XS @SM ON BG (TARIFFS)*/
   #button-white {
     font: normal 1em 'Arial', sans-serif;
     color: #fff;
@@ -55,6 +55,7 @@
     background-color: #fff;
     color: #4CAF50;
   }
+  #accordion-align {text-align: center;} /*FIX ACCORDION ALIGN*/
   button.accordion {
     font: 300 1.5em 'Roboto', sans-serif;
     color: #4CAF50;
@@ -97,14 +98,14 @@
   h3 {font-size: 1.5em;} /*only package*/
   h4 {font-size: 1.5em;font-weight: 300;} /*news and faq*/
   h5 {font-size: 1.5em;font-weight: 300;} /*only news on mainpage*/
+  /*NO JUMP CELL*/
   #cell {
     border-radius: .5em;
     background-color: #fff;
     box-shadow: 0 .5em 1em 0 rgba(0,0,0,.15);
   }
-  #cell:hover {
-    box-shadow: 0 .5em 1em 0 rgba(0,0,0,.25);
-  }
+  #cell:hover {box-shadow: 0 .5em 1em 0 rgba(0,0,0,.25);}
+  /*BUTTON WITHOUT BG*/
   #login {
     color: #4CAF50;
     padding: .5em 1.25em;
@@ -112,9 +113,9 @@
     border-radius: 5em;
   }
   #login:hover {color: rgb(71,164,75);}
-  #green-btn {background-color: #4CAF50;}
-  #textal {text-align: center;}
-  .vline {border-right: 1px solid #ddd;height: 4.5em;}
+  #green-btn {background-color: #4CAF50;} /*REGISTRATION @XS @SM ON MAINPAGE*/
+  .vline {border-right: 1px solid #ddd;height: 4.5em;} /*LINE ON STICKY MENU*/
+  /*BUTTON @XS @SM ON BG (TARIFFS)*/
   #button-white {
     font: normal 1em 'Arial', sans-serif;
     color: #fff;
@@ -129,6 +130,7 @@
     background-color: #fff;
     color: #4CAF50;
   }
+  #accordion-align {text-align: center;}  /*FIX ACCORDION ALIGN*/
   button.accordion {
     font: 300 1.5em 'Roboto', sans-serif;
     color: #4CAF50;
@@ -171,6 +173,7 @@
   h3 {font-size: 2em;} /*only package*/
   h4 {font-size: 1.5em;} /*news and faq*/
   h5 {font-size: 1.25em;font-weight: 300;} /*only news on mainpage*/
+  /*JUMP CELL*/
   #cell {
     border-radius: .5em;
     background-color: #fff;
@@ -179,6 +182,7 @@
   #cell:hover {
     box-shadow: 0 .5em 1em 0 rgba(0,0,0,.25);
   }
+  /*BUTTON WITH BG*/
   #login {
     color: #fff;
     padding: .5em 1.25em;
@@ -186,13 +190,14 @@
     border-radius: 5em;
   }
   #login:hover {box-shadow: inset 0 0 10em rgba(0,0,0,.1)}
-  #textal {text-align: left;}
-  .vline {border-right: 1px solid #ddd;height: 4.5em;}
-  .vline-left {border-left: 1px solid #ddd;height: 4.5em;}
+  .vline {border-right: 1px solid #ddd;height: 4.5em;} /*RIGHT LINE ON STICKY MENU*/
+  .vline-left {border-left: 1px solid #ddd;height: 4.5em;} /*LEF LINE @MD ON STICKY MENU*/
+  /*LINES ON #DRIVER*/
   .side {
     border-left: 1px solid #ddd;
     border-right: 1px solid #ddd;
   }
+  /*BUTTON WITHOUD BORDER @MD @LG ON BG (TARIFFS)*/
   #button-white {
     font: normal 1em 'Arial', sans-serif;
     color: #fff;
@@ -201,12 +206,13 @@
     border: 1px solid #fff;
     border-radius: .5em;
     letter-spacing: 3;
-    cursor: pointer;
+    cursor: text;
   }
   #button-white:hover {
     background-color: #fff;
     color: #4CAF50;
   }
+  #accordion-align {text-align: left;} /*FIX ACCORDION ALIGN*/
   button.accordion {
     font: 400 1.5em 'Roboto', sans-serif;
     color: #4CAF50;
@@ -248,6 +254,7 @@
   h3 {font-size: 2.5em;} /*only package*/
   h4 {font-size: 2em;} /*news and faq*/
   h5 {font-size: 1.5em;font-weight: 300;} /*only news on mainpage*/
+  /*JUMP CELL*/
   #cell {
     border-radius: .5em;
     background-color: #fff;
@@ -259,6 +266,7 @@
     margin-top: 0;
     box-shadow: 0 .5em 1em 0 rgba(0,0,0,.25);
   }
+  /*BUTTON WITH BG*/
   #login {
     color: #fff;
     padding: .5em 1.25em;
@@ -266,19 +274,21 @@
     border-radius: 5em;
   }
   #login:hover {box-shadow: inset 0 0 10em rgba(0,0,0,.1)}
-  #textal {text-align: left;}
+  /*LINES ON #DRIVER*/
   .side {
     border-left: 1px solid #ddd;
     border-right: 1px solid #ddd;
   }
+  /*BUTTON WITHOUD BORDER @MD @LG ON BG (TARIFFS)*/
   #button-white {
     font: normal 1em 'Arial', sans-serif;
     color: #fff;
     background: none;
-    cursor: auto;
+    cursor: text;
     border: none;
     letter-spacing: 3;
   }
+  #accordion-align {text-align: left;} /*FIX ACCORDION ALIGN*/
   button.accordion {
     font: 400 2em 'Roboto', sans-serif;
     color: #4CAF50;
@@ -413,54 +423,25 @@ button {
   width: 100%;
 }
 #button-big:hover {box-shadow: inset 0 0 10em rgba(0,0,0,.1);}
+/*SIZE CARS MAP*/
+#ya {
+  padding: 0;
+  margin: 0;
+  height: 500px;
+  background-color: #f8f8f8;
+}
 
-/*
-#button-mobile {
-  font: normal 1em 'Arial', sans-serif;
-  color: #4CAF50;
-  padding: 1em 0;
-  background: none;
-  border: 2px solid #4CAF50;
-  border-radius: .5em;
-  display: inline-block;
-  cursor: pointer;
-  width: 100%;
-  outline: none;
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
-  -moz-tap-highlight-color: rgba(0,0,0,0);
-}
-#button-mobile:hover {
-  color: #fff;
-  background-color: #4CAF50;
-}
-#button-mobile-light {
-  font: normal 1em 'Arial', sans-serif;
-  color: #fff;
-  padding: 1em 0;
-  background: none;
-  border: 2px solid #fff;
-  border-radius: .5em;
-  display: inline-block;
-  cursor: pointer;
-  width: 100%;
-  outline: none;
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
-  -moz-tap-highlight-color: rgba(0,0,0,0);
-}
-#button-mobile-light:hover {
-  color: #4CAF50;
-  background-color: #fff;
-}*/
+#ls {letter-spacing: 10;} /*H1 LOGO*/
+#ls2 {letter-spacing: 2;} /*H1 SUBPAGE*/
 
+/*PAYMENT CARD*/
 #card {
   min-height: 13em;
   border-radius: .5em;
   background: linear-gradient(to top left, #01579B, #039BE5);
   box-shadow: 0 .5em 1em 0 rgba(0,0,0,.2);
 }
-#card:hover {
-  box-shadow: 0 .5em 1em 0 rgba(0,0,0,.3);
-}
+#card:hover {box-shadow: 0 .5em 1em 0 rgba(0,0,0,.3);}
 #card-add {
   min-height: 13em;
   border-radius: .5em;
@@ -472,78 +453,22 @@ button {
   color: #fff;
 }
 
-#sticky-content {height: 4.5em;}
-#sticky-margin {margin-top: 4.5em;}
-#sticky-header {
-  box-shadow: 0 .25em .5em 0 rgba(0,0,0,.2);
-  background-color: rgba(255,255,255,1);
-  position: fixed;
-  width: 100%;
-  z-index: 100;
-}
-#sticky-header-transparent {
-  -box-shadow: 0 .25em .5em 0 rgba(0,0,0,.2);
-  background-color: transparent;
-  position: fixed;
-  width: 100%;
-  z-index: 100;
-}
-#ls {letter-spacing: 10;}
-#ls2 {letter-spacing: 2;}
-
-#touch {
-  height: 4.5em;
-  padding: .5em;
-  width: 100%;
-  cursor: pointer;
-}
-#touch:hover {
-  background-color: #4CAF50;
-}
-
-a.burger:link, a.burger:visited, a.burger:active {
-  color: #4CAF50;
-  width: 100%;
-  padding: 1em 0em;
-}
-a.burger:hover {
-  color: rgb(71,164,75);
- }
-.close-burger {
-  visibility: hidden;
-  display: none;
-}
-.open-burger {
-  visibility: visible;
-  display: block;
-}
+/*CELL ON LOGIN PAGE*/
 .cell {
   border-radius: .5em;
   background-color: #fff;
   box-shadow: 0 .5em 1em 0 rgba(0,0,0,.15);
 }
-#brands-gray {min-height: 15em;background: #f8f8f8;}
-#brands-black {min-height: 15em;background: #434343;}
-#brands-green {min-height: 7.5em;background: #4CAF50;}
-#brands-blue {min-height: 7.5em;background: #01579B;}
-#ya {
-  padding: 0;
-  margin: 0;
-  height: 500px;
-  background-color: #eee;
-}
+/*CELL ON TARIFFS*/
+.cell-new {
+  border-radius: .5em;
+  border: 1px solid rgba(255,255,255,0);}
+.cell-new:hover {box-shadow: inset 0 0 15em rgba(0,0,0,.1);}
+
 .full {width: 100%;}
 .screen {min-height: 100vh;}
 .line {height:1px;}
-.top-small    {padding-top: .5em;}
-.bottom-small {padding-bottom: .5em;}
-.top    {padding-top: 1em;}
-.bottom {padding-bottom: 1em;}
-.top-big    {padding-top: 2em;}
-.bottom-big {padding-bottom: 2em;}
-.top-middle    {padding-top: 1.5em;}
-.bottom-middle {padding-bottom: 1.5em;}
-
+/*PADDINGS*/
 .top-05    {padding-top: .5em;}
 .bottom-05 {padding-bottom: .5em;}
 .top-10    {padding-top: 1em;}
@@ -552,55 +477,85 @@ a.burger:hover {
 .bottom-15 {padding-bottom: 1.5em;}
 .top-30    {padding-top: 3em;}
 .bottom-30 {padding-bottom: 3em;}
-
-.cell-new {border-radius: .5em;border: 1px solid rgba(255,255,255,0);-box-shadow: 0 .5em 1em 0 rgba(0,0,0,.15);}
-.cell-new:hover {box-shadow: inset 0 0 15em rgba(0,0,0,.1);}
-.bg {background: linear-gradient(to top, #eee, #fbfbfb);}
-.bg3 {background: linear-gradient(to top, #f5f5f5, #fff);}
-.bg2 {background: linear-gradient(to bottom right, #4CAF50, #01579B);}
-.shadow-inset {box-shadow: inset 0 .5em 1em 0 rgba(0,0,0,.15);}
-.shadow-menu {box-shadow: inset 0 1px 0 0 #ddd;}
-.download {width: 12em;}
-.right {margin-right: 1em;}
+/*SVG ICONS*/
+.download {width: 12em;margin: 0 1em 0 0;}
 .icon-new {height: 4.5em;}
+/*FA*/
 .vk {color:#5c81b3;}
 .ok {color:#d38842;}
 .youtube {color:#cd201f;}
 .instagram {color:#833ab4;}
-.bgg {background-image: url(img/bg.jpg);background-size: cover;}
 
+/*GUIDLINES*/
+#brands-gray {min-height: 15em;background: #f8f8f8;}
+#brands-black {min-height: 15em;background: #434343;}
+#brands-green {min-height: 7.5em;background: #4CAF50;}
+#brands-blue {min-height: 7.5em;background: #01579B;}
 
+.gradient {background: linear-gradient(to bottom right, #4CAF50, #01579B);}
+
+/*COLORS*/
+.green, .green-hover:hover          {background-color:#4CAF50;}
+#green, #green-hover:hover          {color:           #4CAF50;}
+.blue, .blue-hover:hover            {background-color:#01579B;}
+#blue, #blue-hover:hover            {color:           #01579B;}
+
+.black, .black-hover:hover          {background-color:rgba(0,0,0,1);}
+#black, #black-hover:hover          {color:           rgba(0,0,0,1);}
+.darkgray, .darkgray-hover:hover    {background-color:#999;} /*TEXT*/
+#darkgray, #darkgray-hover:hover    {color:           #999;}
+.gray, .gray-hover:hover            {background-color:#ddd;} /*LINES*/
+#gray, #gray-hover:hover            {color:           #ddd;}
+.lightgray, .lightgray-hover:hover  {background-color:#f8f8f8;} /*BG8*/
+#lightgray, #lightgray-hover:hover  {color:           #f8f8f8;}
+.white, .white-hover:hover          {background-color:rgba(255,255,255,1);}
+#white, #white-hover:hover          {color:           rgba(255,255,255,1);}
+
+.half-black, .half-black-hover:hover{background-color:rgba(0,0,0,.25);}
+#half-black, #half-black-hover:hover{color:           rgba(0,0,0,.25);}
+.half-white, .half-white-hover:hover{background-color:rgba(255,255,255,.5);}
+#half-white, #half-white-hover:hover{color:           rgba(255,255,255,.5);}
+
+/*STICKY MENU*/
+#sticky-line {box-shadow: inset 0 1px 0 0 #ddd;} /*FIX LINE ON @MD*/
+#sticky-content {height: 4.5em;}
+#sticky-margin {margin-top: 4.5em;} /*FIX BODY MARGIN*/
+#sticky-header {
+  box-shadow: 0 .25em .5em 0 rgba(0,0,0,.2);
+  background-color: rgba(255,255,255,1);
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+/*FIX JUMP TO ANCHOR LINK*/
+#tariffs, #flexcar, #map, #faq, #news, #history, #team, #brand, #ooo, #profile, #driver, #contact {
+	padding-top: 4.5em;
+	margin-top: -4.5em;
+	-webkit-background-clip: content-box;
+	background-clip: content-box;
+}
+
+/*SANDWICH MENU*/
+a.burger:link, a.burger:visited, a.burger:active {
+  color: #4CAF50;
+  width: 100%;
+  padding: 1em 0em;
+}
+a.burger:hover {color: rgb(71,164,75);}
+.close-burger {
+  visibility: hidden;
+  display: none;
+}
+.open-burger {
+  visibility: visible;
+  display: block;
+}
+
+/*ACCORDION MENU 2/2*/
 button.accordion.active, button.accordion:hover {color: #000;}
 div.accordion__content {display: none;}
 
-#news2 {background-color:#f7f7f7;}
-.green, .green-hover:hover        {background-color:#4CAF50;}
-#green, #green-hover:hover        {color:           #4CAF50;}
-.blue, .blue-hover:hover          {background-color:#01579B;}
-#blue, #blue-hover:hover          {color:           #01579B;}
-.black, .black-hover:hover        {background-color:rgba(0,0,0,1);}
-#black, #black-hover:hover        {color:           rgba(0,0,0,1);}
-.half-black, .half-black-hover:hover        {background-color:rgba(0,0,0,.25);}
-#half-black, #half-black-hover:hover        {color:           rgba(0,0,0,.25);}
-.darkgray, .darkgray-hover:hover  {background-color:#999;}
-#darkgray, #darkgray-hover:hover  {color:           #999;}
-.gray, .gray-hover:hover          {background-color:#ddd;}
-#gray, #gray-hover:hover          {color:           #ddd;}
-.lightgray, .lightgray-hover:hover{background-color:#eee;}
-#lightgray, #lightgray-hover:hover{color:           #eee;}
-.white, .white-hover:hover        {background-color:rgba(255,255,255,1);}
-#white, #white-hover:hover        {color:           rgba(255,255,255,1);}
-.half1, .half1-hover:hover        {background-color:rgba(255,255,255,.1);}
-#half1, #half1-hover:hover        {color:           rgba(255,255,255,.1);}
-.half3, .half3-hover:hover        {background-color:rgba(255,255,255,.5);}
-#half3, #half3-hover:hover        {color:           rgba(255,255,255,.5);}
-.half5, .half5-hover:hover        {background-color:rgba(255,255,255,.6);}
-#half5, #half5-hover:hover        {color:           rgba(255,255,255,.6);}
-.newcolor, .newcolor-hover:hover  {background-color:#f8f8f8;}
-#newcolor, #newcolor-hover:hover  {color:           #f8f8f8;}
-
-
-
+/*TEST*/
 .red-test- {background-color: red;}
 .blue-test- {background-color: blue;}
 .green-test- {background-color: green;}
