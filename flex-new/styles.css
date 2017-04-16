@@ -172,7 +172,7 @@
   h2 {font-size: 2.5em;}
   h3 {font-size: 2em;} /*only package*/
   h4 {font-size: 1.5em;} /*news and faq*/
-  h5 {font-size: 1.25em;font-weight: 300;} /*only news on mainpage*/
+  h5 {font-size: 1.25em;font-weight: 400;} /*only news on mainpage*/
   /*JUMP CELL*/
   #cell {
     border-radius: .5em;
@@ -253,7 +253,7 @@
   h2 {font-size: 3em;}
   h3 {font-size: 2.5em;} /*only package*/
   h4 {font-size: 2em;} /*news and faq*/
-  h5 {font-size: 1.5em;font-weight: 300;} /*only news on mainpage*/
+  h5 {font-size: 1.5em;font-weight: 400;} /*only news on mainpage*/
   /*JUMP CELL*/
   #cell {
     border-radius: .5em;
@@ -471,6 +471,10 @@ button {
 .form {
   border-radius: 0 0 2em 2em;
   background: linear-gradient(to top, #FFF59D, #FFFDE7);
+}
+#news-img {
+  background-color: red;
+  min-height: 8em;
 }
 
 /*CELL ON LOGIN PAGE*/
