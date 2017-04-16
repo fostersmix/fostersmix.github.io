@@ -42,7 +42,7 @@
   .vline {border-right: 1px solid #ddd;height: 4.5em;} /*LINE ON STCIKY MENU*/
   /*BUTTON @XS @SM ON BG (TARIFFS)*/
   #button-white {
-    font: normal 1em 'Arial', sans-serif;
+    font: bold 1em 'Arial', sans-serif;
     color: #fff;
     padding: .75em 3em;
     background: none;
@@ -117,7 +117,7 @@
   .vline {border-right: 1px solid #ddd;height: 4.5em;} /*LINE ON STICKY MENU*/
   /*BUTTON @XS @SM ON BG (TARIFFS)*/
   #button-white {
-    font: normal 1em 'Arial', sans-serif;
+    font: bold 1em 'Arial', sans-serif;
     color: #fff;
     padding: .75em 3em;
     background: none;
@@ -199,7 +199,7 @@
   }
   /*BUTTON WITHOUD BORDER @MD @LG ON BG (TARIFFS)*/
   #button-white {
-    font: normal 1em 'Arial', sans-serif;
+    font: bold 1em 'Arial', sans-serif;
     color: #fff;
     padding: .75em 3em;
     background: none;
@@ -280,7 +280,7 @@
   }
   /*BUTTON WITHOUD BORDER @MD @LG ON BG (TARIFFS)*/
   #button-white {
-    font: normal 1em 'Arial', sans-serif;
+    font: bold 1em 'Arial', sans-serif;
     color: #fff;
     background: none;
     cursor: text;
@@ -317,6 +317,8 @@ a:link, a:visited, a:hover, a:active {
 }
 #solid-black {border-bottom: 1px solid rgba(0,0,0,.15);}
 #solid-black:hover {border-bottom: 1px solid rgba(0,0,0,.25);}
+#solid-black:hover {border-bottom: 1px solid rgba(0,0,0,.25);}
+#hover-green:hover {color: #4CAF50;}
 #solid-white {border-bottom: 1px solid rgba(255,255,255,.15);color: #fff;}
 #solid-white:hover {border-bottom: 1px solid rgba(255,255,255,.25);}
 #dotted-black {border-bottom: 1px dotted #000;}
@@ -461,22 +463,10 @@ button {
 }
 
 /*FORM*/
-#form {
-  color: #000;
-  background: #fff;
-  padding: .5em 1.25em;
-  border-radius: 5em;
-}
-#form:hover {color: #000;}
 .form {
   border-radius: 0 0 2em 2em;
-  background: linear-gradient(to top, #FFF59D, #FFFDE7);
+  background: linear-gradient(to top, #FFF9C4, #FFFDE7);
 }
-#news-img {
-  background-color: red;
-  min-height: 8em;
-}
-
 /*CELL ON LOGIN PAGE*/
 #cell-night {
   border-radius: 0 0 .5em .5em;
@@ -527,7 +517,6 @@ button {
 #green, #green-hover:hover          {color:           #4CAF50;}
 .blue, .blue-hover:hover            {background-color:#01579B;}
 #blue, #blue-hover:hover            {color:           #01579B;}
-
 .black, .black-hover:hover          {background-color:rgba(0,0,0,1);}
 #black, #black-hover:hover          {color:           rgba(0,0,0,1);}
 .darkgray, .darkgray-hover:hover    {background-color:#999;} /*TEXT*/
@@ -562,6 +551,8 @@ button {
 	-webkit-background-clip: content-box;
 	background-clip: content-box;
 }
+
+#logo-svg {height: 10em;}
 
 /*SANDWICH MENU*/
 a.burger:link, a.burger:visited, a.burger:active {
