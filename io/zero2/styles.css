@@ -75,7 +75,7 @@ a.solid:hover {
 
 #connect {
   font: normal 1em 'PT Sans', sans-serif;
-  background: linear-gradient(to top, #E04040, #F88040);
+  background: linear-gradient(to bottom, #E04040, #F88040);
   color: #fff;
   border: none;
   border-radius: 5em;
