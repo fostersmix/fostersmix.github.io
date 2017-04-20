@@ -5,34 +5,17 @@ body {
   margin-bottom: 0;
 }
 
-@media only screen and (max-width: 48em) {body {font: 400 8em/1'Roboto', sans-serif;}}
-@media only screen and (max-width: 62em) {body {font: 400 6em/1'Roboto', sans-serif;}}
-@media only screen and (max-width: 75em) {body {font: 400 4em/1'Roboto', sans-serif;}}
-@media only screen and (min-width: 75em) {body {font: 400 2em/1'Roboto', sans-serif;}}
+@media only screen and (max-width: 48em) {body {font: 400 8em 'Roboto', sans-serif;}}
+@media only screen and (max-width: 62em) {body {font: 400 6em 'Roboto', sans-serif;}}
+@media only screen and (max-width: 75em) {body {font: 400 4em 'Roboto', sans-serif;}}
+@media only screen and (min-width: 75em) {body {font: 400 2em 'Roboto', sans-serif;}}
 
 
 #bg-white {background-color: #fff;}
 
 #blok {
-  border-right: 1px solid rgba(0,0,0,.1);
-  border-bottom: 1px solid rgba(0,0,0,.1);
-  padding: 1.5em 2em 1.5em 2em;
-  transition: .1s;
-  cursor: pointer;
-  outline: none;
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
-  -moz-tap-highlight-color: rgba(0,0,0,0);
-}
-#blok:hover {
-  color: #4A148C;
-  box-shadow: 0em .15em .5em 0em rgba(0,0,0,.1);
-}
-
-#blok-active {
-  color: #fff;
-  background-color: #6A1B9A;
-  border-right: 1px solid rgba(0,0,0,.1);
-  border-bottom: 1px solid rgba(0,0,0,.1);
+  border-right: 1px solid #ECEFF1;
+  border-bottom: 1px solid #ECEFF1;
   padding: 1.5em 3em 1.5em 3em;
   transition: .1s;
   cursor: pointer;
@@ -40,7 +23,24 @@ body {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
-#blok-active:hover {background-color: #4A148C;}
+#blok:hover {
+  color: #3D5AFE;
+  box-shadow: 0em .15em .5em 0em #CFD8DC;
+}
+
+#blok-active {
+  color: #fff;
+  background-color: #3D5AFE;
+  border-right: 1px solid #304FFE;
+  border-bottom: 1px solid #304FFE;
+  padding: 1.5em 3em 1.5em 3em;
+  transition: .1s;
+  cursor: pointer;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -moz-tap-highlight-color: rgba(0,0,0,0);
+}
+#blok-active:hover {background-color: #3D5AFE;}
 #blok-active::after {
   font-weight: 100;
   color: rgba(255,255,255,.5);
@@ -57,4 +57,4 @@ body {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
-#blok-add:hover {color: #4A148C;}
+#blok-add:hover {color: #3D5AFE;}
