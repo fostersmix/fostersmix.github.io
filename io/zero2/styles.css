@@ -27,7 +27,7 @@ a.solid:hover {border-bottom: 1px solid #ddd ;}
 #delete {
   font: normal 2em/2 'PT Sans', sans-serif;
   color: #fff;
-  background: #0066FF;
+  background: linear-gradient(to top, #E04040, #F88040);
   border: none;
   padding: 0 .75em 0 .85em;
   border-radius: .125em;
