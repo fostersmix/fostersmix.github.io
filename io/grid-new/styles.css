@@ -1,0 +1,45 @@
+body {
+  font: 400 2em/1'Roboto', sans-serif;
+  color: #000;
+  background-color: #ECEFF1;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#bg-white {background-color: #fff;}
+
+#blok {
+  border-right: 1px solid rgba(0,0,0,.1);
+  border-bottom: 1px solid rgba(0,0,0,.1);
+  padding: 1.5em 2em 1.5em 2em;
+  transition: .1s;
+  cursor: pointer;
+}
+#blok:hover {
+  color: #4A148C;
+  box-shadow: 0em .15em .5em 0em rgba(0,0,0,.1);
+}
+
+#blok-active {
+  color: #fff;
+  background-color: #6A1B9A;
+  border-right: 1px solid rgba(0,0,0,.1);
+  border-bottom: 1px solid rgba(0,0,0,.1);
+  padding: 1.5em 2em 1.5em 2em;
+  transition: .1s;
+  cursor: pointer;
+}
+#blok-active:hover {background-color: #4A148C;}
+#blok-active::after {
+  font-weight: 100;
+  color: rgba(255,255,255,.5);
+  padding-left: .5em;
+  content: "x";
+}
+#blok-active:hover::after {color: rgba(255,255,255,.75);}
+
+#blok-add {
+  padding: 1.5em 2em 1.5em 2em;
+  transition: .1s;
+  cursor: pointer;
+}
+#blok-add:hover {color: #4A148C;}
