@@ -19,6 +19,18 @@ body {
 }
 #search:hover {background-color: #f8f8f8;}
 
+input {color: #000;}
+input::-webkit-input-placeholder    {color: #000;}
+input::-moz-placeholder             {color: #000;}
+input:-moz-placeholder              {color: #000;}
+input:-ms-input-placeholder         {color: #000;}
+input[placeholder], [placeholder], *[placeholder] {color: #000;}
+
+input:focus::-webkit-input-placeholder {color: transparent;}
+input:focus::-moz-placeholder          {color: transparent;}
+input:focus:-moz-placeholder           {color: transparent;}
+input:focus:-ms-input-placeholder      {color: transparent;}
+
 @media only screen and (max-width: 48em) {
   .hide-mobile {display: none;}
   body {font-size: 4em;}
@@ -146,6 +158,8 @@ a.solid:hover {
 .screen {min-height: 100vh;}
 .top {padding-top: 2em;}
 .bottom {padding-bottom: 2em;}
+.bottom-medium {padding-bottom: 1em;}
+.top-medium {padding-top: 1em;}
 .bottom-small {padding-bottom: .5em;}
 .top-small {padding-top: .5em;}
 .gradient-back {background: linear-gradient(to bottom, #ccc 1%, #f7f7f7 15%, #fff 50%, #fff);}
