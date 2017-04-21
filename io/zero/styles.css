@@ -37,7 +37,8 @@ input:focus:-ms-input-placeholder      {color: #000;}
 @media only screen and (max-width: 62em) {
   .hide-mobile {display: none;}
   body {font-size: 3em;}
-  #search {background-color: #f8f8f8;}
+  #search {background-color: #eee;}
+  #search:hover {background-color: #eee;}
 }
 @media only screen and (min-width: 62em) {
   .hide-desktop {display: none;}
