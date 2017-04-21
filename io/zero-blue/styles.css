@@ -75,7 +75,7 @@ a.solid:hover {
 #delete {
   font: normal 2em/2 'Arial', sans-serif;
   color: #fff;
-  background: #0066FF  ;
+  background: linear-gradient(to top, #E04040, #F88040);
   border: none;
   padding: 0 .75em 0 .85em;
   border-radius: .125em;
