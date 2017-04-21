@@ -25,10 +25,10 @@ input::-moz-placeholder             {color: #000;}
 input:-moz-placeholder              {color: #000;}
 input:-ms-input-placeholder         {color: #000;}
 input[placeholder], [placeholder], *[placeholder] {color: #000;}
-input:focus::-webkit-input-placeholder {color: transparent;}
-input:focus::-moz-placeholder          {color: transparent;}
-input:focus:-moz-placeholder           {color: transparent;}
-input:focus:-ms-input-placeholder      {color: transparent;}
+input:focus::-webkit-input-placeholder {color: #000;}
+input:focus::-moz-placeholder          {color: #000;}
+input:focus:-moz-placeholder           {color: #000;}
+input:focus:-ms-input-placeholder      {color: #000;}
 
 @media only screen and (max-width: 48em) {
   .hide-mobile {display: none;}
@@ -45,6 +45,7 @@ input:focus:-ms-input-placeholder      {color: transparent;}
 }
 @media only screen and (min-width: 75em) {
   .hide-desktop {display: none;}
+  .hide-lg {display: none;}
   body {font-size: 1em;}
 }
 
@@ -57,20 +58,20 @@ a:link, a:visited, a:active {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
-a:hover {color: #0066FF;}
+a:hover {color: #FF0033;}
 a.solid:link, a.solid:visited, a.solid:hover, a.solid:active {
   padding-bottom: .1em;
   border-bottom: 1px solid #eee ;
 }
 a.solid:hover {
-  color: #0066FF;
+  color: #FF0033;
   border-bottom: 1px solid rgba(224,64,64,.2);
 }
 
 #delete {
   font: normal 2em/2 'PT Sans', sans-serif;
   color: #fff;
-  background: #0066FF;
+  background: #FF0033;
   border: none;
   padding: 0 .75em 0 .75em;
   border-radius: .125em;
@@ -81,15 +82,15 @@ a.solid:hover {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
-#delete:hover {box-shadow: inset 0 0 10em rgba(0,0,0,.05);}
+#delete:hover {box-shadow: inset 0 0 10em rgba(0,0,0,.05)}
 #delete::after {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
-  color: rgba(255,255,255,.35);
+  color: rgba(255,255,255,.5);;
   padding-left: .35em;
   content: "x";
 }
-#delete:hover::after {color: rgba(255,255,255,.6);}
+#delete:hover::after {color: rgba(255,255,255,.75);}
 
 #more {
   font: normal 1em/2 'PT Sans', sans-serif;
@@ -114,8 +115,9 @@ a.solid:hover {
 #connect {
   font: normal 1em/2 'PT Sans', sans-serif;
   background: none;
-  color: #0066FF;
-  border: 1px solid #0066FF;
+  color: #FF0033;
+  border: none;
+  box-shadow: 0 0 0 1px rgba(255,0,51,.75);
   border-radius: 5em;
   padding: 0 1em 0 1em;
   white-space:nowrap;
@@ -126,15 +128,15 @@ a.solid:hover {
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
 #connect:hover {
-  background-color: #0066FF;
+  background-color: #FF0033;
   color: #fff;
 }
 
 #connect-mobile {
-  font: normal 1em/2 'PT Sans', sans-serif;
+  font: normal 1em/3 'PT Sans', sans-serif;
   background: none;
-  color: #0066FF;
-  border: 1px solid #0066FF;
+  color: #FF0033;
+  border: .25rem solid #FF0033;
   width: 100%;
   border-radius: 5em;
   padding: 0 1em 0 1em;
@@ -146,11 +148,11 @@ a.solid:hover {
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
 #connect-mobile:hover {
-  background-color: #0066FF;
+  background-color: #FF0033;
   color: #fff;
 }
 
-.line {height:1px;}
+.line {height: .125em;}
 .screen {min-height: 100vh;}
 
 .top {padding-top: 2em;}
@@ -169,3 +171,5 @@ a.solid:hover {
 #white, #white-hover:hover {color: #fff;}
 .gray, .gray-hover:hover {background-color:#aaa;}
 #gray, #gray-hover:hover {color: #aaa;}
+.lightgray, .lightgray-hover:hover {background-color:#eee;}
+#lightgray, #lightgray-hover:hover {color: #eee;}
