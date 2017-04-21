@@ -59,12 +59,12 @@ a:link, a:visited, a:active {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
-a:hover {color: #ff0066;}
+a:hover {color: #FF9800;}
 
 #delete {
   font: normal 2em/2 'PT Sans', sans-serif;
   color: #fff;
-  background: #ff0066;
+  background: #FF9800;
   border: none;
   padding: 0 .75em 0 .75em;
   border-radius: .125em;
@@ -108,9 +108,9 @@ a:hover {color: #ff0066;}
 #connect {
   font: normal 1em/2 'PT Sans', sans-serif;
   background: none;
-  color: #ff0066;
+  color: #FF9800;
   border: none;
-  box-shadow: 0 0 0 1px #ff0066;
+  box-shadow: 0 0 0 1px #FF9800;
   border-radius: 5em;
   padding: 0 1em 0 1em;
   white-space:nowrap;
@@ -121,15 +121,15 @@ a:hover {color: #ff0066;}
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
 #connect:hover {
-  background-color: #ff0066;
+  background-color: #FF9800;
   color: #fff;
 }
 
 #connect-mobile {
   font: normal 1em/3 'PT Sans', sans-serif;
   background: none;
-  color: #ff0066;
-  border: .25rem solid #ff0066;
+  color: #FF9800;
+  border: .25rem solid #FF9800;
   width: 100%;
   border-radius: 5em;
   padding: 0 1em 0 1em;
@@ -141,7 +141,7 @@ a:hover {color: #ff0066;}
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
 #connect-mobile:hover {
-  background-color: #ff0066;
+  background-color: #FF9800;
   color: #fff;
 }
 
