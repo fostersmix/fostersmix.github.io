@@ -70,6 +70,7 @@ a:link, a:visited, a:active {
 }
 a:hover {color: #0066FF;}
 
+#logo {font: 700 1em/1 'PT Sans', sans-serif;}
 #delete {
   font: normal 2em/2 'PT Sans', sans-serif;
   color: #fff;
