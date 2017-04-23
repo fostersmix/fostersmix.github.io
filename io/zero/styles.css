@@ -24,11 +24,11 @@ input::-webkit-input-placeholder        {color: #000;}
 input::-moz-placeholder                 {color: #000;}
 input:-moz-placeholder                  {color: #000;}
 input:-ms-input-placeholder             {color: #000;}
-input:hover                             {color: #0066FF;} /*hover*/
-input:hover::-webkit-input-placeholder  {color: #0066FF;}
-input:hover::-moz-placeholder           {color: #0066FF;}
-input:hover:-moz-placeholder            {color: #0066FF;}
-input:hover:-ms-input-placeholder       {color: #0066FF;}
+input:hover                             {color: #CC0000;} /*hover*/
+input:hover::-webkit-input-placeholder  {color: #CC0000;}
+input:hover::-moz-placeholder           {color: #CC0000;}
+input:hover:-moz-placeholder            {color: #CC0000;}
+input:hover:-ms-input-placeholder       {color: #CC0000;}
 input:focus                             {color: transparent;} /*focus*/
 input:focus::-webkit-input-placeholder  {color: transparent;}
 input:focus::-moz-placeholder           {color: transparent;}
@@ -37,12 +37,12 @@ input:focus:-ms-input-placeholder       {color: transparent;}
 
 @media only screen and (max-width: 48em) {
   .hide-mobile {display: none;}
-  body {font-size: 4em;}
+  body {font-size: 3em;}
   .line {height: .125em;}
 }
 @media only screen and (max-width: 62em) {
   .hide-mobile {display: none;}
-  body {font-size: 3em;}
+  body {font-size: 2.5em;}
   #search {background-color: #eee;}
   #search:hover {background-color: #eee;}
   .line {height: .125em;}
@@ -68,19 +68,21 @@ a:link, a:visited, a:active {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
-a:hover {color: #0066FF;}
+a:hover {color: #CC0000;}
 
 #logo {font: 700 1em/1 'PT Sans', sans-serif;}
 #delete {
   font: normal 2em/2 'PT Sans', sans-serif;
   color: #fff;
-  background: #0066FF;
+  background: #CC0000;
   border: none;
   padding: 0 .75em 0 .75em;
   border-radius: .125em;
   margin: .25em;
   cursor: pointer;
-  white-space: nowrap;
+  -white-space: nowrap;
+  -word-wrap: break-word;
+  word-break: break-all;
   outline: none;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
@@ -118,9 +120,9 @@ a:hover {color: #0066FF;}
 #connect {
   font: normal 1em/2 'PT Sans', sans-serif;
   background: none;
-  color: #0066FF;
+  color: #CC0000;
   border: none;
-  box-shadow: 0 0 0 1px #0066FF;
+  box-shadow: 0 0 0 1px #CC0000;
   border-radius: 5em;
   padding: 0 1em 0 1em;
   white-space:nowrap;
@@ -131,15 +133,15 @@ a:hover {color: #0066FF;}
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
 #connect:hover {
-  background-color: #0066FF;
+  background-color: #CC0000;
   color: #fff;
 }
 
 #connect-mobile {
   font: normal 1em/3 'PT Sans', sans-serif;
   background: none;
-  color: #0066FF;
-  border: .25rem solid #0066FF;
+  color: #CC0000;
+  border: .25rem solid #CC0000;
   width: 100%;
   border-radius: 5em;
   padding: 0 1em 0 1em;
@@ -151,7 +153,7 @@ a:hover {color: #0066FF;}
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
 #connect-mobile:hover {
-  background-color: #0066FF;
+  background-color: #CC0000;
   color: #fff;
 }
 
@@ -167,15 +169,15 @@ a:hover {color: #0066FF;}
 .gradient-back {background: linear-gradient(to bottom, #ccc 1%, #f8f8f8 20%, #fff 50%, #fff);}
 .gradient-front {background: linear-gradient(to right, #fff, rgba(255,255,255,.0), #fff);}
 
-.blue, .blue-hover:hover {background-color:#0066FF;}
-#blue, #blue-hover:hover {color: #0066FF;}
+.blue, .blue-hover:hover {background-color:#CC0000;}
+#blue, #blue-hover:hover {color: #CC0000;}
 .black, .black-hover:hover {background-color:#000;}
 #black, #black-hover:hover {color: #000;}
 .white, .white-hover:hover {background-color:#fff;}
 #white, #white-hover:hover {color: #fff;}
 .gray, .gray-hover:hover {background-color:#aaa;}
 #gray, #gray-hover:hover {color: #aaa;}
-.gray-line, .gray-line-hover:hover {background-color:#ccc;}
-#gray-line, #gray-line-hover:hover {color: #ccc;}
+.gray-line, .gray-line-hover:hover {background-color:#ddd;}
+#gray-line, #gray-line-hover:hover {color: #ddd;}
 .lightgray, .lightgray-hover:hover {background-color:#eee;}
 #lightgray, #lightgray-hover:hover {color: #eee;}
