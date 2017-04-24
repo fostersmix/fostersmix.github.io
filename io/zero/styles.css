@@ -24,11 +24,11 @@ input::-webkit-input-placeholder        {color: #000;}
 input::-moz-placeholder                 {color: #000;}
 input:-moz-placeholder                  {color: #000;}
 input:-ms-input-placeholder             {color: #000;}
-input:hover                             {color: #CC6600;} /*hover*/
-input:hover::-webkit-input-placeholder  {color: #CC6600;}
-input:hover::-moz-placeholder           {color: #CC6600;}
-input:hover:-moz-placeholder            {color: #CC6600;}
-input:hover:-ms-input-placeholder       {color: #CC6600;}
+input:hover                             {color: #0066FF;} /*hover*/
+input:hover::-webkit-input-placeholder  {color: #0066FF;}
+input:hover::-moz-placeholder           {color: #0066FF;}
+input:hover:-moz-placeholder            {color: #0066FF;}
+input:hover:-ms-input-placeholder       {color: #0066FF;}
 input:focus                             {color: transparent;} /*focus*/
 input:focus::-webkit-input-placeholder  {color: transparent;}
 input:focus::-moz-placeholder           {color: transparent;}
@@ -68,13 +68,13 @@ a:link, a:visited, a:active {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
-a:hover {color: #CC6600;}
+a:hover {color: #0066FF;}
 
 #logo {font: 700 1em/1 'PT Sans', sans-serif;}
 #delete {
   font: normal 2em/2 'PT Sans', sans-serif;
   color: #fff;
-  background: #CC6600;
+  background: #0066FF;
   border: none;
   padding: 0 .75em 0 .75em;
   border-radius: .125em;
@@ -87,7 +87,7 @@ a:hover {color: #CC6600;}
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
-#delete:hover {box-shadow: inset 0 0 10em rgba(0,0,0,.05)}
+#delete:hover {box-shadow: inset 0 0 10em rgba(0,0,0,.1)}
 #delete::after {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
@@ -120,9 +120,9 @@ a:hover {color: #CC6600;}
 #connect {
   font: normal 1em/2 'PT Sans', sans-serif;
   background: none;
-  color: #CC6600;
+  color: #0066FF;
   border: none;
-  box-shadow: 0 0 0 1px rgba(204,102,0,.75);
+  box-shadow: 0 0 0 1px rgba(0,102,255,.75);
   border-radius: 5em;
   padding: 0 1em 0 1em;
   white-space:nowrap;
@@ -133,15 +133,15 @@ a:hover {color: #CC6600;}
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
 #connect:hover {
-  background-color: #CC6600;
+  background-color: #0066FF;
   color: #fff;
 }
 
 #connect-mobile {
   font: normal 1em/3 'PT Sans', sans-serif;
   background: none;
-  color: #CC6600;
-  border: .25rem solid #CC6600;
+  color: #0066FF;
+  border: .25rem solid #0066FF;
   width: 100%;
   border-radius: 5em;
   padding: 0 1em 0 1em;
@@ -153,7 +153,7 @@ a:hover {color: #CC6600;}
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
 #connect-mobile:hover {
-  background-color: #CC6600;
+  background-color: #0066FF;
   color: #fff;
 }
 
@@ -161,8 +161,8 @@ a:hover {color: #CC6600;}
 .top {padding-top: 2em;}
 .bottom {padding-bottom: 2em;}
 
-.green, .green-hover:hover          {background-color:#CC6600;}
-#green, #green-hover:hover          {color: #CC6600;}
+.green, .green-hover:hover          {background-color:#0066FF;}
+#green, #green-hover:hover          {color: #0066FF;}
 .black, .black-hover:hover          {background-color:#000;}
 #black, #black-hover:hover          {color: #000;}
 .white, .white-hover:hover          {background-color:#fff;}
