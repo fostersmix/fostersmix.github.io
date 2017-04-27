@@ -417,6 +417,12 @@ button {
   letter-spacing: 3;
 }
 #button:hover {background-color: #f8f8f8;}
+#admin {
+  padding: .5em 1.25em;
+  cursor: auto;
+  background: #fff;
+  margin-left: -1.25em;
+}
 #button-big {
   font: 500 1.5em 'Roboto', sans-serif;
   padding: 1em 0 1em 0;
