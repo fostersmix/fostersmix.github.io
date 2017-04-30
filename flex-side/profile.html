@@ -1,0 +1,203 @@
+<html>
+  <head>
+    <title>Flexcar — Личный кабинет</title>
+    <meta charset="utf-8">
+    <link rel="icon" sizes="256x256" href="favicon.png">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="stylesheet" href="flexboxgrid.css" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700">
+    <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+    <script src="https://use.fontawesome.com/86dd06cb93.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      $(".burger").click(function(){
+    		$(".close-burger").toggleClass("open-burger"); return false;
+    	});
+    });
+    </script>
+  </head>
+  <body>
+    <div class="row start-xs start-sm start-md start-lg">
+
+      <!--MENU-->
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 hide-lg" id="sticky-header">
+        <div class="row start-xs start-sm center-md center-lg">
+          <!--BAR-->
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="row start-xs start-sm center-md center-lg middle-xs middle-sm middle-md middle-lg" id="sticky-content">
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10">
+                <div class="row start-xs start-sm start-md start-lg middle-xs middle-sm middle-md middle-lg">
+                  <div class="col-xs-12 col-sm-12 col-md-4 col-lg-2 hide-xs hide-sm">
+                    <a href="index.html" id="white">FLEXCAR</a>
+                  </div>
+                  <div class="col-xs-8 col-sm-8 col-md-6 col-lg-3">
+                    <div class="row center-xs center-sm center-md middle-xs middle-sm middle-md">
+                      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <a href="login.html" id="button-green"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Личный кабинет</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xs-4 col-sm-4 col-md-2 col-lg-12 hide-lg first-md">
+                    <div class="row center-xs center-sm center-md end-lg middle-xs middle-sm middle-md">
+                      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+                        <a href="#" class="burger"><i class="fa fa-bars" aria-hidden="true"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--OPEN-->
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 blue hide-lg close-burger">
+            <div class="row center-xs center-sm center-md center-lg middle-xs middle-sm middle-md middle-lg">
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10">
+                <div class="row center-xs center-sm center-md start-lg middle-xs middle-sm middle-md middle-lg">
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-9 top-10">
+                    <div class="box"><a href="index.html" id="button-active">О Флекскаре</a></div>
+                  </div>
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 top-10">
+                    <div class="box"><a href="map.html" id="button">Карта автомобилей</a></div>
+                  </div>
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 top-10">
+                    <div class="box"><a href="news.html" id="button">Новости</a></div>
+                  </div>
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 top-10">
+                    <div class="box"><a href="faq.html" id="button">FAQ</a></div>
+                  </div>
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 top-10">
+                    <div class="box"><a href="contact.html" id="button">Техподдержка</a></div>
+                  </div>
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 top-10 bottom-30">
+                    <div class="box"><a href="about.html" id="button">О компании</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"></div>
+
+      <!--SIDEBAR-->
+      <div class="col-xs col-sm col-md col-lg-3 hide-xs hide-sm hide-md" id="sidebar">
+        <div class="row center-xs center-sm center-md center-lg ">
+          <div class="col-xs col-sm col-md-11 col-lg-8">
+            <div class="row center-xs center-sm start-md screen top-lg">
+              <div class="col-xs col-sm col-md col-lg-12 top-30">
+                <div class="box"><h3 id="white">Василий<br>Иванов</h4></div>
+                <div class="box top-15"><a href="login.html" id="button-border-white"><i class="fa fa-sign-out" aria-hidden="true"></i> Выйти</a></div>
+              </div>
+              <div class="col-xs col-sm col-md col-lg-12 top-15 bottom-15">
+                <div class="box"><a href="index.html" id="button-active">Профиль</a></div>
+                <div class="box"><a href="map.html" id="button">Оплата</a></div>
+                <div class="box"><a href="news.html" id="button">История поездок</a></div>
+                <div class="box"><a href="faq.html" id="button">Карта автомобилей</a></div>
+                <div class="box"><a href="support.html" id="button">Пригласи друга</a></div>
+                <div class="box"><a href="about.html" id="button">Техподдержка</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!--2. CONTENT-->
+      <div class="col-xs col-sm col-md col-lg-3"></div>
+      <div class="col-xs col-sm col-md col-lg-9 " id="sticky-margin">
+        <div class="row center-xs center-sm center-md center-lg">
+          
+          <!--HEADER-->
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="row center-xs center-sm center-md center-lg">
+              <div class="col-xs-12 col-sm-11 col-md-10 col-lg-10">
+                <div class="row center-xs center-sm start-md start-lg">
+                  <div class="col-xs-11 col-sm-10 col-md-12 col-lg-12 top-30 bottom-15">
+                    <div class="box"><h1>ПРОФИЛЬ</h1></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!--PROFILE-->
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >
+            <div class="row center-xs center-sm center-md center-lg" id="profile">
+              <div class="col-xs-12 col-sm-11 col-md-10 col-lg-10 bottom-15">
+                <div class="row center-xs center-sm start-md start-lg middle-lg">
+                  <div class="col-xs-11 col-sm-10 col-md-12 col-lg-6 top-15 bottom-15">
+                    <div class="box" id="darkgray">Статус аккаунта</div>
+                    <div class="box top-10"><h4><font id="green"><i class="fa fa-check-circle" aria-hidden="true"></i> Активирован</font></h4></div>
+                  </div>
+                  <div class="col-xs-11 col-sm-10 col-md-12 col-lg-6 top-15 bottom-15">
+                    <div class="box" id="darkgray">Пароль</div>
+                    <div class="box top-10"><h4 id="dotted-green">Сменить пароль</h4></div>
+                  </div>
+                  <div class="col-xs-11 col-sm-10 col-md-12 col-lg-6 top-15 bottom-15">
+                    <div class="box" id="darkgray">Номер телефона</div>
+                    <div class="box top-10"><h4>8 (916) 111-22-33</h4></div>
+                  </div>
+                  <div class="col-xs-11 col-sm-10 col-md-12 col-lg-6 top-15 bottom-15">
+                    <div class="box" id="darkgray">Электронная почта</div>
+                    <div class="box top-10"><h4>hello@flexcar.ru</h4></div>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!--CARD-->
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 lightgray bottom-15" id="cards">
+            <div class="row center-xs center-sm center-md center-lg">
+              <div class="col-xs-12 col-sm-11 col-md-10 col-lg-10">
+                <div class="row center-xs center-sm start-md start-lg">
+                  <div class="col-xs-11 col-sm-10 col-md-12 col-lg-12 top-15">
+                    <div class="box top-10 bottom-10" id="darkgray">Привязанные карты</div>
+                  </div>
+                  <div class="col-xs-11 col-sm-11 col-md-6 col-lg-6 top-15 bottom-15" >
+                    <div class="row center-xs center-sm start-md start-lg" >
+                      <div class="col-xs-12 col-sm-12 col-md-11 col-lg-11">
+                        <div class="row center-xs center-sm center-md center-lg middle-xs middle-sm middle-md middle-lg" id="card">
+                          <div class="col-xs-10 col-sm-10 col-md-10 col-lg-11">
+                            <div class="row center-xs center-sm start-md start-lg">
+                              <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                <div class="box top-10" align="left"><img src="img/visa.png" class="hide-xs hide-sm"><img src="img/visa@2x.png" class="hide-md hide-lg"></div>
+                              </div>
+                              <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                <div class="box top-10" align="right"><a href="#" id="white">Удалить</a></div>
+                              </div>
+                            </div>
+                            <div class="box top-15 bottom-05" id="card-text">●●●● ●●●● ●●●● 9955</div>
+                            <div class="box top-15 bottom-05" align="right" id="white">12/2018</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xs-11 col-sm-11 col-md-6 col-lg-6 top-15 bottom-15 hide-xs hide-sm" >
+                    <div class="row center-xs center-sm start-md start-lg" >
+                      <div class="col-xs-12 col-sm-12 col-md-11 col-lg-11">
+                        <div class="row center-xs center-sm center-md center-lg middle-xs middle-sm middle-md middle-lg" id="card-add">
+                          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10">
+                            <div class="box top-30 bottom-30"><a href="#" id="dotted-green">Добавить карту</a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 top-15 hide-md hide-lg">
+                    <div class="box"><a href="news.html" id="button">ДОБАВИТЬ КАРТУ</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+
+            
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
