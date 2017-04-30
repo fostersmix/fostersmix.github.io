@@ -512,7 +512,7 @@ button {
 #card {
   min-height: 13em;
   border-radius: .5em;
-  background: linear-gradient(to top left, #1A237E, #039BE5);
+  background: linear-gradient(to top left, rgb(33,47,70), #039BE5);
   box-shadow: 0 .5em 1em 0 rgba(0,0,0,.2);
 }
 #card:hover {box-shadow: 0 .5em 1em 0 rgba(0,0,0,.3);}
@@ -587,15 +587,15 @@ button {
 #brands-gray {min-height: 15em;background: #f8f8f8;}
 #brands-black {min-height: 15em;background: #434343;}
 #brands-green {min-height: 7.5em;background: #4CAF50;}
-#brands-blue {min-height: 7.5em;background: #1A237E;}
+#brands-blue {min-height: 7.5em;background: rgb(33,47,70);}
 
-.gradient {background: linear-gradient(to bottom right, #4CAF50, #1A237E);}
+.gradient {background: linear-gradient(to bottom right, #4CAF50, rgb(33,47,70));}
 
 /*COLORS*/
 .green, .green-hover:hover          {background-color:#4CAF50;}
 #green, #green-hover:hover          {color:           #4CAF50;}
-.blue, .blue-hover:hover            {background-color:#1A237E;}
-#blue, #blue-hover:hover            {color:           #1A237E;}
+.blue, .blue-hover:hover            {background-color:rgb(33,47,70);}
+#blue, #blue-hover:hover            {color:           rgb(33,47,70);}
 .black, .black-hover:hover          {background-color:rgba(0,0,0,1);}
 #black, #black-hover:hover          {color:           rgba(0,0,0,1);}
 .darkgray, .darkgray-hover:hover    {background-color:#888;} /*TEXT*/
