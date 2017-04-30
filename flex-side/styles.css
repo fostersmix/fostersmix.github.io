@@ -11,7 +11,7 @@
     margin-top: 0;
     margin-bottom: 0;
   }
-  h1, h2, h3, h4, h5 {
+  h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
@@ -20,9 +20,11 @@
   }
   h1 {font-size: 3.5em;font-weight: 500;} /*only header*/
   h2 {font-size: 2.5em;}
-  h3 {font-size: 1.5em;} /*only package*/
-  h4 {font-size: 1.5em;font-weight: 300;} /*news and faq*/
-  h5 {font-size: 1.5em;font-weight: 300;} /*only news on mainpage*/
+  h3 {font-size: 1.75em;} /*only package*/
+  h4 {font-size: 1.75em;font-weight: 300;} /*news and faq*/
+  h5 {font-size: 1.5em;font-weight: 400;} /*only news on mainpage*/
+  h6 {font-size: 1.5em;font-weight: 300;} /*only news on mainpage*/
+
   /*NO JUMP CELL*/
   #cell {
     border-radius: .5em;
@@ -32,9 +34,9 @@
   #cell:hover {box-shadow: 0 .5em 1em 0 rgba(0,0,0,.25);}
   /*BUTTON WITHOUT BG*/
   #login {
-    color: #4CAF50;
+    color: #fff;
     padding: .5em 1.25em;
-    background: #fff;
+    background: none;
     border-radius: 5em;
   }
   #login:hover {color: rgb(71,164,75);}
@@ -56,6 +58,8 @@
     color: #4CAF50;
   }
   #accordion-align {text-align: center;} /*FIX ACCORDION ALIGN*/
+  #sticky-margin {margin-top: 5em;} /*FIX BODY MARGIN*/
+
   button.accordion {
     font: 300 1.5em 'Roboto', sans-serif;
     color: #4CAF50;
@@ -80,13 +84,13 @@
   /*.hide-md {display: inline;}
   .hide-lg {display: inline;}*/
   body {
-    font: normal 2.5em 'Roboto', sans-serif;
+    font: normal 2em 'Roboto', sans-serif;
     background: #fff;
     color: #000;
     margin-top: 0;
     margin-bottom: 0;
   }
-  h1, h2, h3, h4, h5 {
+  h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
@@ -95,9 +99,11 @@
   }
   h1 {font-size: 3.5em;font-weight: 500;} /*only header*/
   h2 {font-size: 2.5em;}
-  h3 {font-size: 1.5em;} /*only package*/
-  h4 {font-size: 1.5em;font-weight: 300;} /*news and faq*/
-  h5 {font-size: 1.5em;font-weight: 300;} /*only news on mainpage*/
+  h3 {font-size: 1.75em;} /*only package*/
+  h4 {font-size: 1.75em;font-weight: 300;} /*news and faq*/
+  h5 {font-size: 1.5em;font-weight: 400;} /*only news on mainpage*/
+  h6 {font-size: 1.5em;font-weight: 300;} /*only news on mainpage*/
+
   /*NO JUMP CELL*/
   #cell {
     border-radius: .5em;
@@ -107,9 +113,9 @@
   #cell:hover {box-shadow: 0 .5em 1em 0 rgba(0,0,0,.25);}
   /*BUTTON WITHOUT BG*/
   #login {
-    color: #4CAF50;
+    color: #fff;
     padding: .5em 1.25em;
-    background: #fff;
+    background: none;
     border-radius: 5em;
   }
   #login:hover {color: rgb(71,164,75);}
@@ -131,6 +137,8 @@
     color: #4CAF50;
   }
   #accordion-align {text-align: center;}  /*FIX ACCORDION ALIGN*/
+  #sticky-margin {margin-top: 5em;} /*FIX BODY MARGIN*/
+
   button.accordion {
     font: 300 1.5em 'Roboto', sans-serif;
     color: #4CAF50;
@@ -155,13 +163,13 @@
   .hide-md {display: none;}
   /*.hide-lg {display: inline;}*/
   body {
-    font: normal 1.5em 'Roboto', sans-serif;
+    font: normal 1.25em 'Roboto', sans-serif;
     background: #fff;
     color: #000;
     margin-top: 0;
     margin-bottom: 0;
   }
-  h1, h2, h3, h4, h5 {
+  h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
@@ -173,6 +181,8 @@
   h3 {font-size: 2em;} /*only package*/
   h4 {font-size: 1.5em;} /*news and faq*/
   h5 {font-size: 1.25em;font-weight: 400;} /*only news on mainpage*/
+  h6 {font-size: 1.25em;font-weight: 300;} /*only news on mainpage*/
+
   /*JUMP CELL*/
   #cell {
     border-radius: .5em;
@@ -213,6 +223,8 @@
     color: #4CAF50;
   }
   #accordion-align {text-align: left;} /*FIX ACCORDION ALIGN*/
+  #sticky-margin {margin-top: 5em;} /*FIX BODY MARGIN*/
+
   button.accordion {
     font: 400 1.5em 'Roboto', sans-serif;
     color: #4CAF50;
@@ -251,8 +263,8 @@
   }
   h1 {font-size: 6em;font-weight: 600;} /*only header*/
   h2 {font-size: 4em;}
-  h3 {font-size: 2.25em;font-weight: 300;} /*only package*/
-  h4 {font-size: 2.25em;font-weight: 400;} /*news and faq*/
+  h3 {font-size: 2.25em;font-weight: 400;} /*only package*/
+  h4 {font-size: 2.25em;font-weight: 300;} /*news and faq*/
   h5 {font-size: 1.75em;font-weight: 300;} /*only news on mainpage*/
   h6 {font-size: 1.75em;font-weight: 500;} /*news and faq*/
   /*JUMP CELL*/
@@ -426,25 +438,26 @@ button {
   border-radius: 5em;
   background: none;
   -margin-left: -1.25em;
+  font-weight: 300;
 }
 #admin-na {
-  color: #000;
+  color: #fff;
   padding: .75em 0;
   border-radius: 5em;
   cursor: pointer;
-  background: none;
-  
+  background: none;  
   -margin-left: -1.25em;
+  font-weight: 300;
 }
 #admin-na:hover {  color: #4CAF50;}
 #admin-border {
-  color: #4CAF50;
+  color: #fff;
   padding: 0 1em;
   border-radius: 5em;
-  border: 2px solid #4CAF50;
+  -border: 2px solid #4CAF50;
   font: 400 1.125em/2 'Roboto', sans-serif;
   cursor: pointer;
-  background: none;
+  background: #4CAF50;
   -margin-left: -1em;
 }
 #admin-border:hover {
@@ -452,7 +465,7 @@ button {
   color: #fff;
 }
 #admin-map {
-  color: #555;
+  color: #fff;
   padding: .75em 0;
   border-radius: 5em;
   cursor: pointer;
@@ -467,8 +480,8 @@ button {
   padding-right: .5em;
 }
 #button-big {
-  font: 300 1.5em 'Roboto', sans-serif;
-  padding: 1em 0 1em 0;
+  font: 400 2em 'Roboto', sans-serif;
+  padding: .75em 0 .75em 0;
   background-color: #4CAF50;
   letter-spacing: 3;
   color: #fff;
@@ -476,11 +489,12 @@ button {
   cursor: pointer;
   border-radius: 5em;
   display: inline-block;
+  box-shadow: 0 .25em .5em 0 rgba(0,0,0,.1);
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
   width: 100%;
 }
-#button-big:hover {box-shadow: inset 0 0 10em rgba(0,0,0,.1);}
+#button-big:hover {box-shadow: 0 .25em .5em 0 rgba(0,0,0,.2);}
 /*SIZE CARS MAP*/
 #ya {
   padding: 0;
@@ -488,6 +502,8 @@ button {
   height: 500px;
   background-color: #f8f8f8;
 }
+
+#no {padding: 0;}
 
 #ls {letter-spacing: 10;} /*H1 LOGO*/
 #ls2 {letter-spacing: 2;} /*H1 SUBPAGE*/
@@ -552,7 +568,7 @@ button {
 .top-50    {padding-top: 5em;}
 .bottom-50 {padding-bottom: 5em;}
 /*SVG ICONS*/
-.download {width: 12em;margin: 0 1em 0 0;}
+.download {width: 12em;margin: 1em 1em 1em 1em;}
 .icon-new {height: 4.5em;}
 /*FA*/
 .vk {color:#5c81b3;}
@@ -560,15 +576,12 @@ button {
 .youtube {color:#cd201f;}
 .instagram {color:#833ab4;}
 
-#hh {height: 10em;}
-
 .bg-map {
   background-image: url(img/map.png);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
 }
-
 
 /*GUIDLINES*/
 #brands-gray {min-height: 15em;background: #f8f8f8;}
@@ -585,8 +598,10 @@ button {
 #blue, #blue-hover:hover            {color:           #1A237E;}
 .black, .black-hover:hover          {background-color:rgba(0,0,0,1);}
 #black, #black-hover:hover          {color:           rgba(0,0,0,1);}
-.darkgray, .darkgray-hover:hover    {background-color:#aaa;} /*TEXT*/
-#darkgray, #darkgray-hover:hover    {color:           #aaa;}
+.darkgray, .darkgray-hover:hover    {background-color:#888;} /*TEXT*/
+#darkgray, #darkgray-hover:hover    {color:           #888;}
+.darkgray2, .darkgray2-hover:hover    {background-color:rgb(33,47,70);} /*TEXT*/
+#darkgray2, #darkgray2-hover:hover    {color:           rgb(33,47,70);}
 .gray, .gray-hover:hover            {background-color:#ddd;} /*LINES*/
 #gray, #gray-hover:hover            {color:           #ddd;}
 .lightgray, .lightgray-hover:hover  {background-color:#eee;} /*BG8*/
@@ -600,19 +615,18 @@ button {
 #half-white, #half-white-hover:hover{color:           rgba(255,255,255,.5);}
 
 #sidebar {
-  box-shadow: inset -0.25em 0 .5em 0 rgba(0,0,0,.2);
-  background-color: #eee;
+  box-shadow: inset -0.25em 0 .5em 0 rgba(0,0,0,.35);
+  background-color: rgb(33,47,70);
   position: fixed;
 }
 #profile-line {box-shadow: inset -0.35em 0 .75em 0 rgba(0,0,0,.20);}
 
 /*STICKY MENU*/
 #sticky-line {box-shadow: inset 0 1px 0 0 #ddd;} /*FIX LINE ON @MD*/
-#sticky-content {height: 4.5em;}
-#sticky-margin {margin-top: 4.5em;} /*FIX BODY MARGIN*/
+#sticky-content {height: 5em;}
 #sticky-header {
   box-shadow: 0 .25em .5em 0 rgba(0,0,0,.2);
-  background-color: rgba(255,255,255,1);
+  background-color: rgb(33,47,70);
   position: fixed;
   width: 100%;
   z-index: 100;
@@ -629,11 +643,11 @@ button {
 
 /*SANDWICH MENU*/
 a.burger:link, a.burger:visited, a.burger:active {
-  color: #4CAF50;
+  color: #fff;
   width: 100%;
   padding: 1em 0em;
 }
-a.burger:hover {color: rgb(71,164,75);}
+a.burger:hover {color: #4CAF50;}
 .close-burger {
   visibility: hidden;
   display: none;

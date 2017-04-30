@@ -1,0 +1,62 @@
+<html>
+  <head>
+    <title>Flexcar — Личный кабинет</title>      
+    <meta charset="utf-8">
+    <link rel="icon" sizes="256x256" href="favicon.png">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="stylesheet" href="flexboxgrid.css" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700">
+    <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+    <script src="https://use.fontawesome.com/86dd06cb93.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      $(".burger").click(function(){
+    		$(".close-burger").toggleClass("open-burger"); return false;
+    	});
+    });
+    </script>
+  </head>
+  <body>
+    <div class="row start-xs start-sm start-md start-lg">
+
+      <!--SIDEBAR-->
+      <!--1. SIDEBAR-->
+      <div class="col-xs col-sm col-md col-lg-3 hide-xs hide-sm hide-md" id="sidebar">
+        <div class="row center-xs center-sm center-md center-lg ">
+          <div class="col-xs col-sm col-md col-lg-9 ">
+            <div class="row center-xs center-sm start-md screen middle-lg">
+              <div class="col-xs col-sm col-md col-lg-12 top-15">
+                <div class="box"><h3 id="white">Василий<br>Иванов</h4></div>
+                <div class="box top-15"><a href="#" id="admin-border">Профиль</a></div>
+              </div>
+              <div class="col-xs col-sm col-md col-lg-12 top-15">
+                <div class="box"><a href="index.html" id="admin-na">О Флекскаре</a></div>
+                <div class="box"><a href="map.html" id="admin">Карта автомобилей</a></div>
+                <div class="box"><a href="news.html" id="admin-na">Новости</a></div>
+                <div class="box"><a href="faq.html" id="admin-na">FAQ</a></div>
+              </div>
+              <div class="col-xs col-sm col-md col-lg-12 top-15 bottom-15">
+                <div class="box"><a href="#" id="admin-na">Контакты</a></div>
+                <div class="box"><a href="#" id="admin-na">О компании</a></div>
+                <div class="box"><a href="#" id="admin-na">Правила и оферта</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!--2. CONTENT-->
+      <div class="col-xs col-sm col-md col-lg-3"></div>
+      <div class="col-xs col-sm col-md col-lg-9">
+        <div class="row center-xs center-sm center-md center-lg">
+          
+          <div class="col-xs col-sm col-md col-lg-12" id="no">
+            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A512b28df880d4da4602cad25c35c343082ab52fe8d3ec6541aa73072f94536c3&amp;width=100%25&amp;height=100%&amp;lang=ru_RU&amp;scroll=false"></script>
+          </div>
+            
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
