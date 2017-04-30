@@ -139,7 +139,7 @@ button {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
-#dotted-green {border-bottom: 1px dotted #00BFA5;color:#00BFA5;}
+#dotted-green {border-bottom: 1px dotted #00B8D4;color:#00B8D4;}
 #gosnomer {
   background: #F5F5F5;
   padding: .3em .6em;
@@ -171,16 +171,24 @@ button {
   font-weight: 400;
 }
 #button:hover {color: #fff;}
+#button-white {
+  color: #fff;
+  padding: 0 1em;
+  border-radius: 5em;
+  font: 400 1em/2 'Roboto', sans-serif;
+  cursor: pointer;
+  background: none;
+}
 #button-green {
   color: #fff;
   padding: 0 1em;
   border-radius: 5em;
   font: 400 1em/2 'Roboto', sans-serif;
   cursor: pointer;
-  background: #00BFA5;
+  background: #00B8D4;
 }
 #button-green:hover {
-  background-color: #00BFA5;
+  background-color: #00B8D4;
   color: #fff;
 }
 #button-green-full {
@@ -188,21 +196,21 @@ button {
   border-radius: 5em;
   font: 400 1em/3 'Roboto', sans-serif;
   cursor: pointer;
-  background: #00BFA5;
+  background: #00B8D4;
   width: 100%;
 }
 #button-border {
-  color: #00BFA5;
+  color: #00B8D4;
   padding: 0 1em;
   border-radius: 5em;
-  border: 2px solid #00BFA5;
+  border: 2px solid #00B8D4;
   font: 400 1em/2 'Roboto', sans-serif;
   cursor: pointer;
   background: none;
   -margin-left: -1em;
 }
 #button-border:hover {
-  background-color: #00BFA5;
+  background-color: #00B8D4;
   color: #fff;
 }
 #button-big {
@@ -275,8 +283,8 @@ button {
 .light {font-weight: 300;}
 
 /*COLORS*/
-.lime, .lime-hover:hover            {background-color:#00BFA5;}
-#lime, #green-hover:hover           {color:           #00BFA5;}
+.lime, .lime-hover:hover            {background-color:#00B8D4;}
+#lime, #green-hover:hover           {color:           #00B8D4;}
 .green, .green-hover:hover          {background-color:#00B8D4;}
 #green, #green-hover:hover          {color:           #00B8D4;}
 .blue, .blue-hover:hover            {background-color:#006064;}
@@ -317,7 +325,7 @@ button {
 /*ACCORDION MENU*/
 button.accordion {
   font: 400 1.5em 'Roboto', sans-serif;
-  color: #00BFA5;
+  color: #00B8D4;
   margin: 0;
   padding: 0;
   background: none;
