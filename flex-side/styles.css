@@ -366,6 +366,7 @@ a:link, a:visited, a:hover, a:active {
   padding: .5em 1.25em;
   border: 1px solid #fff;
   border-radius: 5em;
+  font-weight: 300;
 }
 #registration:hover {
   background: #fff;
@@ -600,8 +601,6 @@ button {
 #black, #black-hover:hover          {color:           rgba(0,0,0,1);}
 .darkgray, .darkgray-hover:hover    {background-color:#888;} /*TEXT*/
 #darkgray, #darkgray-hover:hover    {color:           #888;}
-.darkgray2, .darkgray2-hover:hover    {background-color:rgb(33,47,70);} /*TEXT*/
-#darkgray2, #darkgray2-hover:hover    {color:           rgb(33,47,70);}
 .gray, .gray-hover:hover            {background-color:#ddd;} /*LINES*/
 #gray, #gray-hover:hover            {color:           #ddd;}
 .lightgray, .lightgray-hover:hover  {background-color:#eee;} /*BG8*/
