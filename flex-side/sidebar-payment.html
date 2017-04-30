@@ -1,0 +1,110 @@
+<html>
+  <head>
+    <title>Flexcar — Личный кабинет</title>
+    <meta charset="utf-8">
+    <link rel="icon" sizes="256x256" href="favicon.png">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="stylesheet" href="flexboxgrid.css" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700">
+    <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+    <script src="https://use.fontawesome.com/86dd06cb93.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      $(".burger").click(function(){
+    		$(".close-burger").toggleClass("open-burger"); return false;
+    	});
+    });
+    </script>
+  </head>
+  <body>
+    <div class="row start-xs start-sm start-md start-lg">
+
+      <!--SIDEBAR-->
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 hide-xs hide-sm" id="sidebar">
+        <div class="row center-xs center-sm center-md center-lg top-md top-lg screen">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 top-30 bottom-15">
+            <div class="row center-xs center-sm center-md start-lg">
+              <div class="col-xs-12 col-sm-12 col-md-10 col-lg-12">
+                <div class="box"><h3 id="white">Василий<br>Иванов</h4></div>
+                <div class="box top-15" id="white">Бонусный счет 105 ₽</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-10 col-lg-8">
+            <div class="row center-xs center-sm start-md start-lg top-10 bottom-15">
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 top-05"><a href="sidebar-profile.html" id="admin-na">Профиль</a></div>
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 top-05"><a href="sidebar-payment.html" id="admin">Оплата</a></div>
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 top-05"><a href="sidebar-map.html" id="admin-na">Карта автомобилей</a></div>
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 top-05"><a href="sidebar-history.html" id="admin-na">История</a></div>
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 top-05"><a href="sidebar-promo.html" id="admin-na">Промо-коды</a></div>
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 top-05"><a href="#" id="admin-na">Правила и оферта</a></div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-10 col-lg-8">
+            <div class="row center-xs center-sm start-md start-lg top-15 bottom-15">
+              <div class="box top-15"><a href="index.html" id="login"><i class="fa fa-sign-out" aria-hidden="true"></i> Выйти</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xs-8 col-sm-8 col-md-8 col-lg-9 col-lg-offset-3">
+        <div class="row center-xs center-sm center-md center-lg">
+
+          <!--CARD-->
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 bottom-30" id="cards">
+            <div class="row center-xs center-sm center-md center-lg">
+              <div class="col-xs-12 col-sm-11 col-md-10 col-lg-10">
+                <div class="row center-xs center-sm start-md start-lg">
+                  <div class="col-xs-11 col-sm-10 col-md-12 col-lg-12 top-30 bottom-15">
+                    <div class="box"><h1 id="ls2">Оплата</h1></div>
+                  </div>
+                  <div class="col-xs-11 col-sm-10 col-md-12 col-lg-12 top-15">
+                    <div class="box" id="darkgray">Привязанные карты</div>
+                  </div>
+                  <div class="col-xs-11 col-sm-11 col-md-6 col-lg-6 top-15 bottom-15" >
+                    <div class="row center-xs center-sm start-md start-lg" >
+                      <div class="col-xs-12 col-sm-12 col-md-11 col-lg-10">
+                        <div class="row center-xs center-sm center-md center-lg middle-xs middle-sm middle-md middle-lg" id="card">
+                          <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+                            <div class="row center-xs center-sm start-md start-lg">
+                              <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                <div class="box top-10" align="left"><img src="img/visa.png" class="hide-xs hide-sm"><img src="img/visa@2x.png" class="hide-md hide-lg"></div>
+                              </div>
+                              <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                <div class="box top-10" align="right"><a href="#" id="dotted-white">Удалить</a></div>
+                              </div>
+                            </div>
+                            <div class="box top-15 bottom-05" id="card-text">●●●● ●●●● ●●●● 9955</div>
+                            <div class="box top-15 bottom-05" align="right" id="white">2018</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xs-12 col-sm-12 col-md-11 col-lg-10 top-15">Основная карта</div>
+                    </div>
+                  </div>
+                  <div class="col-xs-11 col-sm-11 col-md-6 col-lg-6 top-15 bottom-15 hide-xs hide-sm" >
+                    <div class="row center-xs center-sm start-md start-lg" >
+                      <div class="col-xs-12 col-sm-12 col-md-11 col-lg-10">
+                        <div class="row center-xs center-sm center-md center-lg middle-xs middle-sm middle-md middle-lg" id="card-add">
+                          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10">
+                            <div class="box top-30 bottom-30"><a href="#" id="dotted-green">Добавить карту</a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 top-15 hide-md hide-lg">
+                    <div class="box"><a href="news.html" id="button">ДОБАВИТЬ КАРТУ</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

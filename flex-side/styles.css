@@ -1,0 +1,654 @@
+/*xs*/
+@media only screen and (max-width: 48em) {
+  .hide-xs {display: none;}
+  /*.hide-sm {display: inline;}
+  .hide-md {display: inline;}
+  .hide-lg {display: inline;}*/
+  body {
+    font: normal 2.5em 'Roboto', sans-serif;
+    background: #fff;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  h1, h2, h3, h4, h5 {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    font-weight: 400;
+  }
+  h1 {font-size: 3.5em;font-weight: 500;} /*only header*/
+  h2 {font-size: 2.5em;}
+  h3 {font-size: 1.5em;} /*only package*/
+  h4 {font-size: 1.5em;font-weight: 300;} /*news and faq*/
+  h5 {font-size: 1.5em;font-weight: 300;} /*only news on mainpage*/
+  /*NO JUMP CELL*/
+  #cell {
+    border-radius: .5em;
+    background-color: #fff;
+    box-shadow: 0 .5em 1em 0 rgba(0,0,0,.15);
+  }
+  #cell:hover {box-shadow: 0 .5em 1em 0 rgba(0,0,0,.25);}
+  /*BUTTON WITHOUT BG*/
+  #login {
+    color: #4CAF50;
+    padding: .5em 1.25em;
+    background: #fff;
+    border-radius: 5em;
+  }
+  #login:hover {color: rgb(71,164,75);}
+  #green-btn {background-color: #4CAF50;} /*REGISTRATION @XS @SM ON MAINPAGE*/
+  .vline {border-right: 1px solid #ddd;height: 4.5em;} /*LINE ON STCIKY MENU*/
+  /*BUTTON @XS @SM ON BG (TARIFFS)*/
+  #button-white {
+    font: bold 1em 'Roboto', sans-serif;
+    color: #fff;
+    padding: .75em 3em;
+    background: none;
+    border: 1px solid #fff;
+    border-radius: .5em;
+    letter-spacing: 3;
+    cursor: pointer;
+  }
+  #button-white:hover {
+    background-color: #fff;
+    color: #4CAF50;
+  }
+  #accordion-align {text-align: center;} /*FIX ACCORDION ALIGN*/
+  button.accordion {
+    font: 300 1.5em 'Roboto', sans-serif;
+    color: #4CAF50;
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    text-decoration: none;
+    outline: none;
+    transition: .2s;
+    text-align: center;
+    cursor: pointer;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -moz-tap-highlight-color: rgba(0,0,0,0);
+  }
+}
+
+/*sm*/
+@media only screen and (min-width: 48em) and (max-width: 62em) {
+  /*.hide-xs {display: inline;}*/
+  .hide-sm {display: none;}
+  /*.hide-md {display: inline;}
+  .hide-lg {display: inline;}*/
+  body {
+    font: normal 2.5em 'Roboto', sans-serif;
+    background: #fff;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  h1, h2, h3, h4, h5 {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    font-weight: 400;
+  }
+  h1 {font-size: 3.5em;font-weight: 500;} /*only header*/
+  h2 {font-size: 2.5em;}
+  h3 {font-size: 1.5em;} /*only package*/
+  h4 {font-size: 1.5em;font-weight: 300;} /*news and faq*/
+  h5 {font-size: 1.5em;font-weight: 300;} /*only news on mainpage*/
+  /*NO JUMP CELL*/
+  #cell {
+    border-radius: .5em;
+    background-color: #fff;
+    box-shadow: 0 .5em 1em 0 rgba(0,0,0,.15);
+  }
+  #cell:hover {box-shadow: 0 .5em 1em 0 rgba(0,0,0,.25);}
+  /*BUTTON WITHOUT BG*/
+  #login {
+    color: #4CAF50;
+    padding: .5em 1.25em;
+    background: #fff;
+    border-radius: 5em;
+  }
+  #login:hover {color: rgb(71,164,75);}
+  #green-btn {background-color: #4CAF50;} /*REGISTRATION @XS @SM ON MAINPAGE*/
+  .vline {border-right: 1px solid #ddd;height: 4.5em;} /*LINE ON STICKY MENU*/
+  /*BUTTON @XS @SM ON BG (TARIFFS)*/
+  #button-white {
+    font: bold 1em 'Roboto', sans-serif;
+    color: #fff;
+    padding: .75em 3em;
+    background: none;
+    border: 1px solid #fff;
+    border-radius: .5em;
+    letter-spacing: 3;
+    cursor: pointer;
+  }
+  #button-white:hover {
+    background-color: #fff;
+    color: #4CAF50;
+  }
+  #accordion-align {text-align: center;}  /*FIX ACCORDION ALIGN*/
+  button.accordion {
+    font: 300 1.5em 'Roboto', sans-serif;
+    color: #4CAF50;
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    text-decoration: none;
+    outline: none;
+    transition: .2s;
+    text-align: center;
+    cursor: pointer;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -moz-tap-highlight-color: rgba(0,0,0,0);
+  }
+}
+
+/*md*/
+@media only screen and (min-width: 62em) and (max-width: 75em) {
+  /*.hide-xs {display: inline;}
+  .hide-sm {display: inline;}*/
+  .hide-md {display: none;}
+  /*.hide-lg {display: inline;}*/
+  body {
+    font: normal 1.5em 'Roboto', sans-serif;
+    background: #fff;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  h1, h2, h3, h4, h5 {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    font-weight: 400;
+  }
+  h1 {font-size: 4em;font-weight: 500;} /*only header*/
+  h2 {font-size: 2.5em;}
+  h3 {font-size: 2em;} /*only package*/
+  h4 {font-size: 1.5em;} /*news and faq*/
+  h5 {font-size: 1.25em;font-weight: 400;} /*only news on mainpage*/
+  /*JUMP CELL*/
+  #cell {
+    border-radius: .5em;
+    background-color: #fff;
+    box-shadow: 0 .5em 1em 0 rgba(0,0,0,.15);
+  }
+  #cell:hover {
+    box-shadow: 0 .5em 1em 0 rgba(0,0,0,.25);
+  }
+  /*BUTTON WITH BG*/
+  #login {
+    color: #fff;
+    padding: .5em 1.25em;
+    background: #4CAF50;
+    border-radius: 5em;
+  }
+  #login:hover {box-shadow: inset 0 0 10em rgba(0,0,0,.1)}
+  .vline {border-right: 1px solid #ddd;height: 4.5em;} /*RIGHT LINE ON STICKY MENU*/
+  .vline-left {border-left: 1px solid #ddd;height: 4.5em;} /*LEF LINE @MD ON STICKY MENU*/
+  /*LINES ON #DRIVER*/
+  .side {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+  }
+  /*BUTTON WITHOUD BORDER @MD @LG ON BG (TARIFFS)*/
+  #button-white {
+    font: bold 1em 'Roboto', sans-serif;
+    color: #fff;
+    padding: .75em 3em;
+    background: none;
+    border: 1px solid #fff;
+    border-radius: .5em;
+    letter-spacing: 3;
+    cursor: text;
+  }
+  #button-white:hover {
+    background-color: #fff;
+    color: #4CAF50;
+  }
+  #accordion-align {text-align: left;} /*FIX ACCORDION ALIGN*/
+  button.accordion {
+    font: 400 1.5em 'Roboto', sans-serif;
+    color: #4CAF50;
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    text-decoration: none;
+    outline: none;
+    transition: .2s;
+    text-align: center;
+    cursor: pointer;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -moz-tap-highlight-color: rgba(0,0,0,0);
+  }
+}
+/*lg*/
+@media only screen and (min-width: 75em) {
+  /*.hide-xs {display: inline;}
+  .hide-sm {display: inline;}
+  .hide-md {display: inline;}*/
+  .hide-lg {display: none;}
+  body {
+    font: 300 1em 'Roboto', sans-serif;
+    background: #fff;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    font-weight: 400;
+  }
+  h1 {font-size: 6em;font-weight: 600;} /*only header*/
+  h2 {font-size: 4em;}
+  h3 {font-size: 2.25em;font-weight: 300;} /*only package*/
+  h4 {font-size: 2.25em;font-weight: 400;} /*news and faq*/
+  h5 {font-size: 1.75em;font-weight: 300;} /*only news on mainpage*/
+  h6 {font-size: 1.75em;font-weight: 500;} /*news and faq*/
+  /*JUMP CELL*/
+  #cell {
+    border-radius: .5em;
+    background-color: #fff;
+    box-shadow: 0 .5em 1em 0 rgba(0,0,0,.15);
+    transition: .2s;
+  }
+  #cell:hover {
+    -transform: translate(0,-0.25em);
+    box-shadow: 0 .5em 1em 0 rgba(0,0,0,.25);
+  }
+  /*BUTTON WITH BG*/
+  #login {
+    color: #fff;
+    padding: .5em 1.25em;
+    background: #4CAF50;
+    border-radius: 5em;
+  }
+  #login:hover {box-shadow: inset 0 0 10em rgba(0,0,0,.1)}
+  /*LINES ON #DRIVER*/
+  .side {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+  }
+  /*BUTTON WITHOUD BORDER @MD @LG ON BG (TARIFFS)*/
+  #button-white {
+    font: bold 1em 'Roboto', sans-serif;
+    color: #fff;
+    background: none;
+    cursor: text;
+    border: none;
+    letter-spacing: 3;
+  }
+  #accordion-align {text-align: left;} /*FIX ACCORDION ALIGN*/
+  button.accordion {
+    font: 400 2em 'Roboto', sans-serif;
+    color: #4CAF50;
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    text-decoration: none;
+    outline: none;
+    transition: .2s;
+    text-align: center;
+    cursor: pointer;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -moz-tap-highlight-color: rgba(0,0,0,0);
+  }
+}
+
+/*LINKS*/
+a:link, a:visited, a:hover, a:active {
+  font: 400 1.25em 'Roboto', sans-serif;
+  color: #000;
+	text-decoration: none;
+  display: inline-block;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -moz-tap-highlight-color: rgba(0,0,0,0);
+}
+#solid-black {border-bottom: 1px solid rgba(0,0,0,.15);}
+#solid-black:hover {border-bottom: 1px solid rgba(0,0,0,.25);}
+#solid-black:hover {border-bottom: 1px solid rgba(0,0,0,.25);}
+#hover-green:hover {color: #4CAF50;}
+#solid-white {border-bottom: 1px solid rgba(255,255,255,.15);color: #fff;}
+#solid-white:hover {border-bottom: 1px solid rgba(255,255,255,.25);}
+#dotted-black {border-bottom: 1px dotted #000;}
+#dotted-white {border-bottom: 1px dotted #fff;color: #fff;}
+#dotted-green {border-bottom: 1px dotted #4CAF50;color: #4CAF50;}
+#logo {
+  font: 500 1em 'Roboto', sans-serif;
+  letter-spacing: 5;
+}
+#menu {padding: .5em .75em;}
+#menu:hover {color: #4CAF50;}
+#buy {
+  padding: .5em 1.25em;
+  background-color: white;
+  border-radius: 5em;
+  cursor: pointer;
+  box-shadow: 0 .25em .5em 0 rgba(0,0,0,.1);
+}
+#enter {
+  color: #4CAF50;
+  padding: 1em 0em;
+  border: 1px solid #4CAF50;
+  width: 100%;
+  border-radius: 5em;
+}
+#enter:hover {
+  color: #fff;
+  background-color: #4CAF50;
+}
+#registration {
+  color: #fff;
+  padding: .5em 1.25em;
+  border: 1px solid #fff;
+  border-radius: 5em;
+}
+#registration:hover {
+  background: #fff;
+  color: #000;
+}
+
+/*BUTTONS*/
+button {
+  font: 400 1.125em 'Roboto', sans-serif;
+  color: #000;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5em;
+  display: inline-block;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -moz-tap-highlight-color: rgba(0,0,0,0);
+}
+#gosnomer {
+  background: #f7f7f7;
+  padding: .3em .6em;
+  border-radius: .5em;
+  cursor: auto;
+}
+#car {
+  border: 1px solid #4CAF50;
+  padding: .5em 1.25em;
+  cursor: auto;
+  margin-left: 1em;
+}
+#night {
+  padding: .5em .75em;
+  margin-left: .5em;
+  margin-right: .5em;
+  cursor: auto;
+  background: #111;
+  color: #fff;
+  font-weight: 300;
+  border-radius: .5em;
+}
+#field {
+  padding: 1em 1.25em;
+  background: #f7f7f7;
+  transition: .1s;
+  border-radius: .5em;
+  cursor: text;
+  width: 100%;
+}
+#field:hover {background: #eee;}
+#social {
+  background: #fff;
+  padding: .5em 1.25em;
+  margin: .5em .25em .5em .25em;
+}
+#social:hover {background: #eee;}
+#button {
+  font: 400 1em 'Roboto', sans-serif;
+  color: #000;
+  padding: .5em 1em;
+  background: #fff;
+  border: 2px solid #ddd;
+  border-radius: .5em;
+  -letter-spacing: 3;
+}
+#admin {
+  padding: .75em 0;
+  cursor: auto;
+  color: #4CAF50;
+  border-radius: 5em;
+  background: none;
+  -margin-left: -1.25em;
+}
+#admin-na {
+  color: #000;
+  padding: .75em 0;
+  border-radius: 5em;
+  cursor: pointer;
+  background: none;
+  
+  -margin-left: -1.25em;
+}
+#admin-na:hover {  color: #4CAF50;}
+#admin-border {
+  color: #4CAF50;
+  padding: 0 1em;
+  border-radius: 5em;
+  border: 2px solid #4CAF50;
+  font: 400 1.125em/2 'Roboto', sans-serif;
+  cursor: pointer;
+  background: none;
+  -margin-left: -1em;
+}
+#admin-border:hover {
+  background-color: #4CAF50;
+  color: #fff;
+}
+#admin-map {
+  color: #555;
+  padding: .75em 0;
+  border-radius: 5em;
+  cursor: pointer;
+  background: none;
+}
+#admin-map:hover {  color: #4CAF50;}
+#admin-map::before {
+  font-family: 'FontAwesome';
+  font-weight: normal;
+  src: url("FontAwesome.otf") format("opentype");
+  content: "";
+  padding-right: .5em;
+}
+#button-big {
+  font: 300 1.5em 'Roboto', sans-serif;
+  padding: 1em 0 1em 0;
+  background-color: #4CAF50;
+  letter-spacing: 3;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5em;
+  display: inline-block;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -moz-tap-highlight-color: rgba(0,0,0,0);
+  width: 100%;
+}
+#button-big:hover {box-shadow: inset 0 0 10em rgba(0,0,0,.1);}
+/*SIZE CARS MAP*/
+#ya {
+  padding: 0;
+  margin: 0;
+  height: 500px;
+  background-color: #f8f8f8;
+}
+
+#ls {letter-spacing: 10;} /*H1 LOGO*/
+#ls2 {letter-spacing: 2;} /*H1 SUBPAGE*/
+
+/*PAYMENT CARD*/
+#card {
+  min-height: 13em;
+  border-radius: .5em;
+  background: linear-gradient(to top left, #1A237E, #039BE5);
+  box-shadow: 0 .5em 1em 0 rgba(0,0,0,.2);
+}
+#card:hover {box-shadow: 0 .5em 1em 0 rgba(0,0,0,.3);}
+#card-add {
+  min-height: 13em;
+  border-radius: .5em;
+  border: 3px dashed #ccc;
+}
+#card-text {
+  font: normal 1.5em 'Share Tech Mono', monospace;
+  text-shadow: 1px 2px 2px rgba(0,0,0,.3);
+  color: #fff;
+}
+
+#text {font-size: 1.125em;}
+#text-buy {font-size: 1.125em;padding-right: .25em;}
+
+
+/*FORM*/
+.form {
+  border-radius: 0 0 2em 2em;
+  background: linear-gradient(to top, #FFF9C4, #FFFDE7);
+}
+/*CELL ON LOGIN PAGE*/
+#cell-night {
+  border-radius: 0 0 .5em .5em;
+  background-color: #323232;
+}
+.cell {
+  border-radius: .5em;
+  background-color: #fff;
+  box-shadow: 0 .5em 1em 0 rgba(0,0,0,.15);
+}
+/*CELL ON TARIFFS*/
+.cell-new {
+  -border-radius: .5em;
+  border-right: 1px solid #ddd;}
+
+.full {width: 100%;}
+.screen {min-height: 100vh;}
+.line {height:1px;}
+/*PADDINGS*/
+.top-05    {padding-top: .5em;}
+.bottom-05 {padding-bottom: .5em;}
+.top-75    {padding-top: .75em;}
+.bottom-75 {padding-bottom: .75em;}
+.top-10    {padding-top: 1em;}
+.bottom-10 {padding-bottom: 1em;}
+.top-15    {padding-top: 1.5em;}
+.bottom-15 {padding-bottom: 1.5em;}
+.top-30    {padding-top: 3em;}
+.bottom-30 {padding-bottom: 3em;}
+.top-50    {padding-top: 5em;}
+.bottom-50 {padding-bottom: 5em;}
+/*SVG ICONS*/
+.download {width: 12em;margin: 0 1em 0 0;}
+.icon-new {height: 4.5em;}
+/*FA*/
+.vk {color:#5c81b3;}
+.ok {color:#d38842;}
+.youtube {color:#cd201f;}
+.instagram {color:#833ab4;}
+
+#hh {height: 10em;}
+
+.bg-map {
+  background-image: url(img/map.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+
+/*GUIDLINES*/
+#brands-gray {min-height: 15em;background: #f8f8f8;}
+#brands-black {min-height: 15em;background: #434343;}
+#brands-green {min-height: 7.5em;background: #4CAF50;}
+#brands-blue {min-height: 7.5em;background: #1A237E;}
+
+.gradient {background: linear-gradient(to bottom right, #4CAF50, #1A237E);}
+
+/*COLORS*/
+.green, .green-hover:hover          {background-color:#4CAF50;}
+#green, #green-hover:hover          {color:           #4CAF50;}
+.blue, .blue-hover:hover            {background-color:#1A237E;}
+#blue, #blue-hover:hover            {color:           #1A237E;}
+.black, .black-hover:hover          {background-color:rgba(0,0,0,1);}
+#black, #black-hover:hover          {color:           rgba(0,0,0,1);}
+.darkgray, .darkgray-hover:hover    {background-color:#aaa;} /*TEXT*/
+#darkgray, #darkgray-hover:hover    {color:           #aaa;}
+.gray, .gray-hover:hover            {background-color:#ddd;} /*LINES*/
+#gray, #gray-hover:hover            {color:           #ddd;}
+.lightgray, .lightgray-hover:hover  {background-color:#eee;} /*BG8*/
+#lightgray, #lightgray-hover:hover  {color:           #eee;}
+.white, .white-hover:hover          {background-color:rgba(255,255,255,1);}
+#white, #white-hover:hover          {color:           rgba(255,255,255,1);}
+
+.half-black, .half-black-hover:hover{background-color:rgba(0,0,0,.25);}
+#half-black, #half-black-hover:hover{color:           rgba(0,0,0,.25);}
+.half-white, .half-white-hover:hover{background-color:rgba(255,255,255,.5);}
+#half-white, #half-white-hover:hover{color:           rgba(255,255,255,.5);}
+
+#sidebar {
+  box-shadow: inset -0.25em 0 .5em 0 rgba(0,0,0,.2);
+  background-color: #eee;
+  position: fixed;
+}
+#profile-line {box-shadow: inset -0.35em 0 .75em 0 rgba(0,0,0,.20);}
+
+/*STICKY MENU*/
+#sticky-line {box-shadow: inset 0 1px 0 0 #ddd;} /*FIX LINE ON @MD*/
+#sticky-content {height: 4.5em;}
+#sticky-margin {margin-top: 4.5em;} /*FIX BODY MARGIN*/
+#sticky-header {
+  box-shadow: 0 .25em .5em 0 rgba(0,0,0,.2);
+  background-color: rgba(255,255,255,1);
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+/*FIX JUMP TO ANCHOR LINK*/
+#tariffs, #flexcar, #map, #faq, #news, #history, #team, #brand, #ooo, #profile, #driver, #contact {
+	padding-top: 4.5em;
+	margin-top: -4.5em;
+	-webkit-background-clip: content-box;
+	background-clip: content-box;
+}
+
+#logo-svg {height: 10em;}
+
+/*SANDWICH MENU*/
+a.burger:link, a.burger:visited, a.burger:active {
+  color: #4CAF50;
+  width: 100%;
+  padding: 1em 0em;
+}
+a.burger:hover {color: rgb(71,164,75);}
+.close-burger {
+  visibility: hidden;
+  display: none;
+}
+.open-burger {
+  visibility: visible;
+  display: block;
+}
+
+/*ACCORDION MENU 2/2*/
+button.accordion.active, button.accordion:hover {color: #000;}
+div.accordion__content {display: none;}
+
+/*TEST*/
+.red-test- {background-color: red;}
+.blue-test- {background-color: blue;}
+.green-test- {background-color: green;}
+.yellow-test- {background-color: yellow;}
