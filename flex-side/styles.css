@@ -26,6 +26,8 @@
   h6 {font-size: 1.5em;font-weight: 300;}
   #accordion-align {text-align: center;} /*FIX ACCORDION ALIGN*/
   #sticky-margin {margin-top: 5em;} /*FIX BODY MARGIN*/
+  .gray, .gray-hover:hover            {background-color:#BDBDBD;} /*LINES*/
+  #gray, #gray-hover:hover            {color:           #BDBDBD;}
 }
 
 /*sm*/
@@ -56,6 +58,8 @@
   h6 {font-size: 1.5em;font-weight: 300;}
   #accordion-align {text-align: center;}  /*FIX ACCORDION ALIGN*/
   #sticky-margin {margin-top: 5em;} /*FIX BODY MARGIN*/
+  .gray, .gray-hover:hover            {background-color:#BDBDBD;} /*LINES*/
+  #gray, #gray-hover:hover            {color:           #BDBDBD;}
 }
 
 /*md*/
@@ -86,6 +90,8 @@
   h6 {font-size: 1.5em;font-weight: 300;}
   #accordion-align {text-align: left;} /*FIX ACCORDION ALIGN*/
   #sticky-margin {margin-top: 5em;} /*FIX BODY MARGIN*/
+  .gray, .gray-hover:hover            {background-color:#E0E0E0;} /*LINES*/
+  #gray, #gray-hover:hover            {color:           #E0E0E0;}
 }
 /*lg*/
 @media only screen and (min-width: 75em) {
@@ -115,7 +121,8 @@
   h5 {font-size: 1.5em;} 
   h6 {font-size: 1.5em;font-weight: 300;}
   #accordion-align {text-align: left;} /*FIX ACCORDION ALIGN*/
-  
+  .gray, .gray-hover:hover            {background-color:#E0E0E0;} /*LINES*/
+  #gray, #gray-hover:hover            {color:           #E0E0E0;}
 }
 
 a:link, a:visited, a:hover, a:active {
@@ -293,8 +300,6 @@ button {
 #black, #black-hover:hover          {color:           rgba(0,0,0,1);}
 .darkgray, .darkgray-hover:hover    {background-color:#9E9E9E;} /*TEXT*/
 #darkgray, #darkgray-hover:hover    {color:           #9E9E9E;}
-.gray, .gray-hover:hover            {background-color:#E0E0E0;} /*LINES*/
-#gray, #gray-hover:hover            {color:           #E0E0E0;}
 .lightgray, .lightgray-hover:hover  {background-color:#F5F5F5;} /*BG8*/
 #lightgray, #lightgray-hover:hover  {color:           #F5F5F5;}
 .white, .white-hover:hover          {background-color:rgba(255,255,255,1);}
