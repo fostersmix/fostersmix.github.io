@@ -248,7 +248,7 @@
   .hide-md {display: inline;}*/
   .hide-lg {display: none;}
   body {
-    font: 300 1em 'Roboto', sans-serif;
+    font: 300 1.25em 'Roboto', sans-serif;
     background: #fff;
     color: #000;
     margin-top: 0;
@@ -256,17 +256,18 @@
   }
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     margin: 0;
     padding: 0;
     display: inline;
     font-weight: 400;
   }
-  h1 {font-size: 6em;font-weight: 600;} /*only header*/
-  h2 {font-size: 4em;}
-  h3 {font-size: 2.25em;font-weight: 400;} /*only package*/
-  h4 {font-size: 2.25em;font-weight: 300;} /*news and faq*/
-  h5 {font-size: 1.75em;font-weight: 300;} /*only news on mainpage*/
-  h6 {font-size: 1.75em;font-weight: 500;} /*news and faq*/
+  h1 {font-size: 4.5em;font-weight: 600;}
+  h2 {font-size: 3em;}
+  h3 {font-size: 2em;}
+  h4 {font-size: 2em;font-weight: 300;}
+  h5 {font-size: 1.5em;} 
+  h6 {font-size: 1.5em;font-weight: 300;}
   /*JUMP CELL*/
   #cell {
     border-radius: .5em;
@@ -320,7 +321,7 @@
 
 /*LINKS*/
 a:link, a:visited, a:hover, a:active {
-  font: 400 1.25em 'Roboto', sans-serif;
+  font: 400 1em 'Roboto', sans-serif;
   color: #000;
 	text-decoration: none;
   display: inline-block;
@@ -375,7 +376,7 @@ a:link, a:visited, a:hover, a:active {
 
 /*BUTTONS*/
 button {
-  font: 400 1.125em 'Roboto', sans-serif;
+  font: 400 1em 'Roboto', sans-serif;
   color: #000;
   background-color: transparent;
   border: none;
@@ -433,22 +434,22 @@ button {
   -letter-spacing: 3;
 }
 #admin {
-  padding: .75em 0;
+  padding: .75em .5em;
   cursor: auto;
   color: #4CAF50;
   border-radius: 5em;
   background: none;
   -margin-left: -1.25em;
-  font-weight: 300;
+  font-weight: 400;
 }
 #admin-na {
-  color: #fff;
-  padding: .75em 0;
+  color: #999;
+  padding: .75em .5em;
   border-radius: 5em;
   cursor: pointer;
   background: none;  
   -margin-left: -1.25em;
-  font-weight: 300;
+  font-weight: 400;
 }
 #admin-na:hover {  color: #4CAF50;}
 #admin-border {
@@ -456,7 +457,7 @@ button {
   padding: 0 1em;
   border-radius: 5em;
   -border: 2px solid #4CAF50;
-  font: 400 1.125em/2 'Roboto', sans-serif;
+  font: 400 1em/2 'Roboto', sans-serif;
   cursor: pointer;
   background: #4CAF50;
   -margin-left: -1em;
@@ -465,37 +466,36 @@ button {
   background-color: #4CAF50;
   color: #fff;
 }
-#admin-map {
-  color: #fff;
-  padding: .75em 0;
+#admin-border2 {
+  color: #4CAF50;
+  padding: 0 1em;
   border-radius: 5em;
+  border: 2px solid #4CAF50;
+  font: 400 1em/2 'Roboto', sans-serif;
   cursor: pointer;
   background: none;
+  -margin-left: -1em;
 }
-#admin-map:hover {  color: #4CAF50;}
-#admin-map::before {
-  font-family: 'FontAwesome';
-  font-weight: normal;
-  src: url("FontAwesome.otf") format("opentype");
-  content: "";
-  padding-right: .5em;
-}
-#button-big {
-  font: 400 2em 'Roboto', sans-serif;
-  padding: .75em 0 .75em 0;
+#admin-border2:hover {
   background-color: #4CAF50;
+  color: #fff;
+}
+
+#button-big {
+  font: 400 1.5em 'Roboto', sans-serif;
+  padding: .75em 0 .75em 0;
+  background-color: none;
   letter-spacing: 3;
   color: #fff;
   outline: none;
   cursor: pointer;
   border-radius: 5em;
   display: inline-block;
-  box-shadow: 0 .25em .5em 0 rgba(0,0,0,.1);
+  -box-shadow: 0 .25em .5em 0 rgba(0,0,0,.1);
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
   width: 100%;
 }
-#button-big:hover {box-shadow: 0 .25em .5em 0 rgba(0,0,0,.2);}
 /*SIZE CARS MAP*/
 #ya {
   padding: 0;
@@ -513,7 +513,7 @@ button {
 #card {
   min-height: 13em;
   border-radius: .5em;
-  background: linear-gradient(to top left, rgb(33,47,70), #039BE5);
+  background: linear-gradient(to top left, #01579B, #039BE5);
   box-shadow: 0 .5em 1em 0 rgba(0,0,0,.2);
 }
 #card:hover {box-shadow: 0 .5em 1em 0 rgba(0,0,0,.3);}
@@ -528,9 +528,6 @@ button {
   color: #fff;
 }
 
-#text {font-size: 1.125em;}
-#text-buy {font-size: 1.125em;padding-right: .25em;}
-
 
 /*FORM*/
 .form {
@@ -543,9 +540,9 @@ button {
   background-color: #323232;
 }
 .cell {
-  border-radius: .5em;
+  border-radius: .125em;
   background-color: #fff;
-  box-shadow: 0 .5em 1em 0 rgba(0,0,0,.15);
+  -box-shadow: 0 .5em 1em 0 rgba(0,0,0,.15);
 }
 /*CELL ON TARIFFS*/
 .cell-new {
@@ -569,7 +566,7 @@ button {
 .top-50    {padding-top: 5em;}
 .bottom-50 {padding-bottom: 5em;}
 /*SVG ICONS*/
-.download {width: 12em;margin: 1em 1em 1em 1em;}
+.download {width: 12em;margin: 0 1em 0 0;}
 .icon-new {height: 4.5em;}
 /*FA*/
 .vk {color:#5c81b3;}
@@ -588,19 +585,19 @@ button {
 #brands-gray {min-height: 15em;background: #f8f8f8;}
 #brands-black {min-height: 15em;background: #434343;}
 #brands-green {min-height: 7.5em;background: #4CAF50;}
-#brands-blue {min-height: 7.5em;background: rgb(33,47,70);}
+#brands-blue {min-height: 7.5em;background: #01579B;}
 
-.gradient {background: linear-gradient(to bottom right, #4CAF50, rgb(33,47,70));}
+.gradient {background: linear-gradient(to bottom right, #4CAF50, #01579B);}
 
 /*COLORS*/
 .green, .green-hover:hover          {background-color:#4CAF50;}
 #green, #green-hover:hover          {color:           #4CAF50;}
-.blue, .blue-hover:hover            {background-color:rgb(33,47,70);}
-#blue, #blue-hover:hover            {color:           rgb(33,47,70);}
+.blue, .blue-hover:hover            {background-color:#01579B;}
+#blue, #blue-hover:hover            {color:           #01579B;}
 .black, .black-hover:hover          {background-color:rgba(0,0,0,1);}
 #black, #black-hover:hover          {color:           rgba(0,0,0,1);}
-.darkgray, .darkgray-hover:hover    {background-color:#888;} /*TEXT*/
-#darkgray, #darkgray-hover:hover    {color:           #888;}
+.darkgray, .darkgray-hover:hover    {background-color:#999;} /*TEXT*/
+#darkgray, #darkgray-hover:hover    {color:           #999;}
 .gray, .gray-hover:hover            {background-color:#ddd;} /*LINES*/
 #gray, #gray-hover:hover            {color:           #ddd;}
 .lightgray, .lightgray-hover:hover  {background-color:#eee;} /*BG8*/
@@ -614,8 +611,8 @@ button {
 #half-white, #half-white-hover:hover{color:           rgba(255,255,255,.5);}
 
 #sidebar {
-  box-shadow: inset -0.25em 0 .5em 0 rgba(0,0,0,.35);
-  background-color: rgb(33,47,70);
+  -box-shadow: inset -0.25em 0 .5em 0 rgba(0,0,0,.35);
+  background-color: #eee;
   position: fixed;
 }
 #profile-line {box-shadow: inset -0.35em 0 .75em 0 rgba(0,0,0,.20);}
@@ -625,7 +622,7 @@ button {
 #sticky-content {height: 5em;}
 #sticky-header {
   box-shadow: 0 .25em .5em 0 rgba(0,0,0,.2);
-  background-color: rgb(33,47,70);
+  background-color: #01579B;
   position: fixed;
   width: 100%;
   z-index: 100;
