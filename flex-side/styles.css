@@ -171,7 +171,7 @@ button {
   font-weight: 400;
 }
 #button {
-  color: #B2EBF2;
+  color: #B2DFDB;
   padding: .75em 0;
   border-radius: 5em;
   cursor: pointer;
@@ -235,7 +235,7 @@ button {
   padding: .75em 0 .75em 0;
   background-color: none;
   letter-spacing: 3;
-  color: #fff;
+  color: #000;
   outline: none;
   cursor: pointer;
   display: inline-block;
@@ -304,17 +304,18 @@ button {
 .reg {font-weight: 500;}
 
 .bg {
-  background-image: url(img/bg.png);
+  background-image: url(img/bg.jpg);
   background-size: cover;
   background-position: center center;
+  -background-attachment: fixed
 }
 .bgg {background-color:rgba(0,0,0,.5);}
 
 /*COLORS*/
 .green, .green-hover:hover          {background-color:#00BCD4;}
 #green, #green-hover:hover          {color:           #00BCD4;}
-.blue, .blue-hover:hover            {background-color:#006064;}
-#blue, #blue-hover:hover            {color:           #006064;}
+.blue, .blue-hover:hover            {background-color:#00695C;}
+#blue, #blue-hover:hover            {color:           #00695C;}
 .black, .black-hover:hover          {background-color:rgba(0,0,0,1);}
 #black, #black-hover:hover          {color:           rgba(0,0,0,1);}
 .darkgray, .darkgray-hover:hover    {background-color:#9E9E9E;} /*TEXT*/
@@ -326,7 +327,7 @@ button {
 
 /*SIDEBAR*/
 #sidebar {
-  background-color: #006064;
+  background-color: #00695C;
   position: fixed;
   box-shadow: inset -0.25em 0 .5em 0 rgba(0,0,0,.25);
 }
@@ -334,10 +335,12 @@ button {
 /*STICKY MENU*/
 #sticky-content {height: 5em;}
 #sticky-header {
-  background-color: #006064;
+  background-color: #00695C;
   position: fixed;
   width: 100%;
   z-index: 100;
+  box-shadow: 0 .25em .5em 0 rgba(0,0,0,.25);
+
 }
 /*STICKY MENU JUMP*/
 .sticky-jump {
