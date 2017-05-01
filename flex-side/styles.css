@@ -152,6 +152,7 @@ button {
   padding: .3em .6em;
   border-radius: .125em;
   cursor: auto;
+  color: 757575;
 }
 #field {
   padding: 1em 1.25em;
@@ -299,6 +300,8 @@ button {
 .bottom-50 {padding-bottom: 5em;}
 
 .light {font-weight: 300;}
+.medium {font-weight: 400;}
+.reg {font-weight: 500;}
 
 .bg {
   background-image: url(img/bg.png);
