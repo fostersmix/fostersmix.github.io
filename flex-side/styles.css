@@ -69,7 +69,7 @@
   .hide-md {display: none;}
   /*.hide-lg {display: inline;}*/
   body {
-    font: 400 1.5em 'Roboto', sans-serif;
+    font: 300 1.5em 'Roboto', sans-serif;
     background: #fff;
     color: #000;
     margin-top: 0;
@@ -100,7 +100,7 @@
   .hide-md {display: inline;}*/
   .hide-lg {display: none;}
   body {
-    font: 400 1.25em 'Roboto', sans-serif;
+    font: 300 1.25em 'Roboto', sans-serif;
     background: #fff;
     color: #000;
     margin-top: 0;
@@ -146,7 +146,7 @@ button {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
-#dotted-green {border-bottom: 1px dotted #66BB6A;color:#66BB6A;}
+#dotted-green {border-bottom: 1px dotted #00BCD4;color:#00BCD4;}
 #gosnomer {
   background: #F5F5F5;
   padding: .3em .6em;
@@ -186,25 +186,16 @@ button {
   cursor: pointer;
   background: none;
 }
-#button-red {
-  color: #FFEB3B;
-  padding: 0 1em;
-  border-radius: 5em;
-  font: 400 1em/2 'Roboto', sans-serif;
-  cursor: pointer;
-  border: 2px solid #FFEB3B;
-  -background: #fff;
-}
 #button-green {
   color: #fff;
   padding: 0 1em;
   border-radius: 5em;
   font: 400 1em/2 'Roboto', sans-serif;
   cursor: pointer;
-  background: #66BB6A;
+  background: #00BCD4;
 }
 #button-green:hover {
-  background-color: #66BB6A;
+  background-color: #00BCD4;
   color: #fff;
 }
 #button-green-full {
@@ -212,7 +203,7 @@ button {
   border-radius: 5em;
   font: 400 1em/3 'Roboto', sans-serif;
   cursor: pointer;
-  background: #66BB6A;
+  background: #00BCD4;
   width: 100%;
 }
 #button-border-white {
@@ -225,17 +216,17 @@ button {
   background: none;
 }
 #button-border {
-  color: #66BB6A;
+  color: #00BCD4;
   padding: 0 1em;
   border-radius: 5em;
-  border: 2px solid #66BB6A;
+  border: 2px solid #00BCD4;
   font: 400 1em/2 'Roboto', sans-serif;
   cursor: pointer;
   background: none;
   -margin-left: -1em;
 }
 #button-border:hover {
-  background-color: #66BB6A;
+  background-color: #00BCD4;
   color: #fff;
 }
 #button-big {
@@ -308,9 +299,16 @@ button {
 
 .light {font-weight: 300;}
 
+.bg {
+  background-image: url(img/belka.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+.bgg {background-color:rgba(0,0,0,.5);}
+
 /*COLORS*/
-.green, .green-hover:hover          {background-color:#66BB6A;}
-#green, #green-hover:hover          {color:           #66BB6A;}
+.green, .green-hover:hover          {background-color:#00BCD4;}
+#green, #green-hover:hover          {color:           #00BCD4;}
 .blue, .blue-hover:hover            {background-color:#006064;}
 #blue, #blue-hover:hover            {color:           #006064;}
 .black, .black-hover:hover          {background-color:rgba(0,0,0,1);}
@@ -326,6 +324,7 @@ button {
 #sidebar {
   background-color: #006064;
   position: fixed;
+  box-shadow: inset -0.25em 0 .5em 0 rgba(0,0,0,.25);
 }
 
 /*STICKY MENU*/
@@ -347,7 +346,7 @@ button {
 /*ACCORDION MENU*/
 button.accordion {
   font: 400 1.5em 'Roboto', sans-serif;
-  color: #66BB6A;
+  color: #00BCD4;
   margin: 0;
   padding: 0;
   background: none;
