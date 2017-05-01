@@ -274,6 +274,7 @@ button {
 .cell {
   border-radius: .125em;
   background-color: #fff;
+  box-shadow: 0 .25em .25em 0 rgba(0,0,0,.05);
 }
 .cell-none {
   border-radius: .125em;
@@ -300,7 +301,7 @@ button {
 .light {font-weight: 300;}
 
 .bg {
-  background-image: url(img/belka.jpg);
+  background-image: url(img/bg.png);
   background-size: cover;
   background-position: center center;
 }
