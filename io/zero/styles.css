@@ -211,12 +211,15 @@ a:hover {color: #0066FF;}
   color: #fff;
 }
 
+#scroll {overflow: scroll;}
+#no {white-space: nowrap;}
+
 .screen {min-height: 100vh;}
 .top {padding-top: 2em;}
 .bottom {padding-bottom: 2em;}
 
 .blue, .blue-hover:hover          {background-color:#0066FF;}
-#blue, #blue-hover:hover          {color: #0066FF;}
+#blue, #blue-hover:hover          {color: #0066FF;cursor: pointer;}
 .black, .black-hover:hover          {background-color:#000;}
 #black, #black-hover:hover          {color: #000;}
 .white, .white-hover:hover          {background-color:#fff;}
