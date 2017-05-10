@@ -87,6 +87,18 @@ a:hover {color: #0066FF;}
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
 #delete:hover {box-shadow: inset 0 0 10em rgba(0,0,0,.1)}
+#name {
+  font: bold 2em/2 'PT Sans', sans-serif;
+  color: #000;
+  background: #fff;
+  border: none;
+  cursor: pointer;
+  word-break: break-all;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -moz-tap-highlight-color: rgba(0,0,0,0);
+}
+#name:hover {color: #0066FF;}
 #delete::after {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
@@ -216,6 +228,7 @@ a:hover {color: #0066FF;}
 
 .screen {min-height: 100vh;}
 .top {padding-top: 2em;}
+.top-small {padding-top: 1em;}
 .bottom {padding-bottom: 2em;}
 
 .blue, .blue-hover:hover          {background-color:#0066FF;}
