@@ -5,58 +5,58 @@ body {
   margin-bottom: 0;
 }
 
-#search {
-  font: normal 1em/2 'Ionicons', 'PT Sans', sans-serif;
-  color: #000;
-  background-color: #f8f8f8;
-  border: none;
-  border-radius: 5em;
-  padding: 0 1em;
-  margin: 0;
-  outline: none;
-  width: 100%;
-  -transition: .4s;
-}
-#search-no:hover {background-color: #f8f8f8;}
-
-input                                   {color: #000;} /*inactive*/
-input::-webkit-input-placeholder        {color: #000;}
-input::-moz-placeholder                 {color: #000;}
-input:-moz-placeholder                  {color: #000;}
-input:-ms-input-placeholder             {color: #000;}
-input:hover                             {color: #0066FF;} /*hover*/
-input:hover::-webkit-input-placeholder  {color: #0066FF;}
-input:hover::-moz-placeholder           {color: #0066FF;}
-input:hover:-moz-placeholder            {color: #0066FF;}
-input:hover:-ms-input-placeholder       {color: #0066FF;}
-input:focus                             {color: transparent;} /*focus*/
-input:focus::-webkit-input-placeholder  {color: transparent;}
-input:focus::-moz-placeholder           {color: transparent;}
-input:focus:-moz-placeholder            {color: transparent;}
-input:focus:-ms-input-placeholder       {color: transparent;}
-
 @media only screen and (max-width: 48em) {
   .hide-mobile {display: none;}
   body {font-size: 3em;}
-  .line {height: .125em;}
 }
 @media only screen and (max-width: 62em) {
   .hide-mobile {display: none;}
   body {font-size: 2.5em;}
-  #search {background-color: #eee;}
-  #search:hover {background-color: #eee;}
-  .line {height: .125em;}
 }
 @media only screen and (min-width: 62em) {
-  .hide-desktop {display: none;}
+  .hide-tablet {display: none;}
   body {font-size: 2em;}
-  .line {height: .125em;}
+  #tag, #tag-left, #tag-right {
+    background: linear-gradient(to top, #fdfdfd, #e7e7e7);
+    box-shadow: inset 0 1px 0 0 #d6d6d6;
+    color: #000;
+    white-space: nowrap;
+    margin: .5em;
+    border-radius: 5em;
+  }
+  #tag:hover, #tag-left:hover, #tag-right:hover {box-shadow: inset 0 0 10em rgba(0,0,0,.1)}
 }
+
 @media only screen and (min-width: 75em) {
   .hide-desktop {display: none;}
-  .hide-lg {display: none;}
   body {font-size: 1em;}
-  .line {height: 1px;}
+  #tag {
+    background: linear-gradient(to top, #fdfdfd, #e7e7e7);
+    box-shadow: inset 0 1px 0 0 #d6d6d6;
+    color: #000;
+    white-space: nowrap;
+    margin: .5em 0 .5em 0;
+    border-radius: 0;
+  }
+  #tag:hover {box-shadow: inset 0 0 10em rgba(0,0,0,.1)}
+  #tag-left {
+    background: linear-gradient(to top, #fdfdfd, #e7e7e7);
+    box-shadow: inset 0 1px 0 0 #d6d6d6;
+    color: #000;
+    white-space: nowrap;
+    margin: .5em 0 .5em 0;
+    border-radius: 5em 0 0 5em;
+  }
+  #tag-left:hover {box-shadow: inset 0 0 10em rgba(0,0,0,.1)}
+  #tag-right {
+    background: linear-gradient(to top, #fdfdfd, #e7e7e7);
+    box-shadow: inset 0 1px 0 0 #d6d6d6;
+    color: #000;
+    white-space: nowrap;
+    margin: .5em 0 .5em 0;
+    border-radius: 0 5em 5em 0;
+  }
+  #tag-right:hover {box-shadow: inset 0 0 10em rgba(0,0,0,.1)}
 }
 
 a:link, a:visited, a:active {
@@ -82,7 +82,7 @@ button {
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
 
-#logo {font: 700 1em/1 'PT Sans', sans-serif;}
+#logo {font: bold 1em/1 'PT Sans', sans-serif;}
 
 #delete {
   font: normal 2em/2 'PT Sans', sans-serif;
@@ -110,34 +110,6 @@ button {
 }
 #name:hover {color: #0066FF;}
 
-#tag {
-  background: linear-gradient(to top, #fdfdfd, #e7e7e7);
-  box-shadow: inset 0 1px 0 0 #d6d6d6;
-  color: #000;
-  white-space: nowrap;
-  margin: .5em 0 .5em 0;
-  border-radius: 0;
-}
-#tag:hover {box-shadow: inset 0 0 10em rgba(0,0,0,.1)}
-#tag-left {
-  background: linear-gradient(to top, #fdfdfd, #e7e7e7);
-  box-shadow: inset 0 1px 0 0 #d6d6d6;
-  color: #000;
-  white-space: nowrap;
-  margin: .5em 0 .5em 0;
-  border-radius: 5em 0 0 5em;
-}
-#tag-left:hover {box-shadow: inset 0 0 10em rgba(0,0,0,.1)}
-#tag-right {
-  background: linear-gradient(to top, #fdfdfd, #e7e7e7);
-  box-shadow: inset 0 1px 0 0 #d6d6d6;
-  color: #000;
-  white-space: nowrap;
-  margin: .5em 0 .5em 0;
-  border-radius: 0 5em 5em 0;
-}
-#tag-right:hover {box-shadow: inset 0 0 10em rgba(0,0,0,.1)}
-
 #more {
   background: linear-gradient(to bottom, #fdfdfd, #e7e7e7);
   color: #000;
@@ -158,37 +130,56 @@ button {
   background-color: #0066FF;
   color: #fff;
 }
-
 #connect-mobile {
   font: normal 1em/3 'PT Sans', sans-serif;
-  background: none;
-  color: #0066FF;
-  border: .25rem solid #0066FF;
+  background: #0066FF;
+  color: #fff;
   width: 100%;
   white-space:nowrap;
 }
-#connect-mobile:hover {
-  background-color: #0066FF;
-  color: #fff;
+
+#search {
+  font: normal 1em/2 'Ionicons', 'PT Sans', sans-serif;
+  color: #000;
+  background-color: #eee;
+  border: none;
+  border-radius: 5em;
+  padding: 0 1em;
+  margin: 0;
+  outline: none;
+  width: 100%;
 }
 
-#scroll {overflow: scroll;}
-#no {white-space: nowrap;}
+input                                   {color: #000;} /*inactive*/
+input::-webkit-input-placeholder        {color: #000;}
+input::-moz-placeholder                 {color: #000;}
+input:-moz-placeholder                  {color: #000;}
+input:-ms-input-placeholder             {color: #000;}
+input:hover                             {color: #0066FF;} /*hover*/
+input:hover::-webkit-input-placeholder  {color: #0066FF;}
+input:hover::-moz-placeholder           {color: #0066FF;}
+input:hover:-moz-placeholder            {color: #0066FF;}
+input:hover:-ms-input-placeholder       {color: #0066FF;}
+input:focus                             {color: transparent;} /*focus*/
+input:focus::-webkit-input-placeholder  {color: transparent;}
+input:focus::-moz-placeholder           {color: transparent;}
+input:focus:-moz-placeholder            {color: transparent;}
+input:focus:-ms-input-placeholder       {color: transparent;}
 
 .screen {min-height: 100vh;}
 .top {padding-top: 2em;}
-.top-small {padding-top: 1em;}
 .bottom {padding-bottom: 2em;}
+.line {height: .125em;}
 
-.blue, .blue-hover:hover          {background-color:#0066FF;}
-#blue, #blue-hover:hover          {color: #0066FF;cursor: pointer;}
+.blue, .blue-hover:hover            {background-color:#0066FF;}
+#blue, #blue-hover:hover            {color: #0066FF;}
 .black, .black-hover:hover          {background-color:#000;}
 #black, #black-hover:hover          {color: #000;}
-.white, .white-hover:hover          {background-color:#fff;}
-#white, #white-hover:hover          {color: #fff;}
 .darkgray, .darkgray-hover:hover    {background-color:#aaa;}
 #darkgray, #darkgray-hover:hover    {color: #aaa;}
 .gray, .gray-hover:hover            {background-color:#ddd;}
 #gray, #gray-hover:hover            {color: #ddd;}
 .lightgray, .lightgray-hover:hover  {background-color:#eee;}
 #lightgray, #lightgray-hover:hover  {color: #eee;}
+.white, .white-hover:hover          {background-color:#fff;}
+#white, #white-hover:hover          {color: #fff;}
