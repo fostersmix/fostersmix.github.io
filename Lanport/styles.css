@@ -62,9 +62,23 @@ body {
 h1 {
 padding: 0;
 margin: 0;
-font: normal 1.75em/1 'PT Sans', sans-serif;
+font: normal 1.5em/1 'PT Sans', sans-serif;
 color: #000;
 }
+h2 {
+padding: 0;
+margin: 0;
+font: bold 4em/1 'PT Sans', sans-serif;
+color: #000;
+}
+h3 {
+padding: 0;
+margin: 0;
+font: bold 2.5em/1 'PT Sans', sans-serif;
+color: #000;
+}
+
+
 
 a:link, a:visited, a:active {
   font: normal 1em/1 'PT Sans', sans-serif;
@@ -91,13 +105,60 @@ button {
 
 #logo {font: bold 1em/1 'PT Sans', sans-serif;}
 #button {
-  font: normal 1.25em/1.5 'PT Sans', sans-serif;
-  padding: .4em 1em .4em 1em;
-  border-radius: .125em;
+  font: normal 1em/1.5 'PT Sans', sans-serif;
+  padding: .5em 1em .5em 1em;
+  border-radius: .25em;
   -margin: .25em;
   color: #fff;
   background-color: #fe7d14; 
 }
+#button-full {
+  font: normal 1em/1.5 'PT Sans', sans-serif;
+  padding: .5em 1em .5em 1em;
+  border-radius: .25em;
+  -margin: .25em;
+  color: #fff;
+  background-color: #fe7d14; 
+  width: 100%;
+}
+#button-bw {
+  font: normal 1.25em/1.5 'PT Sans', sans-serif;
+  padding: .5em 1em .5em 1em;
+  border-radius: .25em;
+  -margin: .25em;
+  color: #000;
+  background-color: #fff; 
+}
+#icon {font-size: 1em}
+#button-border {
+  font: normal 1em/1.5 'PT Sans', sans-serif;
+  padding: .5em 1em .5em 1em;
+  border-radius: .25em;
+  -margin: .25em;
+  color: #000;
+  border: 2px solid #fe7d14;
+  background-color: transparent; 
+}
+#button-border-white {
+  font: normal 1em/1.5 'PT Sans', sans-serif;
+  padding: .5em 1em .5em 1em;
+  border-radius: .25em;
+  -margin: .25em;
+  color: #fff;
+  border: 2px solid #fff;
+  background-color: #fe7d14; 
+}
+#button-border:hover {color: #fe7d14;}
+#button-phone {
+  font: normal 1.25em/1.5 'PT Sans', sans-serif;
+  padding: .5em 1em .5em 1em;
+  border-radius: .25em;
+  -margin: .25em;
+  color: #fe7d14;
+  background-color: #fff; 
+}
+#dotted-black {border-bottom: 1px dotted #000;}
+#dotted-white {color: #fff;border-bottom: 1px dotted #fff;}
 #field {
   font: normal 1em/1 'PT Sans', sans-serif;
   padding: 1em 1.5em 1em 1.5em;
@@ -183,23 +244,35 @@ input:focus:-ms-input-placeholder       {color: transparent;}
 .bottom-big {padding-bottom: 3em;}
 .top {padding-top: 2em;}
 .bottom {padding-bottom: 2em;}
-.top-menu {padding-top: 1.75em;}
-.bottom-menu {padding-bottom: 1.75em;}
+.top-menu {padding-top: 2.25em;}
+.bottom-menu {padding-bottom: 2.25em;}
 .top-middle {padding-top: 1em;}
 .bottom-middle {padding-bottom: 1em;}
 .top-small {padding-top: .5em;}
 .bottom-small {padding-bottom: .5em;}
-.line {height: .125em;background-color:#ddd;}
+.line {height: 1px;background-color:#ddd;}
 .line-left {border-left: 1px solid #eee;}
 .line-right {border-right: 1px solid #eee;}
 .round {border-radius: .25em;}
 .round-top {border-radius: .25em .25em 0 0 ;}
+.round-bottom {border-radius: 0 0 .25em .25em;}
 .height-1 {height: 12em;}
+.height-18 {height: 18em;}
 .height-2 {height: 22em;}
-.accent-top {box-shadow: inset 0 0 0 1px #fe7d14;}
-.accent {box-shadow: 0 .125em .25em .125em #ddd;}
+.accent {box-shadow: inset 0 0 0 2px #fe7d14;}
+.shadow {box-shadow: 0 .125em .5em .125em #ddd;}
 .shadow-border {box-shadow: inset 0 0 0 1px #ddd;}
 .full {width: 100%;}
+.menu:hover {
+background-color: #fe7d14;
+color: #fff;
+cursor: pointer;
+}
+.menu2:hover {
+box-shadow: inset 0 4px 0 0 #fe7d14;
+color: #fe7d14;
+cursor: pointer;
+}
 
 .bg {
   background-image: url(bg.jpg);
@@ -207,7 +280,7 @@ input:focus:-ms-input-placeholder       {color: transparent;}
   background-position: center center;
 }
 
-
+#orange-dotted {color: #fe7d14;border-bottom: 1px dotted #fe7d14;}
 .orange, .orange-hover:hover            {background-color: #fe7d14;}
 #orange, #orange-hover:hover            {color: #fe7d14;}
 .black, .black-hover:hover          {background-color:#000;}
