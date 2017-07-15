@@ -77,6 +77,19 @@ margin: 0;
 font: bold 2.5em/1 'PT Sans', sans-serif;
 color: #000;
 }
+h4 {
+padding: 0;
+margin: 0;
+font: bold 2em/1 'PT Sans', sans-serif;
+color: #000;
+}
+
+.bgg {
+  background-image: url(netis_wf2409e.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  
+}
 
 
 
@@ -121,8 +134,8 @@ button {
   background-color: #fe7d14; 
   width: 100%;
 }
-#button-bw {
-  font: normal 1.25em/1.5 'PT Sans', sans-serif;
+#button-white {
+  font: normal 1em/1.5 'PT Sans', sans-serif;
   padding: .5em 1em .5em 1em;
   border-radius: .25em;
   -margin: .25em;
@@ -137,7 +150,7 @@ button {
   -margin: .25em;
   color: #000;
   border: 2px solid #fe7d14;
-  background-color: transparent; 
+  background-color: #fff; 
 }
 #button-border-white {
   font: normal 1em/1.5 'PT Sans', sans-serif;
@@ -256,11 +269,14 @@ input:focus:-ms-input-placeholder       {color: transparent;}
 .round {border-radius: .25em;}
 .round-top {border-radius: .25em .25em 0 0 ;}
 .round-bottom {border-radius: 0 0 .25em .25em;}
-.height-1 {height: 12em;}
-.height-18 {height: 18em;}
-.height-2 {height: 22em;}
+.height-12 {min-height: 12em;}
+.height-16 {min-height: 16em;}
+.height-18 {min-height: 18em;}
+.height-24 {min-height: 24em;}
 .accent {box-shadow: inset 0 0 0 2px #fe7d14;}
+.shadow2 {box-shadow:  inset 0 .125em .5em 0 rgba(0,0,0,.25);background-color: #ddd;}
 .shadow {box-shadow: 0 .125em .5em .125em #ddd;}
+.shadow-hover:hover {box-shadow: 0 .125em .5em .125em #ddd;}
 .shadow-border {box-shadow: inset 0 0 0 1px #ddd;}
 .full {width: 100%;}
 .menu:hover {
@@ -279,6 +295,7 @@ cursor: pointer;
   background-size: cover;
   background-position: center center;
 }
+.hh {height:100%;}
 
 #orange-dotted {color: #fe7d14;border-bottom: 1px dotted #fe7d14;}
 .orange, .orange-hover:hover            {background-color: #fe7d14;}
