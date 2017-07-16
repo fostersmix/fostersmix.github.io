@@ -91,6 +91,13 @@ color: #000;
   
 }
 
+.bg2 {
+  background-image: url(bg.png);
+  -background-size: contain;
+  background-repeat: repeat;
+  
+}
+
 
 
 a:link, a:visited, a:active {
@@ -273,9 +280,11 @@ input:focus:-ms-input-placeholder       {color: transparent;}
 .height-16 {min-height: 16em;}
 .height-18 {min-height: 18em;}
 .height-24 {min-height: 24em;}
-.accent {box-shadow: inset 0 0 0 2px #fe7d14;}
-.shadow2 {box-shadow:  inset 0 .25em .5em 0 rgba(0,0,0,.25);background-color: #ddd;}
-.shadow {box-shadow: 0 .125em .5em .125em #ddd;}
+.accent {box-shadow: inset 0 0 0 1px #fe7d14;}
+.accent-gray {box-shadow: inset 0 0 0 1px #D4D1CB;}
+
+.shadow2 {box-shadow:  inset 0 .75em .5em 0 rgba(0,0,0,.25);-background-color: #ddd;}
+.shadow {box-shadow: 0 .125em .5em .125em #D4D1CB;}
 .shadow-hover:hover {box-shadow: 0 .125em .5em .125em #ddd;}
 .shadow-border {box-shadow: inset 0 0 0 1px #ddd;}
 .full {width: 100%;}
@@ -304,11 +313,11 @@ cursor: pointer;
 #black, #black-hover:hover          {color: #000;}
 .dark, .dark-hover:hover    {background-color:#383838;}
 #dark, #dark-hover:hover    {color: #383838;}
-.darkgray, .darkgray-hover:hover    {background-color:#999;}
-#darkgray, #darkgray-hover:hover    {color: #999;}
-.gray, .gray-hover:hover    {background-color:#eee;}
-#gray, #gray-hover:hover    {color: #eee;}
-.lightgray, .lightgray-hover:hover    {background-color:#fdfdfd;}
-#lightgray, #lightgray-hover:hover    {color: #fdfdfd;}
+.darkgray, .darkgray-hover:hover    {background-color:#A5A39E;}
+#darkgray, #darkgray-hover:hover    {color: #A5A39E;}
+.gray, .gray-hover:hover    {background-color:#ece9e2;}
+#gray, #gray-hover:hover    {color: #ece9e2;}
+.lightgray, .lightgray-hover:hover    {background-color:#D4D1CB;}
+#lightgray, #lightgray-hover:hover    {color: #D4D1CB;}
 .white, .white-hover:hover          {background-color:#fff;}
 #white, #white-hover:hover          {color: #fff;}
