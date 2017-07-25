@@ -153,11 +153,20 @@ button {
 #button-border {
   font: normal 1em/1.5 'PT Sans', sans-serif;
   padding: .5em 1em .5em 1em;
-  -border-radius: .25em;
+  border-radius: .25em;
   -margin: .25em;
   color: #fff;
   -border: 2px solid #fe7d14;
   background-color: #fe7d14; 
+}
+#button-border-2 {
+  font: normal 1em/1.5 'PT Sans', sans-serif;
+  padding: .5em 1em .5em 1em;
+  border-radius: .25em;
+  -margin: .25em;
+  color: #fe7d14;
+  border: 2px solid #fe7d14;
+  background-color: #fff; 
 }
 .button-gray {
   font: normal 1em/1.5 'PT Sans', sans-serif;
