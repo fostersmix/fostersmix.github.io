@@ -87,6 +87,7 @@ color: #000;
 .bgg {
   background-image: url(netis_wf2409e.jpg);
   background-size: contain;
+  background-position: right center;
   background-repeat: no-repeat;
   
 }
@@ -301,6 +302,7 @@ input:focus:-ms-input-placeholder       {color: transparent;}
 .height-12 {min-height: 12em;}
 .height-16 {min-height: 16em;}
 .height-18 {min-height: 18em;}
+.height-37 {min-height: 36em;}
 .height-24 {min-height: 24em;}
 .accent {box-shadow: inset 0 0 0 .25em #fe7d14;}
 .accent-top {box-shadow: inset 0 .25em 0 0 #fe7d14;}
@@ -309,7 +311,7 @@ input:focus:-ms-input-placeholder       {color: transparent;}
 .bb-left {border-left: 1px solid #D4D1CB;}
 .padding-left {padding-left: 1.5em;}
 
-
+.gradient {background: linear-gradient(to left top, #fe7d14, #ffa359);}
 .shadow2 {box-shadow:  inset 0 .75em .5em 0 rgba(0,0,0,.25);-background-color: #ddd;}
 .shadow {box-shadow: 0 .125em .5em .125em #D4D1CB;}
 .shadow-hover:hover {box-shadow: 0 .125em .5em .125em #ddd;}
@@ -321,7 +323,7 @@ color: #fff;
 cursor: pointer;
 }
 .menu2:hover {
-box-shadow: 0 4px 0 0 #fe7d14;
+box-shadow: inset 0 -4px 0 0 #fe7d14;
 color: #fe7d14;
 cursor: pointer;
 }
@@ -340,14 +342,15 @@ cursor: pointer;
 #black, #black-hover:hover          {color: #000;}
 .dark, .dark-hover:hover    {background-color:#383838;}
 #dark, #dark-hover:hover    {color: #383838;}
+
 .darkgray, .darkgray-hover:hover    {background-color:#A5A39E;}
 #darkgray, #darkgray-hover:hover    {color: #A5A39E;}
-.gray, .gray-hover:hover    {background-color:#ece9e2;}
-#gray, #gray-hover:hover    {color: #ece9e2;}
-.lightgray, .lightgray-hover:hover    {background-color:#D4D1CB;}
-#lightgray, #lightgray-hover:hover    {color: #D4D1CB;}
+.gray, .gray-hover:hover    {background-color:#D4D1CB;}
+#gray, #gray-hover:hover    {color: #D4D1CB;}
+.lightgray, .lightgray-hover:hover    {background-color:#ece9e2;}
+#lightgray, #lightgray-hover:hover    {color: #ece9e2;}
 .white, .white-hover:hover          {background-color:#fff;}
 #white, #white-hover:hover          {color: #fff;}
-#lightgray, #lightgray-hover:hover    {color: #D4D1CB;}
+
 .half, .half-hover:hover          {background-color:rgba(255,255,255,.25);}
 #half, #half-hover:hover          {color: rgba(255,255,255,.25);}
