@@ -125,42 +125,17 @@ button {
 }
 
 #logo {font: bold 1em/1 'PT Sans', sans-serif;}
+
+#icon {font-size: 1em}
 #button {
   font: normal 1em/1.5 'PT Sans', sans-serif;
   padding: .5em 1em .5em 1em;
   border-radius: .25em;
   -margin: .25em;
   color: #fff;
-  background-color: #fe7d14; 
+  background-color: #fe7d14;   
 }
-#button-full {
-  font: normal 1em/1.5 'PT Sans', sans-serif;
-  padding: .5em 1em .5em 1em;
-  border-radius: .25em;
-  -margin: .25em;
-  color: #fff;
-  background-color: #fe7d14; 
-  width: 100%;
-}
-#button-white {
-  font: normal 1em/1.5 'PT Sans', sans-serif;
-  padding: .5em 1em .5em 1em;
-  border-radius: .25em;
-  -margin: .25em;
-  color: #000;
-  background-color: #fff; 
-}
-#icon {font-size: 1em}
 #button-border {
-  font: normal 1em/1.5 'PT Sans', sans-serif;
-  padding: .5em 1em .5em 1em;
-  border-radius: .25em;
-  -margin: .25em;
-  color: #fff;
-  -border: 2px solid #fe7d14;
-  background-color: #fe7d14; 
-}
-#button-border-2 {
   font: normal 1em/1.5 'PT Sans', sans-serif;
   padding: .5em 1em .5em 1em;
   border-radius: .25em;
@@ -168,6 +143,15 @@ button {
   color: #fe7d14;
   border: 2px solid #fe7d14;
   background-color: #fff; 
+}
+#button-border:hover {
+  font: normal 1em/1.5 'PT Sans', sans-serif;
+  padding: .5em 1em .5em 1em;
+  border-radius: .25em;
+  -margin: .25em;
+  color: #fff;
+  border: 2px solid #fe7d14;
+  background-color: #fe7d14; 
 }
 .button-gray {
   font: normal 1em/1.5 'PT Sans', sans-serif;
@@ -178,26 +162,9 @@ button {
   -border: 2px solid #fe7d14;
   background-color: #eee; 
 }
-#button-border-white {
-  font: normal 1em/1.5 'PT Sans', sans-serif;
-  padding: .5em 1em .5em 1em;
-  border-radius: .25em;
-  -margin: .25em;
-  color: #fff;
-  border: 2px solid #fff;
-  background-color: #fe7d14; 
-}
-#button-border:hover {color: #fe7d14;}
-#button-phone {
-  font: normal 1.25em/1.5 'PT Sans', sans-serif;
-  padding: .5em 1em .5em 1em;
-  border-radius: .25em;
-  -margin: .25em;
-  color: #fe7d14;
-  background-color: #fff; 
-}
 #dotted-black {border-bottom: 1px dotted #000;}
 #dotted-white {color: #fff;border-bottom: 1px dotted #fff;}
+
 #field {
   font: normal 1em/1 'PT Sans', sans-serif;
   padding: 1em 1.5em 1em 1.5em;
@@ -209,96 +176,32 @@ button {
   display: inline-block;
 }
 
-#name {
-  font: bold 2em/2 'PT Sans', sans-serif;
-  color: #000;
-  background: #fff;
-  padding: 0;
-  word-break: break-all;
-}
-#name:hover {color: #3CB371;}
-
-#more {
-  background: linear-gradient(to bottom, #fdfdfd, #e7e7e7);
-  color: #000;
-  white-space:nowrap;
-  margin: .5em;
-}
-#more:hover {
-  box-shadow: inset 0 1px 0 0 #d6d6d6;
-  background: linear-gradient(to top, #fdfdfd, #e7e7e7);
-}
-
-#connect {
-  background: none;
-  color: #3CB371;
-  box-shadow: 0 0 0 1px #b3e6c9;
-}
-#connect:hover {
-  background-color: #3CB371;
-  box-shadow: 0 0 0 1px #3CB371;
-  color: #fff;
-}
-#connect-mobile {
-  font: normal 1em/3 'PT Sans', sans-serif;
-  background: #3CB371;
-  color: #fff;
-  width: 100%;
-  white-space:nowrap;
-}
-
-#search {
-font: normal 2em/2 'Ionicons', 'PT Sans', sans-serif;
-padding: 0 .75em 0 .75em;
-border-radius: .125em;
-color: #fff;
-background: #3CB371;
-border: none;
-outline: none;
-width: 100%;
--webkit-tap-highlight-color: rgba(0,0,0,0);
--moz-tap-highlight-color: rgba(0,0,0,0);
-}
-#search:hover {box-shadow: inset 0 0 10em rgba(0,0,0,.1); -background-color: rgb(0,93,233);}
-
-
-input                                   {color: #fff;} /*inactive*/
-input::-webkit-input-placeholder        {color: #fff;}
-input::-moz-placeholder                 {color: #fff;}
-input:-moz-placeholder                  {color: #fff;}
-input:-ms-input-placeholder             {color: #fff;}
-input:hover                             {color: #fff;} /*hover*/
-input:hover::-webkit-input-placeholder  {color: #fff;}
-input:hover::-moz-placeholder           {color: #fff;}
-input:hover:-moz-placeholder            {color: #fff;}
-input:hover:-ms-input-placeholder       {color: #fff;}
-input:focus                             {color: transparent;} /*focus*/
-input:focus::-webkit-input-placeholder  {color: transparent;}
-input:focus::-moz-placeholder           {color: transparent;}
-input:focus:-moz-placeholder            {color: transparent;}
-input:focus:-ms-input-placeholder       {color: transparent;}
-
 .screen {min-height: 100vh;}
-.top-big {padding-top: 3em;}
-.bottom-big {padding-bottom: 3em;}
-.top {padding-top: 2em;}
-.bottom {padding-bottom: 2em;}
-.top-15 {padding-top: 1.5em;}
-.bottom-15 {padding-bottom: 1.5em;}
-.top-menu {padding-top: 2.25em;}
-.bottom-menu {padding-bottom: 2.25em;}
-.top-middle {padding-top: 1em;}
-.bottom-middle {padding-bottom: 1em;}
+
 .top-small {padding-top: .5em;}
+.top-middle {padding-top: 1em;}
+.top-15 {padding-top: 1.5em;}
+.top {padding-top: 2em;}
+.top-225 {padding-top: 2.25em;}
+.top-30 {padding-top: 3em;}
+
 .bottom-small {padding-bottom: .5em;}
+.bottom-middle {padding-bottom: 1em;}
+.bottom-15 {padding-bottom: 1.5em;}
+.bottom {padding-bottom: 2em;}
+.bottom-225 {padding-bottom: 2.25em;}
+.bottom-30 {padding-bottom: 3em;}
+
 .line {height: 1px;background-color:#ddd;}
 .line-left {border-left: 1px solid #eee;}
 .line-right {border-right: 1px solid #eee;}
+
 .round {border-radius: .25em;}
 .round-top {border-radius: .25em .25em 0 0 ;}
 .round-bottom {border-radius: 0 0 .25em .25em;}
 .round-left {border-radius: .25em 0 0 .25em ;}
 .round-right {border-radius: 0 .25em .25em 0;}
+
 .height-12 {min-height: 12em;}
 .height-16 {min-height: 16em;}
 .height-18 {min-height: 18em;}
@@ -312,17 +215,10 @@ input:focus:-ms-input-placeholder       {color: transparent;}
 .padding-left {padding-left: 1.5em;}
 
 .gradient {background: linear-gradient(to left top, #fe7d14, #ffa359);}
-.shadow2 {box-shadow:  inset 0 .75em .5em 0 rgba(0,0,0,.25);-background-color: #ddd;}
 .shadow {box-shadow: 0 .125em .5em .125em #D4D1CB;}
 .shadow-hover:hover {box-shadow: 0 .125em .5em .125em #ddd;}
-.shadow-border {box-shadow: inset 0 0 0 1px #ddd;}
 .full {width: 100%;}
 .menu:hover {
-background-color: #fe7d14;
-color: #fff;
-cursor: pointer;
-}
-.menu2:hover {
 box-shadow: inset 0 -4px 0 0 #fe7d14;
 color: #fe7d14;
 cursor: pointer;
