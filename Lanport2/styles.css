@@ -3,7 +3,7 @@ body {
   color: #000;
   margin-top: 0;
   margin-bottom: 0;
-  background-color: #e7e2d5;
+  background-color: #EAEAEA;
 }
 
 @media only screen and (max-width: 48em) {
@@ -161,7 +161,7 @@ button {
   -margin: .25em;
   color: #000;
   -border: 2px solid #FF6F00;
-  background-color: #eee; 
+  background-color: #EAEAEA; 
 }
 #dotted-black {border-bottom: 1px dotted #000;}
 #dotted-white {color: #fff;border-bottom: 1px dotted #fff;}
@@ -218,8 +218,8 @@ button {
 .bb-right {border-right: 1px solid #eee;}
 .padding-left {padding-left: 1.5em;}
 .gradient {background: linear-gradient(to left top, #FF6F00, #FFB300);}
-.shadow {box-shadow: 0 .25em 1.5em .125em #9c9681;}
-.shadow-hover:hover {box-shadow: 0 .125em .5em .125em #CFCBBF;}
+.shadow {box-shadow: 0 .25em 1.5em .125em #aaa;}
+.shadow-hover:hover {box-shadow: 0 .125em .5em .125em #ddd;}
 .full {width: 100%;}
 .menu:hover {
 box-shadow: inset 0 -4px 0 0 #FF6F00;
@@ -242,12 +242,12 @@ cursor: pointer;
 .dark, .dark-hover:hover    {background-color:#383838;}
 #dark, #dark-hover:hover    {color: #383838;}
 
-.darkgray, .darkgray-hover:hover    {background-color:#A5A39E;}
-#darkgray, #darkgray-hover:hover    {color: #A5A39E;}
+.darkgray, .darkgray-hover:hover    {background-color:#aaa;}
+#darkgray, #darkgray-hover:hover    {color: #aaa;}
 .gray, .gray-hover:hover    {background-color:#eee;}
 #gray, #gray-hover:hover    {color: #eee;}
-.lightgray, .lightgray-hover:hover    {background-color:#e7e2d5;}
-#lightgray, #lightgray-hover:hover    {color: #e7e2d5;}
+.lightgray, .lightgray-hover:hover    {background-color:#eee;}
+#lightgray, #lightgray-hover:hover    {color: #eee;}
 
 .white, .white-hover:hover          {background-color:#fff;}
 #white, #white-hover:hover          {color: #fff;}
