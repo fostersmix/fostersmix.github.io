@@ -210,7 +210,7 @@ button {
 .height-26 {min-height: 26em;}
 .h100 {height: 100%;}
 .accent {box-shadow: inset 0 0 0 1px #FF6F00, 0 0 .5em 0 #FFB300, 0 0 1em 0 #FF6F00;}
-.book {box-shadow: ;}
+.accent:hover {box-shadow: inset 0 0 0 1px #FF6F00, 0 0 1em 0 #FFB300, 0 0 2em 0 #FF6F00;}
 .accent-gray {box-shadow: inset 0 0 0 1px #D4D1CB;}
 .bb {border-left: 1px solid #D4D1CB; border-right: 1px solid #D4D1CB; }
 .bb-left {border-left: 1px solid #eee;}
