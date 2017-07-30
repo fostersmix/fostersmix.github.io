@@ -133,15 +133,15 @@ button {
   border-radius: .25em;
   -margin: .25em;
   color: #fff;
-  background-color: #fe7d14;   
+  background: linear-gradient(to left top, #FF6F00, #FFB300);  
 }
 #button-border {
   font: normal 1em/1.5 'PT Sans', sans-serif;
   padding: .5em 1em .5em 1em;
   border-radius: .25em;
   -margin: .25em;
-  color: #fe7d14;
-  border: 2px solid #fe7d14;
+  color: #FF6F00;
+  border: 1px solid #FF6F00;
   background-color: #fff; 
 }
 #button-border:hover {
@@ -150,8 +150,8 @@ button {
   border-radius: .25em;
   -margin: .25em;
   color: #fff;
-  border: 2px solid #fe7d14;
-  background-color: #fe7d14; 
+  border: none;
+  background: linear-gradient(to left top, #FF6F00, #FFB300);  
 }
 .button-gray {
   font: normal 1em/1.5 'PT Sans', sans-serif;
@@ -159,7 +159,7 @@ button {
   -border-radius: .25em;
   -margin: .25em;
   color: #000;
-  -border: 2px solid #fe7d14;
+  -border: 2px solid #FF6F00;
   background-color: #eee; 
 }
 #dotted-black {border-bottom: 1px dotted #000;}
@@ -201,26 +201,29 @@ button {
 .round-bottom {border-radius: 0 0 .25em .25em;}
 .round-left {border-radius: .25em 0 0 .25em ;}
 .round-right {border-radius: 0 .25em .25em 0;}
-
+      
 .height-12 {min-height: 12em;}
 .height-16 {min-height: 16em;}
 .height-18 {min-height: 18em;}
 .height-37 {min-height: 36em;}
 .height-24 {min-height: 24em;}
-.accent {box-shadow: inset 0 0 0 .25em #fe7d14;}
-.accent-top {box-shadow: inset 0 .25em 0 0 #fe7d14;}
+.height-26 {min-height: 26em;}
+.h100 {height: 100%;}
+.accent {box-shadow: inset 0 0 0 2px #FF6F00;}
+.accent-top {box-shadow: inset 0 .25em 0 0 #FF6F00;}
 .accent-gray {box-shadow: inset 0 0 0 1px #D4D1CB;}
 .bb {border-left: 1px solid #D4D1CB; border-right: 1px solid #D4D1CB; }
-.bb-left {border-left: 1px solid #D4D1CB;}
+.bb-left {border-left: 1px solid #eee;}
+.bb-right {border-right: 1px solid #eee;}
 .padding-left {padding-left: 1.5em;}
 
-.gradient {background: linear-gradient(to left top, #fe7d14, #ffa359);}
-.shadow {box-shadow: 0 .125em .5em .125em #D4D1CB;}
-.shadow-hover:hover {box-shadow: 0 .125em .5em .125em #ddd;}
+.gradient {background: linear-gradient(to left top, #FF6F00, #FFB300);}
+.shadow {box-shadow: 0 .125em .5em .125em #CFCBBF;}
+.shadow-hover:hover {box-shadow: 0 .125em .5em .125em #CFCBBF;}
 .full {width: 100%;}
 .menu:hover {
-box-shadow: inset 0 -4px 0 0 #fe7d14;
-color: #fe7d14;
+box-shadow: inset 0 -4px 0 0 #FF6F00;
+color: #FF6F00;
 cursor: pointer;
 }
 
@@ -231,9 +234,9 @@ cursor: pointer;
 }
 .hh {height:100%;}
 
-#orange-dotted {color: #fe7d14;border-bottom: 1px dotted #fe7d14;}
-.orange, .orange-hover:hover            {background-color: #fe7d14;}
-#orange, #orange-hover:hover            {color: #fe7d14;}
+#orange-dotted {color: #FF6F00;border-bottom: 1px dotted #FF6F00;}
+.orange, .orange-hover:hover            {background-color: #FF6F00;}
+#orange, #orange-hover:hover            {color: #FF6F00;}
 .black, .black-hover:hover          {background-color:#000;}
 #black, #black-hover:hover          {color: #000;}
 .dark, .dark-hover:hover    {background-color:#383838;}
@@ -241,10 +244,11 @@ cursor: pointer;
 
 .darkgray, .darkgray-hover:hover    {background-color:#A5A39E;}
 #darkgray, #darkgray-hover:hover    {color: #A5A39E;}
-.gray, .gray-hover:hover    {background-color:#D4D1CB;}
-#gray, #gray-hover:hover    {color: #D4D1CB;}
-.lightgray, .lightgray-hover:hover    {background-color:#ece9e2;}
-#lightgray, #lightgray-hover:hover    {color: #ece9e2;}
+.gray, .gray-hover:hover    {background-color:#eee;}
+#gray, #gray-hover:hover    {color: #eee;}
+.lightgray, .lightgray-hover:hover    {background-color:#e7e2d5;}
+#lightgray, #lightgray-hover:hover    {color: #e7e2d5;}
+
 .white, .white-hover:hover          {background-color:#fff;}
 #white, #white-hover:hover          {color: #fff;}
 
