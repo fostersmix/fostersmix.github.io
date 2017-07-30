@@ -3,7 +3,7 @@ body {
   color: #000;
   margin-top: 0;
   margin-bottom: 0;
-  background-color: #EAEAEA;
+  background-color: #e3e1dc;
 }
 
 @media only screen and (max-width: 48em) {
@@ -136,6 +136,15 @@ button {
   color: #fff;
   background: linear-gradient(to left top, #FF6F00, #FFB300);  
 }
+#button-poster {
+  font: normal 1em/1.5 'PT Sans', sans-serif;
+  padding: .5em 1em .5em 1em;
+  border-radius: .25em;
+  -margin: .25em;
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: transparent; 
+}
 #button-border {
   font: normal 1em/1.5 'PT Sans', sans-serif;
   padding: .5em 1em .5em 1em;
@@ -161,7 +170,7 @@ button {
   -margin: .25em;
   color: #000;
   -border: 2px solid #FF6F00;
-  background-color: #EAEAEA; 
+  background-color: #f0ede5; 
 }
 #dotted-black {border-bottom: 1px dotted #000;}
 #dotted-white {color: #fff;border-bottom: 1px dotted #fff;}
@@ -222,8 +231,8 @@ button {
 .bb-right {border-right: 1px solid #eee;}
 .padding-left {padding-left: 1.5em;}
 .gradient {background: linear-gradient(to left top, #FF6F00, #FFB300);}
-.shadow {box-shadow: 0 .25em 1.5em .125em #aaa;}
-.shadow-hover:hover {box-shadow: 0 .125em .5em .125em #ddd;}
+.shadow {box-shadow: 0 .25em 1.5em .125em #aba596;}
+.shadow-hover:hover {box-shadow: 0 .125em .5em .125em #cfcbbf;}
 .full {width: 100%;}
 .menu:hover {
 box-shadow: inset 0 -4px 0 0 #FF6F00;
@@ -248,10 +257,10 @@ cursor: pointer;
 
 .darkgray, .darkgray-hover:hover    {background-color:#aaa;}
 #darkgray, #darkgray-hover:hover    {color: #aaa;}
-.gray, .gray-hover:hover    {background-color:#eee;}
-#gray, #gray-hover:hover    {color: #eee;}
-.lightgray, .lightgray-hover:hover    {background-color:#eee;}
-#lightgray, #lightgray-hover:hover    {color: #eee;}
+.gray, .gray-hover:hover    {background-color:#e7e2d5;}
+#gray, #gray-hover:hover    {color: #e7e2d5;}
+.lightgray, .lightgray-hover:hover    {background-color:#e7e2d5;}
+#lightgray, #lightgray-hover:hover    {color: #e7e2d5;}
 
 .white, .white-hover:hover          {background-color:#fff;}
 #white, #white-hover:hover          {color: #fff;}
