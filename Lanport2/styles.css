@@ -186,6 +186,9 @@ button {
 .top-225 {padding-top: 2.25em;}
 .top-30 {padding-top: 3em;}
 
+.top-025 {padding-top: .25em;}
+.bottm-025 {padding-bottom: .25em;}
+
 .bottom-small {padding-bottom: .5em;}
 .bottom-middle {padding-bottom: 1em;}
 .bottom-15 {padding-bottom: 1.5em;}
@@ -207,6 +210,7 @@ button {
 .height-12 {min-height: 12em;}
 .height-16 {min-height: 16em;}
 .height-18 {min-height: 18em;}
+.height-21 {min-height: 21em;}
 .height-37 {min-height: 36em;}
 .height-24 {min-height: 24em;}
 .height-26 {min-height: 26em;}
