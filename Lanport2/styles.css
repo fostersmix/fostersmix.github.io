@@ -127,7 +127,21 @@ button {
 
 #logo {font: bold 1em/1 'PT Sans', sans-serif;}
 
-#icon {font-size: 1em}
+#icon-big {
+font-size: 1em;
+vertical-align: top;
+color: #fff;
+}
+#icon {
+font-size: 1em;
+vertical-align: top;
+color: #FF6F00;
+}
+#icon-small {
+font-size: 1em;
+vertical-align: top;
+color: #FF6F00;
+}
 #button {
   font: normal 1em/1.5 'PT Sans', sans-serif;
   padding: .5em 1em .5em 1em;
