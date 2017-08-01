@@ -186,6 +186,16 @@ color: #FF6F00;
   -border: 2px solid #FF6F00;
   background-color: #f0ede5; 
 }
+.button-drop-gray {
+  font: normal 1em/1.5 'PT Sans', sans-serif;
+  -padding: .5em 1em .5em 1em;
+  -border-radius: .25em;
+  -margin: .25em;
+  color: #000;
+  border: 1px solid #f0ede5;
+  -background-color: #f0ede5; 
+  background: linear-gradient(to top, #f0ede5, #fff);
+}
 #dotted-black {border-bottom: 1px dotted #000;}
 #dotted-white {color: #fff;border-bottom: 1px dotted #fff;}
 
