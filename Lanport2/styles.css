@@ -3,7 +3,7 @@ body {
   color: #000;
   margin-top: 0;
   margin-bottom: 0;
-  background-color: #CCCAC6;
+  background-color: #eeeeee;
 }
 
 @media only screen and (max-width: 48em) {
@@ -155,6 +155,14 @@ color: #fff;
   color: #fff;
   background: linear-gradient(to left top, #FF6F00, #FFB300);  
 }
+#button-sml {
+  font: normal .75em/1 'PT Sans', sans-serif;
+  padding: .5em 1em .5em 1em;
+  border-radius: .25em;
+  -margin: .25em;
+  color: #fff;
+  background: linear-gradient(to left top, #FF6F00, #FFB300);  
+}
 #button-poster {
   font: normal 1em/1.5 'PT Sans', sans-serif;
   padding: .5em 1em .5em 1em;
@@ -290,10 +298,10 @@ cursor: pointer;
 #darkgray, #darkgray-hover:hover    {color: #aaa;}
 .gray, .gray-hover:hover    {background-color:#e7e2d5;}
 #gray, #gray-hover:hover    {color: #e7e2d5;}
-.lightgray, .lightgray-hover:hover    {background-color:#e7e2d5;}
-#lightgray, #lightgray-hover:hover    {color: #e7e2d5;}
-.lightgray2, .lightgray2-hover:hover    {background-color:#EBEAE6;}
-#lightgray2, #lightgray2-hover:hover    {color: #EBEAE6;}
+.lightgray, .lightgray-hover:hover    {background-color:#eeeeee;}
+#lightgray, #lightgray-hover:hover    {color: #eeeeee;}
+.lightgray2, .lightgray2-hover:hover    {background-color:#fbfbfb;}
+#lightgray2, #lightgray2-hover:hover    {color: #fbfbfb;}
 
 .white, .white-hover:hover          {background-color:#fff;}
 #white, #white-hover:hover          {color: #fff;}
