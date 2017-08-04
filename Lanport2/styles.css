@@ -142,8 +142,13 @@ font-size: 1em;
 vertical-align: top;
 color: #FF6F00;
 }
+#icon-small-white {
+font-size: 1em;
+vertical-align: top;
+color: #fff;
+}
 #button {
-  font: normal 1em/1.5 'PT Sans', sans-serif;
+  -font: normal 1em/1.5 'PT Sans', sans-serif;
   padding: .5em 1em .5em 1em;
   border-radius: .25em;
   -margin: .25em;
@@ -214,6 +219,7 @@ color: #FF6F00;
 
 .top-small {padding-top: .5em;}
 .top-middle {padding-top: 1em;}
+.top-125 {padding-top: 1.25em;}
 .top-15 {padding-top: 1.5em;}
 .top {padding-top: 2em;}
 .top-225 {padding-top: 2.25em;}
@@ -224,6 +230,7 @@ color: #FF6F00;
 
 .bottom-small {padding-bottom: .5em;}
 .bottom-middle {padding-bottom: 1em;}
+.bottom-125 {padding-bottom: 1.25em;}
 .bottom-15 {padding-bottom: 1.5em;}
 .bottom {padding-bottom: 2em;}
 .bottom-225 {padding-bottom: 2.25em;}
@@ -243,7 +250,7 @@ color: #FF6F00;
 .height-12 {min-height: 12em;}
 .height-16 {min-height: 16em;}
 .height-18 {min-height: 18em;}
-.height-22 {min-height: 21em;}
+.height-22 {min-height: 21.4em;}
 .height-37 {min-height: 36em;}
 .height-24 {min-height: 24em;}
 .height-26 {min-height: 26em;}
@@ -259,7 +266,7 @@ color: #FF6F00;
 .shadow-hover:hover {box-shadow: 0 .125em .5em .125em #cfcbbf;}
 .full {width: 100%;}
 .menu:hover {
-box-shadow: inset 0 -4px 0 0 #FF6F00;
+box-shadow: inset 0 4px 0 0 #FF6F00;
 color: #FF6F00;
 cursor: pointer;
 }
