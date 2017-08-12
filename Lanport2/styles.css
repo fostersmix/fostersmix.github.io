@@ -69,7 +69,7 @@ color: #000;
 h2 {
 padding: 0;
 margin: 0;
-font: bold 4em/1 'PT Sans', sans-serif;
+font: bold 1.75em/1 'PT Sans', sans-serif;
 color: #000;
 }
 h3 {
@@ -82,6 +82,12 @@ h4 {
 padding: 0;
 margin: 0;
 font: normal 1.25em/1 'PT Sans', sans-serif;
+color: #000;
+}
+h5 {
+padding: 0;
+margin: 0;
+font: bold 4em/1 'PT Sans', sans-serif;
 color: #000;
 }
 
@@ -158,10 +164,18 @@ color: #fff;
 #button-sml {
   font: normal .75em/1 'PT Sans', sans-serif;
   padding: .5em 1em .5em 1em;
-  border-radius: .25em;
+  border-radius: 0 .25em .25em 0;
   -margin: .25em;
   color: #fff;
   background: linear-gradient(to left top, #FF6F00, #FFB300);  
+}
+#button-sml-gray {
+  font: normal .75em/1 'PT Sans', sans-serif;
+  padding: .5em 1em .5em 1em;
+  border-radius:  .25em 0 0 .25em;
+  -margin: .25em;
+  color: #000;
+  background: linear-gradient(to left top, #ddd, #eee);  
 }
 #button-poster {
   font: normal 1em/1.5 'PT Sans', sans-serif;
@@ -227,6 +241,7 @@ color: #fff;
 
 .top-small {padding-top: .5em;}
 .top-middle {padding-top: 1em;}
+.top-075 {padding-top: .75em;}
 .top-125 {padding-top: 1.25em;}
 .top-15 {padding-top: 1.5em;}
 .top {padding-top: 2em;}
