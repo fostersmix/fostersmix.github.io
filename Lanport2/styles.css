@@ -161,10 +161,18 @@ color: #fff;
   color: #fff;
   background: linear-gradient(to left top, #FF6F00, #FFB300);  
 }
+#button-middle {
+  font: normal 1.125em/1.5 'PT Sans', sans-serif;
+  padding: .5em 1em .5em 1em;
+  border-radius: .25em;
+  -margin: .25em;
+  color: #fff;
+  background: linear-gradient(to left top, #FF6F00, #FFB300);  
+}
 #button-sml {
   font: normal .75em/1 'PT Sans', sans-serif;
   padding: .5em 1em .5em 1em;
-  border-radius: 0 .25em .25em 0;
+  border-radius: .25em;
   -margin: .25em;
   color: #fff;
   background: linear-gradient(to left top, #FF6F00, #FFB300);  
@@ -172,7 +180,7 @@ color: #fff;
 #button-sml-gray {
   font: normal .75em/1 'PT Sans', sans-serif;
   padding: .5em 1em .5em 1em;
-  border-radius:  .25em 0 0 .25em;
+  border-radius: .25em;
   -margin: .25em;
   color: #000;
   background: linear-gradient(to left top, #ddd, #eee);  
@@ -221,7 +229,7 @@ color: #fff;
   color: #000;
   border: 1px solid #f0ede5;
   -background-color: #f0ede5; 
-  background: linear-gradient(to top, #f0ede5, #fff);
+  background: linear-gradient(to top, #f0ede5, #FCFBF9);
 }
 #dotted-black {border-bottom: 1px dotted #000;}
 #dotted-white {color: #fff;border-bottom: 1px dotted #fff;}
@@ -277,6 +285,7 @@ color: #fff;
 .height-37 {min-height: 36em;}
 .height-24 {min-height: 24em;}
 .height-26 {min-height: 26em;}
+.shadow-sucks-hover:hover {box-shadow: 0 .125em .5em .125em #cfcbbf, inset 0 0 0 1px #FF6F00;}
 .accent {box-shadow: inset 0 0 0 1px #FF6F00;}
 .accent:hover {box-shadow: inset 0 0 0 0px #FF6F00, 0 .1em .1em 0 #FFB300, 0 .1em 1em 0 #FF6F00;}
 .accent-gray {box-shadow: inset 0 0 0 1px #D4D1CB;}
