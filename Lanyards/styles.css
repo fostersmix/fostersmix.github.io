@@ -125,8 +125,8 @@
     display: inline;
     -webkit-font-smoothing: subpixel-antialiased;
   }
-  h1 {font-size: 4em;}
-  h2 {font-size: 3em;}
+  h1 {font-size: 5em;font-weight: bold;}
+  h2 {font-size: 3em;font-weight: bold;}
   h3 {font-size: 2em;}
   h4 {font-size: 1.5em;}
   
@@ -196,13 +196,20 @@ a.btn_header {
 }
 a.btn_header_active {font-weight: bold;}
 
+a.metro {
+  font: normal 1em 'PT Sans', sans-serif;
+  color: #fff;
+  padding: .3em 1em;
+  border-radius: 5em;
+  background: #9C27B0;  
+}
+
 a.buy {
   font: normal 1.25em 'PT Sans', sans-serif;
   color: #fff;
   padding: .5em 1.2em;
   border-radius: .5em;
   background: linear-gradient(to top, #FF5722, #FF9800);  
-
 }
 a.buy:hover {background: linear-gradient(to bottom, #FF5722, #FF9800);  }
 
@@ -279,6 +286,11 @@ a.icon_header:link, a.icon_header:visited, a.icon_header:active, a.icon_header:h
   background-position: top left;
   background-repeat: repeat;
 }
+.bg2 {
+  background-image: url(lenta.png);
+  background-position: top left;
+  background-repeat: no-repeat;
+}
 
 .carsharing {font-size: 1.125em;}
 .full {width: 100%;}
@@ -337,12 +349,24 @@ a.icon_header:link, a.icon_header:visited, a.icon_header:active, a.icon_header:h
   width: 2.5em;
   border-radius: 50%;
   margin: .25em;
+  box-shadow: 0 2px 1px 0 #aaa;
+  transition: .2s;
+}
+.round-color:hover {  
+  transform: translate(0,-0.25em);
+  box-shadow: 0 4px 6px 0 #aaa;
 }
 .round-big-color {
   height: 8em;
   width: 8em;
   border-radius: 50%;
   margin: .25em;
+  box-shadow: 0 4px 6px 0 #aaa;
+  transition: .2s;
+}
+.round-big-color:hover {
+  transform: translate(0,-0.5em);
+  box-shadow: 0 8px 12px 0 #aaa;
 }
 .color-1 {background-image: url(color-1.png);}
 .color-2 {background-image: url(color-2.png);}
