@@ -205,7 +205,7 @@ a.metro {
 }
 
 a.buy {
-  font: normal 1.25em 'PT Sans', sans-serif;
+  font: normal 1em 'PT Sans', sans-serif;
   color: #fff;
   padding: .5em 1.2em;
   border-radius: .5em;
@@ -213,6 +213,14 @@ a.buy {
 }
 a.buy:hover {background: linear-gradient(to bottom, #FF5722, #FF9800);  }
 
+a.btn_border_orange {
+  font: normal 1em 'PT Sans', sans-serif;
+  color: #FF5722;
+  border: 1px solid #FF5722;
+  padding: .4em .8em;
+  border-radius: .5em;
+  background: none;
+}
 a.btn_border {
   font: normal 1em 'PT Sans', sans-serif;
   color: #000;
