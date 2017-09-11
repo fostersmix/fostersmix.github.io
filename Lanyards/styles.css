@@ -125,7 +125,7 @@
     display: inline;
     -webkit-font-smoothing: subpixel-antialiased;
   }
-  h1 {font-size: 5em;font-weight: bold;}
+  h1 {font-size: 6em;font-weight: bold;}
   h2 {font-size: 3em;font-weight: bold;}
   h3 {font-size: 2em;}
   h4 {font-size: 1.5em;}
@@ -376,6 +376,18 @@ a.icon_header:link, a.icon_header:visited, a.icon_header:active, a.icon_header:h
   transform: translate(0,-0.5em);
   box-shadow: 0 8px 12px 0 #aaa;
 }
+.round-metod-color {
+  height: 8em;
+  width: 8em;
+  border-radius: 50%;
+  margin: .25em;
+  box-shadow: 0 0 0 1em #EEEEEE;
+  transition: .2s;
+}
+.round-metod-color:hover {
+  transform: translate(0,-0.5em);
+  box-shadow: 0 0 0 1.2em #FF5722;
+}
 .color-1 {background-image: url(color-1.png);}
 .color-2 {background-image: url(color-2.png);}
 .color-3 {background-image: url(color-3.png);}
@@ -396,6 +408,10 @@ a.icon_header:link, a.icon_header:visited, a.icon_header:active, a.icon_header:h
 .color-3 {background-image: url(color-3.png);}
 .color-3 {background-image: url(color-3.png);}
 .color-3 {background-image: url(color-3.png);}
+.img-1 {background-image: url(1.png);background-size: cover;}
+.img-2 {background-image: url(2.png);background-size: cover;}
+.img-3 {background-image: url(3.png);background-size: cover;}
+.img-4 {background-image: url(4.png);background-size: cover;}
 
 
 /*STEP-BY-STEP*/
