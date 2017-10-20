@@ -71,7 +71,6 @@ a:hover {color: #0372fb;}
 button {
   font: normal 1em/2 'PT Sans', sans-serif;
   color: #fff;
-  -background: #0372fb;
   background: linear-gradient(to bottom, #37a9fb, #0372fb);
   border: none;
   padding: 0 1em 0 1em;
@@ -88,7 +87,10 @@ button {
   margin: .25em;
   word-break: break-all;
 }
-.delete:hover {box-shadow: inset 0 0 10em rgba(0,0,0,.0625);} /*inset 0 .125em .25em 0em rgba(0,0,0,.125);*/
+.delete:hover {
+  -box-shadow: inset 0 0 10em rgba(0,0,0,.0625);
+  background: linear-gradient(to bottom, #FFCC66, #CC6600);
+} /*inset 0 .125em .25em 0em rgba(0,0,0,.125);*/
 .delete::after {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
@@ -136,18 +138,20 @@ button {
 .tag_inside {color: #000;}
 
 #search {
-  font: normal 2em 'Ionicons', 'PT Sans', sans-serif;
+  font: normal 2em/1 'Ionicons', 'PT Sans', sans-serif;
   padding: .5em .75em .5em .75em;
   border-radius: .125em;
   color: #fff;
   background: linear-gradient(to top, #37a9fb, #0372fb);
   border: none;
+  border-top: 1px solid #006cf1;
   outline: none;
   width: 100%;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
 
+.search_height {min-height: 8em;}
 .screen {min-height: 100vh;}
 .top {padding-top: 2em;}
 .bottom {padding-bottom: 2em;}
