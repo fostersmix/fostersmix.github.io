@@ -126,10 +126,10 @@ button {
   color: #0372fb;
 }
 .connect_mobile {
-  font: normal 1em/3 'PT Sans', sans-serif;
-  background: #0372fb;
+  -font: normal 1em/3 'PT Sans', sans-serif;
+  background: linear-gradient(to bottom, #37a9fb, #0372fb);
   color: #fff;
-  width: 100%;
+  -width: 100%;
   white-space:nowrap;
   border-radius: 5em;
 }
