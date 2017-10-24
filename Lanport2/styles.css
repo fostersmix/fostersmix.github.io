@@ -326,6 +326,22 @@ cursor: pointer;
 .dark, .dark-hover:hover    {background-color:#383838;}
 #dark, #dark-hover:hover    {color: #383838;}
 
+#switch-left {
+  border-radius: .5em 0 0 .5em;
+  background: linear-gradient(to left top, #FF6F00, #FFB300);  
+  font: normal 1.125em/1.5 'PT Sans', sans-serif;
+  padding: .5em 1em .5em 1em;
+}
+#switch-right {
+  border-radius: 0 .5em .5em 0;
+  background: rgba(0,0,0,.25);  
+  font: normal 1.125em/1.5 'PT Sans', sans-serif;
+  padding: .5em 1em .5em 1em;
+  color: white;
+}
+
+.bluegrad {  background: radial-gradient(rgb(0,140,180), rgb(0,85,120), rgb(10,15,40));  }
+
 .darkgray, .darkgray-hover:hover    {background-color:#aaa;}
 #darkgray, #darkgray-hover:hover    {color: #aaa;}
 .gray, .gray-hover:hover    {background-color:#e7e2d5;}
