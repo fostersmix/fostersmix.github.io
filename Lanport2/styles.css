@@ -133,6 +133,11 @@ button {
 
 #logo {font: bold 1em/1 'PT Sans', sans-serif;}
 
+#icon-bigger {
+font-size: 6em;
+vertical-align: top;
+color:rgba(255,255,255,.75);
+}
 #icon-big {
 font-size: 1em;
 vertical-align: top;
@@ -331,6 +336,7 @@ cursor: pointer;
   background: linear-gradient(to left top, #FF6F00, #FFB300);  
   font: normal 1.125em/1.5 'PT Sans', sans-serif;
   padding: .5em 1em .5em 1em;
+  color:white;
 }
 #switch-right {
   border-radius: 0 .5em .5em 0;
