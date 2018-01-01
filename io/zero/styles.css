@@ -88,8 +88,8 @@ button {
   word-break: break-all;
 }
 .delete:hover {
-  box-shadow: inset 0 .1em .15em 0em rgba(0,0,0,.2);
-  background: linear-gradient(to top, #37a9fb, #0372fb);
+  box-shadow: inset 0 .1em .15em 0em rgba(0,0,0,.25);
+  background: linear-gradient(to top, #aaa, #888);
   
 } /*inset 0 .125em .25em 0em rgba(0,0,0,.125);*/
 .delete::after {
