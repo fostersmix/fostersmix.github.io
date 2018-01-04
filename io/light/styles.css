@@ -1,0 +1,87 @@
+body {
+  font: normal 1em/1 'Arial', sans-serif;
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 48em) {
+  .hide-mobile {display: none;}
+  body {font-size: 3em;}
+}
+@media only screen and (max-width: 62em) {
+  .hide-mobile {display: none;}
+  body {font-size: 2.5em;}
+}
+@media only screen and (min-width: 62em) {
+  .hide-tablet {display: none;}
+  body {font-size: 2em;}
+}
+@media only screen and (min-width: 75em) {
+  .hide-desktop {display: none;}
+  body {font-size: 1em;}
+}
+
+a:link, a:visited, a:active, a:hover {
+  font: normal 1em/1 'Arial', sans-serif;
+  color: #000;
+	text-decoration: none;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -moz-tap-highlight-color: rgba(0,0,0,0);
+}
+
+a.delete:link, a.delete:visited, a.delete:active {
+  font: bold 5em/1.25 'Arial', sans-serif;
+  color: #000;
+  margin: .25em .5em .25em 0;
+  background: transparent;
+  word-break: normal;
+}
+a.delete:hover {text-decoration: line-through;} 
+
+a.more:link, a.more:visited, a.more:active {
+  font: normal 3em/1.5 'Arial', sans-serif;
+  white-space: nowrap;
+  color: orangered;
+  margin: .5em .75em .5em 0;
+}
+a.more:hover {color: #000;}
+
+a.connect:link, a.connect:visited, a.connect:active, a.connect:hover {
+  font: normal 3em/1.5 'Arial', sans-serif;
+  color: #000;
+  white-space: nowrap;
+  margin: .5em;
+}
+
+a.tag:link, a.tag:visited, a.tag:active, a.tag:hover {
+  font: normal 1em/1 'Arial', sans-serif;
+  color: #000;
+  white-space: nowrap;
+  margin: .25em;
+}
+
+.found {color: #bbb;}
+.line {height: 1px; background-color: #ddd;}
+.bg {background: linear-gradient(to top, #fff 75%, #F7F7F7);}
+.screen {min-height: 100vh;}
+.top {padding-top: 1em;}
+.bottom {padding-bottom: 1em;}
+
+/*
+input                                   {color: rgba(255,255,255,.8);}
+input::-webkit-input-placeholder        {color: rgba(255,255,255,.8);}
+input::-moz-placeholder                 {color: rgba(255,255,255,.8);}
+input:-moz-placeholder                  {color: rgba(255,255,255,.8);}
+input:-ms-input-placeholder             {color: rgba(255,255,255,.8);}
+input:hover                             {color: #fff;}
+input:hover::-webkit-input-placeholder  {color: #fff;}
+input:hover::-moz-placeholder           {color: #fff;}
+input:hover:-moz-placeholder            {color: #fff;}
+input:hover:-ms-input-placeholder       {color: #fff;}
+input:focus                             {color: transparent;}
+input:focus::-webkit-input-placeholder  {color: transparent;}
+input:focus::-moz-placeholder           {color: transparent;}
+input:focus:-moz-placeholder            {color: transparent;}
+input:focus:-ms-input-placeholder       {color: transparent;}
