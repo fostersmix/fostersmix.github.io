@@ -61,17 +61,18 @@ body {
 
 a:link, a:visited, a:active {
   font: normal 1em/1 'PT Sans', sans-serif;
-  color: #000;
 	text-decoration: none;
   outline: none;
+  color: #000;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
 a:hover {color: #0372fb;}
+
 button {
   font: normal 1em/2 'PT Sans', sans-serif;
   color: #fff;
-  background: linear-gradient(to bottom, #37a9fb, #0372fb);
+  background: none;
   border: none;
   padding: 0 1em 0 1em;
   cursor: pointer;
@@ -79,25 +80,16 @@ button {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
-#logo {
-  font: bold 1em/1 'PT Sans', sans-serif;
-  letter-spacing: 3;
-}
+
 .delete {
   font: normal 2em/2 'PT Sans', sans-serif;
+  background: linear-gradient(to bottom, #37a9fb, #0372fb);
   padding: 0 .75em 0 .75em;
   border-radius: .125em;
   margin: .25em;
   word-break: break-all;
 }
-.delete:hover {
-  box-shadow: inset 0 .0625em .125em 0em rgba(0,0,0,.5);
-} 
-/*
-inset 0 .125em .25em 0em rgba(0,0,0,.125);
-box-shadow: inset 0 .1em .15em 0em rgba(0,0,0,.25);
-background: linear-gradient(to top, #aaa, #888); 
-*/
+.delete:hover {box-shadow: inset 0 0 10em rgba(0,0,0,.1);} 
 .delete::after {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
@@ -106,14 +98,6 @@ background: linear-gradient(to top, #aaa, #888);
   content: "x";
 }
 .delete:hover::after {color: rgba(255,255,255,.75);}
-.name {
-  font: bold 2em/2 'PT Sans', sans-serif;
-  color: #000;
-  background: #fff;
-  padding: 0;
-  line-height: 1.25;
-}
-.name:hover {color: #0372fb;}
 
 .more {
   background: linear-gradient(to bottom, #fdfdfd, #e7e7e7);
@@ -125,38 +109,55 @@ background: linear-gradient(to top, #aaa, #888);
 .more:hover {
   box-shadow: inset 0 1px 0 0 #d6d6d6;
   background: linear-gradient(to top, #fdfdfd, #e7e7e7);
-  border-radius: 5em;
 }
-.connect {
-  background: none;
-  color: #000;
-}
-.connect:hover {
-  color: #0372fb;
-}
+
 .connect_mobile {
-  -font: normal 1em/3 'PT Sans', sans-serif;
   background: linear-gradient(to bottom, #37a9fb, #0372fb);
   color: #fff;
-  -width: 100%;
-  white-space:nowrap;
+  white-space: nowrap;
   border-radius: 5em;
 }
+
 .tag_inside {
-  color: #000; /*aaa*/
-  -padding: .25em;
-  white-space:nowrap;
-  background: none;
+  color: #000;
+  white-space: nowrap;
   cursor: text;
 }
-.example {
-  color: #0372fb !important;
+
+.name {
+  font: bold 2em/2 'PT Sans', sans-serif;
+  color: #000;
+  padding: 0;
+  line-height: 1.25;
+}
+.name:hover {color: #0372fb;}
+
+a.example:link, a.example:visited, a.example:active, a.example:hover {
+  color: #0372fb;
   border-bottom: 1px dotted #37a9fb;
 }
 
+.bg {background: linear-gradient(to top, #fff 90%, #fafafa);}
+.screen {min-height: 100vh;}
+.top {padding-top: 2em;}
+.bottom {padding-bottom: 2em;}
+.top-small {padding-top: .5em;}
+.bottom-small {padding-bottom: .5em;}
+.found {color: #aaa;}
+.line {
+  height: 2px;
+  background-color:#eee;
+  box-shadow: inset 0 1px 0 0 #ddd;
+}
+
+#logo {
+  font: bold 1em/1 'PT Sans', sans-serif;
+  letter-spacing: 5;
+}
+
 #search {
-  font: normal 2em/1 'Ionicons', 'PT Sans', sans-serif;
-  padding: .5em .75em .5em .75em;
+  font: normal 2em/0.5 'PT Sans', sans-serif;
+  padding: .4em .75em .4em .75em;
   border-radius: .125em;
   color: #fff;
   background: linear-gradient(to top, #37a9fb, #0372fb);
@@ -168,16 +169,6 @@ background: linear-gradient(to top, #aaa, #888);
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
-
-.gradient {background: linear-gradient(to top, #fff 90%, #fafafa);}
-.search_height {min-height: 7em;}
-.screen {min-height: 100vh;}
-.top {padding-top: 2em;}
-.bottom {padding-bottom: 2em;}
-.top-small {padding-top: .5em;}
-.bottom-small {padding-bottom: .5em;}
-.line {height: .125em;background-color:#ddd;}
-.found {color: #aaa;}
 
 input                                   {color: rgba(255,255,255,.8);} /*inactive*/
 input::-webkit-input-placeholder        {color: rgba(255,255,255,.8);}
