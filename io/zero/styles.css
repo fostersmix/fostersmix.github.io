@@ -156,7 +156,7 @@ a.example:link, a.example:visited, a.example:active, a.example:hover {
 }
 
 #search {
-  font: normal 2em/0.5 'PT Sans', sans-serif;
+  font: normal 2em/1.25 'PT Sans', sans-serif;
   padding: .4em .75em .4em .75em;
   border-radius: .125em;
   color: #fff;
