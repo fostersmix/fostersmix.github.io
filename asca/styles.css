@@ -305,7 +305,7 @@ input:focus:-ms-input-placeholder       {color: transparent;}
 #half, #half-hover:hover          {color: rgba(255,255,255,.5);}
 
 /*-------------------------------------STEP-BY-STEP---------------------------------------*/
-.hide-text {display: none;}
+.hide-text {display: none !important;}
 .circle-no {
   height: 4em;
   width: 4em;
