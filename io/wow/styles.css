@@ -1,5 +1,5 @@
 body {
-  font: 600 4em/1 'Montserrat', sans-serif;
+  font: 600 3.5em/1 'Montserrat', sans-serif;
   color: #000;
   margin-top: 0;
   margin-bottom: 0;
@@ -36,7 +36,8 @@ a.if:link, a.if:visited, a.if:active {
 	text-decoration: none;
   -background: #FFEA00;
   -background: linear-gradient(to bottom, #fdfdfd, #e7e7e7);
-  background: linear-gradient(to bottom, #37a9fb, #0372fb);
+  background: linear-gradient(to top, #37a9fb, #0372fb);
+  box-shadow: inset 0 1px 1px 0em rgba(0,0,0,.25);
   border-radius: 5em;
   -margin-right: .25em;
   outline: none;
@@ -64,7 +65,7 @@ a.del:link, a.del:visited, a.del:active {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
-a.del:hover {background: linear-gradient(to top, #fdfdfd, #e7e7e7);}
+a.del:hover {background: linear-gradient(to top, #fdfdfd, #e7e7e7);  box-shadow: inset 0 1px 1px 0 #d6d6d6;}
 
 .screen {min-height: 100vh;}
 .line {height: 1px;background-color:#ddd;}
