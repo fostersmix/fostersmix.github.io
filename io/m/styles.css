@@ -127,11 +127,6 @@ button {
   -border-bottom: 1px solid rgba(0,0,0,0.1);
   word-break: break-all;
 }
-.add:hover {background: #fafafa;border-bottom: 1px solid #fafafa;}
-.cell{
-  padding-top: 1em;
-  padding-bottom: 1em;
-}
 .cell:hover {background: #fafafa;}
   
 .padding {border-bottom: 1px solid rgba(0,0,0,0.1);}  
@@ -141,6 +136,10 @@ button {
 .screen {min-height: 100vh;}
 .line {height: 1px;}
 .top {padding-top: 2em;}
+.bottom {padding-bottom: 2em;}
+
+.b-left {border-left: 1px solid #ddd;}
+.gray {background: #ddd;}
 
 input                                   {color: rgba(255,255,255,.8);} /*inactive*/
 input::-webkit-input-placeholder        {color: rgba(255,255,255,.8);}
