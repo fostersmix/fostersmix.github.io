@@ -105,6 +105,8 @@ button {
   padding: 0 .75em 0 .75em;
   border-radius: .125em;
   margin:  .3em .25em .3em .25em;
+  
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
   word-break: break-all;
 }
 .delete:hover {box-shadow: inset 0 0 10em rgba(0,0,0,.1);} 
@@ -154,6 +156,11 @@ a.example:link, a.example:visited, a.example:active, a.example:hover {
   color: #0372fb;
   border-bottom: 1px dotted #37a9fb;
 }
+.border {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    border-radius: 2px;
+    background-color: white;
+  }
 
 .color {background: yellow;}
 .bg {background: linear-gradient(to top, #fff 90%, #fafafa);}
@@ -186,6 +193,7 @@ a.example:link, a.example:visited, a.example:active, a.example:hover {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
+.light {background-color: #fff;}
 
 input                                   {color: rgba(255,255,255,.8);} /*inactive*/
 input::-webkit-input-placeholder        {color: rgba(255,255,255,.8);}
