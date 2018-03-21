@@ -8,19 +8,39 @@ body {
 @media only screen and (max-width: 48em) {
   .hide-mobile {display: none;}
   body {font-size: 3em;}
+  .as {
+    font: 600 2em/1 'Montserrat', 'Roboto', sans-serif;  
+    padding: .5em 0 .5em 0;
+    color: #0372fb;
+  }
 }
 @media only screen and (max-width: 62em) {
   .hide-mobile {display: none;}
   body {font-size: 2.5em;}
+  .as {
+    font: 600 3em/1 'Montserrat', 'Roboto', sans-serif;  
+    padding: .5em 0 .5em 0;
+    color: #0372fb;
+  }
 }
 @media only screen and (min-width: 62em) {
   .hide-tablet {display: none;}
   body {font-size: 2em;}
+  .as {
+    font: 600 4em/1 'Montserrat', 'Roboto', sans-serif;  
+    padding: .5em 0 .5em 0;
+    color: #0372fb;
+  }
 }
 
 @media only screen and (min-width: 75em) {
   .hide-desktop {display: none;}
   body {font-size: 1em;}
+  .as {
+    font: 600 5em/1 'Montserrat', 'Roboto', sans-serif;  
+    padding: .5em 0 .5em 0;
+    color: #0372fb;
+  }
 }
 
 a:link, a:visited, a:active {
@@ -70,12 +90,6 @@ button {
   margin: .5em;
 }
 .add:hover {box-shadow: inset 0 0 10em 0 rgba(0,0,0,.05)}
-
-.as {
-  font: 600 5em/1 'Montserrat', 'Roboto', sans-serif;  
-  padding: .5em 0 .5em 0;
-  color: #0372fb;
-}
 
 .cell {border-bottom: 1px solid rgba(3, 114, 251,.1);}
 .cell:hover {border-bottom: 1px solid rgba(3, 114, 251,.25);}
