@@ -27,7 +27,7 @@ body {
   .hide-tablet {display: none;}
   body {font-size: 2em;}
   .as {
-    font: 600 4em/1 'Montserrat', 'Roboto', sans-serif;  
+    font: 600 2em/1 'Montserrat', 'Roboto', sans-serif;  
     padding: .5em 0 .5em 0;
     color: #0372fb;
   }
@@ -37,8 +37,8 @@ body {
   .hide-desktop {display: none;}
   body {font-size: 1em;}
   .as {
-    font: 600 4.5em/1 'Montserrat', 'Roboto', sans-serif;  
-    padding: .5em 0 .5em 0;
+    font: 600 2.5em/1 'Montserrat', 'Roboto', sans-serif;  
+    padding: 1.5em 0 2em 0;
     color: #0372fb;
   }
 }
@@ -93,6 +93,7 @@ button {
 
 .cell {border-bottom: 1px solid rgba(3, 114, 251,.1);}
 .cell:hover {border-bottom: 1px solid rgba(3, 114, 251,.25);}
+.b-left {border-left: 1px solid red;}
 
 .screen {min-height: 100vh;}
 .line {height: 1px;}
