@@ -70,13 +70,13 @@ button {
 .delete {
   font: 500 2.5em/1 'Montserrat', 'Roboto', sans-serif;
   -background: #FFFF66;
-  background: linear-gradient(to bottom, #66FFFF, #0372fb);
+  background: linear-gradient(to top, #66FFFF, #0372fb);
   padding: .4em .8em .4em .8em;
   -margin: .5em;
   border-radius: 0;
   color: #fff;
 }
-.delete:hover {background: #FFFF66;} 
+.delete:hover {  background: linear-gradient(to bottom, #66FFFF, #0372fb);} 
 .delete::after {
   font-family: 'Montserrat', 'Roboto', sans-serif;
   font-weight: 200;
@@ -89,13 +89,13 @@ button {
 .delete_left {
   font: 500 2.5em/1 'Montserrat', 'Roboto', sans-serif;
   -background: #FFFF66;
-  background: linear-gradient(to bottom, #66FFFF, #0372fb);
+  background: linear-gradient(to top, #66FFFF, #0372fb);
   padding: .4em .8em .4em .8em;
   -margin: .5em;
   border-radius: 5em 0 0 5em;
   color: #fff;
 }
-.delete_left:hover {background: #FFFF66;} 
+.delete_left:hover {  background: linear-gradient(to bottom, #66FFFF, #0372fb);} 
 .delete_left::after {
   font-family: 'Montserrat', 'Roboto', sans-serif;
   font-weight: 200;
@@ -114,7 +114,8 @@ button {
   border-radius: 0 5em 5em 0;
   color: #000;
 }
-.add:hover {background: #FFFF66;} 
+.add:hover {  background: linear-gradient(to top, #fdfdfd, #e7e7e7);
+} 
 
 .cell {
   border-radius: 2px;
