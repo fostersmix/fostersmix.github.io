@@ -9,51 +9,20 @@ body {
 @media only screen and (max-width: 48em) {
   .hide-mobile {display: none;}
   body {font-size: 3em;}
-  .as {
-    font: 600 2em/1 'Montserrat', 'Roboto', sans-serif;  
-    padding: .5em 0 .5em 0;
-    color: #0372fb;
-  }
 }
 @media only screen and (max-width: 62em) {
   .hide-mobile {display: none;}
   body {font-size: 2.5em;}
-  .as {
-    font: 600 3em/1 'Montserrat', 'Roboto', sans-serif;  
-    padding: .5em 0 .5em 0;
-    color: #0372fb;
-  }
 }
 @media only screen and (min-width: 62em) {
   .hide-tablet {display: none;}
   body {font-size: 2em;}
-  .as {
-    font: 600 4em/1 'Montserrat', 'Roboto', sans-serif;  
-    padding: .5em 0 .5em 0;
-    color: #0372fb;
-  }
 }
 
 @media only screen and (min-width: 75em) {
   .hide-desktop {display: none;}
   body {font-size: 1em;}
-  .as {
-    font: 600 6em/1 'Montserrat', 'Roboto', sans-serif;  
-    padding:  0;
-    margin: .25em;
-    color: #000;
-  }
 }
-
-a:link, a:visited, a:active {
-  font: normal 1em/1 'Montserrat', 'Roboto', sans-serif;
-	text-decoration: none;
-  outline: none;
-  color: #000;
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
-  -moz-tap-highlight-color: rgba(0,0,0,0);
-}
-a:hover {color: #0372fb;}
 
 button {
   font: normal 1em/1 'Montserrat', 'Roboto', sans-serif;
@@ -67,12 +36,27 @@ button {
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
 
-.delete {
-  font: 500 2.5em/1 'Montserrat', 'Roboto', sans-serif;
-  -background: #FFFF66;
+.delete_right {
+  font: 500 2em/1 'Montserrat', 'Roboto', sans-serif;
   background: linear-gradient(to top, #66FFFF, #0372fb);
-  padding: .4em .8em .4em .8em;
-  -margin: .5em;
+  padding: .4em .8em .4em .4em;
+  border-radius: 0 5em 5em 0;
+  color: #fff;
+}
+.delete_right:hover {  background: linear-gradient(to bottom, #66FFFF, #0372fb);} 
+.delete_right::after {
+  font-family: 'Montserrat', 'Roboto', sans-serif;
+  font-weight: 200;
+  color: rgba(255,255,255,.5);
+  padding-left: .5em;
+  content: "x";
+}
+.delete_right:hover::after {color: rgba(255,255,255,.75);}
+
+.delete {
+  font: 500 2em/1 'Montserrat', 'Roboto', sans-serif;
+  background: linear-gradient(to top, #66FFFF, #0372fb);
+  padding: .4em .4em .4em .4em;
   border-radius: 0;
   color: #fff;
 }
@@ -87,11 +71,9 @@ button {
 .delete:hover::after {color: rgba(255,255,255,.75);}
 
 .delete_left {
-  font: 500 2.5em/1 'Montserrat', 'Roboto', sans-serif;
-  -background: #FFFF66;
+  font: 500 2em/1 'Montserrat', 'Roboto', sans-serif;
   background: linear-gradient(to top, #66FFFF, #0372fb);
-  padding: .4em .8em .4em .8em;
-  -margin: .5em;
+  padding: .4em .4em .4em .8em;
   border-radius: 5em 0 0 5em;
   color: #fff;
 }
@@ -106,27 +88,23 @@ button {
 .delete_left:hover::after {color: rgba(255,255,255,.75);}
 
 .add {
-  font: 500 2.5em/1 'Montserrat', 'Roboto', sans-serif;
-  -background: #FFFF66;
+  font: 500 2em/1 'Montserrat', 'Roboto', sans-serif;
   background: linear-gradient(to bottom, #fdfdfd, #e7e7e7);
   padding: .4em 1em .4em 1em;
-  margin-right: .5em;
-  border-radius: 0 5em 5em 0;
+  margin: .25em;
+  border-radius: 5em;
   color: #000;
 }
-.add:hover {  background: linear-gradient(to top, #fdfdfd, #e7e7e7);
-} 
+.add:hover {background: linear-gradient(to top, #fdfdfd, #e7e7e7);} 
 
-.cell {
-  border-radius: 2px;
-  background: #fff;
-  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+.as {
+  font: 600 6em/1 'Montserrat', 'Roboto', sans-serif;  
+  padding:  0;
+  margin: .25em;
+  color: #000;
 }
 
-.color {background: red;}
-.gray {color: #bbb;}
 .screen {min-height: 100vh;}
 .line {height: 1px;}
-.top {padding-top: 3em;}
-.bottom {padding-bottom: 3em;}
-.b-left {border-left: 1px solid #ddd;}
+.top {padding-top: 2em;}
+.bottom {padding-bottom: 2em;}
