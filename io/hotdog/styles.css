@@ -122,6 +122,7 @@ button {
   color: #000;
 }
 
+.gray {color: #bbb;}
 .screen {min-height: 100vh;}
 .line {height: 1px;}
 .top {padding-top: 2em;}
