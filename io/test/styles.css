@@ -1,0 +1,138 @@
+body {
+  font: normal 1em/1 'Montserrat', 'Roboto', sans-serif;
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 0;
+  background: linear-gradient(to bottom, #fff, #fff);
+}
+
+@media only screen and (max-width: 48em) {
+  .hide-mobile {display: none;}
+  body {font-size: 3em;}
+}
+@media only screen and (max-width: 62em) {
+  .hide-mobile {display: none;}
+  body {font-size: 2.5em;}
+}
+@media only screen and (min-width: 62em) {
+  .hide-tablet {display: none;}
+  body {font-size: 2em;}
+}
+
+@media only screen and (min-width: 75em) {
+  .hide-desktop {display: none;}
+  body {font-size: 1em;}
+}
+
+button {
+  font: normal 1em/1 'Montserrat', 'Roboto', sans-serif;
+  color: #fff;
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  word-break: break-all;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -moz-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.delete_right {
+  font: 500 2em/1 'Montserrat', 'Roboto', sans-serif;
+  background: linear-gradient(to top, #00E5FF, #0372fb);
+  padding: .4em .8em .4em .4em;
+  border-radius: 0 5em 5em 0;
+  color: #fff;
+}
+.delete_right:hover {  background: linear-gradient(to bottom, #00E5FF, #0372fb);} 
+.delete_right::after {
+  font-family: 'Montserrat', 'Roboto', sans-serif;
+  font-weight: 200;
+  color: rgba(255,255,255,.5);
+  padding-left: .5em;
+  content: "x";
+}
+.delete_right:hover::after {color: rgba(255,255,255,.75);}
+
+.delete {
+  font: 500 2em/1 'Montserrat', 'Roboto', sans-serif;
+  background: linear-gradient(to top, #00E5FF, #0372fb);
+  padding: .4em .4em .4em .4em;
+  border-radius: 0;
+  color: #fff;
+}
+.delete:hover {  background: linear-gradient(to bottom, #00E5FF, #0372fb);} 
+.delete::after {
+  font-family: 'Montserrat', 'Roboto', sans-serif;
+  font-weight: 200;
+  color: rgba(255,255,255,.5);
+  padding-left: .5em;
+  content: "x";
+}
+.delete:hover::after {color: rgba(255,255,255,.75);}
+
+.delete_round {
+  font: 500 2em/1 'Montserrat', 'Roboto', sans-serif;
+  background: linear-gradient(to top, #00E5FF, #0372fb);
+  padding: .4em .8em .4em .8em;
+  border-radius: 5em;
+  margin: .25em;
+  color: #fff;
+}
+.delete_round:hover {  background: linear-gradient(to bottom, #00E5FF, #0372fb);} 
+.delete_round::after {
+  font-family: 'Montserrat', 'Roboto', sans-serif;
+  font-weight: 200;
+  color: rgba(255,255,255,.5);
+  padding-left: .5em;
+  content: "x";
+}
+.delete_round:hover::after {color: rgba(255,255,255,.75);}
+
+.delete_left {
+  font: 500 2em/1 'Montserrat', 'Roboto', sans-serif;
+  background: linear-gradient(to top, #00E5FF, #0372fb);
+  padding: .4em .4em .4em .8em;
+  border-radius: 5em 0 0 5em;
+  color: #fff;
+}
+.delete_left:hover {  background: linear-gradient(to bottom, #00E5FF, #0372fb);} 
+.delete_left::after {
+  font-family: 'Montserrat', 'Roboto', sans-serif;
+  font-weight: 200;
+  color: rgba(255,255,255,.5);
+  padding-left: .5em;
+  content: "x";
+}
+.delete_left:hover::after {color: rgba(255,255,255,.75);}
+
+.add {
+  font: 500 2em/1 'Montserrat', 'Roboto', sans-serif;
+  background: linear-gradient(to bottom, #fdfdfd, #e7e7e7);
+  padding: .4em .8em .4em .8em;
+  margin: .25em;
+  border-radius: 5em;
+  color: #000;
+}
+.add:hover {background: linear-gradient(to top, #fdfdfd, #e7e7e7);} 
+
+.as {
+  font: 600 5em/1 'Montserrat', 'Roboto', sans-serif;  
+  padding:  0;
+  margin: .25em;
+  color: #000;
+}
+
+.btn {
+  color: #000;
+  height: 10em;
+  width: 10em;
+  border-top: 1px solid #eee;
+  border-left: 1px solid #eee;
+  box-shadow: 1px 1px 0 0 #eee;
+}
+.red {background-color: red;}
+.gray {color: #bbb;}
+.screen {min-height: 100vh;}
+.line {height: 1px;}
+.top {padding-top: 2em;}
+.bottom {padding-bottom: 2em;}
