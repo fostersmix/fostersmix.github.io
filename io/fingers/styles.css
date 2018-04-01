@@ -40,7 +40,7 @@ button {
   font: 500 2em/1 'Montserrat', 'Roboto', sans-serif;
   background: linear-gradient(to top, #66FFFF, #0372fb);
   padding: .4em .8em .4em .4em;
-  border-radius: 0 5em 5em 0;
+  border-radius: 0 0 1em 0;
   color: #fff;
 }
 .delete_right:hover {  background: linear-gradient(to bottom, #66FFFF, #0372fb);} 
@@ -70,11 +70,29 @@ button {
 }
 .delete:hover::after {color: rgba(255,255,255,.75);}
 
+.delete_round {
+font: 500 2em/1 'Montserrat', 'Roboto', sans-serif;
+background: linear-gradient(to top, #66FFFF, #0372fb);
+padding: .4em .75em .4em 1em;
+margin: .25em;
+border-radius: 5em;
+color: #fff;
+}
+.delete_round:hover {  background: linear-gradient(to bottom, #66FFFF, #0372fb);} 
+.delete_round::after {
+  font-family: 'Montserrat', 'Roboto', sans-serif;
+  font-weight: 200;
+  color: rgba(255,255,255,.5);
+  padding-left: .5em;
+  content: "x";
+}
+.delete_round:hover::after {color: rgba(255,255,255,.75);}
+
 .delete_left {
   font: 500 2em/1 'Montserrat', 'Roboto', sans-serif;
   background: linear-gradient(to top, #66FFFF, #0372fb);
   padding: .4em .4em .4em .8em;
-  border-radius: 5em 0 0 5em;
+  border-radius: 0em 0 0 1em;
   color: #fff;
 }
 .delete_left:hover {  background: linear-gradient(to bottom, #66FFFF, #0372fb);} 
