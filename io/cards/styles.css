@@ -1,9 +1,9 @@
 body {
-  font: normal 1em/1 'Roboto', 'Roboto', sans-serif;
+  font: 500 1em/1 'Montserrat', sans-serif;
   color: #000;
   margin-top: 0;
   margin-bottom: 0;
-  background: #fff;
+  background: #00E5FF;
 }
 
 @media only screen and (max-width: 48em) {
@@ -25,7 +25,7 @@ body {
 }
 
 button {
-  font: normal 1em/1 'Roboto', 'Roboto', sans-serif;
+  font: normal 1em/1 'Montserrat', sans-serif;
   color: #fff;
   background: none;
   border: none;
@@ -37,40 +37,41 @@ button {
 }
 
 .delete_round {
-  font: 400 1.75em/1.125 'Roboto', 'Roboto', sans-serif;
-  background: #eaeaea ;
-  -box-shadow: inset 0 .1em .2em rgba(0,0,0,.3);
-  padding: .4em .8em .4em .8em;
-  border-radius: 5em;
+  font: 600 1.75em/1.125 'Montserrat', sans-serif;
+  background: #fff ;
+  -box-shadow: 0 2px 4px 0 rgba(0,0,0,.08), 0 1px 0 1px rgba(0,0,0,.04);
+  padding: .5em .6em .5em 1em;
+  border-radius: .5em;
   margin: .25em;
   color: #000;
 }
-.delete_round:hover {  box-shadow: inset 0 0 10em rgba(0,0,0,.05) ;} 
+.delete_round:hover {  box-shadow: inset 0 0 10em rgba(0,0,0,.0);  -box-shadow: inset 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);} 
 .delete_round::after {
-  font-family: 'Roboto', 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 200;
-  color: rgba(0,0,0,.25);
-  padding-left: .3em;
-  margin-left: .3em;
-  border-left: 1px solid rgba(0,0,0,.1);
+  color: red;
+  padding-left: .4em;
+  -margin-left: .4em;
+  -border-left: 1px solid #eee;
   content: "x";
 }
-.delete_round:hover::after {color: rgba(255,255,255,.5);}
+.delete_round:hover::after {color: rgba(0,0,0,.5);}
 
 
 .add {
-  font: 400 1.75em/1.125 'Roboto', 'Roboto', sans-serif;
-  background: #0372fb;
-  padding: .4em .8em .4em .8em;
-  margin: .25em;
-  border-radius: 5em;
-  color: #fff;
+font: 600 1.75em/1.125 'Montserrat', sans-serif;
+background: #000 ;
+-box-shadow: inset 0 2px 4px 0 rgba(0,0,0,.08), 0 1px 0 1px rgba(0,0,0,.04);
+padding: .5em 1.2em .5em 1.2em;
+border-radius: 5em;
+margin: .25em;
+color: #00E5FF;
 }
-.add:hover {box-shadow: inset 0 0 10em rgba(0,0,0,.05)
+.add:hover {box-shadow: inset 0 0 10em rgba(0,0,0,.0);
 } 
 
 .as {
-  font: 600 5em/1 'Roboto', 'Roboto', sans-serif;  
+  font: 600 5em/1 'Montserrat', sans-serif;  
   padding:  0;
   margin: .25em;
   color: #000;
