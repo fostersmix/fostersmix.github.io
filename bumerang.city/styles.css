@@ -34,7 +34,7 @@ h3 {
   display:inline;
 }
 h4 {
-  font: 400 2em/1 'Ubuntu', sans-serif;
+  font: 400 2em/1.125 'Ubuntu', sans-serif;
   color: #000;
   display:inline;
 }
@@ -89,7 +89,7 @@ a.connect:hover {
 .full {width: 100%;}
 .screen {min-height: 100vh;}
 .line {height: 1px;background-color:#ddd;}
-.shadow {box-shadow: 0 10px 20px 0 rgba(230, 81, 0, 0.15), 0 20px 40px 0 rgba(230, 81, 0, 0.1),  0 30px 60px 0 rgba(230, 81, 0, 0.05);}
+.shadow {box-shadow: 0 10px 10px 0 rgba(230, 81, 0, 0.2), 0 20px 30px 0 rgba(230, 81, 0, 0.15),  0 30px 40px 0 rgba(230, 81, 0, 0.1);}
 .gradient-back {background: linear-gradient(to bottom left, #E65100, #FFC107, #fff 50%);}
 .gradient-inverse-back {background: linear-gradient(to top right, #E65100, #FFC107, #fff 50%);}
 .gradient-center-back {background: linear-gradient(to top, #FFD54F, #FFF3E0, #fff 50%);}
@@ -112,6 +112,41 @@ a.connect:hover {
 }
 .step:hover {background: #FFE082;}
 .b-right {border-right: 1px solid rgba(0,0,0,.1);}
+.round {border-radius: 1em;}
+
+#in {
+  font: normal 1em/1 'Ubuntu', sans-serif;
+  padding: 1em 1em 1em 1em;
+  border-radius: 5em;
+  color: #000;
+  background: white;
+  text-align: center;
+  border: 1px solid #FFE082;
+  -border-bottom: 1px solid #ddd;
+  outline: none;
+  width: 100%;
+  -box-shadow: 0 10px 20px 0 rgba(230, 81, 0, 0.15), 0 20px 40px 0 rgba(230, 81, 0, 0.1),  0 30px 60px 0 rgba(230, 81, 0, 0.05);
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -moz-tap-highlight-color: rgba(0,0,0,0);
+}
+#in_btn {
+  font: normal 1em/1 'Ubuntu', sans-serif;
+  padding: 1em 1em 1em 1em;
+  border-radius: 5em;
+  color: #fff;
+  background: linear-gradient(to top right, #E65100, #FFC107);
+  text-align: center;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  outline: none;
+  width: 100%;
+  box-shadow: 0 10px 20px 0 rgba(230, 81, 0, 0.15), 0 20px 40px 0 rgba(230, 81, 0, 0.1),  0 30px 60px 0 rgba(230, 81, 0, 0.05);
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -moz-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.block {  background: linear-gradient(to top right, #E65100, #FFC107);}
+
 
 .color, .color-hover:hover            {background-color:#FFC107;}
 #color, #color-hover:hover            {color: #FFC107;}
@@ -127,3 +162,19 @@ a.connect:hover {
 #half, #half-hover:hover    {color: rgba(0,0,0,.1);}
 .white, .white-hover:hover          {background-color:#fff;}
 #white, #white-hover:hover          {color: #fff;}
+
+input                                   {color: rgba(0,0,0,.5);} /*inactive*/
+input::-webkit-input-placeholder        {color: rgba(0,0,0,.5);}
+input::-moz-placeholder                 {color: rgba(0,0,0,.5);}
+input:-moz-placeholder                  {color: rgba(0,0,0,.5);}
+input:-ms-input-placeholder             {color: rgba(0,0,0,.5);}
+input:hover                             {color: #000;} /*hover*/
+input:hover::-webkit-input-placeholder  {color: #000;}
+input:hover::-moz-placeholder           {color: #000;}
+input:hover:-moz-placeholder            {color: #000;}
+input:hover:-ms-input-placeholder       {color: #000;}
+input:focus                             {color: rgba(0,0,0,.1);} /*focus*/
+input:focus::-webkit-input-placeholder  {color: rgba(0,0,0,.1);}
+input:focus::-moz-placeholder           {color: rgba(0,0,0,.1);}
+input:focus:-moz-placeholder            {color: rgba(0,0,0,.1);}
+input:focus:-ms-input-placeholder       {color: rgba(0,0,0,.1);}
