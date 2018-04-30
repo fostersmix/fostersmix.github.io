@@ -45,7 +45,7 @@ h1 {
 
 .del {
   font: 500 1.75em/1 'Montserrat', sans-serif;
-  background: #000;
+  background: rgba(68,68,68,0.95);
   padding: .5em 1em .5em 1em;
   border-radius: 5em;
   color: #fff;
