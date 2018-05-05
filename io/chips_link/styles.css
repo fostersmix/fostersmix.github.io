@@ -23,20 +23,20 @@ h1 {
   font: 600 5em/1 'Montserrat', sans-serif;  
   padding:  0;
   margin: 0;
-  color: rgba(68,68,68,0.95);
+  color: #000;
   display: inline;
 }
 
 .screen {min-height: 100vh;}
 .top {padding-top: 2em;}
 .bottom {padding-bottom: 2em;}
-.cell {margin: 1.5em .25em 1.5em .25em;}
 
 a:link, a:visited, a:hover, a:active {
-  font: 500 1.5em/1 'Montserrat', sans-serif;
+  font: 500 1.5em/3 'Montserrat', sans-serif;
   word-break: normal;
   text-decoration: none;
   outline: none;
+  margin: 5em .25em 5em .25em;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
