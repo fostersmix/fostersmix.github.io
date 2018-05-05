@@ -1,0 +1,66 @@
+body {
+  font: 500 1em/1 'Montserrat', sans-serif;
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 0;
+  background: #fff;
+}
+
+@media only screen and (max-width: 48em) {
+  body {font-size: 2.5em;}
+}
+@media only screen and (min-width: 48em) {
+  body {font-size: 2em;}
+}
+@media only screen and (min-width: 62em) {
+  body {font-size: 1.5em;}
+}
+@media only screen and (min-width: 75em) {
+  body {font-size: 1em;}
+}
+
+h1 {
+  font: 600 5em/1 'Montserrat', sans-serif;  
+  padding:  0;
+  margin: 0;
+  color: rgba(68,68,68,0.95);
+  display: inline;
+}
+
+.screen {min-height: 100vh;}
+.top {padding-top: 2em;}
+.bottom {padding-bottom: 2em;}
+.cell {margin: 1.5em .25em 1.5em .25em;}
+
+a:link, a:visited, a:hover, a:active {
+  font: 500 1.5em/1 'Montserrat', sans-serif;
+  word-break: normal;
+  text-decoration: none;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -moz-tap-highlight-color: rgba(0,0,0,0);
+}
+
+a.d:link, a.d:visited, a.d:active {
+  background: rgba(68,68,68,0.95);
+  color: #fff;
+  border-radius: 5em;
+  padding: .4em 1em .4em 1em;
+}
+ a.d:hover {background: red;}
+ a.d::after {
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 200;
+   color: rgba(255,255,255,.5);
+   padding-left: .5em;
+   content: "x";
+ }
+ a.d:hover::after {color: #fff;}
+ 
+ a.a:link, a.a:visited, a.a:active {
+  background: #f5f5f5;
+  color: #000;
+  border-radius: 5em;
+  padding: .4em 1em .4em 1em;
+ }
+a.a:hover {background: #eee;}
