@@ -36,7 +36,7 @@ a:link, a:visited, a:hover, a:focus, a:active {
   word-break: normal;
   text-decoration: none;
   outline: none;
-  margin: 5em .25em 5em .25em;
+  margin: 5em .35em 5em .35em;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
@@ -47,22 +47,22 @@ a.d:link, a.d:visited {
   border-radius: 5em;
   padding: .4em 1em .4em 1em;
 }
- a.d:hover, a.d:focus, a.d:active {
-  background: #000;
-  color: #FFFF00;
-  }
- a.d::after {
-   font-weight: 200;
-   color: rgba(255,255,255,.5);
-   padding-left: .5em;
-   content: "x";
- }
- a.d:hover::after, a.d:focus::after, a.d:active::after {color: #FFFF00;}
+a.d:hover, a.d:focus, a.d:active {
+  background: linear-gradient(to bottom, #FF8A80, #F44336);
+  color: #fff;
+}
+a.d::after {
+  font-weight: 200;
+  color: rgba(255,255,255,.5);
+  padding-left: .5em;
+  content: "x";
+}
+a.d:hover::after, a.d:focus::after, a.d:active::after {color: #fff;}
  
- a.a:link, a.a:visited {
-  background: #f7f7f7;
+a.a:link, a.a:visited {
+  background: linear-gradient(to bottom, #fff, #e7e7e7);
   color: #000;
   border-radius: 5em;
   padding: .4em 1em .4em 1em;
  }
-a.a:hover, a.a:focus, a.a:active {background: #FFFF00;}
+a.a:hover, a.a:focus, a.a:active {background: linear-gradient(to top, #fff, #e7e7e7);}
