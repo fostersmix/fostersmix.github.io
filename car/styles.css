@@ -1,9 +1,10 @@
 body {
-  font: 200 1em/1 'Montserrat', sans-serif;
-  color: #fff;
+  font: 400 1em/1 'Montserrat', sans-serif;
+  color: #000;
   margin-top: 0;
   margin-bottom: 0;
   background: #fff;
+  
 }
 
 @media only screen and (max-width: 48em) {
@@ -20,74 +21,70 @@ body {
 }
 
 h1 {
-  font: 600 5em/1 'Montserrat', sans-serif;  
+  font: 600 4em/1 'Montserrat', sans-serif;  
   padding:  0;
   margin: 0;
-  color: #fff;
+  color: #000;
   display: inline;
 }
 h2 {
-  font: 200 5em/1 'Montserrat', sans-serif;  
+  font: 500 2em/1 'Montserrat', sans-serif;  
   padding:  0;
   margin: 0;
-  color: #fff;
+  color: #000;
   display: inline;
 }
 h3 {
-  font: 600 2em/1 'Montserrat', sans-serif;  
-  padding:  0;
-  margin: 0;
-  color: #fff;
-  display: inline;
-}
-h4 {
   font: 200 2em/1 'Montserrat', sans-serif;  
   padding:  0;
   margin: 0;
-  color: #fff;
+  color: #0066FF;
   display: inline;
 }
 
+.line {height: 1px;}
 .screen {min-height: 100vh;}
+.screen-50 {min-height: 50vh;}
 .top-small {padding-top: 1em;}
 .top {padding-top: 2em;}
+.top-big {padding-top: 4em;}
+.bottom-small {padding-bottom: 1em;}
 .bottom {padding-bottom: 2em;}
+.bottom-big {padding-bottom: 4em;}
+
 
 a:link, a:visited, a:hover, a:focus, a:active {
-  font: 500 1.5em/3 'Montserrat', sans-serif;
+  font: 400 1em 'Montserrat', sans-serif;
   word-break: normal;
   text-decoration: none;
   outline: none;
-  margin: 5em .35em 5em .35em;
+  color: #0066FF;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
 
 a.d:link, a.d:visited {
-  background: #000;
+  font: 400 3em/3 'Montserrat', sans-serif;
+  background: #0066FF;
   color: #fff;
-  border-radius: 5em;
+  border-radius: 0em;
   padding: .4em 1em .4em 1em;
 }
 a.d:hover, a.d:focus, a.d:active {
-  background: linear-gradient(to bottom, #FF8A80, #F44336);
   color: #fff;
 }
-a.d::after {
-  font-weight: 200;
-  color: rgba(255,255,255,.5);
-  padding-left: .5em;
-  content: "x";
-}
-a.d:hover::after, a.d:focus::after, a.d:active::after {color: #fff;}
- 
-a.a:link, a.a:visited {
-  background: linear-gradient(to bottom, #fff, #e7e7e7);
-  color: #000;
-  border-radius: 5em;
-  padding: .4em 1em .4em 1em;
- }
-a.a:hover, a.a:focus, a.a:active {background: linear-gradient(to top, #fff, #e7e7e7);}
 
+.bg {
+  background-image: url(bg.jpg);
+  background-size: cover;
+  background-position: left center;
+}
+
+.cell {transition: .4s;}
+.cell:hover {color: black;}
 .blue-bg {background-color: #0066FF;}
 .white-bg {background-color: #fff;}
+.grey-bg {background-color: #ddd;}
+.round {border-radius: 5em;}
+.black {color: #000;}
+.white {color: #fff;}
