@@ -52,7 +52,6 @@ h3 {
 .bottom {padding-bottom: 2em;}
 .bottom-big {padding-bottom: 4em;}
 
-
 a:link, a:visited, a:hover, a:focus, a:active {
   font: 400 1em 'Montserrat', sans-serif;
   word-break: normal;
@@ -72,7 +71,8 @@ a.d:link, a.d:visited {
   padding: .4em 1em .4em 1em;
 }
 a.d:hover, a.d:focus, a.d:active {
-  color: #fff;
+  box-shadow: 0 0 0 .125em #0066FF;
+  -box-shadow: 0 1em 1.5em  rgba(0,102,255,.1), 0 .5em 1em rgba(0,102,255,.1), 0 .25em .5em rgba(0,102,255,.1), 0 .1em .2em rgba(0,102,255,.1);
 }
 
 .bg {
@@ -81,11 +81,8 @@ a.d:hover, a.d:focus, a.d:active {
   background-position: left center;
 }
 
-.cell {transition: .4s;}
-.cell:hover {color: black;}
 .blue-bg {background-color: #0066FF;}
 .white-bg {background-color: #fff;}
 .grey-bg {background-color: #ddd;}
-.round {border-radius: 5em;}
 .black {color: #000;}
 .white {color: #fff;}
