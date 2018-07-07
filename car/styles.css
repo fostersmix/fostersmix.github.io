@@ -65,6 +65,7 @@ a:link, a:visited, a:hover, a:focus, a:active {
 
 a.d:link, a.d:visited {
   font: 400 3em/3 'Montserrat', sans-serif;
+  white-space: nowrap;
   background: #0066FF;
   color: #fff;
   border-radius: 0em;
