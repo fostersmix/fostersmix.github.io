@@ -76,6 +76,12 @@ a.fff:link, a.fff:visited, a.fff:hover, a.fff:focus, a.fff:active {
 
 a.logo:link, a.logo:visited, a.logo:hover, a.logo:focus, a.logo:active {
   font: 400 2em/1 'Montserrat', sans-serif;  
+  color: #0066FF;
+}
+
+a.logo-fff:link, a.logo-fff:visited, a.logo-fff:hover, a.logo-fff:focus, a.logo-fff:active {
+  font: 400 2em/1 'Montserrat', sans-serif;  
+  color: #fff;
 }
 
 a.btn:link, a.btn:visited, a.btn:active {
