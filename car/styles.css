@@ -93,6 +93,15 @@ a.btn:link, a.btn:visited, a.btn:active {
 }
 a.btn:hover, a.btn:focus {box-shadow: 0 0 0 .125em #0066FF;}
 
+a.btn-white:link, a.btn-white:visited, a.btn-white:active {
+  font: 400 3em/3 'Montserrat', sans-serif;
+  white-space: nowrap;
+  background: #fff;
+  color: #0066FF;
+  padding: .4em 1em .4em 1em;
+}
+a.btn-white:hover, a.btn:focus {box-shadow: 0 0 0 .125em #fff;}
+
 .bg {
   background-image: url(bg.jpg);
   background-size: cover;
