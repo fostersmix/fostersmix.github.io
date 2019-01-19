@@ -1,9 +1,10 @@
 body {
-  font: 500 1em/1 'Roboto', sans-serif;
+  font: 400 1em/1 'Roboto', sans-serif;
   color: #000;
   margin-top: 0;
   margin-bottom: 0;
   background: #fff;
+  -webkit-font-smoothing: antialiased;
 }
 
 @media only screen and (max-width: 48em) {
@@ -28,8 +29,10 @@ h1 {
 }
 
 .screen {min-height: 100vh;}
-.top {padding-top: 2em;}
-.bottom {padding-bottom: 2em;}
+.top {padding-top: 1em;}
+.bottom {padding-bottom: 1em;}
+.top-20 {padding-top: 2em;}
+.bottom-20 {padding-bottom: 2em;}
 
 a:link, a:visited, a:hover, a:focus, a:active {
   word-break: normal;
@@ -37,7 +40,6 @@ a:link, a:visited, a:hover, a:focus, a:active {
   outline: none;
   color: #0066FF;
   margin: 0em .25em 0em .25em;
-  padding: .4em 1em .4em 1em;
   border-radius: 5em;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
@@ -45,22 +47,24 @@ a:link, a:visited, a:hover, a:focus, a:active {
 
 a.a:link, a.a:visited {
   font: 400 1.25em/2.75 'Roboto', sans-serif;
-  background: linear-gradient(to bottom, #fafafa, #e7e7e7);
+  background: linear-gradient(to bottom, #fff, #e7e7e7);
+  padding: .4em 1em .4em 1em;
   color: #000;
  }
 a.a:hover, a.a:focus, a.a:active {
-  background: linear-gradient(to top, #fafafa, #e7e7e7);
-  box-shadow: inset 0 .1em 0 0 rgba(0,0,0,.05);
+  background: linear-gradient(to top, #fff, #e7e7e7);
+  -box-shadow: inset 0 1px 1px 0 rgba(0,0,0,.05);
 }
 
 a.d:link, a.d:visited {
   font: 400 1.25em/2.75 'Roboto', sans-serif;
-  background: linear-gradient(to top, #0066FF, #0099FF);
+  background: linear-gradient(to bottom, #0066FF, #0099FF);
+  padding: .4em 1em .4em 1em;
   color: #fff;
 }
 a.d:hover, a.d:focus, a.d:active {
   background: linear-gradient(to bottom, #0066FF, #0099FF);
-  box-shadow: inset 0 .1em 0 0 rgba(0,0,0,.05);
+  -box-shadow: inset 0 1px 1px 0 rgba(0,0,0,.05);
 }
 a.d::after {
   font-weight: 300;
@@ -72,12 +76,6 @@ a.d:hover::after, a.d:focus::after, a.d:active::after {
   color: #fff;
 }
 
-a.new:link, a.new:visited {
-  background-color: #fff;
+a.new:link, a.new:visited, a.new:hover, a.new:focus, a.new:active {
   color: #0066FF;
-  box-shadow: inset 0 0 0 1px  #0066FF;
- }
-a.new:hover, a.new:focus, a.new:active {
-  background-color: #0066FF;
-  color: #FFF;
 }
