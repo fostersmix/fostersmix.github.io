@@ -55,13 +55,16 @@ a.white:hover, a.white:active {border-bottom: 1px solid rgba(255,255,255,.25);}
 
 a.ready:link, a.ready:visited {
   font: 400 1.25em/2.75 'Roboto', sans-serif;
-  background: #fff;;
+  background: linear-gradient(to top, #0066FF, #0099FF);
   border-radius: 5em;
   padding: .4em 1em .4em 1em;
   margin: 0em .25em 0em .25em;
-  color: #000;
+  color: #fff;
  }
-a.ready:hover, a.ready:focus, a.ready:active {border: none;}
+a.ready:hover, a.ready:focus, a.ready:active {
+  background: linear-gradient(to bottom, #0066FF, #0099FF);
+  border: none;
+}
 
 a.available:link, a.available:visited {
   font: 400 1.25em/2.75 'Roboto', sans-serif;
