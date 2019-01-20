@@ -19,6 +19,13 @@ h1 {
   color: #000;
   display: inline;
 }
+h2 {
+  font: 300 2.5em/1 'Roboto', sans-serif;
+  padding:  0;
+  margin: 0;
+  color: #fff;
+  display: inline;
+}
 
 .screen {min-height: 100vh;}
 .top {padding-top: 1em;}
@@ -35,6 +42,26 @@ a:link, a:visited, a:focus {
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
 a:hover, a:active {border-bottom: 1px solid rgba(0,102,255,.2);}
+
+a.white:link, a.white:visited, a.white:focus {
+  word-break: normal;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -moz-tap-highlight-color: rgba(0,0,0,0);
+}
+a.white:hover, a.white:active {border-bottom: 1px solid rgba(255,255,255,.25);}
+
+a.ready:link, a.ready:visited {
+  font: 400 1.25em/2.75 'Roboto', sans-serif;
+  background: #fff;;
+  border-radius: 5em;
+  padding: .4em 1em .4em 1em;
+  margin: 0em .25em 0em .25em;
+  color: #000;
+ }
+a.ready:hover, a.ready:focus, a.ready:active {border: none;}
 
 a.available:link, a.available:visited {
   font: 400 1.25em/2.75 'Roboto', sans-serif;
@@ -68,3 +95,38 @@ a.selected::after {
   content: "x";
 }
 a.selected:hover::after, a.selected:focus::after, a.selected:active::after {color: #fff;}
+
+.blue {background-color: #0066FF;}
+.white-color {color: #fff;}
+
+#field {
+  font: 400 2.5em/1 'Roboto', sans-serif;
+  padding: .4em .75em .4em .75em;
+  border-radius: .125em;
+  color: #fff;
+  background: none;
+  border: none;
+  border-bottom: 1px solid rgba(255,255,255,.25);
+  outline: none;
+  border-radius: 0;
+  width: 100%;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -moz-tap-highlight-color: rgba(0,0,0,0);
+}
+#field:hover, #field:active, #field:focus {border-bottom: 1px solid rgba(255,255,255,1);}
+
+input                                   {color: rgba(255,255,255,.8);} /*inactive*/
+input::-webkit-input-placeholder        {color: rgba(255,255,255,.8);}
+input::-moz-placeholder                 {color: rgba(255,255,255,.8);}
+input:-moz-placeholder                  {color: rgba(255,255,255,.8);}
+input:-ms-input-placeholder             {color: rgba(255,255,255,.8);}
+input:hover                             {color: #fff;} /*hover*/
+input:hover::-webkit-input-placeholder  {color: #fff;}
+input:hover::-moz-placeholder           {color: #fff;}
+input:hover:-moz-placeholder            {color: #fff;}
+input:hover:-ms-input-placeholder       {color: #fff;}
+input:focus                             {color: transparent;} /*focus*/
+input:focus::-webkit-input-placeholder  {color: transparent;}
+input:focus::-moz-placeholder           {color: transparent;}
+input:focus:-moz-placeholder            {color: transparent;}
+input:focus:-ms-input-placeholder       {color: transparent;}
