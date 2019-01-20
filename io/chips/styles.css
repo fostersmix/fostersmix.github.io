@@ -96,7 +96,7 @@ a.selected::after {
 }
 a.selected:hover::after, a.selected:focus::after, a.selected:active::after {color: #fff;}
 
-.blue {background-color: #0066FF;}
+.blue {background: linear-gradient(to bottom, #0066FF, #0099FF);}
 .white-color {color: #fff;}
 
 #field {
