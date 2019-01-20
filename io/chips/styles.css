@@ -19,6 +19,13 @@ h1 {
   color: #000;
   display: inline;
 }
+h2 {
+  font: 600 4em/2 'Montserrat', sans-serif;  
+  padding:  0;
+  margin: 0;
+  color: #fff;
+  display: inline;
+}
 
 .screen {min-height: 100vh;}
 .top {padding-top: 1em;}
@@ -96,7 +103,7 @@ a.selected:hover::after, a.selected:focus::after, a.selected:active::after {colo
 .white-color {color: #fff;}
 
 #field {
-  font: 400 2em/1 'Roboto', sans-serif;
+  font: 400 1.25em/1 'Roboto', sans-serif;
   padding: .4em .75em .4em .75em;
   border-radius: .125em;
   color: #fff;
