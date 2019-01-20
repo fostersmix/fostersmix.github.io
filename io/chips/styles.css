@@ -26,7 +26,7 @@ h1 {
 .top-20 {padding-top: 2em;}
 .bottom-20 {padding-bottom: 2em;}
 
-a:link, a:visited {
+a:link, a:visited, a:focus {
   word-break: normal;
   text-decoration: none;
   outline: none;
@@ -34,7 +34,7 @@ a:link, a:visited {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
-a:hover, a:focus, a:active {border-bottom: 1px solid rgba(0,102,255,.2);}
+a:hover, a:active {border-bottom: 1px solid rgba(0,102,255,.2);}
 
 a.available:link, a.available:visited {
   font: 400 1.25em/2.75 'Roboto', sans-serif;
