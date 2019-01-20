@@ -53,7 +53,7 @@ a.white:link, a.white:visited, a.white:focus {
 }
 a.white:hover, a.white:active {border-bottom: 1px solid rgba(255,255,255,.25);}
 
-a.ready:link, a.ready:visited {
+a.ready:link, a.ready:visited, a.ready:focus {
   font: 400 1.25em/2.75 'Roboto', sans-serif;
   background: linear-gradient(to top, #0066FF, #0099FF);
   border-radius: 5em;
@@ -61,12 +61,12 @@ a.ready:link, a.ready:visited {
   margin: 0em .25em 0em .25em;
   color: #fff;
  }
-a.ready:hover, a.ready:focus, a.ready:active {
+a.ready:hover, a.ready:active {
   background: linear-gradient(to bottom, #0066FF, #0099FF);
   border: none;
 }
 
-a.available:link, a.available:visited {
+a.available:link, a.available:visited, a.available:focus {
   font: 400 1.25em/2.75 'Roboto', sans-serif;
   background: linear-gradient(to bottom, #fff, #e7e7e7);
   border-radius: 5em;
@@ -74,12 +74,12 @@ a.available:link, a.available:visited {
   margin: 0em .25em 0em .25em;
   color: #000;
  }
-a.available:hover, a.available:focus, a.available:active {
+a.available:hover, a.available:active {
   background: linear-gradient(to top, #fff, #e7e7e7);
   border: none;
 }
 
-a.selected:link, a.selected:visited {
+a.selected:link, a.selected:visited, a.selected:focus {
   font: 400 1.25em/2.75 'Roboto', sans-serif;
   background: linear-gradient(to bottom, #0066FF, #0099FF);
   border-radius: 5em;
@@ -87,17 +87,17 @@ a.selected:link, a.selected:visited {
   margin: 0em .25em 0em .25em;
   color: #fff;
 }
-a.selected:hover, a.selected:focus, a.selected:active {
+a.selected:hover, a.selected:active {
   background: linear-gradient(to bottom, #0066FF, #0099FF);
   border: none;
 }
-a.selected::after {
+a.selected::after, a.selected:focus::after {
   font-weight: 300;
   color: rgba(255,255,255,.5);
   padding-left: .5em;
   content: "x";
 }
-a.selected:hover::after, a.selected:focus::after, a.selected:active::after {color: #fff;}
+a.selected:hover::after, a.selected:active::after {color: #fff;}
 
 .blue {background: linear-gradient(to bottom, #0066FF, #0099FF);}
 .white-color {color: #fff;}
