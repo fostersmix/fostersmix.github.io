@@ -19,22 +19,14 @@ h1 {
   color: #fff;
   display: inline;
 }
-h2 {
-  font: 600 4em/2 'Montserrat', sans-serif;  
-  padding:  0;
-  margin: 0;
-  color: #000;
-  display: inline;
-}
 
 .screen {min-height: 100vh;}
 .top {padding-top: 1em;}
 .bottom {padding-bottom: 1em;}
 .top-20 {padding-top: 2em;}
 .bottom-20 {padding-bottom: 2em;}
-.top-40 {padding-top: 4em;}
-.bottom-40 {padding-bottom: 4em;}
 .blue {background: linear-gradient(to bottom, #0066FF, #0099FF);}
+.red {background-color: red;}
 .white-color {color: #fff;}
 
 a:link, a:visited, a:focus {
@@ -120,7 +112,7 @@ a.selected:link, a.selected:visited, a.selected:focus {
   font: 400 1.25em/2.75 'Roboto', sans-serif;
   background: linear-gradient(to bottom, #0066FF, #0099FF);
   border-radius: 5em;
-  padding: .4em 1em .4em 1em;
+  padding: .4em .8em .4em 1em;
   margin: 0em .25em 0em .25em;
   color: #fff;
 }
@@ -135,18 +127,6 @@ a.selected::after, a.selected:focus::after {
   content: "x";
 }
 a.selected:hover::after, a.selected:active::after {color: #fff;}
-
-.cell {
-  border-radius: .5em;
-  border: none;
-  padding-top: 5em;
-  padding-bottom: 5em;
-  background-position: center center;
-}
-.bg-mountain {background: linear-gradient(to bottom, #0066FF, #0099FF);}
-.bg-train {background: linear-gradient(to bottom, #FFCC33, #FF6600);}
-.bg-cars {background: linear-gradient(to bottom, #333399, #663399);}
-
 
 #field {
   font: 400 1.25em/1 'Roboto', sans-serif;
