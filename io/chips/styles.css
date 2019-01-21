@@ -13,13 +13,6 @@ body {
 @media only screen and (min-width: 75em) {body {font-size: 1em;}}
 
 h1 {
-  font: 600 2em/1 'Montserrat', sans-serif;  
-  padding:  0;
-  margin: 0;
-  color: #000;
-  display: inline;
-}
-h2 {
   font: 600 4em/2 'Montserrat', sans-serif;  
   padding:  0;
   margin: 0;
@@ -32,6 +25,8 @@ h2 {
 .bottom {padding-bottom: 1em;}
 .top-20 {padding-top: 2em;}
 .bottom-20 {padding-bottom: 2em;}
+.blue {background: linear-gradient(to bottom, #0066FF, #0099FF);}
+.white-color {color: #fff;}
 
 a:link, a:visited, a:focus {
   word-break: normal;
@@ -43,6 +38,34 @@ a:link, a:visited, a:focus {
 }
 a:hover, a:active {border-bottom: 1px solid rgba(0,102,255,.2);}
 
+a.logo:link, a.logo:visited, a.logo:focus {
+  font: 600 2em/1 'Montserrat', sans-serif;  
+  padding:  0;
+  margin: 0;
+  display: inline;
+  word-break: normal;
+  text-decoration: none;
+  outline: none;
+  color: #000;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -moz-tap-highlight-color: rgba(0,0,0,0);
+}
+a.logo:hover, a.logo:active {border: none;}
+
+a.logo-white:link, a.logo-white:visited, a.logo-white:focus {
+  font: 600 2em/1 'Montserrat', sans-serif;  
+  padding:  0;
+  margin: 0;
+  display: inline;
+  word-break: normal;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -moz-tap-highlight-color: rgba(0,0,0,0);
+}
+a.logo-white:hover, a.logo-white:active {border: none;}
+
 a.white:link, a.white:visited, a.white:focus {
   word-break: normal;
   text-decoration: none;
@@ -53,15 +76,20 @@ a.white:link, a.white:visited, a.white:focus {
 }
 a.white:hover, a.white:active {border-bottom: 1px solid rgba(255,255,255,.25);}
 
-a.ready:link, a.ready:visited, a.ready:focus {
-  font: 400 1.25em/2.75 'Roboto', sans-serif;
+.connect {
+  font: 400 1.25em/1.25 'Roboto', sans-serif;
   background: linear-gradient(to top, #0066FF, #0099FF);
   border-radius: 5em;
   padding: .4em 1em .4em 1em;
   margin: 0em .25em 0em .25em;
   color: #fff;
+  border: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -moz-tap-highlight-color: rgba(0,0,0,0);
+  outline: 0;
+  cursor: pointer;
  }
-a.ready:hover, a.ready:active {
+.connect:hover {
   background: linear-gradient(to bottom, #0066FF, #0099FF);
   border: none;
 }
@@ -98,9 +126,6 @@ a.selected::after, a.selected:focus::after {
   content: "x";
 }
 a.selected:hover::after, a.selected:active::after {color: #fff;}
-
-.blue {background: linear-gradient(to bottom, #0066FF, #0099FF);}
-.white-color {color: #fff;}
 
 #field {
   font: 400 1.25em/1 'Roboto', sans-serif;
