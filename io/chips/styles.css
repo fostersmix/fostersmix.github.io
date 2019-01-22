@@ -75,6 +75,22 @@ a.logo-white:link, a.logo-white:visited, a.logo-white:focus {
 }
 a.logo-white:hover, a.logo-white:active {border: none;}
 
+a.logo-link:link, a.logo-link:visited, a.logo-link:focus {
+  font: 600 2em/1 'Montserrat', sans-serif;  
+  padding:  0;
+  margin: 0;
+  display: inline;
+  word-break: normal;
+  text-decoration: none;
+  outline: none;
+  color: #0066FF;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -moz-tap-highlight-color: rgba(0,0,0,0);
+}
+a.logo-link:hover, a.logo-link:active {
+  border-bottom: 1px solid rgba(0,102,255,.2);
+}
+
 a.white:link, a.white:visited, a.white:focus {
   word-break: normal;
   text-decoration: none;

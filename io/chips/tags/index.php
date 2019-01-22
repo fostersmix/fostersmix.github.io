@@ -2,6 +2,7 @@
 $dbh = new PDO('mysql:host=localhost;dbname=tags', 'tags', 'SjpRGzjBR6ZSZThf');
 //$dbh->query('use utf8');
 $words = '';
+$search = false;
 $link_to_delete = array();
 
 if (isset($_GET['keys'])) {
@@ -56,6 +57,8 @@ function add_link($tag1, $tag2)
 if ($_GET['tag']) {
     $words = explode(" ", $_GET['tag']);
 
+    $subquery = '';
+    $prefix = '';
     foreach ($words as $key => $word) {
         if (isset($tag)) {
             $prefix = ' OR ';
@@ -110,10 +113,13 @@ $links = $stmt->fetchAll();
     <div class="row center-xs center-sm center-md center-lg row-between-lg screen">
       <div class="col-xs-11 col-sm-11 col-md-11 col-lg-11 bottom-20">
         <div class="row center-xs center-sm center-md start-lg middle-lg">
-          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 top-20">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2 top-20">
             <a href="/" class="logo">чипс</a>
           </div>
-          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 top-20">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg top-20">
+            <a href="clusters/">Кластеры</a>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg top-20">
             <div class="row center-xs center-sm center-md end-lg">
               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <a href="add/">+ Добавить</a>
@@ -123,11 +129,13 @@ $links = $stmt->fetchAll();
         </div>
       </div>
       <div class="col-xs-11 col-sm-11 col-md-10 col-lg-8">
-        <?php foreach ($words as $word): ?>
-        	<a href="?tag=<?= $link_to_delete[$word] ?>" class="selected"><?= $word ?></a>
-        <?php endforeach; ?>
-
         <?php
+        if (is_array($words)) {
+        foreach ($words as $word): ?>
+        	<a href="?tag=<?= $link_to_delete[$word] ?>" class="selected"><?= $word ?></a>
+        <?php endforeach;
+
+      }
         if ($search) {
           foreach ($search as $res) { ?>
           <a href="?tag=<?= $_GET['tag'] . " " . $res[1] ?>"  class="available"><?= $res[1] ?></a>
@@ -144,7 +152,7 @@ $links = $stmt->fetchAll();
       <div class="col-xs-9 col-sm-9 col-md-10 col-lg-11 top-20 bottom-20">
         <div class="row center-xs center-sm center-md start-lg">
           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            © 2018 · <a href="#">О чипсе</a> · <a href="mailto:mailbox@usechips.app">Написать на почту</a> · <a href="http://t.me/usechips">Чипсы в телеграме</a>
+            © 2018 · <a href="about/">О чипсе</a> · <a href="mailto:mailbox@usechips.app">Написать на почту</a> · <a href="http://t.me/usechips">Чипсы в телеграме</a>
           </div>
         </div>
       </div>
