@@ -163,6 +163,19 @@ a.selected:hover::after, a.selected:active::after {color: #fff;}
 .bg-train {background: linear-gradient(to bottom, #FFCC33, #FF6600);}
 .bg-cars {background: linear-gradient(to bottom, #333399, #663399);}
 
+.btn-search {
+  font: 400 1.25em/2em 'Roboto', sans-serif;
+  padding: .5em 1.5em .5em 1.5em;
+  border-radius: .125em;
+  color: #fff;
+  background: linear-gradient(to top, #0066FF, #0099FF);
+  border: none;
+  outline: none;
+  border-radius: 5em;
+  -width: 100%;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -moz-tap-highlight-color: rgba(0,0,0,0);
+}
 
 #field {
   font: 400 1.25em/1 'Roboto', sans-serif;
@@ -179,6 +192,20 @@ a.selected:hover::after, a.selected:active::after {color: #fff;}
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
 #field:hover, #field:active, #field:focus {border-bottom: 1px solid rgba(255,255,255,1);}
+
+#search, #search:hover, #search:active, #search:focus {
+  font: 400 1.25em/2 'Roboto', sans-serif;
+  padding: .5em 1.5em .5em 1.5em;
+  border-radius: .125em;
+  color: #fff;
+  background: linear-gradient(to bottom, #0066FF, #0099FF);
+  border: none;
+  outline: none;
+  border-radius: 5em;
+  width: 100%;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -moz-tap-highlight-color: rgba(0,0,0,0);
+}
 
 input                                   {color: rgba(255,255,255,.8);} /*inactive*/
 input::-webkit-input-placeholder        {color: rgba(255,255,255,.8);}
