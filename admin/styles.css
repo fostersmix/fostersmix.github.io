@@ -7,19 +7,11 @@ body {
 }
 
 h1 {
-  font: bold 1.5em/2 'Arial', sans-serif;  
+  font: bold 21px/2 'Arial', sans-serif;  
   padding:  0;
   margin: 0;
   color: #000;
 }
-
-.screen {min-height: 100vh;}
-.top {margin-top: 1em;}
-.bottom {padding-bottom: 1em;}
-.top-20 {padding-top: 2em;}
-.bottom-20 {padding-bottom: 2em;}
-.top-40 {padding-top: 4em;}
-.bottom-40 {padding-bottom: 4em;}
 
 a:link, a:visited, a:focus {
   word-break: normal;
@@ -31,42 +23,96 @@ a:link, a:visited, a:focus {
 }
 a:hover, a:active {border-bottom: 1px solid rgba(0,102,255,.2);}
 
+.screen {min-height: 100vh;}
+.top-025 {padding-top: .25em;}
+.bottom-025 {padding-bottom: .25em;}
+.top-05 {padding-top: .5em;}
+.bottom-05 {padding-bottom: .5em;}
+.top {margin-top: 1em;}
+.bottom {padding-bottom: 1em;}
+.top-20 {padding-top: 2em;}
+.bottom-20 {padding-bottom: 2em;}
+.top-40 {padding-top: 4em;}
+.bottom-40 {padding-bottom: 4em;}
+
+.left {padding-left: 2em;}
+.red {color: #FF5722;}
+.warning {background-color: #FFECB3;}
+.line {box-shadow: 0 1px 0 0 #ccc;}
+
+.cell {
+  border-radius: .25em;
+  padding: .5em .5em;
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+.cell:hover {
+  cursor: text;
+  border: 1px solid #0091EA;
+}
+
+.comment {height: 68px;}
+
+.photo {
+  width: 100%;
+  border: 1px solid #bbb;
+  border-radius: .25em;
+}
+
+.btn {
+  background-color: #0091EA;
+  padding: .5em 1em;
+  border: none;
+  border-radius: .25em;
+  color: #fff;
+  font-size: 14px;
+}
+
 .tag {
   border-radius: .25em;
   padding: .25em .5em;
-  font: normal .8em/1 'Arial', sans-serif;
-  color: #000;
-  background-color: #eee;
+  font: normal 11px/1 'Arial', sans-serif;
+  color: #666;
+  background-color: #fff;
 }
-.red {
+
+.tag-red {
   color: #fff;
   background-color: #FF5722;
 }
-.yellow {
+.tag-yellow {
   color: #000;
   background-color: #FFD740;
 }
-.green {
+.tag-green {
   color: #fff;
   background-color: #4CAF50;
 }
-.darkgreen {
+.tag-darkgreen {
   color: #fff;
   background-color: #4CAF50;
 }
-.darkblue {
+.tag-darkblue {
   color: #fff;
   background-color: #01579B;
 }
-.blue {
+.tag-blue {
   color: #fff;
   background-color: #0091EA;
 }
-.grey {
+.tag-grey {
   color: #000;
   background-color: #CFD8DC;
 }
-
+.tag-info {
+  color: #000;
+  background-color: #E3F2FD;
+}
+.tag-warning {
+  color: #000;
+  background-color: #FBE9E7;
+}
 table, th, td {
   font: normal 14px/1 'Arial', sans-serif;
   padding: 7px 12px;
@@ -77,14 +123,10 @@ table {
   width: 90%;
 }
 tr {
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #ccc;
 }
 th {
-  background-color: #eee;
+  background-color: #f5f5f5;
   text-align: left;
   font-weight: bold;
 }
-
-.grey-bg {background-color: #eee;}
-.padding {padding: .5em;}
-.line {box-shadow: 0 1px 0 0 #eee;}
