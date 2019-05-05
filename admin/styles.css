@@ -7,7 +7,7 @@ body {
 }
 
 h1 {
-  font: bold 21px/2 'Arial', sans-serif;  
+  font: bold 21px/2 'Arial', sans-serif;
   padding:  0;
   margin: 0;
   color: #000;
@@ -67,6 +67,16 @@ a:hover, a:active {border-bottom: 1px solid rgba(0,102,255,.2);}
   border-radius: .25em;
   color: #fff;
   font-size: 14px;
+}
+.btn-secondary {
+  background-color: #eee;
+  color: #000;
+}
+.btn-green {
+  background-color: #4CAF50;
+}
+.btn-red {
+  background-color: #F44336;
 }
 
 .tag {
