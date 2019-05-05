@@ -1,0 +1,3 @@
+User-agent: *
+Sitemap: http://carin.moscow/sitemap.xml
+Host: http://carin.moscow

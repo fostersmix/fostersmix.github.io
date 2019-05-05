@@ -1,0 +1,315 @@
+body {
+  font: 300 1em 'Montserrat', sans-serif;
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: #fff;
+}
+
+@media only screen and (max-width: 48em) {
+  .hide-mobile {display: none;}
+  body {font-size: 2.5em;}
+  h1 {
+    font: 500 3.5em 'Montserrat', sans-serif;
+    color: #000;
+    display:inline;
+  }
+  h2 {
+    font: 500 3em 'Montserrat', sans-serif;
+    color: #000;
+    display:inline;
+  }
+  h3 {
+    font: 300 2.5em 'Montserrat', sans-serif;
+    color: #000;
+    display:inline;
+  }
+  h4 {
+    font: 400 2em 'Montserrat', sans-serif;
+    color: #000;
+    display:inline;
+  }
+}
+@media only screen and (max-width: 62em) {
+  .hide-mobile {display: none;}
+  body {font-size: 2.5em;}
+  h1 {
+    font: 500 3em 'Montserrat', sans-serif;
+    color: #000;
+    display:inline;
+  }
+  h2 {
+    font: 500 2.5em 'Montserrat', sans-serif;
+    color: #000;
+    display:inline;
+  }
+  h3 {
+    font: 300 2em 'Montserrat', sans-serif;
+    color: #000;
+    display:inline;
+  }
+  h4 {
+    font: 400 1.5em 'Montserrat', sans-serif;
+    color: #000;
+    display:inline;
+  }
+}
+@media only screen and (max-width: 75em) {
+  .hide-tablet {display: none;}
+  body {font-size: 1.5em;}
+  h1 {
+    font: 500 5em 'Montserrat', sans-serif;
+    color: #000;
+    display:inline;
+  }
+  h2 {
+    font: 500 4em 'Montserrat', sans-serif;
+    color: #000;
+    display:inline;
+  }
+  h3 {
+    font: 500 3em 'Montserrat', sans-serif;
+    color: #000;
+    display:inline;
+  }
+  h4 {
+    font: 400 1.5em 'Montserrat', sans-serif;
+    color: #000;
+    display:inline;
+  }
+}
+
+@media only screen and (min-width: 75em) {
+  .hide-desktop {display: none;}
+  body {font-size: 1em;}
+  h1 {
+    font: 600 7em 'Montserrat', sans-serif;
+    color: #000;
+    display:inline;
+  }
+  h2 {
+    font: 500 5em 'Montserrat', sans-serif;
+    color: #000;
+    display:inline;
+  }
+  h3 {
+    font: 400 3em 'Montserrat', sans-serif;
+    color: #000;
+    display:inline;
+  }
+  h4 {
+    font: 400 1.5em 'Montserrat', sans-serif;
+    color: #000;
+    display:inline;
+  }
+  h5 {
+    font: 500 20em 'Montserrat', sans-serif;
+    color: #fff;
+    display:inline;
+  }
+}
+
+.cell-no {
+  border-radius: .75em;
+  background-color: none;
+}
+.cell_black {
+  border-radius: 5em;
+  background: #000;
+  border: 1px solid rgba(255, 87, 34, .25);
+}
+.cell {
+  border-radius: 5em;
+  background: none;
+  border: 1px solid #ddd;
+}
+.cell-table {
+  background: none;
+  border: 1px solid rgba(255, 87, 34, .25);
+}
+
+a:link, a:visited, a:active {
+  color: #FF5722;
+	text-decoration: none;
+  outline: none;
+  border-bottom: 1px solid rgba(255, 87, 34, .25);
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -moz-tap-highlight-color: rgba(0,0,0,0);
+}
+a:hover {
+  border-bottom: 1px solid rgba(255, 87, 34, 1);
+}
+a:link.wh, a:visited.wh, a:active.wh {
+  color: #fff;
+	text-decoration: none;
+  outline: none;
+  border-bottom: 1px solid rgba(255, 255, 255, .25);
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -moz-tap-highlight-color: rgba(0,0,0,0);
+}
+a:hover.wh {
+  border-bottom: 1px solid rgba(255, 255, 255, 1);
+}
+a:link.back, a:visited.back, a:active.back {
+  color: #FF5722;
+	text-decoration: none;
+  outline: none;
+  border-bottom: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -moz-tap-highlight-color: rgba(0,0,0,0);
+}
+a:hover.back {
+  color: #000;
+}
+a:link.back_wh, a:visited.back_wh, a:active.back_wh {
+  color: #fff;
+	text-decoration: none;
+  outline: none;
+  border-bottom: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -moz-tap-highlight-color: rgba(0,0,0,0);
+}
+a:hover.back_wh {
+  color: #000;
+}
+
+.stat_carlion {
+  height: 25px;
+  width: 3em;
+  background: linear-gradient(to top right, #DB3D09, #ef5421);
+  box-shadow: inset -2px 0 1px 0 rgba(0, 0, 0, 0.25);
+}
+.stat_lifcar {
+  height: 250px;
+  width: 3em;
+  background: linear-gradient(to top right, #FFA000, #FFCA28);
+  box-shadow: inset -2px 0 1px 0 rgba(0, 0, 0, 0.25);
+}
+.stat_car4you {
+  height: 150px;
+  width: 3em;
+  background: linear-gradient(to top right, #1565C0, #EF6C00);
+  box-shadow: inset -2px 0 1px 0 rgba(0, 0, 0, 0.25);
+}
+.stat_belkacar {
+  height: 1925px;
+  margin-top: 75px;
+  width: 3em;
+  background: linear-gradient(to top right, #00355c, #007da9);
+  box-shadow: inset -2px 0 1px 0 rgba(0, 0, 0, 0.25);
+}
+.stat_youdrive {
+  height: 1000px;
+  width: 3em;
+  background: linear-gradient(to top right, #1DB163, #2FD07A);
+  box-shadow: inset -2px 0 1px 0 rgba(0, 0, 0, 0.25);
+}
+.stat_delimobil {
+  height: 1700px;
+  width: 3em;
+  background: linear-gradient(to top right, #ff5600, #ff9d00);
+  box-shadow: inset -2px 0 1px 0 rgba(0, 0, 0, 0.25);
+}
+.stat_anytime {
+  height: 667px;
+  width: 3em;
+  background: linear-gradient(to top right, #bf1e00, #F44336);
+  box-shadow: inset -2px 0 1px 0 rgba(0, 0, 0, 0.25);
+}
+.stat_car5 {
+  height: 200px;
+  width: 3em;
+  background: linear-gradient(to top right, #0288D1, #17BEF0);
+  box-shadow: inset -2px 0 1px 0 rgba(0, 0, 0, 0.25);
+}
+.stat_easyride {
+  height: 200px;
+  width: 3em;
+  background: linear-gradient(to top right, #CC5A00, #ff7100);
+  box-shadow: inset -2px 0 1px 0 rgba(0, 0, 0, 0.25);
+}
+.stat_carenda {
+  height: 100px;
+  width: 3em;
+  background: linear-gradient(to top right, #ef7f1a, #F08B30);
+  box-shadow: inset -2px 0 1px 0 rgba(0, 0, 0, 0.25);
+}
+.stat_rentmee {
+  height: 120px;
+  width: 3em;
+  background: linear-gradient(to top right, #00A042, #01c853);
+  box-shadow: inset -2px 0 1px 0 rgba(0, 0, 0, 0.25);
+}
+.stat_carusel {
+  height: 250px;
+  width: 3em;
+  background: linear-gradient(to top right, #D95E1E, #f26922);
+  box-shadow: inset -2px 0 1px 0 rgba(0, 0, 0, 0.25);
+}
+.stat_timcar {
+  height: 200px;
+  width: 3em;
+  background: linear-gradient(to top right, #000, #F44336);
+  box-shadow: inset -2px 0 1px 0 rgba(0, 0, 0, 0.25);
+}
+.stat_drive {
+  height: 750px;
+  width: 3em;
+  background: linear-gradient(to top right, #0a28db, #2979FF);
+  box-shadow: inset -1px 0 2px 0 rgba(0, 0, 0, 0.25);
+}
+.stat {width: 3em;}
+.stat_carlion:hover,
+.stat_lifcar:hover,
+.stat_car4you:hover,
+.stat_belkacar:hover,
+.stat_youdrive:hover,
+.stat_delimobil:hover,
+.stat_anytime:hover,
+.stat_car5:hover,
+.stat_easyride:hover,
+.stat_carenda:hover,
+.stat_rentmee:hover,
+.stat_carusel:hover,
+.stat_timcar:hover,
+.stat_drive:hover
+ {box-shadow: inset 0 0 20em 0 rgba(0, 0, 0, 0.125);}
+
+
+small {font-size: .6em;color: white;}
+.padding {padding: 0 2em 0 2em;}
+.gradient-back {background: linear-gradient(to top, rgba(255, 87, 34,.25), rgba(0,0,0,0));}
+.gradient-front {background: linear-gradient(to right, #fff, rgba(255,255,255,0), #fff);}
+.top-05 {padding-top: .5em;}
+.top-10 {padding-top: 1em;}
+.top-20 {padding-top: 2em;}
+.top-40 {padding-top: 4em;}
+.bottom-05 {padding-bottom: .5em;}
+.bottom-10 {padding-bottom: 1em;}
+.bottom-20 {padding-bottom: 2em;}
+.bottom-40 {padding-bottom: 4em;}
+.screen {min-height: 100vh;}
+.line {height: 1px;background-color:#ddd;}
+.b-line {
+  border-left: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+  box-shadow: 1px 1px 0 0 #ddd;
+}
+.b-right {border-right: 1px solid #ddd;}
+.dot {
+  background-image: url(dot.png);
+  background-repeat: repeat;
+}
+
+.color, .color-hover:hover          {background-color:#FF5722;}
+#color, #color-hover:hover          {color: #FF5722;}
+.black, .black-hover:hover          {background-color:#000;}
+#black, #black-hover:hover          {color: #000;}
+.darkgray, .darkgray-hover:hover    {background-color:#777;}
+#darkgray, #darkgray-hover:hover    {color: #777;}
+.gray, .gray-hover:hover    {background-color:#ddd;}
+#gray, #gray-hover:hover    {color: #ddd;}
+.lightgray, .lightgray-hover:hover  {background-color:#fafafa;}
+#lightgray, #lightgray-hover:hover  {color: #fafafa;}
+.white, .white-hover:hover          {background-color:#fff;}
+#white, #white-hover:hover          {color: #fff;}
