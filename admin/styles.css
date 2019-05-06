@@ -62,8 +62,8 @@ a:hover, a:active {border-bottom: 1px solid rgba(0,102,255,.2);}
   width: 64px;
   border-radius: .25em;
 }
-.photo-128 {
-  width: 128px;
+.photo-selfie {
+  width: 180px;
   border-radius: .25em;
 }
 
