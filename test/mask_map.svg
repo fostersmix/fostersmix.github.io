@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="360px" height="212px" viewBox="0 0 360 212" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>mask_map</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="mask_map">
+            <path d="M0,0 L360,0 L360,212 L0,212 L0,0 Z M180,206 C235.228475,206 280,161.228475 280,106 C280,50.771525 235.228475,6 180,6 C124.771525,6 80,50.771525 80,106 C80,161.228475 124.771525,206 180,206 Z" id="Combined-Shape" fill="#FFFFFF" fill-rule="evenodd"></path>
+            <path d="M180,212 C238.542183,212 286,164.542183 286,106 C286,47.4578165 238.542183,0 180,0 C121.457817,0 74,47.4578165 74,106 C74,164.542183 121.457817,212 180,212 Z M180,206 C124.771525,206 80,161.228475 80,106 C80,50.771525 124.771525,6 180,6 C235.228475,6 280,50.771525 280,106 C280,161.228475 235.228475,206 180,206 Z" id="Oval" fill="#F5F5F5" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>
