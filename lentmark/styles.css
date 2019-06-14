@@ -1,5 +1,5 @@
 body {
-  font: normal 1em/1 'Arial', sans-serif;
+  font: normal 1em/1 'Ubuntu', sans-serif;
   color: #000;
   margin-top: 0;
   margin-bottom: 0;
@@ -8,14 +8,21 @@ body {
 }
 
 h1 {
-  font: bold 2em/1 'Arial', sans-serif;
+  font: bold 2em/1 'Ubuntu', sans-serif;
   padding:  0;
   margin: 0;
   color: #000;
   display: inline;
 }
 h2 {
-  font: bold 1.25em/1 'Arial', sans-serif;
+  font: bold 1.25em/1 'Ubuntu', sans-serif;
+  padding:  0;
+  margin: 0;
+  color: #000;
+  display: inline;
+}
+h3 {
+  font: bold 3em/1 'Ubuntu', sans-serif;
   padding:  0;
   margin: 0;
   color: #000;
@@ -60,16 +67,24 @@ a:hover, a:active {border-bottom: 1px solid rgba(0,102,255,.2);}
   box-shadow: inset 0 .25em .5em rgba(0,0,0,.15);
 }
 .menu-ad {
-  border: 1px solid #e3e3e3;
+  -border: 1px solid #e3e3e3;
   padding: 1em;
   border-radius: .5em;
   background-color: white;
+  box-shadow: 0 .5em 2em 0 rgba(0,0,0,.1), 0 .75em 1em 0 rgba(0,0,0,.05), 0 .5em .75em 0 rgba(0,0,0,.05);
 }
 .full {width: 100%;}
-.menu-sidebar {
+.cell {
   border: 1px solid #e3e3e3;
   padding: 1em;
   border-radius: .5em;
+  -box-shadow: 0 .5em 2em 0 rgba(0,0,0,.1), 0 .75em 1em 0 rgba(0,0,0,.05), 0 .5em .75em 0 rgba(0,0,0,.05);
+}
+.menu-sidebar {
+  -border: 1px solid #e3e3e3;
+  padding: 1em;
+  border-radius: .5em;
+  box-shadow: 0 .5em 2em 0 rgba(0,0,0,.1), 0 .75em 1em 0 rgba(0,0,0,.05), 0 .5em .75em 0 rgba(0,0,0,.05);
 }
 .menu-sidebar-line {
   border-top: 1px solid #e3e3e3;
@@ -80,8 +95,11 @@ a:hover, a:active {border-bottom: 1px solid rgba(0,102,255,.2);}
 .grey-bg {background-color: #eee;}
 .footer-bg {background-color: #333;}
 .banner {
-  height: 10em;
-  background: linear-gradient(to right top,rgba(255,150,65,1),rgba(255,235,80,1));
+  height: 16em;
+  background-image: url(bg.jpg);
+  background-size: cover;
+  background-position: center center;
+  -background: linear-gradient(to right top,rgba(255,150,65,1),rgba(255,235,80,1));
 }
 
 #search {
