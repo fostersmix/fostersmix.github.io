@@ -1,0 +1,177 @@
+body {
+  font: 400 1em/1.5 'Montserrat', sans-serif;
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 0;
+  background: #fff;
+}
+
+@media only screen and (max-width: 48em) {
+  body {font-size: 2.5em;}
+}
+@media only screen and (min-width: 48em) {
+  body {font-size: 2em;}
+}
+@media only screen and (min-width: 62em) {
+  body {font-size: 1.5em;}
+}
+@media only screen and (min-width: 75em) {
+  body {font-size: 1em;}
+}
+
+h1 {
+  font: 800 5em/1 'Montserrat', sans-serif;
+  padding:  0;
+  margin: 0;
+  color: #000;
+  display: inline;
+}
+h2 {
+  font: 200 5em/1 'Montserrat', sans-serif;
+  padding:  0;
+  margin: 0;
+  color: #0066FF;
+  -text-shadow: -1px 0 #0066FF, 0 1px #0066FF, 1px 0 #0066FF, 0 -1px #0066FF;
+  display: inline;
+}
+h2:hover {color: #0066FF;}
+h3 {
+  font: 300 2em/1 'Montserrat', sans-serif;
+  padding:  0;
+  margin: 0;
+  color: #000;
+  display: inline;
+}
+h4 {
+  font: 800 5em/1 'Montserrat', sans-serif;
+  padding:  0;
+  margin: 0;
+  color: #fff;
+  display: inline;
+}
+h5 {
+  font: 800 10em/1 'Montserrat', sans-serif;
+  padding:  0;
+  margin: 0;
+  color: rgba(0,0,0,1);
+  text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+  display: inline;
+}
+
+.line {height: 1px;}
+.screen {min-height: 100vh;}
+
+.top-small {padding-top: 1em;}
+.top {padding-top: 2em;}
+.top-big {padding-top: 5em;}
+
+.bottom-small {padding-bottom: 1em;}
+.bottom {padding-bottom: 2em;}
+.bottom-big {padding-bottom: 5em;}
+
+a:link, a:visited, a:hover, a:focus, a:active {
+  font: 400 1em 'Montserrat', sans-serif;
+  word-break: normal;
+  text-decoration: none;
+  outline: none;
+  color: #0066FF;
+  border-radius: 0em;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -moz-tap-highlight-color: rgba(0,0,0,0);
+}
+
+a.grey-link:link, a.grey-link:visited, a.grey-link:hover, a.grey-link:focus, a.grey-link:active {
+  color: #444;
+}
+
+a.logo:link, a.logo:visited, a.logo:hover, a.logo:focus, a.logo:active {
+  font: 400 2em/1 'Montserrat', sans-serif;
+  color: #000;
+}
+
+a.logo-fff:link, a.logo-fff:visited, a.logo-fff:hover, a.logo-fff:focus, a.logo-fff:active {
+  font: 400 2em/1 'Montserrat', sans-serif;
+  color: #fff;
+}
+
+a.btn:link, a.btn:visited, a.btn:active {
+  font: 400 3em/3 'Montserrat', sans-serif;
+  white-space: nowrap;
+  background: #0066FF;
+  font-style: italic;
+  color: #fff;
+  padding: .4em 1em .45em 1em;
+  border-radius: 5em;
+  -box-shadow: .125em .125em 0 0 black;
+}
+a.btn:hover, a.btn:focus {box-shadow: 0 0 0 .125em #0066FF;}
+
+.bg {
+  background-image: url(bg2.jpg);
+  background-size: contain;
+  background-repeat: repeat;
+  background-position: left center;
+  background-attachment: fixed;
+}
+.bg2 {
+  background-image: url(ma3.jpg);
+  -background: radial-gradient(circle, #0066FF, rgba(0,0,0,0));
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: left center;
+}
+.bg3 {
+  -background-image: url(ma3.jpg);
+  -background: radial-gradient(circle, rgba(0,0,0,0), #000);
+  background: black;
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: left center;
+}
+.bg3:hover {
+  -background-image: url(ma3.jpg);
+  -background: radial-gradient(circle, rgba(0,0,0,0), #000);
+  background: linear-gradient(rgba(0,0,0,0), #000);
+  -background: transparent;
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: left center;
+}
+
+.load {
+  -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-transition: -webkit-transform 10s linear;
+    transition: -webkit-transform 10s linear;
+    transition: transform 10s linear;
+    transition: transform 10s linear,-webkit-transform 10s linear;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+
+.shadow {box-shadow:
+  .25em .25em 0 0 #999,
+  .5em .5em 0 0 #888,
+  .75em .75em 0 0 #777,
+  1em 1em 0 0 #666,
+  1.25em 1.25em 0 0 #555,
+  1.5em 1.5em 0 0 #444,
+  1.75em 1.75em 0 0 #333,
+  2em 2em 0 0 #222,
+  2.25em 2.25em 0 0 #111;
+}
+.shadow-text {text-shadow: .1em .1em  rgba(0,0,0,1);}
+.cell {background-color: black;}
+.cell:hover {background-color: white;}
+.gradient {background: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 0, 0, 0.25));}
+
+.light-grey {color: #eee;}
+.grey {color: #444;}
+.grey-bg {background-color: #222;}
+.blue-bg {background-color: #0066FF;}
+.black-bg {background-color: #000;}
+.white-bg {background-color: #fff;}
+.blue {color: #0066FF;}
+.black {color: #000;}
+.white {color: #fff;}
+.red {color: #af0011;}
