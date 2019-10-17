@@ -1,0 +1,247 @@
+body {
+  font: 400 1em/1.5 'Montserrat', sans-serif;
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 0;
+  background: #fff;
+}
+
+@media only screen and (max-width: 48em) {
+  body {font-size: 2em;}
+}
+@media only screen and (min-width: 48em) {
+  body {font-size: 1.5em;}
+}
+@media only screen and (min-width: 62em) {
+  body {font-size: 1.25em;}
+}
+@media only screen and (min-width: 75em) {
+  body {font-size: 1em;}
+}
+
+h1 {
+  font: 700 5em/1 'Montserrat', sans-serif; /*intro text*/
+  padding:  0;
+  margin: 0;
+  color: #000;
+  display: inline;
+}
+h2 {
+  font: 200 5em/1 'Montserrat', sans-serif; /*blue category*/
+  padding:  0;
+  margin: 0;
+  font-style: italic;
+  color: #0066FF;
+  display: inline;
+}
+h3 {
+  font: 300 2em/1 'Montserrat', sans-serif; /*black/white subhead*/
+  padding:  0;
+  margin: 0;
+  color: #000;
+  display: inline;
+}
+h4 {
+  font: 700 10em/1 'Montserrat', sans-serif; /*logo+shadow on main*/
+  padding:  0;
+  margin: 0;
+  color: #fff;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #0066FF;
+  display: inline;
+  text-shadow: .25em .25em 0 #fff;
+}
+h5 {
+  font: 700 5em/1 'Montserrat', sans-serif; /*logo footer*/
+  padding:  0;
+  margin: 0;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #444;
+  display: inline;
+}
+
+.line {height: 1px;}
+.screen {min-height: 100vh;}
+.full {max-width: 100%;}
+
+.top-small {padding-top: 1em;}
+.top {padding-top: 2em;}
+.top-big {padding-top: 5em;}
+
+.bottom-small {padding-bottom: 1em;}
+.bottom {padding-bottom: 2em;}
+.bottom-big {padding-bottom: 5em;}
+
+a:link, a:visited, a:hover, a:focus, a:active {
+  font: 400 1em 'Montserrat', sans-serif;
+  word-break: normal;
+  text-decoration: none;
+  outline: none;
+  color: #0066FF;
+  border-radius: 0em;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -moz-tap-highlight-color: rgba(0,0,0,0);
+}
+
+a.grey-link:link, a.grey-link:visited, a.grey-link:hover, a.grey-link:focus, a.grey-link:active {
+  color: #444;
+}
+
+a.logo:link, a.logo:visited, a.logo:hover, a.logo:focus, a.logo:active {
+  font: 400 2em/1 'Montserrat', sans-serif;
+  color: #000;
+}
+
+a.btn:link, a.btn:visited, a.btn:active {
+  font: 400 3em/3 'Montserrat', sans-serif;
+  white-space: nowrap;
+  background: #0066FF;
+  font-style: italic;
+  color: #fff;
+  padding: .4em 1em .45em 1em;
+  border-radius: 5em;
+  -box-shadow: inset -1em -0.5em 1em 0 #0066FF, inset 1em 0.5em 1em 0 #00FFFF;
+  box-shadow:
+  .05em .05em 0 0 rgb(0,102,255),
+  .1em .1em 0 0 rgb(0,94,235),
+  .15em .15em 0 0 rgb(0,86,216),
+  .2em .2em 0 0 rgb(0,78,196),
+  .25em .25em 0 0 rgb(0,71,177),
+  .3em .3em 0 0 rgb(0,63,157),
+  .35em .35em 0 0 rgb(0,55,137),
+  .4em .4em 0 0 rgb(0,47,118),
+  .45em .45em 0 0 rgb(0,39,98),
+  .5em .5em 0 0 rgb(0,31,78),
+  .55em .55em 0 0 rgb(0,24,59),
+  .6em .6em 0 0 rgb(0,16,39);
+}
+a.btn:hover, a.btn:focus {
+  background: #000;
+  box-shadow:
+  0.05em 0.05em 0 0 rgb(0,16,39),
+  0.1em 0.1em 0 0 rgb(0,24,59),
+  0.15em 0.15em 0 0 rgb(0,31,78),
+  0.2em 0.2em 0 0 rgb(0,39,98),
+  0.25em 0.25em 0 0 rgb(0,47,118),
+  0.3em 0.3em 0 0 rgb(0,55,137),
+  0.35em 0.35em 0 0 rgb(0,63,157),
+  0.4em 0.4em 0 0 rgb(0,71,177),
+  0.45em 0.45em 0 0 rgb(0,78,196),
+  0.5em 0.5em 0 0 rgb(0,86,216),
+  0.55em 0.55em 0 0 rgb(0,94,235),
+  0.6em 0.6em 0 0 rgb(0,102,255);
+}
+
+a.btn-no:link, a.btn-no:visited, a.btn-no:active, a.btn-no:hover, a.btn-no:focus {
+  font: 400 3em/3 'Montserrat', sans-serif;
+  cursor: default;
+  white-space: nowrap;
+  background: #ddd;
+  font-style: italic;
+  color: #fff;
+  padding: .4em 1em .45em 1em;
+  border-radius: 5em;
+}
+
+.bg {
+  background-image: url(bg3.png);
+  background-size: contain;
+  background-repeat: repeat;
+  background-position: left center;
+  background-attachment: fixed;
+}
+.bg2 {
+  background-image: url(ma3.jpg);
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: left center;
+}
+.bg3 {
+  background: #000;
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: left center;
+}
+.bg3:hover {
+  background: linear-gradient(rgba(0,0,0,0), #000);
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: left center;
+}
+
+.shadow {box-shadow:
+  .25em .25em 0 0 rgb(232,232,232),
+  .5em .5em 0 0 rgb(213,213,213),
+  .75em .75em 0 0 rgb(193,193,193),
+  1em 1em 0 0 rgb(173,173,173),
+  1.25em 1.25em 0 0 rgb(154,154,154),
+  1.5em 1.5em 0 0 rgb(134,134,134),
+  1.75em 1.75em 0 0 rgb(114,114,114),
+  2em 2em 0 0 rgb(95,95,95),
+  2.25em 2.25em 0 0 rgb(75,75,75),
+  2.5em 2.5em 0 0 rgb(56,56,56),
+  2.75em 2.75em 0 0 rgb(36,36,36),
+  3em 3em 0 0 rgb(16,16,16);
+}
+.shadow:hover {-box-shadow:
+  .25em .25em 0 0 rgb(0,102,255),
+  .5em .5em 0 0 rgb(0,94,235),
+  .75em .75em 0 0 rgb(0,86,216),
+  1em 1em 0 0 rgb(0,78,196),
+  1.25em 1.25em 0 0 rgb(0,71,177),
+  1.5em 1.5em 0 0 rgb(0,63,157),
+  1.75em 1.75em 0 0 rgb(0,55,137),
+  2em 2em 0 0 rgb(0,47,118),
+  2.25em 2.25em 0 0 rgb(0,39,98),
+  2.5em 2.5em 0 0 rgb(0,31,78),
+  2.75em 2.75em 0 0 rgb(0,24,59),
+  3em 3em 0 0 rgb(0,16,39);
+}
+.shadow2 {box-shadow:
+  .25em .25em 0 0 rgb(0,16,39),
+  .5em .5em 0 0 rgb(0,24,59),
+  .75em .75em 0 0 rgb(0,31,78),
+  1em 1em 0 0 rgb(0,39,98),
+  1.25em 1.25em 0 0 rgb(0,47,118),
+  1.5em 1.5em 0 0 rgb(0,55,137),
+  1.75em 1.75em 0 0 rgb(0,63,157),
+  2em 2em 0 0 rgb(0,71,177),
+  2.25em 2.25em 0 0 rgb(0,78,196),
+  2.5em 2.5em 0 0 rgb(0,86,216),
+  2.75em 2.75em 0 0 rgb(0,94,235),
+  3em 3em 0 0 rgb(0,102,255);
+}
+
+.bar1 {
+  background: linear-gradient(to top, rgb(0,102,255), rgb(0,16,39));
+}
+.bar {
+  background: linear-gradient(to right, #444 76%, #0066FF 76%);
+  height: 2px;
+}
+
+.black {color: #000;}
+.black-bg {background-color: #000;}
+.grey {color: #444;}
+.grey-bg {background-color: #222;}
+.lightgrey {color: #ddd;}
+.lightgrey-bg {background-color: #ddd;}
+.white {color: #fff;}
+.white-bg {background-color: #fff;}
+.color-bg {background-color: #0066FF;}
+.color {color: #0066FF;}
+.warning-bg {background-color: #FFFF00;}
+.warning {color: #FFFF00;}
+
+.red-stroke {
+  -webkit-text-stroke-color: red;
+  -webkit-text-stroke-width: 1px;
+}
+.white-stroke {
+  -webkit-text-stroke-color: white;
+  -webkit-text-stroke-width: 1px;
+}
+.white-stroke:hover {-webkit-text-stroke-color: #0066FF;}
