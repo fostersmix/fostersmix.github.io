@@ -71,7 +71,7 @@ a:link, a:visited, a:hover, a:focus, a:active {
 
 .logo {
   letter-spacing: 12;
-  font: 800 1.5em/1 'Montserrat', sans-serif;
+  font: 600 1.5em/1 'Montserrat', sans-serif;
   color: #000;
 }
 
@@ -80,6 +80,9 @@ a:link, a:visited, a:hover, a:focus, a:active {
 .hide {overflow: hidden;}
 .line {height: 1px; background-color: #ddd;}
 .round {border-radius: 1em;}
+.round-bottom {border-radius: 0 0 5em 5em;}
+.round-top {border-radius: 5em 5em 0 0;}
+
 .top-small {padding-top: .5em;}
 .bottom-small {padding-bottom: .5em;}
 .top {padding-top: 2em;}
@@ -125,7 +128,8 @@ a.btn:hover, a.btn:focus {
 }
 
 .space {letter-spacing: 6;}
-.download {width: 40%;}
+.download {width: 40%;padding-right: .5em;}
+.gradient {  background: linear-gradient(to top,transparent 75%, rgba(105,51,255,.4));}
 .gradient-hint {  background: linear-gradient(to top,transparent 50%, #fafafa 50%);}
 
 .white {color: #FFF;}
