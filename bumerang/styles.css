@@ -130,7 +130,9 @@ a.btn:hover, a.btn:focus {
 .space {letter-spacing: 6;}
 .download {width: 40%;padding-right: .5em;}
 .gradient {  background: linear-gradient(to top,transparent 90%, rgba(0,0,0,.05));}
-.gradient-hint {  background: linear-gradient(to top,transparent 50%, #fafafa 50%);}
+.gradient-inv {  background: linear-gradient(to bottom,transparent 90%, rgba(0,0,0,.05));}
+
+.gradient-hint {  background: linear-gradient(to top,transparent 50%, #eee 50%, #fff 100%);}
 
 .white {color: #FFF;}
 .white-bg {background-color: #FFF;}
@@ -155,6 +157,10 @@ a.btn:hover, a.btn:focus {
 .grey {color: #e3e3e3;}
 .grey-bg {background-color: #e3e3e3;}
 .grey-sh {box-shadow: 0px 1em 2em 0 rgba(227,227,227,.4);}
+
+.darkgrey {color: #444;}
+.darkgrey-bg {background-color: #444;}
+.darkgrey-sh {box-shadow: 0px 1em 2em 0 #ddd;}
 
 .dark {color: rgba(0,0,0,0.5);}
 .light {color: rgba(255,255,255,0.75);}
