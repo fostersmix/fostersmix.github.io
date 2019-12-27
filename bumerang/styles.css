@@ -25,12 +25,13 @@ h1 {
   margin: 0;
   color: #fff;
   display: inline;
+  -text-shadow: .05em .05em 0 #000;
 }
 h2 {
   font: 600 3em/1.25 'Montserrat', sans-serif;
   padding: 0;
   margin: 0;
-  color: #FF6600;
+  color: #000;
   display: inline;
 }
 h3 {
@@ -55,7 +56,11 @@ h5 {
   display: inline;
 }
 
-.city {color: #FFFF33;text-decoration: underline;}
+.headline-text {color: #FF0066;font-weight: bold;}
+.headline-underline {text-decoration: underline #FFFF33;}
+.headline-header {box-shadow: inset 0 -.5em 0 0 #FF0066;background-position: 1em 0.2em;}
+.headline-small {background-color: #FFFF33;color:#000;font-weight: bold;}
+
 
 
 a:link, a:visited, a:hover, a:focus, a:active {
@@ -72,7 +77,7 @@ a:link, a:visited, a:hover, a:focus, a:active {
 .logo {
   letter-spacing: 12;
   font: 600 1.5em/1 'Montserrat', sans-serif;
-  color: #000;
+  color: #fff;
 }
 
 .screen {min-height: 100vh;}
@@ -95,14 +100,30 @@ a:link, a:visited, a:hover, a:focus, a:active {
 a.btn:link, a.btn:visited, a.btn:active {
   font: 600 1.25em/3 'Montserrat', sans-serif;
   white-space: nowrap;
-  background: #000;
+  background: transparent;
+  -text-decoration: underline #FF0066;
+  color: #fff;
+  padding: .6em 1.2em .6em 1.2em;
+  border-radius: 5em;
+  border: .05em solid #FF0066;
+}
+a.btn:hover, a.btn:focus {
+  color: #000;
+  background: #FF0066;
+}
+
+a.btn-head:link, a.btn-head:visited, a.btn-head:active {
+  font: 600 1.25em/3 'Montserrat', sans-serif;
+  white-space: nowrap;
+  background: #FF0066;
+  text-decoration: underline;
   color: #fff;
   padding: .6em 1.2em .6em 1.2em;
   border-radius: 5em;
 }
-a.btn:hover, a.btn:focus {
-  color: #000;
-  background: #FFFF33;
+a.btn-head:hover, a.btn:focus {
+  color: #FF0066;
+  background: #000;
 }
 
 .bg {
@@ -112,28 +133,35 @@ a.btn:hover, a.btn:focus {
   background-position: center bottom;
 }
 
-.badge-yellow {
+.badge {
   background-color: #FFFF33;
   color: #000;
   border-radius: 1em;
   padding: .2em .6em .25em .6em;
   font: 700 1em/1 'Montserrat', sans-serif;
-  -box-shadow: .4em 0 0 0 #FFFF99, .8em 0 0 0 #FFFFCC;
 }
-.badge-red {
-  background-color: #00FFCC;
+
+.badge-ip65 {
+  background-color: none;
   color: #000;
-  border-radius: 1em;
+  border-radius: .3em;
   padding: .2em .6em .25em .6em;
   font: 700 1em/1 'Montserrat', sans-serif;
-  -box-shadow: .4em 0 0 0 #66FFCC, .8em 0 0 0 #99FFCC;
+  box-shadow: inset 0 0 0 2px #000;
 }
 
 .space {letter-spacing: 6;}
 .download {width: 40%;padding-right: .5em;}
-.gradient {  background: linear-gradient(to top,transparent 90%, rgba(0,0,0,.05));}
-.gradient-inv {  background: linear-gradient(to bottom,transparent 90%, rgba(0,0,0,.05));}
 
+.bb {
+  border-radius: .5em;
+  border: 1px solid #333;
+}
+.bb-line {box-shadow: 1px 0 0 0 #333;}
+
+.gradient {  background: linear-gradient(to top,transparent 95%, rgba(0,0,0,.05));}
+.gradient-head {  background: linear-gradient(to top,transparent, rgba(0,0,0,1));}
+.gradient-inv {  background: linear-gradient(to bottom,transparent 90%, rgba(0,0,0,.05));}
 .gradient-hint {  background: linear-gradient(to top,transparent 50%, #eee 50%, #fff 100%);}
 
 .white {color: #FFF;}
@@ -142,34 +170,23 @@ a.btn:hover, a.btn:focus {
 
 .black {color: #000;}
 .black-bg {background-color: #000;}
-.black-sh {box-shadow: 0px 1em 2em 0 rgba(0,0,0,.3);}
+.black-sh {box-shadow: 0px 1.5em 3em 0 rgba(0,0,0,.3);}
 
 .primary {color: #FFFF33;}
 .primary-bg {background-color: #FFFF33;}
-.primary-sh {box-shadow: 0px 1em 2em 0 rgba(255,255,51,.4);}
+.primary-sh {box-shadow: 0px 1.5em 3em 0 rgba(255,255,51,.8);}
 
-.secondary {color: #FF6600;}
-.secondary-bg {background-color: #FF6600;}
-.secondary-sh {box-shadow: 0px 1em 2em 0 rgba(255,102,0,.4);}
-.secondary-gr {background: linear-gradient(to top, #FFFF33, #FFCC00);}
+.secondary {color: #FF0066;}
+.secondary-bg {background-color: #FF0066;}
+.secondary-sh {box-shadow: 0px 1.5em 3em 0 rgba(255,0,153,.8);}
 
-.lightgrey {color: #fafafa;}
-.lightgrey-bg {background-color: #fafafa;}
-.lightgrey-sh {box-shadow: 0px 1em 2em 0 #fafafa;}
+.grey {color: #eee;}
+.grey-bg {background-color: #eee;}
+.grey-sh {box-shadow: 0px 1.5em 3em 0 rgba(227,227,227,.4);}
 
-.grey {color: #e3e3e3;}
-.grey-bg {background-color: #e3e3e3;}
-.grey-sh {box-shadow: 0px 1em 2em 0 rgba(227,227,227,.4);}
-
-.darkgrey {color: #444;}
-.darkgrey-bg {background-color: #444;}
+.darkgrey {color: #000;}
+.darkgrey-bg {background-color: #000;}
 .darkgrey-sh {box-shadow: 0px 1em 2em 0 rgba(227,227,227,.8);}
 
 .dark {color: rgba(0,0,0,0.5);}
 .light {color: rgba(255,255,255,0.75);}
-
-.bb {
-  border-radius: .5em;
-  border: 1px solid #333;
-}
-.bb-line {box-shadow: 1px 0 0 0 #333;}
