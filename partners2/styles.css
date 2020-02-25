@@ -81,7 +81,7 @@ h4 {
 }
 
 .btn {
-  font: bold 2em/1 'Arial', sans-serif;
+  font: bold 2em/1 'Montserrat', sans-serif;
   color: white;
   border: 0;
   padding: .5em 1.5em .5em 1.5em;
@@ -128,7 +128,7 @@ a.menu:hover, a.menu:active {
 }
 
 a.big:link, a.big:visited, a.big:focus {
-  font: bold 2.5em/1 'Arial', sans-serif;
+  font: bold 2.5em/1 'Montserrat', sans-serif;
   word-break: normal;
   text-decoration: underline;
   outline: none;
