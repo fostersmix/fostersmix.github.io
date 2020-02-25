@@ -7,8 +7,21 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+@media only screen and (max-width: 48em) {
+  body {font: 2em/1 'Arial', sans-serif;}
+}
+@media only screen and (min-width: 48em) {
+  body {font: 1.5em/1 'Arial', sans-serif;}
+}
+@media only screen and (min-width: 62em) {
+  body {font: 1.25em/1 'Arial', sans-serif;}
+}
+@media only screen and (min-width: 75em) {
+  body {font: 1em/1 'Arial', sans-serif;}
+}
+
 h1 {
-  font: bold 5em/1 'Arial', sans-serif;
+  font: bold 5em/1 'Montserrat', sans-serif;
   padding:  0;
   margin: 0;
   color: #000;
@@ -16,7 +29,7 @@ h1 {
 }
 
 h2 {
-  font: bold 2.5em/1 'Arial', sans-serif;
+  font: bold 2.5em/1 'Montserrat', sans-serif;
   padding:  0;
   margin: 0;
   color: #000;
@@ -24,7 +37,7 @@ h2 {
 }
 
 h3 {
-  font: bold 1.5em/1 'Arial', sans-serif;
+  font: bold 1.5em/1 'Montserrat', sans-serif;
   padding:  0;
   margin: 0;
   color: #777;
@@ -32,7 +45,7 @@ h3 {
 }
 
 h4 {
-  font: bold 3.5em/1 'Arial', sans-serif;
+  font: bold 3.5em/1 'Montserrat', sans-serif;
   padding:  0;
   margin: 0;
   color: #000;
