@@ -1,0 +1,62 @@
+$(document).ready(function(){
+  $('.q-5').click(function () {
+    $(".q-5").addClass('part-active');
+    $(".q-10").removeClass('part');
+    $(".q-15").removeClass('part');
+    $(".q-20").removeClass('part');
+    $(".q-25").removeClass('part');
+    $(".a-5").removeClass('hide');
+    $(".a-10").addClass('hide');
+    $(".a-15").addClass('hide');
+    $(".a-20").addClass('hide');
+    $(".a-25").addClass('hide');
+  });
+  $('.q-10').click(function () {
+    $(".q-5").addClass('part-active');
+    $(".q-10").addClass('part-active');
+    $(".q-15").removeClass('part');
+    $(".q-20").removeClass('part');
+    $(".q-25").removeClass('part');
+    $(".a-5").addClass('hide');
+    $(".a-10").removeClass('hide');
+    $(".a-15").addClass('hide');
+    $(".a-20").addClass('hide');
+    $(".a-25").addClass('hide');
+  });
+  $('.q-15').click(function () {
+    $(".q-5").addClass('part-active');
+    $(".q-10").addClass('part-active');
+    $(".q-15").addClass('part-active');
+    $(".q-20").removeClass('part');
+    $(".q-25").removeClass('part');
+    $(".a-5").addClass('hide');
+    $(".a-10").addClass('hide');
+    $(".a-15").removeClass('hide');
+    $(".a-20").addClass('hide');
+    $(".a-25").addClass('hide');
+  });
+  $('.q-20').click(function () {
+    $(".q-5").addClass('part-active');
+    $(".q-10").addClass('part-active');
+    $(".q-15").addClass('part-active');
+    $(".q-20").addClass('part-active');
+    $(".q-25").removeClass('part');
+    $(".a-5").addClass('hide');
+    $(".a-10").addClass('hide');
+    $(".a-15").addClass('hide');
+    $(".a-20").removeClass('hide');
+    $(".a-25").addClass('hide');
+  });
+  $('.q-25').click(function () {
+    $(".q-5").addClass('part-active');
+    $(".q-10").addClass('part-active');
+    $(".q-15").addClass('part-active');
+    $(".q-20").addClass('part-active');
+    $(".q-25").addClass('part-active');
+    $(".a-5").addClass('hide');
+    $(".a-10").addClass('hide');
+    $(".a-15").addClass('hide');
+    $(".a-20").addClass('hide');
+    $(".a-25").removeClass('hide');
+  });
+});
