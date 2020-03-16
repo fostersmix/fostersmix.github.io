@@ -124,19 +124,20 @@ a:link, a:visited, a:focus, a:hover, a:active {
 .part {
   background: linear-gradient(#fff, #eee);
   color: black;
-  padding: .5em;
+  padding: .5em .6em .5em .6em;
   color: #777;
-  border-left: 1px solid #eee;
   font-size: .75em;
+  cursor: pointer;
 }
+.part:hover {background: linear-gradient(#fff, #ddd);}
 .part-active {
-  background-color: #FFC107;
+  background: linear-gradient(#FFA000, #FFC107);
   color: white;
   border-radius: 0;
-  padding: .5em;
-  box-shadow: inset 0 0.125em 0.25em 0 #FF8F00;
+  padding: .5em .6em .5em .6em;
   font-size: .75em;
 }
+.part-active:hover {background: linear-gradient(#FF8F00, #FFC107)}
 
 .part-left {
   background: linear-gradient(#fff, #eee);
@@ -145,33 +146,38 @@ a:link, a:visited, a:focus, a:hover, a:active {
   color: #777;
   font-size: .75em;
   border-radius: .5em 0 0 .5em;
+  cursor: pointer;
 }
+.part-left:hover {background: linear-gradient(#fff, #ddd);}
 .part-left-active {
-  background-color: #FFC107;
+  background: linear-gradient(#FFA000, #FFC107);
   color: white;
   padding: .5em 1em .5em 1em;
-  box-shadow: inset 0 0.125em 0.25em 0 #FF8F00;
   font-size: .75em;
   border-radius: .5em 0 0 .5em;
 }
+.part-left-active:hover {background: linear-gradient(#FF8F00, #FFC107)}
+
 
 .part-right {
   background: linear-gradient(#fff, #eee);
   color: black;
   padding: .5em 1em .5em 1em;
   color: #777;
-  border-left: 1px solid #eee;
   font-size: .75em;
   border-radius: 0 .5em .5em 0;
+  cursor: pointer;
 }
+.part-right:hover {background: linear-gradient(#fff, #ddd);}
 .part-right-active {
-  background-color: #FFC107;
+  background: linear-gradient(#FF8F00, #FFC107);
   color: white;
   padding: .5em 1em .5em 1em;
-  box-shadow: inset 0 0.125em 0.25em 0 #FF8F00;
   font-size: .75em;
   border-radius: 0 .5em .5em 0;
 }
+.part-right-active:hover {background: linear-gradient(#FF8F00, #FFC107)}
+
 
 .part-all {
   background: linear-gradient(#fff, #eee);
@@ -181,15 +187,17 @@ a:link, a:visited, a:focus, a:hover, a:active {
   font-size: .75em;
   border-radius: .5em;
 }
+.part-all:hover {background: linear-gradient(#fff, #ddd);}
 .part-all-active {
-  background-color: #FFC107;
+  background: linear-gradient(#FF8F00, #FFC107);
   color: white;
   border-radius: 0;
   padding: .5em 2em .5em 2em;
-  box-shadow: inset 0 0.125em 0.25em 0 #FF8F00;
   font-size: .75em;
   border-radius: .5em;
 }
+.part-all-active:hover {background: linear-gradient(#FF8F00, #FFC107)}
+
 
 a.menu:link, a.menu:visited, a.menu:focus {
   color: #000;
