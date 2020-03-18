@@ -186,6 +186,7 @@ a:link, a:visited, a:focus, a:hover, a:active {
   color: #777;
   font-size: .75em;
   border-radius: .5em;
+  cursor: pointer;
 }
 .part-all:hover {background: linear-gradient(#fff, #ddd);}
 .part-all-active {
@@ -308,3 +309,5 @@ a.big:hover, a.big:active {color: #FFC107;border-bottom: none;}
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
 .hide {display: none;}
+
+.black-bg {background-color: red;}
