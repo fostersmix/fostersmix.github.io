@@ -18,6 +18,16 @@ body {
   body {font: 1em/1 'Montserrat', sans-serif;}
 }
 
+a:link, a:visited, a:focus, a:hover, a:active {
+  font: 600 5em/1.5 'Montserrat', sans-serif;
+  word-break: normal;
+  text-decoration: underline;
+  outline: none;
+  color: #fff;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -moz-tap-highlight-color: rgba(0,0,0,0);
+}
+
 h1 {
   font: 600 6em/1.5 'Montserrat', sans-serif;
   padding: 0;
