@@ -65,12 +65,15 @@ h3 {
   padding-left: 1px;
 }
 
+.ph {padding: 13px 8px 12px 8px;}
+.pl {padding: 11px 0 9px 1px;}
 .p {padding: 8px 10px 13px;}
 .b6 {margin-bottom: 6px;}
 .b15 {margin-bottom: 15px;}
-.t {padding-top: 141px}
+.t {padding-top: 37px}
 .t8 {margin-top: 8px;}
 .t32 {margin-top: 32px;}
+.px {padding-top: 1px;}
 
 .btn {
   font-family: 'Roboto', sans-serif;
@@ -87,6 +90,21 @@ h3 {
 }
 .btn:hover {background: #28c979;}
 
+.line {
+  background: #32afed;
+}
+
+.arrow {
+  display: inline-block;
+  background: url(https://telegram.org/img/tgme/Arrow_2x.png) 0 0 no-repeat;
+  width: 8px;
+  height: 12px;
+  background-size: 8px 12px;
+  vertical-align: top;
+  margin-top: 6px;
+  margin-left: 9px;
+}
+
 .btn2 {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
@@ -97,4 +115,15 @@ h3 {
   overflow: hidden;
   display: inline-block;
   padding: 15px 27px 13px;
+}
+
+.btn3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  color: #fff;
+  padding: 0;
+  margin: 0;
 }
