@@ -96,7 +96,7 @@ h3 {
 
 .arrow {
   display: inline-block;
-  background: url(https://telegram.org/img/tgme/Arrow_2x.png) 0 0 no-repeat;
+  background: url(Arrow_2x.png) 0 0 no-repeat;
   width: 8px;
   height: 12px;
   background-size: 8px 12px;
