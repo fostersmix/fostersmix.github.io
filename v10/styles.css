@@ -1,0 +1,25 @@
+@media only screen and (min-width: 1em) {body {font-size: 3em;}}
+@media only screen and (min-width: 48em) {body {font-size: 2em;}}
+@media only screen and (min-width: 62em) {body {font-size: 1.5em;}}
+@media only screen and (min-width: 75em) {body {font-size: 1em;}}
+
+body {
+  font: 900 90vh/1 'Montserrat', sans-serif;
+  font-style: italic;
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 0;
+  background: rgb(0,0,0);
+}
+
+a:link, a:visited, a:hover, a:focus, a:active {
+  font: 900 1em/1 'Montserrat', sans-serif;
+  font-style: italic;
+  text-decoration: underline;
+  outline: none;
+  color: #fff;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -moz-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.space {white-space: nowrap;}
