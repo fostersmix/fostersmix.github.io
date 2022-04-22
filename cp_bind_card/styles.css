@@ -7,6 +7,10 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+h1 {
+  font: normal 1.5em/1 'Arial', sans-serif;
+}
+
 .screen {min-height: 100vh;}
 .top-5 {padding-top: .5em;}
 .top-20 {padding-top: 2em;}
