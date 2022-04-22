@@ -10,26 +10,19 @@ body {
 .screen {min-height: 100vh;}
 .top-5 {padding-top: .5em;}
 .top-20 {padding-top: 2em;}
-.bottom-20 {padding-bottom: 2em;}
 .logo {height: 4em;}
-.bg {background-color: rgb(95,95,115);}
+.bg {background-color: #eee;}
 
 input {
   padding: 1em;
   font-size: 1em;
   width: 100%;
   border-radius: 1em;
-  border: .1em solid #ccc;
+  border: none;
 }
 
 .click {
   color: white;
   background-color: #0099FF;
-  border: .1em solid #0099FF;
-  min-height: 3em;
-}
-
-.cell {
-  background-color: white;
-  padding: 1em;
+  height: 4em;
 }
