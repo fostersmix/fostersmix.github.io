@@ -26,10 +26,10 @@ input {
   color: white;
   background-color: #0099FF;
   border: .1em solid #0099FF;
+  min-height: 3em;
 }
 
 .cell {
   background-color: white;
-  border-radius: 1em;
-  padding: 2em;
+  padding: 1em;
 }
