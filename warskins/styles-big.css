@@ -34,19 +34,19 @@ h1 {
 
 .captain-color {color: rgba(255,200,12,1);}
 
+a:link, a:visited, a:focus, a:hover, a:active {
+  word-break: normal;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -moz-tap-highlight-color: rgba(0,0,0,0);
+}
 a.win:link, a.win:visited, a.win:focus, a.win:hover, a.win:active {
   word-break: normal;
   text-decoration: none;
   outline: none;
   color: #00FF66;
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
-  -moz-tap-highlight-color: rgba(0,0,0,0);
-}
-a.no-win:link, a.no-win:visited, a.no-win:focus, a.no-win:hover, a.no-win:active {
-  word-break: normal;
-  text-decoration: none;
-  outline: none;
-  color: #fff;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -moz-tap-highlight-color: rgba(0,0,0,0);
 }
